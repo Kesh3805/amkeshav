@@ -1,0 +1,30 @@
+---
+title: Decentralized Health Visit Verification
+short: DHVVS
+slug: dhvvs
+kind: independent
+role: Author
+summary: Replaces paper health-visit logs with a proof chain — physical presence, on-device signing, async fraud scoring and a hash anchored on an EVM L2.
+status:
+  label: Prototype
+  tone: built
+order: 9
+stack: [NestJS, Prisma, Neon, React Native, Expo, Solidity, Hardhat, BullMQ, Twilio, Turborepo]
+links:
+  - label: Source on GitHub
+    href: https://github.com/Kesh3805/Decentralized-Health-Visit-System
+---
+
+## What it does
+
+Community health workers report visits on paper or simple apps, which invites ghost visits — and ordinary databases allow retroactive edits. DHVVS makes each visit a chain of evidence.
+
+<Flow steps={["NFC / encrypted QR + geofence", "ECDSA sign on device", "NestJS ingestion", "BullMQ", "Fraud scoring · L2 anchor", "Patient OTP confirm"]} />
+
+## Decisions
+
+- **Sign before the network.** The backend verifies a claim instead of creating one.
+- **Keep the slow parts async.** Fraud scoring (impossible travel, overlapping windows, stationary GPS clusters) and anchoring are queued, off the ingestion path.
+- **Anchor a hash, not the record.** The chain gets a hash of the verified visit; the relational record stays in Postgres.
+
+Four apps in a Turborepo: an offline-first Expo mobile app, the NestJS backend, an admin dashboard with geospatial heatmaps, and a minimal patient portal.

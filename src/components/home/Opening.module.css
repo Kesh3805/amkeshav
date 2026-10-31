@@ -1,0 +1,225 @@
+.opening {
+  position: relative;
+  height: 100svh;
+  min-height: 560px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :global(.js) .opening {
+    height: 300svh;
+  }
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  min-height: 560px;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto auto;
+  padding: clamp(64px, 9vh, 96px) var(--gutter) clamp(16px, 3vh, 28px);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--ink-2);
+  border-top: 1px solid var(--rule);
+  padding-top: 10px;
+}
+
+.copy {
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: 16px;
+  row-gap: 22px;
+  padding-block: 24px;
+}
+
+.lede {
+  grid-column: 1 / span 9;
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: var(--step-3);
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+  font-weight: 380;
+  font-variation-settings: "opsz" 72;
+  text-wrap: balance;
+}
+
+.lede em {
+  font-style: italic;
+  font-weight: 340;
+}
+
+.sub {
+  grid-column: 8 / span 5;
+  margin: 0;
+  font-size: var(--step-0);
+  line-height: 1.45;
+  color: var(--ink-2);
+  max-width: 30rem;
+}
+
+.line {
+  display: inline-block;
+  overflow: clip;
+  overflow-clip-margin: 0.12em;
+  vertical-align: top;
+  padding-bottom: 0.04em;
+}
+
+.reveal {
+  display: inline-block;
+}
+
+.nameWrap {
+  position: relative;
+}
+
+.name {
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  font-family: var(--font-display);
+  font-weight: 900;
+  /* Matches the measured fit for Anybody at wdth 96; JS refines it after fonts load. */
+  font-size: calc((100vw - 2 * var(--gutter)) * 0.2075);
+  line-height: 0.74;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+  touch-action: pan-y;
+  user-select: none;
+  cursor: grab;
+  will-change: transform;
+  padding-top: 0.04em;
+}
+
+.name:active {
+  cursor: grabbing;
+}
+
+.letter {
+  display: block;
+  font-variation-settings: "wdth" 96;
+  will-change: font-variation-settings;
+}
+
+.dot {
+  display: block;
+  flex: none;
+  width: 0.2em;
+  height: 0.2em;
+  margin-left: 0.05em;
+  background: var(--signal);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .letter {
+    animation: unfold 1.25s var(--ease-press) both;
+    animation-delay: calc(80ms + var(--i) * 55ms);
+  }
+  .dot {
+    animation: stamp 0.75s var(--ease-out) both;
+    animation-delay: 0.78s;
+  }
+  .opening[data-ready="true"] .letter,
+  .opening[data-ready="true"] .dot {
+    animation: none;
+  }
+}
+
+@keyframes unfold {
+  from {
+    font-variation-settings: "wdth" 50;
+  }
+}
+
+@keyframes stamp {
+  0% {
+    transform: scale(0);
+  }
+  55% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 22px;
+  color: var(--ink-2);
+}
+
+.window {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  visibility: hidden;
+  background: var(--signal);
+  color: var(--plate-ink);
+  clip-path: inset(50%);
+}
+
+.wash {
+  position: absolute;
+  inset: 0;
+  background: var(--paper);
+  color: var(--ink);
+  clip-path: inset(50%);
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 22px;
+  text-align: center;
+  opacity: 0;
+  padding-inline: var(--gutter);
+}
+
+.cardTitle {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(3rem, 12vw, 13rem);
+  line-height: 0.8;
+  font-variation-settings: "wdth" 50;
+}
+
+.cardList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 22px;
+  color: var(--ink-2);
+  max-width: 46rem;
+}
+
+@media (max-width: 760px) {
+  .lede {
+    grid-column: 1 / -1;
+  }
+  .sub {
+    grid-column: 1 / -1;
+  }
+  .foot span:first-child {
+    display: none;
+  }
+}

@@ -1,0 +1,23 @@
+---
+title: Multi-tenant e-commerce admin
+short: Commerce admin
+slug: groupkart
+kind: professional
+org: jpteam / C1X Inc.
+role: Core contributor — backend foundation
+summary: A NestJS backend bootstrapped to replace a legacy PHP monolith one endpoint at a time, without breaking the frontend that depended on it.
+status:
+  label: Shipped
+  tone: built
+order: 11
+stack: [NestJS, TypeScript, MySQL, TypeORM, AWS S3, Passport JWT]
+---
+
+## What I built
+
+The NestJS backend from zero: project structure, TypeORM entities generated from the live production MySQL schema, response envelopes, and JWT auth with legacy issuer compatibility so new and old sessions coexist. Then products, orders, brands, countries and a media module with direct-to-S3 streaming uploads (60MB, MIME-checked, no disk buffering).
+
+## Decisions
+
+- **Legacy-compatible response shapes**, so the frontend could migrate incrementally.
+- **Audit before migrating.** Every legacy controller endpoint and data shape documented as the migration target.

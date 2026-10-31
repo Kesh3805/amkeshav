@@ -1,0 +1,148 @@
+.meta {
+  margin: 0;
+  display: grid;
+  gap: 16px;
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+.meta div {
+  display: grid;
+  gap: 4px;
+}
+
+.meta dt {
+  color: var(--ink-2);
+}
+
+.meta dd {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tone {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+  background: var(--ink);
+  border: 1.5px solid var(--ink);
+}
+.tone[data-tone="partial"] {
+  background: linear-gradient(90deg, var(--ink) 50%, transparent 50%);
+}
+.tone[data-tone="negative"] {
+  background: repeating-linear-gradient(135deg, var(--ink) 0 1px, transparent 1px 3px);
+}
+
+.plate {
+  aspect-ratio: 16 / 9;
+  max-height: 86svh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.facts {
+  list-style: none;
+  margin: 0;
+  padding: clamp(28px, 5vh, 48px) var(--gutter);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 24px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.facts li {
+  display: grid;
+  gap: 8px;
+  align-content: start;
+}
+
+.factValue {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(2rem, 4.4vw, 4rem);
+  line-height: 0.85;
+  font-variation-settings: "wdth" 70;
+}
+
+.factLabel {
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  color: var(--ink-2);
+  max-width: 18rem;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: minmax(10rem, 3fr) minmax(0, 9fr);
+  gap: 48px;
+  padding: clamp(40px, 8vh, 88px) var(--gutter);
+}
+
+.aside {
+  position: sticky;
+  top: 90px;
+  align-self: start;
+  display: grid;
+  gap: 10px;
+  color: var(--ink-2);
+}
+
+.aside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  display: grid;
+  gap: 4px;
+}
+
+.maturity {
+  max-width: 52rem;
+}
+
+.next {
+  display: grid;
+  gap: 10px;
+  padding: clamp(40px, 8vh, 80px) var(--gutter);
+  border-top: 1px solid var(--rule);
+  color: var(--ink-2);
+}
+
+.nextLink {
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(2.4rem, 8vw, 8rem);
+  line-height: 0.8;
+  color: var(--ink);
+  text-decoration: none;
+  font-variation-settings: "wdth" 60;
+  transition: font-variation-settings 0.7s var(--ease-out);
+}
+
+.nextLink:hover,
+.nextLink:focus-visible {
+  font-variation-settings: "wdth" 120;
+}
+
+@media (max-width: 900px) {
+  .body {
+    grid-template-columns: 1fr;
+  }
+  .aside {
+    position: static;
+  }
+  .aside ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+  }
+}

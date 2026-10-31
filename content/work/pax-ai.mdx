@@ -1,0 +1,18 @@
+---
+title: Enterprise conversational AI gateway
+short: AI gateway
+slug: pax-ai
+kind: professional
+org: jpteam / C1X Inc.
+role: Feature contributor
+summary: Grounding an enterprise chat gateway on real business entities — clients, projects, active people — instead of generic completions.
+status:
+  label: Shipped
+  tone: built
+order: 12
+stack: [NestJS, TypeScript, Google OAuth, JWT]
+---
+
+## What I did
+
+Refactored the core chat service and DTOs into a modular structure, wired Entity Catalog data directly into chat context and prompt construction, fixed a project query that ignored active-person status in its join, and added a response-envelope opt-out for endpoints that need raw passthrough.

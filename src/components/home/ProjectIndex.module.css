@@ -1,0 +1,145 @@
+.section {
+  background: var(--paper);
+  padding: clamp(64px, 9vh, 92px) var(--gutter) clamp(56px, 10vh, 120px);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--ink-2);
+  border-top: 1px solid var(--rule);
+  padding-top: 10px;
+}
+
+.title {
+  margin: clamp(28px, 6vh, 64px) 0 clamp(24px, 5vh, 48px);
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: var(--step-2);
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  max-width: 22ch;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.row {
+  border-top: 1px solid var(--rule);
+}
+
+.link {
+  display: grid;
+  grid-template-columns: 9rem minmax(0, 1fr) minmax(0, 16rem) 2rem;
+  grid-template-areas:
+    "kind name role arrow"
+    ". summary summary .";
+  align-items: baseline;
+  column-gap: 24px;
+  padding: 18px 0;
+  text-decoration: none;
+  transition: padding 0.5s var(--ease-out);
+}
+
+.kind {
+  grid-area: kind;
+  font-family: var(--font-mono);
+  font-size: var(--step--2);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-3);
+}
+
+.name {
+  grid-area: name;
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(1.8rem, 4.6vw, 4.6rem);
+  line-height: 0.86;
+  font-variation-settings: "wdth" 60;
+  transition: font-variation-settings 0.6s var(--ease-out);
+}
+
+.role {
+  grid-area: role;
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  color: var(--ink-2);
+}
+
+.arrow {
+  grid-area: arrow;
+  justify-self: end;
+  font-family: var(--font-mono);
+  transform: translateX(-8px);
+  opacity: 0;
+  transition:
+    transform 0.4s var(--ease-out),
+    opacity 0.3s;
+}
+
+.summary {
+  grid-area: summary;
+  max-width: 40rem;
+  color: var(--ink-2);
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    grid-template-rows 0.5s var(--ease-out),
+    opacity 0.4s,
+    margin 0.5s var(--ease-out);
+}
+
+.summary > span {
+  min-height: 0;
+}
+
+.link:hover .name,
+.link:focus-visible .name {
+  font-variation-settings: "wdth" 118;
+}
+
+.link:hover .summary,
+.link:focus-visible .summary {
+  opacity: 1;
+  margin-top: 12px;
+  grid-template-rows: 1fr;
+}
+
+.link:hover .arrow,
+.link:focus-visible .arrow {
+  opacity: 1;
+  transform: none;
+}
+
+/* Touch screens get the summary without hovering. */
+@media (hover: none) {
+  .summary {
+    opacity: 1;
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 760px) {
+  .link {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "kind arrow"
+      "name name"
+      "role role"
+      "summary summary";
+    row-gap: 6px;
+  }
+  .arrow {
+    opacity: 1;
+    transform: none;
+  }
+}

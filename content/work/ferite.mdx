@@ -1,0 +1,71 @@
+---
+title: Ferite
+short: Ferite
+slug: ferite
+kind: open-source
+org: Ostrium Labs
+role: Contributor — documentation site, deployment and brand system. Not the Rust toolchain.
+summary: A Rust toolchain for verified hardware and vendor-neutral accelerator execution. I built the place where people meet it — the docs site, its deployment and its brand.
+status:
+  label: Pre-release — v0.0.1
+  tone: partial
+plate: gates
+order: 6
+featured: true
+stack: [TypeScript, React, Cloudflare Workers, Design tokens]
+facts:
+  - value: '1,700'
+    label: lines of one stylesheet, split into a token system
+  - value: '268,470'
+    label: generic gates for the sha256 design (Yosys)
+  - value: '~24,000'
+    label: cell budget of the target die
+links:
+  - label: ferite.ostriumlabs.org
+    href: https://ferite.ostriumlabs.org/
+  - label: Source on GitHub
+    href: https://github.com/ostrium-labs/ferite
+maturity:
+  - name: Lithic — circuit DSL, IR, cycle simulator, Verilog emitter, Verilator co-simulation
+    status: built
+    evidence: about 790 tests; 24 corpus designs (crc, sha256, aes, chacha20 …)
+  - name: Strata — graph IR, backend capabilities, partitioning, CPU reference backend
+    status: built
+    evidence: about 220 tests
+  - name: Strata plugin ABI (C vtable, dlopen loader)
+    status: partial
+    evidence: code present; docs disclaim production vendor integration
+  - name: The adapter that lets Strata run on Lithic hardware
+    status: planned
+    evidence: README — "not implemented"
+  - name: GPU (CubeCL) and torch.compile integration, FPGA deployment
+    status: planned
+    evidence: no crates exist yet
+---
+
+## What it is
+
+Two Rust toolchains in one workspace. **Lithic** builds circuits in Rust, simulates them clock by clock, emits Verilog, and checks equivalence and synthesis. **Strata** partitions inference graphs across backends, compiles what it can and falls back to the CPU for the rest. The loop where Strata workloads shape Lithic hardware — and that hardware becomes a Strata backend — isn't built yet, and the project says so on its front page.
+
+## My part, scoped exactly
+
+I built the documentation site: its deployment to Cloudflare Workers, the brand system (tokens, marks, logos, social images) and a UX pass that split one 1,700-line stylesheet into a token-based system, with new figure components and accessibility and layout verification scripts.
+
+I did **not** write the Rust toolchain. That's my co-maintainer's work at Ostrium Labs.
+
+## Why the docs had to be honest
+
+The project publishes benchmarks that go against it, and the site had to present them without flinching.
+
+Simulated cycles are converted to time at an assumed 1 GHz and compared against real Rust crates, after checking both produce identical output. The crc3 design is 2.24× faster than the `crc` crate and hex 1.38× faster. Software wins elsewhere: crc32fast by 8.6×, base64 by 13.8×, memchr by 4.2×.
+
+Synthesis is reported as Yosys generic-gate counts — explicitly *not* an area figure. sha256 comes to 268,470 gates, aes 181,752, chacha20 166,924, crc3 52. The block ciphers come out seven to eleven times larger than the roughly 24,000-cell budget of the target die. The plate for this project draws exactly that.
+
+## Tradeoffs
+
+- A token system costs more up front than a stylesheet. It paid for itself the first time the figures needed a dark variant.
+- Verification scripts for layout and accessibility run against the built site, so they catch regressions late rather than at authoring time.
+
+## Where it stands
+
+Pre-release, v0.0.1. Nothing published to crates.io.

@@ -1,0 +1,137 @@
+---
+title: Why Long-Running Workflow Updates Moved to a Durable SSE Stream
+slug: durable-sse-notifications
+description: Replacing several ephemeral SSE channels with one table-backed notification stream — 25-second heartbeats, Last-Event-ID replay and runId correlation across async workflows. A walkthrough from the wire up.
+publishedAt: 2026-09-25
+tags:
+  - Real-Time
+  - Backend
+  - NestJS
+  - Distributed Systems
+relatedProjects:
+  - gst-platform
+---
+
+
+A lot of what a GST compliance platform does for a user takes longer than a request. Invoice extraction goes out to LlamaIndex Cloud and returns through a webhook. IMS syncs talk to the GST portal. GSTR-1 generation and credit-ledger workflows run in the background, and M9 reconciliation — a three-way match of the purchase register against IMS and GSTR-2B — is queued and runs asynchronously.
+
+Each of these has to tell the browser when it finishes. They used to do that over **several ephemeral SSE channels**, where an event existed only for the moment it was written to an open connection. They now go through **one durable notification stream** backed by a table.
+
+> Code, endpoint and event names below are written for this post and simplified; they are not the employer's source.
+
+## The failure the old channels had
+
+An ephemeral channel can only deliver to whoever is connected at that instant. For a workflow that runs for a while, that instant is the one moment you can't count on: laptops sleep, networks change, proxies drop idle connections, users open a second tab. If the browser isn't connected when the workflow completes, the event is gone, and the UI shows a spinner that will never resolve.
+
+The fix is not a better connection. It is making the event something that exists whether or not anyone is listening.
+
+## Why SSE at all
+
+The traffic is one-directional — the server has news, the browser listens — and that is exactly what Server-Sent Events are for:
+
+- **Plain HTTP.** A long-lived `GET` with `Content-Type: text/event-stream`. No protocol upgrade, and it passes through the same auth, routing and middleware as every other request.
+- **Reconnection is built in.** The browser's `EventSource` reconnects on its own after a dropped connection.
+- **Resumption is built in, too — if the server can answer.** On reconnect, `EventSource` sends the `id` of the last event it received in a `Last-Event-ID` header.
+
+WebSockets would add a bidirectional channel nothing needs, and lose the automatic resume. Polling would work, at the cost of a request per client per interval and latency equal to the interval. The one thing SSE doesn't give you is the answer to the question `Last-Event-ID` implies: *what did I miss since this ID?* An ephemeral channel can't answer that. A table can.
+
+## The protocol, as it goes over the wire
+
+```text title="stream.txt"
+HTTP/1.1 200 OK
+Content-Type: text/event-stream
+Cache-Control: no-cache
+
+id: 41
+event: extraction.completed
+data: {"runId":"run_7f2c","invoiceId":"inv_19a"}
+
+event: heartbeat
+data:
+
+   … connection drops (laptop lid closes) …
+
+GET /events/stream HTTP/1.1
+Last-Event-ID: 41
+
+id: 42
+event: reconciliation.completed
+data: {"runId":"run_81d0","result":"available"}
+
+id: 43
+event: ims.synced
+data: {"runId":"run_81d4"}
+```
+
+Three things carry the design:
+
+- **`id:`** is the row's primary key in the notification table. It is what the browser echoes back, and it is what replay queries on.
+- **The heartbeat** is sent every **25 seconds**. An idle stream still carries traffic, which keeps it alive through proxies and load balancers that close connections that look dead, and lets the client notice a silently broken connection sooner.
+- **`runId`** in every payload correlates a notification with the action that started it — so the tab that uploaded an invoice, a second tab, or the same tab after a reconnect can all match "extraction finished" to the right upload.
+
+<SseDurability />
+
+## The server: replay, then live
+
+Each workflow writes a row when it has something to say. The stream endpoint, on connect, reads everything after the client's last-seen ID, sends it in order, then continues with live events and heartbeats:
+
+```ts title="notifications.controller.ts" {24-27}
+import { Controller, Headers, MessageEvent, Req, Sse, UseGuards } from '@nestjs/common';
+import { concat, interval, map, merge, Observable } from 'rxjs';
+import { JwtAuthGuard } from '../auth/jwt-auth.guard';
+import { NotificationStore, type NotificationRow } from './notification.store';
+
+const toEvent = (row: NotificationRow): MessageEvent => ({
+  id: String(row.id),
+  type: row.type,
+  data: { runId: row.runId, ...row.payload },
+});
+
+@Controller('events')
+@UseGuards(JwtAuthGuard)
+export class NotificationsController {
+  constructor(private readonly store: NotificationStore) {}
+
+  @Sse('stream')
+  stream(
+    @Req() req: { user: { id: string } },
+    @Headers('last-event-id') lastEventId?: string,
+  ): Observable<MessageEvent> {
+    const userId = req.user.id;
+    const since = Number.parseInt(lastEventId ?? '0', 10) || 0;
+    const missed = this.store.after(userId, since); // durable: read from the table
+    const live = this.store.live(userId); // new rows as they are written
+    const heartbeat = interval(25_000).pipe(map((): MessageEvent => ({ type: 'heartbeat', data: '' })));
+    return merge(concat(missed, live).pipe(map(toEvent)), heartbeat);
+  }
+}
+```
+
+The replay itself is an ordinary indexed range query:
+
+```sql title="notification-replay.sql"
+-- Everything this user hasn't seen, oldest first.
+SELECT id, run_id, type, payload
+FROM notification
+WHERE user_id = $1
+  AND id > $2
+ORDER BY id
+LIMIT 500;
+
+-- Supports the query above; ids increase in insertion order.
+CREATE INDEX notification_user_id_id ON notification (user_id, id);
+```
+
+`concat(missed, live)` is the ordering guarantee: nothing live is emitted until the backlog has been sent, so a client never sees event 43 before event 42.
+
+## What durability costs
+
+- **Ordering depends on the key.** Replay is correct because IDs increase in insertion order for a user. A monotonically increasing primary key gives that directly; anything clock- or UUID-based would need its own sequence.
+- **Rows accumulate.** Durable events are data, and data needs a retention rule. The replay window only has to cover a realistic disconnection, not all history.
+- **One shape for every producer.** Consolidating channels means extraction, IMS, GSTR-1, credit-ledger and reconciliation all write the same notification shape. That is a constraint on every new workflow — and also the reason the client has one code path instead of several.
+- **The live half is an optimisation.** A process holding the stream has to learn about rows written by other processes — by polling the table on a short interval, or by a notification channel alongside it. Either way, correctness doesn't depend on it: a live push that is missed is recovered from the table on the next reconnect.
+- **Connections are a resource.** Under HTTP/1.1, browsers cap concurrent connections per origin at a handful, and an open stream uses one of them for as long as the tab is open. One consolidated stream per tab, rather than one per workflow, keeps that budget free; HTTP/2 multiplexes it away entirely.
+
+## Who uses it
+
+The stream carries the results of the M9 reconciliation engine — which classifies each document as `EXACT`, `MISMATCH`, `MISSING_IN_2B`, `MISSING_IN_BOOKS` or `DRIFT` — when the queued run completes. It is also the last step of invoice extraction: once an OCR result has come back through BullMQ and been mapped into the ledger, the notification is what tells the reviewer it's ready. In both cases the user can close the tab while the work runs and still find the result when they come back.

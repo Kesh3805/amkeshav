@@ -1,0 +1,201 @@
+---
+title: Why RAG Shouldn't Retrieve Everything
+slug: rag-retrieval-gating
+description: In BARA, retrieval is three separate decisions — whether, from where and how much, then which chunks — made by deterministic rules before a vector is ever compared. A research note with the code.
+publishedAt: 2026-09-25
+updatedAt: 2026-10-28
+tags:
+  - AI
+  - RAG
+  - LLM
+  - Systems
+relatedProjects:
+  - bara
+featured: true
+---
+
+Most retrieval-augmented generation systems retrieve on every turn: embed the message, fetch the nearest chunks, put them in the prompt. [BARA](/work/bara) — Behavior-Adaptive Retrieval Architecture — is a research prototype built on the opposite assumption: that retrieval is a cost, and *whether* to pay it, *where* to look and *how much* to take are decisions that should be made explicitly, by rules you can read.
+
+The question it is built to answer:
+
+> Can a structured, multi-tier memory architecture with deterministic retrieval gating outperform standard sliding-window RAG in multi-turn conversations?
+
+This note walks through how those decisions are made, using the code in the [public repository](https://github.com/Kesh3805/Layered-Memory-Architecture), and what the evaluation harness does and doesn't yet show.
+
+## What gets retrieved from
+
+BARA keeps four memory tiers instead of one vector pool, because they answer different questions:
+
+| Tier | Lifetime | Holds | Storage |
+| --- | --- | --- | --- |
+| Research memory | Permanent, cross-thread | Decisions, conclusions, hypotheses, linked in a concept graph | `research_insights`, `concept_links` |
+| Conversational state | Per conversation | Tone, precision mode, repetition patterns, active topic threads | `conversation_state`, `conversation_threads` |
+| Semantic profile | Permanent, per user | Identity, preferences, expertise domains | profile entries |
+| Episodic memory | Permanent | Past interactions | pgvector embeddings |
+
+"What did we decide about this?" is a research-memory question. "How technical should the answer be?" is a profile question. Neither is served well by nearest-neighbour search over one pool of chunks — which is why the first decision is not *which chunks* but *whether, and from which tier*.
+
+## Decision 1: should this message retrieve at all?
+
+The behaviour engine runs after intent classification and before any retrieval. Its output is not a list of documents; it is an instruction about the *experience*, including whether retrieval should happen:
+
+```python title="backend/behavior_engine.py (excerpt)"
+@dataclass
+class BehaviorDecision:
+    """Output of the behavior engine — tells the pipeline HOW to behave.
+
+    This is NOT the same as PolicyDecision (which controls WHAT to retrieve).
+    BehaviorDecision modulates the *experience*: tone, retrieval necessity,
+    prompt framing, and meta-awareness.
+    """
+
+    behavior_mode: str = "standard"
+    # … standard, greeting, repetition_aware, testing_aware, meta_aware,
+    #   frustration_recovery, rapid_fire or exploratory
+
+    skip_retrieval: bool = False
+    """If True, skip RAG / QA retrieval entirely (e.g. greetings, testing)."""
+
+    reduce_retrieval: bool = False
+    """If True, reduce retrieval volume (fewer docs, higher similarity floor)."""
+
+    boost_retrieval: bool = False
+    """If True, increase retrieval volume (more docs, lower floor)."""
+```
+
+A greeting loop skips retrieval. A low-entropy input doesn't spend the retrieval budget. An exploratory turn widens it. None of those decisions needs an embedding.
+
+## Decision 2: from where, and how much?
+
+The policy engine turns classified intent and cheap, deterministic *context features* into a `PolicyDecision`. The module's docstring states the design rule plainly: when behaviour is wrong, "you fix a rule here — you never edit prompt strings or generator functions."
+
+```python title="backend/policy.py (excerpt)"
+@dataclass
+class PolicyDecision:
+    """What the pipeline should do — determined by rules, not prompts."""
+
+    inject_profile: bool = False
+    inject_rag: bool = False
+    inject_qa_history: bool = False
+    use_curated_history: bool = True
+    privacy_mode: bool = False
+    greeting_name: str | None = None
+    retrieval_route: str = "llm_only"      # label for metadata
+    rag_k: int = 4
+    rag_min_similarity: float = 0.0        # relevance floor for KB docs
+    qa_k: int = 4
+    qa_min_similarity: float = 0.65
+
+
+class BehaviorPolicy:
+    def resolve(self, features: ContextFeatures, intent: str) -> PolicyDecision:
+        d = PolicyDecision()
+
+        if intent == "privacy":
+            d.privacy_mode = True
+            d.inject_profile = features.has_profile_data
+            d.use_curated_history = False
+            d.retrieval_route = "privacy"
+        elif intent == "profile":
+            if features.is_profile_statement:
+                d.retrieval_route = "profile_update"
+                d.use_curated_history = False
+            else:
+                d.inject_profile = features.has_profile_data
+                d.retrieval_route = "profile"
+        elif intent == "knowledge_base":
+            d.inject_rag = True
+            d.inject_qa_history = True
+            d.retrieval_route = "rag"
+        elif intent == "continuation":
+            d.inject_rag = True
+            d.inject_qa_history = True
+            d.rag_min_similarity = 0.35
+            d.retrieval_route = "conversation"
+        else:  # general
+            d.inject_rag = True
+            d.rag_min_similarity = 0.45
+            d.retrieval_route = "adaptive"
+        # … cross-intent overlays (name injection, personal-reference → profile) follow
+        return d
+```
+
+Two details carry most of the weight:
+
+- **Different intents get different relevance floors.** A continuation accepts knowledge-base chunks down to 0.35 similarity because the conversation itself is context; a general question needs 0.45; prior Q&A needs 0.65. A single global threshold would be wrong for at least two of those.
+- **Every decision is labelled.** `retrieval_route` exists for metadata and debugging, so a response can always be traced to the branch that produced it.
+
+The features that feed this are deliberately not model calls. Follow-up detection, for instance, is a weighted structural score over the message text — pronoun dependencies, continuation starters, references to "the function" or "the error", elaboration requests, very short questions in an active conversation — capped at 1.0 and treated as a follow-up at 0.5:
+
+```python title="backend/policy.py (excerpt)"
+def _compute_structural_followup_score(q: str, words: list[str], conversation_length: int) -> float:
+    """This uses syntactic patterns — NOT embeddings — to detect messages
+    that structurally depend on prior context."""
+    if conversation_length == 0:
+        return 0.0  # No prior context → can't be a follow-up
+
+    q_lower = q.strip().lower()
+    score = 0.0
+    if _PRONOUN_DEPS.search(q_lower):
+        score += 0.3
+    if any(q_lower.startswith(s) for s in _CONTINUATION_STARTERS):
+        score += 0.4
+    if _VARIABLE_REF.search(q_lower):
+        score += 0.3
+    if any(sig in q_lower for sig in _ELABORATION_SIGNALS):
+        score += 0.4
+    if len(words) <= 3 and conversation_length >= 2:
+        if _SHORT_FOLLOWUP.match(q_lower) or q_lower.endswith("?"):
+            score += 0.3
+    return min(score, 1.0)
+```
+
+It catches "what if we used the other one?" — a message an intent classifier can easily miss — for the price of a few regular expressions.
+
+## Decision 3: which chunks?
+
+Only once a tier is opened does ordinary retrieval run, and it is itself two-stage.
+
+**Hybrid recall.** Knowledge-base search runs a full-text arm (PostgreSQL `tsvector`; the module calls it BM25, though the ranking is Postgres's cover-density `ts_rank_cd`) and a vector arm (pgvector cosine similarity over an HNSW index), each fetching three times the final `k`, and fuses them with weighted Reciprocal Rank Fusion:
+
+```python title="backend/hybrid_search.py (excerpt)"
+def reciprocal_rank_fusion(
+    ranked_lists: list[list[tuple[int, float]]],
+    weights: list[float],
+    k: int = 60,
+) -> list[tuple[int, float]]:
+    scores: dict[int, float] = {}
+    for ranked_list, weight in zip(ranked_lists, weights):
+        for rank, (doc_id, _score) in enumerate(ranked_list, start=1):
+            rrf = weight / (k + rank)
+            scores[doc_id] = scores.get(doc_id, 0.0) + rrf
+    return sorted(scores.items(), key=lambda x: x[1], reverse=True)
+```
+
+RRF uses ranks, not scores, so it can combine a `ts_rank_cd` value and a cosine similarity without pretending they are on the same scale. When the full-text arm returns nothing — common for short or ambiguous queries — search falls back to pure vector results rather than fusing against an empty list.
+
+**Precision.** A cross-encoder reranker (`cross-encoder/ms-marco-MiniLM-L-6-v2` by default) then re-scores the candidates as `(query, chunk)` pairs. It is lazy-loaded, and if it can't be loaded the stage becomes a passthrough that keeps retrieval order — the pipeline degrades, it doesn't fail.
+
+## What one retrieval costs
+
+Putting the stages together makes the case for gating concrete. For the default `k = 4`, one knowledge-base retrieval is:
+
+- two database queries, each returning `3 × k = 12` candidates;
+- a rerank of those candidates — at the reranker module's own estimate of about 5 ms per pair on CPU, on the order of 60 ms before the LLM sees anything;
+- up to four chunks added to the prompt, every turn they are included.
+
+Skipping that for a greeting, reducing it for a rapid-fire exchange and raising the floor for a general question are each small savings. Across a conversation — where many turns are acknowledgements, corrections and follow-ups rather than new questions — they are the difference between a prompt filled by need and one filled by similarity.
+
+## Seeing the decisions
+
+Deterministic rules are only useful if you can see them fire. BARA's React frontend shows a **per-request pipeline timeline**: which gates fired, which memory tier was hit and what was retrieved. `cli.py` inspects and queries stored cognitive state between sessions. Four hook points — `before_generation`, `after_generation`, `policy_override` and `before_persist` — let experiments change behaviour without editing the core pipeline. With 50+ tunable thresholds, this is what turns "the model gave a strange answer" into "the continuation floor let in a 0.36 chunk".
+
+## Evaluation, and what it can't show yet
+
+The harness is built to answer the research question rather than assert the answer:
+
+- a **three-arm retrieval evaluation** — 30 ground-truth queries against **605 chunks from 14 technical documents**, where adding BM25 to vector search lowered MRR from 0.758 to 0.700;
+- retrieval metric scripts (MRR, NDCG@4, P@4) in `experiments/`;
+- **338 test functions** covering each subsystem independently.
+
+The retrieval result is published, and it is a negative one for the obvious upgrade: naive BM25 fusion hurt at this scale, and only a cross-encoder reranker (MRR 0.772, about 0.86 s slower) beat plain vector search. The gate comparison against always-on retrieval is not published. Three caveats travel with any number here: substring-pattern relevance judgments have no inter-annotator check; 605 chunks is small; and 30 queries is enough to see large effects, not small ones.

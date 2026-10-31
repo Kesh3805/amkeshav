@@ -1,0 +1,26 @@
+---
+title: SonicMirror
+short: SonicMirror
+slug: sonicmirror
+kind: independent
+role: Author
+summary: Your Spotify listening turned into an acoustic fingerprint, then into a personality read that isn't allowed to say "you enjoy music".
+status:
+  label: Live
+  tone: built
+order: 13
+stack: [Next.js, React, TypeScript, Spotify Web API, Gemini]
+links:
+  - label: Source on GitHub
+    href: https://github.com/Kesh3805/SonicMirror
+  - label: Live
+    href: https://sonicmirror-frontend.onrender.com
+---
+
+## What it does
+
+OAuth PKCE with no stored credentials, top artists across three time windows, per-track audio features aggregated into a normalised fingerprint, then a three-stage Gemini chain — archetypes, tendencies, calibrated humour — streamed token by token.
+
+## The one decision
+
+The prompts forbid the generic answer and force specific, falsifiable claims tied to the numbers. Getting a language model to be *specific* was the whole project.

@@ -1,0 +1,66 @@
+.section {
+  background: var(--paper);
+  padding: clamp(64px, 9vh, 92px) var(--gutter) clamp(64px, 12vh, 140px);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--ink-2);
+  border-top: 1px solid var(--rule);
+  padding-top: 10px;
+}
+
+.list {
+  list-style: none;
+  margin: clamp(32px, 7vh, 80px) 0 0;
+  padding: 0;
+  display: grid;
+  gap: clamp(36px, 7vh, 72px);
+}
+
+.item {
+  --ink-p: 1;
+  display: grid;
+  grid-template-columns: minmax(4rem, 2fr) minmax(0, 7fr) minmax(0, 4fr);
+  column-gap: 32px;
+  align-items: baseline;
+}
+
+.num {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(2rem, 5vw, 5rem);
+  line-height: 0.8;
+  font-variation-settings: "wdth" calc(50 + var(--ink-p) * 50);
+  color: color-mix(in oklab, var(--ink) calc(60% + var(--ink-p) * 40%), var(--paper));
+}
+
+.head {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: var(--step-3);
+  font-weight: 380;
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+  color: color-mix(in oklab, var(--ink) calc(58% + var(--ink-p) * 42%), var(--paper));
+}
+
+.body {
+  margin: 0;
+  color: var(--ink-2);
+  opacity: calc(0.86 + var(--ink-p) * 0.14);
+  max-width: 26rem;
+}
+
+@media (max-width: 900px) {
+  .item {
+    grid-template-columns: 3rem 1fr;
+    row-gap: 12px;
+  }
+  .body {
+    grid-column: 2;
+  }
+}

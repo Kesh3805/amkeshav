@@ -1,0 +1,94 @@
+---
+title: ReviewGraph
+short: ReviewGraph
+slug: reviewgraph
+kind: independent
+role: Sole author — Rust engine, NestJS API, Next.js UI
+summary: A pull-request reviewer that reads the repository as a graph before it reads the diff, and is not allowed to say anything it can't point at.
+status:
+  label: In progress — not yet end to end
+  tone: partial
+plate: impact
+order: 3
+featured: true
+stack: [Rust, Tree-sitter, TypeScript, NestJS, Next.js, PostgreSQL, Qdrant, GitHub API]
+facts:
+  - value: '44 / 33'
+    label: node kinds / stored edge kinds in the code graph
+  - value: '0.993'
+    label: risk score on the auth-bypass fixture — critical
+  - value: '0'
+    label: real pull requests reviewed end to end, so far
+links:
+  - label: Source on GitHub
+    href: https://github.com/Kesh3805/reviewgraph
+maturity:
+  - name: Parse TypeScript / JavaScript into a language-neutral IR
+    status: built
+    evidence: 358 tests in the parser crate
+  - name: Persistent code graph (44 node kinds, 33 stored edge kinds)
+    status: built
+    evidence: in-memory and Postgres stores with a conformance suite
+  - name: Incremental graph update
+    status: partial
+    evidence: per-file symbol diff and rename matching exist; most incremental tasks are open
+  - name: Diff hunks mapped to changed symbols
+    status: built
+    evidence: golden test on the auth-bypass fixture
+  - name: Impact propagation with budgets
+    status: built
+    evidence: 157 tests; served read-only by the engine API, not yet called by the pipeline
+  - name: Risk scoring
+    status: partial
+    evidence: rule engine built; some inputs not yet derived from real change models
+  - name: Context selection under token budgets
+    status: partial
+    evidence: budget resolver and greedy selection; candidate generation open
+  - name: Model gateway and six specialised reviewers
+    status: partial
+    evidence: gateway built (replay + provider adapters); fan-out not wired
+  - name: Evidence verification, including base-versus-head
+    status: design
+    evidence: ADR-011; only schema checks and deduplication exist in code
+  - name: Orchestrated review of a real pull request
+    status: design
+    evidence: the worker runs migrations and local indexing only
+  - name: GitHub App publication path
+    status: built
+    evidence: app auth, signed webhooks, idempotent delivery, publish gate, a no-merge invariant test
+---
+
+## What it does
+
+Most automated reviewers hand a model the diff and ask what's wrong with it. The diff is the least informative view of a change. It shows the lines that moved — not the callers that now behave differently, the interface the method implements, the endpoint that routes to it, or the check it stopped calling.
+
+ReviewGraph starts from the other end. It keeps a persistent graph of the repository, turns a pull request into a set of changed *symbols*, measures how far each change reaches, and only then decides what a model gets to see. The order is fixed: understand the repository, model the change, measure impact, select context, reason, verify evidence, comment.
+
+## Why it exists
+
+Because "the model said so" isn't a review. A comment on someone's pull request should be traceable to code that exists, in a graph you can inspect. The project is an attempt to make the deterministic part do as much of the work as possible, so the model's part is small and checkable.
+
+## The fixture, walked through
+
+<ImpactGraph />
+
+The repository's golden fixture, `auth-bypass`, replaces `permissionService.check(...)` inside `AuthService.authorize` with `user.role === 'admin'`, and touches a comment in `formatName` as a low-risk control. Two decoys must *not* show up.
+
+The diff maps to two changed symbols, but only `authorize` becomes an impact seed — the comment edit goes no further. From that one seed come six impacted elements: two callers, an unguarded `PUT /users/:id` endpoint three hops away, the interface method it overrides, the test that covers it, and — read from the *base* graph — the permission check it no longer calls. The risk golden scores it **0.993, critical**, from three rules: an authorisation call removed, a file under a critical path, a direct role check.
+
+That last impacted element is the reason the base graph exists at all. A callee that the change *removed* can only be found by reading the graph as it was before.
+
+## How it's built
+
+Three runtimes that only meet through Postgres rows, a Postgres-backed job queue and an internal HTTP API: a Rust engine for understanding, a NestJS API for tenants and GitHub, a Next.js UI.
+
+Impact propagation is budgeted everywhere. Defaults allow 50 callers, 30 callees, 30 type relations, 10 endpoints and 20 tests per seed; 200 elements per symbol; 5,000 per pull request. Paths below 0.5 confidence are kept but marked weak and not expanded. A critical change gets twice the allowance and a third caller level. When a limit stops the walk, the result says *which* limit and *where* — it never silently returns less.
+
+## Tradeoffs
+
+- Budgets mean a very wide change can be under-explored. The choice was to make truncation loud rather than to make the walk unbounded.
+- The impact and risk goldens are built from a hand-written graph that mirrors the fixture, not parsed end to end from it. The repository says so; so do I.
+
+## Where it stands
+
+The deterministic half is built and tested. The review half is partly built. The eight-stage evidence verifier is specified in an ADR and **not written** — and until it exists, the system shouldn't publish anything on its own. There are no quality or performance numbers yet; the benchmark baselines in the repo are placeholders.

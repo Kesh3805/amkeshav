@@ -1,0 +1,51 @@
+---
+title: Layered Memory Architecture (BARA)
+short: BARA
+slug: bara
+kind: independent
+role: Author
+summary: A conversational-AI memory system where retrieval is a decision made by rules you can read — not a reflex on every turn.
+status:
+  label: Research prototype
+  tone: built
+order: 7
+stack: [Python, FastAPI, PostgreSQL, pgvector, React, Zustand]
+facts:
+  - value: '0.758 → 0.700'
+    label: MRR when BM25 is fused into vector search — it got worse
+  - value: '41'
+    label: numbered decision points in the retrieval policy
+  - value: '338'
+    label: backend test functions
+links:
+  - label: Source on GitHub
+    href: https://github.com/Kesh3805/Layered-Memory-Architecture
+  - label: Write-up — why RAG shouldn't retrieve everything
+    href: /writing/rag-retrieval-gating
+---
+
+## What it does
+
+Four memory tiers — research memory, conversational state, a semantic profile and episodic memory in pgvector — with a policy layer that decides *whether* to retrieve, *from where* and *how much*, before any vector is compared. Every message is classified for intent and topic shift first; retrieval only sees that output.
+
+<Flow steps={["Message", "Behaviour + intent", "Topic threading", "Policy gates", "Selected tiers only", "LLM"]} />
+
+## Why it exists
+
+Production LLM systems tend to treat context as a sliding window and retrieval as always-on. BARA asks whether structured memory with deterministic gating measurably beats that.
+
+## Evidence
+
+A three-arm retrieval evaluation: 30 ground-truth queries against 605 chunks from 14 documents.
+
+| Arm | MRR |
+| --- | --- |
+| Vector only | 0.7583 |
+| BM25 + vector, RRF k = 60 | 0.7000 (−7.7%) |
+| Hybrid + cross-encoder reranker | 0.7722 (+1.8%, ~0.86 s slower) |
+
+The useful result is the negative one: at this corpus size, naive BM25 fusion pulls in lexical matches that aren't relevant. The reranker recovers it — at a latency cost.
+
+## Limits
+
+30 queries and 605 chunks are small. Relevance is judged by substring patterns with no inter-annotator agreement. The savings from *skipping* retrieval weren't measured because of provider rate limits. The "41 gates" are a hand-maintained table of decision points, not one gate construct.

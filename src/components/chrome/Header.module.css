@@ -1,0 +1,134 @@
+.header {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px var(--gutter);
+  color: var(--ink);
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+  pointer-events: none;
+  transition: transform 0.5s var(--ease-out);
+}
+
+.header[data-hidden="true"] {
+  transform: translateY(-110%);
+}
+
+.header > * {
+  pointer-events: auto;
+}
+
+.mark {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 0.08em;
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-variation-settings: "wdth" 62;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  line-height: 0.8;
+  letter-spacing: 0.01em;
+  transition: font-variation-settings 0.5s var(--ease-out);
+}
+.mark:hover {
+  font-variation-settings: "wdth" 130;
+}
+
+.markDot {
+  width: 0.22em;
+  height: 0.22em;
+  background: var(--signal);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: clamp(12px, 2.4vw, 32px);
+}
+
+.links {
+  display: flex;
+  gap: clamp(12px, 2.4vw, 28px);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  position: relative;
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-block: 6px;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 2px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.45s var(--ease-out);
+}
+.link:hover::after,
+.link[aria-current="page"]::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  padding: 6px 0;
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.toggleTrack {
+  position: relative;
+  width: 26px;
+  height: 14px;
+  border: 1px solid currentColor;
+}
+.toggleKnob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 8px;
+  height: 8px;
+  background: currentColor;
+  transition: transform 0.4s var(--ease-press);
+}
+.toggleTrack[data-theme="dark"] .toggleKnob {
+  transform: translateX(12px);
+}
+
+@media (max-width: 640px) {
+  .toggleText {
+    display: none;
+  }
+  .links {
+    gap: 12px;
+  }
+  .link {
+    font-size: 0.7rem;
+  }
+}

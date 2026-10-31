@@ -1,0 +1,100 @@
+.wrap {
+  margin: 3rem 0;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px 24px;
+  flex-wrap: wrap;
+  border-bottom: 1.5px solid var(--ink);
+  padding-bottom: 10px;
+}
+
+.title {
+  margin: 0 !important;
+  font-family: var(--font-display) !important;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: var(--step-1) !important;
+  font-variation-settings: "wdth" 70;
+}
+
+.sum {
+  margin: 0 !important;
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  color: var(--ink-2);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 14px 8rem minmax(0, 1fr);
+  grid-template-areas:
+    "mark status name"
+    ". . evidence";
+  column-gap: 14px;
+  row-gap: 4px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--rule);
+  align-items: baseline;
+}
+
+.mark {
+  grid-area: mark;
+  width: 12px;
+  height: 12px;
+  align-self: center;
+  border: 1.5px solid var(--ink);
+}
+.mark[data-status="built"] {
+  background: var(--ink);
+}
+.mark[data-status="partial"] {
+  background: linear-gradient(90deg, var(--ink) 50%, transparent 50%);
+}
+.mark[data-status="design"] {
+  border-style: dashed;
+}
+.mark[data-status="planned"] {
+  border-color: var(--ink-3);
+  border-radius: 50%;
+}
+
+.status {
+  grid-area: status;
+  font-family: var(--font-mono);
+  font-size: var(--step--2);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-2);
+}
+
+.name {
+  grid-area: name;
+  font-size: 1rem;
+}
+
+.evidence {
+  grid-area: evidence;
+  font-family: var(--font-mono);
+  font-size: var(--step--2);
+  color: var(--ink-2);
+}
+
+@media (max-width: 640px) {
+  .row {
+    grid-template-columns: 14px 1fr;
+    grid-template-areas:
+      "mark status"
+      ". name"
+      ". evidence";
+  }
+}

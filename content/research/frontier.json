@@ -1,0 +1,247 @@
+{
+  "title": "FRONTIER",
+  "slug": "frontier",
+  "order": 1,
+  "repository": "https://github.com/Kesh3805/frontier",
+  "program": "A research program of Ostrium Labs",
+  "question": "Does deciding which attempt runs next get more independently verified results out of a fixed compute budget?",
+  "questionSource": "README.md",
+  "summary": "A deterministic Rust control plane that runs research attempts under a fixed compute budget and accepts a result only through a verifier receipt. Allocation policies — round-robin, Thompson sampling with and without hints, greedy priors — compete for the same budget; every campaign is logged to a hash-chained event log and can be replayed bit for bit.",
+  "architecture": [
+    "frontier-core — specs, attempt DAG, budget ledger, evidence store, hash-chained event log, a portable RNG and libm",
+    "frontier-sched — nine allocation policies",
+    "frontier-sim — environment, runner, audit; frontier-cli on top",
+    "Python layer — property-test verifier, a deterministic task DSL worker, bootstrap analysis, a Docker sandbox"
+  ],
+  "maturity": "Simulation and deterministic-task pilots complete; no model-backed study has run",
+  "experiments": [
+    {
+      "id": "exp-000",
+      "title": "Posterior allocation in simulation",
+      "date": "2026-10-26",
+      "kind": "simulation",
+      "hypothesis": "With heterogeneous success rates, Thompson sampling with hints solves more problems than round-robin at the same budget.",
+      "setup": "Simulated verifier, 50 problems, six regime × budget cells, 200 seeds each; 24,000 runs. Paired bootstrap, 95% intervals.",
+      "baseline": "Round-robin allocation",
+      "measurement": "Δ problems verified (of 50), Thompson(hints) − round-robin",
+      "result": "Five of six cells favour Thompson (R5-scarce +12.95). One does not: R2-moderate −0.19. The preregistered rule required every cell.",
+      "effect": {
+        "estimate": -0.19,
+        "low": -0.3,
+        "high": -0.09,
+        "unit": "problems",
+        "label": "R2-moderate cell"
+      },
+      "verdict": "refuted",
+      "limitations": "Simulated verifier. The headline values reproduce only with the Windows build's platform libm; later errata re-ran it with a portable libm and no frozen verdict changed.",
+      "source": "results/exp-000/README.md"
+    },
+    {
+      "id": "exp-001",
+      "title": "Why it lost: misleading hints, correlation, verifier noise",
+      "date": "2026-10-26",
+      "kind": "simulation",
+      "hypothesis": "Mechanism M — misleading hints — explains the R2 loss.",
+      "setup": "40,200 simulated runs varying hint quality, problem correlation and verifier false-positive rate.",
+      "baseline": "Round-robin allocation",
+      "measurement": "Δ problems verified; share of accepted results that are false",
+      "result": "The loss replicates (−0.26). Mechanism M is refuted, though confounded. At a 2% verifier false-positive rate, 8–27% of accepted results are false depending on regime.",
+      "effect": {
+        "estimate": -0.26,
+        "low": -0.38,
+        "high": -0.14,
+        "unit": "problems",
+        "label": "R2 loss, replicated"
+      },
+      "verdict": "refuted",
+      "limitations": "Mixed scorecard; the mechanism test is confounded with hint optimism, which exp-002 isolates.",
+      "source": "results/exp-001/README.md"
+    },
+    {
+      "id": "exp-002",
+      "title": "Optimistic hints on dead problems",
+      "date": "2026-10-26",
+      "kind": "simulation",
+      "hypothesis": "Mechanism O: optimistic hints send attempts to problems that cannot be solved.",
+      "setup": "12,600 simulated runs sweeping hint optimism λ from 0 to 1.",
+      "baseline": "Round-robin allocation",
+      "measurement": "Extra attempts spent on dead problems; Δ problems verified as λ varies",
+      "result": "Thompson spends 46.9 more attempts on dead problems; the difference moves from −0.26 to +0.56 as λ goes 0 → 1.",
+      "effect": {
+        "estimate": 0.56,
+        "low": 0.44,
+        "high": 0.69,
+        "unit": "problems",
+        "label": "Δ at λ = 1"
+      },
+      "verdict": "supported",
+      "limitations": "Simulation only; identifies a mechanism, not a real-task effect.",
+      "source": "results/exp-002/README.md"
+    },
+    {
+      "id": "exp-003",
+      "title": "First real-task pilot",
+      "date": "2026-10-26",
+      "kind": "deterministic",
+      "hypothesis": "Adaptive allocation solves more real (non-LLM) tasks than round-robin.",
+      "setup": "34 deterministic DSL tasks (26 live), catalog order, 2,100 campaigns at budgets 60 / 240 / 480.",
+      "baseline": "Round-robin allocation",
+      "measurement": "Δ true solves",
+      "result": "+1.02 / +0.62 / +0.28. Reported as supported, then withdrawn: tasks ran in catalog order, which leaks into every policy.",
+      "verdict": "superseded",
+      "limitations": "Order confound — superseded by exp-004.",
+      "source": "results/exp-003/README.md"
+    },
+    {
+      "id": "exp-004",
+      "title": "Real tasks, order shuffled",
+      "date": "2026-10-26",
+      "kind": "deterministic",
+      "hypothesis": "The exp-003 effect survives when task order is shuffled per seed.",
+      "setup": "Same task set, order shuffled per seed, 100 seeds per budget.",
+      "baseline": "Round-robin allocation",
+      "measurement": "Δ true solves, Thompson(hints) − round-robin",
+      "result": "Positive at budget 60 (+1.86); not distinguishable from zero at 240 (+0.19, interval crosses 0); hint-free Thompson −0.12. FIFO order alone moves results by −9.03.",
+      "effect": {
+        "estimate": 1.86,
+        "low": 1.47,
+        "high": 2.26,
+        "unit": "solves",
+        "label": "budget 60"
+      },
+      "verdict": "inconclusive",
+      "limitations": "Effect only at the smallest budget; the hint carries most of it.",
+      "source": "results/exp-004/README.md"
+    },
+    {
+      "id": "exp-005",
+      "title": "How weak is the verifier?",
+      "date": "2026-10-26",
+      "kind": "deterministic",
+      "hypothesis": "The frozen acceptance rule separates suites by false-acceptance rate.",
+      "setup": "Offline study: 491 known-wrong programs run against each candidate test suite.",
+      "baseline": "Every other suite",
+      "measurement": "Share of wrong programs accepted",
+      "result": "The 40-case ±20 suite accepts 1.83% (9 programs); every other suite accepts none — a floor effect, so the frozen rule cannot be tested here.",
+      "verdict": "refuted",
+      "limitations": "Floor effect: the comparison has no resolution.",
+      "source": "results/exp-005/study.json"
+    },
+    {
+      "id": "exp-006",
+      "title": "The price of a strong verifier",
+      "date": "2026-10-27",
+      "kind": "deterministic",
+      "hypothesis": "A stronger verifier suite removes false solves without costing yield.",
+      "setup": "v2 suite with 199 checks (0.995 CU per check against 0.215), 2,100 runs.",
+      "baseline": "The weaker suite, under each policy",
+      "measurement": "False solves; Δ true solves",
+      "result": "Zero false solves in 2,100 runs — and fewer true solves: round-robin loses 3.93 / 1.88 / 1.06 by budget. Hinted Thompson still leads round-robin by +3.41 at budget 60.",
+      "effect": {
+        "estimate": 3.41,
+        "low": 3.0,
+        "high": 3.84,
+        "unit": "solves",
+        "label": "Thompson vs round-robin, budget 60"
+      },
+      "verdict": "mixed",
+      "limitations": "Costs are modelled compute units, not measured time.",
+      "source": "results/exp-006/README.md"
+    },
+    {
+      "id": "exp-007",
+      "title": "Tasks with dependencies",
+      "date": "2026-10-27",
+      "kind": "deterministic",
+      "hypothesis": "Adaptive allocation helps more when problems depend on each other.",
+      "setup": "Catalog v3: 24 dependency problems (19 live), 1,800 campaigns.",
+      "baseline": "Round-robin allocation",
+      "measurement": "Δ true solves",
+      "result": "+4.44 at budget 120 and +4.45 at 480, shrinking to +0.48 at 1,920. A greedy prior loses 1.92 at the largest budget.",
+      "effect": {
+        "estimate": 4.44,
+        "low": 4.12,
+        "high": 4.76,
+        "unit": "solves",
+        "label": "budget 120"
+      },
+      "verdict": "supported",
+      "limitations": "A pilot on a constructed task family; not a sealed benchmark.",
+      "source": "results/exp-007/evaluation.json"
+    },
+    {
+      "id": "exp-008",
+      "title": "Fail-fast charging",
+      "date": "2026-10-27",
+      "kind": "deterministic",
+      "hypothesis": "Charging a failed verification only up to its first failing case recovers the yield the strong suite cost.",
+      "setup": "3,900 campaigns under a fail-fast charge model.",
+      "baseline": "Full charging",
+      "measurement": "Share of lost yield recovered; Δ true solves",
+      "result": "Round-robin recovers 71% / 93% / 96% of the lost yield; dependency tasks +5.07 at budget 120. All six registered checks pass — in the charge model.",
+      "effect": {
+        "estimate": 5.07,
+        "low": 4.75,
+        "high": 5.39,
+        "unit": "solves",
+        "label": "dependency tasks, budget 120"
+      },
+      "verdict": "supported",
+      "limitations": "The saving is modelled. exp-009 tests whether it is physical.",
+      "source": "results/exp-008/evaluation.json"
+    },
+    {
+      "id": "exp-009",
+      "title": "Is the modelled saving real?",
+      "date": "2026-10-27",
+      "kind": "deterministic",
+      "hypothesis": "Fail-fast verification saves wall time in proportion to the modelled charge.",
+      "setup": "1,257 candidates × 2 modes × 3 repetitions, timed; four campaigns of 700.",
+      "baseline": "Full verification, timed",
+      "measurement": "Measured wall-time saving",
+      "result": "6.4% measured against 92.9% modelled. About 92% of a verification's cost is fixed interpreter overhead (≈120.5 ms + 0.05 ms per case). Verdicts were identical.",
+      "effect": {
+        "estimate": 6.4,
+        "low": 5.1,
+        "high": 7.8,
+        "unit": "% saved",
+        "label": "measured (model said 92.9%)"
+      },
+      "verdict": "refuted",
+      "limitations": "One host (i5-1135G7, 8 threads); campaign-level timing was confounded by host load and is reported as uninformative.",
+      "source": "results/exp-009/README.md"
+    },
+    {
+      "id": "stage-2",
+      "title": "First model-backed study",
+      "kind": "model-backed",
+      "hypothesis": "H1 holds with language-model workers behind the sandbox on a held-out suite.",
+      "setup": "Phase 0 only: replay infrastructure tested against a fake transport.",
+      "baseline": "Round-robin allocation",
+      "measurement": "Δ independently verified solves",
+      "result": "Not run. No provider call has been made; it needs a model, a provider and a spending cap.",
+      "verdict": "not-run",
+      "limitations": "—",
+      "source": "docs/research/stage2-plan.md"
+    },
+    {
+      "id": "H2 / H3",
+      "title": "Hybrid latent/text reasoning (HybridAgent)",
+      "kind": "model-backed",
+      "hypothesis": "Hybrid latent/text reasoning changes verified yield per unit of compute.",
+      "setup": "Adapter exists; its generate() reports unavailable when it cannot run.",
+      "baseline": "A matched text-only model (not yet built)",
+      "measurement": "—",
+      "result": "Not run and blocked: needs the 8B checkpoint reproduced and a GPU training budget. Both candidate comparisons are confounded as designed.",
+      "verdict": "not-run",
+      "limitations": "Nothing about HybridAgent has been validated.",
+      "source": "python/frontier_py/workers/hybrid_agent.py"
+    }
+  ],
+  "next": [
+    "Re-run the allocation comparisons under the measured cost model (fixed overhead + per-case cost)",
+    "Measure a warm-interpreter verifier",
+    "Stage 2 — the first model-backed study, once a provider, model and spending cap are chosen"
+  ],
+  "reproduce": ["cargo test --workspace", "python -m pytest python -q", "bash scripts/qualify.sh"]
+}

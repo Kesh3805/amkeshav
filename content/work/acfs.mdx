@@ -1,0 +1,25 @@
+---
+title: AI Content Forensics Suite
+short: ACFS
+slug: acfs
+kind: independent
+role: Author
+summary: A detector for AI-generated images and text that never gives a score without the evidence behind it — and hashes its report.
+status:
+  label: Prototype
+  tone: built
+order: 10
+stack: [Python, PyTorch, Transformers, FastAPI, Streamlit, DVC, SHAP, Grad-CAM]
+links:
+  - label: Source on GitHub
+    href: https://github.com/Kesh3805/ACFS
+---
+
+## What it does
+
+Two independent approaches, because a single model signature is fragile. Fine-tuned ViT/DeiT and RoBERTa/DeBERTa classifiers look for generative artifacts; Error Level Analysis, EXIF anomalies and stylometry look at physical and statistical signals that don't depend on having seen a particular generator.
+
+## Decisions
+
+- **Explanations are output, not decoration.** Grad-CAM heatmaps for images, SHAP per sentence for text.
+- **Built for evidence.** The PDF report carries a SHA-256 of the original artifact. Datasets are versioned with DVC so retraining is reproducible.

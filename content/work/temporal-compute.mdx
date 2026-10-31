@@ -1,0 +1,59 @@
+---
+title: Temporal Compute
+short: Temporal Compute
+slug: temporal-compute
+kind: research
+role: Author — Rust simulator, Python rendering harness, preregistration
+summary: What computation is still worth doing when its value depends on when it finishes? The first scheduler lost to EDF and failed all five of its gates.
+status:
+  label: Generation I negative · Generation II registered, not run
+  tone: negative
+plate: tally
+order: 5
+featured: true
+stack: [Rust, Python, PBRT-v4, TOML scenarios, JSONL traces]
+research: temporal-compute
+facts:
+  - value: '−5.07%'
+    label: total utility against EDF, 200 scenarios
+  - value: '15 / 15 / 170'
+    label: wins / ties / losses
+  - value: '0 / 5'
+    label: registered gates passed
+links:
+  - label: Source on GitHub
+    href: https://github.com/Kesh3805/temporal-compute
+  - label: Every experiment, with verdicts
+    href: /research#temporal-compute
+---
+
+## What it does
+
+A deterministic Rust simulator for jobs whose value depends on completion time, and a Python harness that drives a real renderer — PBRT-v4 on the CPU, pinned to one commit.
+
+## Why it exists
+
+Deadlines are a crude model of value. A satellite image that arrives an hour late isn't worthless; it's worth less. Generation I asked whether scheduling on that utility curve beats scheduling on deadlines.
+
+## What happened
+
+The protocol was frozen before the run: 200 synthetic Earth-observation scenarios, 9,600 jobs, 15,882 runs, five registered gates. The temporal-utility scheduler scored **524,509 against EDF's 552,525 — 5.07% worse**. 15 wins, 15 ties, 170 losses. All twelve sensitivity variants negative. All five gates failed.
+
+The detail that explains it: temporal utility let 1,203 cloud jobs expire unstarted. EDF let 37.
+
+Generation I is retired. Generation II asks a narrower question — given the intermediate state of a render, which unit of computation is worth doing next — and allocates render samples by marginal value.
+
+## How it's built
+
+- `tc-core → tc-ir` (TOML scenarios) `→ tc-scheduler`: FIFO, fixed priority, EDF, temporal utility, utility density.
+- `tc-sim`: deterministic, single-CPU, non-preemptive discrete events with JSONL traces.
+- Generation II: a Python harness with contracts and evidence under `research/`.
+
+## Tradeoffs and honesty
+
+- No simulation parameter in Generation I is a measured mission quantity. The negative result is real, but it's a result about the simulator.
+- An offline gate found the Generation II controller differs from the variance-guided baseline mainly through a noisy term. Whether that's a meaningful test of the hypothesis is an open question I haven't closed.
+
+## Where it stands
+
+TC-R1, the primary experiment, is preregistered and **not run**. A review projected 1,800–4,200 single-worker hours per pass. Next: a deterministic charged-ray cost, a persistent renderer worker, and an execution freeze before anything runs.

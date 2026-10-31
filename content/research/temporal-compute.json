@@ -1,0 +1,160 @@
+{
+  "title": "Temporal Compute",
+  "slug": "temporal-compute",
+  "order": 2,
+  "repository": "https://github.com/Kesh3805/temporal-compute",
+  "program": "Ostrium Temporal Compute",
+  "question": "What computation is still useful when its value depends on when it finishes?",
+  "questionSource": "README.md",
+  "summary": "A deterministic Rust simulator for jobs whose value depends on completion time, and a Python harness that drives a real renderer. Generation I asked which waiting job should run next and lost to EDF; it is retired. Generation II asks, given the intermediate state, which unit of computation is worth doing next — allocating render samples by marginal value.",
+  "architecture": [
+    "tc-core → tc-ir (TOML scenarios) → tc-scheduler (FIFO, fixed priority, EDF, temporal utility, utility density)",
+    "tc-sim — deterministic, single-CPU, non-preemptive discrete events; JSONL traces and metrics; tc-cli",
+    "Generation II — a Python harness driving PBRT-v4 on the CPU, pinned to one commit, with contracts and evidence under research/"
+  ],
+  "maturity": "Generation I complete and negative; Generation II's primary experiment is preregistered and not run",
+  "experiments": [
+    {
+      "id": "TC-0",
+      "title": "Seven toy fixtures",
+      "date": "2026-10-06",
+      "kind": "simulation",
+      "hypothesis": "Explicit completion-time utility improves mission utility over deadline-only scheduling.",
+      "setup": "7 fixtures × 5 policies, run twice with byte-for-byte trace replay.",
+      "baseline": "FIFO, fixed priority, EDF",
+      "measurement": "Mission utility points",
+      "result": "Utility density wins the mixed fixture (4,370 against EDF 353); EDF wins deadline pressure (160 against 100); density loses its own trap fixture by 100 points.",
+      "verdict": "mixed",
+      "limitations": "Semantic evidence only — it refutes 'the greedy policies always beat EDF', and proves nothing at scale.",
+      "source": "results/README.md"
+    },
+    {
+      "id": "TC-S1",
+      "title": "Temporal utility against EDF, at scale",
+      "date": "2026-10-06",
+      "kind": "simulation",
+      "hypothesis": "The temporal-utility scheduler earns at least 5% more utility than the strongest conventional baseline.",
+      "setup": "Protocol frozen before the run. 200 synthetic Earth-observation scenarios × 48 tasks (9,600 jobs), 15,882 runs; five registered gates.",
+      "baseline": "FIFO, fixed priority, EDF, EDF + priority",
+      "measurement": "Total utility; paired per-scenario difference",
+      "result": "524,509 against EDF's 552,525 — 5.07% worse. Wins/ties/losses 15/15/170. All 12 sensitivity variants negative. Failed all five gates. The utility-density variant came within 0.35% of EDF.",
+      "effect": {
+        "estimate": -140.08,
+        "low": -154.73,
+        "high": -125.86,
+        "unit": "utility / scenario",
+        "label": "temporal utility − EDF"
+      },
+      "verdict": "fail",
+      "limitations": "No simulation parameter is a measured mission quantity. Temporal utility let 1,203 cloud jobs expire unstarted, against EDF's 37.",
+      "source": "docs/tc-s1/results.md"
+    },
+    {
+      "id": "TC-R1E",
+      "title": "Renderer qualification",
+      "date": "2026-10-07",
+      "kind": "infrastructure",
+      "hypothesis": "A production renderer can meet five accounting and estimator requirements.",
+      "setup": "Mitsuba 3.9.1 and PBRT-v4 evaluated against the contract.",
+      "baseline": "—",
+      "measurement": "Requirements met",
+      "result": "Qualification blocked.",
+      "verdict": "fail",
+      "limitations": "Infrastructure gate, not a scientific result.",
+      "source": "docs/tc-r1/renderer-qualification.md"
+    },
+    {
+      "id": "TC-R1E2",
+      "title": "PBRT accounting contract",
+      "date": "2026-10-07",
+      "kind": "infrastructure",
+      "hypothesis": "PBRT's sample accounting can be proven complete on native fixtures.",
+      "setup": "7 scenes × 1,024 samples.",
+      "baseline": "—",
+      "measurement": "Fixture checks; complete-envelope proof",
+      "result": "Fixtures pass; the complete-envelope proof is not established. Fails to qualify.",
+      "verdict": "fail",
+      "limitations": "—",
+      "source": "docs/tc-r1/tc-r1e2-result.md"
+    },
+    {
+      "id": "TC-R1E3",
+      "title": "Transmission and triangle coverage",
+      "date": "2026-10-07",
+      "kind": "infrastructure",
+      "hypothesis": "The extended fixtures close the accounting gap.",
+      "setup": "Native fixtures in CI; 1,952 transmission events.",
+      "baseline": "—",
+      "measurement": "Camera, continuation and charged ray counts per fixture",
+      "result": "Pass. PBRT-v4 on the CPU is selected as the kernel.",
+      "verdict": "pass",
+      "limitations": "—",
+      "source": "docs/tc-r1/tc-r1e3-result.md"
+    },
+    {
+      "id": "Native validation",
+      "title": "Bridge, streams and failure containment",
+      "date": "2026-10-08",
+      "kind": "infrastructure",
+      "hypothesis": "The bridge, paired streams, ray accounting and failure containment hold on a bounded matrix.",
+      "setup": "580 of 800 commands; 547 batches; 470,577 rays.",
+      "baseline": "—",
+      "measurement": "Per-sample ray bound (≤ 17)",
+      "result": "Pass on the bounded matrix; the per-sample maximum is 13.",
+      "verdict": "pass",
+      "limitations": "Says nothing about baseline competence, policy quality or time benefit at primary scale.",
+      "source": "docs/tc-r1/native-validation-result.md"
+    },
+    {
+      "id": "Offline gate v1",
+      "title": "Are the baselines competent?",
+      "date": "2026-10-12",
+      "kind": "offline",
+      "hypothesis": "The comparators are competent and the controller is distinguishable from them.",
+      "setup": "Synthetic fields without the renderer, 3 seeds.",
+      "baseline": "Uniform sampling, MC-UCB (β = 1), variance-guided",
+      "measurement": "Comparator drift; controller disagreement",
+      "result": "Neither conventional baseline is competent (MC-UCB drifts 0.36–0.67 against a 0.05 limit). The controller differs from variance-guided only through its recent-improvement term.",
+      "verdict": "mixed",
+      "limitations": "Led to an amendment of the baselines before any primary run.",
+      "source": "docs/tc-r1/offline-gate-result.md"
+    },
+    {
+      "id": "Offline gate v2",
+      "title": "Amended baselines",
+      "date": "2026-10-12",
+      "kind": "offline",
+      "hypothesis": "The amended comparators are competent.",
+      "setup": "Same design, new seeds, amendment 0004.",
+      "baseline": "Amended MC-UCB and variance-guided",
+      "measurement": "Drift; lever sizes",
+      "result": "Go: drift 0. But the cost lever is 0.098, under the 0.10 threshold — the controller is distinct only through a noisy term.",
+      "verdict": "pass",
+      "limitations": "An open question remains whether a controller that differs mainly through noise is a meaningful test of the hypothesis.",
+      "source": "docs/tc-r1/offline-gate-v2-result.md"
+    },
+    {
+      "id": "TC-R1",
+      "title": "Marginal-value sample allocation (primary)",
+      "kind": "simulation",
+      "hypothesis": "A state-aware marginal-value controller allocates rendering work more efficiently than uniform sampling and a strong adaptive baseline.",
+      "setup": "Preregistered: 10 scenes × 8 seeds. Pass requires ≥ 10% relative-MSE reduction and ≥ 5% time benefit.",
+      "baseline": "Uniform, amended MC-UCB, amended variance-guided",
+      "measurement": "Relative MSE at equal cost; wall time",
+      "result": "Not run. The next-step review found the controller collapses to variance-guided under equal cost, and projects 1,800–4,200 single-worker hours per pass.",
+      "verdict": "not-run",
+      "limitations": "No outcomes, references or freeze tag exist yet.",
+      "source": "docs/tc-r1/preregistration.md"
+    }
+  ],
+  "next": [
+    "Deterministic charged-ray cost and a common time cap",
+    "A persistent renderer worker and a bounded local measurement",
+    "Host selection, then the execution freeze — before any primary run"
+  ],
+  "reproduce": [
+    "cargo test --workspace --all-features",
+    "python scripts/tc_s1.py",
+    "python -m unittest discover -s experiments/tc-r1 -p 'test_*.py'"
+  ]
+}

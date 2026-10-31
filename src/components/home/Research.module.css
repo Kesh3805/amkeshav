@@ -1,0 +1,360 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  color: var(--ink-2);
+  border-top: 1px solid var(--rule);
+  padding-top: 10px;
+}
+
+.cta {
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  padding: 12px 18px;
+  border: 1px solid currentColor;
+  width: fit-content;
+  transition:
+    background 0.3s var(--ease-out),
+    color 0.3s var(--ease-out);
+}
+.cta:hover {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* ---- Temporal Compute tally ---- */
+
+.tally {
+  background: var(--paper-2);
+  padding: clamp(64px, 9vh, 92px) var(--gutter) clamp(48px, 10vh, 110px);
+}
+
+.tallyGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 48px;
+  padding-top: clamp(28px, 6vh, 64px);
+  align-items: start;
+}
+
+.tallyCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 32rem;
+}
+
+.tallyCopy p {
+  margin: 0;
+}
+
+.tallyTitle {
+  margin: 0 0 6px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(2.6rem, 6vw, 6.4rem);
+  line-height: 0.82;
+  font-variation-settings: "wdth" 58;
+}
+
+.fieldWrap {
+  margin: 0;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: repeat(20, minmax(0, 1fr));
+  gap: clamp(3px, 0.45vw, 7px);
+}
+
+.cell {
+  display: inline-block;
+  aspect-ratio: 1;
+  width: 100%;
+  transition:
+    transform 0.35s var(--ease-out),
+    background 0.2s;
+}
+
+.field .cell[data-on="false"] {
+  transform: scale(0.18);
+  background: var(--ink-3) !important;
+  border-color: transparent !important;
+}
+
+.cell[data-cell="win"] {
+  background: var(--ink);
+}
+
+.cell[data-cell="tie"] {
+  border: 1.5px solid var(--ink);
+}
+
+.cell[data-cell="loss"] {
+  background: repeating-linear-gradient(135deg, var(--ink) 0 1.5px, transparent 1.5px 5px);
+  border: 1px solid color-mix(in oklab, var(--ink) 55%, transparent);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 26px;
+  margin-top: 18px;
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  color: var(--ink-2);
+  align-items: center;
+}
+
+.legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend .cell {
+  width: 14px;
+}
+
+.legend b {
+  color: var(--ink);
+  font-weight: 600;
+  min-width: 2.2ch;
+}
+
+.legendNote {
+  margin-left: auto;
+}
+
+/* ---- The commitment ---- */
+
+.commit {
+  background: var(--paper);
+  padding: clamp(64px, 9vh, 92px) var(--gutter) clamp(64px, 12vh, 140px);
+}
+
+.commitHead {
+  display: grid;
+  grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  gap: 32px 48px;
+  align-items: end;
+  padding-block: clamp(32px, 7vh, 80px) clamp(28px, 6vh, 64px);
+}
+
+.commitTitle {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(3.4rem, 11vw, 12rem);
+  line-height: 0.78;
+  font-variation-settings: "wdth" 72;
+}
+
+.commitSetup p {
+  margin: 0 0 14px;
+  max-width: 32rem;
+}
+
+.instrument {
+  display: grid;
+  gap: 14px;
+}
+
+.lineLabel {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--ink-2);
+}
+
+.line {
+  position: relative;
+  display: flex;
+  height: clamp(64px, 11vh, 120px);
+}
+
+.lineKept {
+  background: var(--ink);
+  transition: width 0.08s linear;
+}
+
+.lineSaved {
+  position: relative;
+  border: 2px solid var(--signal);
+  border-left-width: 6px;
+  background: color-mix(in oklab, var(--signal) 10%, transparent);
+  transition: width 0.08s linear;
+}
+
+.line[data-revealed] .lineSaved {
+  border-color: var(--ink);
+  background: repeating-linear-gradient(135deg, var(--ink) 0 1px, transparent 1px 7px);
+}
+
+.lineSaved[data-skipped] {
+  opacity: 0;
+}
+
+.modelMark {
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  border-left: 1px dashed var(--ink-2);
+  pointer-events: none;
+}
+
+.modelMark span {
+  position: absolute;
+  bottom: -26px;
+  left: 6px;
+  white-space: nowrap;
+  color: var(--ink-2);
+}
+
+/* The native range sits over the line, reversed so dragging left saves more. */
+.range {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  direction: rtl;
+  cursor: ew-resize;
+}
+
+.range:disabled {
+  cursor: default;
+}
+
+.range:focus-visible + * ,
+.line:has(.range:focus-visible) {
+  outline: 2px solid var(--signal);
+  outline-offset: 4px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 18px;
+  margin-top: 26px;
+}
+
+.lock,
+.skip {
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 14px 20px;
+  cursor: pointer;
+  transition:
+    background 0.3s var(--ease-out),
+    color 0.3s;
+}
+
+.lock {
+  background: var(--signal);
+  color: var(--signal-ink);
+  border: 1px solid var(--signal);
+}
+.lock:hover {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.skip {
+  background: none;
+  color: var(--ink);
+  border: 1px solid var(--rule);
+}
+.skip:hover {
+  border-color: var(--ink);
+}
+
+.hint {
+  font-family: var(--font-mono);
+  font-size: var(--step--2);
+  color: var(--ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.measured {
+  display: grid;
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.overhead,
+.work,
+.realSaved {
+  transform-origin: 0 50%;
+  transform: scaleX(var(--grow, 1));
+}
+
+.overhead {
+  position: relative;
+  background: var(--ink);
+  color: var(--paper);
+  display: flex;
+  align-items: flex-end;
+  padding: 10px 12px;
+  overflow: hidden;
+}
+
+.overhead span {
+  white-space: nowrap;
+  opacity: 0.8;
+}
+
+.work {
+  background: var(--ink-2);
+}
+
+.realSaved {
+  background: repeating-linear-gradient(135deg, var(--ink) 0 1px, transparent 1px 5px);
+  border: 2px solid var(--ink);
+}
+
+.after {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 48px;
+  margin-top: 22px;
+}
+
+.after p {
+  margin: 0;
+  max-width: 36rem;
+}
+
+.caveat {
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  color: var(--ink-2);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+@media (max-width: 900px) {
+  .tallyGrid,
+  .commitHead,
+  .after {
+    grid-template-columns: 1fr;
+  }
+  .legendNote {
+    margin-left: 0;
+  }
+}

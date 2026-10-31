@@ -1,0 +1,59 @@
+---
+title: FRONTIER
+short: FRONTIER
+slug: frontier
+kind: research
+org: Ostrium Labs
+role: Author — Rust control plane, Python verifier layer, experiment design
+summary: Does choosing which attempt runs next get more independently verified results out of a fixed compute budget? Ten experiments in; several said no.
+status:
+  label: 10 experiments recorded · model-backed study not run
+  tone: partial
+plate: intervals
+order: 4
+featured: true
+stack: [Rust, Python, Thompson sampling, Bootstrap CIs, Docker]
+research: frontier
+facts:
+  - value: '6.4%'
+    label: measured saving — the model had said 92.9%
+  - value: '~92%'
+    label: of a verification's cost is fixed interpreter overhead
+  - value: '+4.44'
+    label: solves at budget 120 on dependency tasks
+links:
+  - label: Source on GitHub
+    href: https://github.com/Kesh3805/frontier
+  - label: Every experiment, with verdicts
+    href: /research#frontier
+---
+
+## What it does
+
+A deterministic Rust control plane runs research attempts under a fixed compute budget and accepts a result **only** through a verifier receipt. Allocation policies — round-robin, Thompson sampling with and without hints, greedy priors — compete for the same budget. Every campaign is logged to a hash-chained event log and can be replayed bit for bit.
+
+## Why it exists
+
+"Spend more compute, get more answers" hides two questions: *which* attempt deserves the next unit of budget, and how much of what you accept is actually right. FRONTIER exists to measure both at once, with a verifier in the loop rather than a model's opinion of itself.
+
+## How it's built
+
+- `frontier-core` — specs, attempt DAG, budget ledger, evidence store, hash-chained event log, a portable RNG and libm.
+- `frontier-sched` — nine allocation policies.
+- `frontier-sim` — environment, runner, audit; `frontier-cli` on top.
+- A Python layer — property-test verifier, a deterministic task DSL worker, bootstrap analysis, a Docker sandbox.
+
+## The most useful result so far
+
+exp-008 showed that charging a failed verification only up to its first failing case recovered most of the yield a strong verifier cost — **in the charge model**. exp-009 timed it for real: **6.4% measured, against 92.9% modelled**. About 92% of a verification's cost is fixed interpreter overhead (≈120.5 ms + 0.05 ms per case). The verdicts were identical; the saving mostly wasn't there.
+
+That one result invalidates the earlier modelled savings until they're re-run under measured costs. It's on the page because that's the point of running it.
+
+## Tradeoffs
+
+- Deterministic replay makes every claim checkable and every bug reproducible. It also meant writing a portable libm after the exp-000 headline values turned out to reproduce only on the Windows build.
+- Pilots use a constructed task family, not a sealed benchmark.
+
+## Where it stands
+
+Simulation and deterministic-task pilots complete. No model-backed study has run: it needs a model, a provider and a spending cap. Next is re-running the allocation comparisons under the measured cost model.

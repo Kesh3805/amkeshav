@@ -1,0 +1,70 @@
+---
+title: Loams
+short: Loams
+slug: loams
+kind: open-source
+org: Ostrium Labs
+role: Co-maintainer — one of two listed maintainers
+summary: An Apache-2.0 data platform in Rust that keeps your data in your own object-storage bucket, in open formats, and speaks the wire protocols your tools already use.
+status:
+  label: Released — v0.1.2
+  tone: built
+plate: crates
+order: 2
+featured: true
+stack: [Rust, DataFusion, Lance, Tantivy, SlateDB, openraft, TypeScript]
+facts:
+  - value: '~80'
+    label: crates in the Rust monorepo
+  - value: '4'
+    label: wire protocols — Qdrant, Elasticsearch, Postgres, MySQL
+  - value: '0'
+    label: paid editions. Apache-2.0, no open core
+links:
+  - label: Source on GitHub
+    href: https://github.com/ostrium-labs/loams
+  - label: loams.dev
+    href: https://loams.dev/
+maturity:
+  - name: Retrieval engine — hybrid search, SQL, Qdrant / Elasticsearch / Postgres / MySQL wire compatibility
+    status: built
+    evidence: shipped in 0.1.2
+  - name: Live reactive documents, durable execution, console, desktop app, CLI and SDKs
+    status: built
+    evidence: shipped in 0.1.2
+  - name: Graph and GraphRAG expansion, ClickHouse-compatible House, Loams Git
+    status: partial
+    evidence: shipped as experimental
+  - name: Server-side Git, connectors, Iceberg analytics, Kafka wire, functions and jobs
+    status: planned
+    evidence: listed as coming next; the Kafka profile is not wired to the engine
+  - name: v1.0 production hardening
+    status: planned
+    evidence: roadmap milestone M2
+---
+
+## What it does
+
+The first line of the README is the whole premise: don't rent a cloud. Loams keeps data in the user's own object-storage bucket, in open formats, and the engine speaks existing wire protocols — so a team can point a Qdrant, Elasticsearch, Postgres or MySQL client at it instead of adopting a new API.
+
+Around that sits tooling for building software with AI agents: an agent daemon, durable execution, a console, a desktop app, a CLI and SDKs.
+
+## Why it exists
+
+Most data platforms that serve AI workloads ask you to move your data into their account and learn their API. Loams bets on the opposite: your bucket, open formats, protocols you already have clients for. It's Apache-2.0 with no open core and no paid edition.
+
+## How it's built
+
+A Rust monorepo of roughly eighty crates, grouped by concern — the engine (query, collections, an HNSW index, text search, the log and the store), a compatibility layer per wire protocol, metadata and storage, durable execution, the graph, and the agent daemon. It builds on established components rather than reinventing them: DataFusion for query, Lance for columnar storage, Tantivy for text, SlateDB, openraft and TiKV among others.
+
+## My part
+
+I'm one of two listed maintainers in a flat governance structure. I'm deliberately not claiming authorship of specific subsystems here: the public history doesn't attribute individual components, and the design decisions belong to the project.
+
+## Evidence, as the project publishes it
+
+Loams makes no headline benchmark claims. What it publishes is more useful: raw write-path and commit benchmarks comparing NVMe write strategies — p50/p99 latency, throughput, CPU per transaction, noise bands over repeated runs — including gate reports where configurations **fail** their target. Roadmap targets are stated as gates, not as results.
+
+## Where it stands
+
+Version 0.1.2, a patch release on the first release line, shipped on 26 October 2026. The project says plainly that APIs and on-disk formats may still change between minor versions.

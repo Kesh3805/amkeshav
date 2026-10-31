@@ -1,0 +1,77 @@
+---
+title: GST compliance & document AI
+short: GST platform
+slug: gst-platform
+kind: professional
+org: jpteam / C1X Inc.
+role: Primary contributor — core domain service and document extraction worker
+period: Aug 2025 — present
+summary: A SaaS platform that lets accounting firms file Indian GST returns, reconcile against the government portal and pull invoice data out of PDFs. I've been on it since the first commit.
+status:
+  label: In production
+  tone: built
+plate: readmodel
+order: 1
+featured: true
+stack: [NestJS, TypeScript, PostgreSQL 16, TypeORM, BullMQ, Redis 7, GCS, LlamaIndex Cloud, SSE, Decimal.js, Jest, Testcontainers]
+facts:
+  - value: '3,000ms+ → <15ms'
+    label: returns status query at peak load
+  - value: '3,668 / 434'
+    label: unit / E2E tests maintained
+  - value: '19 → 1'
+    label: tenant filters consolidated into one scoping service
+  - value: '26 → 1'
+    label: Testcontainer boots per E2E run
+links:
+  - label: Write-up — the returns read model
+    href: /writing/gst-returns-read-model
+  - label: Write-up — the Redis namespace bug
+    href: /writing/redis-bullmq-namespace-bug
+  - label: Write-up — when HTTP 200 means failure
+    href: /writing/http-200-integration-failure
+---
+
+## What it does
+
+Accounting firms in India file GST returns for dozens or hundreds of clients. The platform holds their invoice ledgers, syncs inward invoices from the government's GST portal through a GSP partner API, reconciles the two, files GSTR-1 and GSTR-3B, and extracts invoice data from PDFs with an OCR pipeline.
+
+It is two services. The **core domain service** owns ledgers, the Invoice Management System, returns and notifications. The **extraction worker** owns document intake. Long-running work crosses between them on BullMQ and reaches the browser over one durable SSE stream.
+
+<Flow steps={["Invoice PDF", "Invoice / not-invoice guard", "GCS + LlamaIndex Cloud", "Signed webhook", "Map to ledger domain", "BullMQ → core service", "Durable notification → SSE"]} />
+
+## Why it matters that it's right
+
+Tax software is unforgiving in a specific way: almost every failure is silent. A wrong sum still renders. A dropped invoice still returns HTTP 200. Most of my time here has gone into making the system *correct*, not just functional — and into making the incorrect states impossible to reach rather than unlikely.
+
+## What I built
+
+**Foundations.** I set the NestJS project up from scratch: RS256 JWT auth with Redis-backed sessions, OTP login, concurrent session limits, pre-commit hooks and architecture linting. Later I moved the codebase to a layered structure with the Repository Pattern enforced between layers.
+
+**Ledger and tax math.** Invoice ledger endpoints with CGST/SGST versus IGST depending on whether supply is intra- or inter-state. All money moved to `Decimal.js`. Line-item deletion goes through the invoice aggregate root, so header totals are never computed against a half-edited invoice.
+
+**IMS, built from scratch.** Automated sync of supplier invoices from the portal, an auto-match engine against the purchase ledger, bulk accept and reject for CA firms, and the portal's ITC-reduction flow wired end to end.
+
+**Filing.** A GSTR-1 / GSTR-3B state machine from draft to GSTN submission. Draft and filed GSTR-3B records were unified into one canonical row per account, GSTIN and period, with transactional migrations. Rule 88A set-off order is enforced structurally: Table 6.1 is pinned to the `RETFILE` payload with exact ITC provenance.
+
+**Reconciliation.** GSTR-2B used to be stored as a fresh snapshot per sync. I refactored it to an upserted header plus per-invoice rows on natural keys, which is what made **M9 three-way reconciliation** possible — purchase register against IMS against GSTR-2B, every document classified as match, mismatch, missing on either side, or drift.
+
+**Tenancy.** Attribute-based access control at the foundation. Tenant isolation went from 19 scattered ad-hoc filters to one client-scope service, with a custom ESLint rule in CI that blocks unscoped repository queries from merging, and an IDOR test matrix across mutation routes.
+
+## The decision I'd point to
+
+Return status isn't stored anywhere — it summarises GSTR-1 and GSTR-3B, each with its own lifecycle. The read path derived it on every request and took **3,000ms+ at peak**, which is exactly when filing deadlines put the most people on the dashboard.
+
+A TTL cache and a scheduled materialised view were both rejected: each stays stale right after a filing, which is the moment a CA checks. Instead the work was inverted. Writers emit a *source-changed* event naming the account, GSTIN and period; a projection updater re-reads both sources and upserts one row. The event carries a key, not a delta, so duplicates and reordering converge on the same row. The read is now one indexed SELECT: **under 15ms at peak**.
+
+The cost is a contract. Every writer that changes return state must emit the event, and freshness is a short bounded window rather than a guarantee. → [The full write-up](/writing/gst-returns-read-model)
+
+## Tradeoffs and limits
+
+- The projection's freshness depends on writers honouring the event contract; a new writer that forgets it produces stale status, not an error.
+- Several durable workflow notifications share one stream. That made replay and correlation simple, at the cost of one table carrying a lot of different traffic.
+- Internal code, data and screens stay with the employer. Everything on this page is described, not shown.
+
+## Where it stands
+
+In production, still under active development. I'm still on the core domain service and the extraction worker.

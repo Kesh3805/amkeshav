@@ -1,0 +1,37 @@
+---
+title: Dynamic QR campaigns & concurrent redemption
+short: QR campaigns
+slug: questqr
+kind: professional
+org: jpteam / C1X Inc.
+role: Primary backend engineer
+summary: QR campaigns where many people scan against the same limited inventory at the same moment, and a unit must never be redeemed twice.
+status:
+  label: Shipped
+  tone: built
+order: 8
+stack: [NestJS, TypeScript, MySQL, TypeORM, BullMQ, Redis, Elasticsearch, Jest]
+facts:
+  - value: '90%+'
+    label: statement coverage across modules
+  - value: '0'
+    label: database calls on the ad redirect path
+---
+
+## What it does
+
+Businesses run dynamic QR campaigns with sponsor ads, live scanning, redemption tracking and dashboards. The scan path is where correctness matters most.
+
+<Flow steps={["Scan", "Pre-validation", "Inventory check", "Redis lock", "Atomic redemption", "SSE stats → dashboard"]} />
+
+## What I built
+
+- The scan path: pre-checks before the database to shed load, then an atomic inventory decrement under a Redis lock so concurrent scans can't double-redeem.
+- The campaign lifecycle engine — draft → live → completed → inactive — with timezone-aware validation, so campaigns activate and expire correctly across regions.
+- Sponsor ads with a server-side UTM redirect whose parameters are prebuilt, so the redirect itself does no lookup.
+- Live inventory stats over SSE; QR generation with logo embedding and Japanese text on generated PDFs.
+
+## Decisions
+
+- Archived campaign lines are filtered in the query, not the service, so deleted data is never instantiated as an entity.
+- Ad placement moved from a strategy pattern to direct injection into the response pipeline — less indirection for one real variation.
