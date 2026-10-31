@@ -24,6 +24,12 @@ Keshav asked Claude and ChatGPT to argue the direction through together. ChatGPT
 - **"Call it first" became The Commitment.** A width-based encounter with evidence, not a guessing game, with a visible skip, no score, and both caveats on the page. ChatGPT's claims about exp-009 were checked against `results/exp-009/README.md` in the FRONTIER repo before use.
 - **The ending.** The full stop becomes a cursor, restrained, with a visible email link.
 
+### Second round
+
+Asked what to cut first, ChatGPT read the repository source (it could not play the preview) and named the "What I care about" section: its five statements explained qualities the showcases had just demonstrated. Cut. It also caught that section numbers ran backwards (02.3 → 04 → 02.4 → 03); they now run 01 → 06. One line survives, reworded to what the writing documents: *more than one of these failures returned HTTP 200*. My own pass in the same round removed a duplicate impact plate from the ReviewGraph case study.
+
+The principle carried forward: once the work has demonstrated a quality, stop explaining it.
+
 ## Verification (run locally, 31 Oct 2026)
 
 - `pnpm typecheck`, `pnpm lint`: clean.

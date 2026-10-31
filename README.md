@@ -20,8 +20,8 @@ Blue is reserved for identity and interaction. Verdicts and status use shape, ha
 | 02.1 | GST platform | Typographic. Responsibility moves across a write/read rule; 3,000ms+ retreats to a footnote and *under 15ms* lands |
 | 02.2 | ReviewGraph | Spatial. The real auth-bypass fixture as a 3D graph you turn by pointer or arrow keys. *Base graph* reveals the callee the change removed |
 | 02.3 | Temporal Compute | A 200-cell field resolving into 15 wins / 15 ties / 170 losses against EDF |
-| 04 | The Commitment | FRONTIER exp-009. One line is a 132 ms verification. You set the saving you expect, lock it, then the measured ~8 ms resolves beneath, with its caveats |
-| 02.4 · 03 · 05 | Index, cares, writing | Hover-list project index, five things I care about, publication index |
+| 03 | The Commitment | FRONTIER exp-009. One line is a 132 ms verification. You set the saving you expect, lock it, then the measured ~8 ms resolves beneath, with its caveats |
+| 04 · 05 | More work, writing | Hover-list project index; publication index |
 | 06 | Closing | The square becomes a cursor; contact |
 
 Case studies (`/work/*`) cover what each project does, why it exists, my actual part, how it's built, evidence, tradeoffs and where it stands, plus a maturity ledger checked against each repository. `/research` lists every registered experiment with its verdict, including the ones that failed or never ran.

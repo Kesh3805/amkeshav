@@ -12,7 +12,7 @@ const kind = {
 /* Everything else, as a hover list: rows open taller and the name widens to make room for the summary. */
 export function ProjectIndex({
   work,
-  label = "02.4 — The rest of the work",
+  label = "04 — More work",
   heading = "Also built, maintained, or contributed to.",
 }: {
   work: WorkEntry[];

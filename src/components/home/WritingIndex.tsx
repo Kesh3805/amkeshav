@@ -20,8 +20,8 @@ export function WritingIndex({ posts, heading = true }: { posts: WritingEntry[];
               Notes from the parts that broke.
             </h2>
             <p className={s.dek}>
-              Incident write-ups and design notes. The code in them is written for the post; none of it is an
-              employer&apos;s source.
+              Incident write-ups and design notes. More than one of these failures returned HTTP 200. The code is
+              written for each post; none of it is an employer&apos;s source.
             </p>
           </div>
         </>

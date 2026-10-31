@@ -1,4 +1,3 @@
-import { Cares } from "@/components/home/Cares";
 import { Closing } from "@/components/home/Closing";
 import { Commitment } from "@/components/home/Commitment";
 import { GraphShowcase } from "@/components/home/GraphShowcase";
@@ -23,7 +22,6 @@ export default function Home() {
       <TallyField />
       <Commitment />
       <ProjectIndex work={rest} />
-      <Cares />
       <WritingIndex posts={getWriting()} />
       <Closing />
     </>

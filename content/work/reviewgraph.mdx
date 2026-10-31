@@ -15,8 +15,8 @@ stack: [Rust, Tree-sitter, TypeScript, NestJS, Next.js, PostgreSQL, Qdrant, GitH
 facts:
   - value: '44 / 33'
     label: node kinds / stored edge kinds in the code graph
-  - value: '0.993'
-    label: risk score on the auth-bypass fixture — critical
+  - value: '157'
+    label: tests in the impact-propagation crate
   - value: '0'
     label: real pull requests reviewed end to end, so far
 links:
@@ -69,8 +69,6 @@ ReviewGraph starts from the other end. It keeps a persistent graph of the reposi
 Because "the model said so" isn't a review. A comment on someone's pull request should be traceable to code that exists, in a graph you can inspect. The project is an attempt to make the deterministic part do as much of the work as possible, so the model's part is small and checkable.
 
 ## The fixture, walked through
-
-<ImpactGraph />
 
 The repository's golden fixture, `auth-bypass`, replaces `permissionService.check(...)` inside `AuthService.authorize` with `user.role === 'admin'`, and touches a comment in `formatName` as a low-risk control. Two decoys must *not* show up.
 

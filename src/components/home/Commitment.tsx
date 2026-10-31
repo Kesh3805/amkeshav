@@ -42,7 +42,7 @@ export function Commitment() {
   return (
     <section ref={root} className={s.commit} aria-labelledby={`${id}-t`} id="commitment">
       <div className={s.top}>
-        <span className="label">04 — The commitment</span>
+        <span className="label">03 — The commitment</span>
         <span className="label">FRONTIER · exp-009</span>
       </div>
 
