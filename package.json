@@ -7,7 +7,7 @@
     "build": "next build && node scripts/flatten-segments.mjs",
     "start": "node scripts/serve.mjs",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "test": "vitest run",
     "test:e2e": "playwright test"
   },
