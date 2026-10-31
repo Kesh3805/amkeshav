@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Closing } from "@/components/home/Closing";
 import { Commitment } from "@/components/home/Commitment";
 import { GraphShowcase } from "@/components/home/GraphShowcase";
@@ -21,7 +22,18 @@ export default function Home() {
       <GraphShowcase />
       <TallyField />
       <Commitment />
-      <ProjectIndex work={rest} />
+      <ProjectIndex
+        work={rest}
+        aside={
+          <>
+            I also built something that{" "}
+            <Link href="/work/sonicmirror" className="link">
+              roasts your Spotify taste
+            </Link>
+            .
+          </>
+        }
+      />
       <WritingIndex posts={getWriting()} />
       <Closing />
     </>

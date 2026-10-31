@@ -14,10 +14,12 @@ export function ProjectIndex({
   work,
   label = "04 — More work",
   heading = "Also built, maintained, or contributed to.",
+  aside,
 }: {
   work: WorkEntry[];
   label?: string;
   heading?: string;
+  aside?: React.ReactNode;
 }) {
   return (
     <section className={s.section} aria-labelledby="index-title">
@@ -28,6 +30,7 @@ export function ProjectIndex({
       <h2 id="index-title" className={s.title}>
         {heading}
       </h2>
+      {aside && <p className={s.aside}>{aside}</p>}
       <ol className={s.list}>
         {work.map((w) => (
           <li key={w.slug} className={s.row}>

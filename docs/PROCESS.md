@@ -45,3 +45,7 @@ Evidence in `docs/evidence/`: still frames (hero, GST final frame, ReviewGraph, 
 - The 3D graph's labels are DOM overlays projected from the scene. On very small phones the outer labels can still sit close to the frame edge.
 - Writing pages render code without syntax highlighting, by choice for now.
 - No OG images were generated yet.
+
+### Third round
+
+Asked how to make the person more present without inventing anything, ChatGPT proposed one plain, unanimated line in the index: *I also built something that roasts your Spotify taste.* It's a small human interruption in a site otherwise about correctness. I checked the SonicMirror README before using the word: its tagline is "Your Music Taste Has a Personality. We Roast It." Its other conclusion stands as a boundary: the next layer of personal material has to come from Keshav, in his own words, not from project metadata.
