@@ -1,0 +1,27 @@
+{
+  "about": "The 12 finalists from 48 captured sites, for Keshav to judge. Chosen to be radically different from each other, and weighted towards clean and premium as Keshav asked, without dropping originality. Frames are file names inside each site's folder.",
+  "finalists": [
+    { "id": "immersive-garden", "name": "Immersive Garden", "url": "https://immersive-g.com/", "first": "01-first-4s", "best": "04-pointer", "more": ["06-scroll-2"], "idea": "Your cursor raises a white plaster relief out of a quiet page." },
+    { "id": "making-software", "name": "Making Software", "url": "https://www.makingsoftware.com/", "first": "01-first-4s", "best": "02-settled-12s", "more": ["06-scroll-4"], "idea": "A technical manual: one blueprint drawing language on white." },
+    { "id": "landonorris", "name": "Lando Norris", "url": "https://landonorris.com/", "first": "02-settled-12s", "best": "03-after-gate", "more": ["06-scroll-3"], "idea": "The cursor wipes the helmet away to reveal the person underneath." },
+    { "id": "rauno", "name": "Rauno Freiberg", "url": "https://rauno.me/", "first": "01-first-4s", "best": "06-scroll-1", "more": ["06-scroll-4"], "idea": "A sideways strip of exact white cards; Swiss restraint with one yellow." },
+    { "id": "kenta-toshikura", "name": "Kenta Toshikura", "url": "https://kentatoshikura.com/", "first": "01-first-4s", "best": "02-settled-12s", "more": ["06-scroll-3"], "idea": "Black and white; every project seen through one circular portal." },
+    { "id": "oryzo", "name": "Oryzo", "url": "https://oryzo.ai/", "first": "01-first-4s", "best": "02-settled-12s", "more": ["06-scroll-4"], "idea": "A photoreal object on a drafting mat; a coaster launched like a product." },
+    { "id": "shader-se", "name": "Shader", "url": "https://www.shader.se/", "first": "01-first-4s", "best": "02-settled-12s", "more": ["06-scroll-2", "06-scroll-3"], "idea": "One fiction, an 80s computer company, from boot-screen loader to footer." },
+    { "id": "henryheffernan", "name": "Henry Heffernan", "url": "https://henryheffernan.com/", "first": "01-first-4s", "best": "05-drag", "more": ["03-after-gate"], "idea": "An engineer's portfolio as a computer on a desk that you actually use." },
+    { "id": "radio-garden", "name": "Radio Garden", "url": "https://radio.garden/", "first": "02-settled-12s", "best": "06-scroll-3", "more": [], "idea": "Two colours; the globe made of live stations is the whole interface." },
+    { "id": "teenage-engineering", "name": "Teenage Engineering", "url": "https://teenage.engineering/", "first": "01-first-4s", "best": "02-settled-12s", "more": ["06-scroll-4"], "idea": "One object under a spotlight; its long shadow becomes a dry joke." },
+    { "id": "dbydt", "name": "Deebak Tamilmani (d/dt)", "url": "https://www.dbydt.space/", "first": "02-settled-12s", "best": "03-after-gate", "more": ["06-scroll-3"], "idea": "Research laid out like a monograph, with a point-cloud frontispiece." },
+    { "id": "shopify-renaissance", "name": "Shopify Renaissance Edition", "url": "https://www.shopify.com/editions/winter2026", "first": "02-settled-12s", "best": "06-scroll-1", "more": ["03-after-gate", "06-scroll-3"], "idea": "Oil paintings collaged with phones and code; torn-paper transitions." }
+  ],
+  "alternates": [
+    { "id": "igloo", "why": "Best single-material film (ice); close in kind to Oryzo, so only one of them made the 12." },
+    { "id": "nothin", "why": "Giant black wordmark on white, broken by one sculpted figure." },
+    { "id": "wodniack", "why": "Complete two-colour graphic system; louder than 'premium'." },
+    { "id": "exoape", "why": "The clean agency baseline: photograph, huge word, whitespace." },
+    { "id": "linear", "why": "The real product as the hero image; dark and exact." },
+    { "id": "carter-ogunsola", "why": "Projects as objects on a dark table, with live presence." },
+    { "id": "symphony-of-vines", "why": "Sepia luxury, light rays and serif; gate drawn in the canvas." },
+    { "id": "ciechanowski", "why": "Explanation by simulation; the look is plain." }
+  ]
+}

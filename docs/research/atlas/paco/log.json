@@ -1,0 +1,12 @@
+{
+  "id": "paco",
+  "url": "https://paco.me/",
+  "started": "2026-11-01T11:18:08.140Z",
+  "notes": [
+    "pageerror: Minified React error #418; visit https://react.dev/errors/418?args[]=text&args[]= for the full message or use the non-minified dev environme"
+  ],
+  "finalUrl": "https://paco.me/",
+  "gate": "none",
+  "title": "Paco Coursey",
+  "finished": "2026-11-01T11:19:12.819Z"
+}

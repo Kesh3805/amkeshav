@@ -49,3 +49,6 @@ next-env.d.ts
 # rendered plates are reproducible from art/*.py
 /art/renders/
 __pycache__/
+
+# atlas desktop recordings are large; finalists get trimmed mp4s instead
+docs/research/atlas/*/desktop.webm
