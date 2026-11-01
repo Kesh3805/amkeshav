@@ -69,7 +69,17 @@ ChatGPT cross-checked version 1 (`finalists-board-v1.jpg`). Its main point: a si
 
 ## Keshav's verdicts
 
-Not yet given. They will be recorded in `verdicts.json` with his reasons.
+Given on 1 Nov 2026 and recorded in `verdicts.json`.
+- **Loved:** Immersive Garden, Making Software, Non-Objective: Time, Rauno, Nothin', Odd Works.
+- **Not chosen:** Teenage Engineering, OXMAN, Radio Garden, Kenta Toshikura, Henry Heffernan, Igloo.
+- **Rejected as a category:** "too playful".
+
+**The pattern:**
+- Every loved site sits on a light ground and is led by type, drawing or graphic form.
+- None of the dark or cinematic picks was chosen.
+- Where there is motion, it is one sculptural element answering the cursor on a quiet page.
+
+**The tension to confirm:** he loved Nothin' and Odd Works yet rejected "too playful". The likely reading is graphic form yes, jokey tone no.
 
 ## Files
 

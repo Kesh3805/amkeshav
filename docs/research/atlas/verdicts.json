@@ -1,0 +1,17 @@
+{
+  "about": "Keshav's own verdicts on the 12 finalists (version 2), given 1 Nov 2026 from finalists-board.jpg. Recorded as given; no reasons were added beyond what he selected.",
+  "loved": ["immersive-garden", "making-software", "nonobjective-time", "rauno", "nothin", "oddworks"],
+  "not_chosen": ["teenage-engineering", "oxman", "radio-garden", "kenta-toshikura", "henryheffernan", "igloo"],
+  "rejected_category": {
+    "choice": "Too playful ones",
+    "as_offered": "Odd Works, Nothin', Teenage Engineering's jokes.",
+    "tension": "He also loved Nothin' and Odd Works. The most consistent reading is that he likes their graphic and typographic form but not playfulness as a tone. Teenage Engineering, whose appeal is a deadpan joke, was not chosen. This is an interpretation and should be confirmed, not assumed."
+  },
+  "pattern_observed_by_claude": [
+    "All six loved sites sit on a light ground: white, pale grey or pale lavender.",
+    "All six are led by type, drawing or graphic form rather than by a 3D world or photography.",
+    "None of the dark or cinematic picks (Teenage Engineering, Kenta Toshikura, Igloo, Henry Heffernan, Radio Garden's saturated blue) was chosen.",
+    "OXMAN is the exception: light and premium, but not chosen. It is the most corporate-institutional of the twelve.",
+    "The two loved sites with motion (Immersive Garden and Nothin') both use a single sculptural element reacting to the cursor on a quiet page."
+  ]
+}
