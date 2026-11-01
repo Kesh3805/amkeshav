@@ -56,7 +56,21 @@ def apron():
     nt.links.new(mul.outputs[0], mix.inputs["Factor"])
     nt.links.new(base, mix.inputs["A"])
     mix.inputs["B"].default_value = (0.72, 0.7, 0.64, 1)
-    nt.links.new(mix.outputs["Result"], bsdf.inputs["Base Color"])
+    stain = c.node(nt, "ShaderNodeTexNoise", Scale=0.35, Detail=5.0, Roughness=0.62)
+    nt.links.new(tc.outputs["Object"], stain.inputs["Vector"])
+    sr = nt.nodes.new("ShaderNodeValToRGB")
+    sr.color_ramp.elements[0].position = 0.42
+    sr.color_ramp.elements[0].color = (0.62, 0.6, 0.56, 1)
+    sr.color_ramp.elements[1].position = 0.68
+    sr.color_ramp.elements[1].color = (1, 1, 1, 1)
+    nt.links.new(stain.outputs["Fac"], sr.inputs["Fac"])
+    st = nt.nodes.new("ShaderNodeMix")
+    st.data_type = "RGBA"
+    st.blend_type = "MULTIPLY"
+    st.inputs["Factor"].default_value = 1.0
+    nt.links.new(mix.outputs["Result"], st.inputs["A"])
+    nt.links.new(sr.outputs["Color"], st.inputs["B"])
+    nt.links.new(st.outputs["Result"], bsdf.inputs["Base Color"])
     return m
 
 
@@ -86,7 +100,24 @@ def fin_material():
     nt.links.new(band.outputs[0], mix.inputs["Factor"])
     nt.links.new(base, mix.inputs["A"])
     mix.inputs["B"].default_value = (0.1, 0.1, 0.1, 1)
-    nt.links.new(mix.outputs["Result"], bsdf.inputs["Base Color"])
+    grime_n = c.node(nt, "ShaderNodeTexNoise", Scale=14.0, Detail=10.0)
+    nt.links.new(tc.outputs["Object"], grime_n.inputs["Vector"])
+    zr = nt.nodes.new("ShaderNodeMapRange")
+    zr.inputs["From Min"].default_value = -0.5
+    zr.inputs["From Max"].default_value = 0.1
+    zr.inputs["To Min"].default_value = 0.55
+    zr.inputs["To Max"].default_value = 0.0
+    nt.links.new(sep.outputs["Z"], zr.inputs["Value"])
+    gm = c.node(nt, "ShaderNodeMath")
+    gm.operation = "MULTIPLY"
+    nt.links.new(zr.outputs["Result"], gm.inputs[0])
+    nt.links.new(grime_n.outputs["Fac"], gm.inputs[1])
+    dirt = nt.nodes.new("ShaderNodeMix")
+    dirt.data_type = "RGBA"
+    nt.links.new(gm.outputs[0], dirt.inputs["Factor"])
+    nt.links.new(mix.outputs["Result"], dirt.inputs["A"])
+    dirt.inputs["B"].default_value = (0.22, 0.2, 0.17, 1)
+    nt.links.new(dirt.outputs["Result"], bsdf.inputs["Base Color"])
     return m
 
 
@@ -94,7 +125,7 @@ bpy.ops.mesh.primitive_plane_add(size=500)
 ground = bpy.context.active_object
 ground.data.materials.append(apron())
 
-FW, FD, FH = 0.26, 0.13, 0.95
+FW, FD, FH = 0.2, 0.065, 1.05
 bpy.ops.mesh.primitive_cube_add(size=1)
 proto = bpy.context.active_object
 proto.scale = (FW, FD, FH)

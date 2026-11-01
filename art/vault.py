@@ -91,7 +91,7 @@ end.scale = (AISLE + 2, ceil_z, 1)
 end.rotation_euler = (math.radians(90), 0, 0)
 end.data.materials.append(c.flat("end", (1, 1, 1), emission=(0.8, 0.86, 0.95), strength=1.4))
 
-# The one row: a bay ~38 m in, left wall, third from the floor — pulled out and lit from inside.
+# The one row: a bay ~12 m in, left wall, fourth from the floor — pulled out and lit from inside.
 col, row = 14, 3
 y = col * CELL_W + CELL_W / 2
 z = row * CELL_H + CELL_H / 2
