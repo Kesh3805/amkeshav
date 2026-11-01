@@ -79,6 +79,8 @@ Given on 1 Nov 2026 and recorded in `verdicts.json`.
 - None of the dark or cinematic picks was chosen.
 - Where there is motion, it is one sculptural element answering the cursor on a quiet page.
 
+**Motion study (same day):** see `taste-boundary.md`. Rauno flipped to "too playful" in motion and OXMAN flipped to "sophisticated". The boundary sits between *constructive* experimentation (form being built or revealed) and *performative* experimentation (colour, characters or jokes performing).
+
 **The tension to confirm:** he loved Nothin' and Odd Works yet rejected "too playful". The likely reading is graphic form yes, jokey tone no.
 
 ## Files

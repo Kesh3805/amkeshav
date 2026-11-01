@@ -1,0 +1,13 @@
+{
+  "source": "Exported from the Taste Boundary artifact (https://claude.ai/artifact/6Bz62UuETpdzibmNDK4oTF), collection 'marks', on 1 Nov 2026. All eight records were saved between 12:45:35 and 12:46:55 UTC. No mark carries a note.",
+  "marks": {
+    "immersive-garden": { "verdict": "", "moments": [{ "t": 35, "kind": "extraordinary" }] },
+    "making-software": { "verdict": "", "moments": [{ "t": 2.2, "kind": "extraordinary" }] },
+    "nonobjective-time": { "verdict": "Sophisticated", "moments": [{ "t": 13, "kind": "extraordinary" }] },
+    "rauno": { "verdict": "Too playful", "moments": [] },
+    "nothin": { "verdict": "Mixed", "moments": [{ "t": 13.5, "kind": "extraordinary" }] },
+    "oddworks": { "verdict": "", "moments": [{ "t": 30, "kind": "extraordinary" }] },
+    "teenage-engineering": { "verdict": "Too playful", "moments": [{ "t": 9.9, "kind": "too much" }] },
+    "oxman": { "verdict": "Sophisticated", "moments": [{ "t": 8, "kind": "extraordinary" }] }
+  }
+}
