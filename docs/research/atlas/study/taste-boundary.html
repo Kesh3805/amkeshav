@@ -1,0 +1,269 @@
+<title>Taste Boundary</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column of numbered clip studies, each a video above a strip of
+   timestamped marks, like an annotated technical sheet. Light ground, blueprint blue. */
+:root {
+  --bg: #fbfbfc;
+  --paper: #ffffff;
+  --ink: #15171c;
+  --ink-2: #4d525e;
+  --ink-3: #6f7480;
+  --rule: #e2e4ea;
+  --blue: #2140e0;
+  --blue-soft: #e9edff;
+  --warn: #c2361d;
+  --warn-soft: #fdece8;
+  --display: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #101216; --paper: #171a20; --ink: #eceef2; --ink-2: #b4b9c4; --ink-3: #8c92a0;
+    --rule: #2a2e37; --blue: #8ea0ff; --blue-soft: #1d2440; --warn: #ff8a73; --warn-soft: #3a1d18;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #101216; --paper: #171a20; --ink: #eceef2; --ink-2: #b4b9c4; --ink-3: #8c92a0;
+  --rule: #2a2e37; --blue: #8ea0ff; --blue-soft: #1d2440; --warn: #ff8a73; --warn-soft: #3a1d18;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--display); font-size: 15px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 80px;
+}
+.wrap { max-width: 920px; margin: 0 auto; display: grid; gap: 56px; }
+header { display: grid; gap: 14px; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--blue); }
+h1 { font-size: clamp(34px, 6vw, 56px); line-height: 1.02; font-weight: 800; letter-spacing: -.02em; margin: 0; text-wrap: balance; }
+.lede { color: var(--ink-2); max-width: 62ch; margin: 0; }
+.how { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px 24px; margin: 6px 0 0; padding: 16px 0 0; border-top: 1px solid var(--rule); list-style: none; }
+.how li { color: var(--ink-2); font-size: 14px; }
+.how b { color: var(--ink); font-weight: 700; }
+.status { display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; font-family: var(--mono); font-size: 12px; color: var(--ink-3); }
+.status strong { color: var(--ink); font-weight: 500; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-3); display: inline-block; margin-right: 6px; vertical-align: 1px; }
+.dot.ok { background: #2a9d5c; } .dot.warn { background: var(--warn); }
+
+.clip { display: grid; gap: 16px; padding-top: 22px; border-top: 2px solid var(--ink); }
+.clip.contrast { border-top-color: var(--ink-3); border-top-style: dashed; }
+.clip-head { display: grid; grid-template-columns: auto 1fr auto; gap: 4px 16px; align-items: baseline; }
+.num { font-family: var(--mono); font-size: 13px; color: var(--ink-3); }
+.clip h2 { margin: 0; font-size: 26px; font-weight: 700; letter-spacing: -.01em; }
+.role { font-family: var(--mono); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; padding: 3px 8px; border-radius: 3px; background: var(--blue-soft); color: var(--blue); white-space: nowrap; }
+.contrast .role { background: transparent; color: var(--ink-3); border: 1px solid var(--rule); }
+.idea { grid-column: 2 / -1; color: var(--ink-2); margin: 0; }
+.idea a { color: var(--ink-3); font-family: var(--mono); font-size: 12px; margin-left: 6px; }
+video { width: 100%; max-width: 100%; aspect-ratio: 16 / 10; background: #000; display: block; border-radius: 2px; }
+.timeline { font-family: var(--mono); font-size: 12px; color: var(--ink-3); margin: -6px 0 0; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+button { font: inherit; cursor: pointer; }
+.mark { font-family: var(--display); font-weight: 700; font-size: 14px; padding: 10px 16px; border-radius: 4px; border: 1.5px solid currentColor; background: var(--paper); }
+.mark.good { color: var(--blue); } .mark.good:hover { background: var(--blue-soft); }
+.mark.bad { color: var(--warn); } .mark.bad:hover { background: var(--warn-soft); }
+.mark:focus-visible, .chip:focus-visible, .seg button:focus-visible, textarea:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.hint { font-size: 13px; color: var(--ink-3); }
+
+.marks { display: flex; flex-wrap: wrap; gap: 8px; min-height: 8px; }
+.chip { display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 12px; padding: 5px 6px 5px 10px; border-radius: 3px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink); }
+.chip.good { border-color: var(--blue); } .chip.bad { border-color: var(--warn); }
+.chip .k { font-weight: 500; } .chip.good .k { color: var(--blue); } .chip.bad .k { color: var(--warn); }
+.chip input { font: inherit; border: 0; border-bottom: 1px solid var(--rule); background: transparent; color: var(--ink); width: 16ch; padding: 0 2px; }
+.chip .x { border: 0; background: none; color: var(--ink-3); padding: 0 4px; font-size: 14px; line-height: 1; }
+.chip .t { border: 0; background: none; color: inherit; padding: 0; font: inherit; text-decoration: underline; text-underline-offset: 3px; }
+
+.verdict { display: grid; gap: 10px; }
+.verdict-label { font-size: 13px; color: var(--ink-2); }
+.seg { display: flex; flex-wrap: wrap; gap: 0; border: 1px solid var(--rule); border-radius: 4px; overflow: hidden; width: fit-content; max-width: 100%; }
+.seg button { border: 0; border-right: 1px solid var(--rule); background: var(--paper); color: var(--ink-2); padding: 8px 14px; font-size: 14px; }
+.seg button:last-child { border-right: 0; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); font-weight: 700; }
+textarea { width: 100%; min-height: 64px; resize: vertical; font: inherit; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 4px; padding: 10px 12px; }
+
+footer { display: grid; gap: 12px; padding-top: 22px; border-top: 1px solid var(--rule); }
+footer p { margin: 0; color: var(--ink-2); max-width: 62ch; }
+.copy { justify-self: start; font-family: var(--display); font-weight: 700; padding: 10px 16px; border-radius: 4px; border: 1.5px solid var(--ink); background: var(--paper); color: var(--ink); }
+pre#out { white-space: pre-wrap; font-family: var(--mono); font-size: 12px; background: var(--paper); border: 1px solid var(--rule); padding: 12px; border-radius: 4px; overflow-x: auto; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Creative Direction Atlas · Motion &amp; tone study</div>
+    <h1>Where does it stop feeling sophisticated?</h1>
+    <p class="lede">You picked six sites from still images. These are their real recordings, at real speed, from our capture on the Iris Xe. Watch each one and mark the moments that matter to you. Two contrast sites you didn't pick are at the end.</p>
+    <ul class="how">
+      <li><b>Mark extraordinary</b> at the exact moment something makes you sit up.</li>
+      <li><b>Mark too much</b> when it tips into playful, gimmicky or tiring.</li>
+      <li>Add a few words to a mark if you can. Then give the clip a <b>verdict</b>.</li>
+    </ul>
+    <div class="status" aria-live="polite"><span><span class="dot" id="dot"></span><span id="save">Connecting…</span></span><span><strong id="done">0</strong> of 8 judged</span></div>
+  </header>
+
+  <main id="clips" class="wrap" style="gap:56px"></main>
+
+  <footer>
+    <p>Your marks save as you go, and Claude reads them from here. If saving isn't available in your view, copy your answers and paste them into the chat instead.</p>
+    <button class="copy" id="copy" type="button">Copy my answers</button>
+    <pre id="out" hidden></pre>
+  </footer>
+</div>
+
+<script>
+const CLIPS = [
+  { id: "immersive-garden", name: "Immersive Garden", role: "You loved", url: "https://immersive-g.com/", idea: "The cursor raises a white plaster relief out of a quiet page." },
+  { id: "making-software", name: "Making Software", role: "You loved", url: "https://www.makingsoftware.com/", idea: "A technical manual: one blueprint drawing language on white." },
+  { id: "nonobjective-time", name: "Non-Objective: Time", role: "You loved", url: "https://time.non-objective.works/", idea: "Hundreds of hand-drawn clocks, each a different idea of time." },
+  { id: "rauno", name: "Rauno Freiberg", role: "You loved", url: "https://rauno.me/", idea: "A sideways strip of exact white cards; Swiss restraint with one yellow." },
+  { id: "nothin", name: "Nothin'", role: "You loved", url: "https://www.noth.in/", idea: "A giant black wordmark on white, broken by one sculpted figure." },
+  { id: "oddworks", name: "Odd Works", role: "You loved", url: "https://oddworks.studio/", idea: "An exact grid carrying genuinely playful objects." },
+  { id: "teenage-engineering", name: "Teenage Engineering", role: "Contrast", url: "https://teenage.engineering/", idea: "One object under a spotlight; its long shadow becomes a dry joke." },
+  { id: "oxman", name: "OXMAN", role: "Contrast", url: "https://www.oxman.com/", idea: "A research lab with authority: claim, team, specimen, number." },
+];
+const VERDICTS = ["Sophisticated", "Mixed", "Too playful", "Too plain"];
+const state = Object.fromEntries(CLIPS.map(c => [c.id, { moments: [], verdict: "", note: "" }]));
+let db = null;
+const chains = {};
+const timers = {};
+
+const fmt = t => { const s = Math.max(0, t); return `${Math.floor(s / 60)}:${(s % 60).toFixed(1).padStart(4, "0")}`; };
+const $ = (sel, el = document) => el.querySelector(sel);
+
+function setStatus(text, kind) {
+  $("#save").textContent = text;
+  $("#dot").className = "dot" + (kind ? " " + kind : "");
+}
+function updateDone() {
+  $("#done").textContent = CLIPS.filter(c => state[c.id].verdict).length;
+}
+
+function save(id, delay = 0) {
+  clearTimeout(timers[id]);
+  timers[id] = setTimeout(() => {
+    if (!db) { setStatus("Not saving in this view · use Copy my answers", "warn"); return; }
+    const body = { site: id, moments: state[id].moments, verdict: state[id].verdict, note: state[id].note, updatedAt: new Date().toISOString() };
+    setStatus("Saving…");
+    chains[id] = (chains[id] || Promise.resolve()).then(() => db.doc("marks/" + id).set(body))
+      .then(() => setStatus("Saved", "ok"))
+      .catch(e => setStatus(e && e.code === "invalid_argument" ? "You can view but not save here · use Copy my answers" : "Couldn't save · use Copy my answers", "warn"));
+  }, delay);
+}
+
+function renderMarks(id) {
+  const box = $(`#marks-${id}`);
+  box.textContent = "";
+  state[id].moments.slice().sort((a, b) => a.t - b.t).forEach(m => {
+    const chip = document.createElement("span");
+    chip.className = "chip " + m.kind;
+    const seek = document.createElement("button");
+    seek.type = "button"; seek.className = "t"; seek.textContent = fmt(m.t);
+    seek.title = "Jump to this moment";
+    seek.onclick = () => { const v = $(`#v-${id}`); v.currentTime = m.t; v.focus(); };
+    const k = document.createElement("span");
+    k.className = "k"; k.textContent = m.kind === "good" ? "extraordinary" : "too much";
+    const note = document.createElement("input");
+    note.type = "text"; note.placeholder = "what, exactly?"; note.value = m.note || "";
+    note.id = `n-${id}-${m.at}`; note.setAttribute("aria-label", "Note for this mark");
+    note.oninput = () => { m.note = note.value; save(id, 800); };
+    const x = document.createElement("button");
+    x.type = "button"; x.className = "x"; x.textContent = "×"; x.setAttribute("aria-label", "Remove this mark");
+    x.onclick = () => { state[id].moments = state[id].moments.filter(o => o !== m); renderMarks(id); save(id); };
+    chip.append(seek, k, note, x);
+    box.append(chip);
+  });
+}
+
+function renderClip(c, i) {
+  const s = document.createElement("section");
+  s.className = "clip" + (c.role === "Contrast" ? " contrast" : "");
+  s.innerHTML = `
+    <div class="clip-head">
+      <span class="num">${String(i + 1).padStart(2, "0")}</span>
+      <h2></h2>
+      <span class="role"></span>
+      <p class="idea"><span></span><a target="_blank" rel="noopener"></a></p>
+    </div>
+    <video id="v-${c.id}" controls muted playsinline preload="metadata" src="clips/${c.id}.mp4"></video>
+    <p class="timeline">0:00–0:12 opening · then a mouse sweep, a drag, four scroll steps and an arrow-key hold</p>
+    <div class="controls">
+      <button type="button" class="mark good" id="g-${c.id}">Mark extraordinary</button>
+      <button type="button" class="mark bad" id="b-${c.id}">Mark too much</button>
+      <span class="hint">marks the video's current time</span>
+    </div>
+    <div class="marks" id="marks-${c.id}"></div>
+    <div class="verdict">
+      <span class="verdict-label">Verdict on the whole clip</span>
+      <div class="seg" role="group" aria-label="Verdict for ${c.name}"></div>
+      <textarea id="note-${c.id}" placeholder="Anything else: what you'd keep, what you'd never want on your site"></textarea>
+    </div>`;
+  $("h2", s).textContent = c.name;
+  $(".role", s).textContent = c.role;
+  $(".idea span", s).textContent = c.idea;
+  const a = $(".idea a", s); a.href = c.url; a.textContent = new URL(c.url).hostname.replace(/^www\./, "");
+  const seg = $(".seg", s);
+  VERDICTS.forEach(v => {
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = v; b.setAttribute("aria-pressed", "false");
+    b.onclick = () => { state[c.id].verdict = state[c.id].verdict === v ? "" : v; paintVerdict(c.id); updateDone(); save(c.id); };
+    seg.append(b);
+  });
+  const addMark = kind => {
+    const t = Math.round($(`#v-${c.id}`, s).currentTime * 10) / 10;
+    state[c.id].moments.push({ t, kind, note: "", at: Date.now() });
+    renderMarks(c.id); save(c.id);
+    const inputs = $(`#marks-${c.id}`).querySelectorAll("input");
+    const last = [...inputs].find(inp => inp.id.endsWith(String(state[c.id].moments.at(-1).at)));
+    if (last) last.focus();
+  };
+  $(`#g-${c.id}`, s).onclick = () => addMark("good");
+  $(`#b-${c.id}`, s).onclick = () => addMark("bad");
+  $(`#note-${c.id}`, s).oninput = e => { state[c.id].note = e.target.value; save(c.id, 800); };
+  return s;
+}
+function paintVerdict(id) {
+  const sec = $(`#v-${id}`).closest("section");
+  sec.querySelectorAll(".seg button").forEach(b => b.setAttribute("aria-pressed", String(b.textContent === state[id].verdict)));
+}
+function applyRemote(id, d) {
+  const same = JSON.stringify([state[id].moments, state[id].verdict, state[id].note]) === JSON.stringify([d.moments || [], d.verdict || "", d.note || ""]);
+  if (same) return;
+  state[id] = { moments: Array.isArray(d.moments) ? d.moments.map(m => ({ ...m })) : [], verdict: d.verdict || "", note: d.note || "" };
+  renderMarks(id); paintVerdict(id);
+  const ta = $(`#note-${id}`); if (document.activeElement !== ta) ta.value = state[id].note;
+  updateDone();
+}
+
+CLIPS.forEach((c, i) => $("#clips").append(renderClip(c, i)));
+
+$("#copy").onclick = async () => {
+  const lines = CLIPS.map(c => {
+    const st = state[c.id];
+    const ms = st.moments.slice().sort((a, b) => a.t - b.t).map(m => `  ${fmt(m.t)} ${m.kind === "good" ? "EXTRAORDINARY" : "TOO MUCH"}${m.note ? " — " + m.note : ""}`);
+    return [`${c.name} (${c.role}): ${st.verdict || "no verdict"}`, ...ms, st.note ? "  note: " + st.note : ""].filter(Boolean).join("\n");
+  }).join("\n\n");
+  const out = $("#out"); out.textContent = lines; out.hidden = false;
+  try { await navigator.clipboard.writeText(lines); $("#copy").textContent = "Copied"; }
+  catch { const r = document.createRange(); r.selectNodeContents(out); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); $("#copy").textContent = "Selected · press Ctrl+C"; }
+};
+
+(async () => {
+  try { db = await window.claude?.use?.("db"); } catch { db = null; }
+  if (!db) { setStatus("Not saving in this view · use Copy my answers", "warn"); return; }
+  setStatus("Loading your marks…");
+  const slow = setTimeout(() => setStatus("Can't reach saved marks yet · new marks will still try to save", "warn"), 10000);
+  db.collection("marks").onSnapshot(snap => {
+    if (!snap.metadata.fromCache) { clearTimeout(slow); if (!snap.metadata.hasPendingWrites) setStatus(snap.empty ? "Ready · marks save as you go" : "Saved", "ok"); }
+    snap.docChanges().forEach(ch => {
+      if (ch.type === "removed" || snap.metadata.hasPendingWrites) return;
+      const id = ch.doc.id; if (state[id]) applyRemote(id, ch.doc.data());
+    });
+  }, () => { clearTimeout(slow); setStatus("Saving stopped · use Copy my answers", "warn"); });
+})();
+</script>
