@@ -1,0 +1,5732 @@
+[
+ {
+  "name": "Bruno Simon Portfolio",
+  "url": "https://bruno-simon.com",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "physics",
+   "driving",
+   "portfolio"
+  ],
+  "notable": "Portfolio you navigate by driving a toy car around a physics-driven 3D playground with interactive zones."
+ },
+ {
+  "name": "Bruno Simon Portfolio 2019",
+  "url": "https://2019.bruno-simon.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2019,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "physics",
+   "driving",
+   "portfolio"
+  ],
+  "notable": "The earlier landmark drivable-car portfolio that popularised physics-driven navigation in a personal site."
+ },
+ {
+  "name": "Igloo Inc",
+  "url": "https://www.igloo.inc/",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "shaders",
+   "storytelling",
+   "lusion"
+  ],
+  "notable": "Immersive ice-themed brand experience listed by mesh3d.gallery that pairs scroll storytelling with heavy WebGL art direction."
+ },
+ {
+  "name": "Lusion",
+  "url": "https://lusion.co/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "three.js",
+   "shaders",
+   "physics",
+   "studio"
+  ],
+  "notable": "Bristol studio site whose own homepage showcases physics-driven 3D, particle transitions and scroll choreography."
+ },
+ {
+  "name": "Lusion Labs",
+  "url": "https://labs.lusion.co/",
+  "source": "Lusion project pages",
+  "source_url": "https://lusion.co/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "webgpu",
+   "labs",
+   "experiments"
+  ],
+  "notable": "R&D arm of Lusion publishing standalone WebGL and WebGPU experiments."
+ },
+ {
+  "name": "ORYZO AI",
+  "url": "https://oryzo.ai/",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "product-3d",
+   "lusion",
+   "scroll"
+  ],
+  "notable": "Product launch page for a physical device rendered as a tactile real-time 3D object with scroll-driven reveals."
+ },
+ {
+  "name": "The Symphony of Vines",
+  "url": "https://symphonyofvines.unseen.co/",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2024,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "procedural",
+   "generative",
+   "audio"
+  ],
+  "notable": "Unseen Studio piece where a vineyard becomes a generative, sound-driven 3D scene."
+ },
+ {
+  "name": "Unseen Studio",
+  "url": "https://unseen.co",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "three.js",
+   "shaders",
+   "studio",
+   "labs"
+  ],
+  "notable": "London studio site with a labs section of experimental real-time pieces."
+ },
+ {
+  "name": "Unseen Crosswire",
+  "url": "http://crosswire.unseen.co/",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "scroll",
+   "3d",
+   "interaction"
+  ],
+  "notable": "Feature-scroll WebGL storytelling for the Crosswire project by Unseen."
+ },
+ {
+  "name": "Lusion Gemini Experiment",
+  "url": "https://exp-gemini.lusion.co/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "particles",
+   "experiment",
+   "lusion"
+  ],
+  "notable": "Lusion R&D experiment listed in the three.js showcase exploring paired forms and particle behaviour in real time."
+ },
+ {
+  "name": "Lusion Infinite Passerella",
+  "url": "https://exp-infinite-passerella.lusion.co/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "fashion",
+   "loop",
+   "experiment"
+  ],
+  "notable": "Lusion experiment built around an endless catwalk loop."
+ },
+ {
+  "name": "Lusion My Little Storybook",
+  "url": "https://exp-my-little-storybook.lusion.co/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "storybook",
+   "illustration",
+   "experiment"
+  ],
+  "notable": "Storybook-themed 3D experiment from Lusion with a hand-crafted illustrated feel."
+ },
+ {
+  "name": "Lusion WebXR Sneakers",
+  "url": "https://webxr-sneakers.lusion.co/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "webxr",
+   "product-3d",
+   "ar"
+  ],
+  "notable": "Lusion proof of concept showing a sneaker in AR through WebXR."
+ },
+ {
+  "name": "Lusion x Porsche Dream Machine",
+  "url": "https://lusion.co/projects/porsche_dream_machine",
+  "source": "Lusion project pages",
+  "source_url": "https://lusion.co/",
+  "year": 2024,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "automotive",
+   "scroll",
+   "lusion"
+  ],
+  "notable": "Lusion case page for Porsche Dream Machine, a cinematic WebGL showcase for the brand."
+ },
+ {
+  "name": "Lusion x Meta Spatial Fusion",
+  "url": "https://lusion.co/projects/spatial_fusion",
+  "source": "Lusion project pages",
+  "source_url": "https://lusion.co/",
+  "year": 2024,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "spatial",
+   "3d",
+   "lusion"
+  ],
+  "notable": "Lusion case page for a Meta mixed-reality themed 3D marketing site."
+ },
+ {
+  "name": "Lusion x Synthetic Human",
+  "url": "https://lusion.co/projects/synthetic_human",
+  "source": "Lusion project pages",
+  "source_url": "https://lusion.co/",
+  "year": 2024,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "character",
+   "3d",
+   "lusion"
+  ],
+  "notable": "Lusion case page for Synthetic Human, a character-led interactive 3D piece."
+ },
+ {
+  "name": "Lusion x Devin AI",
+  "url": "https://lusion.co/projects/devin_ai",
+  "source": "Lusion project pages",
+  "source_url": "https://lusion.co/",
+  "year": 2024,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "ai",
+   "shaders",
+   "lusion"
+  ],
+  "notable": "Lusion case page for the Devin AI launch site."
+ },
+ {
+  "name": "Lusion x Soda Experience",
+  "url": "https://lusion.co/projects/soda_experience",
+  "source": "Lusion project pages",
+  "source_url": "https://lusion.co/",
+  "year": 2023,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "product",
+   "physics",
+   "lusion"
+  ],
+  "notable": "Lusion case page for a playful 3D soda product experience."
+ },
+ {
+  "name": "Lusion DDD 2024",
+  "url": "https://lusion.co/projects/ddd_2024",
+  "source": "Lusion project pages",
+  "source_url": "https://lusion.co/",
+  "year": 2024,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "event",
+   "3d",
+   "lusion"
+  ],
+  "notable": "Lusion case page for the DDD 2024 conference site."
+ },
+ {
+  "name": "Choo Choo World",
+  "url": "https://choochooworld.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2023,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "game",
+   "exploration",
+   "lusion"
+  ],
+  "notable": "Whimsical 3D toy-train world you roam around, a game-like playground made by Lusion."
+ },
+ {
+  "name": "Spaace NFT Marketplace",
+  "url": "https://spaace.io/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2022,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "shaders",
+   "marketplace",
+   "lusion"
+  ],
+  "notable": "Visually intense marketplace site with immersive WebGL surfaces aimed at gamers."
+ },
+ {
+  "name": "Blob Mixer",
+  "url": "https://blobmixer.14islands.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "shaders",
+   "generative",
+   "tool"
+  ],
+  "notable": "14islands tool for sculpting, tweaking and sharing 3D blobs from shader parameters."
+ },
+ {
+  "name": "Coastal World",
+  "url": "https://coastalworld.merci-michel.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2023,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "low-poly",
+   "exploration",
+   "scroll"
+  ],
+  "notable": "Merci-Michel stylised coastal world with calm ambient landscape exploration."
+ },
+ {
+  "name": "Merci-Michel NO",
+  "url": "https://no.merci-michel.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2022,
+  "category": "studio-agency",
+  "tags": [
+   "three.js",
+   "shaders",
+   "studio",
+   "interactive"
+  ],
+  "notable": "Merci-Michel interactive project listed in the three.js showcase."
+ },
+ {
+  "name": "The Tie-break",
+  "url": "https://thetiebreak.merci-michel.com/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "sport",
+   "game",
+   "merci-michel"
+  ],
+  "notable": "Merci-Michel interactive tennis tie-break experience featured in Awwwards WebGL."
+ },
+ {
+  "name": "MSI Egg Hunt",
+  "url": "https://egghunt.msi.com/?uid=mercimichel",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "game",
+   "webgl",
+   "campaign"
+  ],
+  "notable": "Browser egg-hunt game by Merci-Michel for MSI, listed in Awwwards' experimental WebGL roundup."
+ },
+ {
+  "name": "Lost Marbles",
+  "url": "https://meticulai.com/games/lost-marbles/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2024,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "physics",
+   "game",
+   "marble"
+  ],
+  "notable": "Marble-run style game running entirely in the browser."
+ },
+ {
+  "name": "Wind Waker three.js",
+  "url": "https://wind-waker-threejs.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2024,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "game",
+   "stylised",
+   "fan-project"
+  ],
+  "notable": "Fan recreation of a Wind Waker scene with cel-shaded look."
+ },
+ {
+  "name": "Heraclos",
+  "url": "https://heraclosgame.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2024,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "game",
+   "action",
+   "browser"
+  ],
+  "notable": "Full action game built on three.js and playable in the browser."
+ },
+ {
+  "name": "PolyTrack",
+  "url": "https://www.kodub.com/apps/polytrack",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2023,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "racing",
+   "low-poly",
+   "track-editor"
+  ],
+  "notable": "Low-poly time-attack racer with a built-in track editor."
+ },
+ {
+  "name": "Slow Roads",
+  "url": "http://slowroads.io",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2022,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "procedural",
+   "driving",
+   "ambient"
+  ],
+  "notable": "Endless relaxing procedurally generated driving game with weather and time of day."
+ },
+ {
+  "name": "Krunker",
+  "url": "https://krunker.io/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2018,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "multiplayer",
+   "fps",
+   "voxel"
+  ],
+  "notable": "Fast multiplayer browser FPS that showed three.js can carry a competitive shooter."
+ },
+ {
+  "name": "Jelly Mario",
+  "url": "https://jellymar.io/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2024,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "physics",
+   "platformer",
+   "soft-body"
+  ],
+  "notable": "Soft-body jelly platformer with squishy physics."
+ },
+ {
+  "name": "Three Doom",
+  "url": "https://mrdoob.github.io/three-doom/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "retro",
+   "port",
+   "game"
+  ],
+  "notable": "Doom reimplemented on three.js by mrdoob, a classic engine port onto a modern renderer."
+ },
+ {
+  "name": "Three Quake",
+  "url": "https://mrdoob.github.io/three-quake/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "retro",
+   "port",
+   "game"
+  ],
+  "notable": "Quake running on three.js, a classic-engine port to the web."
+ },
+ {
+  "name": "Three Descent",
+  "url": "https://mrdoob.github.io/three-descent/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "retro",
+   "port",
+   "6dof"
+  ],
+  "notable": "Descent-style six-degrees-of-freedom shooter on three.js."
+ },
+ {
+  "name": "Slop New York",
+  "url": "https://mrdoob.github.io/slop-newyork/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "city",
+   "procedural",
+   "experiment"
+  ],
+  "notable": "mrdoob experiment of a generated New York city scene."
+ },
+ {
+  "name": "Starter Kit Racing",
+  "url": "https://mrdoob.github.io/Starter-Kit-Racing/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "racing",
+   "starter-kit",
+   "game"
+  ],
+  "notable": "Minimal racing game starter kit built with three.js."
+ },
+ {
+  "name": "Rome: Three Dreams of Black",
+  "url": "https://rome.mrdoob.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2011,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "webgl",
+   "narrative",
+   "music"
+  ],
+  "notable": "Chrome Experiment interactive film that was an early flagship for three.js."
+ },
+ {
+  "name": "NASA Eyes on the Solar System",
+  "url": "https://eyes.nasa.gov/apps/solar-system/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2020,
+  "category": "other",
+  "tags": [
+   "three.js",
+   "science",
+   "space",
+   "data-viz"
+  ],
+  "notable": "NASA real-time 3D orrery of planets, moons and spacecraft driven by mission data."
+ },
+ {
+  "name": "NASA Mars 2020 Eyes",
+  "url": "https://eyes.nasa.gov/apps/mars2020/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2020,
+  "category": "other",
+  "tags": [
+   "three.js",
+   "science",
+   "space",
+   "real-time"
+  ],
+  "notable": "Real-time 3D view of the Perseverance mission and Mars terrain."
+ },
+ {
+  "name": "Experiments with Google Globe",
+  "url": "https://experiments.withgoogle.com/chrome/globe",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2011,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "globe",
+   "data-viz",
+   "chrome-experiment"
+  ],
+  "notable": "The WebGL Globe, an early data-on-a-sphere visual that became a widely reused pattern."
+ },
+ {
+  "name": "Google I/O 2024 Puzzle",
+  "url": "https://io.google/2024/puzzle/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2024,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "puzzle",
+   "physics",
+   "event"
+  ],
+  "notable": "Google I/O puzzle game with 3D physics-style interaction."
+ },
+ {
+  "name": "Through the Dark (Google)",
+  "url": "https://throughthedark.withgoogle.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2022,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "webgl",
+   "narrative",
+   "exploration"
+  ],
+  "notable": "Narrative interactive 3D piece by Google."
+ },
+ {
+  "name": "Draw the World (Google)",
+  "url": "https://worlddraw.withgoogle.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2022,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "drawing",
+   "3d",
+   "generative"
+  ],
+  "notable": "Google experiment that lets you draw into a 3D world."
+ },
+ {
+  "name": "Spotify Weather",
+  "url": "https://weather.withspotify.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2023,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "weather",
+   "music",
+   "3d"
+  ],
+  "notable": "Spotify campaign that ties weather and mood to music through a 3D scene."
+ },
+ {
+  "name": "Virtual Art (Chrome Experiments)",
+  "url": "https://virtualart.chromeexperiments.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2018,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "gallery",
+   "virtual",
+   "chrome-experiment"
+  ],
+  "notable": "Virtual art gallery you walk through in the browser."
+ },
+ {
+  "name": "Billie Eilish x YouTube",
+  "url": "https://billie.withyoutube.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2021,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "music",
+   "3d",
+   "campaign"
+  ],
+  "notable": "Interactive music world made for a YouTube artist campaign."
+ },
+ {
+  "name": "The Fabulous Cartier Journey",
+  "url": "https://www.cartier.com/thefabulouscartierjourney",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2023,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "luxury",
+   "narrative",
+   "scroll"
+  ],
+  "notable": "Luxury brand journey told as an interactive 3D story."
+ },
+ {
+  "name": "Kubota Futurecube",
+  "url": "https://www.kubota.com/futurecube/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2021,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "concept",
+   "3d",
+   "interactive"
+  ],
+  "notable": "Interactive concept site built around a futuristic cube."
+ },
+ {
+  "name": "Design the Next iPhone",
+  "url": "https://neal.fun/design-the-next-iphone/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2022,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "humor",
+   "interactive",
+   "3d"
+  ],
+  "notable": "Humorous interactive where you spin and customise a 3D phone."
+ },
+ {
+  "name": "Mozilla Hubs",
+  "url": "https://hubs.mozilla.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2018,
+  "category": "other",
+  "tags": [
+   "three.js",
+   "webxr",
+   "social",
+   "multiplayer"
+  ],
+  "notable": "Browser social VR spaces built on three.js and A-Frame."
+ },
+ {
+  "name": "Junni",
+  "url": "https://next.junni.co.jp/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2024,
+  "category": "studio-agency",
+  "tags": [
+   "three.js",
+   "shaders",
+   "japan",
+   "studio"
+  ],
+  "notable": "Japanese studio site with a WebGL-rich interface."
+ },
+ {
+  "name": "Leap for Mankind",
+  "url": "https://leap-for-mankind.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2019,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "space",
+   "history",
+   "scroll"
+  ],
+  "notable": "Apollo anniversary interactive retelling the moon landing in 3D."
+ },
+ {
+  "name": "Lamborghini 3D",
+  "url": "https://www.lamborghini.com/en-en/3d",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2020,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "configurator",
+   "automotive",
+   "pbr"
+  ],
+  "notable": "Lamborghini 3D viewer with detailed PBR car models."
+ },
+ {
+  "name": "Maserati House Of",
+  "url": "https://houseof.maserati.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2022,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "automotive",
+   "brand",
+   "immersive"
+  ],
+  "notable": "Maserati brand world as an immersive web scene."
+ },
+ {
+  "name": "Hublot x Darkroom Engineering",
+  "url": "https://hublot.darkroom.engineering/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2024,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "watch",
+   "luxury",
+   "product-3d"
+  ],
+  "notable": "Darkroom Engineering product piece for a luxury watch with polished 3D rendering."
+ },
+ {
+  "name": "Dioriviera 2022",
+  "url": "https://capsule.dior.com/dioriviera-2022/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2022,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "fashion",
+   "immersive",
+   "brand"
+  ],
+  "notable": "Dior summer capsule as an immersive WebGL world, credited on the Immersive Garden project list."
+ },
+ {
+  "name": "Gucci 1955 Horsebit",
+  "url": "https://1955horsebit.gucci.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2020,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "fashion",
+   "product-3d",
+   "brand"
+  ],
+  "notable": "Gucci product microsite with an interactive 3D loafer."
+ },
+ {
+  "name": "Mont Blanc The Run",
+  "url": "https://therun.montblanclegend.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2022,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "runner",
+   "game",
+   "brand"
+  ],
+  "notable": "Mont Blanc branded run experience."
+ },
+ {
+  "name": "Shopify Editions Winter 2026",
+  "url": "https://www.shopify.com/editions/winter2026",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2026,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "product-launch",
+   "scroll",
+   "3d"
+  ],
+  "notable": "Shopify annual product showcase wrapped in a WebGL scene."
+ },
+ {
+  "name": "Shopify Editions Spring 2026",
+  "url": "https://www.shopify.com/editions/spring2026",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2026,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "product-launch",
+   "scroll",
+   "3d"
+  ],
+  "notable": "Shopify seasonal product event with a 3D narrative interface."
+ },
+ {
+  "name": "SpaceX ISS Docking Simulator",
+  "url": "https://iss-sim.spacex.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2020,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "simulation",
+   "space",
+   "ui"
+  ],
+  "notable": "Official browser simulator for docking Crew Dragon with the ISS."
+ },
+ {
+  "name": "Holtsetio Lab: Softbodies",
+  "url": "https://holtsetio.com/lab/softbodies/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "physics",
+   "soft-body",
+   "simulation"
+  ],
+  "notable": "Holtsetio soft body simulation experiment."
+ },
+ {
+  "name": "Holtsetio Lab: Aurelia",
+  "url": "https://holtsetio.com/lab/aurelia/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "simulation",
+   "procedural",
+   "creature"
+  ],
+  "notable": "Holtsetio lab piece featuring a procedural creature."
+ },
+ {
+  "name": "Holtsetio Lab: Flow",
+  "url": "https://holtsetio.com/lab/flow/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "fluid",
+   "simulation",
+   "gpgpu"
+  ],
+  "notable": "Holtsetio lab flow simulation."
+ },
+ {
+  "name": "Holtsetio Lab: Breeze",
+  "url": "https://holtsetio.com/lab/breeze/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "simulation",
+   "wind",
+   "gpgpu"
+  ],
+  "notable": "Holtsetio lab experiment with wind-driven motion."
+ },
+ {
+  "name": "Holtsetio Lab: Tetris",
+  "url": "https://holtsetio.com/lab/tetris/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "game",
+   "physics",
+   "simulation"
+  ],
+  "notable": "Holtsetio take on Tetris with physical simulation."
+ },
+ {
+  "name": "Grischa Erbe TSL Experiments",
+  "url": "https://tsl-experiments.vercel.app",
+  "source": "WebSearch: three.js TSL/WebGPU demo collections",
+  "source_url": "https://tsl-experiments.vercel.app",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "webgpu",
+   "tsl",
+   "shaders"
+  ],
+  "notable": "Collection of WebGPU-first experiments written in Three Shading Language."
+ },
+ {
+  "name": "Shader Development Studio",
+  "url": "https://shader.se/",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "shaders",
+   "three.js",
+   "studio",
+   "generative"
+  ],
+  "notable": "Studio specialising in shader-driven web visuals, selected by mesh3d.gallery."
+ },
+ {
+  "name": "Daiki Fujita",
+  "url": "https://daikifujita.com/",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "three.js",
+   "portfolio",
+   "webgl",
+   "motion"
+  ],
+  "notable": "Personal portfolio selected by mesh3d.gallery editors."
+ },
+ {
+  "name": "Zero: Human Infrastructure",
+  "url": "https://why.zero.university/",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "storytelling",
+   "scroll",
+   "3d"
+  ],
+  "notable": "Narrative scroll site with 3D scenes, selected by mesh3d.gallery."
+ },
+ {
+  "name": "Cyera AI Guardian",
+  "url": "https://secure-the-unknown.cyera.com/",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "security",
+   "storytelling",
+   "3d"
+  ],
+  "notable": "Cybersecurity product story told through immersive WebGL scenes."
+ },
+ {
+  "name": "Rogier de Boeve",
+  "url": "https://rogierdeboeve.com/",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "three.js",
+   "portfolio",
+   "creative-dev",
+   "webgl"
+  ],
+  "notable": "Creative developer portfolio selected by mesh3d.gallery."
+ },
+ {
+  "name": "HubTown",
+  "url": "https://hubtown.co.in/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "real-estate",
+   "scroll",
+   "3d"
+  ],
+  "notable": "Real estate brand site with scroll-linked 3D."
+ },
+ {
+  "name": "Noomo Storytelling",
+  "url": "https://storytelling.noomoagency.com/",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "three.js",
+   "storytelling",
+   "studio",
+   "scroll"
+  ],
+  "notable": "Noomo agency showcase about the power of digital storytelling."
+ },
+ {
+  "name": "EverSwap",
+  "url": "https://everswap.com/",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "crypto",
+   "lusion",
+   "particles"
+  ],
+  "notable": "Lusion-credited DeFi site with rich 3D visuals."
+ },
+ {
+  "name": "illoca",
+  "url": "https://illoca.com",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "architecture",
+   "ai",
+   "unseen"
+  ],
+  "notable": "Architectural design tool site credited to Unseen Studio on mesh3d.gallery."
+ },
+ {
+  "name": "OceanX 2025 Year in Review",
+  "url": "https://2025.oceanx.org",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "event-campaign",
+  "tags": [
+   "three.js",
+   "ocean",
+   "data-story",
+   "unseen"
+  ],
+  "notable": "Unseen Studio year-in-review set in an ocean 3D world."
+ },
+ {
+  "name": "Threejs-Punk Drive",
+  "url": "https://www.threejspunk.com/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "racing",
+   "synthwave",
+   "game"
+  ],
+  "notable": "Night-drive racing game with neon synthwave look."
+ },
+ {
+  "name": "Mesh Transition Material",
+  "url": "https://mesh-transition-material.vercel.app",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "shaders",
+   "transition",
+   "material"
+  ],
+  "notable": "Anderson Mancini demo of an animated mesh-to-mesh transition material."
+ },
+ {
+  "name": "WebGPU Glass Material",
+  "url": "https://webgpu-glass-material.vercel.app",
+  "source": "mesh3d.gallery",
+  "source_url": "https://mesh3d.gallery",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "three.js",
+   "glass",
+   "material"
+  ],
+  "notable": "Anderson Mancini WebGPU glass material study."
+ },
+ {
+  "name": "Lumen Decor Studio",
+  "url": "https://lumen-decor-studio.vercel.app/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "product-3d",
+   "lighting",
+   "scroll"
+  ],
+  "notable": "Lighting-brand site with 3D product reveals."
+ },
+ {
+  "name": "Pyzhevsky",
+  "url": "https://pyzhevsky.estate/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "real-estate",
+   "awwwards",
+   "3d"
+  ],
+  "notable": "Real estate site listed first in Awwwards' WebGL category with a 3D-led presentation."
+ },
+ {
+  "name": "Hoyo Jerez",
+  "url": "https://hoyojerez.com/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "food",
+   "awwwards",
+   "3d"
+  ],
+  "notable": "Restaurant brand site in the Awwwards WebGL category, also featured on mesh3d.gallery."
+ },
+ {
+  "name": "Enigma",
+  "url": "https://www.enigmascult.com/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "brand",
+   "awwwards",
+   "immersive"
+  ],
+  "notable": "Brand site in Awwwards' WebGL category with an immersive shader-driven look."
+ },
+ {
+  "name": "Georgedo: From Dream to Reality",
+  "url": "https://georgedo.com/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Creative portfolio with WebGL motion listed in Awwwards WebGL."
+ },
+ {
+  "name": "YOLO.EXE",
+  "url": "https://yoloexe.com",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "glitch",
+   "awwwards",
+   "experimental"
+  ],
+  "notable": "Experimental site in the Awwwards WebGL category."
+ },
+ {
+  "name": "Study Hall",
+  "url": "https://studyhall.design/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "design"
+  ],
+  "notable": "Design studio site with WebGL accents."
+ },
+ {
+  "name": "Trois pas de cote Anniversary",
+  "url": "https://anniversary.troispasdecote.fr/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "anniversary",
+   "awwwards",
+   "scroll"
+  ],
+  "notable": "Anniversary microsite with a WebGL-driven scroll narrative."
+ },
+ {
+  "name": "Monet 100",
+  "url": "https://100yearsmonet.com",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "art",
+   "awwwards",
+   "painting"
+  ],
+  "notable": "Centenary tribute to Monet presented as an interactive WebGL experience."
+ },
+ {
+  "name": "Siglitos",
+  "url": "https://siglitos.com",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "brand",
+   "awwwards",
+   "playful"
+  ],
+  "notable": "Playful brand site in the Awwwards WebGL category."
+ },
+ {
+  "name": "Vadim Carazan Art Director",
+  "url": "https://vadimcarazan.com/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "art-direction"
+  ],
+  "notable": "Art director portfolio built on WebGL."
+ },
+ {
+  "name": "TY1",
+  "url": "https://ty1official.com",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "music",
+   "awwwards",
+   "brand"
+  ],
+  "notable": "Artist site with WebGL visuals."
+ },
+ {
+  "name": "NEUV",
+  "url": "https://neuv.fr",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "brand",
+   "awwwards",
+   "3d"
+  ],
+  "notable": "French brand site with 3D-led design."
+ },
+ {
+  "name": "Spyker Cars",
+  "url": "https://www.spykercars.com",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "automotive",
+   "awwwards",
+   "3d"
+  ],
+  "notable": "Boutique supercar maker site with 3D car presentation."
+ },
+ {
+  "name": "Merkur Design",
+  "url": "https://merkurdesign.com/?r=0",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "design"
+  ],
+  "notable": "Design studio site in Awwwards WebGL."
+ },
+ {
+  "name": "Aaron Brimhall",
+  "url": "https://www.aaronbrimhall.com/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Personal portfolio with WebGL."
+ },
+ {
+  "name": "The Atelier New York",
+  "url": "http://www.theateliernewyork.com",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "fashion"
+  ],
+  "notable": "Studio site with WebGL elements."
+ },
+ {
+  "name": "4Cs ad: Brush to Digital",
+  "url": "https://branding.4cs-ad.co.jp",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "brush",
+   "awwwards",
+   "japan"
+  ],
+  "notable": "Japanese branding piece that turns brush strokes into digital WebGL form."
+ },
+ {
+  "name": "Trek Cards",
+  "url": "https://trek.cards/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "webgl",
+   "cards",
+   "awwwards",
+   "collectible"
+  ],
+  "notable": "Collectible card site with 3D card interaction."
+ },
+ {
+  "name": "Unbelievably Crap",
+  "url": "https://www.unbelievablycrap.com/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "humor",
+   "awwwards",
+   "mesh3d"
+  ],
+  "notable": "Humorous WebGL site featured both on Awwwards and mesh3d.gallery."
+ },
+ {
+  "name": "Darkmoon AI Pentest Platform",
+  "url": "https://dark-moon.org/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "security",
+   "awwwards",
+   "dark"
+  ],
+  "notable": "Security platform site with dark WebGL atmosphere."
+ },
+ {
+  "name": "Tom Barrow",
+  "url": "https://yeahright.co",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Portfolio listed in Awwwards WebGL."
+ },
+ {
+  "name": "tesseract by Postminimal",
+  "url": "https://tesseract.postminimal.agency",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "geometry",
+   "awwwards",
+   "agency"
+  ],
+  "notable": "Postminimal agency piece around tesseract-style geometry."
+ },
+ {
+  "name": "Pixelismo",
+  "url": "https://www.pixelismo.it",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "pixels"
+  ],
+  "notable": "Italian studio site with pixel-led visuals."
+ },
+ {
+  "name": "Christen Dijoux Portfolio",
+  "url": "https://christendijoux.com",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Developer portfolio with WebGL."
+ },
+ {
+  "name": "Artocea",
+  "url": "https://www.artocea.com/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "ocean",
+   "awwwards",
+   "art"
+  ],
+  "notable": "Ocean-art themed site with WebGL."
+ },
+ {
+  "name": "Ivan Pitenin",
+  "url": "https://ivan.technology/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Creative developer portfolio."
+ },
+ {
+  "name": "Pradip Dhakal",
+  "url": "https://pradiplabs.dev",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Developer portfolio and lab with WebGL."
+ },
+ {
+  "name": "Guillaume Colombel Portfolio 2026",
+  "url": "https://guillaumecolombel.fr/",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "2026 developer portfolio in the Awwwards WebGL list."
+ },
+ {
+  "name": "Ilnaz Khasanshin Portfolio",
+  "url": "https://ntch.design",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "design"
+  ],
+  "notable": "Designer portfolio built with WebGL."
+ },
+ {
+  "name": "PUTURE",
+  "url": "https://puture.co.kr/en",
+  "source": "Awwwards WebGL collection (p1)",
+  "source_url": "https://www.awwwards.com/websites/webgl/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "korea",
+   "awwwards",
+   "brand"
+  ],
+  "notable": "Korean brand site with WebGL."
+ },
+ {
+  "name": "Deebak Tamilmani Portfolio",
+  "url": "https://www.dbydt.space",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "space"
+  ],
+  "notable": "Space-themed developer portfolio."
+ },
+ {
+  "name": "VPLOSS",
+  "url": "https://vploss.com",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "brand",
+   "awwwards",
+   "3d"
+  ],
+  "notable": "3D-forward brand site in Awwwards WebGL."
+ },
+ {
+  "name": "Levi Gavrilut",
+  "url": "https://levigav.com",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Creative portfolio with WebGL."
+ },
+ {
+  "name": "Awards Racing",
+  "url": "https://awards.racing",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "webgl",
+   "racing",
+   "awwwards",
+   "game"
+  ],
+  "notable": "Racing-themed interactive piece from the Awwwards WebGL list."
+ },
+ {
+  "name": "31 for 31",
+  "url": "https://www.31-for-31.com/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "campaign",
+   "awwwards",
+   "scroll"
+  ],
+  "notable": "Campaign site with WebGL-driven storytelling."
+ },
+ {
+  "name": "fromearth 2050",
+  "url": "http://fromearth.love",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "climate",
+   "awwwards",
+   "speculative"
+  ],
+  "notable": "Speculative earth-themed WebGL experience."
+ },
+ {
+  "name": "Sebastien Graf",
+  "url": "https://www.sebg.ch/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Developer portfolio."
+ },
+ {
+  "name": "Gray",
+  "url": "https://graysunderland.com/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Portfolio with WebGL motion."
+ },
+ {
+  "name": "Forge Automotive",
+  "url": "https://forgeautomotive.co.uk/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "automotive",
+   "awwwards",
+   "3d"
+  ],
+  "notable": "Automotive site with 3D visuals."
+ },
+ {
+  "name": "Chande Bootcamp 2026",
+  "url": "http://chandebootcamp.com/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": 2026,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "event",
+   "awwwards",
+   "campaign"
+  ],
+  "notable": "Bootcamp event microsite with WebGL."
+ },
+ {
+  "name": "SYBIOSME",
+  "url": "https://sybiosme.com/en",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "biology",
+   "awwwards",
+   "mesh3d"
+  ],
+  "notable": "Bio-inspired site featured on Awwwards and mesh3d.gallery."
+ },
+ {
+  "name": "HOLMCHROME",
+  "url": "https://holmchrome.byholm.co/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "chrome",
+   "awwwards",
+   "material"
+  ],
+  "notable": "Chrome-material showpiece in the Awwwards WebGL list."
+ },
+ {
+  "name": "Dopamine Studio",
+  "url": "https://www.dopaminestudio.io/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Studio site with WebGL."
+ },
+ {
+  "name": "David Estrada",
+  "url": "https://david-estrada.dev/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Developer portfolio."
+ },
+ {
+  "name": "Allan Leone Product Designer",
+  "url": "https://allanleone.com/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "design"
+  ],
+  "notable": "Product designer portfolio using WebGL."
+ },
+ {
+  "name": "Huxley Saga",
+  "url": "https://www.huxleysaga.com/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "webgl",
+   "game",
+   "awwwards",
+   "narrative"
+  ],
+  "notable": "Game and story world site with WebGL."
+ },
+ {
+  "name": "Derive Ocean",
+  "url": "https://derive-ocean.com/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "ocean",
+   "awwwards",
+   "immersive"
+  ],
+  "notable": "Ocean-drift themed immersive WebGL experience."
+ },
+ {
+  "name": "RIY3.0 Hive",
+  "url": "https://riy3.com/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "hive",
+   "awwwards",
+   "generative"
+  ],
+  "notable": "Hive-themed generative WebGL site."
+ },
+ {
+  "name": "Reli Studio",
+  "url": "https://reliwebgl.com",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "showreel"
+  ],
+  "notable": "WebGL studio site."
+ },
+ {
+  "name": "Cagdas Cecen Media Arts",
+  "url": "https://www.cagdascecen.com",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "media-art"
+  ],
+  "notable": "Media artist portfolio."
+ },
+ {
+  "name": "Experience Funtech Creativity",
+  "url": "https://experience2026.funtech.inc/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "event",
+   "awwwards",
+   "experience"
+  ],
+  "notable": "Event experience site, also in the three.js showcase."
+ },
+ {
+  "name": "Carter Ogunsola",
+  "url": "https://carterogunsola.com",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Developer portfolio."
+ },
+ {
+  "name": "STUDIO seitaro",
+  "url": "https://seitaroyamazaki.com/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "japan"
+  ],
+  "notable": "Japanese designer studio portfolio."
+ },
+ {
+  "name": "Crazy Studio",
+  "url": "https://crazy.studio/",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Studio site with WebGL."
+ },
+ {
+  "name": "Cartier: Le Choeur des Pierres",
+  "url": "https://www.cartier.com/en-fr/lechoeurdespierres",
+  "source": "Awwwards WebGL collection (p2)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=2",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "luxury",
+   "awwwards",
+   "jewelry"
+  ],
+  "notable": "Cartier jewel-themed interactive in the Awwwards WebGL list."
+ },
+ {
+  "name": "Giordano Betti",
+  "url": "https://giordanobetti.com/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Portfolio with WebGL."
+ },
+ {
+  "name": "EnduroSat Space Service",
+  "url": "https://www.endurosat.com/space-service/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "space",
+   "awwwards",
+   "satellite"
+  ],
+  "notable": "Space service marketing site with 3D."
+ },
+ {
+  "name": "Veras Fawaz",
+  "url": "https://verasfawaz.com",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Portfolio with WebGL."
+ },
+ {
+  "name": "Imogen Agentic AI",
+  "url": "https://vsproject-imogen.vendredi-society.com/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "ai",
+   "awwwards",
+   "agency"
+  ],
+  "notable": "Agentic AI product concept in Awwwards WebGL."
+ },
+ {
+  "name": "Giga",
+  "url": "https://giga.ai/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "ai",
+   "awwwards",
+   "saas"
+  ],
+  "notable": "AI company site featuring WebGL."
+ },
+ {
+  "name": "Shorodo",
+  "url": "https://shorodo.nagoya/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "japan",
+   "awwwards",
+   "brand"
+  ],
+  "notable": "Nagoya brand site with WebGL."
+ },
+ {
+  "name": "Aori Creative",
+  "url": "https://aoricreative.com",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Creative studio site."
+ },
+ {
+  "name": "VYBE Art",
+  "url": "https://www.vybe.art",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "art",
+   "awwwards",
+   "gallery"
+  ],
+  "notable": "Art site with WebGL."
+ },
+ {
+  "name": "Flux Theory",
+  "url": "https://www.fluxtheory.in/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "flux",
+   "awwwards",
+   "generative"
+  ],
+  "notable": "Generative WebGL concept site."
+ },
+ {
+  "name": "Atmospherik",
+  "url": "https://atmospherik.ai",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "atmosphere",
+   "awwwards",
+   "ai"
+  ],
+  "notable": "Atmosphere themed AI site with WebGL."
+ },
+ {
+  "name": "The Ride to Rio",
+  "url": "https://ridetorio.com/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "journey",
+   "awwwards",
+   "scroll"
+  ],
+  "notable": "Journey narrative with WebGL."
+ },
+ {
+  "name": "Nocturnal Dream",
+  "url": "https://www.nocturnaldream.com/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "dream",
+   "awwwards",
+   "night"
+  ],
+  "notable": "Dream-like night-themed WebGL experience."
+ },
+ {
+  "name": "Astro Mapa do Astro",
+  "url": "https://www.mapadoastro.com.br/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "astrology",
+   "awwwards",
+   "space"
+  ],
+  "notable": "Astrology map site with a WebGL cosmos."
+ },
+ {
+  "name": "Plumeform",
+  "url": "https://plumeform.com",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "plume",
+   "awwwards",
+   "shaders"
+  ],
+  "notable": "Plume-form shader piece."
+ },
+ {
+  "name": "Fighter Ready",
+  "url": "https://fighterready.com/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "webgl",
+   "aviation",
+   "awwwards",
+   "game"
+  ],
+  "notable": "Fighter-aviation themed WebGL site."
+ },
+ {
+  "name": "Sweet Tape",
+  "url": "https://sweet-tape.com/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "brand",
+   "awwwards",
+   "playful"
+  ],
+  "notable": "Playful brand site in Awwwards WebGL."
+ },
+ {
+  "name": "Pier Gorelli",
+  "url": "https://piergorelli.com",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Portfolio with WebGL."
+ },
+ {
+  "name": "KINORIA",
+  "url": "https://kinoria.studio/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "film",
+   "awwwards",
+   "studio"
+  ],
+  "notable": "Film studio site with WebGL."
+ },
+ {
+  "name": "Ten Pound Feather",
+  "url": "https://tenpoundfeather.com/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Studio site with WebGL."
+ },
+ {
+  "name": "Townhouse",
+  "url": "https://townhouse.dev",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "dev"
+  ],
+  "notable": "Dev studio site."
+ },
+ {
+  "name": "Kerimov Designs",
+  "url": "https://www.kerimovdesigns.com/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "design"
+  ],
+  "notable": "Designer portfolio."
+ },
+ {
+  "name": "FIX Dessert Chocolatier",
+  "url": "https://www.fixchocolatier.com/",
+  "source": "Awwwards WebGL collection (p3)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=3",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "food",
+   "awwwards",
+   "chocolate"
+  ],
+  "notable": "Chocolate brand with WebGL."
+ },
+ {
+  "name": "Titzmach Project",
+  "url": "https://titzmachproject.com/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Studio project site."
+ },
+ {
+  "name": "Yuya Film Studio",
+  "url": "https://yuyafilmstudio.dev/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "film",
+   "awwwards",
+   "studio"
+  ],
+  "notable": "Film studio with WebGL."
+ },
+ {
+  "name": "Zesiger",
+  "url": "https://zesiger.net",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Portfolio with WebGL."
+ },
+ {
+  "name": "Estudio Bang",
+  "url": "https://bybang.co/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Studio with WebGL."
+ },
+ {
+  "name": "Avara",
+  "url": "http://www.avara.band",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "music",
+   "awwwards",
+   "band"
+  ],
+  "notable": "Band site with WebGL."
+ },
+ {
+  "name": "Lantern House",
+  "url": "http://www.dwaynekoh.com",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "lantern",
+   "awwwards",
+   "scene"
+  ],
+  "notable": "Lantern-themed WebGL scene."
+ },
+ {
+  "name": "TIGRIS",
+  "url": "https://tigris.lorolabs.ai/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "ai",
+   "awwwards",
+   "labs"
+  ],
+  "notable": "Lorolabs AI-themed WebGL piece."
+ },
+ {
+  "name": "Blink Capital",
+  "url": "https://blink.capital/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "finance",
+   "awwwards",
+   "brand"
+  ],
+  "notable": "Finance brand with WebGL."
+ },
+ {
+  "name": "metic Take a closer look",
+  "url": "https://metic.studio/en",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "3d"
+  ],
+  "notable": "Studio site."
+ },
+ {
+  "name": "Chladni: A Geometry of Sound",
+  "url": "http://chladni-plate-experiment.vercel.app/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "particles",
+   "sound",
+   "physics"
+  ],
+  "notable": "Chladni plate experiment where particles settle into resonance patterns of sound."
+ },
+ {
+  "name": "Creative Reference Library",
+  "url": "https://crl-2026.webflow.io/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "webflow",
+   "webgl",
+   "awwwards",
+   "library"
+  ],
+  "notable": "Webflow-built reference library with WebGL."
+ },
+ {
+  "name": "Switchblade",
+  "url": "https://switchblade-awwwards.vercel.app/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "awwwards",
+   "experimental",
+   "3d"
+  ],
+  "notable": "Experimental showpiece in the Awwwards list."
+ },
+ {
+  "name": "Maria Vasilyeva Portfolio",
+  "url": "https://www.mariavasilyeva.com/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "design"
+  ],
+  "notable": "Designer portfolio."
+ },
+ {
+  "name": "SANTAL",
+  "url": "https://santalarch.com",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "architecture",
+   "awwwards",
+   "3d"
+  ],
+  "notable": "Architecture studio with WebGL."
+ },
+ {
+  "name": "Studio Mirage",
+  "url": "https://studiomirage.io/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "mirage"
+  ],
+  "notable": "Studio site."
+ },
+ {
+  "name": "Collective Pixels",
+  "url": "https://www.collective-pixels.com/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "pixels"
+  ],
+  "notable": "Studio site."
+ },
+ {
+  "name": "Teatika",
+  "url": "https://teatika.com/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "tea",
+   "awwwards",
+   "brand"
+  ],
+  "notable": "Tea brand with WebGL."
+ },
+ {
+  "name": "URANUSN Portfolio",
+  "url": "https://estherwong.fun",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "playful"
+  ],
+  "notable": "Playful portfolio."
+ },
+ {
+  "name": "AskLex Journey",
+  "url": "https://asklex.law/journey/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "legal",
+   "awwwards",
+   "journey"
+  ],
+  "notable": "Legal AI journey page."
+ },
+ {
+  "name": "Preymaker",
+  "url": "https://preymaker.com/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "webgl",
+   "game",
+   "awwwards",
+   "hunt"
+  ],
+  "notable": "Hunt-themed game site."
+ },
+ {
+  "name": "Olympic Subsea",
+  "url": "https://www.olympic.no/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "ocean",
+   "awwwards",
+   "industry"
+  ],
+  "notable": "Subsea industry site with WebGL."
+ },
+ {
+  "name": "The Cartier Roadster",
+  "url": "https://www.cartier.com/en-us/roadster-universe.html",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "luxury",
+   "awwwards",
+   "automotive-inspired"
+  ],
+  "notable": "Cartier Roadster interactive universe."
+ },
+ {
+  "name": "Lidar Drone Scanning",
+  "url": "https://drone.riotters.com/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgl",
+   "point-cloud",
+   "lidar",
+   "awwwards"
+  ],
+  "notable": "Lidar drone scan presented as a point cloud viewer."
+ },
+ {
+  "name": "Sergii Butrii Portfolio",
+  "url": "https://sergii-butrii.com/",
+  "source": "Awwwards WebGL collection (p4)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=4",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Developer portfolio."
+ },
+ {
+  "name": "OffPossible",
+  "url": "https://offpossible.com/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Studio site."
+ },
+ {
+  "name": "EDOLUS",
+  "url": "https://edolus.com/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "brand"
+  ],
+  "notable": "Studio site."
+ },
+ {
+  "name": "Imersion.io",
+  "url": "https://www.imersion.io",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "immersive",
+   "awwwards",
+   "studio"
+  ],
+  "notable": "Immersive studio site."
+ },
+ {
+  "name": "Triptych Interactive",
+  "url": "http://3dv2.triptych.co",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "3d",
+   "awwwards",
+   "interactive"
+  ],
+  "notable": "Interactive studio 3D site."
+ },
+ {
+  "name": "Yevgeniya Grab",
+  "url": "https://www.eugeniagrab.com",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "design"
+  ],
+  "notable": "Portfolio."
+ },
+ {
+  "name": "Virtually Ever After Studio",
+  "url": "https://virtuallyeverafter.xyz/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "virtual",
+   "awwwards",
+   "studio"
+  ],
+  "notable": "Virtual studio site."
+ },
+ {
+  "name": "Colonia Zacamil",
+  "url": "https://coloniazacamil.com/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "documentary",
+   "awwwards",
+   "community"
+  ],
+  "notable": "Community story with WebGL."
+ },
+ {
+  "name": "Grids by Obys",
+  "url": "https://grids03.obys.agency/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "grids",
+   "awwwards",
+   "obys"
+  ],
+  "notable": "Obys agency grid-based WebGL experiment."
+ },
+ {
+  "name": "Junca Studio",
+  "url": "https://juncastudio.com/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "awwwards",
+   "motion"
+  ],
+  "notable": "Studio site."
+ },
+ {
+  "name": "Butter",
+  "url": "https://www.butter.video/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "video",
+   "awwwards",
+   "saas"
+  ],
+  "notable": "Video product site with WebGL."
+ },
+ {
+  "name": "Lee Holmes",
+  "url": "https://leeholmes.uk",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Portfolio."
+ },
+ {
+  "name": "The Shape of Intelligence",
+  "url": "https://shapeofintelligence.com/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "ai",
+   "awwwards",
+   "visualization"
+  ],
+  "notable": "Visual essay on the shape of intelligence."
+ },
+ {
+  "name": "Byotone",
+  "url": "https://byotone.com",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "audio",
+   "awwwards",
+   "brand"
+  ],
+  "notable": "Audio brand with WebGL."
+ },
+ {
+  "name": "AI Garage by Bryan Oh",
+  "url": "https://bryangarage.dev/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "ai",
+   "awwwards",
+   "garage"
+  ],
+  "notable": "AI garage experiment."
+ },
+ {
+  "name": "Austensor AI and WebGL Art",
+  "url": "https://austensor.com",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "ai",
+   "art",
+   "awwwards"
+  ],
+  "notable": "AI and WebGL art studio."
+ },
+ {
+  "name": "3DCC Three-Dimensional Cognitive Coordinate",
+  "url": "https://cocktailtheory.github.io/3DCC-core/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "cognition",
+   "awwwards",
+   "visualization"
+  ],
+  "notable": "Cognitive coordinate visualisation in 3D."
+ },
+ {
+  "name": "Guillaume Zhu",
+  "url": "https://guillaumezhu.com/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Portfolio."
+ },
+ {
+  "name": "Gil Huybrecht",
+  "url": "https://gilhuybrecht.com/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Portfolio."
+ },
+ {
+  "name": "Whiteout: An Ascent",
+  "url": "https://whiteout.overvac.com",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "mountain",
+   "awwwards",
+   "ascent"
+  ],
+  "notable": "Mountain ascent narrative experience."
+ },
+ {
+  "name": "Windows (wndws)",
+  "url": "https://wndws.space",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "windows",
+   "awwwards",
+   "space"
+  ],
+  "notable": "Window-themed spatial experience."
+ },
+ {
+  "name": "Pensatori Irrazionali",
+  "url": "https://pensatori-irrazionali.com/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "philosophy",
+   "awwwards",
+   "italian"
+  ],
+  "notable": "Italian thinker-themed WebGL site."
+ },
+ {
+  "name": "VIZZ",
+  "url": "https://vizz.fm",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "music",
+   "awwwards",
+   "visualizer"
+  ],
+  "notable": "Music visual site."
+ },
+ {
+  "name": "Daniel Kiss Portfolio",
+  "url": "https://danielkiss.hu/",
+  "source": "Awwwards WebGL collection (p5)",
+  "source_url": "https://www.awwwards.com/websites/webgl/?page=5",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "awwwards",
+   "creative-dev"
+  ],
+  "notable": "Portfolio."
+ },
+ {
+  "name": "Mathias Adolfsson",
+  "url": "https://mathiasadolfsson.dev",
+  "source": "One Page Love WebGL tag",
+  "source_url": "https://onepagelove.com/tag/webgl",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "onepagelove",
+   "creative-dev"
+  ],
+  "notable": "Developer portfolio with WebGL on One Page Love."
+ },
+ {
+  "name": "HEDROOM",
+  "url": "https://www.hedroom.fm/",
+  "source": "One Page Love WebGL tag",
+  "source_url": "https://onepagelove.com/tag/webgl",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "music",
+   "onepagelove",
+   "radio"
+  ],
+  "notable": "Music radio site with WebGL visuals."
+ },
+ {
+  "name": "Sam Peitz",
+  "url": "https://www.sam-peitz.com/",
+  "source": "One Page Love WebGL tag",
+  "source_url": "https://onepagelove.com/tag/webgl",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "onepagelove",
+   "creative-dev"
+  ],
+  "notable": "Developer portfolio."
+ },
+ {
+  "name": "Flashform",
+  "url": "https://flshfrm.com",
+  "source": "One Page Love WebGL tag",
+  "source_url": "https://onepagelove.com/tag/webgl",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "onepagelove",
+   "motion"
+  ],
+  "notable": "Studio site."
+ },
+ {
+  "name": "Deeo Studio",
+  "url": "https://deeo.studio",
+  "source": "One Page Love WebGL tag",
+  "source_url": "https://onepagelove.com/tag/webgl",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "studio",
+   "onepagelove",
+   "motion"
+  ],
+  "notable": "Studio site."
+ },
+ {
+  "name": "Samuel Raikkonen Portfolio",
+  "url": "https://honest.fi/",
+  "source": "One Page Love WebGL tag",
+  "source_url": "https://onepagelove.com/tag/webgl",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "onepagelove",
+   "creative-dev"
+  ],
+  "notable": "Developer portfolio."
+ },
+ {
+  "name": "Razorpay Sprint 2026",
+  "url": "https://razorpay.com/sprint/26",
+  "source": "One Page Love WebGL tag",
+  "source_url": "https://onepagelove.com/tag/webgl",
+  "year": 2026,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "event",
+   "onepagelove",
+   "fintech"
+  ],
+  "notable": "Fintech sprint event microsite."
+ },
+ {
+  "name": "Pillowtalk",
+  "url": "https://talkpillowtalk.com/",
+  "source": "One Page Love WebGL tag",
+  "source_url": "https://onepagelove.com/tag/webgl",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "brand",
+   "onepagelove",
+   "playful"
+  ],
+  "notable": "Pillow brand with WebGL."
+ },
+ {
+  "name": "Campsuha Builder",
+  "url": "https://builder.campsuha.com/build/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2023,
+  "category": "product-brand",
+  "tags": [
+   "configurator",
+   "three.js",
+   "truck",
+   "real-time"
+  ],
+  "notable": "Interactive 3D truck configurator for personalising a build in real time."
+ },
+ {
+  "name": "Organimo",
+  "url": "https://organimo.com/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2023,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "ecommerce",
+   "shaders",
+   "surreal"
+  ],
+  "notable": "E-commerce with surreal WebGL effects."
+ },
+ {
+  "name": "Leeroy Playground",
+  "url": "https://play.leeroy.ca/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2023,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "lab",
+   "navigation",
+   "studio"
+  ],
+  "notable": "Studio creative lab with immersive navigation."
+ },
+ {
+  "name": "Mana Yerba Mate",
+  "url": "https://en.manayerbamate.com/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2023,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "ecommerce",
+   "3d",
+   "playful"
+  ],
+  "notable": "Beverage store with playful 3D animation."
+ },
+ {
+  "name": "phsofia",
+  "url": "https://www.phsofia.com/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2023,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "carousel",
+   "portfolio",
+   "shaders"
+  ],
+  "notable": "Portfolio with a distinctive WebGL carousel."
+ },
+ {
+  "name": "Treasures of Japan Weekend Max Mara",
+  "url": "https://treasuresofjapan.weekendmaxmara.com/en",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2023,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "fashion",
+   "travel",
+   "storytelling"
+  ],
+  "notable": "Travel story between Kyoto and Tokyo as a WebGL journey."
+ },
+ {
+  "name": "Kanak Naturals",
+  "url": "https://www.kanaknaturals.com/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2023,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "ecommerce",
+   "3d",
+   "scroll"
+  ],
+  "notable": "Product shown in 3D with scroll navigation."
+ },
+ {
+  "name": "Vivalalabia",
+  "url": "https://www.vivalalabia.com/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2023,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "art",
+   "bold",
+   "visual"
+  ],
+  "notable": "Artistic site with bold visuals."
+ },
+ {
+  "name": "Pola Mothers Day",
+  "url": "https://www.pola.co.jp/special/o/wecaremore/mothersday/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2022,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "floral",
+   "campaign",
+   "japan"
+  ],
+  "notable": "Colourful floral Mother's Day campaign."
+ },
+ {
+  "name": "Atmos by Leeroy",
+  "url": "https://atmos.leeroy.ca/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2021,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "clouds",
+   "scroll",
+   "storytelling"
+  ],
+  "notable": "Scroll takes you through a cloudy sky for storytelling."
+ },
+ {
+  "name": "Space Trash Signs",
+  "url": "https://spacetrashsigns.org/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2021,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "space",
+   "awareness",
+   "storytelling"
+  ],
+  "notable": "Orbital waste awareness told visually."
+ },
+ {
+  "name": "Prometheus Fuels",
+  "url": "https://prometheusfuels.com/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2022,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "energy",
+   "storytelling",
+   "brand"
+  ],
+  "notable": "WebGL story for a fuels startup."
+ },
+ {
+  "name": "Nomadic Tribe Makemepulse 2019",
+  "url": "https://2019.makemepulse.com/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2019,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "illustration",
+   "moebius",
+   "3d"
+  ],
+  "notable": "Experiment blending illustration and 3D as a tribute to Moebius."
+ },
+ {
+  "name": "Orano Experience",
+  "url": "https://www.orano.group/experience/innovation/en",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2023,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "science",
+   "immersive",
+   "industry"
+  ],
+  "notable": "WebGL showcase of technological precision, credited to Immersive Garden."
+ },
+ {
+  "name": "The Sea We Breathe",
+  "url": "https://www.bluemarinefoundation.com/the-sea-we-breathe/",
+  "source": "Leeroy best WebGL immersive sites",
+  "source_url": "https://leeroy.ca/en/collections/best-webgl-immersive-sites",
+  "year": 2022,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "ocean",
+   "environment",
+   "storytelling"
+  ],
+  "notable": "Environmental message told through a WebGL ocean."
+ },
+ {
+  "name": "Into the Storm US Air Force",
+  "url": "http://www.airforce.com/intothestorm",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2016,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "storm",
+   "flight",
+   "campaign"
+  ],
+  "notable": "Flight-into-the-storm interactive from the Awwwards experimental list."
+ },
+ {
+  "name": "J Dilla Donuts 15y Tribute",
+  "url": "https://dillasdonuts.shop",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2021,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "music",
+   "tribute",
+   "3d"
+  ],
+  "notable": "Tribute to a music album as a 3D web piece."
+ },
+ {
+  "name": "Le Voyage Azarien",
+  "url": "https://le-voyage-azarien.art/",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "art",
+   "journey",
+   "3d"
+  ],
+  "notable": "Art-driven 3D journey site."
+ },
+ {
+  "name": "WLDLGHT",
+  "url": "http://wldlght.com/",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "wildlife",
+   "light",
+   "3d"
+  ],
+  "notable": "Wildlife-themed WebGL piece."
+ },
+ {
+  "name": "Design Embraced",
+  "url": "https://designembraced.com",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "design",
+   "studio",
+   "3d"
+  ],
+  "notable": "Design studio WebGL site."
+ },
+ {
+  "name": "Kenta Toshikura Portfolio",
+  "url": "https://kentatoshikura.com",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "japan",
+   "front-end"
+  ],
+  "notable": "Web designer and front-end portfolio."
+ },
+ {
+  "name": "Dark Official Netflix Guide",
+  "url": "http://darknetflix.io",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "series",
+   "guide",
+   "3d"
+  ],
+  "notable": "Fan guide to a TV series with 3D visuals."
+ },
+ {
+  "name": "GOOD Meat",
+  "url": "https://goodmeat.co/",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "food",
+   "brand",
+   "3d"
+  ],
+  "notable": "Product brand with WebGL."
+ },
+ {
+  "name": "Sea Shepherd No Fishing Net",
+  "url": "https://www.no-fishing.net",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2018,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "ocean",
+   "awareness",
+   "3d"
+  ],
+  "notable": "Anti-fishing-net awareness WebGL."
+ },
+ {
+  "name": "AIRSHIFUMI",
+  "url": "https://airshifumi.hands.agency/",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "game-like",
+  "tags": [
+   "webgl",
+   "game",
+   "ai",
+   "rock-paper-scissors"
+  ],
+  "notable": "Desktop game with AI opponent in 3D."
+ },
+ {
+  "name": "Estee Lauder ANRcade",
+  "url": "https://www.esteelauderanrcade.com",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "game-like",
+  "tags": [
+   "webgl",
+   "arcade",
+   "brand",
+   "game"
+  ],
+  "notable": "Brand arcade with WebGL games."
+ },
+ {
+  "name": "Umami Land with Google",
+  "url": "https://umamiland.withgoogle.com/en",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "game-like",
+  "tags": [
+   "webgl",
+   "food",
+   "google",
+   "interactive"
+  ],
+  "notable": "Food world interactive by Google."
+ },
+ {
+  "name": "Sgrappa",
+  "url": "https://www.sgrappa.com/index.html",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "scroll",
+   "depth",
+   "effect"
+  ],
+  "notable": "Scroll with a depth-effect."
+ },
+ {
+  "name": "Mark Clennon Diary",
+  "url": "https://www.markclennon.com/diary/diary",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "globe",
+   "portfolio",
+   "diary"
+  ],
+  "notable": "Diary with globe view."
+ },
+ {
+  "name": "Animal Futures World Flip",
+  "url": "https://bit.ly/AnimalFutures",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "world",
+   "flip",
+   "3d"
+  ],
+  "notable": "World-flip experience."
+ },
+ {
+  "name": "Emotion Agency WebGL Storytelling",
+  "url": "https://promo.emotion-agency.com/",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "storytelling",
+   "studio",
+   "scroll"
+  ],
+  "notable": "WebGL storytelling first part."
+ },
+ {
+  "name": "Otherlife Case Study Portals",
+  "url": "https://www.otherlife.xyz/",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "portals",
+   "case-study",
+   "studio"
+  ],
+  "notable": "Case study portals."
+ },
+ {
+  "name": "Nael Messaoudene",
+  "url": "https://www.naelmessaoudene.com/",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "mouse",
+   "deformation",
+   "portfolio"
+  ],
+  "notable": "WebGL mouse deformation on a portfolio."
+ },
+ {
+  "name": "Quantum Stretch",
+  "url": "https://quantumstretch.com",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "scroll",
+   "smooth",
+   "animation"
+  ],
+  "notable": "Smooth scroll animations."
+ },
+ {
+  "name": "Empiempi",
+  "url": "https://empiempi.me/",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "slider",
+   "liquid",
+   "solid"
+  ],
+  "notable": "WebGL slider with a solid/liquid switch."
+ },
+ {
+  "name": "Cloudcastles",
+  "url": "https://cloudcastles.gg",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "game-like",
+  "tags": [
+   "webgl",
+   "immersive",
+   "3d",
+   "game"
+  ],
+  "notable": "Immersive 3D site."
+ },
+ {
+  "name": "Apollo NAS Fisher",
+  "url": "https://mfisher-apollonas.com",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "immersive",
+   "apollo",
+   "digital"
+  ],
+  "notable": "Immersive digital experience."
+ },
+ {
+  "name": "Ribant",
+  "url": "https://ribant.co",
+  "source": "Awwwards 30 experimental WebGL websites",
+  "source_url": "https://awwwards.com/30-experimental-webgl-websites.html",
+  "year": 2019,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "hero",
+   "3d",
+   "scroll"
+  ],
+  "notable": "Hero images with 3D scroll-tracked stillframe effect."
+ },
+ {
+  "name": "DeepSee Commerce",
+  "url": "https://deepseecommerce.com/",
+  "source": "hontran.dev WebGL examples",
+  "source_url": "https://www.hontran.dev/blog/webgl-website-examples",
+  "year": 2024,
+  "category": "product-brand",
+  "tags": [
+   "three.js",
+   "scroll",
+   "ecommerce",
+   "underwater"
+  ],
+  "notable": "3D e-commerce site where scrolling moves the camera down an underwater iceberg."
+ },
+ {
+  "name": "Lusion Connectors (R3F)",
+  "url": "https://pmndrs.github.io/examples/lusion-connectors",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "physics",
+   "rapier",
+   "interaction"
+  ],
+  "notable": "React Three Fiber recreation of the Lusion homepage connectors, magnetic physics blobs that follow the pointer."
+ },
+ {
+  "name": "Flying Bananas (R3F)",
+  "url": "https://pmndrs.github.io/examples/flying-bananas",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "instancing",
+   "depth-of-field",
+   "postprocessing"
+  ],
+  "notable": "Hundreds of instanced bananas drifting through a depth-of-field scene."
+ },
+ {
+  "name": "Caustics (R3F)",
+  "url": "https://pmndrs.github.io/examples/caustics",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "caustics",
+   "glass",
+   "lighting"
+  ],
+  "notable": "Real-time light caustics refracting through a glass object."
+ },
+ {
+  "name": "Thunder Clouds (R3F)",
+  "url": "https://pmndrs.github.io/examples/thunder-clouds",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "clouds",
+   "lighting",
+   "volumetric"
+  ],
+  "notable": "Volumetric clouds lit by lightning flashes."
+ },
+ {
+  "name": "Volumetric Light Godray (R3F)",
+  "url": "https://pmndrs.github.io/examples/volumetric-light-godray",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "godrays",
+   "postprocessing",
+   "lighting"
+  ],
+  "notable": "Screen-space god rays streaming from a light source."
+ },
+ {
+  "name": "Pass-Through Portals (R3F)",
+  "url": "https://pmndrs.github.io/examples/pass-through-portals",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "portals",
+   "stencil",
+   "transition"
+  ],
+  "notable": "Camera passes through stencil portals into separate worlds."
+ },
+ {
+  "name": "Enter Portals (R3F)",
+  "url": "https://pmndrs.github.io/examples/enter-portals",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "portals",
+   "stencil",
+   "navigation"
+  ],
+  "notable": "Click portals that open rendered scenes you can enter."
+ },
+ {
+  "name": "Glass Flower (R3F)",
+  "url": "https://pmndrs.github.io/examples/glass-flower",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "glass",
+   "transmission",
+   "refraction"
+  ],
+  "notable": "Transmissive glass flower showing physically based refraction."
+ },
+ {
+  "name": "Diamond Refraction (R3F)",
+  "url": "https://pmndrs.github.io/examples/diamond-refraction",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "refraction",
+   "diamond",
+   "shaders"
+  ],
+  "notable": "Convincing diamond refraction built with a custom shader and environment map."
+ },
+ {
+  "name": "Frosted Glass (R3F)",
+  "url": "https://pmndrs.github.io/examples/frosted-glass",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "glass",
+   "blur",
+   "transmission"
+  ],
+  "notable": "Frosted glass panes blurring the 3D scene behind them."
+ },
+ {
+  "name": "Bruno Simon 20k Challenge (R3F)",
+  "url": "https://pmndrs.github.io/examples/bruno-simons-20k-challenge",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "r3f",
+   "physics",
+   "challenge",
+   "game"
+  ],
+  "notable": "Community R3F take on Bruno Simon's 20k challenge, a playful physics scene."
+ },
+ {
+  "name": "Scroll Controls with Lens Refraction (R3F)",
+  "url": "https://pmndrs.github.io/examples/scrollcontrols-and-lens-refraction",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "scroll",
+   "refraction",
+   "lens"
+  ],
+  "notable": "Scroll-driven camera behind a refractive lens."
+ },
+ {
+  "name": "Audio Analyser (R3F)",
+  "url": "https://pmndrs.github.io/examples/audio-analyser",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "audio",
+   "visualizer",
+   "webaudio"
+  ],
+  "notable": "Audio frequency data driving a 3D visualiser."
+ },
+ {
+  "name": "Ground Reflections and Video Textures (R3F)",
+  "url": "https://pmndrs.github.io/examples/ground-reflections-and-video-textures",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "reflections",
+   "video",
+   "textures"
+  ],
+  "notable": "Blurred ground reflections with video mapped onto surfaces."
+ },
+ {
+  "name": "Three.js Journey Portal (R3F)",
+  "url": "https://pmndrs.github.io/examples/threejs-journey-portal",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "shaders",
+   "portal",
+   "glow"
+  ],
+  "notable": "Glowing portal scene with fireflies and animated shader surfaces."
+ },
+ {
+  "name": "Mixing HTML and WebGL with Occlusion (R3F)",
+  "url": "https://pmndrs.github.io/examples/mixing-html-and-webgl-w-occlusion",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "html",
+   "occlusion",
+   "ui"
+  ],
+  "notable": "DOM elements anchored in 3D that hide behind objects."
+ },
+ {
+  "name": "Object Clump (R3F)",
+  "url": "https://pmndrs.github.io/examples/object-clump",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "physics",
+   "instancing",
+   "attraction"
+  ],
+  "notable": "Objects pulled toward the pointer as a physics clump."
+ },
+ {
+  "name": "Instanced Particles and Effects (R3F)",
+  "url": "https://pmndrs.github.io/examples/instanced-particles-effects",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "particles",
+   "instancing",
+   "effects"
+  ],
+  "notable": "Instanced particles with postprocessing effects."
+ },
+ {
+  "name": "Aquarium (R3F)",
+  "url": "https://pmndrs.github.io/examples/aquarium",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "water",
+   "fish",
+   "scene"
+  ],
+  "notable": "Aquarium scene with swimming fish and layered water look."
+ },
+ {
+  "name": "Iridescent Decals (R3F)",
+  "url": "https://pmndrs.github.io/examples/iridescent-decals",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "decals",
+   "iridescence",
+   "material"
+  ],
+  "notable": "Iridescent decals projected on 3D surfaces."
+ },
+ {
+  "name": "Screen Space Reflections Test (R3F)",
+  "url": "https://pmndrs.github.io/examples/ssr-test",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "ssr",
+   "reflections",
+   "postprocessing"
+  ],
+  "notable": "Screen-space reflections on glossy floors."
+ },
+ {
+  "name": "CSG Operations with Rapier (R3F)",
+  "url": "https://pmndrs.github.io/examples/csg-operations-rapier-physics",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "csg",
+   "physics",
+   "rapier"
+  ],
+  "notable": "Boolean-carved geometry reacting to physics."
+ },
+ {
+  "name": "GPGPU Curl Noise with Depth of Field (R3F)",
+  "url": "https://pmndrs.github.io/examples/gpgpu-curl-noise-dof",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "gpgpu",
+   "curl-noise",
+   "particles"
+  ],
+  "notable": "GPU-simulated curl-noise particle flow rendered with depth of field."
+ },
+ {
+  "name": "Floating Diamonds (R3F)",
+  "url": "https://pmndrs.github.io/examples/floating-diamonds",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "diamonds",
+   "refraction",
+   "floating"
+  ],
+  "notable": "Refractive diamonds floating in space."
+ },
+ {
+  "name": "Cell Fracture (R3F)",
+  "url": "https://pmndrs.github.io/examples/cell-fracture",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "fracture",
+   "physics",
+   "destruction"
+  ],
+  "notable": "Voronoi cell fracturing of meshes."
+ },
+ {
+  "name": "Flexbox Yoga in WebGL (R3F)",
+  "url": "https://pmndrs.github.io/examples/flexbox-yoga-in-webgl",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "layout",
+   "flexbox",
+   "ui"
+  ],
+  "notable": "Flexbox layout engine running inside the WebGL canvas."
+ },
+ {
+  "name": "Moksha (R3F)",
+  "url": "https://pmndrs.github.io/examples/moksha",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "r3f",
+   "shaders",
+   "generative",
+   "art"
+  ],
+  "notable": "Shader-driven generative artwork in React Three Fiber."
+ },
+ {
+  "name": "Racing Game (R3F)",
+  "url": "https://pmndrs.github.io/examples/racing-game",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "r3f",
+   "racing",
+   "physics",
+   "game"
+  ],
+  "notable": "Arcade racing prototype with vehicle physics."
+ },
+ {
+  "name": "Pinball in 70 Lines (R3F)",
+  "url": "https://pmndrs.github.io/examples/pinball-in-70-lines",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "r3f",
+   "pinball",
+   "physics",
+   "tiny"
+  ],
+  "notable": "Whole pinball table in about 70 lines."
+ },
+ {
+  "name": "Space Game (R3F)",
+  "url": "https://pmndrs.github.io/examples/space-game",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "r3f",
+   "space",
+   "shooter",
+   "game"
+  ],
+  "notable": "Space shooter prototype."
+ },
+ {
+  "name": "Minecraft (R3F)",
+  "url": "https://pmndrs.github.io/examples/minecraft",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "r3f",
+   "voxel",
+   "building",
+   "game"
+  ],
+  "notable": "Voxel building sandbox clone."
+ },
+ {
+  "name": "Arkanoid (R3F)",
+  "url": "https://pmndrs.github.io/examples/arkanoid",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "r3f",
+   "arcade",
+   "physics",
+   "game"
+  ],
+  "notable": "Breakout-style arcade game."
+ },
+ {
+  "name": "Grass Shader (R3F)",
+  "url": "https://pmndrs.github.io/examples/grass-shader",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "shaders",
+   "grass",
+   "instancing"
+  ],
+  "notable": "Wind-swept shader grass fields."
+ },
+ {
+  "name": "Shader Fire (R3F)",
+  "url": "https://pmndrs.github.io/examples/shader-fire",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "shaders",
+   "fire",
+   "procedural"
+  ],
+  "notable": "Procedural shader fire."
+ },
+ {
+  "name": "Water Shader (R3F)",
+  "url": "https://pmndrs.github.io/examples/water-shader",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "shaders",
+   "water",
+   "procedural"
+  ],
+  "notable": "Procedural animated water shader."
+ },
+ {
+  "name": "Clouds (R3F)",
+  "url": "https://pmndrs.github.io/examples/clouds",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "clouds",
+   "volumetric",
+   "sprites"
+  ],
+  "notable": "Soft billowing clouds from layered sprites."
+ },
+ {
+  "name": "Basic Ballpit (R3F)",
+  "url": "https://pmndrs.github.io/examples/basic-ballpit",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "physics",
+   "instancing",
+   "pointer"
+  ],
+  "notable": "Instanced balls bouncing and reacting to the pointer."
+ },
+ {
+  "name": "Interactive Spline Scene Live HTML (R3F)",
+  "url": "https://pmndrs.github.io/examples/interactive-spline-scene-live-html",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "spline",
+   "html",
+   "interaction"
+  ],
+  "notable": "Spline-authored scene mixed with live HTML."
+ },
+ {
+  "name": "Environment Blur and Transitions (R3F)",
+  "url": "https://pmndrs.github.io/examples/environment-blur-and-transitions",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "r3f",
+   "environment",
+   "blur",
+   "transition"
+  ],
+  "notable": "Smooth environment map blur and cross-fades."
+ },
+ {
+  "name": "Shopping (R3F)",
+  "url": "https://pmndrs.github.io/examples/shopping",
+  "source": "pmndrs R3F examples",
+  "source_url": "https://r3f.docs.pmnd.rs/getting-started/examples",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "r3f",
+   "ecommerce",
+   "product-3d",
+   "ui"
+  ],
+  "notable": "Store-style product browsing in 3D."
+ },
+ {
+  "name": "Aquarium WebGPU Sample",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=webgpuAquarium",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "instancing",
+   "fish",
+   "performance"
+  ],
+  "notable": "Classic WebGL aquarium benchmark ported to WebGPU with render bundles."
+ },
+ {
+  "name": "WebGPU Compute Boids",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=computeBoids",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "compute",
+   "boids",
+   "particles"
+  ],
+  "notable": "Flocking simulation entirely on the GPU via compute shaders."
+ },
+ {
+  "name": "WebGPU Particle Life",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=particleLife",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "compute",
+   "emergence",
+   "simulation"
+  ],
+  "notable": "Particle Life emergent behaviour on compute shaders."
+ },
+ {
+  "name": "WebGPU Cornell Box",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=cornell",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "raytracing",
+   "global-illumination",
+   "compute"
+  ],
+  "notable": "Cornell box rendered with a compute-based ray tracer."
+ },
+ {
+  "name": "WebGPU Marching Cubes",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=marchingCubes",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "compute",
+   "isosurface",
+   "procedural"
+  ],
+  "notable": "Metaball isosurface extracted on the GPU with marching cubes."
+ },
+ {
+  "name": "WebGPU Volume Rendering",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=volumeRenderingTexture3D",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "volume",
+   "3d-texture",
+   "raymarching"
+  ],
+  "notable": "Volume rendering from a 3D texture."
+ },
+ {
+  "name": "WebGPU Game of Life",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=gameOfLife",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "compute",
+   "cellular-automata",
+   "simulation"
+  ],
+  "notable": "Conway's Game of Life stepping in compute shaders."
+ },
+ {
+  "name": "WebGPU Spookyball",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=spookyball",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "webgpu",
+   "game",
+   "instancing",
+   "effects"
+  ],
+  "notable": "Small game demo built with WebGPU."
+ },
+ {
+  "name": "WebGPU Clustered Shading",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=clusteredShading",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "lighting",
+   "compute",
+   "performance"
+  ],
+  "notable": "Thousands of dynamic lights via clustered shading."
+ },
+ {
+  "name": "WebGPU Metaballs",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=metaballs",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "metaballs",
+   "shaders",
+   "procedural"
+  ],
+  "notable": "Metaball surface rendering."
+ },
+ {
+  "name": "WebGPU Bitonic Sort",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=bitonicSort",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "compute",
+   "sorting",
+   "visualization"
+  ],
+  "notable": "Visualised GPU bitonic sort."
+ },
+ {
+  "name": "WebGPU Deferred Rendering",
+  "url": "https://webgpu.github.io/webgpu-samples/?sample=deferredRendering",
+  "source": "WebGPU Samples",
+  "source_url": "https://webgpu.github.io/webgpu-samples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "deferred",
+   "lighting",
+   "gbuffer"
+  ],
+  "notable": "Deferred shading with many lights."
+ },
+ {
+  "name": "three.js WebGPU Ocean",
+  "url": "https://threejs.org/examples/#webgpu_ocean",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "three.js",
+   "ocean",
+   "tsl"
+  ],
+  "notable": "Procedural ocean surface in three.js WebGPU."
+ },
+ {
+  "name": "three.js TSL Raging Sea",
+  "url": "https://threejs.org/examples/#webgpu_tsl_raging_sea",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "tsl",
+   "ocean",
+   "shaders"
+  ],
+  "notable": "Stormy ocean built in Three Shading Language."
+ },
+ {
+  "name": "three.js TSL Galaxy",
+  "url": "https://threejs.org/examples/#webgpu_tsl_galaxy",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "tsl",
+   "galaxy",
+   "particles"
+  ],
+  "notable": "Spiral galaxy of procedurally coloured points."
+ },
+ {
+  "name": "three.js TSL Earth",
+  "url": "https://threejs.org/examples/#webgpu_tsl_earth",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "tsl",
+   "earth",
+   "atmosphere"
+  ],
+  "notable": "Earth with atmosphere and day-night shading in TSL."
+ },
+ {
+  "name": "three.js TSL Procedural Terrain",
+  "url": "https://threejs.org/examples/#webgpu_tsl_procedural_terrain",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "tsl",
+   "terrain",
+   "procedural"
+  ],
+  "notable": "Terrain generated and shaded entirely in TSL."
+ },
+ {
+  "name": "three.js TSL Vfx Tornado",
+  "url": "https://threejs.org/examples/#webgpu_tsl_vfx_tornado",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "tsl",
+   "vfx",
+   "tornado"
+  ],
+  "notable": "Stylised tornado VFX in TSL."
+ },
+ {
+  "name": "three.js TSL Vfx Flames",
+  "url": "https://threejs.org/examples/#webgpu_tsl_vfx_flames",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "tsl",
+   "vfx",
+   "fire"
+  ],
+  "notable": "Flame VFX in TSL."
+ },
+ {
+  "name": "three.js TSL Compute Attractors Particles",
+  "url": "https://threejs.org/examples/#webgpu_tsl_compute_attractors_particles",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "tsl",
+   "compute",
+   "particles"
+  ],
+  "notable": "Particles orbiting strange attractors via GPU compute."
+ },
+ {
+  "name": "three.js TSL Halftone",
+  "url": "https://threejs.org/examples/#webgpu_tsl_halftone",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "tsl",
+   "halftone",
+   "postprocessing"
+  ],
+  "notable": "Halftone print effect written in TSL."
+ },
+ {
+  "name": "three.js TSL Wood",
+  "url": "https://threejs.org/examples/#webgpu_tsl_wood",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "tsl",
+   "procedural",
+   "material"
+  ],
+  "notable": "Procedural wood material in TSL."
+ },
+ {
+  "name": "three.js WebGPU Compute Birds",
+  "url": "https://threejs.org/examples/#webgpu_compute_birds",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "compute",
+   "boids",
+   "flocking"
+  ],
+  "notable": "Boids flock simulated on the GPU."
+ },
+ {
+  "name": "three.js WebGPU Compute Cloth",
+  "url": "https://threejs.org/examples/#webgpu_compute_cloth",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "compute",
+   "cloth",
+   "physics"
+  ],
+  "notable": "Cloth physics solved in compute shaders."
+ },
+ {
+  "name": "three.js WebGPU Compute Particles Fluid",
+  "url": "https://threejs.org/examples/#webgpu_compute_particles_fluid",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "compute",
+   "fluid",
+   "particles"
+  ],
+  "notable": "Particle-based fluid on the GPU."
+ },
+ {
+  "name": "three.js WebGPU Compute Water",
+  "url": "https://threejs.org/examples/#webgpu_compute_water",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "compute",
+   "water",
+   "simulation"
+  ],
+  "notable": "Interactive water surface simulated in compute."
+ },
+ {
+  "name": "three.js WebGPU Gaussian Splat",
+  "url": "https://threejs.org/examples/#webgpu_gaussian_splat",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "gaussian-splat",
+   "point-cloud",
+   "capture"
+  ],
+  "notable": "Gaussian splat rendering in the WebGPU renderer."
+ },
+ {
+  "name": "three.js WebGPU Path Tracer",
+  "url": "https://threejs.org/examples/#webgpu_renderer_pathtracer",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "path-tracing",
+   "global-illumination",
+   "renderer"
+  ],
+  "notable": "Path-traced rendering in WebGPU."
+ },
+ {
+  "name": "three.js WebGPU VXGI Sponza",
+  "url": "https://threejs.org/examples/#webgpu_vxgi_sponza",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "gi",
+   "voxel",
+   "lighting"
+  ],
+  "notable": "Voxel cone traced global illumination in Sponza."
+ },
+ {
+  "name": "three.js WebGPU Volume Cloud",
+  "url": "https://threejs.org/examples/#webgpu_volume_cloud",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "volumetric",
+   "clouds",
+   "raymarching"
+  ],
+  "notable": "Raymarched volumetric clouds."
+ },
+ {
+  "name": "three.js WebGPU Generator City",
+  "url": "https://threejs.org/examples/#webgpu_generator_city",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "procedural",
+   "city",
+   "generator"
+  ],
+  "notable": "Procedurally generated city."
+ },
+ {
+  "name": "three.js WebGPU Meshlets City",
+  "url": "https://threejs.org/examples/#webgpu_meshlets_city",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "meshlets",
+   "performance",
+   "city"
+  ],
+  "notable": "Meshlet-based city for massive geometry."
+ },
+ {
+  "name": "three.js WebGPU Caustics",
+  "url": "https://threejs.org/examples/#webgpu_caustics",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "caustics",
+   "water",
+   "lighting"
+  ],
+  "notable": "Underwater caustics in WebGPU."
+ },
+ {
+  "name": "three.js WebGPU Sculpt",
+  "url": "https://threejs.org/examples/#webgpu_sculpt",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "sculpting",
+   "compute",
+   "tool"
+  ],
+  "notable": "Real-time mesh sculpting in WebGPU."
+ },
+ {
+  "name": "three.js WebGPU Portal",
+  "url": "https://threejs.org/examples/#webgpu_portal",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "portal",
+   "render-target",
+   "transition"
+  ],
+  "notable": "Portal rendering using render targets."
+ },
+ {
+  "name": "three.js WebGPU Shadertoy",
+  "url": "https://threejs.org/examples/#webgpu_shadertoy",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "shadertoy",
+   "tsl",
+   "shaders"
+  ],
+  "notable": "Shadertoy-style fragment shader in the WebGPU renderer."
+ },
+ {
+  "name": "three.js WebGPU SSGI Ballpool",
+  "url": "https://threejs.org/examples/#webgpu_postprocessing_ssgi_ballpool",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "ssgi",
+   "postprocessing",
+   "physics"
+  ],
+  "notable": "Screen-space global illumination over a ball pool."
+ },
+ {
+  "name": "three.js WebGPU Pixel PostFX",
+  "url": "https://threejs.org/examples/#webgpu_postprocessing_pixel",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "postprocessing",
+   "pixel",
+   "retro"
+  ],
+  "notable": "Pixelated retro post effect."
+ },
+ {
+  "name": "three.js WebGL Effects ASCII",
+  "url": "https://threejs.org/examples/#webgl_effects_ascii",
+  "source": "three.js examples (WebGPU/WebGL)",
+  "source_url": "https://threejs.org/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "webgl",
+   "ascii",
+   "postprocessing",
+   "effect"
+  ],
+  "notable": "Scene rendered as ASCII characters."
+ },
+ {
+  "name": "Louis Vuitton VIA",
+  "url": "https://immersive-g.com/projects/louis-vuitton-1",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "luxury",
+   "immersive",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for the Louis Vuitton VIA project."
+ },
+ {
+  "name": "David Whyte Experience",
+  "url": "https://immersive-g.com/projects/david-whyte-experience",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "poetry",
+   "immersive",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for a poetry-led 3D experience."
+ },
+ {
+  "name": "Cartier End of Year 23",
+  "url": "https://immersive-g.com/projects/cartier-end-of-year-23",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": 2023,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "luxury",
+   "holiday",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for Cartier's end-of-year experience."
+ },
+ {
+  "name": "Cartier in Time",
+  "url": "https://immersive-g.com/projects/cartier-in-time",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "luxury",
+   "time",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for Cartier in Time."
+ },
+ {
+  "name": "Chartogne Taillet",
+  "url": "https://immersive-g.com/projects/chartogne-taillet-1",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "champagne",
+   "terroir",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for a champagne estate site."
+ },
+ {
+  "name": "Longines Spirit Zulu Time",
+  "url": "https://immersive-g.com/projects/longines-zulu-time",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "watch",
+   "product-3d",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for the Longines Spirit Zulu Time launch."
+ },
+ {
+  "name": "Masar Destination",
+  "url": "https://immersive-g.com/projects/masar-destination",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "architecture",
+   "destination",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for the Masar destination."
+ },
+ {
+  "name": "Omega Space Sustainability",
+  "url": "https://immersive-g.com/projects/omega-space",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "space",
+   "sustainability",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for Omega's space sustainability story."
+ },
+ {
+  "name": "Midwam",
+  "url": "https://immersive-g.com/projects/midwam",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "webgl",
+   "agency",
+   "brand",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for the Midwam agency site."
+ },
+ {
+  "name": "Cartier Watches and Wonders 24",
+  "url": "https://immersive-g.com/projects/cartier-watches-and-wonders-24",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": 2024,
+  "category": "event-campaign",
+  "tags": [
+   "webgl",
+   "luxury",
+   "watch",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for Cartier at Watches and Wonders 2024."
+ },
+ {
+  "name": "Girard-Perregaux Casquette",
+  "url": "https://immersive-g.com/projects/girard-perregaux-casquette-1",
+  "source": "Immersive Garden projects",
+  "source_url": "https://immersive-g.com/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "watch",
+   "product-3d",
+   "case-study"
+  ],
+  "notable": "Immersive Garden case page for a Girard-Perregaux watch."
+ },
+ {
+  "name": "OGL Mouse Flowmap",
+  "url": "https://oframe.github.io/ogl/examples/?src=mouse-flowmap.html",
+  "source": "OGL examples",
+  "source_url": "https://oframe.github.io/ogl/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "ogl",
+   "flowmap",
+   "distortion",
+   "shaders"
+  ],
+  "notable": "Pointer-driven flowmap that warps an image like fluid."
+ },
+ {
+  "name": "OGL Post Fluid Distortion",
+  "url": "https://oframe.github.io/ogl/examples/?src=post-fluid-distortion.html",
+  "source": "OGL examples",
+  "source_url": "https://oframe.github.io/ogl/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "ogl",
+   "fluid",
+   "postprocessing",
+   "distortion"
+  ],
+  "notable": "Fluid simulation distorting the rendered scene."
+ },
+ {
+  "name": "OGL GPGPU Particles",
+  "url": "https://oframe.github.io/ogl/examples/?src=gpgpu-particles.html",
+  "source": "OGL examples",
+  "source_url": "https://oframe.github.io/ogl/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "ogl",
+   "gpgpu",
+   "particles",
+   "shaders"
+  ],
+  "notable": "Particles simulated in GPU textures with the tiny OGL library."
+ },
+ {
+  "name": "OGL MSDF Text Glyphs",
+  "url": "https://oframe.github.io/ogl/examples/?src=msdf-text.html",
+  "source": "OGL examples",
+  "source_url": "https://oframe.github.io/ogl/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "ogl",
+   "msdf",
+   "typography",
+   "shaders"
+  ],
+  "notable": "Crisp multichannel signed distance field text in WebGL."
+ },
+ {
+  "name": "OGL Instancing GPU Picking",
+  "url": "https://oframe.github.io/ogl/examples/?src=instancing-gpu-picking.html",
+  "source": "OGL examples",
+  "source_url": "https://oframe.github.io/ogl/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "ogl",
+   "instancing",
+   "picking",
+   "performance"
+  ],
+  "notable": "Instanced objects selected via a GPU picking pass."
+ },
+ {
+  "name": "OGL Post Bloom",
+  "url": "https://oframe.github.io/ogl/examples/?src=post-bloom.html",
+  "source": "OGL examples",
+  "source_url": "https://oframe.github.io/ogl/examples/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "ogl",
+   "bloom",
+   "postprocessing",
+   "shaders"
+  ],
+  "notable": "Bloom post effect in the minimal OGL library."
+ },
+ {
+  "name": "RIRRI'S Rainy Convenience Store",
+  "url": "https://discourse.threejs.org/t/rirris-a-rainy-night-convenience-store-as-a-portfolio/95930",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "three.js",
+   "portfolio",
+   "diorama",
+   "mood"
+  ],
+  "notable": "A rainy-night convenience store used as a portfolio."
+ },
+ {
+  "name": "Night Workspace 3D Room Portfolio",
+  "url": "https://discourse.threejs.org/t/night-workspace-an-interactive-3d-room-portfolio-built-with-three-js/96127",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "three.js",
+   "portfolio",
+   "room",
+   "interactive"
+  ],
+  "notable": "Interactive 3D room as a portfolio."
+ },
+ {
+  "name": "M / DRIVE Arcade Racer",
+  "url": "https://discourse.threejs.org/t/m-drive-a-three-js-arcade-racer-with-rapier-physics-nitro-and-cinematic-stunts/96147",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "rapier",
+   "racing",
+   "stunts"
+  ],
+  "notable": "Arcade racer with Rapier physics, nitro and cinematic stunts."
+ },
+ {
+  "name": "Cinderwake WebGPU TSL ARPG",
+  "url": "https://discourse.threejs.org/t/cinderwake-a-survivors-style-arpg-in-the-browser-three-js-webgpu-tsl/96133",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "webgpu",
+   "tsl",
+   "arpg"
+  ],
+  "notable": "Survivors-style ARPG running on three.js WebGPU with TSL."
+ },
+ {
+  "name": "Palindrome of a Fall",
+  "url": "https://discourse.threejs.org/t/palindrome-of-a-fall-interactive-webgl-reverse-poem-where-scrolling-down-is-a-fall-and-scrolling-up-is-a-flight/96124",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "poem",
+   "scroll",
+   "narrative"
+  ],
+  "notable": "Reverse-poem where scrolling down is a fall and scrolling up is a flight."
+ },
+ {
+  "name": "Firework-powered Logo",
+  "url": "https://discourse.threejs.org/t/a-firework-powered-logo-interactive-particles-bloom-and-a-full-logo-explosion/95869",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "particles",
+   "bloom",
+   "logo"
+  ],
+  "notable": "Interactive particle logo that explodes with bloom."
+ },
+ {
+  "name": "Lunar Walk",
+  "url": "https://discourse.threejs.org/t/lunar-walk-a-moon-exploration-scene-built-with-three-js/95778",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "moon",
+   "exploration",
+   "scene"
+  ],
+  "notable": "Moon exploration scene."
+ },
+ {
+  "name": "Forest Environment WebGPU",
+  "url": "https://discourse.threejs.org/t/forest-environment-built-with-three-js-and-webgpu/96126",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "webgpu",
+   "forest",
+   "environment"
+  ],
+  "notable": "Forest environment in WebGPU."
+ },
+ {
+  "name": "000h Sculpture Component Library",
+  "url": "https://discourse.threejs.org/t/000h-an-open-source-react-component-library-with-three-js-sculptures-you-can-stir-scatter-and-reshape/96192",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "react",
+   "sculpture",
+   "interaction"
+  ],
+  "notable": "Open-source React components of sculptures you can stir, scatter and reshape."
+ },
+ {
+  "name": "Open GPU Benchmarker",
+  "url": "https://discourse.threejs.org/t/open-gpu-benchmarker-a-browser-gpu-benchmark-where-the-entire-city-is-generated-in-code/95919",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "procedural",
+   "benchmark",
+   "city"
+  ],
+  "notable": "Browser GPU benchmark where the whole city is generated in code."
+ },
+ {
+  "name": "NINE LOOPS SUBWAY",
+  "url": "https://discourse.threejs.org/t/nine-loops-subway-an-exit-8-style-anomaly-loop-game-in-three-js-mobile-en-ja-online-leaderboard/95932",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "horror",
+   "loop",
+   "mobile"
+  ],
+  "notable": "Exit 8-style anomaly loop game."
+ },
+ {
+  "name": "FLOAT Parkour Game",
+  "url": "https://discourse.threejs.org/t/float-3d-first-person-momentum-parkour-browser-game-three-js-rapier3d/95967",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "rapier",
+   "parkour",
+   "fps"
+  ],
+  "notable": "First-person momentum parkour."
+ },
+ {
+  "name": "Salon Noir Casino",
+  "url": "https://discourse.threejs.org/t/salon-noir-a-private-3d-casino-in-the-browser-blackjack-roulette-no-build-step/96131",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "casino",
+   "no-build",
+   "game"
+  ],
+  "notable": "Private 3D casino with blackjack and roulette and no build step."
+ },
+ {
+  "name": "OVU 3D Drawing Studio",
+  "url": "https://discourse.threejs.org/t/ovu-a-3d-drawing-studio-in-the-browser-built-with-three-js-react-three-fiber/96178",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "r3f",
+   "drawing",
+   "tool"
+  ],
+  "notable": "3D drawing studio in the browser."
+ },
+ {
+  "name": "Tessera4X Hex Strategy",
+  "url": "https://discourse.threejs.org/t/tessera4x-a-turn-based-hex-strategy-game-in-react-three-fiber-with-every-piece-built-in-code/96165",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "game-like",
+  "tags": [
+   "r3f",
+   "procedural",
+   "strategy",
+   "hex"
+  ],
+  "notable": "Hex strategy where every piece is built in code."
+ },
+ {
+  "name": "Daniel Alshriky My 3D Worlds",
+  "url": "https://danielalshriky.com/my-3d-worlds",
+  "source": "three.js forum Showcase",
+  "source_url": "https://discourse.threejs.org/c/showcase/7",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "three.js",
+   "portfolio",
+   "worlds",
+   "scenes"
+  ],
+  "notable": "Portfolio of 3D worlds."
+ },
+ {
+  "name": "Mathis Biabiany",
+  "url": "http://mathis-biabiany.fr/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "portfolio",
+   "three.js",
+   "creative"
+  ],
+  "notable": "Portfolio listed in the three.js showcase."
+ },
+ {
+  "name": "Samsy Lab",
+  "url": "http://lab.samsy.ninja/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "lab",
+   "three.js",
+   "experiments"
+  ],
+  "notable": "Creative coder lab of WebGL experiments."
+ },
+ {
+  "name": "Stewart Smith Rubik's Cube",
+  "url": "https://stewartsmith.io/work/rubiks-cube",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "puzzle",
+   "interaction",
+   "rubiks"
+  ],
+  "notable": "Rubik's cube interactive piece."
+ },
+ {
+  "name": "Resn Wildflower",
+  "url": "http://wildflower.resn.co.nz/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": 2014,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "studio",
+   "resn",
+   "flowers"
+  ],
+  "notable": "Resn wildflower interactive."
+ },
+ {
+  "name": "Resn Fungui",
+  "url": "https://fungui.resn.co.nz/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "webgl",
+   "studio",
+   "resn",
+   "interactive"
+  ],
+  "notable": "Resn interactive piece listed in the three.js showcase."
+ },
+ {
+  "name": "Abeto Messenger",
+  "url": "https://messenger.abeto.co",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "social",
+   "game",
+   "world"
+  ],
+  "notable": "Abeto's 3D social world."
+ },
+ {
+  "name": "Theatre.js",
+  "url": "https://www.theatrejs.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "animation",
+   "three.js",
+   "tool",
+   "timeline"
+  ],
+  "notable": "Motion design and animation toolkit with a three.js integration, listed in the three.js showcase."
+ },
+ {
+  "name": "Needle Tools",
+  "url": "https://needle.tools/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "unity",
+   "workflow",
+   "tool"
+  ],
+  "notable": "Workflow that takes Unity scenes to three.js on the web, listed in the three.js showcase."
+ },
+ {
+  "name": "Spline",
+  "url": "https://spline.design/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "spline",
+   "3d",
+   "tool",
+   "design"
+  ],
+  "notable": "Browser 3D design tool exporting to the web."
+ },
+ {
+  "name": "Polygon.js",
+  "url": "https://polygonjs.com/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "nodes",
+   "tool",
+   "procedural"
+  ],
+  "notable": "Node-based procedural 3D editor for the web."
+ },
+ {
+  "name": "Nodetoy",
+  "url": "https://nodetoy.co/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "shaders",
+   "nodes",
+   "three.js",
+   "tool"
+  ],
+  "notable": "Node-based shader editor for the web."
+ },
+ {
+  "name": "Matcap Editor",
+  "url": "https://lab.julienverneaut.com/matcap-editor/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "demo-technique",
+  "tags": [
+   "matcap",
+   "shaders",
+   "tool",
+   "three.js"
+  ],
+  "notable": "Browser editor for creating matcap materials."
+ },
+ {
+  "name": "Threejs Journey",
+  "url": "https://threejs-journey.xyz/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "three.js",
+   "course",
+   "education",
+   "webgl"
+  ],
+  "notable": "Bruno Simon's course site with embedded 3D lessons."
+ },
+ {
+  "name": "WebGI Jewelry",
+  "url": "https://webgi-jewelry.vercel.app/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgi",
+   "product-3d",
+   "jewelry",
+   "pbr"
+  ],
+  "notable": "Jewelry viewer with rich PBR and refraction."
+ },
+ {
+  "name": "Camera WebGI",
+  "url": "https://camera-webgi.vercel.app/",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "webgi",
+   "product-3d",
+   "camera",
+   "scroll"
+  ],
+  "notable": "Camera product page with scroll-linked 3D."
+ },
+ {
+  "name": "Google Interland",
+  "url": "https://beinternetawesome.withgoogle.com/interland",
+  "source": "three.js showcase",
+  "source_url": "https://threejs.org/",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "game",
+   "education",
+   "google"
+  ],
+  "notable": "Playful web safety game set in a 3D world."
+ }
+]

@@ -1,0 +1,801 @@
+verify everything before it goes in the library.
+Show less
+Worked for 6m 48s
+ChatGPT said:
+
+I'm treating this as a research corpus, not a moodboard. The goal is to find original interaction ideas, unusual navigation models, experimental visual systems, and creative technology that wouldn't emerge from copying a component library.
+
+The most important discoveries from the initial research are mesh3d, WebGPU Showcase, Codrops Webzibition, Shaders, Canvas UI, and Atelier UI. These go substantially beyond conventional scroll-animation components: spatial websites, WebGPU, shared-canvas interfaces, GPU distortions, and experimental interaction models. 
+mesh3d
++5
+
+Verification convention: These are research candidates, not 100+ sites I have individually opened and tested. A recent specialist index or source supports many of the newer selections; historical and independent entries still need live-status, interaction and licensing checks. Some are intentionally experimental or historically important rather than uniformly beautiful.
+
+1. Specific websites and interactive experiences
+A. Contemporary experimental websites — 2025–2026
+
+These are particularly useful for finding work that may not already be in the established agency-awards ecosystem. The 2026 selections are drawn partly from current experimental-design and WebGL showcases. 
+Website Design Awards
++3
+
+https://nocturnaldream.com/ — Continuous WebGPU dream that moves between radically different scales and environments.
+
+https://midnightvideo.cuchillo.rocks/ — Endless, explorable VHS store with interactive objects and a hidden game.
+
+https://samsy.ninja/ — A creative developer's portfolio transformed into navigable 3D spaces.
+
+https://stillwet.art/ — Interactive digital painting centered on material behavior and fluid feedback.
+
+https://impossiblemachines.xyz/ — Experimental visual experience worth inspecting for unconventional interaction.
+
+https://synfield.space/ — Contemporary experimental web-art direction.
+
+https://tkgally.github.io/ — Five Hundred Clocks; procedural timepieces with shared time controls.
+
+https://incredible-space.com/ — Spatial and experimental presentation.
+
+https://era-of-cmd-tab.vercel.app/ — An unconventional interface built around desktop multitasking.
+
+https://space.bl2.net/ — Interactive real-time solar-system visualization.
+
+https://lolchat.rip/ — An experimental communication-themed interface.
+
+https://3d-retro.com/ — Retro aesthetics translated into spatial web design.
+
+https://craft.gustavofior.com/ — Creative-coding and visual-craft experiment.
+
+https://opusfived.dev/ — Experimental developer presentation.
+
+https://typeincube.com/ — Typography explored as a three-dimensional object.
+
+https://rivendell.dmitrybrant.com/ — Relativity-based interactive visualization.
+
+https://laser.consti.de/ — Laser Graffiti; participatory digital mark-making.
+
+https://interfaces.kylejeong.com/ — AI Interface Museum; an unusually focused interface collection.
+
+https://desktopcolors.com/ — Experimental desktop-color interface.
+
+https://rip.so/ — Unusual interactive web project.
+
+https://eigendrum.com/ — Interactive audiovisual instrument with immediate visual feedback.
+
+https://everycube.alen.is/ — Cube-based generative experiment.
+
+https://sf.isopolis.city/ — Spatial city exploration as a web interface.
+
+https://pcjs.org/ — Working historical computers and interfaces in the browser.
+
+https://hurtle.site/ — Experimental interactive website.
+
+https://solegress.com/ — Spatial or visual experimentation.
+
+https://puma.taipei/ — A complex set of civic proposals mapped into an explorable WebGL city.
+
+https://rahatil.co/ — Creative experience worth investigating for adaptive rendering and performance.
+
+https://codeofsagar.in/ — 3D engineering portfolio with spatial camera work.
+
+https://ameen-abdullah.dev/ — Creative-developer portfolio spanning shader work, interactive films and WebGPU experiments.
+
+B. Playable, interactive and exploratory web
+
+These matter because the best original websites often borrow more from games, instruments and toys than from conventional web design. 
+dappasol.com
++3
+
+https://bruno-simon.com/ — The benchmark for turning a portfolio into something the visitor actually plays.
+
+https://neal.fun/ — A collection of original web interactions, each built around a strong mechanic.
+
+https://patatap.com/ — Keyboard input becomes an immediate audiovisual performance.
+
+https://sandspiel.club/ — Falling-sand simulation with material rules that encourage discovery.
+
+https://weavesilk.com/ — Symmetrical generative drawing with fluid, elegant interaction.
+
+https://radio.garden/ — A navigable globe that makes worldwide radio stations feel spatial.
+
+https://pointerpointer.com/ — One tiny cursor interaction turned into a memorable experience.
+
+https://zoomquilt.org/ — An apparently endless journey through illustrated worlds.
+
+https://noclip.website/ — Explorable reconstructed environments from video games.
+
+https://slowroads.io/ — Meditative procedural driving in a browser.
+
+https://townscaper.com/ — Spatial building where the interaction itself is the reward.
+
+https://earth.nullschool.net/ — Global environmental data presented as a living physical system.
+
+https://www.window-swap.com/ — Exploring real views from windows around the world.
+
+https://www.geoguessr.com/ — Geography turned into an observational exploration game.
+
+https://kiomet.com/ — Multiplayer spatial strategy with a highly legible visual world.
+
+https://shellshock.io/ — Full browser-based multiplayer game with distinctive stylized rendering.
+
+https://narrow.one/ — Custom-rendered multiplayer archery built for instant browser play.
+
+https://www.incredibox.com/ — Music composition through direct character manipulation.
+
+https://typatone.com/ — Typing translated into a musical sequence.
+
+https://type.method.ac/ — Kerning as a precise visual game.
+
+https://shape.method.ac/ — Bézier-curve craft transformed into an interactive challenge.
+
+https://color.method.ac/ — Color judgment as a playable interface.
+
+https://quickdraw.withgoogle.com/ — Drawing becomes an interactive machine-recognition experience.
+
+https://musiclab.chromeexperiments.com/ — Playful audiovisual instruments and experiments.
+
+https://fallingfalling.com/ — A disorienting, endlessly falling digital artwork.
+
+https://www.staggeringbeauty.com/ — An interaction that escalates dramatically from simple pointer movement.
+
+https://koalastothemax.com/ — Progressive visual discovery through subdividing circles.
+
+https://histography.io/ — Large-scale historical events arranged into an exploratory timeline.
+
+https://www.mapcrunch.com/ — Randomized Street View exploration.
+
+https://www.tetrageddon.com/ — Surreal experimental browser games and interactive art.
+
+C. Cinematic, identity-led and unusually art-directed websites
+
+These are less uniformly experimental than the first two groups, but they are valuable for large-scale visual direction, sequencing, brand immersion, photography, typography and polish. Several are studio websites whose own interfaces merit study. 
+GitHub
++4
+
+https://landonorris.com/ — Racing identity and motion-driven personal-brand storytelling.
+
+https://matvoyce.tv/ — Kinetic typography by an artist who treats moving letters as the primary medium.
+
+https://by-kin.com/ — High-energy creative direction, motion and brand storytelling.
+
+https://iventions.com/ — Immersive event-space presentation with spatial lighting.
+
+https://uncommonstudio.com.au/ — Art-directed studio identity with distinctive web motion.
+
+https://minhpham.design/ — Designer portfolio combining precise layout and interactive development.
+
+https://jeton.com/ — Fintech brand presented through a more expressive digital identity.
+
+https://scoutmotor.com/ — Automotive storytelling, product visualization and cinematic pacing.
+
+https://www.shopify.com/editions/winter2026 — Product announcements presented through a themed visual world.
+
+https://www.14islands.com/ — Creative-technology studio; study the work and experiments beyond its homepage.
+
+https://unseen.co/ — WebGL, texture, motion and experimental studio presentation.
+
+https://activetheory.net/ — Real-time digital worlds and large-scale experiential engineering.
+
+https://lusion.co/ — Interactive materials, shaders and unusually polished spatial motion.
+
+https://resn.co.nz/ — Playful, strange and sometimes deliberately chaotic digital experiences.
+
+https://makemepulse.com/ — Filmic web storytelling and immersive digital production.
+
+https://immersive-g.com/ — High-end interactive brand, museum and product experiences.
+
+https://igloo.inc/ — Glacial spatial atmosphere combined with instrument-like interface graphics.
+
+https://locomotive.ca/ — Editorial layout and scroll choreography from an influential digital studio.
+
+https://exoape.com/ — Cinematic digital-art direction and sophisticated transitions.
+
+https://cuberto.com/ — Expressive interaction details, cursor behaviors and motion systems.
+
+https://dogstudio.co/ — Unconventional brand worlds and creative technology.
+
+https://basement.studio/ — Bold contemporary identities and distinctive website execution.
+
+https://press.stripe.com/ — Publishing presented with physical depth and editorial restraint.
+
+https://www.a24films.com/ — Film-led editorial identity and unconventional cultural presentation.
+
+https://www.apple.com/vision-pro/ — Hardware storytelling with carefully synchronized media and typography.
+
+https://www.moooi.com/ — Maximalist interiors, dramatic product imagery and unusual visual staging.
+
+https://oceanx.org/ — Cinematic ocean exploration and science communication.
+
+https://jms.to/ — Automotive event and exhibition storytelling.
+
+https://zero.university/ — Contemporary identity with a spatial web-design reference.
+
+https://andersonmancini.dev/ — Creative developer specializing in sophisticated WebGL/WebGPU demonstrations.
+
+D. Creative-developer portfolios and unusual personal sites
+
+This group is particularly relevant to amkeshav.me because the individual's work, interests and interaction language must remain visible without the website becoming a generic agency showreel. 
+Interactive Websites
++4
+
+https://itomdev.com/ — A hand-drawn, explorable 3D corridor as a developer portfolio.
+
+https://valentingassend.com/en/ — Immersive developer projects with WebGL and substantial case studies.
+
+https://hontran.dev/ — Creative-development work with award-recognized interaction engineering.
+
+https://nikhildhakad.xyz/ — Contemporary interactive personal portfolio.
+
+https://blackbook.dk/ — Conversational portfolio with expressive transitions and WebGL details.
+
+https://ameen-abdullah.dev/ — WebGPU, shader, hand-tracking and experimental interaction work.
+
+https://www.3moons.it/ — Character-led creative world and interactive visual identity.
+
+https://www.mbidirectmail.com/ — Unusual physical-material metaphor joining a digital-services website.
+
+https://oscarsolis.design/projects/gesture-posters — Real-time, hand-tracked experimental typography.
+
+https://rauno.me/ — Design engineering with exceptionally deliberate interface details.
+
+https://www.tobiasahlin.com/ — Interactive experiments and front-end design tools alongside a personal portfolio.
+
+https://www.adhamdannaway.com/ — Distinctive personal positioning communicated through composition.
+
+https://www.antonandirene.com/ — Editorial portfolio with memorable navigation and layout.
+
+https://www.mikekus.com/ — Visually distinctive designer portfolio and independent work.
+
+https://www.dennis-snellenberg.com/ — Motion-first creative developer portfolio.
+
+https://www.joshwcomeau.com/ — Technical education that makes difficult concepts directly interactive.
+
+https://ciechanow.ski/ — Remarkable interactive engineering explanations; one of the strongest references for making complex ideas tactile.
+
+https://ciechanow.ski/gears/ — A focused example of interactive mechanics used to teach rather than decorate.
+
+E. Data, scientific visualization and experimental editorial
+
+This category is a deliberate counterweight to cinematic 3D. The design ambition is to make information into something visitors can experience.
+
+https://pudding.cool/ — Original interactive essays with inventive visual explanations and narrative pacing.
+
+https://www.gapminder.org/tools/ — Statistical relationships made explorable through animated data.
+
+https://ourworldindata.org/grapher — Large-scale interactive statistical visualization.
+
+https://eyes.nasa.gov/ — Spatial exploration of NASA missions and scientific datasets.
+
+https://stellarium-web.org/ — An interactive, navigable view of the night sky.
+
+https://www.solarsystemscope.com/ — Three-dimensional exploration of planetary geometry.
+
+https://earthengine.google.com/timelapse/ — Satellite imagery turned into a navigable record of planetary change.
+
+https://www.thetruesize.com/ — Map-projection distortion exposed through direct manipulation.
+
+https://www.windy.com/ — Atmospheric data turned into a dynamic map.
+
+https://www.ventusky.com/ — Weather visualization with layered scientific maps.
+
+https://www.flightradar24.com/ — Huge volumes of moving real-world information presented spatially.
+
+https://www.marinetraffic.com/ — Live maritime movement as a navigable map interface.
+
+https://htwins.net/scale2/ — Journey through physical scales, from the extremely small to the enormous.
+
+https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html — The Solar System represented through extreme scroll distance.
+
+https://neal.fun/size-of-space/ — Scale and discovery used as an interactive explanation.
+
+https://neal.fun/deep-sea/ — A vertical descent through ocean depth.
+
+https://neal.fun/asteroid-launcher/ — Physical consequences explored through a playful simulation.
+
+https://neal.fun/infinite-craft/ — Combinatorial discovery as an open-ended interface.
+
+https://neal.fun/absurd-trolley-problems/ — Interactive ethical dilemmas with humorous escalation.
+
+https://neal.fun/design-the-next-iphone/ — Product configuration as playful manipulation.
+
+https://neal.fun/spend/ — An unusually effective interactive treatment of numerical scale.
+
+https://www.cameronsworld.net/ — A collage of early-web culture that shows how far personality can go beyond modern UI conventions.
+
+That's 130 named sites or distinct web experiences, separate from the inspiration archives below. The later examples are sometimes excellent because of the interaction model, not because their aesthetic should be copied.
+
+2. Inspiration galleries, archives and specialist discovery sources
+
+The highest-yield sources for reaching 1,000+ genuinely different websites are the archives with deep searchable collections: Codrops Webzibition (over 2,400 entries), the independent Awwwards archive (over 30,000 indexed entries), mesh3d (hundreds of spatial sites), and the Google Experiments archive (over 1,600 experiments). Those counts describe their published collections, not individually verified live websites. 
+Codrops
++3
+
+Experimental web, WebGL and creative coding
+
+https://tympanus.net/codrops/webzibition/ — Daily creative-web curation with unusually strong experimental selections.
+
+https://tympanus.net/codrops/hub/ — Open creative-code demonstrations, prototypes and original interactions.
+
+https://tympanus.net/codrops/hub/tutorials/ — Tutorial-backed experiments revealing how the visual effects work.
+
+https://mesh3d.gallery/ — Specialized Three.js/WebGL directory with techniques, makers and interactions.
+
+https://webgpu.com/showcase/ — WebGL/WebGPU project index organized by rendering technique and implementation.
+
+https://iwa.dev/ — Immersive WebXR adventures with playable spatial environments.
+
+https://www.shadertoy.com/ — Thousands of fragment-shader experiments, including sophisticated procedural imagery.
+
+https://openprocessing.org/ — Community archive of executable creative-coding sketches.
+
+https://editor.p5js.org/ — Discoverable p5.js sketches and interactive programming experiments.
+
+https://www.vertexshaderart.com/ — GPU-driven generative geometry and live shader artwork.
+
+https://www.fxhash.xyz/ — Generative-art experiments with code-driven visual systems.
+
+https://www.artblocks.io/ — Curated generative-art projects and artist-led algorithmic work.
+
+https://experiments.withgoogle.com/ — Broad historical archive of unusual browser and creative-tech experiments.
+
+https://www.chromeexperiments.com/ — Historic browser-experiment collection and creative-technology references.
+
+https://www.webdesignmuseum.org/ — Web-design history, useful for discovering forgotten interface ideas.
+
+https://awwwards.withseismic.com/ — Independent indexed archive of past Awwwards sites.
+
+https://legit.wick.pics/ — Craft-oriented website collection with live screenshots and design archetypes.
+
+https://websitedesignawards.com/category/experimental — Recent creative-coding and experimental-interface discoveries.
+
+Specialist award and whole-website directories
+
+https://www.thefwa.com/ — Historical home of ambitious interactive digital experiences.
+
+https://www.cssdesignawards.com/ — Award archive with useful creative-developer and WebGL selections.
+
+https://www.cssnectar.com/ — Website gallery with rich portfolio and interactive-design categories.
+
+https://www.csswinner.com/ — Additional award-discovery channel for independent designers.
+
+https://www.csslight.com/ — Smaller creative-website and portfolio discovery channel.
+
+https://www.designnominees.com/ — International web-design submissions and recognition.
+
+https://www.mindsparklemag.com/ — Independent graphic, brand and interactive design inspiration.
+
+https://www.siteofsites.co/ — Curated portfolio and website directory with experimental tags.
+
+https://www.httpster.net/ — Alternative website-design archive, often useful for less mainstream visual directions.
+
+https://www.maxibestof.one/ — Editorially curated web-design selections with strong art-direction emphasis.
+
+https://www.seesaw.website/ — Selected modern websites with an emphasis on composition and aesthetics.
+
+https://www.a1.gallery/ — Discoverable website examples by style, discipline and subject.
+
+https://recent.design/ — Cross-disciplinary references spanning web, branding, editorial and motion.
+
+https://www.on.design/ — Design inspiration and independent digital references.
+
+https://detail.design/ — Close attention to the small visual and interaction decisions.
+
+https://arche.directory/websites — Design directory searchable by typography, motion, technology and style.
+
+https://webpo.space/ — Real launched websites indexed by stack and visual direction.
+
+https://www.hoverstate.design/ — Live-site references focused on typography, layout and interaction details.
+
+https://allwebsites.design/ — Real-site archive with palette, typography and implementation context.
+
+https://www.webdesign-inspiration.com/ — Large cross-category website inspiration archive.
+
+Motion, interfaces, landing pages and micro-interactions
+
+https://movin.design/ — Hand-curated animation clips, shaders, interface motion and micro-interactions.
+
+https://60fps.design/ — Short motion references from real apps and interfaces.
+
+https://motionin.design/ — Physics-driven, cursor-responsive and cinematic web-section references.
+
+https://reelfolio.io/ — Portfolio and motion-presentation references.
+
+https://landdding.com/ — Design-rich website and landing-page discovery.
+
+https://landing.gallery/ — Modern landing-page art direction and layout references.
+
+https://land-book.com/ — Large catalogue of launched landing pages and websites.
+
+https://www.lapa.ninja/ — Landing pages with useful section-level and layout references.
+
+https://www.landingfolio.com/ — Landing-page and UI pattern examples.
+
+https://www.saaspo.com/ — Specialist SaaS presentation, motion and product-design references.
+
+https://www.pages.xyz/ — Product-interface and website visual references.
+
+https://refero.design/ — Real product screens and interface patterns.
+
+https://mobbin.com/ — Production mobile and web interface flows.
+
+https://screenlane.com/ — Mobile screen journeys and interaction patterns.
+
+https://navbar.gallery/ — Navigation systems and menu treatments.
+
+https://cta.gallery/ — Call-to-action treatment and interaction ideas.
+
+https://footer.design/ — Footer design and final-screen composition.
+
+https://404s.design/ — Error-page creativity and unusual micro-experiences.
+
+Typography, graphic design and cross-medium sources
+
+https://www.typewolf.com/ — Real website typography and identified font combinations.
+
+https://fontsinuse.com/ — Extensive archive of typography in published work.
+
+https://typographicposters.com/ — Typographic poster design and expressive lettering.
+
+https://fontleague.com/ — Contemporary website typography and font-use observations.
+
+https://typeifind.com/type-resources — Independent type-foundry and typography research links.
+
+https://letterformarchive.org/ — Historical lettering, print, type and graphic-design material.
+
+https://www.underconsideration.com/brandnew/ — Identity-system case studies and visual critique.
+
+https://www.cosmos.so/ — Cross-disciplinary visual collections and reference boards.
+
+https://www.are.na/ — Research-driven collections crossing art, science, architecture and technology.
+
+https://savee.it/ — Visual research and curated reference collections.
+
+https://www.designspiration.com/ — Graphic, editorial, material and composition discovery.
+
+https://www.the-brandidentity.com/ — Identity, typography and contemporary art direction.
+
+https://www.itsnicethat.com/ — Contemporary visual culture and original creative work.
+
+https://www.commarts.com/webpicks — Selected web-design work from Communication Arts.
+
+For the breadth of your research, I would prioritize the specialist WebGL and motion archives over conventional landing-page directories. A thousand landing pages that all use the same five compositions are much less useful than a few hundred experiences with genuinely different interaction models.
+
+3. UI component libraries, motion systems, shaders and marketplaces
+
+This is the part where I would deliberately look beyond Scrolltide.
+
+The most interesting movement is toward composable GPU effects over live interfaces, shared WebGL canvases, agent-accessible source registries, and components with deeper interaction models rather than preset scroll animations. Atelier UI, Canvas UI, Shaders and Crucible are especially worth comparing. 
+Handcrafted React Animations & UI Components
++3
+
+A. Shader, WebGL and visually experimental component systems
+
+https://atelier-ui.com/ — React Three Fiber and Motion components sharing a common WebGL infrastructure; free and Pro.
+
+https://canvasui.dev/ — WebGL/WebGPU effects applied over live HTML, with multiple framework implementations.
+
+https://shaders.com/ — Composable WebGPU shader components plus visual editor and agent integration.
+
+https://radiant-shaders.com/ — Independent open-source collection of striking self-contained shader effects.
+
+https://crucibleui.com/ — Animated React registry with original shader backgrounds, physics and sophisticated effects.
+
+https://shadergradient.co/ — Programmable animated shader gradients and material experimentation.
+
+https://www.unicorn.studio/ — Visual editor for interactive shader-based website effects.
+
+https://spline.design/ — Interactive 3D scene authoring and website embedding.
+
+https://www.shadertoy.com/ — Direct source of advanced shader techniques rather than prepackaged components.
+
+https://thebookofshaders.com/ — Foundational reference for building original GLSL effects.
+
+https://hydra.ojack.xyz/ — Live-coded audiovisual and feedback-based visual synthesis.
+
+https://canvasui.dev/docs — Implementation documentation for canvas-over-DOM and GPU effects.
+
+B. Creative components, animation registries and paid interaction kits
+
+https://scrolltide.co/ — Cinematic scroll, media and reveal components; useful baseline, not the ceiling.
+
+https://useplanes.com/components — Motion-based controls, galleries, charts and interactive WebGL-backed UI.
+
+https://ui.aceternity.com/components — High-impact motion and animated marketing blocks.
+
+https://reactbits.dev/ — Text animation, backgrounds, shader effects and creative React components.
+
+https://magicui.design/ — Animated marketing UI and page-section components.
+
+https://21st.dev/ — Marketplace and discovery system for individual UI components and libraries.
+
+https://motion-primitives.com/ — Focused animated primitives with reusable source.
+
+https://animate-ui.com/ — Animated accessible UI controls built on existing component primitives.
+
+https://eased.dev/ — Carefully tuned Motion components with free and paid versions.
+
+https://annnimate.com/ — GSAP component systems for React, Vue and HTML, with commercial access.
+
+https://madewithgsap.com/ — Scroll, hover, drag and other GSAP effects, including paid resources.
+
+https://osmo.supply/ — GSAP-heavy creative-development snippets, Webflow patterns and subscription vault.
+
+https://motionin.design/ — Physics-driven sections and prompt-assisted interaction references.
+
+https://paceui.com/ — Animated React components, product blocks and application templates.
+
+https://ui.ballmac.com/ — Interaction-first component registry, including paid animated scene elements.
+
+https://uibrik.com/ — Agent-installable React UI library with animated controls and WebGL backgrounds.
+
+https://design.helpmarq.com/ — ns-ui collection of canvas, motion and glass-focused components.
+
+https://forgeui.in/ — Animated React components, interactive backgrounds and ready-made blocks.
+
+https://smoothui.dev/ — Motion-focused React components and source-installable UI blocks.
+
+https://kokonutui.com/ — Expressive React components built around shadcn and motion.
+
+https://cult-ui.com/ — Curated experimental component patterns and animations.
+
+https://www.fancycomponents.dev/ — Unusual micro-interactions and creative React components.
+
+https://hover.dev/ — Hover behavior and animation-oriented UI ideas.
+
+https://www.ui-layouts.com/ — React layouts, interactive UI blocks and visual tools.
+
+https://inspira-ui.com/docs/ — Broad animated component library for Vue and Nuxt, including WebGL.
+
+https://ui.soralabs.studio/ — Animated shadcn-style component distribution.
+
+https://shadcnregistry.com/ — Discoverable component registries, including niche shader and motion sets.
+
+https://registry.directory/ — Search the wider ecosystem of shadcn registries.
+
+https://shoogle.dev/directory — Large searchable registry directory, useful for new independent libraries.
+
+https://www.shadcn.io/awesome/animations — Collection of motion-first registries and animations.
+
+https://21st.dev/community/libraries/s/motion — Motion-focused creator libraries inside 21st.dev.
+
+https://uibrik.com/docs/introduction — Agent and component installation workflow.
+
+https://crucibleui.com/components — Browse specific shader, physics, text and scroll implementations.
+
+Pricing and licensing vary significantly. Some libraries are free for application use but restrict redistribution; others require subscriptions or Pro licenses. Check the current license for each selected component rather than assuming an entire marketplace uses one license. 
+Eased
++2
+
+C. Design-system foundations and larger UI marketplaces
+
+https://ui.shadcn.com/ — Source-owning component architecture and accessible primitives.
+
+https://www.shadcnblocks.com/ — Larger site sections and ready-made React blocks.
+
+https://www.framer.com/marketplace/ — Website templates, plugins and reusable visual components.
+
+https://www.relume.io/ — Page-section systems and structured website composition references.
+
+https://www.flowbase.co/ — Webflow and Framer components, blocks and templates.
+
+https://www.finsweet.com/attributes — Powerful interaction and behavior utilities for Webflow.
+
+https://www.untitledui.com/ — Comprehensive product UI kits, patterns and React resources.
+
+https://www.floatui.com/ — Open-source landing-page and application interface blocks.
+
+https://daisyui.com/ — Themeable Tailwind component system.
+
+https://flowbite.com/ — Tailwind components and interactive application UI.
+
+https://preline.co/ — Application UI and interactive component primitives.
+
+https://hyperui.dev/ — Copyable Tailwind interface patterns.
+
+D. Motion engines and creative-development primitives
+
+These are not marketplaces. They are the toolkits to study when a component library cannot express an original concept.
+
+https://gsap.com/ — Timeline orchestration, ScrollTrigger, SplitText and advanced web animation.
+
+https://motion.dev/ — Layout animation, springs, gestures and declarative component motion.
+
+https://animejs.com/ — JavaScript timeline animation for DOM, SVG and other values.
+
+https://www.react-spring.dev/ — Physics-based animation in React.
+
+https://www.theatrejs.com/ — Visually authored sequencing and scene-state animation.
+
+https://rive.app/ — Interactive vector animation with state-machine behavior.
+
+https://www.remotion.dev/ — Programmable video compositions driven by React.
+
+https://lottiefiles.com/ — Animated asset libraries and Lottie tooling.
+
+https://lenis.darkroom.engineering/ — Smooth scrolling and scroll-motion coordination.
+
+https://threejs.org/ — Core browser-based 3D rendering framework.
+
+https://r3f.docs.pmnd.rs/ — React integration for complex Three.js scenes.
+
+https://drei.docs.pmnd.rs/ — Scene controls, helpers and advanced React Three Fiber utilities.
+
+https://pixijs.com/ — Accelerated 2D rendering for interactive visual interfaces.
+
+https://playcanvas.com/ — Real-time web 3D engine and visual authoring.
+
+https://www.babylonjs.com/ — Advanced interactive 3D and WebGPU development.
+
+https://curtainsjs.com/ — DOM-integrated WebGL planes and effects.
+
+https://www.p5js.org/ — Creative coding for generative graphics and interaction.
+
+For actual research novelty, I'd put Shaders, Canvas UI, Atelier UI, Crucible, the Codrops Creative Hub, and the broader shadcn registry ecosystem ahead of another pass through familiar hero-animation galleries.
+
+4. Studios and creative developers worth systematically mining
+
+I would study their project archives, labs, technical write-ups and abandoned experiments, not just their homepages. Often the most interesting work is a client experience or a one-off prototype rather than the portfolio shell.
+
+A. Creative-technology and immersive-web studios
+
+https://activetheory.net/ — Large-scale immersive websites, production WebGL and real-time experiences.
+
+https://lusion.co/ — Shader-driven materials, spatial interaction and experimental web effects.
+
+https://resn.co.nz/ — Surreal interfaces, unusual interaction models and playful technical risk-taking.
+
+https://www.14islands.com/ — Creative technology, WebGL, interaction design and experimental tools.
+
+https://immersive-g.com/ — Museum-like digital experiences, cinematic product spaces and narrative environments.
+
+https://unseen.co/ — A strong intersection of creative coding, brand identity and visual atmosphere.
+
+https://makemepulse.com/ — Immersive interactive experiences and film-influenced digital production.
+
+https://locomotive.ca/ — Scrollytelling, editorial structure and motion-directed website composition.
+
+https://dogstudio.co/ — Distinctive interactive worlds and experimental visual interfaces.
+
+https://www.unit9.com/ — Interactive experiences, games, film and experiential installations.
+
+https://www.hellomonday.com/ — Playful digital products and highly crafted visual storytelling.
+
+https://www.b-reel.com/ — Digital brand experiences, storytelling and experimental production.
+
+https://field.io/ — Generative systems, data-driven art, interactive installations and computational identity.
+
+https://onformative.com/ — Research-led generative art and creative technology.
+
+https://random.studio/ — Interactive installations, digital fashion and unusual physical-digital ideas.
+
+https://exoape.com/ — High-end cinematic websites and visual storytelling.
+
+https://cuberto.com/ — Motion-rich digital products and finely tuned interaction details.
+
+https://basement.studio/ — Contemporary brand identity, typography and web presentation.
+
+https://www.burocratik.com/ — Sophisticated storytelling, experiential interfaces and art direction.
+
+https://www.buildinamsterdam.com/ — Premium digital experiences and unconventional commerce presentations.
+
+https://www.rejouice.com/ — Artistic direction and high-impact digital brand work.
+
+https://www.oddcommon.com/ — Independent creative work combining interaction, storytelling and experimentation.
+
+https://www.formandfun.co/ — Experimental creative technology, AR, games and experiential design.
+
+https://www.shader.se/ — Specialist shader and creative-development experiments.
+
+https://peachweb.io/ — WebGL site building and spatial website experiments.
+
+https://www.noomoagency.com/ — Digital storytelling, dimensional interfaces and brand presentation.
+
+The importance of investigating specialist makers rather than only major agencies is supported by the breadth of the mesh3d maker directory, which surfaces hundreds of creators and project histories. 
+mesh3d
++4
+
+B. Motion, identity, editorial and experiential studios
+
+https://buck.co/ — World-class character animation, motion graphics and visual identity.
+
+https://giantant.ca/ — Story-led motion design with strong character and visual direction.
+
+https://www.ordinaryfolk.co/ — Exceptional motion-system polish and graphic storytelling.
+
+https://www.goldenwolf.tv/ — Energetic animation, expressive illustration and character-driven motion.
+
+https://www.losyork.tv/ — Film, motion, advertising and experimental visual composition.
+
+https://www.koto.com/ — Brand identity that scales into complex digital environments.
+
+https://studiodumbar.com/ — Experimental typographic identity and motion systems.
+
+https://www.pentagram.com/ — Deep reference for identity systems and rigorous graphic authorship.
+
+https://www.instrument.com/ — Digital products and brand experiences with sophisticated execution.
+
+https://www.basicagency.com/ — Visually ambitious product and brand experiences.
+
+https://www.deptagency.com/ — Digital experiences across WebGL, platforms and branded interaction.
+
+https://www.monks.com/ — Large-scale experiential and interactive production.
+
+https://www.fantasy.co/ — Concept-driven interface and digital product design.
+
+https://www.nexusstudios.com/ — Animation, immersive storytelling, interactive art and emerging interfaces.
+
+https://territorystudio.com/ — Cinematic interfaces, fictional technology and spatial visual systems.
+
+https://www.framestore.com/ — High-end VFX and immersive visual production.
+
+https://www.the-mill.com/ — Filmic craft, visual effects and experiential production.
+
+https://www.work.co/ — Digital product experiences with strong interface craft.
+
+The motion-specific studio directory is another useful way to find smaller specialists alongside established names. 
+Agency Showcase
+
+C. Individual creative developers, artists and design engineers
+
+https://bruno-simon.com/ — Portfolio-as-game design and advanced real-time browser interaction.
+
+https://samsy.ninja/ — Personal digital environments, 3D worlds and exploratory navigation.
+
+https://andersonmancini.dev/ — WebGPU, custom rendering materials, physical simulation and 3D experiments.
+
+https://hontran.dev/ — Award-recognized interactive engineering and studio collaborations.
+
+https://itomdev.com/ — Sketch-textured 3D world, room-based navigation and original shader work.
+
+https://valentingassend.com/en/ — Immersive development and well-documented creative experiments.
+
+https://ameen-abdullah.dev/ — Hand-tracked games, WebGPU portfolios and cinematic digital experiences.
+
+https://rauno.me/ — Design engineering, tactile interfaces and exceptionally tuned interaction.
+
+https://www.dennis-snellenberg.com/ — Expressive portfolio motion and creative frontend work.
+
+https://joshwcomeau.com/ — Interactive educational components with unusually clear interface design.
+
+https://ciechanow.ski/ — Deeply interactive scientific visual explanations.
+
+https://mattdesl.com/ — Generative graphics, shaders, creative coding and rendering experiments.
+
+https://oscarsolis.design/ — Gesture-driven typography and real-time interactive graphic design.
+
+https://www.tobiasahlin.com/ — Developer-led design experiments, visual tools and inventive UI.
+
+https://www.adhamdannaway.com/ — Distinctive personal-site composition and positioning.
+
+https://matvoyce.tv/ — Kinetic type, expressive lettering and motion-first typography.
+
+Research-library recommendation
+
+You've now got 130 specific site and experience candidates, 70 inspiration and specialist archives, 74 component/tool sources, and 60 studios or individual creators—334 categorized entries, with some deliberate overlap between the named sites and their makers.
+
+For getting to 1,000 unique, worthwhile sites, the highest-value search paths are likely:
+
+Codrops Webzibition: for original independent websites that are not always award winners.
+
+mesh3d and WebGPU Showcase: for real-time 3D, shaders, spatial interaction and unusual developer portfolios.
+
+The FWA archives: for historically innovative interface mechanics that contemporary UI libraries don't capture.
+
+Experiments with Google, Shadertoy and OpenProcessing: for ideas that never began as conventional websites.
+
+Studio project archives: to find individual campaigns, experiments and prototypes rather than collecting agency homepages.
+
+For cross-checking Claude's sweeps, I'd record one additional field for each site: the specific interaction or design invention that makes it worth studying. A site shouldn't qualify merely because it won an award, uses WebGL, or has smooth scrolling.
+
+The useful classification is whether it introduces an original interaction, exceptional art direction, unusual information architecture, novel rendering technique, genuinely different typography, or some combination of these.
+
+And one distinction worth preserving: 1000 discovered ≠ 1000 verified ≠ 1000 exceptional. Your corpus should keep those states separate.
+
+My strongest independent contribution is the deeper pool of creative-coding experiments, specialist WebGPU collections, new shader ecosystems and independent creators. Those are the most likely places to discover what's genuinely beyond the Scrolltide pattern library.
+
+ChatGPT can make mistakes. Check important info.
+Latest response
+Improve accuracy for tool workflows
+Upgrade your plan and use the frontier Pro reasoning model to synthesize long context with stronger verification.
+Get Pro
+
+Thinking effort
+High

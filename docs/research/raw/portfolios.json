@@ -1,0 +1,3079 @@
+[
+  {
+    "name": "Bruno Simon",
+    "url": "https://bruno-simon.com",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "webgl",
+      "3d-world",
+      "game-like",
+      "driving",
+      "open-source"
+    ],
+    "notable": "You drive a vehicle around a physics-driven 3D world to discover his work; the full code is published on GitHub and the site is the canonical 'portfolio as game' reference."
+  },
+  {
+    "name": "Samuel Honigstein (Samsy)",
+    "url": "https://samsy.ninja",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "webgpu",
+      "3d-world",
+      "first-person",
+      "cyberpunk",
+      "performance"
+    ],
+    "notable": "A WebGPU cyberpunk city explored in first person with holographic interfaces, running at a claimed 120+ FPS."
+  },
+  {
+    "name": "Bilal El Moussaoui",
+    "url": "https://bilal.show",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "scroll-story",
+      "3d",
+      "narrative",
+      "character"
+    ],
+    "notable": "A scroll-driven story that follows a character through a music-box-like environment instead of a conventional project list."
+  },
+  {
+    "name": "Sebastien Lempens",
+    "url": "https://www.sebastien-lempens.com",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "webgl",
+      "scroll-story",
+      "3d-city",
+      "first-person"
+    ],
+    "notable": "A scroll-driven tour of 3D Paris that switches between first-person, scooter and skydiving segments."
+  },
+  {
+    "name": "JReyes MC",
+    "url": "https://jreyes-mc-portfolio.com",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "3d-room",
+      "minecraft",
+      "scroll-story",
+      "game-like"
+    ],
+    "notable": "A Minecraft-inspired house where each scroll step moves the visitor to a new room/section; an Awwwards Honorable Mention."
+  },
+  {
+    "name": "Jordan Breton",
+    "url": "https://jordan-breton.com",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "three-js",
+      "floating-island",
+      "camera-points",
+      "detail"
+    ],
+    "notable": "A floating sky island packed with waterfalls, butterflies and trees, navigated by hopping between fixed camera points; he is a full-stack engineer who also does creative Three.js."
+  },
+  {
+    "name": "Thibault Introvigne",
+    "url": "https://www.thibault-introvigne.com",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "game-like",
+      "space",
+      "collectibles",
+      "3d"
+    ],
+    "notable": "A spaceman exploration game with ten collectibles, each of which unlocks details about his work (page title: 'Space Gamefolio')."
+  },
+  {
+    "name": "Worapat Supameteeworakul (WoraWork)",
+    "url": "https://worawork.vercel.app",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "3d-room",
+      "cozy",
+      "zelda",
+      "animal-crossing",
+      "game-like"
+    ],
+    "notable": "A cozy house-and-garden world inspired by Zelda and Animal Crossing where interacting with objects reveals his background."
+  },
+  {
+    "name": "Aimee Xu / Aimee Weis (Papercraft World)",
+    "url": "https://aimees-papercraft-world.com",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "papercraft",
+      "three-js",
+      "blender",
+      "scroll-story",
+      "seasonal"
+    ],
+    "notable": "A seasonal papercraft world built with three.js and Blender with a hand-drawn notebook look; the sources credit two different names, so attribution is unclear."
+  },
+  {
+    "name": "Xianyao Wei (Weisdevice)",
+    "url": "https://www.weisdevice.xyz",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "three-js",
+      "glsl",
+      "sound",
+      "glitch",
+      "island"
+    ],
+    "notable": "A small island with a robot and interactive gadgets, built with Three.js and GLSL shaders; Codrops covered it as a glitched-out world between 2D, 3D and sound."
+  },
+  {
+    "name": "Ameen Abdullah",
+    "url": "https://ameen-abdullah.dev",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "webgpu",
+      "tsl",
+      "sakura",
+      "cinematic",
+      "vue"
+    ],
+    "notable": "A WebGPU sakura-petal loading sequence that opens onto a cherry-tree island surrounded by water, built with Three.js, TSL and GSAP."
+  },
+  {
+    "name": "Jay Ransijn",
+    "url": "https://jayransijn.com",
+    "source": "CreativeDevJobs - Best Three.js Portfolio Examples",
+    "source_url": "https://www.creativedevjobs.com/blog/best-threejs-portfolio-examples-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "playable-3d",
+      "reflections",
+      "easter-egg",
+      "design-engineer"
+    ],
+    "notable": "A playable 3D world where you play fetch, ride a bike and hunt for a hidden car, with notable reflections and lighting; 'Explore my 3D world' is the page tagline."
+  },
+  {
+    "name": "Henri Heymans",
+    "url": "https://www.henriheymans.com",
+    "source": "WeAreDevelopers - Web Developer Portfolio Inspiration (Mar 2025)",
+    "source_url": "https://www.wearedevelopers.com/magazine/561-web-developer-portfolio-inspiration-and-examples-march-2025",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "minimal",
+      "gallery-transitions",
+      "scroll-driven",
+      "awwwards-sotd",
+      "gsap"
+    ],
+    "notable": "Black-and-white 2025 portfolio built around gallery-style page transitions, a loading intro and scroll-driven homepage motion; Awwwards Site of the Day."
+  },
+  {
+    "name": "Jesse Zhou",
+    "url": "https://www.jesse-zhou.com",
+    "source": "WeAreDevelopers - Web Developer Portfolio Inspiration (Mar 2025)",
+    "source_url": "https://www.wearedevelopers.com/magazine/561-web-developer-portfolio-inspiration-and-examples-march-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "3d-room",
+      "ramen",
+      "game-like",
+      "video"
+    ],
+    "notable": "A navigable 3D ramen hut with a vending machine that serves up projects and a TV that plays videos."
+  },
+  {
+    "name": "Henry Heffernan",
+    "url": "https://henryheffernan.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://henryheffernan.com",
+    "year": 2022,
+    "category": "portfolio-person",
+    "tags": [
+      "3d-room",
+      "retro-computer",
+      "os-desktop",
+      "webgl",
+      "awwwards-sotd"
+    ],
+    "notable": "'Portfolio 2022' places you in a 3D bedroom where the camera dives into a retro computer whose screen runs a desktop-style portfolio."
+  },
+  {
+    "name": "Robin Noguier",
+    "url": "https://www.robin-noguier.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://www.robin-noguier.com",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "interactive-design",
+      "experiments",
+      "art-direction",
+      "webgl"
+    ],
+    "notable": "Interactive designer whose personal site is a long-running reference for playful, art-directed motion and WebGL experiments."
+  },
+  {
+    "name": "Dennis Snellenberg",
+    "url": "https://dennissnellenberg.com",
+    "source": "Awwwards - Developer category",
+    "source_url": "https://www.awwwards.com/websites/developer/",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "awwwards-sotd",
+      "magnetic-cursor",
+      "page-transitions",
+      "gsap",
+      "rotterdam"
+    ],
+    "notable": "Freelance designer-developer whose portfolio has multiple Awwwards SOTD/Developer Awards (latest July 2025) and is a study in smooth transitions and magnetic hover interactions."
+  },
+  {
+    "name": "Stas Bondar",
+    "url": "https://stabondar.com",
+    "source": "Codrops - Case Studies and Spotlights (Mar 2025, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2025-03.html",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "css-3d",
+      "cube",
+      "gsap",
+      "webflow",
+      "astro"
+    ],
+    "notable": "A centerpiece cube driven by CSS 3D transforms and GSAP that reacts to scroll and mouse; built with Webflow and Astro; Codrops wrote up the code and techniques."
+  },
+  {
+    "name": "Martin Laxenaire",
+    "url": "https://www.martin-laxenaire.fr",
+    "source": "Codrops - Case Studies and Spotlights (Oct 2025, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2025-10.html",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "webgpu",
+      "game-like",
+      "playful",
+      "creative-dev"
+    ],
+    "notable": "Portfolio turned into a game, written up by Codrops as 'Self Doubt and the Quest for Fun'; WebGPU-powered per the Codrops feature."
+  },
+  {
+    "name": "Ravi Klaassens",
+    "url": "https://raviklaassens.com",
+    "source": "Codrops - Case Studies and Spotlights (Apr 2026, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2026-04.html",
+    "year": 2026,
+    "category": "portfolio-person",
+    "tags": [
+      "presence",
+      "awwwards",
+      "minimal",
+      "music-film-fashion"
+    ],
+    "notable": "R-K '26 is described by Codrops as a portfolio led by presence - the thinking and code behind a very restrained, award-winning site."
+  },
+  {
+    "name": "Stefan Vitasovic",
+    "url": "https://stefanvitasovic.dev",
+    "source": "Codrops - Case Studies and Spotlights (Mar 2025, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2025-03.html",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "shaders",
+      "minimal",
+      "dynamic-visuals",
+      "awwwards-jury"
+    ],
+    "notable": "Minimalist 2025 portfolio with dynamic visuals and shader effects by a Stockholm creative developer and Awwwards jury member."
+  },
+  {
+    "name": "Daiki Fujita",
+    "url": "https://daikifujita.com",
+    "source": "Codrops - Case Studies and Spotlights (Sep 2025, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2025-09.html",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "3d-dream",
+      "rapier",
+      "three-js",
+      "dual-mode",
+      "tokyo"
+    ],
+    "notable": "Page tagline: 'Read it awake, or float through it in a 3D dream' - a conventional layout with an optional physics-driven 3D mode (Rapier + Three.js)."
+  },
+  {
+    "name": "Clay Boan",
+    "url": "https://clayboan.com",
+    "source": "Codrops - Case Studies and Spotlights (Oct 2025, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2025-10.html",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "3d-playground",
+      "gsap",
+      "motion",
+      "designer"
+    ],
+    "notable": "Codrops calls it a 3D playground of design, motion and GSAP magic; a multidisciplinary designer's selected-works site (2025)."
+  },
+  {
+    "name": "Mike van der Sanden",
+    "url": "https://mikevandersanden.com",
+    "source": "Codrops - Case Studies and Spotlights (Sep 2025, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2025-09.html",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "project-platform",
+      "process",
+      "play",
+      "interdisciplinary"
+    ],
+    "notable": "A 'personal project platform' that grew out of process and play - the site is structured as a living workshop rather than a case-study list."
+  },
+  {
+    "name": "Tomoya Okada",
+    "url": "https://tomoyaokada.com",
+    "source": "Codrops - Case Studies and Spotlights (Oct 2025, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2025-10.html",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "fluid-worlds",
+      "distortion",
+      "layered",
+      "shaders"
+    ],
+    "notable": "Codrops: 'Fluid Worlds and Layered Visions' - distortion, blur and layered motion define a Japan-based creative developer's portfolio."
+  },
+  {
+    "name": "Huy Phan (Huyml)",
+    "url": "https://huyml.co",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "designer",
+      "awwwards",
+      "art-direction",
+      "vol2"
+    ],
+    "notable": "Award-winning designer/art director from Ho Chi Minh City; the 'Vol.2' site was featured on Awwwards and in a Codrops designer spotlight (Mar 2025)."
+  },
+  {
+    "name": "Edoardo Lunardi",
+    "url": "https://edoardolunardi.dev",
+    "source": "Codrops - Case Studies and Spotlights (Apr 2026, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2026-04.html",
+    "year": 2026,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "craft",
+      "awwwards-jury",
+      "vienna"
+    ],
+    "notable": "Design engineer in Vienna (Buck, Disney, Porsche, Red Bull) profiled by Codrops under the theme 'where engineering meets craft'."
+  },
+  {
+    "name": "Corentin Bernadou",
+    "url": "https://www.corentinbernadou.com",
+    "source": "Codrops - Case Studies and Spotlights (Apr 2026, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2026-04.html",
+    "year": 2026,
+    "category": "portfolio-person",
+    "tags": [
+      "shaders",
+      "complex-motion",
+      "creative-dev",
+      "experiments"
+    ],
+    "notable": "Freelance creative developer profiled by Codrops for a 'world of shaders and experimentation' - expressive, animation-driven interactive work."
+  },
+  {
+    "name": "Francesco Michelini",
+    "url": "https://francescomichelini.com",
+    "source": "Codrops - Case Studies and Spotlights (Mar 2025, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2025-03.html",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "3d",
+      "interaction",
+      "smooth-animation",
+      "independent"
+    ],
+    "notable": "Independent creative developer focusing on 3D, interaction and smooth animation; featured in a Codrops Developer Spotlight."
+  },
+  {
+    "name": "Sofia Papadopoulou",
+    "url": "https://sofiapapadopoulou.com",
+    "source": "Codrops - Case Studies and Spotlights (Apr 2026, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2026-04.html",
+    "year": 2026,
+    "category": "portfolio-person",
+    "tags": [
+      "ai",
+      "augmented-creativity",
+      "creative-tech"
+    ],
+    "notable": "Codrops 2026 spotlight on 'augmented creativity' - a designer-technologist's approach to working with AI."
+  },
+  {
+    "name": "Max Barvian",
+    "url": "https://barvian.me",
+    "source": "Codrops - Case Studies and Spotlights (Apr 2025, archive mirror)",
+    "source_url": "https://feeds.marmits.com/archive-rss-206-2025-04.html",
+    "year": 2025,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "craft",
+      "components"
+    ],
+    "notable": "San Diego design engineer featured in a Codrops Developer Spotlight (Apr 2025)."
+  },
+  {
+    "name": "Jesper Landberg",
+    "url": "https://jesperlandberg.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "motion",
+      "awwwards",
+      "design-engineer",
+      "visually-rich"
+    ],
+    "notable": "Swedish design engineer, two-time Awwwards Independent of the Year (2022 and 2024); his own site is a showcase of motion-driven craft."
+  },
+  {
+    "name": "Antoine Wodniack",
+    "url": "https://wodniack.dev",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "animation-driven",
+      "creative-dev",
+      "freelance"
+    ],
+    "notable": "Creative developer with 15+ years and 140+ projects whose site specialises in animation-driven, high-impact UX."
+  },
+  {
+    "name": "Elliott Mangham",
+    "url": "https://elliott.mangham.dev",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "awwwards",
+      "engineering-led",
+      "technical-director"
+    ],
+    "notable": "Founder/technical director billed as a 24x Awwwards Site-of-the-Day winner, presenting an engineering-led studio through a personal domain."
+  },
+  {
+    "name": "Gregory Lalle",
+    "url": "https://gregorylalle.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": 2024,
+    "category": "portfolio-person",
+    "tags": [
+      "animations",
+      "interactions",
+      "immersive",
+      "creative-dev"
+    ],
+    "notable": "Freelance creative developer focused on animations and user interactions; the 2024 edition appears on the Awwwards portfolio list."
+  },
+  {
+    "name": "Eddy Naboulet (EddyOS)",
+    "url": "https://eddy-naboulet.dev",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "os-desktop",
+      "react",
+      "webgl",
+      "canvas"
+    ],
+    "notable": "Listed on Awwwards as 'EddyOS'; a senior front-end developer's site using an OS metaphor with React, TypeScript, Canvas and WebGL."
+  },
+  {
+    "name": "Ivan Pitenin",
+    "url": "https://ivan.technology",
+    "source": "Awwwards - Developer category",
+    "source_url": "https://www.awwwards.com/websites/developer/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "tokyo",
+      "interactive-3d",
+      "generative-art",
+      "front-end"
+    ],
+    "notable": "Tokyo front-end developer presenting websites, interactive 3D projects and generative art in one portfolio."
+  },
+  {
+    "name": "Levi Gavrilut",
+    "url": "https://levigav.com",
+    "source": "Awwwards - Developer category",
+    "source_url": "https://www.awwwards.com/websites/developer/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "young-builder",
+      "personal-tools",
+      "design-dev"
+    ],
+    "notable": "A 16-year-old Swiss designer-developer with the tagline 'I build what I want to exist'; shows how personal a minimal site can feel."
+  },
+  {
+    "name": "Manan Thakkar",
+    "url": "https://mananthakkar.dev",
+    "source": "Awwwards - Developer category",
+    "source_url": "https://www.awwwards.com/websites/developer/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "backend",
+      "applied-ai",
+      "inspectable",
+      "engineer"
+    ],
+    "notable": "Backend engineer at Walmart Global Tech ('applied-AI tools you can inspect') on an Awwwards-listed site - a rare backend-first portfolio getting design attention."
+  },
+  {
+    "name": "Arun NM (The Ride)",
+    "url": "https://www.arunnm.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "journey",
+      "experiment",
+      "motion",
+      "experience"
+    ],
+    "notable": "Titled 'The Ride - A Portfolio Experiment': places, ideas, motion and design are combined so the portfolio itself feels like a journey."
+  },
+  {
+    "name": "Deebak Tamilmani",
+    "url": "https://www.dbydt.space",
+    "source": "Awwwards - Developer category",
+    "source_url": "https://www.awwwards.com/websites/developer/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "webgpu",
+      "point-cloud",
+      "memory",
+      "architecture"
+    ],
+    "notable": "Portfolio of architecture/design fragments 'held as memory rather than archive' and drawn in real time as a WebGPU point cloud."
+  },
+  {
+    "name": "Arthur Engel",
+    "url": "https://aengel.io",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "webgpu",
+      "three-js",
+      "real-time-3d",
+      "design-engineer"
+    ],
+    "notable": "Design engineer specialising in WebGPU, Three.js and real-time 3D; the portfolio is itself a technical demo."
+  },
+  {
+    "name": "Daniele Buser",
+    "url": "https://www.danielebuser.com",
+    "source": "Awwwards - Developer category",
+    "source_url": "https://www.awwwards.com/websites/developer/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "webgl",
+      "interactive-3d",
+      "performance",
+      "creative-dev"
+    ],
+    "notable": "Creative developer's site centred on interactive 3D web experiences and WebGL experiments with high-performance front-end work."
+  },
+  {
+    "name": "Fabian Tjoe-A-On",
+    "url": "https://fabiantjoeaon.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "creative-technologist",
+      "art-direction",
+      "awwwards",
+      "minimal"
+    ],
+    "notable": "Creative technologist whose tagline is 'analog heart with exceptional digitalism'."
+  },
+  {
+    "name": "Haroon Rashidi",
+    "url": "https://www.haroonrashidi.com",
+    "source": "Awwwards - Developer category",
+    "source_url": "https://www.awwwards.com/websites/developer/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "multi-theme",
+      "art-directed",
+      "concept"
+    ],
+    "notable": "One portfolio art-directed seven separate ways - an unusual concept for showing range through a single site."
+  },
+  {
+    "name": "Tom Barrow",
+    "url": "https://yeahright.co",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "creative-dev",
+      "personality",
+      "manchester"
+    ],
+    "notable": "Manchester creative developer with 15+ years of experience, self-described as 'full-time tinkerer, part-time pizza extraordinaire' - personality-forward copy."
+  },
+  {
+    "name": "Mathias Adolfsson",
+    "url": "https://mathiasadolfsson.dev",
+    "source": "One Page Love - Portfolio gallery",
+    "source_url": "https://onepagelove.com/gallery/portfolio",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "creative-engineer",
+      "independent",
+      "one-page"
+    ],
+    "notable": "Independent 'creative engineer' site surfaced on both Awwwards and One Page Love portfolio lists."
+  },
+  {
+    "name": "Justin Lerner",
+    "url": "https://jlern.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "creative-technologist",
+      "full-stack",
+      "portland"
+    ],
+    "notable": "Portland creative technologist and senior full-stack engineer with 20+ years of experience - an Awwwards-listed hybrid backend/creative profile."
+  },
+  {
+    "name": "Guillaume Colombel",
+    "url": "https://guillaumecolombel.fr",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": 2026,
+    "category": "portfolio-person",
+    "tags": [
+      "full-screen-projects",
+      "infinite-scroll",
+      "thumbnail-nav",
+      "awwwards"
+    ],
+    "notable": "2026 edition of a portfolio known for full-screen project displays with infinite scroll and thumbnail navigation."
+  },
+  {
+    "name": "Cyd Stumpel",
+    "url": "https://cydstumpel.nl",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "independent",
+      "creative-dev",
+      "teacher",
+      "award-winning"
+    ],
+    "notable": "Award-winning independent creative developer and part-time teacher with 8+ years of experience."
+  },
+  {
+    "name": "Olivier Larose",
+    "url": "https://olivierlarose.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://olivierlarose.com",
+    "year": 2026,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "montreal",
+      "animation-tutorials"
+    ],
+    "notable": "Montreal design engineer's 2026 portfolio, from the creator of widely shared animation tutorials."
+  },
+  {
+    "name": "Guillaume Gouessan",
+    "url": "https://guillaumegouessan.com",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "creative-dev",
+      "installations",
+      "freelance"
+    ],
+    "notable": "Freelance creative developer from France who also builds digital installations."
+  },
+  {
+    "name": "Cihad Turhan",
+    "url": "https://cihadturhan.com",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "creative-dev",
+      "web-mobile",
+      "freelance"
+    ],
+    "notable": "Creative web and mobile developer listed in the awesome-portfolio-websites developer section."
+  },
+  {
+    "name": "Mees Verberne",
+    "url": "https://meesverberne.com",
+    "source": "Really Good Designs - Developer Portfolio Examples",
+    "source_url": "https://reallygooddesigns.com/?p=17736",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "pixelated-bg",
+      "cursor-reactive",
+      "animated-logo",
+      "creative-dev"
+    ],
+    "notable": "Pixelated background that responds to mouse movement plus an animated bird logo."
+  },
+  {
+    "name": "Mason Wong",
+    "url": "https://masontywong.com",
+    "source": "Really Good Designs - Developer Portfolio Examples",
+    "source_url": "https://reallygooddesigns.com/?p=17736",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "webgl",
+      "cursor-interaction",
+      "playful",
+      "holographic"
+    ],
+    "notable": "Playful cursor and hover animations with a holographic developer figure on the About page; he describes himself as focused on motion design and WebGL."
+  },
+  {
+    "name": "Stephane Willems",
+    "url": "https://stephanewillems.be",
+    "source": "Really Good Designs - Developer Portfolio Examples",
+    "source_url": "https://reallygooddesigns.com/?p=17736",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "3d-character",
+      "avatar",
+      "homepage"
+    ],
+    "notable": "A 3D animated character of the developer greets you on the homepage."
+  },
+  {
+    "name": "Robby Leonardi",
+    "url": "https://www.rleonardi.com",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "interactive-resume",
+      "side-scroller",
+      "game-like",
+      "illustration"
+    ],
+    "notable": "An interactive resume built as a side-scrolling game where you move through levels to learn his skills."
+  },
+  {
+    "name": "Ylli Ramadani",
+    "url": "https://www.ylliramadani.com",
+    "source": "Really Good Designs - Developer Portfolio Examples",
+    "source_url": "https://reallygooddesigns.com/?p=17736",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "monochrome",
+      "scroll-animation",
+      "creative-dev"
+    ],
+    "notable": "Creative web developer site with a monochrome palette, pops of colour and subtle polished scroll animation."
+  },
+  {
+    "name": "Andrew McCarthy",
+    "url": "https://andrevv.com",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "project-video",
+      "symbol-field",
+      "long-scroll"
+    ],
+    "notable": "One long scroll of project videos laid over a field of shifting symbols."
+  },
+  {
+    "name": "Sharlee (Charles Bruyerre)",
+    "url": "https://itssharl.ee",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "day-night-toggle",
+      "bilingual",
+      "animated-home",
+      "nextjs"
+    ],
+    "notable": "Animated full-screen home page with a day/night switch and a French/English toggle."
+  },
+  {
+    "name": "Diogo Correia",
+    "url": "https://diogotc.com",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "particles",
+      "timeline",
+      "zola"
+    ],
+    "notable": "Particle-effect hero with sticky navigation and a work/experience timeline on a Zola-built site."
+  },
+  {
+    "name": "Jordan Cruz-Correa",
+    "url": "https://jccdev.vercel.app",
+    "source": "WeAreDevelopers - Web Developer Portfolio Inspiration (Mar 2025)",
+    "source_url": "https://www.wearedevelopers.com/magazine/561-web-developer-portfolio-inspiration-and-examples-march-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "os-desktop",
+      "windows-98",
+      "nostalgia",
+      "easter-eggs"
+    ],
+    "notable": "A Windows 98-style interface with a working Notepad and a recycle bin full of nostalgic files."
+  },
+  {
+    "name": "Mitch Ivin",
+    "url": "https://mitchivin.com",
+    "source": "WeAreDevelopers - Five Nostalgic Developer Portfolios",
+    "source_url": "https://www.wearedevelopers.com/en/magazine/644/five-nostalgic-developer-portfolios-for-inspiration-644",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "os-desktop",
+      "windows-xp",
+      "sound",
+      "nostalgia"
+    ],
+    "notable": "A detailed Windows XP desktop clone for a portfolio, including the startup sound."
+  },
+  {
+    "name": "Joey de Ruiter",
+    "url": "https://joeyderuiter.me",
+    "source": "WeAreDevelopers - Five Nostalgic Developer Portfolios",
+    "source_url": "https://www.wearedevelopers.com/en/magazine/644/five-nostalgic-developer-portfolios-for-inspiration-644",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "os-desktop",
+      "unix",
+      "login",
+      "doom"
+    ],
+    "notable": "A simulated early-UNIX desktop you 'log into', with a DOS window where you can play Doom."
+  },
+  {
+    "name": "Sat Naing",
+    "url": "https://terminal.satnaing.dev",
+    "source": "WeAreDevelopers - Five Nostalgic Developer Portfolios",
+    "source_url": "https://www.wearedevelopers.com/en/magazine/644/five-nostalgic-developer-portfolios-for-inspiration-644",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "terminal",
+      "cli",
+      "no-mouse",
+      "typed-commands"
+    ],
+    "notable": "A command-line portfolio: type commands like help to explore projects and contact info."
+  },
+  {
+    "name": "Safet Pojskic",
+    "url": "https://safetpojskic.com",
+    "source": "Really Good Designs - Developer Portfolio Examples",
+    "source_url": "https://reallygooddesigns.com/?p=17736",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "os-desktop",
+      "linux-kde",
+      "terminal",
+      "games",
+      "easter-eggs"
+    ],
+    "notable": "An interactive Fedora KDE desktop in the browser with a terminal, file manager, games and easter eggs."
+  },
+  {
+    "name": "Abhinav Jaiswal (terminal)",
+    "url": "https://terminal.iabhinav.me",
+    "source": "GitHub - emmabostian/developer-portfolios",
+    "source_url": "https://github.com/emmabostian/developer-portfolios",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "terminal",
+      "backend",
+      "cloud",
+      "typed-commands"
+    ],
+    "notable": "A terminal-style portfolio by an Amazon software engineer focused on scalable systems and cloud solutions."
+  },
+  {
+    "name": "Edward Hinrichsen",
+    "url": "https://www.edwardh.io",
+    "source": "CareerFoundry - Software Engineer Portfolio Guide",
+    "source_url": "https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "retro",
+      "early-internet",
+      "one-page"
+    ],
+    "notable": "A retro early-internet style one-pager with options to jump between sections."
+  },
+  {
+    "name": "Ilya Vlasov",
+    "url": "https://ilyavlasov.netlify.app",
+    "source": "CareerFoundry - Software Engineer Portfolio Guide",
+    "source_url": "https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "playable-project",
+      "tetris",
+      "game-like"
+    ],
+    "notable": "Showcases a playable Tetris project directly on the site, with a separate link to the code."
+  },
+  {
+    "name": "Jet Holt",
+    "url": "https://jetholt.com",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "travel",
+      "synth",
+      "fallout-terminal",
+      "postcards",
+      "playful"
+    ],
+    "notable": "A layered-landscape hero with a travel stamp, clickable synth modules, a Fallout-style terminal hacking minigame and postcard-shaped travel articles."
+  },
+  {
+    "name": "Creative Ed (Emad Malekossadat)",
+    "url": "https://www.creativeed.dev",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "os-desktop",
+      "retro-95",
+      "neo-brutalist",
+      "swiss",
+      "games"
+    ],
+    "notable": "Swiss-style neobrutalist grid mixed with a whimsical 'GroveOS 95' desktop - window-style files, a cauldron terminal, a clover-clicking game and a contact form with a drawing canvas."
+  },
+  {
+    "name": "Stefan Poulos",
+    "url": "https://www.poulos.co",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "ai-twin",
+      "ask-me-anything",
+      "design-systems",
+      "conversational"
+    ],
+    "notable": "Opens with an 'Ask me anything...' prompt and 'Ask about this project' buttons - an AI twin of a design-systems leader fronting a scrolling portfolio."
+  },
+  {
+    "name": "Matt Farley",
+    "url": "https://mattfarley.ca",
+    "source": "CareerFoundry - Software Engineer Portfolio Guide",
+    "source_url": "https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "illustration",
+      "cartoon",
+      "boxed-layout",
+      "personality"
+    ],
+    "notable": "Memorable headline, cartoon illustrations and a scannable boxed layout."
+  },
+  {
+    "name": "Dani Roxberry",
+    "url": "https://droxey.com",
+    "source": "CareerFoundry - Software Engineer Portfolio Guide",
+    "source_url": "https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "folder-metaphor",
+      "devops",
+      "architect"
+    ],
+    "notable": "Folder-style design that organises history, projects and a contact form like a filing system."
+  },
+  {
+    "name": "Ian Dunkerley",
+    "url": "https://dunks1980.com",
+    "source": "CareerFoundry - Software Engineer Portfolio Guide",
+    "source_url": "https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "minimal",
+      "color-per-project",
+      "one-page"
+    ],
+    "notable": "Minimal single page whose colour scheme changes with the project you select."
+  },
+  {
+    "name": "Barlas Apaydin",
+    "url": "https://www.barlasapaydin.com",
+    "source": "CareerFoundry - Software Engineer Portfolio Guide",
+    "source_url": "https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "chemistry-lab",
+      "theme",
+      "cards"
+    ],
+    "notable": "A chemistry-lab themed portfolio with project cards and a tutorial blog (archived 2014 edition)."
+  },
+  {
+    "name": "Alicia Sykes",
+    "url": "https://aliciasykes.com",
+    "source": "CareerFoundry - Software Engineer Portfolio Guide",
+    "source_url": "https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "cracked-ground",
+      "open-source",
+      "privacy"
+    ],
+    "notable": "Clean layout with a cracked-ground header effect; projects link straight to their repositories (author of Dashy and Web Check)."
+  },
+  {
+    "name": "Adenekan Wonderful",
+    "url": "https://www.codewonders.dev",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "text-only",
+      "bio-as-nav",
+      "branded-cursor"
+    ],
+    "notable": "A text-only home page where the short bio doubles as the navigation, with an animated intro and a branded cursor."
+  },
+  {
+    "name": "Tamal Sen",
+    "url": "https://tamalsen.dev",
+    "source": "CareerFoundry - Software Engineer Portfolio Guide",
+    "source_url": "https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "3d",
+      "ide-style",
+      "expertise-section"
+    ],
+    "notable": "3D design with IDE-style code in the background and an expertise section."
+  },
+  {
+    "name": "Lars Olson",
+    "url": "https://www.lars-olson.com",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "webflow",
+      "playful-hover",
+      "game-dev"
+    ],
+    "notable": "Playful details and hover effects, with projects opening on individual case-study pages; a UI/UX designer and game developer."
+  },
+  {
+    "name": "Lauren Waller",
+    "url": "https://www.lauren-waller.com",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "framer",
+      "no-header",
+      "hover-menu"
+    ],
+    "notable": "Header-free Framer site with large menu links that respond on hover."
+  },
+  {
+    "name": "Rauno Freiberg",
+    "url": "https://rauno.me",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://rauno.me",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "interaction-craft",
+      "minimal",
+      "details"
+    ],
+    "notable": "A design engineer's site where tactile interface details are the content; a reference for interaction craft over visual spectacle."
+  },
+  {
+    "name": "Paco Coursey",
+    "url": "https://paco.me",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://paco.me",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "minimal",
+      "text-first",
+      "cmd-k",
+      "design-engineer"
+    ],
+    "notable": "Ultra-minimal text-first site by the author of the cmd+K menu library and a Linear web engineer; spare typography is the whole design."
+  },
+  {
+    "name": "Emil Kowalski",
+    "url": "https://emilkowal.ski",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://emilkowal.ski",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "animation",
+      "micro-interactions",
+      "linear"
+    ],
+    "notable": "Design engineer at Linear whose personal site embodies his animation-feel philosophy (creator of Sonner and Vaul)."
+  },
+  {
+    "name": "Jhey Tompkins",
+    "url": "https://jhey.dev",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://jhey.dev",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "css-experiments",
+      "motion",
+      "prototypes",
+      "playful"
+    ],
+    "notable": "Prototypes, notes and experiments in CSS, motion and interface craft by a Shopify brand design engineer."
+  },
+  {
+    "name": "Lynn Fisher",
+    "url": "https://lynnandtonic.com",
+    "source": "DEV Community - 10 Inspiring Software Engineer Portfolios",
+    "source_url": "https://dev.to/haquedot/10-inspiring-software-engineer-portfolios-including-mine-33h6",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "yearly-redesign",
+      "css-art",
+      "playful",
+      "illustration"
+    ],
+    "notable": "Redesigned every year as a fresh hand-crafted concept; a long-running example of a personal site as an annual art project."
+  },
+  {
+    "name": "Cassie Evans",
+    "url": "https://www.cassie.codes",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "svg-animation",
+      "playful",
+      "creative-dev"
+    ],
+    "notable": "Creative developer's personal site listed in the awesome creative-portfolios developer set; known for SVG and CSS animation work."
+  },
+  {
+    "name": "Amelia Wattenberger",
+    "url": "https://wattenberger.com",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "interactive-essay",
+      "data-viz",
+      "garden",
+      "ui-design"
+    ],
+    "notable": "A hand-built personal site mixing interactive essays on interface design with data-viz experiments."
+  },
+  {
+    "name": "Brittany Chiang",
+    "url": "https://brittanychiang.com",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "minimal",
+      "cursor-glow",
+      "fixed-sidebar",
+      "time-travel"
+    ],
+    "notable": "Dark one-pager with a fixed left column of section links, a cursor glow and a switcher that time-travels to older versions of the site."
+  },
+  {
+    "name": "Josh W. Comeau",
+    "url": "https://www.joshwcomeau.com",
+    "source": "DEV Community - 10 Inspiring Software Engineer Portfolios",
+    "source_url": "https://dev.to/haquedot/10-inspiring-software-engineer-portfolios-including-mine-33h6",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "interactive-blog",
+      "playful",
+      "css",
+      "knowledge-hub"
+    ],
+    "notable": "Friendly, animation-heavy site where tutorials are interactive articles with custom live widgets."
+  },
+  {
+    "name": "Cassidy Williams",
+    "url": "https://cassidoo.co",
+    "source": "DEV Community - 10 Inspiring Software Engineer Portfolios",
+    "source_url": "https://dev.to/haquedot/10-inspiring-software-engineer-portfolios-including-mine-33h6",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "fun-but-pro",
+      "talks",
+      "personality"
+    ],
+    "notable": "Fun-but-professional site that foregrounds talks, work and side projects."
+  },
+  {
+    "name": "Tobias Ahlin",
+    "url": "https://tobiasahlin.com",
+    "source": "DEV Community - 10 Inspiring Software Engineer Portfolios",
+    "source_url": "https://dev.to/haquedot/10-inspiring-software-engineer-portfolios-including-mine-33h6",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "css-animation",
+      "spinkit",
+      "moving-letters"
+    ],
+    "notable": "Home of the SpinKit and Moving Letters CSS animation projects by a former Spotify/Minecraft designer-developer."
+  },
+  {
+    "name": "Shawn Wang (swyx)",
+    "url": "https://www.swyx.io",
+    "source": "DEV Community - 10 Inspiring Software Engineer Portfolios",
+    "source_url": "https://dev.to/haquedot/10-inspiring-software-engineer-portfolios-including-mine-33h6",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "writing",
+      "learn-in-public",
+      "devtools"
+    ],
+    "notable": "A writer-founder hub that goes beyond projects into technical writing and developer advocacy."
+  },
+  {
+    "name": "Anthony Fu",
+    "url": "https://antfu.me",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "open-source",
+      "vue",
+      "grouped-repos"
+    ],
+    "notable": "Open-source repositories grouped by ecosystem with one-line descriptions on a Vue-built site."
+  },
+  {
+    "name": "Tania Rascia",
+    "url": "https://www.taniarascia.com",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "digital-garden",
+      "open-source",
+      "tutorials"
+    ],
+    "notable": "Each open-source project links to its source and often a live demo; presented as her digital garden."
+  },
+  {
+    "name": "Kenneth Jimmy",
+    "url": "https://kenjimmy.me",
+    "source": "CareerFoundry - Software Engineer Portfolio Guide",
+    "source_url": "https://careerfoundry.com/en/blog/web-development/software-engineer-portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "illustrations",
+      "boxed-layout",
+      "minimal"
+    ],
+    "notable": "Minimal design with dynamic illustrations and a 'What I can do' skills section."
+  },
+  {
+    "name": "Arpit Bhayani",
+    "url": "https://arpitbhayani.me",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "backend",
+      "databases",
+      "astro",
+      "one-line-summaries"
+    ],
+    "notable": "Backend/database engineer (creator of DiceDB) whose projects each link to code with a one-line summary - backend-first, text-led."
+  },
+  {
+    "name": "Tom Weightman",
+    "url": "https://www.tomweightman.com",
+    "source": "Colorlib - Developer Portfolios",
+    "source_url": "https://colorlib.com/wp/developer-portfolios/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "shipped-products",
+      "role-per-product",
+      "product-engineer"
+    ],
+    "notable": "Long list of shipped products with his role in each, including Figma's Dev Mode and WhatsApp."
+  },
+  {
+    "name": "Adam Argyle",
+    "url": "https://nerdy.dev",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "css",
+      "open-props",
+      "teaching"
+    ],
+    "notable": "Site of the creator of Open Props and VisBug, with a strong CSS-first demo ethos."
+  },
+  {
+    "name": "Una Kravets",
+    "url": "https://una.im",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "css",
+      "web-ui",
+      "front-end"
+    ],
+    "notable": "Personal site of a front-end developer and tech content creator focused on web UI."
+  },
+  {
+    "name": "Surma",
+    "url": "https://surma.dev",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "engineering-blog",
+      "wasm",
+      "webperf"
+    ],
+    "notable": "A long-form engineering blog and personal site on web performance and WebAssembly."
+  },
+  {
+    "name": "Dan Abramov (overreacted)",
+    "url": "https://overreacted.io",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://overreacted.io",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "blog",
+      "minimal",
+      "essays",
+      "react"
+    ],
+    "notable": "A deliberately plain, typography-first blog of long essays that has influenced many developers' personal sites."
+  },
+  {
+    "name": "Wes Bos",
+    "url": "https://wesbos.com",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "teaching",
+      "personality",
+      "courses"
+    ],
+    "notable": "Personal site of a developer educator that doubles as a hub for courses, tips and fun."
+  },
+  {
+    "name": "Kitze",
+    "url": "https://kitze.io",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "indie",
+      "products",
+      "educator"
+    ],
+    "notable": "Personal site of a developer-entrepreneur that surfaces products and teaching under one friendly brand."
+  },
+  {
+    "name": "Julien Thibeaut (ibelick)",
+    "url": "https://ibelick.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://ibelick.com",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "motion",
+      "details"
+    ],
+    "notable": "Design-led developer 'building software with a focus on design, detail and function'."
+  },
+  {
+    "name": "Brian Lovin",
+    "url": "https://brianlovin.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://brianlovin.com",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "software-designer",
+      "notion",
+      "writing",
+      "cmd-k"
+    ],
+    "notable": "Software designer at Notion whose site combines writing, stack and journal sections in a quiet, well-crafted layout."
+  },
+  {
+    "name": "Samuel Kraft",
+    "url": "https://samuelkraft.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://samuelkraft.com",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "interfaces",
+      "components"
+    ],
+    "notable": "'I design and build interfaces' - a design engineer's site with polished interface experiments."
+  },
+  {
+    "name": "Preet Suthar",
+    "url": "https://preetsuthar.me",
+    "source": "DEV Community - Best Developer Portfolio Websites and Why They Work",
+    "source_url": "https://dev.to/jtrevdev/best-developer-portfolio-websites-and-why-they-work-3bdk",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "minimal",
+      "project-focused",
+      "design-engineer"
+    ],
+    "notable": "Minimalist, project-focused site of an independent design engineer building interfaces end to end."
+  },
+  {
+    "name": "Ryan Furrer",
+    "url": "https://ryanfurrer.com",
+    "source": "WeAreDevelopers - Web Developer Portfolio Inspiration (Mar 2025)",
+    "source_url": "https://www.wearedevelopers.com/magazine/561-web-developer-portfolio-inspiration-and-examples-march-2025",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "bold-color",
+      "spacing",
+      "design-engineer"
+    ],
+    "notable": "Bold colour scheme and generous spacing give a frontend engineer a consistent personal brand."
+  },
+  {
+    "name": "Artur Bien",
+    "url": "https://expensive.toys",
+    "source": "GitHub - emmabostian/developer-portfolios",
+    "source_url": "https://github.com/emmabostian/developer-portfolios",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "ui-for-fun",
+      "experiments",
+      "toys"
+    ],
+    "notable": "A collection of user-interface experiments under the tagline 'Building user interfaces for fun'."
+  },
+  {
+    "name": "Jacob Stordahl",
+    "url": "https://stordahl.dev",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "recovering-artist",
+      "personal"
+    ],
+    "notable": "Design engineer, web developer and 'recovering artist' on a personal site that keeps art in its voice."
+  },
+  {
+    "name": "Jeet Nirnejak",
+    "url": "https://nirnejak.com",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "web-animations",
+      "mumbai"
+    ],
+    "notable": "Design engineer crafting tasteful interfaces and web animations; a compact personal site."
+  },
+  {
+    "name": "Josh Collinsworth",
+    "url": "https://joshcollinsworth.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://joshcollinsworth.com",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "writing",
+      "svelte"
+    ],
+    "notable": "Frontend developer-designer-teacher site with long-form technical writing."
+  },
+  {
+    "name": "Maxime Heckel",
+    "url": "https://maximeheckel.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://maximeheckel.com",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "shaders",
+      "r3f",
+      "creative-blog",
+      "interactive-posts"
+    ],
+    "notable": "Frontend engineer's home for work, craft and unfinished experiments, with a sister blog on shaders and real-time 3D."
+  },
+  {
+    "name": "Zach Leatherman",
+    "url": "https://www.zachleat.com",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "web-dev-blog",
+      "11ty",
+      "fonts"
+    ],
+    "notable": "Long-running personal blog of the creator of Eleventy."
+  },
+  {
+    "name": "Jeremy Keith (Adactio)",
+    "url": "https://adactio.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://adactio.com",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "indieweb",
+      "journal",
+      "own-your-site"
+    ],
+    "notable": "A web veteran's journal and links stream, built around owning your own content (indieweb)."
+  },
+  {
+    "name": "Robin Rendle",
+    "url": "https://robinrendle.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://robinrendle.com",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-writer",
+      "photos",
+      "indieweb"
+    ],
+    "notable": "Designer-writer-developer's site that mixes essays with a photo stream."
+  },
+  {
+    "name": "Ethan Marcotte",
+    "url": "https://ethanmarcotte.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://ethanmarcotte.com",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "personal",
+      "warm-copy",
+      "responsive-design"
+    ],
+    "notable": "'This is my website. I'm real glad you're here' - a warm personal site from the author of Responsive Web Design."
+  },
+  {
+    "name": "Sara Soueidan",
+    "url": "https://sarasoueidan.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://sarasoueidan.com",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "accessibility",
+      "svg",
+      "writing"
+    ],
+    "notable": "The personal website of an inclusive web UI engineer, emphasizing accessibility and SVG craft."
+  },
+  {
+    "name": "Brad Frost",
+    "url": "https://bradfrost.com",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-systems",
+      "multi-hyphenate",
+      "music-art"
+    ],
+    "notable": "Site of a creator who is also a musician and artist, which shows in how many personal threads it carries."
+  },
+  {
+    "name": "Daniel Korpai",
+    "url": "https://danielkorpai.com",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "ui-ux",
+      "prototyping",
+      "craft-notes"
+    ],
+    "notable": "Principal product designer at Craft with a personal site that blends UX/UI, prototyping and front-end."
+  },
+  {
+    "name": "Andy Bell",
+    "url": "https://andy-bell.design",
+    "source": "GitHub - emmabostian/developer-portfolios",
+    "source_url": "https://github.com/emmabostian/developer-portfolios",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "css",
+      "design-systems",
+      "personality"
+    ],
+    "notable": "Personal site of the Piccalilli/Every Layout author, listed in Emma Bostian's list."
+  },
+  {
+    "name": "Amruth Pillai",
+    "url": "https://amruthpillai.com",
+    "source": "GitHub - emmabostian/developer-portfolios",
+    "source_url": "https://github.com/emmabostian/developer-portfolios",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "cozy-corner",
+      "designer-developer",
+      "photography"
+    ],
+    "notable": "'Everyone needs their own little cozy corner on the interwebs' - creator of Reactive Resume."
+  },
+  {
+    "name": "Ahmad Awais",
+    "url": "https://ahmadawais.com",
+    "source": "GitHub - emmabostian/developer-portfolios",
+    "source_url": "https://github.com/emmabostian/developer-portfolios",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "open-source",
+      "tooling",
+      "founder"
+    ],
+    "notable": "Founder and CEO of Command Code (a coding agent for open models) and a Google Developers advisory board founding member, in Emma Bostian's list."
+  },
+  {
+    "name": "Oleksii Holub (Tyrrrz)",
+    "url": "https://tyrrrz.me",
+    "source": "GitHub - emmabostian/developer-portfolios",
+    "source_url": "https://github.com/emmabostian/developer-portfolios",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "oss-maintainer",
+      "blog",
+      "dotnet"
+    ],
+    "notable": "Open-source maintainer and tech blogger's personal home."
+  },
+  {
+    "name": "Allan Im",
+    "url": "https://allanim.com",
+    "source": "GitHub - emmabostian/developer-portfolios",
+    "source_url": "https://github.com/emmabostian/developer-portfolios",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "backend",
+      "software-architect",
+      "java",
+      "spring"
+    ],
+    "notable": "Toronto software architect (Java, Spring Boot, AWS) with a straightforward backend-focused personal site."
+  },
+  {
+    "name": "Abdul Momin",
+    "url": "https://abdulmomin.dev",
+    "source": "GitHub - emmabostian/developer-portfolios",
+    "source_url": "https://github.com/emmabostian/developer-portfolios",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "distributed-systems",
+      "real-time",
+      "backend"
+    ],
+    "notable": "Full-stack engineer's site foregrounding distributed systems and real-time architecture."
+  },
+  {
+    "name": "Bartosz Ciechanowski",
+    "url": "https://ciechanow.ski",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://ciechanow.ski",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "interactive-essay",
+      "webgl",
+      "simulation",
+      "science"
+    ],
+    "notable": "Interactive articles about science and engineering where every concept (watches, lights and shadows, GPS) is a live simulation embedded in the text."
+  },
+  {
+    "name": "Nicky Case",
+    "url": "https://ncase.me",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://ncase.me",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "explorable-explanation",
+      "games",
+      "playful",
+      "illustration"
+    ],
+    "notable": "'I make shtuff for curious and playful peeps' - interactive explainers and games that teach complex systems."
+  },
+  {
+    "name": "Steven Wittens (Acko.net)",
+    "url": "https://acko.net",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "webgl",
+      "math",
+      "interactive-essay",
+      "gpu"
+    ],
+    "notable": "A blog on hacks, graphics, design and math, known for live GPU-rendered mathematical diagrams embedded in posts."
+  },
+  {
+    "name": "Bret Victor",
+    "url": "https://worrydream.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://worrydream.com",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "explorable-explanations",
+      "research",
+      "classic",
+      "tools"
+    ],
+    "notable": "'An offshore drilling platform in the sea of knowledge' - the researcher who named explorable explanations, hosted on a deliberately raw homepage."
+  },
+  {
+    "name": "Andy Matuschak",
+    "url": "https://notes.andymatuschak.org",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "stacked-panes",
+      "evergreen-notes",
+      "research"
+    ],
+    "notable": "Public working notes with a stacking-pane reader that lets you follow links without losing context."
+  },
+  {
+    "name": "Gwern Branwen",
+    "url": "https://www.gwern.net",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "long-form",
+      "sidenotes",
+      "popups",
+      "research"
+    ],
+    "notable": "Essays on statistics, deep learning and more, with sidenotes, link popups and a deeply considered reading UI."
+  },
+  {
+    "name": "Maggie Appleton",
+    "url": "https://maggieappleton.com",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "illustration",
+      "growth-stages",
+      "essays"
+    ],
+    "notable": "Illustrated digital garden whose notes are tagged by growth stage (seedling, budding, evergreen) with hand-drawn art throughout."
+  },
+  {
+    "name": "Julia Evans",
+    "url": "https://jvns.ca",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://jvns.ca",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "zines",
+      "systems",
+      "illustrated",
+      "debugging"
+    ],
+    "notable": "Hand-drawn zines and approachable posts that explain systems and networking; a model of teaching low-level topics warmly."
+  },
+  {
+    "name": "Dan Luu",
+    "url": "https://danluu.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://danluu.com",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "text-only",
+      "systems",
+      "performance",
+      "essays"
+    ],
+    "notable": "Deliberately text-only site of rigorous essays on performance, hardware and engineering culture."
+  },
+  {
+    "name": "Brendan Gregg",
+    "url": "https://www.brendangregg.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://www.brendangregg.com",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "systems-performance",
+      "flame-graphs",
+      "linux",
+      "ebpf"
+    ],
+    "notable": "The canonical systems-performance homepage - flame graphs, BPF tools and Linux observability diagrams."
+  },
+  {
+    "name": "Tristan Hume",
+    "url": "https://thume.ca",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://thume.ca",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "systems",
+      "visualizations",
+      "project-writeups",
+      "performance"
+    ],
+    "notable": "Systems and graphics engineer's site of polished project writeups and performance deep dives."
+  },
+  {
+    "name": "Fabien Sanglard",
+    "url": "https://fabiensanglard.net",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://fabiensanglard.net",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "game-engines",
+      "diagrams",
+      "code-reading",
+      "systems"
+    ],
+    "notable": "Game-engine black-box books and deep-dive articles with hand-made diagrams of classic codebases."
+  },
+  {
+    "name": "Rodrigo Pombo",
+    "url": "https://pomb.us",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://pomb.us",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "code-reading",
+      "build-your-own",
+      "tutorial",
+      "react"
+    ],
+    "notable": "An 'overengineer building tools for better code reading comprehension'; home of the step-by-step Build Your Own React tutorial."
+  },
+  {
+    "name": "Kyle Kingsbury (Aphyr)",
+    "url": "https://aphyr.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://aphyr.com",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "distributed-systems",
+      "jepsen",
+      "fiction",
+      "essays"
+    ],
+    "notable": "Home of Jepsen distributed-systems analyses alongside narrative-flavoured technical essays."
+  },
+  {
+    "name": "Simon Willison",
+    "url": "https://simonwillison.net",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://simonwillison.net",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "weblog",
+      "til",
+      "tools",
+      "dense-feed"
+    ],
+    "notable": "A high-cadence weblog that mixes entries, links, quotes, TILs and small tools in one feed."
+  },
+  {
+    "name": "Simon Eskildsen",
+    "url": "https://sirupsen.com",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://sirupsen.com",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "napkin-math",
+      "databases",
+      "essays",
+      "backend"
+    ],
+    "notable": "Personal site about napkin math, computers, books and ideas by a database/infrastructure engineer."
+  },
+  {
+    "name": "Chris Olah",
+    "url": "https://colah.github.io",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://colah.github.io",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "visual-explanations",
+      "ml-research",
+      "diagrams"
+    ],
+    "notable": "Visual, diagram-led explanations of neural networks from a researcher whose blog set a bar for ML communication."
+  },
+  {
+    "name": "Jay Alammar",
+    "url": "https://jalammar.github.io",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://jalammar.github.io",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "illustrated",
+      "ml",
+      "visual-explainer"
+    ],
+    "notable": "Visualizing machine learning one concept at a time - illustration-led explainers such as the Illustrated Transformer."
+  },
+  {
+    "name": "Lilian Weng (Lil'Log)",
+    "url": "https://lilianweng.github.io",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://lilianweng.github.io",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "research-notes",
+      "ml",
+      "long-form"
+    ],
+    "notable": "Dense, well-organised research learning notes on machine learning topics."
+  },
+  {
+    "name": "Nikita Prokopov (tonsky)",
+    "url": "https://tonsky.me",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "blog",
+      "illustration",
+      "typography",
+      "tools"
+    ],
+    "notable": "Blog of the Fira Code author with strong visual identity, custom illustrations and opinionated posts."
+  },
+  {
+    "name": "Nanda Syahrasyad (Not a Number)",
+    "url": "https://www.nan.fyi",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://www.nan.fyi",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "interactive-blog",
+      "svg",
+      "computer-science",
+      "web-dev"
+    ],
+    "notable": "Interactive blog posts on computer science and web development with embedded live diagrams."
+  },
+  {
+    "name": "Devine Lu Linvega (XXIIVV)",
+    "url": "https://wiki.xxiivv.com",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "wiki",
+      "webring",
+      "artist-programmer",
+      "retro-computing"
+    ],
+    "notable": "The Nataniev Library - a personal wiki-as-world of an artist-programmer in the permacomputing scene."
+  },
+  {
+    "name": "Patrick Kage",
+    "url": "https://ka.ge",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "phd",
+      "ai",
+      "full-stack",
+      "researcher"
+    ],
+    "notable": "AI/full-stack developer and PhD student at Edinburgh with a personal homepage in the awesome creative-portfolios list."
+  },
+  {
+    "name": "Bastian Rieck",
+    "url": "https://bastian.rieck.me",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://bastian.rieck.me",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "professor",
+      "topological-ml",
+      "research-homepage"
+    ],
+    "notable": "Personal homepage of a machine-learning professor (geometric and topological deep learning), mixing research with writing."
+  },
+  {
+    "name": "Ismayil Shahaliyev",
+    "url": "https://shahaliyev.org",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "computer-scientist",
+      "chess-master",
+      "bilingual"
+    ],
+    "notable": "A computer scientist and International Chess Master presenting his site in Azerbaijani and English."
+  },
+  {
+    "name": "Shelby Kho",
+    "url": "https://shelbykho.com",
+    "source": "Awwwards - Portfolio category (page 3)",
+    "source_url": "https://www.awwwards.com/websites/portfolio/?page=3",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "interactive-desk",
+      "hand-drawn",
+      "drag-and-drop",
+      "notes",
+      "illustration"
+    ],
+    "notable": "An interactive hand-drawn portfolio desk: drag objects around, leave notes and say hi to a little computer guy."
+  },
+  {
+    "name": "Nicolas Zarcero (Box Office)",
+    "url": "https://zarcerog.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "cinema-metaphor",
+      "five-acts",
+      "intermission",
+      "narrative"
+    ],
+    "notable": "A portfolio staged as a cinema Box Office - 'a portfolio in five acts, with an intermission' - by an engineer-designer."
+  },
+  {
+    "name": "Melike Turgut (me / like)",
+    "url": "https://meliketurgut.com",
+    "source": "One Page Love - Portfolio gallery (page 2)",
+    "source_url": "https://onepagelove.com/gallery/portfolio/page/2",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "eight-worlds",
+      "personal",
+      "collection",
+      "playful"
+    ],
+    "notable": "Presented as 'a few things that made me, me' - a collection of eight little worlds instead of a project list."
+  },
+  {
+    "name": "Zesiger.net",
+    "url": "https://zesiger.net",
+    "source": "Awwwards - Portfolio category (page 3)",
+    "source_url": "https://www.awwwards.com/websites/portfolio/?page=3",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "drive-through",
+      "poster-gallery",
+      "swiss",
+      "landscape"
+    ],
+    "notable": "A drive through green hills past modern houses where projects hang in a poster gallery and services sit along the road."
+  },
+  {
+    "name": "Houmahani Kane",
+    "url": "https://houmahani.com",
+    "source": "Awwwards - Portfolio category (page 3)",
+    "source_url": "https://www.awwwards.com/websites/portfolio/?page=3",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "three-js",
+      "interactive-3d",
+      "freelance"
+    ],
+    "notable": "Freelance creative developer's interactive Three.js portfolio."
+  },
+  {
+    "name": "Sam Goddard",
+    "url": "https://samgoddard.co.uk",
+    "source": "Awwwards - Portfolio category (page 3)",
+    "source_url": "https://www.awwwards.com/websites/portfolio/?page=3",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "15-years",
+      "nottingham"
+    ],
+    "notable": "Nottingham design engineer with 15+ years building ambitious sites alongside designers and engineers."
+  },
+  {
+    "name": "Carter Ogunsola",
+    "url": "https://carterogunsola.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "creative-dev",
+      "brand-engineer",
+      "digital-originality"
+    ],
+    "notable": "Lagos-born creative developer, director and entrepreneur positioning himself as a brand engineer with 'a taste for pure digital originality'."
+  },
+  {
+    "name": "Cagdas Cecen",
+    "url": "https://www.cagdascecen.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "media-art",
+      "generative",
+      "installation",
+      "poetic"
+    ],
+    "notable": "Media artist's site anchored on the line 'The invisible is not absent' - an art-first rather than client-first portfolio."
+  },
+  {
+    "name": "Nesil Noble (Nesil's Lucid Dreams)",
+    "url": "https://nesilnoble.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "dream-theme",
+      "product-designer",
+      "art-director"
+    ],
+    "notable": "Product designer and art director whose site is titled 'Nesil's Lucid Dreams'."
+  },
+  {
+    "name": "Meer Mohsin",
+    "url": "https://www.meermohsin.me",
+    "source": "Awwwards - Developer category (page 2)",
+    "source_url": "https://www.awwwards.com/websites/developer/?page=2",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "3d-web",
+      "front-end",
+      "ui-ux"
+    ],
+    "notable": "Front-end developer and UI/UX designer billed as a 3D web developer aiming for award-level digital experiences."
+  },
+  {
+    "name": "Leo Parpeix",
+    "url": "https://leoparpeix.com",
+    "source": "Awwwards - Developer category (page 2)",
+    "source_url": "https://www.awwwards.com/websites/developer/?page=2",
+    "year": 2026,
+    "category": "portfolio-person",
+    "tags": [
+      "typography",
+      "3d-elements",
+      "art-director",
+      "interactive"
+    ],
+    "notable": "French art director and interactive designer mixing typography, clean layouts, animation and 3D elements (Portfolio 2026)."
+  },
+  {
+    "name": "Arc Marumo",
+    "url": "https://www.arcmarumo.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": 2026,
+    "category": "portfolio-person",
+    "tags": [
+      "awwwards-juror",
+      "multi-disciplinary",
+      "digital-products"
+    ],
+    "notable": "Multi-disciplinary designer and Awwwards juror whose 2026 portfolio is branded 'Arc (c)'26'."
+  },
+  {
+    "name": "Thomas Gertenbach",
+    "url": "https://thomasgertenbach.com",
+    "source": "Awwwards - Three.js category",
+    "source_url": "https://www.awwwards.com/websites/three-js/?page=2",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "creative-dev",
+      "awwwards",
+      "three-js"
+    ],
+    "notable": "Creative developer's portfolio listed in the Awwwards Three.js category."
+  },
+  {
+    "name": "Daniel Ingrassia",
+    "url": "https://ingrassiadaniel.it",
+    "source": "Awwwards - Three.js category",
+    "source_url": "https://www.awwwards.com/websites/three-js/?page=2",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "frontend",
+      "motion",
+      "performance",
+      "agency-partner"
+    ],
+    "notable": "Creative front-end developer turning ambitious designs into fast interactive experiences, with motion and performance as the pitch."
+  },
+  {
+    "name": "Gionatan Nese",
+    "url": "https://www.gionatannese.com",
+    "source": "Awwwards - Developer category (page 2)",
+    "source_url": "https://www.awwwards.com/websites/developer/?page=2",
+    "year": 2026,
+    "category": "portfolio-person",
+    "tags": [
+      "multi-disciplinary",
+      "brand",
+      "visual-experiences"
+    ],
+    "notable": "Italian multi-disciplinary designer's 2026 portfolio crafting sites, identities and visual experiences."
+  },
+  {
+    "name": "Brandon Yasin",
+    "url": "https://brandonyasin.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "spatial-design",
+      "luxury",
+      "creative-director"
+    ],
+    "notable": "Creative director's site covering brand, digital and spatial design with the claim 'AI scales the production, not the craft'."
+  },
+  {
+    "name": "Tim Van Damme (Max Voltar)",
+    "url": "https://timvandamme.com",
+    "source": "One Page Love - Portfolio gallery (page 2)",
+    "source_url": "https://onepagelove.com/gallery/portfolio/page/2",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "product-designer",
+      "figma",
+      "icon-systems",
+      "craft"
+    ],
+    "notable": "Product designer at Figma (icon system, UI3) with a long-running personal site listed on One Page Love."
+  },
+  {
+    "name": "Sam Peitz",
+    "url": "https://www.sam-peitz.com",
+    "source": "One Page Love - Portfolio gallery (page 2)",
+    "source_url": "https://onepagelove.com/gallery/portfolio/page/2",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "indie-maker",
+      "one-year",
+      "humane-tech"
+    ],
+    "notable": "Designer-builder of One Year with a personal site about 'using technology as a tool, not a life-substitute'."
+  },
+  {
+    "name": "Bleibtgleich (Maksym)",
+    "url": "https://bleibtgleich.dev",
+    "source": "Awwwards - Developer category (page 2)",
+    "source_url": "https://www.awwwards.com/websites/developer/?page=2",
+    "year": 2026,
+    "category": "portfolio-person",
+    "tags": [
+      "ux-ui",
+      "webflow",
+      "gsap",
+      "webgl"
+    ],
+    "notable": "UX/UI designer and creative developer; the 2026 edition is an Awwwards-listed award-winning build with Webflow, GSAP and WebGL."
+  },
+  {
+    "name": "Gil Huybrecht",
+    "url": "https://gilhuybrecht.com",
+    "source": "Awwwards - Developer category (page 2)",
+    "source_url": "https://www.awwwards.com/websites/developer/?page=2",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "editorial-websites",
+      "immersive",
+      "art-director"
+    ],
+    "notable": "Independent designer and art director specialised in editorial websites, e-commerce and immersive experiences."
+  },
+  {
+    "name": "Thomas Carre (Nothin')",
+    "url": "https://www.noth.in",
+    "source": "Awwwards - Developer category",
+    "source_url": "https://www.awwwards.com/websites/developer/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "editorial",
+      "fashion",
+      "ai",
+      "studio-of-one"
+    ],
+    "notable": "Paris 'protean augmented-creative' practice by Thomas Carre combining branding, editorial and AI for fashion and luxury."
+  },
+  {
+    "name": "Gianluca Gradogna",
+    "url": "https://gianlucagradogna.com",
+    "source": "Awwwards - Portfolio category",
+    "source_url": "https://www.awwwards.com/websites/portfolio/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "multidisciplinary",
+      "design-coding-photo",
+      "florence"
+    ],
+    "notable": "Florence multidisciplinary designer spanning design, advertising, coding and photography."
+  },
+  {
+    "name": "Tom Critchlow",
+    "url": "https://tomcritchlow.com",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "consulting",
+      "blog",
+      "wiki"
+    ],
+    "notable": "Consultant-writer whose site pairs a blog with a public Garden of notes; tagline 'Move. Think. Create.'"
+  },
+  {
+    "name": "Chris Biscardi",
+    "url": "https://www.christopherbiscardi.com/garden",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "writing",
+      "tooling"
+    ],
+    "notable": "A developer's writing garden listed in Maggie Appleton's digital-gardeners directory."
+  },
+  {
+    "name": "Aengus McMillin (My Brain)",
+    "url": "https://aengusmcmillin.com/brain",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "brain",
+      "notes"
+    ],
+    "notable": "A personal 'brain' section of an indie developer's site, kept as an interlinked note garden."
+  },
+  {
+    "name": "Alex Komoroske (The Compendium)",
+    "url": "https://thecompendium.cards",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "cards",
+      "half-baked",
+      "complexity",
+      "interlinked"
+    ],
+    "notable": "A compendium of insights about complexity structured as inter-linked cards rather than articles."
+  },
+  {
+    "name": "Buster Benson (The Piles)",
+    "url": "https://busterbenson.com/piles",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "piles",
+      "not-a-garden",
+      "topic-organized"
+    ],
+    "notable": "Self-described as 'really just piles of writing organized loosely by topic' instead of chronology."
+  },
+  {
+    "name": "Salman Ansari",
+    "url": "https://notes.salman.io",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "animations",
+      "bookshelf",
+      "inspirations"
+    ],
+    "notable": "A digital garden with a gallery of hand-drawn animations, an inspirations tribute page and a bookshelf."
+  },
+  {
+    "name": "Yenly Ma",
+    "url": "https://yenly.wtf",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "wabi-sabi",
+      "reflections"
+    ],
+    "notable": "A digital garden of inspirations, ideas and reflections, 'wabi-sabi to the core'."
+  },
+  {
+    "name": "Anne-Laure Le Cunff (Mental Nodes)",
+    "url": "https://www.mentalnodes.com",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "public-notebook",
+      "learn-in-public",
+      "neuroscience"
+    ],
+    "notable": "A public notebook/garden built on the premise that you learn in public by building in public."
+  },
+  {
+    "name": "Neil Mather (Commonplace)",
+    "url": "https://commonplace.doubleloop.net",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "commonplace",
+      "zettelkasten"
+    ],
+    "notable": "Neil's Digital Garden, a commonplace-book style notes site."
+  },
+  {
+    "name": "Joel Hooks",
+    "url": "https://www.joelhooks.com",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "teaching",
+      "web"
+    ],
+    "notable": "Digital garden focused on teaching, technology and the web."
+  },
+  {
+    "name": "Chris Aldrich (Boffosocko wiki)",
+    "url": "https://tw.boffosocko.com",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "wiki",
+      "commonplace-book",
+      "cybernetics"
+    ],
+    "notable": "The wiki-based commonplace book of a self-described modern-day cyberneticist."
+  },
+  {
+    "name": "Maxime Vaillancourt (Notes)",
+    "url": "https://maximevaillancourt.com/notes",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "notes",
+      "index"
+    ],
+    "notable": "A clean 'all notes' index of a developer's evergreen notes."
+  },
+  {
+    "name": "Hiran Venugopalan (Working Notes)",
+    "url": "https://hiran.in/notes",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "working-notes",
+      "ideas-in-progress",
+      "garden"
+    ],
+    "notable": "Working notes framed as 'ideas in progress - some clear, some messy, some still figuring themselves out'."
+  },
+  {
+    "name": "Mt. Solitary (Clinton Boys)",
+    "url": "https://mtsolitary.com",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "naming",
+      "personal"
+    ],
+    "notable": "Mt. Solitary is the author's digital garden, named after a place."
+  },
+  {
+    "name": "Fabien Benetou (PIM)",
+    "url": "https://fabien.benetou.fr",
+    "source": "GitHub - MaggieAppleton/digital-gardeners",
+    "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "wiki",
+      "pim",
+      "webxr",
+      "experiments"
+    ],
+    "notable": "A long-running personal information manager wiki by a developer who also prototypes in WebXR."
+  },
+  {
+    "name": "Ryan Warner",
+    "url": "https://ryan.warner.codes",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "playground",
+      "laboratory"
+    ],
+    "notable": "Described as his digital garden - a playground and laboratory that lives on the web."
+  },
+  {
+    "name": "Jarema",
+    "url": "https://jarema.me",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "economics",
+      "coding",
+      "cats"
+    ],
+    "notable": "A personal playground and digital garden mixing blog posts on economics and coding with the occasional cat."
+  },
+  {
+    "name": "foreverliketh.is",
+    "url": "https://foreverliketh.is",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "plant-motif",
+      "personal"
+    ],
+    "notable": "A digital garden presented with a plant motif on its home page."
+  },
+  {
+    "name": "Anirudh Oppiliappan",
+    "url": "https://anirudh.fi",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "writing",
+      "photography",
+      "minimal",
+      "systems"
+    ],
+    "notable": "Writing and photography on a minimal personal site by a developer of decentralised git tooling."
+  },
+  {
+    "name": "Asher Baron Weintraub",
+    "url": "https://asher.land",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "theme-switch",
+      "fun-mode",
+      "personal"
+    ],
+    "notable": "Listed with a ?theme=fun URL - the site ships an alternate 'fun' theme alongside its default."
+  },
+  {
+    "name": "Ratik Sharma",
+    "url": "https://ratik.in",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "engineer-artist",
+      "keyboards",
+      "coffee",
+      "accessibility"
+    ],
+    "notable": "Software engineer and artist whose site covers programming, mechanical keyboards, coffee, accessibility and design."
+  },
+  {
+    "name": "Kenan",
+    "url": "https://kenan.fyi",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "hardware-engineer",
+      "dabbler",
+      "minimal"
+    ],
+    "notable": "A hardware engineer and occasional programmer's compact personal index."
+  },
+  {
+    "name": "Secluded.Site",
+    "url": "https://secluded.site",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "indie-web",
+      "musician-developer",
+      "sysadmin"
+    ],
+    "notable": "A personal corner of the web for a musician, developer, sysadmin, podcaster and small-business owner."
+  },
+  {
+    "name": "Joe Crawford (ArtLung)",
+    "url": "https://artlung.com",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "old-web",
+      "creative-web-developer",
+      "art"
+    ],
+    "notable": "Long-running personal site of a creative web developer and artist."
+  },
+  {
+    "name": "Declan Chidlow (Vale.Rocks)",
+    "url": "https://vale.rocks",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "writing",
+      "personality",
+      "frontend"
+    ],
+    "notable": "Writer and front-end developer's site containing thoughts, musings and 'unhinged ramblings'."
+  },
+  {
+    "name": "Ben Yafai",
+    "url": "https://ben.yaf.ai",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "short-copy",
+      "personality",
+      "minimal"
+    ],
+    "notable": "Personal site with the one-line description 'So much computer.'"
+  },
+  {
+    "name": "Robb Knight",
+    "url": "https://rknight.me",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "maker",
+      "blog",
+      "podcast",
+      "playful-bio"
+    ],
+    "notable": "Maker of web things, sticker merchant and pizzaiolo - a personality-heavy blog and projects hub."
+  },
+  {
+    "name": "Myles Braithwaite (Myles' Garden)",
+    "url": "https://myles.garden",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "editorial-story",
+    "tags": [
+      "digital-garden",
+      "personal",
+      "notes"
+    ],
+    "notable": "A garden-themed personal site listed in personalsit.es."
+  },
+  {
+    "name": "Mel Choyce",
+    "url": "https://melchoyce.design",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "designer",
+      "clean",
+      "humane-design"
+    ],
+    "notable": "A Philadelphia designer's clean site built around making things 'real people can use'."
+  },
+  {
+    "name": "Chase McCoy",
+    "url": "https://chsmc.org",
+    "source": "personalsit.es",
+    "source_url": "https://personalsit.es/",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "design-engineer",
+      "creative-technologies",
+      "blogger"
+    ],
+    "notable": "Blogger and design engineer writing about the web and other creative technologies."
+  },
+  {
+    "name": "Cory Hughart",
+    "url": "https://coryhughart.com",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "tinkerer",
+      "cooking",
+      "gardening"
+    ],
+    "notable": "Full-stack developer's site that also covers cooking, fermentation and gardening - a curious-person homepage."
+  },
+  {
+    "name": "Sam Smith (SMTH)",
+    "url": "https://smth.uk",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "designer-coder-photographer",
+      "fine-art",
+      "creative-tech"
+    ],
+    "notable": "A designer, coder and photographer with a fine-art and design-and-digital-media background."
+  },
+  {
+    "name": "Nooc",
+    "url": "https://nooc.me",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "minimal",
+      "bilingual",
+      "philosophy-quote",
+      "projects-life-tech"
+    ],
+    "notable": "Minimal bilingual (EN/ZH) site opening with a Silesius quote about the rose, split into Life, Work and About."
+  },
+  {
+    "name": "Edwin de Jongh",
+    "url": "https://edwindejongh.co",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "designer",
+      "hyperactive",
+      "portfolio"
+    ],
+    "notable": "Self-styled 'Hyperactive Designer' portfolio from the awesome creative-portfolios list."
+  },
+  {
+    "name": "Mamboleoo (Louis Hoebregts)",
+    "url": "https://mamboleoo.be",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://mamboleoo.be",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "creative-coding",
+      "playful-copy",
+      "front-end"
+    ],
+    "notable": "'Bonjour, I am Louis the front-end physiotherapist! I can help with your flex issues.' - a playful creative-coder landing page."
+  },
+  {
+    "name": "Tim Rodenbroker",
+    "url": "https://timrodenbroeker.de",
+    "source": "Direct fetch of the site (well-known personal site, HTTP 200 verified)",
+    "source_url": "https://timrodenbroeker.de",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "creative-coding",
+      "educator",
+      "critical-design"
+    ],
+    "notable": "Barcelona-based educator and critical designer, founder of trcc, a creative-coding learning platform."
+  },
+  {
+    "name": "Shiblee Imtiaz",
+    "url": "https://shiblee.me",
+    "source": "GitHub - arif-un/awesome-portfolio-websites",
+    "source_url": "https://github.com/arif-un/awesome-portfolio-websites",
+    "year": null,
+    "category": "portfolio-person",
+    "tags": [
+      "hci",
+      "ar-vr",
+      "creative-technologist",
+      "inventor"
+    ],
+    "notable": "Award-winning creative technologist and inventor working in HCI and AR/VR, with portfolio and blog combined."
+  }
+]

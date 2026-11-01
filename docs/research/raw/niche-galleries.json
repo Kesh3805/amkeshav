@@ -1,0 +1,7608 @@
+[
+ {
+  "name": "Minimal Gallery",
+  "url": "https://minimal.gallery/",
+  "source": "niche-galleries-index",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "minimal",
+   "curated",
+   "gallery"
+  ],
+  "notable": "Curated minimal-site gallery that lists each pick with a relative date and links straight to the live site; daily updates."
+ },
+ {
+  "name": "Httpster",
+  "url": "https://httpster.net/",
+  "source": "niche-galleries-index",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "curated",
+   "typographic",
+   "experimental"
+  ],
+  "notable": "Gallery of unpretentious, often experimental and typographic sites with per-site pages and outbound links."
+ },
+ {
+  "name": "Hoverstat.es",
+  "url": "https://www.hoverstat.es/",
+  "source": "niche-galleries-index",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "curated",
+   "art-directed",
+   "archive"
+  ],
+  "notable": "Gallery run by Official Business (credits in footer) that favours art-directed studio, artist and archive sites."
+ },
+ {
+  "name": "One Page Love - Portfolio",
+  "url": "https://onepagelove.com/gallery/portfolio",
+  "source": "niche-galleries-index",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "portfolio",
+   "paginated",
+   "curated"
+  ],
+  "notable": "Paginated portfolio gallery (8 per page) with Personal/Portfolio genre tags and a Launch-website link per entry."
+ },
+ {
+  "name": "One Page Love - Personal",
+  "url": "https://onepagelove.com/gallery/personal",
+  "source": "niche-galleries-index",
+  "source_url": "https://onepagelove.com/gallery/personal",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "personal",
+   "curated",
+   "portfolio"
+  ],
+  "notable": "Personal-site genre listing on One Page Love; includes designers' and developers' own sites."
+ },
+ {
+  "name": "Brutalist Websites",
+  "url": "https://brutalistwebsites.com/",
+  "source": "niche-galleries-index",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "brutalist",
+   "archive",
+   "raw-html"
+  ],
+  "notable": "Large archive (roughly 600 entries on one page) of raw, anti-polish sites from 2014 onward, each with an interview/link page."
+ },
+ {
+  "name": "Siteinspire",
+  "url": "https://www.siteinspire.com/websites",
+  "source": "niche-galleries-index",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "curated",
+   "filterable",
+   "long-running"
+  ],
+  "notable": "Long-running filterable web design gallery (style, type, subject, platform); sponsored by Mobbin."
+ },
+ {
+  "name": "SEESAW",
+  "url": "https://www.seesaw.website/",
+  "source": "niche-galleries-index",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "curated",
+   "product",
+   "startup"
+  ],
+  "notable": "Gallery heavy on product, startup and personal sites, categorised (e.g. /category/ai) with a submit form."
+ },
+ {
+  "name": "A1 Gallery",
+  "url": "https://www.a1.gallery/",
+  "source": "niche-galleries-index",
+  "source_url": "https://www.a1.gallery/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "curated",
+   "templates",
+   "framer"
+  ],
+  "notable": "Small website gallery that also links templates (Framer, shadcnblocks, Cntrl) alongside live sites."
+ },
+ {
+  "name": "Site of Sites",
+  "url": "https://www.siteofsites.co/",
+  "source": "niche-galleries-index",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "curated",
+   "art-directed",
+   "studio"
+  ],
+  "notable": "Curated gallery with an Instagram presence (@siteofsites), skewing to studio and personal sites with strong layout."
+ },
+ {
+  "name": "Landing.Gallery",
+  "url": "https://landing.gallery/",
+  "source": "niche-galleries-index",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "landing-pages",
+   "stack-filter",
+   "curated"
+  ],
+  "notable": "Landing page gallery filterable by stack (Framer, Webflow, Next.js, Astro, SvelteKit, Hugo, etc.)."
+ },
+ {
+  "name": "Webdesign-Inspiration",
+  "url": "https://www.webdesign-inspiration.com/",
+  "source": "niche-galleries-index",
+  "source_url": "https://www.webdesign-inspiration.com/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "curated",
+   "filter-tool",
+   "editors-picks"
+  ],
+  "notable": "Gallery with Editor's Picks and a filter tool; entries tagged by industry."
+ },
+ {
+  "name": "Typewolf - Site of the Day",
+  "url": "https://www.typewolf.com/site-of-the-day",
+  "source": "niche-galleries-index",
+  "source_url": "https://www.typewolf.com/site-of-the-day",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "typography",
+   "daily",
+   "font-pairings"
+  ],
+  "notable": "Daily typography-led site feature listing exact typefaces used on each site."
+ },
+ {
+  "name": "Recent Design (ex-Godly)",
+  "url": "http://recent.design/",
+  "source": "niche-galleries-index",
+  "source_url": "http://recent.design/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "curated",
+   "websites",
+   "motion"
+  ],
+  "notable": "godly.website 301-redirects here; gallery with a Websites category and per-item pages."
+ },
+ {
+  "name": "Footer Design Gallery",
+  "url": "https://www.footer.design/",
+  "source": "niche-galleries-index",
+  "source_url": "https://www.footer.design/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "footer",
+   "niche",
+   "gallery"
+  ],
+  "notable": "Niche gallery dedicated to website footers; spotted in Httpster's feed."
+ },
+ {
+  "name": "Headers Club",
+  "url": "https://headers.club/",
+  "source": "niche-galleries-index",
+  "source_url": "https://headers.club/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "header",
+   "niche",
+   "gallery"
+  ],
+  "notable": "Niche gallery of website headers/heroes; appeared in SEESAW's feed."
+ },
+ {
+  "name": "H1 Gallery",
+  "url": "https://h1gallery.com/",
+  "source": "niche-galleries-index",
+  "source_url": "https://h1gallery.com/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "headline",
+   "niche",
+   "gallery"
+  ],
+  "notable": "Gallery focused on hero headlines; appeared in SEESAW's feed."
+ },
+ {
+  "name": "Mnmllist",
+  "url": "https://mnmll.ist/",
+  "source": "niche-galleries-index",
+  "source_url": "https://mnmll.ist/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "minimal",
+   "directory",
+   "list"
+  ],
+  "notable": "Minimal-design directory/list; featured on Httpster."
+ },
+ {
+  "name": "The Index",
+  "url": "https://theindex.website/",
+  "source": "niche-galleries-index",
+  "source_url": "https://theindex.website/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "directory",
+   "index",
+   "curated"
+  ],
+  "notable": "Website index/directory featured on Httpster."
+ },
+ {
+  "name": "Trend List",
+  "url": "http://trendlist.org/",
+  "source": "niche-galleries-index",
+  "source_url": "http://trendlist.org/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "trends",
+   "graphic-design",
+   "archive"
+  ],
+  "notable": "Long-running graphic-design trend archive; also listed on Brutalist Websites."
+ },
+ {
+  "name": "Cosmos",
+  "url": "https://www.cosmos.so/",
+  "source": "niche-galleries-index",
+  "source_url": "https://www.cosmos.so/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "moodboard",
+   "visual",
+   "curation"
+  ],
+  "notable": "Visual curation/moodboard platform; featured on Httpster."
+ },
+ {
+  "name": "Lapa Ninja",
+  "url": "https://www.lapa.ninja/",
+  "source": "niche-galleries-index",
+  "source_url": "https://www.lapa.ninja/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "landing-pages",
+   "gallery",
+   "unverified-content"
+  ],
+  "notable": "Landing page inspiration gallery; returned HTTP 403 to the fetcher so content not verified here."
+ },
+ {
+  "name": "Land-book",
+  "url": "https://land-book.com/",
+  "source": "niche-galleries-index",
+  "source_url": "https://land-book.com/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "gallery",
+   "portfolio",
+   "unverified-content"
+  ],
+  "notable": "Daily-updated curated website gallery with a portfolio category; HTTP 403 to the fetcher so content not verified here."
+ },
+ {
+  "name": "Fonts In Use",
+  "url": "https://fontsinuse.com/",
+  "source": "niche-galleries-index",
+  "source_url": "https://fontsinuse.com/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "typography",
+   "archive",
+   "fonts"
+  ],
+  "notable": "Typography archive of real-world uses with web category; requested deep URL returned 404 so only the root is listed."
+ },
+ {
+  "name": "Readymag",
+  "url": "https://readymag.com/",
+  "source": "niche-galleries-index",
+  "source_url": "https://readymag.com/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "editorial",
+   "design-tool",
+   "sponsor"
+  ],
+  "notable": "Design tool whose sponsored banner runs on minimal.gallery; hosts many designer-made editorial sites."
+ },
+ {
+  "name": "Mobbin",
+  "url": "https://mobbin.com/",
+  "source": "niche-galleries-index",
+  "source_url": "https://mobbin.com/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "ui-library",
+   "patterns",
+   "sponsor"
+  ],
+  "notable": "UI/UX pattern library sponsoring Siteinspire, Httpster and A1."
+ },
+ {
+  "name": "Dream Recorder",
+  "url": "https://dreamrecorder.ai",
+  "source": "typewolf.com",
+  "source_url": "https://www.typewolf.com/site-of-the-day",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "typography",
+   "serif",
+   "sans-pairing",
+   "dark"
+  ],
+  "notable": "Typewolf Site of the Day 22 Sep 2025; Times Now with Neue Montreal."
+ },
+ {
+  "name": "Speakeasy",
+  "url": "https://www.speakeasy.com",
+  "source": "typewolf.com",
+  "source_url": "https://www.typewolf.com/site-of-the-day",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "typography",
+   "monospace",
+   "dev-tool",
+   "serif"
+  ],
+  "notable": "Typewolf Site of the Day 8 Dec 2025; Tobias, Diatype and Diatype Mono for a developer product."
+ },
+ {
+  "name": "Dirty Vine",
+  "url": "https://dirtyvine.com",
+  "source": "typewolf.com",
+  "source_url": "https://www.typewolf.com/site-of-the-day",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "typography",
+   "serif",
+   "monospace",
+   "editorial"
+  ],
+  "notable": "Typewolf Site of the Day 12 Dec 2025; Swear display serif paired with DM Mono."
+ },
+ {
+  "name": "Every",
+  "url": "https://every.to",
+  "source": "typewolf.com",
+  "source_url": "https://www.typewolf.com/site-of-the-day",
+  "year": 2025,
+  "category": "editorial-story",
+  "tags": [
+   "typography",
+   "editorial",
+   "serif",
+   "publication"
+  ],
+  "notable": "Typewolf Site of the Day 28 Sep 2025; Signifier and Switzer."
+ },
+ {
+  "name": "Early Works",
+  "url": "https://www.early.works",
+  "source": "typewolf.com",
+  "source_url": "https://www.typewolf.com/site-of-the-day",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "typography",
+   "grotesk",
+   "studio"
+  ],
+  "notable": "Typewolf Site of the Day 23 Sep 2025; Feature and Soehne type pairing."
+ },
+ {
+  "name": "Elena Scott",
+  "url": "https://elenascott.co/",
+  "source": "typewolf.com",
+  "source_url": "https://www.typewolf.com/site-of-the-day",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "typography",
+   "serif",
+   "personal",
+   "editorial"
+  ],
+  "notable": "Typewolf Site of the Day 9 Dec 2025; Editorial Old with Neue Montreal."
+ },
+ {
+  "name": "TR Studio",
+  "url": "https://trstudio.co.uk",
+  "source": "typewolf.com",
+  "source_url": "https://www.typewolf.com/site-of-the-day",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "typography",
+   "studio",
+   "flared-serif"
+  ],
+  "notable": "Typewolf Site of the Day 27 Sep 2025; Arizona Flare and Dia."
+ },
+ {
+  "name": "Made For",
+  "url": "https://made-for.com.au",
+  "source": "typewolf.com",
+  "source_url": "https://www.typewolf.com/site-of-the-day",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "typography",
+   "grotesk",
+   "studio"
+  ],
+  "notable": "Typewolf Site of the Day 25 Sep 2025; Marr Sans with Lausanne."
+ },
+ {
+  "name": "Philipp Hafner",
+  "url": "https://philipphafner.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Personal portfolio at the top of minimal.gallery's latest list."
+ },
+ {
+  "name": "Enode",
+  "url": "https://enode.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "b2b",
+   "api"
+  ],
+  "notable": "Energy-API company site featured on minimal.gallery."
+ },
+ {
+  "name": "Thursday's Child",
+  "url": "https://www.thursdayschild.global/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "editorial"
+  ],
+  "notable": "Studio site featured on minimal.gallery."
+ },
+ {
+  "name": "Vasiliy Kiselev",
+  "url": "https://kiselevvv.xyz/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "xyz"
+  ],
+  "notable": "Designer portfolio on a .xyz domain, listed on minimal.gallery."
+ },
+ {
+  "name": "Little Website Co.",
+  "url": "https://littlewebsite.co/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "small-studio",
+   "clean"
+  ],
+  "notable": "Small-web studio featured on minimal.gallery."
+ },
+ {
+  "name": "pu-ente",
+  "url": "https://www.pu-ente.com/en/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "bilingual"
+  ],
+  "notable": "Studio site with EN/DE versions, featured on minimal.gallery."
+ },
+ {
+  "name": "Atomicdust",
+  "url": "https://atomicdust.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "clean"
+  ],
+  "notable": "Studio site featured on minimal.gallery."
+ },
+ {
+  "name": "Bleibtgleich",
+  "url": "https://bleibtgleich.dev/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "developer",
+   "dev-domain"
+  ],
+  "notable": "Developer site on a .dev domain listed on minimal.gallery; a rare engineer-side pick."
+ },
+ {
+  "name": "Tequs",
+  "url": "https://www.tequs.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "product",
+   "clean"
+  ],
+  "notable": "Product site featured on minimal.gallery."
+ },
+ {
+  "name": "Causal",
+  "url": "https://causal.so/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "saas",
+   "finance"
+  ],
+  "notable": "Finance-modelling product site featured on minimal.gallery."
+ },
+ {
+  "name": "Driessen Architectuur",
+  "url": "https://driessenarchitectuur.nl/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "architecture",
+   "photography"
+  ],
+  "notable": "Dutch architecture studio site featured on minimal.gallery."
+ },
+ {
+  "name": "Ev Astapov",
+  "url": "https://astapable.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "designer"
+  ],
+  "notable": "Designer portfolio listed on minimal.gallery."
+ },
+ {
+  "name": "Eli Horn",
+  "url": "https://elihorn.ca/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Personal portfolio listed on minimal.gallery."
+ },
+ {
+  "name": "Isaac Fayemi",
+  "url": "https://fayemi.design/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "design-engineer"
+  ],
+  "notable": "Portfolio listed on both minimal.gallery and SEESAW."
+ },
+ {
+  "name": "Grafik",
+  "url": "https://grafik.nz/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "typographic"
+  ],
+  "notable": "New Zealand studio featured on minimal.gallery."
+ },
+ {
+  "name": "Holographik Space",
+  "url": "https://holographik.space/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "minimal",
+   "experimental",
+   "space"
+  ],
+  "notable": "Experimental site featured on minimal.gallery."
+ },
+ {
+  "name": "How&How",
+  "url": "https://how.studio/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "brand"
+  ],
+  "notable": "Studio site featured on minimal.gallery."
+ },
+ {
+  "name": "David Fiz",
+  "url": "https://www.davidfiz.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "photography"
+  ],
+  "notable": "Portfolio featured on minimal.gallery and Siteinspire."
+ },
+ {
+  "name": "DRASA Studio",
+  "url": "https://drasa.uk/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "uk"
+  ],
+  "notable": "Studio site featured on minimal.gallery."
+ },
+ {
+  "name": "Spek",
+  "url": "https://spek.app/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "minimal",
+   "app",
+   "tool"
+  ],
+  "notable": "App landing page featured on minimal.gallery."
+ },
+ {
+  "name": "Odyssee",
+  "url": "https://www.odysseeclinic.com.au/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "clinic",
+   "calm"
+  ],
+  "notable": "Australian clinic site featured on minimal.gallery and Site of Sites."
+ },
+ {
+  "name": "Flowlife",
+  "url": "https://www.flowlife.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "product",
+   "wellness"
+  ],
+  "notable": "Brand site featured on minimal.gallery."
+ },
+ {
+  "name": "GRNDWRK Studio",
+  "url": "https://grndwrk.studio/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "architecture"
+  ],
+  "notable": "Studio site featured on minimal.gallery."
+ },
+ {
+  "name": "Offsuit Games",
+  "url": "https://offsuit.app/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "minimal",
+   "games",
+   "app"
+  ],
+  "notable": "Games studio site on minimal.gallery page 2."
+ },
+ {
+  "name": "JARCOS",
+  "url": "https://jarcos.work/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "work-domain"
+  ],
+  "notable": "Portfolio on a .work domain, minimal.gallery page 2."
+ },
+ {
+  "name": "Ogon",
+  "url": "https://ogon.es/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "spain"
+  ],
+  "notable": "Spanish studio site listed on minimal.gallery."
+ },
+ {
+  "name": "Melius",
+  "url": "https://www.melius.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "product",
+   "brand"
+  ],
+  "notable": "Brand site listed on minimal.gallery."
+ },
+ {
+  "name": "Bou",
+  "url": "https://wearebou.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "agency"
+  ],
+  "notable": "Studio site listed on minimal.gallery."
+ },
+ {
+  "name": "Unify",
+  "url": "https://www.unifygtm.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "saas",
+   "gtm"
+  ],
+  "notable": "Go-to-market SaaS site listed on minimal.gallery."
+ },
+ {
+  "name": "Michael Gatt",
+  "url": "https://michaelgatt.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Portfolio listed on minimal.gallery."
+ },
+ {
+  "name": "Gionatan Nese",
+  "url": "https://www.gionatannese.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "designer"
+  ],
+  "notable": "Portfolio listed on minimal.gallery."
+ },
+ {
+  "name": "Union Boulangerie",
+  "url": "https://unionboulangerie.com/en/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "minimal",
+   "bakery",
+   "bilingual"
+  ],
+  "notable": "Bakery brand site featured on minimal.gallery and Siteinspire."
+ },
+ {
+  "name": "Origin",
+  "url": "https://www.originbrand.io/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "brand",
+   "product"
+  ],
+  "notable": "Brand site listed on minimal.gallery."
+ },
+ {
+  "name": "Xanvier Allison",
+  "url": "https://xanvierallison.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Portfolio listed on minimal.gallery."
+ },
+ {
+  "name": "Provider Studio",
+  "url": "http://provider.studio/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "clean"
+  ],
+  "notable": "Studio site listed on minimal.gallery."
+ },
+ {
+  "name": "ESR Bespoke",
+  "url": "https://www.esrbespoke.au/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "minimal",
+   "bespoke",
+   "craft"
+  ],
+  "notable": "Australian bespoke maker site on minimal.gallery."
+ },
+ {
+  "name": "Nomad Labs",
+  "url": "https://nomadlabs.es/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "lab",
+   "spain"
+  ],
+  "notable": "Lab/studio site on minimal.gallery."
+ },
+ {
+  "name": "BSWT",
+  "url": "https://bswt.tv/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "video",
+   "tv-domain"
+  ],
+  "notable": "Studio site on a .tv domain, minimal.gallery."
+ },
+ {
+  "name": "The Reach",
+  "url": "https://thereach.travel/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "travel",
+   "brand"
+  ],
+  "notable": "Travel brand site on minimal.gallery."
+ },
+ {
+  "name": "Joshua Baker",
+  "url": "https://www.joshuabaker.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Portfolio listed on minimal.gallery."
+ },
+ {
+  "name": "TakeControl",
+  "url": "https://gettakecontrol.app/en/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "minimal",
+   "app",
+   "landing"
+  ],
+  "notable": "App landing page listed on minimal.gallery."
+ },
+ {
+  "name": "United Flags of Fashion",
+  "url": "https://uff.cfda.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "minimal",
+   "fashion",
+   "campaign"
+  ],
+  "notable": "CFDA campaign microsite listed on minimal.gallery."
+ },
+ {
+  "name": "LinkLetter",
+  "url": "http://linkletter.press/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "minimal",
+   "newsletter",
+   "press"
+  ],
+  "notable": "Newsletter/press site listed on minimal.gallery."
+ },
+ {
+  "name": "Driftime Impact Report",
+  "url": "https://2025.driftime.com",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "minimal",
+   "report",
+   "editorial"
+  ],
+  "notable": "2025 impact report microsite listed on minimal.gallery."
+ },
+ {
+  "name": "Kiara Di Gregorio",
+  "url": "https://kiaradigregorio.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Portfolio listed on minimal.gallery."
+ },
+ {
+  "name": "Onoera",
+  "url": "https://onoera.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/2/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "brand",
+   "beauty"
+  ],
+  "notable": "Brand site listed on minimal.gallery."
+ },
+ {
+  "name": "Sonderdays",
+  "url": "https://www.sonderdays.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "brand",
+   "lifestyle"
+  ],
+  "notable": "Brand site on minimal.gallery page 3."
+ },
+ {
+  "name": "Watts Pet",
+  "url": "https://wattspet.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "minimal",
+   "pet",
+   "product"
+  ],
+  "notable": "Product site on minimal.gallery page 3."
+ },
+ {
+  "name": "Goodside",
+  "url": "https://www.goodside.studio/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "clean"
+  ],
+  "notable": "Studio site on minimal.gallery page 3."
+ },
+ {
+  "name": "Eternal Blue",
+  "url": "https://eternalblue.co.nz/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "new-zealand",
+   "brand"
+  ],
+  "notable": "Brand site on minimal.gallery page 3."
+ },
+ {
+  "name": "Buena",
+  "url": "https://buena.com/en/home",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "proptech",
+   "product"
+  ],
+  "notable": "Property-tech brand; minimal.gallery lists both its main site and a /dev page."
+ },
+ {
+  "name": "Samuel Raikkonen",
+  "url": "https://honest.fi/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "finnish"
+  ],
+  "notable": "Portfolio listed on minimal.gallery and One Page Love."
+ },
+ {
+  "name": "Gabriel Beaugonin",
+  "url": "https://www.gabrielbeaugonin.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Portfolio on minimal.gallery page 3."
+ },
+ {
+  "name": "Boc.Studio",
+  "url": "https://boc.studio/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "clean"
+  ],
+  "notable": "Studio site on minimal.gallery, Siteinspire and Site of Sites."
+ },
+ {
+  "name": "Cozy Journal",
+  "url": "https://cozyjournal.app/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "minimal",
+   "journal-app",
+   "calm"
+  ],
+  "notable": "Journaling app site on minimal.gallery."
+ },
+ {
+  "name": "Denmu",
+  "url": "https://denmu.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "clean"
+  ],
+  "notable": "Site on minimal.gallery page 3."
+ },
+ {
+  "name": "Philip Readman",
+  "url": "https://www.philipreadman.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Portfolio on minimal.gallery page 3."
+ },
+ {
+  "name": "Allagi",
+  "url": "https://allagi.music",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "minimal",
+   "music",
+   "brand"
+  ],
+  "notable": "Music brand site on minimal.gallery."
+ },
+ {
+  "name": "House of Yellow",
+  "url": "https://houseofyellow.nl/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "dutch"
+  ],
+  "notable": "Dutch studio on minimal.gallery."
+ },
+ {
+  "name": "ANDMADE Inc.",
+  "url": "https://andmade.jp/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "japan",
+   "studio"
+  ],
+  "notable": "Japanese studio on minimal.gallery."
+ },
+ {
+  "name": "Company Policy",
+  "url": "https://www.companypolicy.studio/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "clean"
+  ],
+  "notable": "Studio on minimal.gallery."
+ },
+ {
+  "name": "Yana Savchuk",
+  "url": "https://readymag.website/5818315",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "readymag",
+   "portfolio",
+   "minimal"
+  ],
+  "notable": "Portfolio built in Readymag, featured on minimal.gallery."
+ },
+ {
+  "name": "Duft und Kultur",
+  "url": "https://www.duftundkultur.com/en-de/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "minimal",
+   "fragrance",
+   "ecommerce"
+  ],
+  "notable": "Fragrance shop on minimal.gallery."
+ },
+ {
+  "name": "Hellomatik",
+  "url": "https://hellomatik.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "minimal",
+   "studio",
+   "clean"
+  ],
+  "notable": "Studio site on minimal.gallery."
+ },
+ {
+  "name": "SevenGrid",
+  "url": "https://sevengrid.app/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "minimal",
+   "app",
+   "grid"
+  ],
+  "notable": "App landing page on minimal.gallery."
+ },
+ {
+  "name": "Artem Morozov",
+  "url": "https://artem.vyraz.studio/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "subdomain"
+  ],
+  "notable": "Portfolio hosted on a studio subdomain, minimal.gallery."
+ },
+ {
+  "name": "Jason Bergh",
+  "url": "https://www.jasonbergh.com/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "minimal",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Portfolio on minimal.gallery."
+ },
+ {
+  "name": "ScreenTune",
+  "url": "https://screentune.app/",
+  "source": "minimal.gallery",
+  "source_url": "https://minimal.gallery/page/3/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "minimal",
+   "app",
+   "utility"
+  ],
+  "notable": "Utility app landing page on minimal.gallery."
+ },
+ {
+  "name": "Making Software",
+  "url": "https://www.makingsoftware.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "explainer",
+   "software",
+   "editorial",
+   "technical"
+  ],
+  "notable": "Httpster pick: a site about how software is made; strongly relevant to an engineer's taste."
+ },
+ {
+  "name": "Warren & Mahoney Architects",
+  "url": "https://wam.studio/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "architecture",
+   "studio",
+   "editorial"
+  ],
+  "notable": "Architecture practice site on Httpster."
+ },
+ {
+  "name": "Jacky Winter Gallery",
+  "url": "https://www.jackywinter.gallery/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "illustration",
+   "gallery",
+   "art"
+  ],
+  "notable": "Illustration gallery site on Httpster."
+ },
+ {
+  "name": "Bauhaus Clock",
+  "url": "https://bauhausclock.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "clock",
+   "bauhaus",
+   "experimental"
+  ],
+  "notable": "Clock-themed experimental site on Httpster."
+ },
+ {
+  "name": "Visual Journal",
+  "url": "https://visualjournal.it/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "journal",
+   "visual"
+  ],
+  "notable": "Italian visual-journal site on Httpster."
+ },
+ {
+  "name": "Benvenusa Italian Wines",
+  "url": "https://benvenusa.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "wine",
+   "brand",
+   "ecommerce"
+  ],
+  "notable": "Wine importer brand site on Httpster."
+ },
+ {
+  "name": "Developments",
+  "url": "https://developments.media/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "media",
+   "editorial",
+   "developments"
+  ],
+  "notable": "Media site on Httpster."
+ },
+ {
+  "name": "Patrick Mason Studio",
+  "url": "https://patrickmason.studio/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "studio",
+   "clean"
+  ],
+  "notable": "Studio portfolio on Httpster."
+ },
+ {
+  "name": "Overpass",
+  "url": "https://www.overpass.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "agency",
+   "clean"
+  ],
+  "notable": "Studio site on Httpster."
+ },
+ {
+  "name": "Snohetta",
+  "url": "https://www.snohetta.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "architecture",
+   "studio",
+   "editorial"
+  ],
+  "notable": "Architecture practice site on Httpster."
+ },
+ {
+  "name": "Viens-la",
+  "url": "https://viens-la.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "french",
+   "event",
+   "brand"
+  ],
+  "notable": "French site on Httpster."
+ },
+ {
+  "name": "Middle Name",
+  "url": "https://middlename.co.uk/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "uk",
+   "clean"
+  ],
+  "notable": "UK studio on Httpster."
+ },
+ {
+  "name": "Ossa Wines Tasmania",
+  "url": "https://ossa.wine/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "wine",
+   "brand",
+   "tasmania"
+  ],
+  "notable": "Winery site on Httpster."
+ },
+ {
+  "name": "Vivien's Creative",
+  "url": "https://vivienscreative.com.au/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "colourful",
+   "australia"
+  ],
+  "notable": "Australian studio on Httpster."
+ },
+ {
+  "name": "USPS Generational Study",
+  "url": "https://www.uspsdelivers.com/2020-2021-generational-research-report/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "report",
+   "scrollytelling",
+   "data"
+  ],
+  "notable": "Research report microsite on Httpster."
+ },
+ {
+  "name": "Counter Forms",
+  "url": "https://counter-forms.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "forms",
+   "industrial"
+  ],
+  "notable": "Studio on Httpster."
+ },
+ {
+  "name": "Uncut",
+  "url": "https://uncut.wtf/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "wtf-domain",
+   "bold"
+  ],
+  "notable": "Studio on a .wtf domain, Httpster."
+ },
+ {
+  "name": "LiveSurface",
+  "url": "https://www.livesurface.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "3d",
+   "mockup"
+  ],
+  "notable": "Mockup tool site on Httpster."
+ },
+ {
+  "name": "Buffet Digital",
+  "url": "https://www.buffet.digital/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "digital",
+   "agency"
+  ],
+  "notable": "Studio on Httpster."
+ },
+ {
+  "name": "Care of Chan",
+  "url": "https://www.careofchan.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "design",
+   "clean"
+  ],
+  "notable": "Design portfolio on Httpster page 2."
+ },
+ {
+  "name": "Balky Studio",
+  "url": "https://www.balky.studio/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "experimental",
+   "type"
+  ],
+  "notable": "Studio on Httpster page 2."
+ },
+ {
+  "name": "Huddle",
+  "url": "https://www.huddle.works/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "works-domain",
+   "curated"
+  ],
+  "notable": "Studio on Httpster page 2."
+ },
+ {
+  "name": "Lim London",
+  "url": "https://www.limlondon.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "london",
+   "clean"
+  ],
+  "notable": "Studio on Httpster page 2."
+ },
+ {
+  "name": "Clairoux Studio",
+  "url": "https://clairouxstudio.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "clean",
+   "editorial"
+  ],
+  "notable": "Studio on Httpster page 2."
+ },
+ {
+  "name": "Kokopako",
+  "url": "https://kokopako.fr/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "french",
+   "playful",
+   "experimental"
+  ],
+  "notable": "French playful site on Httpster page 2."
+ },
+ {
+  "name": "c23 Studio",
+  "url": "https://www.c23studio.io/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "io-domain",
+   "clean"
+  ],
+  "notable": "Studio on Httpster page 2."
+ },
+ {
+  "name": "Deon Libra",
+  "url": "https://deonlibra.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "clean"
+  ],
+  "notable": "Portfolio on Httpster page 2."
+ },
+ {
+  "name": "softGlossary",
+  "url": "https://softglossary.space/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "glossary",
+   "design-terms",
+   "reference"
+  ],
+  "notable": "Glossary-style reference site on Httpster."
+ },
+ {
+  "name": "Studio Office",
+  "url": "https://www.studio-office.fun/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "fun-domain",
+   "playful"
+  ],
+  "notable": "Studio on a .fun domain, Httpster."
+ },
+ {
+  "name": "Nate Gagnon",
+  "url": "https://nategagnon.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "clean"
+  ],
+  "notable": "Portfolio on Httpster."
+ },
+ {
+  "name": "Powell-Studio",
+  "url": "https://www.powell-studio.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "architecture",
+   "clean"
+  ],
+  "notable": "Studio on Httpster."
+ },
+ {
+  "name": "Pixel Poetry",
+  "url": "https://pixelpoetry.heredesign.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "pixel",
+   "poetry",
+   "experimental"
+  ],
+  "notable": "Pixel-poetry microsite from Here Design, on Httpster."
+ },
+ {
+  "name": "Spaces by Lovers Magazine",
+  "url": "https://spaces.loversmagazine.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "magazine",
+   "editorial",
+   "spaces"
+  ],
+  "notable": "Magazine microsite on Httpster."
+ },
+ {
+  "name": "Outreach",
+  "url": "https://www.outreach.space/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "space-domain",
+   "clean"
+  ],
+  "notable": "Studio on Httpster."
+ },
+ {
+  "name": "The School for Temporary Liveness",
+  "url": "https://temporaryliveness.org/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "art-school",
+   "experimental",
+   "performance"
+  ],
+  "notable": "Arts-education project site on Httpster."
+ },
+ {
+  "name": "ShopMrBeast",
+  "url": "https://shopmrbeast.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "merch",
+   "bold"
+  ],
+  "notable": "Merch store on Httpster."
+ },
+ {
+  "name": "Radio Null Rewind 2022",
+  "url": "https://2022.madebynull.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "radio",
+   "audio",
+   "generative"
+  ],
+  "notable": "Radio project rewind site by Null on Httpster."
+ },
+ {
+  "name": "Eclipse",
+  "url": "https://www.eclipse.builders/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "product",
+   "builders",
+   "crypto"
+  ],
+  "notable": "Product site on Httpster."
+ },
+ {
+  "name": "Mala Project",
+  "url": "https://www.malaproject.com/",
+  "source": "httpster.net",
+  "source_url": "https://httpster.net/page/2/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "project"
+  ],
+  "notable": "Studio project on Httpster."
+ },
+ {
+  "name": "Softlabor",
+  "url": "https://www.softlabor.biz/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art-directed",
+   "biz-domain"
+  ],
+  "notable": "Heads hoverstat.es; credited to Other Means in the gallery footer."
+ },
+ {
+  "name": "XK Studio",
+  "url": "https://xk.studio/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art-directed",
+   "minimal"
+  ],
+  "notable": "Studio on hoverstat.es."
+ },
+ {
+  "name": "Tiger Exposed",
+  "url": "https://tiger.exposed/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "playful",
+   "quirky-domain"
+  ],
+  "notable": "Experimental project on a .exposed domain, hoverstat.es."
+ },
+ {
+  "name": "Oliver Dupuy",
+  "url": "https://www.oliverdupuy.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "art",
+   "editorial"
+  ],
+  "notable": "Portfolio on hoverstat.es."
+ },
+ {
+  "name": "Andrew Trousdale",
+  "url": "https://andrewtrousdale.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "art",
+   "clean"
+  ],
+  "notable": "Portfolio on hoverstat.es."
+ },
+ {
+  "name": "Lona Lih",
+  "url": "https://lonalih.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "art",
+   "personal"
+  ],
+  "notable": "Portfolio on hoverstat.es."
+ },
+ {
+  "name": "Muda",
+  "url": "https://muda.co/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art-directed",
+   "curated"
+  ],
+  "notable": "Studio on hoverstat.es."
+ },
+ {
+  "name": "Erin Fee Productions",
+  "url": "https://www.erinfeeproductions.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "production",
+   "portfolio",
+   "editorial"
+  ],
+  "notable": "Production portfolio on hoverstat.es."
+ },
+ {
+  "name": "Serena Congiu",
+  "url": "https://www.serenacongiu.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "art",
+   "editorial"
+  ],
+  "notable": "Portfolio on hoverstat.es."
+ },
+ {
+  "name": "Any Given Moment",
+  "url": "https://www.anygivenmoment.co/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art-directed",
+   "curated"
+  ],
+  "notable": "Studio on hoverstat.es."
+ },
+ {
+  "name": "Anaiis World",
+  "url": "https://www.anaiis.world/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "artist",
+   "world",
+   "experimental"
+  ],
+  "notable": "Artist world site on hoverstat.es."
+ },
+ {
+  "name": "La Four",
+  "url": "https://lafour.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "fashion",
+   "art-directed"
+  ],
+  "notable": "Studio/brand site on hoverstat.es."
+ },
+ {
+  "name": "Simon Denny",
+  "url": "https://simondenny.net/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "artist",
+   "portfolio",
+   "archive"
+  ],
+  "notable": "Artist portfolio on hoverstat.es."
+ },
+ {
+  "name": "Pawel Achtelik",
+  "url": "https://pawelachtelik.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "art",
+   "clean"
+  ],
+  "notable": "Portfolio on hoverstat.es."
+ },
+ {
+  "name": "Ballet de Marseille",
+  "url": "https://www.ballet-de-marseille.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "dance",
+   "performing-arts",
+   "editorial"
+  ],
+  "notable": "Ballet company site on hoverstat.es."
+ },
+ {
+  "name": "Archive for Space",
+  "url": "https://archiveforspace.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "archive",
+   "space",
+   "art"
+  ],
+  "notable": "Archive project on hoverstat.es."
+ },
+ {
+  "name": "Elisa Breyer Archive",
+  "url": "https://www.elisabreyerarchive.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "archive",
+   "art",
+   "editorial"
+  ],
+  "notable": "Artist archive on hoverstat.es."
+ },
+ {
+  "name": "HfbK Graduates 25",
+  "url": "https://www.graduates.hfbk.net/25/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "graduates",
+   "art-school",
+   "directory"
+  ],
+  "notable": "Art-school graduate show site on hoverstat.es."
+ },
+ {
+  "name": "Typo Hyper Graphic Object",
+  "url": "https://www.typohypergraphicobject.page/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "typographic",
+   "experimental",
+   "graphic"
+  ],
+  "notable": "Typographic experimental page on hoverstat.es."
+ },
+ {
+  "name": "Three Zero Five Studio",
+  "url": "https://threezerofive.studio/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art-directed",
+   "curated"
+  ],
+  "notable": "Studio on hoverstat.es."
+ },
+ {
+  "name": "Schema Magazine",
+  "url": "https://www.schemamagazine.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "magazine",
+   "editorial",
+   "design"
+  ],
+  "notable": "Magazine on hoverstat.es."
+ },
+ {
+  "name": "Anorak Film",
+  "url": "https://anorakfilm.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "film",
+   "editorial",
+   "studio"
+  ],
+  "notable": "Film studio on hoverstat.es."
+ },
+ {
+  "name": "AGE HH",
+  "url": "https://www.age-hh.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "hamburg",
+   "art-directed"
+  ],
+  "notable": "Studio on hoverstat.es."
+ },
+ {
+  "name": "Becane Paris",
+  "url": "https://www.becaneparis.com/",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "paris",
+   "brand",
+   "ecommerce"
+  ],
+  "notable": "Paris brand on hoverstat.es."
+ },
+ {
+  "name": "Beckmans College 2024",
+  "url": "https://beckmans.college/2024/sv",
+  "source": "hoverstat.es",
+  "source_url": "https://www.hoverstat.es/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "graduation",
+   "design-school",
+   "sweden"
+  ],
+  "notable": "Beckmans design college 2024 degree-show site on hoverstat.es."
+ },
+ {
+  "name": "Christoph Mandl",
+  "url": "https://mandl.design",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "designer"
+  ],
+  "notable": "Listed as Personal + Portfolio on One Page Love."
+ },
+ {
+  "name": "Mathias Adolfsson",
+  "url": "https://mathiasadolfsson.dev",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "developer",
+   "portfolio",
+   "dev-domain"
+  ],
+  "notable": "Developer portfolio on a .dev domain, One Page Love."
+ },
+ {
+  "name": "Angelo",
+  "url": "https://angelo.so",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "so-domain",
+   "personal"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Josh Puckett",
+  "url": "https://joshpuckett.me",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "design-engineer",
+   "interaction"
+  ],
+  "notable": "Personal site of the Interface Craft designer; on One Page Love; separate MoMA project on SEESAW."
+ },
+ {
+  "name": "Abdullah",
+  "url": "https://helloabdullah.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "landing",
+   "personal"
+  ],
+  "notable": "Landing-page-style portfolio on One Page Love."
+ },
+ {
+  "name": "Stolaze",
+  "url": "https://stolaze.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "designer"
+  ],
+  "notable": "Personal portfolio on One Page Love (appears on two lists)."
+ },
+ {
+  "name": "Aniket",
+  "url": "https://unfunnyket.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "playful-domain"
+  ],
+  "notable": "Personal portfolio on a playful domain, One Page Love."
+ },
+ {
+  "name": "Scout Graphics",
+  "url": "https://scoutgraphics.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "portfolio",
+   "graphics",
+   "landing"
+  ],
+  "notable": "Graphics portfolio on One Page Love."
+ },
+ {
+  "name": "Felix Haas",
+  "url": "https://felixhaas.io",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/personal",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal",
+   "designer",
+   "portfolio"
+  ],
+  "notable": "Personal site on One Page Love."
+ },
+ {
+  "name": "Melike Turgut",
+  "url": "https://meliketurgut.com/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/personal",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "designer"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Tim Van Damme",
+  "url": "https://timvandamme.com/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/personal",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal",
+   "veteran-designer",
+   "portfolio"
+  ],
+  "notable": "Personal site of long-running designer Tim Van Damme (Max Voltar), One Page Love."
+ },
+ {
+  "name": "ByMayo",
+  "url": "https://bymayo.co.uk/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/personal",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "developer",
+   "portfolio",
+   "uk"
+  ],
+  "notable": "Web developer's personal site on One Page Love."
+ },
+ {
+  "name": "Sam Peitz",
+  "url": "https://www.sam-peitz.com/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "clean"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Office Commun",
+  "url": "https://officecommun.com/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Studio portfolio on One Page Love."
+ },
+ {
+  "name": "Roy Jad",
+  "url": "https://royjad.com/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "clean"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Flowjam",
+  "url": "https://flowjam.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "agency",
+   "portfolio",
+   "webflow"
+  ],
+  "notable": "Agency portfolio on One Page Love."
+ },
+ {
+  "name": "Artem Taradash",
+  "url": "https://taradash.me/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "designer"
+  ],
+  "notable": "Portfolio on One Page Love and Siteinspire."
+ },
+ {
+  "name": "Deeo Studio",
+  "url": "https://deeo.studio",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "clean"
+  ],
+  "notable": "Studio portfolio on One Page Love."
+ },
+ {
+  "name": "Rafael Derolez",
+  "url": "https://derolez.dev/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "developer",
+   "portfolio",
+   "dev-domain"
+  ],
+  "notable": "Developer portfolio on a .dev domain, One Page Love."
+ },
+ {
+  "name": "Shawn Golden",
+  "url": "https://shawngolden.org/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "org-domain"
+  ],
+  "notable": "Personal portfolio on One Page Love."
+ },
+ {
+  "name": "April Leihuanani Evangelista",
+  "url": "https://aprilleihuanani.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "designer"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Nia Creative",
+  "url": "https://niacreative.co",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "creative"
+  ],
+  "notable": "Studio portfolio on One Page Love."
+ },
+ {
+  "name": "Protip Marketing",
+  "url": "https://protipmarketing.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "marketing",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Marketing portfolio on One Page Love."
+ },
+ {
+  "name": "davesocozy",
+  "url": "https://davesocozy.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "cozy"
+  ],
+  "notable": "Personal portfolio on One Page Love."
+ },
+ {
+  "name": "Brikken+Co",
+  "url": "https://www.brikken.co",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Studio on One Page Love."
+ },
+ {
+  "name": "Tiago Fragoso",
+  "url": "https://tiagofragoso.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "developer",
+   "portfolio",
+   "personal"
+  ],
+  "notable": "Personal portfolio on One Page Love."
+ },
+ {
+  "name": "Tiny Computer Co.",
+  "url": "https://tinycomputer.co",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "computer",
+   "small-studio",
+   "playful"
+  ],
+  "notable": "Small computer-themed company site on One Page Love."
+ },
+ {
+  "name": "Ayush Halder",
+  "url": "https://www.thoughtsofayush.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "writing"
+  ],
+  "notable": "Portfolio on One Page Love (appears on two lists)."
+ },
+ {
+  "name": "Justin Lerner",
+  "url": "https://jlern.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "short-domain"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Tiffany Devos",
+  "url": "https://tiffanydevos.be/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "belgium"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Teardwn",
+  "url": "https://teardwn.com/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "teardown",
+   "hardware",
+   "product"
+  ],
+  "notable": "Teardown-themed site on One Page Love."
+ },
+ {
+  "name": "Specia1ne",
+  "url": "https://specia1ne.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "numeric-name"
+  ],
+  "notable": "Portfolio with a numeric-letter name on One Page Love."
+ },
+ {
+  "name": "Robert Feasley",
+  "url": "https://rfeasley.io/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "developer",
+   "io-domain"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Adam Ho",
+  "url": "https://www.adamho.com/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Amanda Guo Design",
+  "url": "https://byamandaguo.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "designer",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Luis Kantor",
+  "url": "https://kantorlab.de",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "lab",
+   "german"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Mammut Studios",
+  "url": "https://www.mammutstudios.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Studio on One Page Love."
+ },
+ {
+  "name": "OhhMyDesign",
+  "url": "https://ohhmydesign.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "portfolio"
+  ],
+  "notable": "Studio on One Page Love."
+ },
+ {
+  "name": "bueno.fyi",
+  "url": "https://bueno.fyi",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "fyi-domain",
+   "personal"
+  ],
+  "notable": "Portfolio on a .fyi domain, One Page Love."
+ },
+ {
+  "name": "Britt Taylor",
+  "url": "https://www.btay.ca",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "canada"
+  ],
+  "notable": "Portfolio on One Page Love; also listed on Site of Sites as BTay."
+ },
+ {
+  "name": "SimpleSketche",
+  "url": "https://simplesketche.nyc",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "nyc",
+   "sketch"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Marina Rachello",
+  "url": "https://www.marinarachello.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "George Wood",
+  "url": "https://www.georgewood.me",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "me-domain"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Michael Pumo",
+  "url": "https://michaelpumo.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "developer",
+   "portfolio",
+   "personal"
+  ],
+  "notable": "Developer portfolio on One Page Love."
+ },
+ {
+  "name": "Medium Rare",
+  "url": "https://www.mediumrare.site",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Studio on One Page Love."
+ },
+ {
+  "name": "Matthew Chudnovski",
+  "url": "https://yevtam.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Frontend Supply",
+  "url": "https://frontend.supply",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "frontend",
+   "resource",
+   "developer"
+  ],
+  "notable": "Frontend resource site on One Page Love."
+ },
+ {
+  "name": "Monolog",
+  "url": "https://bymonolog.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Studio on One Page Love."
+ },
+ {
+  "name": "Atishay Tuli",
+  "url": "https://creativeatishay.in",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "india"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Belen Jones",
+  "url": "https://www.belenjones.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Lovably",
+  "url": "https://www.lovably.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brand site on One Page Love."
+ },
+ {
+  "name": "Hebbia Design",
+  "url": "https://design.hebbia.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "design-system",
+   "brand",
+   "product"
+  ],
+  "notable": "Hebbia's design site on One Page Love."
+ },
+ {
+  "name": "Flex Digital",
+  "url": "https://flexdigital.io/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "agency",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Agency on One Page Love."
+ },
+ {
+  "name": "Tenztan",
+  "url": "https://www.tenztan.in",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "india"
+  ],
+  "notable": "Studio on One Page Love."
+ },
+ {
+  "name": "Landmark",
+  "url": "https://alre.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Landmark site on One Page Love."
+ },
+ {
+  "name": "Johny Vino",
+  "url": "https://johnyvino.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "WaxyWeb",
+  "url": "https://www.waxyweb.agency",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "agency",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Agency on One Page Love."
+ },
+ {
+  "name": "Rain Drops",
+  "url": "https://rain-drops.justabayet.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "rain",
+   "generative",
+   "interactive",
+   "webgl"
+  ],
+  "notable": "Rain-drops interactive collaboration by Tristan Haquenne and Anthony Bayet, One Page Love."
+ },
+ {
+  "name": "Ozan Atmar",
+  "url": "https://ozan.at/mar",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "creative-domain",
+   "personal"
+  ],
+  "notable": "Portfolio using a domain-hack URL, One Page Love."
+ },
+ {
+  "name": "Jon Saxton",
+  "url": "https://www.jonsaxton.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Isa de Burgh",
+  "url": "https://isadeburgh.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Jonathan Moore",
+  "url": "https://jonathanmoore.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Artem Astakhov",
+  "url": "https://hiartem.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "hi-domain"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "DesignMe",
+  "url": "https://www.designme.agency",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "agency",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Agency on One Page Love."
+ },
+ {
+  "name": "Ouro Labs",
+  "url": "https://ouro-labs.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "labs",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Labs on One Page Love."
+ },
+ {
+  "name": "Daru Sim",
+  "url": "https://darusim.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Gunes Atakan Peksen",
+  "url": "https://gunespeksen.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Nine Sixty",
+  "url": "https://ninesixty.co.uk",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "uk",
+   "portfolio"
+  ],
+  "notable": "Studio on One Page Love."
+ },
+ {
+  "name": "Jopecuro",
+  "url": "https://jopecuro.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Designfly",
+  "url": "https://www.designfly.io/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Studio on One Page Love."
+ },
+ {
+  "name": "Hardware Operations",
+  "url": "https://hardwareoperations.com",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "hardware",
+   "brand",
+   "portfolio"
+  ],
+  "notable": "Site on One Page Love."
+ },
+ {
+  "name": "Eleveight Studio",
+  "url": "https://www.eleveight.studio/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Studio on One Page Love."
+ },
+ {
+  "name": "Jeanda",
+  "url": "https://jeanda.agency",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "agency",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Agency on One Page Love."
+ },
+ {
+  "name": "Cameron McNab",
+  "url": "https://herei.cam",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "name-domain",
+   "personal"
+  ],
+  "notable": "Portfolio on a name-hack domain (herei.cam), One Page Love."
+ },
+ {
+  "name": "Pixels Studio",
+  "url": "https://www.pixels.studio/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Studio on One Page Love."
+ },
+ {
+  "name": "Olivier Carignan",
+  "url": "https://www.oliviercarignan.com/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Will Lenzen",
+  "url": "https://www.willl.xyz/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "xyz",
+   "personal"
+  ],
+  "notable": "Portfolio on an .xyz domain, One Page Love."
+ },
+ {
+  "name": "April Taylor",
+  "url": "https://april-taylor.com/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Robin",
+  "url": "https://www.rh.design/",
+  "source": "onepagelove.com",
+  "source_url": "https://onepagelove.com/gallery/portfolio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "design-domain"
+  ],
+  "notable": "Portfolio on One Page Love."
+ },
+ {
+  "name": "Blond",
+  "url": "https://blond.cc/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "siteinspire",
+   "clean"
+  ],
+  "notable": "First entry on Siteinspire's list."
+ },
+ {
+  "name": "David McGillivray",
+  "url": "http://dmcg.co/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "minimal"
+  ],
+  "notable": "Portfolio on Siteinspire and Minimal Gallery-style lists."
+ },
+ {
+  "name": "Royal Sites Ireland",
+  "url": "https://royalsites.ie/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "heritage",
+   "ireland",
+   "editorial"
+  ],
+  "notable": "Heritage site on Siteinspire."
+ },
+ {
+  "name": "SIHA",
+  "url": "https://siha.com.au/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "australia",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Oath Biome",
+  "url": "https://www.oathbiome.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "health",
+   "brand",
+   "product"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "WSM",
+  "url": "https://wschupfer.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Fume",
+  "url": "https://fume-studio.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Carriere Scene",
+  "url": "https://carrierescene.ca/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "canada",
+   "performing-arts",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Life Stories",
+  "url": "https://lifestories.org/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "stories",
+   "non-profit",
+   "editorial"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Cactus Digitale",
+  "url": "https://cactusdigitale.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "digital",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Core-A Studios",
+  "url": "https://www.coreastudios.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "photography",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "ViV Management",
+  "url": "https://vivmgmt.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "management",
+   "talent",
+   "clean"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "IWONDERU Studios",
+  "url": "https://www.iwonderu.se/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "sweden",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Town",
+  "url": "https://www.town.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "product",
+   "brand",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Sam Thies",
+  "url": "https://samthies.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Appears on Siteinspire, Minimal Gallery-style lists and Site of Sites."
+ },
+ {
+  "name": "Alicia Dubuis",
+  "url": "https://aliciadubuis.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "The Surfer's Journal Archives",
+  "url": "https://archives.surfersjournal.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "archive",
+   "surf",
+   "editorial"
+  ],
+  "notable": "Magazine archive site on Siteinspire."
+ },
+ {
+  "name": "Les Grands Chenes",
+  "url": "https://www.maisonlesgrandschenes.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "hospitality",
+   "french",
+   "brand"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Jakobsen Copenhagen",
+  "url": "https://jakobsencopenhagen.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "copenhagen",
+   "brand",
+   "fashion"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Hedroom",
+  "url": "https://www.hedroom.fm/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "radio",
+   "music",
+   "fm-domain"
+  ],
+  "notable": "Radio site on .fm domain, Siteinspire."
+ },
+ {
+  "name": "The Future In Black",
+  "url": "https://www.thefutureinblack.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "culture",
+   "bold"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Felix Peault",
+  "url": "https://felixpeault.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "creative-dev"
+  ],
+  "notable": "Portfolio on Siteinspire and Site of Sites."
+ },
+ {
+  "name": "Nothin'",
+  "url": "https://www.noth.in/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "quirky-domain",
+   "curated"
+  ],
+  "notable": "Studio on noth.in domain, Siteinspire."
+ },
+ {
+  "name": "Studio OL",
+  "url": "https://ol.studio/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Tekt",
+  "url": "https://tekt.com.au/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "australia",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Scullion Architects",
+  "url": "https://scullion.ie/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "architecture",
+   "ireland",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Studio Gerosa",
+  "url": "https://www.studio-gerosa.it/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "italy",
+   "design"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "TaylorHare Architects",
+  "url": "https://taylorhare.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "architecture",
+   "clean",
+   "curated"
+  ],
+  "notable": "Appears on Siteinspire and Landing.Gallery."
+ },
+ {
+  "name": "Exemplar",
+  "url": "https://exemplarfromsweden.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "sweden",
+   "brand",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "SORT Office",
+  "url": "https://sort-office.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Grapa Studio",
+  "url": "https://studiograpa.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Artemii Lebedev",
+  "url": "https://artemiilebedev.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "russian",
+   "design-legend"
+  ],
+  "notable": "Siteinspire entry for the Artemy Lebedev studio site."
+ },
+ {
+  "name": "Maximilian Kaspar",
+  "url": "https://www.maximiliankaspar.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "House of Honey",
+  "url": "https://www.houseofhoney.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "honey",
+   "brand",
+   "ecommerce"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Kai Blamey Nguyen",
+  "url": "https://kaiblamey.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "This Design",
+  "url": "https://this.design/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Quatrieme Etage",
+  "url": "https://quatriemeetage.studio/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "french",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Emi Takahashi",
+  "url": "https://emitakahashi.ca/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Mac Moss Studio",
+  "url": "https://macmoss.studio/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Gil Huybrecht",
+  "url": "https://gilhuybrecht.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "art-director",
+   "curated"
+  ],
+  "notable": "Freelance designer/art director on Siteinspire and Landing.Gallery."
+ },
+ {
+  "name": "Jason Bradley",
+  "url": "https://jasonbradley.co/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Nick Clement",
+  "url": "https://nickclement.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Thomas Herve",
+  "url": "https://hervethomas.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Little Plains",
+  "url": "https://www.littleplains.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "seesaw"
+  ],
+  "notable": "On both Siteinspire and SEESAW."
+ },
+ {
+  "name": "Slav Vitanov",
+  "url": "https://slavvitanov.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Evan Tolleson",
+  "url": "https://evantolleson.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Isaac Leon",
+  "url": "https://isaacleon.cargo.site/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "cargo",
+   "personal"
+  ],
+  "notable": "Portfolio hosted on Cargo, Siteinspire."
+ },
+ {
+  "name": "Viktor Horvath",
+  "url": "https://viktorhor.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "BD85BD85",
+  "url": "https://bd85bd85.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "code-name",
+   "curated"
+  ],
+  "notable": "Siteinspire entry with an alphanumeric name."
+ },
+ {
+  "name": "Seunghyuk Kim",
+  "url": "https://seunghyuk.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Yuri Roga",
+  "url": "https://yuriroga.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Kenj Pena",
+  "url": "https://kenjpena.com/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Smorgasbord",
+  "url": "https://smorgasbord.studio/",
+  "source": "siteinspire.com",
+  "source_url": "https://www.siteinspire.com/websites",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "curated"
+  ],
+  "notable": "Siteinspire entry."
+ },
+ {
+  "name": "Almira Kho",
+  "url": "https://almirakho.com/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "Hlynur Atlason",
+  "url": "https://atlason.com/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "nordic"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "Byotone",
+  "url": "https://byotone.com/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "music",
+   "tone"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "brik.space",
+  "url": "https://brik.space/Home",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "space-domain",
+   "curated"
+  ],
+  "notable": "Featured on Site of Sites (twice, with differing case in the path)."
+ },
+ {
+  "name": "JungleJungle",
+  "url": "https://junglejungle.design/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "playful"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "Era Namjoshi",
+  "url": "https://eranamjoshi.com/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "Corentin Bernadou",
+  "url": "https://corentinbernadou.com/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "french"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "Betteroff Studio",
+  "url": "https://tlb.betteroff.studio/surf",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "surf",
+   "project"
+  ],
+  "notable": "Surf project microsite by Betteroff, Site of Sites."
+ },
+ {
+  "name": "L'etude",
+  "url": "https://letude.group/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "group",
+   "french"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "Seventeen Agency",
+  "url": "https://www.seventeenagency.com/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "agency",
+   "studio",
+   "curated"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "Aino Agency",
+  "url": "https://aino.agency/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "agency",
+   "studio",
+   "curated"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "The Design Society",
+  "url": "https://www.thedesignsociety.fr/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "french",
+   "design"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "Shira Wiesenberg",
+  "url": "https://www.shirawiesenberg.com/",
+  "source": "siteofsites.co",
+  "source_url": "https://www.siteofsites.co/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "Featured on Site of Sites."
+ },
+ {
+  "name": "Haptic",
+  "url": "https://www.haptic.studio/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "startups",
+   "landing"
+  ],
+  "notable": "Design studio for startups on Landing.Gallery."
+ },
+ {
+  "name": "Nossara",
+  "url": "https://nossara.com/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "japan",
+   "towels",
+   "ecommerce"
+  ],
+  "notable": "Imabari towel brand on Landing.Gallery."
+ },
+ {
+  "name": "Komma Komma",
+  "url": "https://kommakomma.is/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "iceland",
+   "web-experiences"
+  ],
+  "notable": "Icelandic web-experience studio on Landing.Gallery."
+ },
+ {
+  "name": "Biotic",
+  "url": "https://biotic.org/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "biology",
+   "open-tech",
+   "landing"
+  ],
+  "notable": "Biotic on Landing.Gallery."
+ },
+ {
+  "name": "time.fyi",
+  "url": "https://time.fyi/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "timezone",
+   "fyi-domain"
+  ],
+  "notable": "Time/timezone utility on Landing.Gallery."
+ },
+ {
+  "name": "Domaine",
+  "url": "https://domaineworldwide.com/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "shopify-agency",
+   "studio",
+   "curated"
+  ],
+  "notable": "Shopify agency on Landing.Gallery."
+ },
+ {
+  "name": "pen.dev",
+  "url": "https://www.pen.dev/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "developer",
+   "tool",
+   "dev-domain"
+  ],
+  "notable": "Developer product on Landing.Gallery."
+ },
+ {
+  "name": "Atalanta",
+  "url": "https://www.atalanta.tech/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "tech",
+   "landing",
+   "product"
+  ],
+  "notable": "Landing.Gallery entry."
+ },
+ {
+  "name": "FLITE",
+  "url": "https://flite.bike/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "bike",
+   "product",
+   "landing"
+  ],
+  "notable": "Bike brand on Landing.Gallery."
+ },
+ {
+  "name": "DUNA Digital",
+  "url": "https://duna.digital/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "berlin",
+   "agency",
+   "landing"
+  ],
+  "notable": "Berlin agency on Landing.Gallery."
+ },
+ {
+  "name": "Aloud",
+  "url": "https://www.aloud.sh/",
+  "source": "landing.gallery",
+  "source_url": "https://landing.gallery/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "sh-domain",
+   "landing"
+  ],
+  "notable": "Product on a .sh domain, Landing.Gallery."
+ },
+ {
+  "name": "mamuso",
+  "url": "https://mamuso.dev/",
+  "source": "a1.gallery",
+  "source_url": "https://www.a1.gallery/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "developer",
+   "portfolio",
+   "dev-domain"
+  ],
+  "notable": "Developer portfolio on A1 Gallery."
+ },
+ {
+  "name": "Fedor Shkliarau",
+  "url": "https://fedor.design/",
+  "source": "a1.gallery",
+  "source_url": "https://www.a1.gallery/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "design-domain",
+   "personal"
+  ],
+  "notable": "Designer portfolio on A1 Gallery."
+ },
+ {
+  "name": "Outway",
+  "url": "https://outway.com/",
+  "source": "a1.gallery",
+  "source_url": "https://www.a1.gallery/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "product",
+   "brand",
+   "clean"
+  ],
+  "notable": "Featured on A1 Gallery."
+ },
+ {
+  "name": "Ponder",
+  "url": "https://ponder.ai/",
+  "source": "a1.gallery",
+  "source_url": "https://www.a1.gallery/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "ai",
+   "product",
+   "landing"
+  ],
+  "notable": "Featured on A1 Gallery."
+ },
+ {
+  "name": "READYMAGIC Studio",
+  "url": "https://rmc-studio.com",
+  "source": "a1.gallery",
+  "source_url": "https://www.a1.gallery/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "readymag"
+  ],
+  "notable": "On A1 Gallery and One Page Love."
+ },
+ {
+  "name": "Baked Design",
+  "url": "https://baked.design",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "seesaw"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Cube",
+  "url": "https://cube.computer",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "computer",
+   "hardware",
+   "product"
+  ],
+  "notable": "SEESAW featured; cube.computer domain."
+ },
+ {
+  "name": "Dial",
+  "url": "https://dial.software",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "software",
+   "tool",
+   "curated"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Loops",
+  "url": "https://loops.so",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "email",
+   "saas",
+   "product"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Shiori",
+  "url": "https://shiori.sh",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "sh-domain",
+   "curated"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Ando",
+  "url": "https://ando.so",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "so-domain",
+   "product"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Atlas for Mac",
+  "url": "https://atlasformac.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "mac-app",
+   "product",
+   "minimal"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Moving Image Archive",
+  "url": "https://movingimagearchive.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "archive",
+   "film",
+   "editorial"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Chris Andrews",
+  "url": "https://chrisandrews.xyz",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "xyz",
+   "personal"
+  ],
+  "notable": "SEESAW featured portfolio."
+ },
+ {
+  "name": "Handhold",
+  "url": "https://handhold.io",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "product",
+   "curated"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Interface Craft x MoMA",
+  "url": "https://joshpuckett.me/nyc-moma",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "interaction",
+   "museum",
+   "case-study"
+  ],
+  "notable": "SEESAW featured: Josh Puckett's Interface Craft x MoMA project page."
+ },
+ {
+  "name": "DialKit",
+  "url": "https://dialkit.dev",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "developer",
+   "tool",
+   "ui-controls"
+  ],
+  "notable": "SEESAW featured developer UI tool."
+ },
+ {
+  "name": "Ledger",
+  "url": "https://ledger.page",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "page-domain",
+   "curated"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Brand My Mac",
+  "url": "https://brandmymac.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "mac",
+   "tool",
+   "playful"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Bencho",
+  "url": "https://bencho.dev",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "developer",
+   "tool",
+   "dev-domain"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Freckle",
+  "url": "https://freckle.tech",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tech",
+   "tool",
+   "curated"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Intent",
+  "url": "https://intentapp.dev",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "developer",
+   "app",
+   "dev-domain"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Tachyon Industrial",
+  "url": "https://tachyonindustrial.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "industrial",
+   "product",
+   "curated"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Pixel One",
+  "url": "https://pixel-one.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "pixel",
+   "product",
+   "curated"
+  ],
+  "notable": "SEESAW featured entry."
+ },
+ {
+  "name": "Paul Wong",
+  "url": "https://paulwong.work",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "work-domain",
+   "personal"
+  ],
+  "notable": "SEESAW feed portfolio."
+ },
+ {
+  "name": "Krijn Rijshouwer",
+  "url": "https://krijnrijshouwer.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "creative-dev",
+   "personal"
+  ],
+  "notable": "SEESAW feed portfolio."
+ },
+ {
+  "name": "ertdfgcvb",
+  "url": "https://ertdfgcvb.xyz",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "ascii",
+   "monospace",
+   "generative",
+   "experimental"
+  ],
+  "notable": "SEESAW feed; the personal site of ertdfgcvb, whose ASCII/text-mode experiments are well known."
+ },
+ {
+  "name": "Stas Polyakov",
+  "url": "https://plkv.works",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "works-domain",
+   "personal"
+  ],
+  "notable": "SEESAW feed portfolio."
+ },
+ {
+  "name": "Daniel Sun",
+  "url": "https://danielsun.space",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "space-domain",
+   "personal"
+  ],
+  "notable": "SEESAW feed portfolio."
+ },
+ {
+  "name": "Christian Reber",
+  "url": "https://christianreber.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "minimal"
+  ],
+  "notable": "SEESAW feed portfolio."
+ },
+ {
+  "name": "Sefik Mujkic",
+  "url": "https://sefikmujkic.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "personal",
+   "curated"
+  ],
+  "notable": "SEESAW feed portfolio."
+ },
+ {
+  "name": "Osmo Supply",
+  "url": "https://osmo.supply",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "webflow",
+   "resource",
+   "components",
+   "developer"
+  ],
+  "notable": "SEESAW feed; resource for web interactions and components."
+ },
+ {
+  "name": "Monolith NYC",
+  "url": "https://monolith.nyc",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "nyc",
+   "studio",
+   "curated"
+  ],
+  "notable": "SEESAW feed."
+ },
+ {
+  "name": "Bakken & Baeck",
+  "url": "https://bakkenbaeck.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "agency",
+   "software",
+   "norway"
+  ],
+  "notable": "SEESAW feed; long-running software and design agency."
+ },
+ {
+  "name": "Mooders",
+  "url": "https://mooders.net",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "mood",
+   "tool",
+   "net-domain"
+  ],
+  "notable": "SEESAW feed."
+ },
+ {
+  "name": "Over-Stimulated",
+  "url": "https://over-stimulated.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "maximal",
+   "experimental",
+   "colour-bold"
+  ],
+  "notable": "SEESAW feed; name suggests the maximalist counterpart to minimal galleries."
+ },
+ {
+  "name": "3D Stack Dev",
+  "url": "https://3dstack.dev",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "developer",
+   "3d",
+   "coming-soon"
+  ],
+  "notable": "SEESAW feed; developer 3D site placeholder."
+ },
+ {
+  "name": "Toronto Tech Week 2025",
+  "url": "https://torontotechweek.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "event",
+   "tech",
+   "toronto"
+  ],
+  "notable": "SEESAW feed; conference site."
+ },
+ {
+  "name": "Totem",
+  "url": "https://totem.info",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "info-domain",
+   "curated"
+  ],
+  "notable": "SEESAW feed."
+ },
+ {
+  "name": "Poolsuite Partners",
+  "url": "https://poolsuite.partners",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "retro",
+   "music",
+   "brand"
+  ],
+  "notable": "SEESAW feed; extension of the Poolsuite brand."
+ },
+ {
+  "name": "Basedash",
+  "url": "https://basedash.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "saas",
+   "database",
+   "dev"
+  ],
+  "notable": "SEESAW feed."
+ },
+ {
+  "name": "Browserbase",
+  "url": "https://browserbase.com",
+  "source": "seesaw.website",
+  "source_url": "https://www.seesaw.website/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "developer",
+   "infrastructure",
+   "browser"
+  ],
+  "notable": "SEESAW feed; developer infrastructure product."
+ },
+ {
+  "name": "Devouring Details",
+  "url": "https://devouringdetails.com",
+  "source": "webdesign-inspiration.com",
+  "source_url": "https://www.webdesign-inspiration.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "interaction",
+   "tutorial",
+   "developer",
+   "ux"
+  ],
+  "notable": "On webdesign-inspiration.com; UI/UX detail essays."
+ },
+ {
+  "name": "Gang.tv",
+  "url": "https://gang.tv",
+  "source": "webdesign-inspiration.com",
+  "source_url": "https://www.webdesign-inspiration.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "tv-domain",
+   "bold",
+   "curated"
+  ],
+  "notable": "On webdesign-inspiration.com."
+ },
+ {
+  "name": "Cocoa Lemana",
+  "url": "https://cocoalemana.com",
+  "source": "webdesign-inspiration.com",
+  "source_url": "https://www.webdesign-inspiration.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brand",
+   "ecommerce",
+   "curated"
+  ],
+  "notable": "On webdesign-inspiration.com."
+ },
+ {
+  "name": "Muse Studio UK",
+  "url": "https://musestudio.uk",
+  "source": "webdesign-inspiration.com",
+  "source_url": "https://www.webdesign-inspiration.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "uk",
+   "curated"
+  ],
+  "notable": "On webdesign-inspiration.com."
+ },
+ {
+  "name": "Truus",
+  "url": "https://truus.co",
+  "source": "webdesign-inspiration.com",
+  "source_url": "https://www.webdesign-inspiration.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "design",
+   "curated"
+  ],
+  "notable": "On webdesign-inspiration.com."
+ },
+ {
+  "name": "Zypsy",
+  "url": "https://zypsy.com",
+  "source": "webdesign-inspiration.com",
+  "source_url": "https://www.webdesign-inspiration.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "agency",
+   "brand-design",
+   "curated"
+  ],
+  "notable": "On webdesign-inspiration.com."
+ },
+ {
+  "name": "Rise at Seven",
+  "url": "https://riseatseven.com",
+  "source": "webdesign-inspiration.com",
+  "source_url": "https://www.webdesign-inspiration.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "agency",
+   "marketing",
+   "curated"
+  ],
+  "notable": "On webdesign-inspiration.com."
+ },
+ {
+  "name": "Disslist",
+  "url": "http://www.diss-list.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "list",
+   "raw-html"
+  ],
+  "notable": "Top entry on Brutalist Websites' list."
+ },
+ {
+  "name": "Nelson Heinemann",
+  "url": "http://nelsonheinemann.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "raw"
+  ],
+  "notable": "Portfolio on Brutalist Websites."
+ },
+ {
+  "name": "American Millennial",
+  "url": "http://americanmillenni.al",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "culture",
+   "quirky-domain"
+  ],
+  "notable": "On a .al domain hack, Brutalist Websites."
+ },
+ {
+  "name": "Take a Walk on the Wild Side",
+  "url": "http://takeawalkonthewildside.rietveldacademie.nl",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "art-school",
+   "rietveld"
+  ],
+  "notable": "Rietveld Academie project, Brutalist Websites."
+ },
+ {
+  "name": "Utrecht",
+  "url": "http://utrecht.jp",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "japan",
+   "shop"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Chiangus",
+  "url": "http://chiangus.vision",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "vision-domain"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Yves Tumor - Safe In The Hands of Love",
+  "url": "http://howilearnedtolovetheindiestry.info",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "music",
+   "album"
+  ],
+  "notable": "Album campaign site, Brutalist Websites."
+ },
+ {
+  "name": "RAVECON0",
+  "url": "http://ravecon0.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "brutalist",
+   "rave",
+   "event"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Arrangement Studio",
+  "url": "http://arrangementstudio.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Federico Cavalieri",
+  "url": "http://effecava.xyz",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "xyz"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "TIGHT Top 2018",
+  "url": "http://en-2018.tight.media",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "list",
+   "year-in-review"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Ilya Yavnoshan",
+  "url": "http://ilyya.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Reloading Technology",
+  "url": "http://reloadingtechnology.nl",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "tech",
+   "dutch"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Jonas Ersland",
+  "url": "http://jonasersland.net",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "I WILL SEOUL YOU",
+  "url": "http://iwillseoulyou.kr",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "seoul",
+   "pun"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "dvrsm.com",
+  "url": "http://dvrsm.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Studio Big Mistake",
+  "url": "http://studiobigmistake.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "playful"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "molly",
+  "url": "http://m-o-l-l-y.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "stubio",
+  "url": "http://stu-b-io.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Travis Scott",
+  "url": "http://travisscott.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "music",
+   "merch"
+  ],
+  "notable": "Artist/merch site on Brutalist Websites."
+ },
+ {
+  "name": "New Kids On The Blockchain",
+  "url": "http://blockchainkids.xyz",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "crypto",
+   "parody"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Bergen Assembly",
+  "url": "http://bergenassembly.no",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "brutalist",
+   "art-triennial",
+   "curated"
+  ],
+  "notable": "Art triennial site on Brutalist Websites."
+ },
+ {
+  "name": "design.byForm",
+  "url": "http://design.byform.co",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "PURHO",
+  "url": "http://purho.it",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "italian",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "SSHH",
+  "url": "http://sshh.nyc",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "nyc",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Timur Fattahov",
+  "url": "http://timur.red",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "red"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Future Corp",
+  "url": "http://futurecorp.london",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "london"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Super Sympa",
+  "url": "http://super-sympa.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "french"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "battt",
+  "url": "http://battt.xyz",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "xyz",
+   "experimental"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Andrei Kallaur",
+  "url": "http://kallaur.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Bad Nudes",
+  "url": "http://badnudes.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "fashion",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Gucci Gift 2017",
+  "url": "http://gift.gucci.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "brutalist",
+   "fashion",
+   "campaign"
+  ],
+  "notable": "Gucci campaign microsite on Brutalist Websites."
+ },
+ {
+  "name": "BIGSOUND Buzz",
+  "url": "http://bigsound.buzz",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "brutalist",
+   "music",
+   "event"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Trstn",
+  "url": "http://trstn.me",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "The Creative Independent",
+  "url": "http://thecreativeindependent.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "editorial",
+   "interviews"
+  ],
+  "notable": "Publication on Brutalist Websites."
+ },
+ {
+  "name": "PIN-UP Magazine",
+  "url": "http://pinupmagazine.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "magazine",
+   "architecture"
+  ],
+  "notable": "Magazine on Brutalist Websites."
+ },
+ {
+  "name": "Useless Stuff",
+  "url": "http://uselessstuff.xyz",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "playful",
+   "xyz"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "ZARA",
+  "url": "http://zara.com/us",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "fashion",
+   "minimal-retail"
+  ],
+  "notable": "Retailer on Brutalist Websites."
+ },
+ {
+  "name": "Brock Kenzler",
+  "url": "http://brockkenzler.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "POV Paper",
+  "url": "http://povpaper.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "print",
+   "paper"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Secondary Art",
+  "url": "http://secondaryart.ru",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "art",
+   "russian"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Ross Dyson",
+  "url": "http://rossdyson.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Mononoki",
+  "url": "http://madmalik.github.io/mononoki",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "brutalist",
+   "monospace",
+   "font",
+   "developer"
+  ],
+  "notable": "Free programmer's monospace font specimen page on GitHub Pages."
+ },
+ {
+  "name": "Oliver Laric",
+  "url": "http://oliverlaric.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "artist",
+   "portfolio"
+  ],
+  "notable": "Artist site on Brutalist Websites."
+ },
+ {
+  "name": "Les Urbaines Archives",
+  "url": "http://urbaines.ch/archives/en/list",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "archive",
+   "festival"
+  ],
+  "notable": "Festival archive list, Brutalist Websites."
+ },
+ {
+  "name": "Rachel de Joode",
+  "url": "http://racheldejoode.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "artist",
+   "portfolio"
+  ],
+  "notable": "Artist portfolio on Brutalist Websites."
+ },
+ {
+  "name": "Loic Dupasquier",
+  "url": "http://loicdupasquier.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Luka Marr",
+  "url": "http://lukafrom.space",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "space-domain"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Crowdfont",
+  "url": "http://crowdfont.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "brutalist",
+   "font",
+   "collaborative"
+  ],
+  "notable": "Collaborative font project, Brutalist Websites."
+ },
+ {
+  "name": "Lexical",
+  "url": "http://lexical.foobar.systems",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "language",
+   "monospace"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "AAAAA Atelier",
+  "url": "http://aaaaa-atelier.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "art"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "XXIX NYC",
+  "url": "http://xxix.co",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "nyc"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Alex Tomlinson",
+  "url": "http://aelx.co",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Andrea Perato",
+  "url": "http://andreaperato.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "art"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "CAPC Bordeaux",
+  "url": "http://capc-bordeaux.fr/en",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "brutalist",
+   "museum",
+   "contemporary-art"
+  ],
+  "notable": "Contemporary art museum site on Brutalist Websites."
+ },
+ {
+  "name": "Pietro Spagnolo",
+  "url": "http://pietrospagnolo.it",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Work Week",
+  "url": "http://workweek.info",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "brutalist",
+   "event",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Hotel Shanghai",
+  "url": "http://hotelshanghai.de",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "art",
+   "german"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "PostNorma",
+  "url": "http://postnorma.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "design",
+   "project"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "No Questions Asked",
+  "url": "http://noquestionsasked.isjackwild.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "interactive",
+   "creative-dev"
+  ],
+  "notable": "Interactive experiment hosted on Jack Wild's domain."
+ },
+ {
+  "name": "Dan Adlesic",
+  "url": "http://danadlesic.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "saxpublishers",
+  "url": "http://saxpublishers.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "publishing",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Daywreckers",
+  "url": "http://daywreckers.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "collective",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "PostHTML",
+  "url": "http://posthtml.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "brutalist",
+   "developer",
+   "html-tool"
+  ],
+  "notable": "Developer tool site on Brutalist Websites."
+ },
+ {
+  "name": "Anton Schnaider",
+  "url": "http://antonschnaider.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "You VS Jesus",
+  "url": "http://youvsjesus.com/beta",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "game-like",
+  "tags": [
+   "brutalist",
+   "game-like",
+   "interactive"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Gianluca Monaco",
+  "url": "http://gianlucamonaco.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "design"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Walker Art Center - Superscript",
+  "url": "http://walkerart.org/superscript",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "museum",
+   "editorial"
+  ],
+  "notable": "Museum editorial section on Brutalist Websites."
+ },
+ {
+  "name": "Is it time for a nap?",
+  "url": "http://isittimeforanap.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "single-purpose",
+   "playful"
+  ],
+  "notable": "Single-purpose joke site on Brutalist Websites."
+ },
+ {
+  "name": "Studio Daniel Schnitterbaum",
+  "url": "http://schnitterbaum.de",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Arachne",
+  "url": "http://arachne.cc",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "experimental",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "The Skateboard Soundtracks",
+  "url": "http://theskateboardsoundtracks.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "music",
+   "archive"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Ahmed Ghazi",
+  "url": "http://ahmedghazi.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "creative-dev"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Anthony Tran",
+  "url": "http://anthonytran.info",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "This Place Will Raise Up",
+  "url": "http://thisplacewillraiseup.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "project",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "GeoCities Forever",
+  "url": "http://geocitiesforever.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "nostalgia",
+   "archive"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Block Elements",
+  "url": "http://marckremers.com/block-elements",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "unicode",
+   "type-experiment"
+  ],
+  "notable": "Unicode block-element typographic experiment by Marc Kremers."
+ },
+ {
+  "name": "King Zog",
+  "url": "http://kz.benwest.webfactional.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "experimental",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "oioioi.io",
+  "url": "http://oioioi.io",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "experimental",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "endless.horse",
+  "url": "http://endless.horse",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "single-purpose",
+   "scroll"
+  ],
+  "notable": "Endless-scroll horse joke site on Brutalist Websites."
+ },
+ {
+  "name": "Dominik Podsiadly",
+  "url": "http://dominikpodsiadly.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "B-Sides Festival",
+  "url": "http://b-sides.ch",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "brutalist",
+   "festival",
+   "music"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Black Ocean",
+  "url": "http://black-ocean.net",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "publisher",
+   "poetry"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Adult Swim",
+  "url": "http://adultswim.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "tv",
+   "media"
+  ],
+  "notable": "TV network on Brutalist Websites."
+ },
+ {
+  "name": "PWR",
+  "url": "http://pwr.site",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Mike Guppy",
+  "url": "http://mikeguppy.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Tom MacWright",
+  "url": "http://macwright.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "developer",
+   "writing",
+   "minimal"
+  ],
+  "notable": "Developer's personal blog and writing site, Brutalist Websites."
+ },
+ {
+  "name": "Dan Hett",
+  "url": "http://danhett.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "creative-dev",
+   "portfolio"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Bjarne Melgaard",
+  "url": "http://bjarnemelgaard.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "artist",
+   "curated"
+  ],
+  "notable": "Artist site on Brutalist Websites."
+ },
+ {
+  "name": "fanfare",
+  "url": "http://fanfarefanfare.nl",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "dutch"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Konstantin Grcic",
+  "url": "http://konstantin-grcic.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "industrial-design",
+   "curated"
+  ],
+  "notable": "Designer site on Brutalist Websites."
+ },
+ {
+  "name": "AKV Berlin",
+  "url": "http://www.akvberlin.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "brutalist",
+   "art-association",
+   "berlin"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Websafe 2k16",
+  "url": "http://websafe2k16.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "web-safe-colours",
+   "tribute"
+  ],
+  "notable": "Web-safe colour revival site, Brutalist Websites."
+ },
+ {
+  "name": "Bloomberg Businessweek - Yahoo",
+  "url": "http://www.bloomberg.com/features/2016-yahoo",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "editorial",
+   "longform"
+  ],
+  "notable": "Longform feature on Brutalist Websites."
+ },
+ {
+  "name": "Nightmare City",
+  "url": "http://nightmarecity.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "experimental",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Greg Leppert",
+  "url": "http://leppert.me",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Andrew Seid",
+  "url": "http://andrewseid.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Vulfpeck",
+  "url": "http://vulfpeck.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "band",
+   "merch"
+  ],
+  "notable": "Band site on Brutalist Websites."
+ },
+ {
+  "name": "DUDEPUSH",
+  "url": "http://dudepush.sos.gd",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "playful",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Isha Kasliwal",
+  "url": "http://ikasliwal.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Ricochet.cc",
+  "url": "http://ricochet.cc",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "experimental",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Raphael Bastide",
+  "url": "http://raphaelbastide.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "creative-dev",
+   "experiments",
+   "monospace"
+  ],
+  "notable": "Artist-developer site on Brutalist Websites with many type and code experiments."
+ },
+ {
+  "name": "A. M. Douglas",
+  "url": "http://amdouglas.uk",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "SeedRamp",
+  "url": "http://seedramp.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brutalist",
+   "startup",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Odds & Reason",
+  "url": "http://oddsandreason.co.uk",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Times New Ramen",
+  "url": "http://timesnewramen.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "type-pun",
+   "playful"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Kanye West",
+  "url": "http://kanyewest.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "music",
+   "merch"
+  ],
+  "notable": "Artist site on Brutalist Websites."
+ },
+ {
+  "name": "M+ Matters",
+  "url": "http://mplusmatters.hk/museumboom",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "museum",
+   "editorial"
+  ],
+  "notable": "Museum project on Brutalist Websites."
+ },
+ {
+  "name": "Matt Lenz",
+  "url": "http://mattlenz.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Cactus Store",
+  "url": "http://hotcactus.la",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "ecommerce",
+   "la"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Gabriel Volonte",
+  "url": "http://gabrielvolonte.com.ar",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Days Without Net",
+  "url": "http://dayswithout.net",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "counter",
+   "project"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Ted Davis",
+  "url": "http://teddavis.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "creative-dev",
+   "experiments"
+  ],
+  "notable": "Artist-coder's site on Brutalist Websites."
+ },
+ {
+  "name": "Truly Bald",
+  "url": "http://trulybald.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "playful",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Untold Stories",
+  "url": "http://untold-stories.net",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "editorial",
+   "stories"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Andrew Herzog",
+  "url": "http://andrewherzog.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Pinboard",
+  "url": "http://pinboard.in",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "brutalist",
+   "bookmarking",
+   "tool",
+   "minimal"
+  ],
+  "notable": "Bookmarking service on Brutalist Websites."
+ },
+ {
+  "name": "Carly Ayres",
+  "url": "http://carlyayres.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "writer"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Fuchs Borst",
+  "url": "http://fuchsborst.de",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "german"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "squinch.org",
+  "url": "http://squinch.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "experimental",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Undergrounderground GIF",
+  "url": "http://undergrounderground.com/gif",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "gif",
+   "archive"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Cole Jackowski",
+  "url": "http://colejackowski.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "HIT Studio",
+  "url": "http://hit-studio.co.uk",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "uk"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Harsh Patel",
+  "url": "http://studio.harshpatel.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Pierre Reimertz",
+  "url": "http://reimertz.co",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "developer",
+   "portfolio"
+  ],
+  "notable": "Developer site on Brutalist Websites."
+ },
+ {
+  "name": "D.O.C.H.",
+  "url": "http://ochdoch.de",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "german"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Gabriel Whaley",
+  "url": "http://gabrielwhaley.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Wand",
+  "url": "http://wandband.info",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "band",
+   "curated"
+  ],
+  "notable": "Band site on Brutalist Websites."
+ },
+ {
+  "name": "Apple WWDC",
+  "url": "http://developer.apple.com/wwdc",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "brutalist",
+   "developer-conference",
+   "curated"
+  ],
+  "notable": "Apple's developer conference page on Brutalist Websites."
+ },
+ {
+  "name": "Printed Web",
+  "url": "http://printedweb.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "print",
+   "web-culture"
+  ],
+  "notable": "Web-culture print project on Brutalist Websites."
+ },
+ {
+  "name": "tilde town",
+  "url": "http://tilde.town",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "brutalist",
+   "unix",
+   "community",
+   "pubnix"
+  ],
+  "notable": "Shared Unix community server; the web-as-homepages ethos."
+ },
+ {
+  "name": "Nicolas Jaar",
+  "url": "http://nicolasjaar.net",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "music",
+   "artist"
+  ],
+  "notable": "Musician's site on Brutalist Websites."
+ },
+ {
+  "name": "NL Architects",
+  "url": "http://nlarchitects.nl",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "architecture",
+   "curated"
+  ],
+  "notable": "Architecture firm on Brutalist Websites."
+ },
+ {
+  "name": "Aluminium Facts",
+  "url": "http://aluminumfacts.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "parody",
+   "single-page"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "sold-out",
+  "url": "http://sold-out.ch",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "swiss"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Arngren",
+  "url": "http://arngren.net",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "ecommerce",
+   "dense"
+  ],
+  "notable": "Famously dense Norwegian retailer site, on Brutalist Websites."
+ },
+ {
+  "name": "Yana Foque",
+  "url": "http://yanafoque.it",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Corax",
+  "url": "http://cor.ax",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "ZEIT (Vercel)",
+  "url": "http://zeit.co",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "brutalist",
+   "developer",
+   "platform"
+  ],
+  "notable": "Early Vercel/ZEIT site, on Brutalist Websites."
+ },
+ {
+  "name": "code-in-context",
+  "url": "http://context.co.de",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "code",
+   "context"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Website with the Sound of Its Own Making",
+  "url": "https://doodybrains.github.io/wwtsoiom/",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "sound",
+   "generative",
+   "web-audio"
+  ],
+  "notable": "GitHub Pages experiment tying the site's sound to its construction."
+ },
+ {
+  "name": "KIOSK",
+  "url": "http://kioskkiosk.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "shop",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Very Interactive",
+  "url": "http://veryinteractive.net",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "interactive",
+   "parody"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Laurel Schwulst",
+  "url": "http://laurelschwulst.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "designer",
+   "personal",
+   "writing"
+  ],
+  "notable": "Designer's personal site on Brutalist Websites."
+ },
+ {
+  "name": "Drudge Report",
+  "url": "http://drudgereport.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "news",
+   "dense"
+  ],
+  "notable": "News aggregator on Brutalist Websites."
+ },
+ {
+  "name": "Rollo-Press",
+  "url": "http://rollo-press.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "publisher",
+   "print"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Jeremy P. Beasley",
+  "url": "http://jeremypbeasley.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Sebastian Ly Serena",
+  "url": "http://sebastianlyserena.dk",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Seth Thompson",
+  "url": "http://seththompson.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Tom Cavill",
+  "url": "http://tomcavill.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "type"
+  ],
+  "notable": "Portfolio on Brutalist Websites; also listed on A1 Gallery."
+ },
+ {
+  "name": "Ethan Bond",
+  "url": "http://ethanbond.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "dontsave.com",
+  "url": "http://dontsave.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "experimental",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Daniel Dittmar",
+  "url": "http://danieldittmar.net",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "We Are Fellows",
+  "url": "http://wearefellows.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Drag the Lake",
+  "url": "http://dragthelake.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "experimental",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "tha ltd.",
+  "url": "http://tha.jp",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "japan"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Cristobal Jimenez",
+  "url": "http://cristobaljimenez.cl",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "craigslist",
+  "url": "http://craigslist.org",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "classifieds",
+   "text-first"
+  ],
+  "notable": "Classifieds site on Brutalist Websites."
+ },
+ {
+  "name": "Ben Pieratt",
+  "url": "http://pieratt.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "designer",
+   "personal"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Frank Chimero",
+  "url": "http://frankchimero.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "designer",
+   "personal",
+   "writing"
+  ],
+  "notable": "Designer-writer's long-running personal site, on Brutalist Websites."
+ },
+ {
+  "name": "Fictive Kin",
+  "url": "http://fictivekin.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "curated"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Daniel Eatock",
+  "url": "http://eatock.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "artist",
+   "conceptual"
+  ],
+  "notable": "Artist's conceptual personal site on Brutalist Websites."
+ },
+ {
+  "name": "HORT",
+  "url": "http://hort.org.uk",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "brutalist",
+   "studio",
+   "uk"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "Hacker News",
+  "url": "http://news.ycombinator.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "tech-news",
+   "text-first"
+  ],
+  "notable": "Tech news forum on Brutalist Websites."
+ },
+ {
+  "name": "o.k.Versand",
+  "url": "http://okversand.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "brutalist",
+   "shop",
+   "german"
+  ],
+  "notable": "Brutalist Websites entry."
+ },
+ {
+  "name": "FFFFOUND!",
+  "url": "http://ffffound.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "image-archive",
+   "legacy"
+  ],
+  "notable": "Legacy image-bookmarking site on Brutalist Websites."
+ },
+ {
+  "name": "Motherfucking Website",
+  "url": "http://motherfuckingwebsite.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "brutalist",
+   "manifesto",
+   "minimal-html"
+  ],
+  "notable": "The classic manifesto page for plain HTML."
+ },
+ {
+  "name": "Pokey the Penguin",
+  "url": "http://yellow5.com/pokey",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "brutalist",
+   "webcomic",
+   "legacy"
+  ],
+  "notable": "Long-running webcomic archive on Brutalist Websites."
+ },
+ {
+  "name": "Ryder Ripps",
+  "url": "http://ryder-ripps.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "brutalist",
+   "artist",
+   "portfolio"
+  ],
+  "notable": "Artist site on Brutalist Websites."
+ },
+ {
+  "name": "txti",
+  "url": "http://txti.es",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "brutalist",
+   "publishing",
+   "plain-text"
+  ],
+  "notable": "Tool for publishing minimal text pages, on Brutalist Websites."
+ },
+ {
+  "name": "37signals",
+  "url": "http://37signals.com",
+  "source": "brutalistwebsites.com",
+  "source_url": "https://brutalistwebsites.com/",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brutalist",
+   "software-company",
+   "curated"
+  ],
+  "notable": "Software company site on Brutalist Websites."
+ }
+]

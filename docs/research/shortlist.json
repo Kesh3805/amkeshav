@@ -1,0 +1,506 @@
+[
+ {
+  "key": "bruno-simon.com",
+  "url": "https://bruno-simon.com",
+  "name": "Bruno's Portfolio",
+  "in_library": true,
+  "sources": 7
+ },
+ {
+  "key": "messenger.abeto.co",
+  "url": "https://messenger.abeto.co",
+  "name": "Messenger",
+  "in_library": true,
+  "sources": 3
+ },
+ {
+  "key": "igloo.inc",
+  "url": "https://www.igloo.inc/",
+  "name": "Igloo Inc",
+  "in_library": true,
+  "sources": 5
+ },
+ {
+  "key": "lusion.co",
+  "url": "https://lusion.co/",
+  "name": "Lusion v3",
+  "in_library": true,
+  "sources": 6
+ },
+ {
+  "key": "labs.lusion.co",
+  "url": "https://labs.lusion.co/",
+  "name": "Lusion Labs",
+  "in_library": true,
+  "sources": 2
+ },
+ {
+  "key": "landonorris.com",
+  "url": "https://landonorris.com/",
+  "name": "Lando Norris",
+  "in_library": true,
+  "sources": 3
+ },
+ {
+  "key": "kprverse.com",
+  "url": "https://kprverse.com/",
+  "name": "KPR",
+  "in_library": true,
+  "sources": 3
+ },
+ {
+  "key": "activetheory.net",
+  "url": "http://activetheory.net",
+  "name": "Active Theory V6",
+  "in_library": true,
+  "sources": 5
+ },
+ {
+  "key": "experiment.obys.agency",
+  "url": "https://experiment.obys.agency/",
+  "name": "Obys Experiment Space",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "madewithgsap.com",
+  "url": "https://madewithgsap.com/",
+  "name": "Made With GSAP",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "henryheffernan.com",
+  "url": "https://henryheffernan.com",
+  "name": "Henry Heffernan",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "daikifujita.com",
+  "url": "https://daikifujita.com",
+  "name": "Daiki Fujita - Portfolio",
+  "in_library": true,
+  "sources": 3
+ },
+ {
+  "key": "samsy.ninja",
+  "url": "https://samsy.ninja/",
+  "name": "samsy.ninja",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "zarcerog.com",
+  "url": "https://zarcerog.com",
+  "name": "Nicolas Zarcero - Box Office",
+  "in_library": true,
+  "sources": 2
+ },
+ {
+  "key": "dbydt.space",
+  "url": "https://www.dbydt.space",
+  "name": "Deebak Tamilmani Portfolio",
+  "in_library": true,
+  "sources": 3
+ },
+ {
+  "key": "mananthakkar.dev",
+  "url": "https://mananthakkar.dev/",
+  "name": "mananthakkar.dev",
+  "in_library": true,
+  "sources": 2
+ },
+ {
+  "key": "ciechanow.ski",
+  "url": "https://ciechanow.ski/",
+  "name": "ciechanow.ski",
+  "in_library": true,
+  "sources": 3
+ },
+ {
+  "key": "maggieappleton.com",
+  "url": "https://maggieappleton.com",
+  "name": "Maggie Appleton",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "lynnandtonic.com",
+  "url": "https://lynnandtonic.com",
+  "name": "Lynn Fisher",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "still.mingjyunhung.com",
+  "url": "https://still.mingjyunhung.com/",
+  "name": "Still (WebGPU generative garden)",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "false-earth.mingjyunhung.com",
+  "url": "https://false-earth.mingjyunhung.com/",
+  "name": "False Earth",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "shader.se",
+  "url": "https://www.shader.se/",
+  "name": "shader.se",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "phantom.land",
+  "url": "https://www.phantom.land/",
+  "name": "Phantom.land",
+  "in_library": true,
+  "sources": 2
+ },
+ {
+  "key": "byholm.co",
+  "url": "https://byholm.co",
+  "name": "byholm.co",
+  "in_library": false,
+  "sources": 0
+ },
+ {
+  "key": "optikka.com",
+  "url": "https://optikka.com/",
+  "name": "OPTIKKA",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "foodforfish.org",
+  "url": "https://foodforfish.org/",
+  "name": "Food for Fish",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "airforceecho.com",
+  "url": "https://airforceecho.com/",
+  "name": "E.C.H.O.",
+  "in_library": true,
+  "sources": 2
+ },
+ {
+  "key": "coastalworld.com",
+  "url": "https://coastalworld.com",
+  "name": "Coastal World",
+  "in_library": true,
+  "sources": 2
+ },
+ {
+  "key": "buttermax.net",
+  "url": "https://buttermax.net/",
+  "name": "Buttermax",
+  "in_library": true,
+  "sources": 2
+ },
+ {
+  "key": "sztanki.com",
+  "url": "https://www.sztanki.com/",
+  "name": "Sztanki's Portfolio",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "theseawebreathe.com",
+  "url": "https://www.theseawebreathe.com",
+  "name": "The Sea We Breathe",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "symphonyofvines.unseen.co",
+  "url": "https://symphonyofvines.unseen.co/",
+  "name": "The Symphony of Vines",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "holtsetio.com/lab/softbodies",
+  "url": "https://holtsetio.com/lab/softbodies/",
+  "name": "Holtsetio Lab: Softbodies",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "tsl-experiments.vercel.app",
+  "url": "https://tsl-experiments.vercel.app",
+  "name": "Grischa Erbe TSL Experiments",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "nocturnaldream.com",
+  "url": "https://nocturnaldream.com/",
+  "name": "nocturnaldream.com",
+  "in_library": true,
+  "sources": 3
+ },
+ {
+  "key": "midnightvideo.cuchillo.rocks",
+  "url": "https://midnightvideo.cuchillo.rocks/",
+  "name": "midnightvideo.cuchillo.rocks",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "stillwet.art",
+  "url": "https://stillwet.art/",
+  "name": "stillwet.art",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "typeincube.com",
+  "url": "https://typeincube.com/",
+  "name": "typeincube.com",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "interfaces.kylejeong.com",
+  "url": "https://interfaces.kylejeong.com/",
+  "name": "interfaces.kylejeong.com",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "ertdfgcvb.xyz",
+  "url": "https://ertdfgcvb.xyz",
+  "name": "ertdfgcvb",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "makingsoftware.com",
+  "url": "https://www.makingsoftware.com/",
+  "name": "Making Software",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "joshpuckett.me",
+  "url": "https://joshpuckett.me/nyc-moma",
+  "name": "Interface Craft x MoMA",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "rain-drops.justabayet.com",
+  "url": "https://rain-drops.justabayet.com/",
+  "name": "Photo Gallery - Tristan Haquenne",
+  "in_library": true,
+  "sources": 2
+ },
+ {
+  "key": "astrodither.robertborghesi.is",
+  "url": "https://astrodither.robertborghesi.is/",
+  "name": "ASTRODITHER",
+  "in_library": true,
+  "sources": 2
+ },
+ {
+  "key": "displace.agency",
+  "url": "https://displace.agency/",
+  "name": "Displace",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "nothing-to-watch.port80.ch",
+  "url": "https://nothing-to-watch.port80.ch/",
+  "name": "Nothing to Watch",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "cathydolle.com",
+  "url": "https://www.cathydolle.com/",
+  "name": "Cathy Dolle",
+  "in_library": true,
+  "sources": 2
+ },
+ {
+  "key": "devouringdetails.com",
+  "url": "https://devouringdetails.com",
+  "name": "Devouring Details",
+  "in_library": true,
+  "sources": 1
+ },
+ {
+  "key": "gilhuybrecht.com",
+  "url": "https://gilhuybrecht.com/",
+  "name": "Gil Huybrecht",
+  "in_library": true,
+  "sources": 6
+ },
+ {
+  "key": "unseen.co",
+  "url": "https://unseen.co/",
+  "name": "Unseen Studio",
+  "in_library": true,
+  "sources": 6
+ },
+ {
+  "key": "carterogunsola.com",
+  "url": "https://carterogunsola.com",
+  "name": "Carter Ogunsola",
+  "in_library": true,
+  "sources": 5
+ },
+ {
+  "key": "guillaumecolombel.fr",
+  "url": "https://guillaumecolombel.fr/",
+  "name": "G. Colombel - Portfolio 2026",
+  "in_library": true,
+  "sources": 5
+ },
+ {
+  "key": "mathiasadolfsson.dev",
+  "url": "https://mathiasadolfsson.dev",
+  "name": "Mathias Adolfsson 2026",
+  "in_library": true,
+  "sources": 5
+ },
+ {
+  "key": "noth.in",
+  "url": "https://www.noth.in",
+  "name": "NOTHIN'",
+  "in_library": true,
+  "sources": 5
+ },
+ {
+  "key": "shopify.com/editions/winter2026",
+  "url": "https://www.shopify.com/editions/winter2026",
+  "name": "The Renaissance Edition",
+  "in_library": true,
+  "sources": 5
+ },
+ {
+  "key": "immersive-g.com",
+  "url": "https://immersive-g.com/",
+  "name": "Immersive Garden website",
+  "in_library": true,
+  "sources": 5
+ },
+ {
+  "key": "bleibtgleich.dev",
+  "url": "https://bleibtgleich.dev",
+  "name": "bleibtgleich'26",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "cagdascecen.com",
+  "url": "https://www.cagdascecen.com",
+  "name": "Cagdas Cecen - Media Arts",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "corentinbernadou.com",
+  "url": "https://corentinbernadou.com/",
+  "name": "Corentin Bernadou Portfolio",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "fabiantjoeaon.com",
+  "url": "https://fabiantjoeaon.com",
+  "name": "Fabian Tjoe-A-On Portfolio",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "forgeautomotive.co.uk",
+  "url": "https://forgeautomotive.co.uk/",
+  "name": "Forge Automotive",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "houseofhoney.com",
+  "url": "https://www.houseofhoney.com/",
+  "name": "House of Honey",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "huyml.co",
+  "url": "https://huyml.co/",
+  "name": "Huy Phan Vol.2",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "michaelgatt.com",
+  "url": "https://michaelgatt.com/",
+  "name": "Michael Gatt",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "bymonolog.com",
+  "url": "https://bymonolog.com/",
+  "name": "MONOLOG",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "2019.makemepulse.com",
+  "url": "https://2019.makemepulse.com",
+  "name": "Nomadic Tribe",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "oryzo.ai",
+  "url": "https://oryzo.ai",
+  "name": "Oryzo AI",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "prometheusfuels.com",
+  "url": "https://www.prometheusfuels.com/",
+  "name": "Prometheus Fuels",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "why.zero.university",
+  "url": "https://why.zero.university/",
+  "name": "Why Zero",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "dogstudio.co",
+  "url": "http://www.dogstudio.co",
+  "name": "Dogstudio",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "exoape.com",
+  "url": "https://www.exoape.com",
+  "name": "Exo Ape",
+  "in_library": true,
+  "sources": 4
+ },
+ {
+  "key": "itomdev.com",
+  "url": "https://itomdev.com/",
+  "name": "itomdev.com",
+  "in_library": true,
+  "sources": 4
+ }
+]

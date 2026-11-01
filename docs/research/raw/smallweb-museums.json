@@ -1,0 +1,5639 @@
+[
+ {
+  "name": "512KB Club",
+  "url": "https://512kb.club/",
+  "source": "512kb.club",
+  "source_url": "https://512kb.club/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "performance",
+   "size-budget",
+   "directory",
+   "lightweight"
+  ],
+  "notable": "Showcase of web pages weighing under 512 kilobytes, so each entry is proof that a personal site can be tiny and still have a personality.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "250KB Club",
+  "url": "https://250kb.club/",
+  "source": "250kb.club",
+  "source_url": "https://250kb.club/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "performance",
+   "size-budget",
+   "directory",
+   "lightweight"
+  ],
+  "notable": "Stricter sibling of the 512KB Club whose member list (penfield.ily.rs, lil.gay, textplain.blog and others) is a ready-made tour of ultra-light personal sites.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "1MB Club",
+  "url": "https://1mb.club/",
+  "source": "1mb.club",
+  "source_url": "https://1mb.club/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "performance",
+   "size-budget",
+   "directory",
+   "lightweight"
+  ],
+  "notable": "Collection of pages under 1 MB; the loosest budget of the three clubs, so it admits sites with real imagery and interaction.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "1.44MB Webring",
+  "url": "https://1.44mb.club/",
+  "source": "indieweb.org webring page",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "size-budget",
+   "floppy-disk",
+   "small-web"
+  ],
+  "notable": "Webring named after the floppy-disk capacity, joining sites that fit on one 1.44 MB disk.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "PersonalSit.es",
+  "url": "https://personalsit.es/",
+  "source": "personalsit.es",
+  "source_url": "https://personalsit.es/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "directory",
+   "personal-sites",
+   "tags",
+   "discovery"
+  ],
+  "notable": "Tag-filterable directory of personal sites (the page text runs to roughly 290k characters) that lists only domain names and tags, which makes it a browse-by-vibe list of what developers actually put on their homepages.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "textonly.website",
+  "url": "https://textonly.website/",
+  "source": "textonly.website",
+  "source_url": "https://textonly.website/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "text-only",
+   "directory",
+   "lightweight",
+   "blogs"
+  ],
+  "notable": "A collection of personal websites and blogs that are lightweight and text-only.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Wiby",
+  "url": "https://wiby.me/",
+  "source": "wiby.me",
+  "source_url": "https://wiby.me/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "search-engine",
+   "classic-web",
+   "random",
+   "handmade"
+  ],
+  "notable": "Search engine for older-style, lightweight pages built around a subject of interest; the homepage is a bare wordmark, a search box and a 'surprise me' link.",
+  "mechanic": "The visitor clicks 'surprise me', causing the engine to pick a page from its hand-submitted index, which reveals a hobby site that would never rank on a mainstream search engine.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Marginalia Search",
+  "url": "https://marginalia-search.com/",
+  "source": "search.marginalia.nu (redirects here)",
+  "source_url": "https://search.marginalia.nu/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "search-engine",
+   "independent",
+   "non-commercial",
+   "small-web"
+  ],
+  "notable": "Small independent do-it-yourself search engine for content-rich sites that never ask you to accept cookies; search.marginalia.nu now redirects to this domain.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Marginalia Explore",
+  "url": "https://marginalia-search.com/explore/random",
+  "source": "search.marginalia.nu/explore/random",
+  "source_url": "https://marginalia-search.com/explore/random",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "random",
+   "screenshots",
+   "exploration",
+   "similarity"
+  ],
+  "notable": "Explore view shows a grid of 24 random indexed sites as screenshots with only domain names, each with a 'show results similar to this website' link.",
+  "mechanic": "The visitor refreshes or clicks 'similar to this website', causing the grid to reload with random or look-alike sites, which reveals neighbouring clusters of the independent web.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "marginalia.nu",
+  "url": "https://marginalia.nu/",
+  "source": "search.marginalia.nu",
+  "source_url": "https://marginalia.nu/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "search-engine-author",
+   "encyclopedia",
+   "personal-site",
+   "portal"
+  ],
+  "notable": "Author's home page for the Marginalia project: a plain portal offering the search engine, an encyclopedia and a personal website as its three doors.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Kagi Small Web",
+  "url": "https://kagi.com/smallweb",
+  "source": "kagi.com/smallweb",
+  "source_url": "https://kagi.com/smallweb",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "discovery",
+   "blogs",
+   "webcomics",
+   "curated-feed"
+  ],
+  "notable": "Feed of personal blogs, independent YouTube channels and webcomics from genuine humans, positioned as a way to discover the small web.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "blogs.hn",
+  "url": "https://blogs.hn/",
+  "source": "blogs.hn",
+  "source_url": "https://blogs.hn/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "directory",
+   "tech-blogs",
+   "tiny",
+   "discovery"
+  ],
+  "notable": "A tiny tech blog directory.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Ye Olde Blogroll",
+  "url": "https://blogroll.org/",
+  "source": "blogroll.org",
+  "source_url": "https://blogroll.org/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "blogroll",
+   "directory",
+   "blogs",
+   "discovery"
+  ],
+  "notable": "Directory of blogs with the tagline 'Because blogs are the soul of the web'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "ooh.directory",
+  "url": "https://ooh.directory/",
+  "source": "ooh.directory",
+  "source_url": "https://ooh.directory/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "blog-directory",
+   "curated",
+   "categories",
+   "discovery"
+  ],
+  "notable": "Hand-curated collection of 2,433 blogs organised by topic, a place to find good blogs about every subject.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Lieu",
+  "url": "https://lieu.cblgh.org/",
+  "source": "webring.xxiivv.com",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "search-engine",
+   "webring",
+   "neighbourhood",
+   "serendipity"
+  ],
+  "notable": "Neighbourhood search engine that indexes only the member sites of personal webrings to increase serendipitous connections.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Search My Site",
+  "url": "https://searchmysite.net/",
+  "source": "searchmysite.net",
+  "source_url": "https://searchmysite.net/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "search-engine",
+   "independent",
+   "personal-sites",
+   "self-service"
+  ],
+  "notable": "Searches real content by real people across thousands of personal websites, with the option to add a search box to your own site.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "IndieWeb",
+  "url": "https://indieweb.org/",
+  "source": "indieweb.org",
+  "source_url": "https://indieweb.org/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "indieweb",
+   "community",
+   "own-your-data",
+   "wiki"
+  ],
+  "notable": "A people-focused alternative to the corporate web; the wiki is the reference for webmentions and personal-domain practices.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "IndieWeb webring page",
+  "url": "https://indieweb.org/webring",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "catalogue",
+   "indieweb",
+   "directory"
+  ],
+  "notable": "Wiki page cataloguing active and inactive webrings (Recurse Center, xxiivv, Smallweb Subway, Faircamp and more) plus webring directories.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "XXIIVV Webring",
+  "url": "https://webring.xxiivv.com/",
+  "source": "webring.xxiivv.com",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "wikis",
+   "portfolios",
+   "merveilles"
+  ],
+  "notable": "A single bare list of 256 hand-built wikis and portfolios, joined by pull request on GitHub, with toggles for icons, RSS and a random-member jump.",
+  "mechanic": "The visitor clicks 'random', causing the page to forward them to one of 256 personal sites, which reveals the hand-built wiki culture around Merveilles.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Hotline Webring",
+  "url": "https://hotlinewebring.club/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "friendly",
+   "personal-sites",
+   "join"
+  ],
+  "notable": "A friendly ring of cool websites that visitors can join; listed on the IndieWeb wiki among the community rings.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Smallweb Subway",
+  "url": "https://gusbus.space/smallweb-subway/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://gusbus.space/smallweb-subway/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "subway-map",
+   "webring",
+   "metaphor",
+   "navigation"
+  ],
+  "notable": "Webring drawn as a subway map where each coloured line is a themed webring (sci-fi, zines, comics, poetry) and each station is a personal page.",
+  "mechanic": "The visitor hovers or taps a station, causing an info box to open, which reveals the site and lets them ride the line station to station until they loop back.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "webri.ng",
+  "url": "https://webri.ng/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "hosted-service",
+   "infrastructure",
+   "small-web"
+  ],
+  "notable": "Platform for hosting webrings without having to manage your own infrastructure.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "geekring.net",
+  "url": "https://geekring.net/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "retro",
+   "geek",
+   "1993"
+  ],
+  "notable": "Webring pitched as 'let's webring like it's 1993' for geeky websites.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Catweb webring",
+  "url": "https://webring.catlang.social/",
+  "source": "wiki.xxiivv.com footer",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "concatenative",
+   "programming-languages",
+   "niche"
+  ],
+  "notable": "Webring for a community of creatures into concatenative programming, linked from the XXIIVV footer next to the main webring.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Faircamp Webring directory",
+  "url": "https://webring.key13.uk/directory.html",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "music",
+   "independent-artists",
+   "faircamp"
+  ],
+  "notable": "Directory of independent artists and labels on the Faircamp static-site generator.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Tech Writing Webring",
+  "url": "https://caseyrfsmith.github.io/webring/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "technical-writing",
+   "documentation",
+   "niche"
+  ],
+  "notable": "Webring for technical writers, one of the few rings built around a profession.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "0uts1de webring",
+  "url": "https://0uts1de.hisvirusness.com/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "weird",
+   "handmade",
+   "art"
+  ],
+  "notable": "Webring listed on the IndieWeb wiki and run from an artist's personal domain.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Webring List (brisray)",
+  "url": "https://brisray.com/web/webring-list.htm",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "directory",
+   "catalogue",
+   "list"
+  ],
+  "notable": "A list of all the current webrings the author has been able to find.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "List of active Webrings 2025 (Tuffy)",
+  "url": "https://tuffgong.nekoweb.org/webring-list.html",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "directory",
+   "nekoweb",
+   "list"
+  ],
+  "notable": "Maintained list of active webrings, hosted on Nekoweb.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "pysj.party",
+  "url": "https://pysj.party/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "directory",
+   "norwegian",
+   "personal-sites",
+   "regional"
+  ],
+  "notable": "Directory of Norwegian personal websites.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Neocities Browse",
+  "url": "https://neocities.org/browse",
+  "source": "neocities.org",
+  "source_url": "https://neocities.org/browse",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "neocities",
+   "browse",
+   "popular",
+   "tags"
+  ],
+  "notable": "Browse view of Neocities sites by tags, popularity and recent updates, the nearest thing to a GeoCities neighbourhood directory today.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Nekoweb",
+  "url": "https://nekoweb.org/",
+  "source": "tuffgong.nekoweb.org",
+  "source_url": "https://tuffgong.nekoweb.org/webring-list.html",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "hosting",
+   "free-hosting",
+   "handmade",
+   "community"
+  ],
+  "notable": "Free web host for hand-written personal sites with the tagline 'cuz internet is for the cats'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "tilde.club",
+  "url": "https://tilde.club/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "tilde",
+   "shared-unix",
+   "pubnix",
+   "community"
+  ],
+  "notable": "Shared Unix server that gives each member a ~username page; the origin of the tildeverse.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "tildeverse",
+  "url": "https://tildeverse.org/",
+  "source": "tilde.club",
+  "source_url": "https://tilde.club/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "tilde",
+   "pubnix",
+   "federation",
+   "directory"
+  ],
+  "notable": "Directory of the tilde servers, each a shared Unix box hosting personal homepages.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "tilde.town",
+  "url": "https://tilde.town/",
+  "source": "tildeverse.org",
+  "source_url": "https://tildeverse.org/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "tilde",
+   "pubnix",
+   "community",
+   "shell"
+  ],
+  "notable": "One of the tildeverse communities, a shared Unix server whose members run personal pages and tools.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "SDF Public Access UNIX System",
+  "url": "https://sdf.org/",
+  "source": "sdf.org",
+  "source_url": "https://sdf.org/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "pubnix",
+   "shell-account",
+   "unix",
+   "history"
+  ],
+  "notable": "Free shell accounts on a public-access UNIX system, a long-running home for text-first personal sites.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Yesterweb",
+  "url": "https://yesterweb.org/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "yesterweb",
+   "reclaiming",
+   "retro",
+   "community"
+  ],
+  "notable": "Community and webring titled 'Reclaiming the Internet' that promotes hand-made, pre-platform web aesthetics.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "MelonLand Forum",
+  "url": "https://forum.melonland.net/",
+  "source": "ribo.zone/neighborhood",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "forum",
+   "homepages",
+   "virtual-worlds",
+   "community"
+  ],
+  "notable": "Web project and online arts community that celebrates homepages, virtual worlds and the digital lives of the people who make them.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Warp Point",
+  "url": "https://www.warppoint.games/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "directory",
+   "games",
+   "rss",
+   "blogs"
+  ],
+  "notable": "Curated list of gaming blogs that support RSS, with an embeddable webring widget.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The Useless Web",
+  "url": "https://theuselessweb.com/",
+  "source": "theuselessweb.com",
+  "source_url": "https://theuselessweb.com/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "random",
+   "playful",
+   "discovery",
+   "button"
+  ],
+  "notable": "A single button that sends you to a random useless site; the interface is one control and nothing else.",
+  "mechanic": "The visitor presses one button, causing a random site to load, which reveals a pointless but delightful corner of the web.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Fediring",
+  "url": "https://fediring.net/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://indieweb.org/webring",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "fediverse",
+   "directory",
+   "community"
+  ],
+  "notable": "Webring for fediverse users and their personal sites.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "ribose's web neighborhood",
+  "url": "https://ribo.zone/neighborhood",
+  "source": "ribo.zone",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "neighborhood",
+   "ascii-art",
+   "88x31",
+   "webring"
+  ],
+  "notable": "Hand-made 'web neighborhood' where every neighbour gets an ASCII doodle, an 88x31 button, a blurb and a visit link, with prev/random/next bars under the webring sections.",
+  "mechanic": "The visitor strolls down the neighbourhood page, causing each neighbour's doodle and button to appear, which reveals a handpicked tour of personal sites.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Hundred Rabbits",
+  "url": "https://100r.co/",
+  "source": "wiki.xxiivv.com",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "offgrid",
+   "sailboat",
+   "permacomputing",
+   "software-studio"
+  ],
+  "notable": "Software studio aboard a sailboat whose tools are designed to run on low-power, offline machines.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "XXIIVV (Devine Lu Linvega)",
+  "url": "https://wiki.xxiivv.com/site/home.html",
+  "source": "xxiivv.com",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "wiki",
+   "single-column",
+   "text-first",
+   "handmade"
+  ],
+  "notable": "A single narrow text column with a four-item menu (audio, visual, research, about), a journal ('diurnal'), a 'now' page and two webrings in the footer; the whole site is one author's life work in plain HTML.",
+  "mechanic": "The visitor follows the plain menu or journal index, causing a new wiki page to load in the same column, which reveals decades of linked projects, logs and tools.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "XXIIVV: uxn",
+  "url": "https://wiki.xxiivv.com/site/uxn.html",
+  "source": "wiki.xxiivv.com",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "virtual-machine",
+   "permacomputing",
+   "portable",
+   "documentation"
+  ],
+  "notable": "Documentation of Uxn, a tiny portable virtual machine designed so that software can be preserved and run on very old or low-power hardware; the footer badge 'Uxn Powered' appears on the home page.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "XXIIVV: orca",
+  "url": "https://wiki.xxiivv.com/site/orca.html",
+  "source": "wiki.xxiivv.com",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "livecoding",
+   "esoteric-language",
+   "music",
+   "tool"
+  ],
+  "notable": "Page for Orca, a grid-based esoteric programming language and livecoding environment for sequencing music.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "XXIIVV: oquonie",
+  "url": "https://wiki.xxiivv.com/site/oquonie.html",
+  "source": "wiki.xxiivv.com",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "game",
+   "puzzle",
+   "hundred-rabbits",
+   "wiki-page"
+  ],
+  "notable": "Wiki entry for Oquonie, a small puzzle game by the same authors, documented in the same plain-page style as everything else on the site.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "XXIIVV: dotgrid",
+  "url": "https://wiki.xxiivv.com/site/dotgrid.html",
+  "source": "wiki.xxiivv.com",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "vector-tool",
+   "drawing",
+   "grid",
+   "open-source"
+  ],
+  "notable": "Wiki page for Dotgrid, a minimal vector drawing tool constrained to a grid.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "XXIIVV: ethics",
+  "url": "https://wiki.xxiivv.com/site/ethics.html",
+  "source": "wiki.xxiivv.com footer",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "ethics",
+   "values",
+   "statement",
+   "footer-badge"
+  ],
+  "notable": "An explicit ethics statement reachable from a footer badge, showing how a personal site can state its values as a first-class page.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "XXIIVV: journal",
+  "url": "https://wiki.xxiivv.com/site/journal.html",
+  "source": "wiki.xxiivv.com",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "journal",
+   "log",
+   "diary",
+   "wiki"
+  ],
+  "notable": "The 'diurnal' journal index, a dated log kept in the same minimal column as the rest of the wiki.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Permacomputing 101 (Hundred Rabbits)",
+  "url": "https://100r.co/site/permacomputing_101.html",
+  "source": "wiki.xxiivv.com",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "permacomputing",
+   "talk",
+   "sustainability",
+   "essay"
+  ],
+  "notable": "Talk transcript on permacomputing as a practice of building software that survives scarcity, linked from the XXIIVV events list.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Weathering Software Winter",
+  "url": "https://100r.co/site/weathering_software_winter.html",
+  "source": "wiki.xxiivv.com",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "talk",
+   "collapse",
+   "resilience",
+   "essay"
+  ],
+  "notable": "Talk about designing software to weather a coming 'winter' of less energy and fewer resources.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Hundred Rabbits on itch.io",
+  "url": "https://hundredrabbits.itch.io/",
+  "source": "wiki.xxiivv.com",
+  "source_url": "https://hundredrabbits.itch.io/",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "tools",
+   "games",
+   "offline",
+   "open-source"
+  ],
+  "notable": "Release shelf for Hundred Rabbits tools and games, mostly small offline apps.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Pino (Hundred Rabbits)",
+  "url": "https://100r.co/site/pino.html",
+  "source": "100r.co",
+  "source_url": "https://100r.co/",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "tool",
+   "writing",
+   "offline",
+   "hundred-rabbits"
+  ],
+  "notable": "Page for Pino, a minimal text editor from the studio's offline toolset.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "permacomputing.net",
+  "url": "https://permacomputing.net/",
+  "source": "wiki.xxiivv.com permacomputing talks",
+  "source_url": "https://100r.co/site/permacomputing_101.html",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "wiki",
+   "permacomputing",
+   "sustainability",
+   "community"
+  ],
+  "notable": "Community wiki on permacomputing: resilient, low-energy computing practices and the ethics behind them.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Merveilles",
+  "url": "https://merveilles.town/",
+  "source": "wiki.xxiivv.com footer",
+  "source_url": "https://wiki.xxiivv.com/site/home.html",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "mastodon",
+   "community",
+   "hand-crafted",
+   "tools"
+  ],
+  "notable": "Mastodon instance for a community that makes tools, art and personal wikis, and the social centre of the XXIIVV webring.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "LOW-TECH MAGAZINE (solar)",
+  "url": "https://solar.lowtechmagazine.com/",
+  "source": "solar.lowtechmagazine.com",
+  "source_url": "https://solar.lowtechmagazine.com/",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "solar-powered",
+   "energy",
+   "battery-indicator",
+   "static-site"
+  ],
+  "notable": "Header shows a live battery indicator and a notice that the site 'sometimes goes offline' because it is run on solar power; the footer carries server stats and a weather forecast.",
+  "mechanic": "The visitor loads the page, causing the header battery gauge to reflect the solar server's current state, which reveals that the site's availability depends on the weather.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Low-tech Magazine: Power page",
+  "url": "https://solar.lowtechmagazine.com/power/",
+  "source": "solar.lowtechmagazine.com",
+  "source_url": "https://solar.lowtechmagazine.com/",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "solar-powered",
+   "server-stats",
+   "forecast",
+   "transparency"
+  ],
+  "notable": "Dedicated page behind the battery indicator that reports on the solar-powered server's energy status.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Low-tech Magazine: About",
+  "url": "https://solar.lowtechmagazine.com/about/",
+  "source": "solar.lowtechmagazine.com",
+  "source_url": "https://solar.lowtechmagazine.com/about/",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "about",
+   "design",
+   "energy-use",
+   "offline-reading"
+  ],
+  "notable": "About section stating the site was designed to radically reduce the energy use of accessing its content and offering offline reading.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "NO TECH MAGAZINE",
+  "url": "https://www.notechmagazine.com/",
+  "source": "solar.lowtechmagazine.com",
+  "source_url": "https://solar.lowtechmagazine.com/",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "luddite",
+   "sister-site",
+   "print",
+   "low-tech"
+  ],
+  "notable": "Sister publication linked from the Low-tech Magazine nav, subtitled 'Technology for Luddites'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Gwern.net",
+  "url": "https://gwern.net/index",
+  "source": "gwern.net",
+  "source_url": "https://www.gwern.net/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "long-form",
+   "sidenotes",
+   "epistemic-status",
+   "self-documenting"
+  ],
+  "notable": "Long-lived essays with confidence tags and an explicit design page, arguing a personal site should be a self-improving body of work rather than a stream.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Gwern.net: Design Of This Website",
+  "url": "https://gwern.net/design",
+  "source": "gwern.net",
+  "source_url": "https://gwern.net/design",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "design-notes",
+   "typography",
+   "web-design",
+   "meta"
+  ],
+  "notable": "Meta page documenting the site's implementation and experiments for better 'semantic zoom' of hypertext.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Gwern.net: Sidenotes In Web Design",
+  "url": "https://www.gwern.net/Sidenote",
+  "source": "gwern.net",
+  "source_url": "https://www.gwern.net/Sidenote",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "sidenotes",
+   "typography",
+   "margin",
+   "reading"
+  ],
+  "notable": "Essay on placing footnotes in the margin for easier reading, written about the very implementation the site uses.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Andy Matuschak's notes",
+  "url": "https://notes.andymatuschak.org/About_these_notes",
+  "source": "notes.andymatuschak.org",
+  "source_url": "https://notes.andymatuschak.org/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "evergreen-notes",
+   "no-index",
+   "research",
+   "public-notes"
+  ],
+  "notable": "Public working notes with no index or navigational aid; the 'About' note says to start from 'What's top of mind' and follow links, framing the site as a research environment rather than a product.",
+  "mechanic": "The visitor clicks a note link, causing the next note to open alongside the current one, which reveals the web of ideas behind the author's research.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Maggie Appleton: The Garden",
+  "url": "https://maggieappleton.com/garden",
+  "source": "maggieappleton.com",
+  "source_url": "https://maggieappleton.com/garden",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "maturity-stages",
+   "essays",
+   "illustration"
+  ],
+  "notable": "A growing collection of essays, notes and talks, each tagged by maturity, and the home of the most-cited history of digital gardens.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "A Brief History and Ethos of the Digital Garden",
+  "url": "https://maggieappleton.com/garden-history",
+  "source": "maggieappleton.com",
+  "source_url": "https://maggieappleton.com/garden-history",
+  "year": 2020,
+  "category": "digital-garden",
+  "tags": [
+   "history",
+   "essay",
+   "garden-vs-stream",
+   "reference"
+  ],
+  "notable": "Essay tracing garden metaphors from Mark Bernstein's Hypertext Gardens through Mike Caulfield's garden-and-stream to today's gardeners, with a long list of examples.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "digital-gardeners (GitHub)",
+  "url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "resource-list",
+   "tools",
+   "examples",
+   "github"
+  ],
+  "notable": "Curated list of digital gardens, tools (Quartz, Obsidian, TiddlyWiki) and essays; the best single index of the genre.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Hypertext Gardens (Mark Bernstein)",
+  "url": "http://www.eastgate.com/garden/Enter.html",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://maggieappleton.com/garden-history",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "hypertext",
+   "history",
+   "essay",
+   "eastgate"
+  ],
+  "notable": "The early 'Hypertext Gardens' essay that planted the garden metaphor in web writing.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The Garden and the Stream (Mike Caulfield)",
+  "url": "https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/",
+  "year": 2015,
+  "category": "digital-garden",
+  "tags": [
+   "essay",
+   "stream-vs-garden",
+   "web-history",
+   "hypertext"
+  ],
+  "notable": "The foundational essay contrasting the feed-like stream with the interlinked garden.",
+  "liveness": "HTTP 403: host answered but blocks scripted requests; page contents not verified by script"
+ },
+ {
+  "name": "How the Blog Broke the Web",
+  "url": "https://stackingthebricks.com/how-blogs-broke-the-web/",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://stackingthebricks.com/how-blogs-broke-the-web/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "essay",
+   "blogs",
+   "web-history",
+   "critique"
+  ],
+  "notable": "Amy Hoy's argument that reverse-chronological blogs displaced older, more structured web writing.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Learn In Public (swyx)",
+  "url": "https://www.swyx.io/learn-in-public/",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://www.swyx.io/learn-in-public/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "essay",
+   "learning",
+   "build-in-public",
+   "career"
+  ],
+  "notable": "The widely shared essay that popularised making notes and half-formed work public.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Tom Critchlow's wiki",
+  "url": "https://tomcritchlow.com/wiki/",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://tomcritchlow.com/wiki/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "wiki",
+   "notes",
+   "consulting",
+   "garden"
+  ],
+  "notable": "Personal wiki cited in the garden-history essay as an early example of a working garden.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The Piles (Buster Benson)",
+  "url": "https://busterbenson.com/piles/",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://busterbenson.com/piles/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "piles",
+   "notes",
+   "topic-organised",
+   "non-chronological"
+  ],
+  "notable": "Notes organised loosely by topic of interest rather than by date; the author says some call it a garden but it is really piles of writing.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Chris Biscardi's garden",
+  "url": "https://www.christopherbiscardi.com/garden",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://www.christopherbiscardi.com/garden",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "developer",
+   "garden",
+   "notes",
+   "example"
+  ],
+  "notable": "A developer's garden section cited in the history essay as a model of publishing notes.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "My blog is a digital garden, not a blog",
+  "url": "https://joelhooks.com/digital-garden",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://joelhooks.com/digital-garden",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "essay",
+   "garden",
+   "developer",
+   "manifesto"
+  ],
+  "notable": "Joel Hooks' short manifesto for treating a developer blog as a garden.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "You and your mind garden",
+  "url": "https://nesslabs.com/mind-garden",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "essay",
+   "mind-garden",
+   "neuroscience",
+   "notes"
+  ],
+  "notable": "Ness Labs essay on cultivating one's inner garden of ideas.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Azlen Elza's notes",
+  "url": "https://notes.azlen.me/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "notes",
+   "tools-for-thought",
+   "wiki",
+   "exploratory"
+  ],
+  "notable": "Public notebook on tools for thought by a member of the XXIIVV webring.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Neil Mather's commonplace",
+  "url": "https://commonplace.doubleloop.net/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "commonplace-book",
+   "bliki",
+   "garden",
+   "notes"
+  ],
+  "notable": "Neil's Digital Garden, the commonplace book behind essays on webs of wikis and bliki tooling.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Salman Ansari's digital garden",
+  "url": "https://notes.salman.io/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "featured",
+   "animations",
+   "inspirations"
+  ],
+  "notable": "Garden with featured sections such as Inspirations (a tribute to people who influenced him) and an Animations gallery.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "D.S. Chapman's notes",
+  "url": "https://www.dschapman.com/notes",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "writer",
+   "poetry",
+   "notes"
+  ],
+  "notable": "Notes section of a writer and poet's digital home.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Will Stedden's opus.stedden",
+  "url": "https://bonkerfield.org/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "swale",
+   "stream",
+   "experimental"
+  ],
+  "notable": "Personal field described as 'just your standard information identity spacetime field'; home of 'The Swale', an essay on weaving between garden and stream.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The Quantum Garden",
+  "url": "https://quantumgardener.info/",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://maggieappleton.com/garden-history",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "stream-of-thought",
+   "notes",
+   "example"
+  ],
+  "notable": "Garden described as the stream of thought that waters the garden, cited in mentions of the garden history essay.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "alan w. smith",
+  "url": "https://www.alanwsmith.com/",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://maggieappleton.com/garden-history",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "notes",
+   "developer",
+   "custom-tooling"
+  ],
+  "notable": "Developer notes site cited among mentions of the garden essay.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "david.garden",
+  "url": "https://david.garden/",
+  "source": "maggieappleton.com/garden-history",
+  "source_url": "https://david.garden/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "personal-domain",
+   "personality",
+   "fediverse"
+  ],
+  "notable": "Personal site whose tagline is 'On the internet, everyone knows that I'm a dog'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Kevin Cunningham's garden",
+  "url": "https://kevincunningham.co.uk/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "learning",
+   "notes",
+   "education"
+  ],
+  "notable": "Listed gardener's home page for notes on learning and education.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Mental Nodes",
+  "url": "https://www.mentalnodes.com/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "public-notebook",
+   "learn-in-public",
+   "garden",
+   "index"
+  ],
+  "notable": "Public notebook created on the belief that the only way to learn in public is to build in public.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Chris Aldrich's wiki",
+  "url": "https://tw.boffosocko.com/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "tiddlywiki",
+   "commonplace",
+   "wiki",
+   "cybernetics"
+  ],
+  "notable": "TiddlyWiki-based commonplace book of 'a Modern Day Cyberneticist'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Gordon Brander",
+  "url": "https://gordonbrander.com/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "living-software",
+   "patterns",
+   "notes"
+  ],
+  "notable": "Home of notes and patterns on 'living software'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The Compendium (Alex Komoroske)",
+  "url": "https://thecompendium.cards/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "cards",
+   "interlinked",
+   "complexity",
+   "hypertext"
+  ],
+  "notable": "A compendium of insights about complexity structured as inter-linked cards.",
+  "mechanic": "The visitor follows a link inside a card, causing the next card to be shown, which reveals the idea network behind a long essay.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Aengus McMillin: My Brain",
+  "url": "https://aengusmcmillin.com/brain",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "gatsby",
+   "brain",
+   "notes"
+  ],
+  "notable": "Public 'brain' section by the author of a Gatsby brain theme.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Stroll (TiddlyWiki)",
+  "url": "https://giffmex.org/stroll/stroll.html",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "tiddlywiki",
+   "tool",
+   "single-file",
+   "walk"
+  ],
+  "notable": "A special kind of TiddlyWiki designed for browsing notes as a stroll.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Quartz",
+  "url": "https://quartz.jzhao.xyz/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "static-site-generator",
+   "markdown",
+   "backlinks",
+   "tool"
+  ],
+  "notable": "Batteries-included static-site generator that turns Markdown into a fully functional digital garden website.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "jzhao.xyz",
+  "url": "https://jzhao.xyz/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://jzhao.xyz/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "hypertext",
+   "quartz-author",
+   "personal"
+  ],
+  "notable": "Quartz author's own 'little hypertext garden on the Internet'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Roam Garden",
+  "url": "https://roam.garden/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "tool",
+   "publishing",
+   "roam",
+   "static-site"
+  ],
+  "notable": "Service that turns a Roam Research graph into a published digital garden.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Zettelkasten.de",
+  "url": "https://zettelkasten.de/",
+  "source": "digital-gardeners (GitHub)",
+  "source_url": "https://github.com/MaggieAppleton/digital-gardeners",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "zettelkasten",
+   "method",
+   "knowledge-management",
+   "reference"
+  ],
+  "notable": "Reference for the Zettelkasten method, a personal tool for thinking and writing through an interconnected note system.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Brad Woods Digital Garden",
+  "url": "https://garden.bradwoods.io/",
+  "source": "personalsit.es / search",
+  "source_url": "https://garden.bradwoods.io/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "creative-coding",
+   "garden",
+   "tutorials",
+   "interactive"
+  ],
+  "notable": "Garden of notes about creative coding on the web.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Sunil's Garden",
+  "url": "https://garden.sunils.in",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "words",
+   "personal",
+   "webring"
+  ],
+  "notable": "A space shared by one person and words, as its description puts it.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Fragments (hew.tt)",
+  "url": "https://fragments.hew.tt",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "commonplace-book",
+   "memex",
+   "biji",
+   "garden"
+  ],
+  "notable": "Site described as where ideas are planted, mixing commonplace book, wiki, biji, memex and digital garden.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "proto's garden",
+  "url": "https://proto.garden",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "prototype",
+   "personal",
+   "webring"
+  ],
+  "notable": "Personal garden on its own domain, listed in the XXIIVV webring.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "akavel's digital garden",
+  "url": "https://akavel.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "developer",
+   "notes",
+   "webring"
+  ],
+  "notable": "Developer's digital garden listed in the XXIIVV webring.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "wilde-at-heart.garden",
+  "url": "https://wilde-at-heart.garden",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "personal",
+   "domain-as-garden",
+   "webring"
+  ],
+  "notable": "Personal site whose domain itself uses the .garden TLD.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Aphrodite.dev",
+  "url": "https://www.aphrodite.dev/",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "personal",
+   "developer",
+   "tone"
+  ],
+  "notable": "Page self-titled 'the personal garden of a broken doll', an unusually personal voice for a developer site.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Ritual Dust",
+  "url": "https://ritualdust.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "portfolio",
+   "garden",
+   "recipes",
+   "folklore"
+  ],
+  "notable": "Combined portfolio, digital garden and recipe blog of a designer, illustrator and 'goth druid'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "foreverliketh.is",
+  "url": "https://foreverliketh.is/",
+  "source": "personalsit.es",
+  "source_url": "https://personalsit.es/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "personal",
+   "emoji",
+   "personalsit.es"
+  ],
+  "notable": "A digital garden with a plant emoji in the title.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Jarema's digital garden",
+  "url": "https://jarema.me/",
+  "source": "personalsit.es",
+  "source_url": "https://personalsit.es/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "garden",
+   "playground",
+   "economics",
+   "coding"
+  ],
+  "notable": "Personal playground and digital garden mixing posts on economics and coding.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Grains",
+  "url": "https://grains.cc",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "personal-wiki",
+   "wiki",
+   "minimal",
+   "webring"
+  ],
+  "notable": "A personal wiki on its own domain.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "plungepool wiki",
+  "url": "https://wiki.plungepool.dev",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "wiki",
+   "personal",
+   "developer",
+   "webring"
+  ],
+  "notable": "Developer's personal wiki.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Kaeforest wiki and logging system",
+  "url": "https://kae.gen-sys.uk",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "wiki",
+   "logging",
+   "personal-system",
+   "webring"
+  ],
+  "notable": "Described as a wiki and logging system.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Wesley's Notebook",
+  "url": "https://notebook.wesleyac.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "notebook",
+   "notes",
+   "essays",
+   "webring"
+  ],
+  "notable": "Public notebook in the XXIIVV webring.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Zoe Blade's Notebook",
+  "url": "https://notebook.zoeblade.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "notebook",
+   "notes",
+   "personal",
+   "webring"
+  ],
+  "notable": "Public notebook listed in the XXIIVV webring.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Mr. Shll notes",
+  "url": "https://mrshll.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "notes",
+   "ephemera",
+   "logs",
+   "webring"
+  ],
+  "notable": "The place where Marshall logs ephemera, writes and stores public notes.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Ten Digits",
+  "url": "https://tendigits.space",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "notes",
+   "journal",
+   "personal",
+   "webring"
+  ],
+  "notable": "Notes kept along the way.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Archive Fever (Edwin Wenink)",
+  "url": "https://www.edwinwenink.xyz",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "philosophy",
+   "notes",
+   "blog",
+   "webring"
+  ],
+  "notable": "Site titled Archive Fever, a philosophy-inflected personal blog.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Opinionated Guides",
+  "url": "https://opguides.info",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "guides",
+   "engineering",
+   "opinionated",
+   "webring"
+  ],
+  "notable": "Opinionated engineering guides published as a personal site.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Simon Willison's Weblog",
+  "url": "https://simonwillison.net/",
+  "source": "simonwillison.net",
+  "source_url": "https://simonwillison.net/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "blog",
+   "high-frequency",
+   "engineer",
+   "plain-design"
+  ],
+  "notable": "A decades-long blog run as a stream of short linked posts, quotes and notes in a deliberately plain layout.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Simon Willison: TIL",
+  "url": "https://til.simonwillison.net/",
+  "source": "simonwillison.net",
+  "source_url": "https://til.simonwillison.net/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "til",
+   "snippets",
+   "notes",
+   "topic-index"
+  ],
+  "notable": "A 'today I learned' repository of short technical notes organised by topic rather than as a feed.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "tools.simonwillison.net",
+  "url": "https://tools.simonwillison.net/",
+  "source": "simonwillison.net",
+  "source_url": "https://tools.simonwillison.net/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "tools",
+   "single-file-apps",
+   "utilities",
+   "index"
+  ],
+  "notable": "A gallery of single-file browser utilities, each a tiny app on one page.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Robin Sloan",
+  "url": "https://www.robinsloan.com/",
+  "source": "robinsloan.com",
+  "source_url": "https://www.robinsloan.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "author",
+   "newsletter",
+   "lab",
+   "personal-domain"
+  ],
+  "notable": "Author site that lists novels alongside a 'lab' and a newsletter; the home page reads like a bookshelf rather than a brand.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Robin Sloan: Lab (Dragoncatcher the blog)",
+  "url": "https://www.robinsloan.com/lab/",
+  "source": "robinsloan.com",
+  "source_url": "https://www.robinsloan.com/lab/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "lab",
+   "blog",
+   "experiments",
+   "author"
+  ],
+  "notable": "The author's lab section, titled 'Dragoncatcher the blog'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Craig Mod",
+  "url": "https://craigmod.com/",
+  "source": "craigmod.com",
+  "source_url": "https://craigmod.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "writer",
+   "photographer",
+   "long-walks",
+   "japan"
+  ],
+  "notable": "Writer and photographer's home page organised around long walks across Japan, books and photography.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Craig Mod: Ridgeline newsletter archive",
+  "url": "https://craigmod.com/ridgeline/",
+  "source": "craigmod.com",
+  "source_url": "https://craigmod.com/ridgeline/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "newsletter",
+   "archive",
+   "writing",
+   "long-form"
+  ],
+  "notable": "Archive of the Ridgeline newsletter hosted on the personal domain instead of a platform.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Ftrain (Paul Ford)",
+  "url": "https://www.ftrain.com/",
+  "source": "ftrain.com",
+  "source_url": "https://www.ftrain.com/",
+  "year": 1997,
+  "category": "small-web-personal",
+  "tags": [
+   "essays",
+   "stories",
+   "since-1997",
+   "personal-domain"
+  ],
+  "notable": "Essays and stories by Paul Ford, published on the same site since 1997.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "kottke.org",
+  "url": "https://kottke.org/",
+  "source": "kottke.org",
+  "source_url": "https://kottke.org/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "blog",
+   "link-blog",
+   "long-running",
+   "curation"
+  ],
+  "notable": "Long-running personal link blog billed as the home of fine hypertext products.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Waxy.org",
+  "url": "https://waxy.org/",
+  "source": "waxy.org",
+  "source_url": "https://waxy.org/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "sandbox",
+   "projects",
+   "blog",
+   "xoxo"
+  ],
+  "notable": "Andy Baio's personal sandbox linking his projects (XOXO, Upcoming, Playfic, Kind of Bloop) from a single blog home page.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Movie Computer Interfaces",
+  "url": "https://gui.neocities.org/",
+  "source": "neocities featured",
+  "source_url": "https://neocities.org/browse?sort_by=featured",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "screenshots",
+   "interfaces",
+   "film",
+   "neocities"
+  ],
+  "notable": "A small hack with screenshots by @waxpancake, hosted on Neocities, collecting computer interfaces seen in films.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Bartosz Ciechanowski",
+  "url": "https://ciechanow.ski/",
+  "source": "ciechanow.ski",
+  "source_url": "https://ciechanow.ski/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "interactive-articles",
+   "explorables",
+   "science",
+   "engineering"
+  ],
+  "notable": "Interactive articles about science and engineering where each concept is explained with a live manipulable diagram.",
+  "mechanic": "The visitor drags a slider or part in an inline diagram, causing the simulation to update live, which reveals how the mechanism works.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Nicky Case",
+  "url": "https://ncase.me/",
+  "source": "marginalia explore",
+  "source_url": "https://marginalia-search.com/explore/random",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "explorables",
+   "games",
+   "education",
+   "playful"
+  ],
+  "notable": "Home of playable explanations; the tagline reads 'i make shtuff for curious & playful peeps'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Explorable Explanations",
+  "url": "https://explorabl.es/",
+  "source": "explorabl.es",
+  "source_url": "https://explorabl.es/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "explorables",
+   "hub",
+   "learning",
+   "play"
+  ],
+  "notable": "A hub for learning through play, collecting interactive explanations from many authors.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Bret Victor",
+  "url": "https://worrydream.com/",
+  "source": "worrydream.com",
+  "source_url": "https://worrydream.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "essays",
+   "talks",
+   "tools-for-thought",
+   "minimal"
+  ],
+  "notable": "Personal site billed 'an offshore drilling platform in the sea of knowledge', a plain index of essays and talks about interface design.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Julia Evans",
+  "url": "https://jvns.ca/",
+  "source": "jvns.ca",
+  "source_url": "https://jvns.ca/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "blog",
+   "zines",
+   "debugging",
+   "engineer"
+  ],
+  "notable": "Engineer's blog and zine home that shows how plain teaching content can drive a personal brand.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Dan Luu",
+  "url": "https://danluu.com/",
+  "source": "danluu.com",
+  "source_url": "https://danluu.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "blog",
+   "plain-html",
+   "engineering",
+   "long-form"
+  ],
+  "notable": "Long-form engineering essays served as a bare, unstyled page.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Paul Graham",
+  "url": "https://www.paulgraham.com/",
+  "source": "paulgraham.com",
+  "source_url": "https://www.paulgraham.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "essays",
+   "plain-html",
+   "text-first",
+   "long-running"
+  ],
+  "notable": "Essay archive that has kept the same table-based HTML layout for decades.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Peter Norvig",
+  "url": "https://norvig.com/",
+  "source": "norvig.com",
+  "source_url": "https://norvig.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "academic",
+   "plain-html",
+   "essays",
+   "code"
+  ],
+  "notable": "Hand-written academic home page linking essays and code in an unstyled layout.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Fabrice Bellard",
+  "url": "https://bellard.org/",
+  "source": "bellard.org",
+  "source_url": "https://bellard.org/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "engineer",
+   "projects",
+   "minimal",
+   "text-first"
+  ],
+  "notable": "Bare page listing projects such as QEMU and FFmpeg with no design beyond the links.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Alexey Tonsky Blog",
+  "url": "https://tonsky.me/",
+  "source": "tonsky.me",
+  "source_url": "https://tonsky.me/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "blog",
+   "engineer",
+   "opinionated",
+   "typography"
+  ],
+  "notable": "Developer blog with a distinctive visual voice and illustrated technical posts.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "lcamtuf's old page",
+  "url": "https://lcamtuf.coredump.cx/",
+  "source": "lcamtuf.coredump.cx",
+  "source_url": "https://lcamtuf.coredump.cx/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "security",
+   "engineer",
+   "hardware",
+   "handmade"
+  ],
+  "notable": "Personal home page of a security researcher, written like a lab notebook of oddities and tools.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "xkcd",
+  "url": "https://xkcd.com/",
+  "source": "xkcd.com",
+  "source_url": "https://xkcd.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "webcomic",
+   "engineer-culture",
+   "minimal",
+   "navigation"
+  ],
+  "notable": "A webcomic whose entire interface is the comic plus first, prev, random, next controls.",
+  "mechanic": "The visitor presses random or next, causing the strip to change, which reveals another self-contained joke with an alt-text hover.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "mitxela",
+  "url": "https://mitxela.com/",
+  "source": "mitxela.com",
+  "source_url": "https://mitxela.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "hardware",
+   "projects",
+   "write-ups",
+   "maker"
+  ],
+  "notable": "Hardware and software hacks documented as long write-ups, with a tongue-in-cheek description ('as if I have the effort to write a description').",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Fabien Sanglard",
+  "url": "https://fabiensanglard.net/",
+  "source": "fabiensanglard.net",
+  "source_url": "https://fabiensanglard.net/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "engine-internals",
+   "game-engines",
+   "deep-dives",
+   "engineer"
+  ],
+  "notable": "Deep technical write-ups on game engines and graphics hardware, written as illustrated source-code reading.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Jeremy Keith (Adactio)",
+  "url": "https://adactio.com/",
+  "source": "adactio.com",
+  "source_url": "https://adactio.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "indieweb",
+   "blog",
+   "journal",
+   "links"
+  ],
+  "notable": "The website of a Brighton web developer that mixes notes, links and long posts on a single indie-owned stream.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Jeff Huang",
+  "url": "https://jeffhuang.com/",
+  "source": "jeffhuang.com",
+  "source_url": "https://jeffhuang.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "academic",
+   "web-bloat",
+   "page-weight",
+   "manifesto"
+  ],
+  "notable": "Academic's home page; the author is known for arguing that web pages should be small and for sharing the 'this page is designed to last' manifesto.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Motherfucking Website",
+  "url": "https://motherfuckingwebsite.com/",
+  "source": "250kb.club",
+  "source_url": "https://250kb.club/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "satire",
+   "no-css",
+   "manifesto",
+   "minimal"
+  ],
+  "notable": "A single page that argues, in unstyled HTML, that a website needs nothing but text.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The Best Motherfucking Website",
+  "url": "https://thebestmotherfucking.website/",
+  "source": "personalsit.es",
+  "source_url": "https://thebestmotherfucking.website/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "satire",
+   "minimal-css",
+   "readability",
+   "manifesto"
+  ],
+  "notable": "Answer page to the original manifesto adding a minimal readable stylesheet to prove that a little CSS goes a long way.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "No CSS Club",
+  "url": "https://nocss.club/",
+  "source": "1mb.club",
+  "source_url": "https://1mb.club/",
+  "year": null,
+  "category": "gallery-source",
+  "tags": [
+   "no-css",
+   "club",
+   "minimal",
+   "directory"
+  ],
+  "notable": "A club for sites that ship with no CSS at all.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Space Jam (1996)",
+  "url": "https://www.spacejam.com/1996/",
+  "source": "spacejam.com",
+  "source_url": "https://www.spacejam.com/1996/",
+  "year": 1996,
+  "category": "archive-interface",
+  "tags": [
+   "preserved-site",
+   "1990s",
+   "time-capsule",
+   "nostalgia"
+  ],
+  "notable": "The original 1996 promotional site, preserved on its own domain as a time-capsule of mid-90s table layouts.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Cameron's World",
+  "url": "https://cameronsworld.net/",
+  "source": "cameronsworld.net",
+  "source_url": "https://cameronsworld.net/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "geocities",
+   "collage",
+   "nostalgia",
+   "scroll"
+  ],
+  "notable": "A web collage of text and images excavated from the buried neighbourhoods of GeoCities.",
+  "mechanic": "The visitor scrolls through the long collage, causing GeoCities clip art and text to scroll past, which reveals the visual culture of the old web.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "jodi.org",
+  "url": "https://www.jodi.org/",
+  "source": "jodi.org",
+  "source_url": "https://www.jodi.org/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "net-art",
+   "glitch",
+   "early-web",
+   "art"
+  ],
+  "notable": "Early net-art landmark whose title is literally '%20Untitled', a screen of raw source-like text and glitch.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Zombo.com",
+  "url": "http://www.zombo.com/",
+  "source": "zombo.com",
+  "source_url": "http://www.zombo.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "meme",
+   "absurd",
+   "net-art",
+   "minimal"
+  ],
+  "notable": "A classic joke site whose copy promises that 'you can do anything' at Zombocom.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "CERN first website",
+  "url": "http://info.cern.ch/",
+  "source": "info.cern.ch",
+  "source_url": "http://info.cern.ch/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "web-history",
+   "first-website",
+   "plain-html",
+   "archive"
+  ],
+  "notable": "The home of the first website, the plain hypertext origin that every personal site descends from.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "McMaster-Carr",
+  "url": "https://www.mcmaster.com/",
+  "source": "mcmaster.com",
+  "source_url": "https://www.mcmaster.com/",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "catalogue",
+   "industrial",
+   "speed",
+   "information-density"
+  ],
+  "notable": "Industrial supply catalogue with over 700,000 products, widely admired for fast pages, dense category nav and almost no decoration.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Berkshire Hathaway",
+  "url": "https://www.berkshirehathaway.com/",
+  "source": "berkshirehathaway.com",
+  "source_url": "https://www.berkshirehathaway.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "corporate",
+   "plain-html",
+   "deliberate-ugly",
+   "text-first"
+  ],
+  "notable": "A corporate site left in plain HTML on purpose, often cited when talking about no-design trust signals.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "sadgrl.online",
+  "url": "https://sadgrl.online/",
+  "source": "indieweb.org/webring",
+  "source_url": "https://sadgrl.online/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "neocities",
+   "cyberspace",
+   "tools",
+   "handmade"
+  ],
+  "notable": "Personal site and resource hub for hand-coded homepage culture, whose title text reads 'Death is a new beginning'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Melonking.net",
+  "url": "https://www.melonking.net/",
+  "source": "ribo.zone/neighborhood",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "digital-worlds",
+   "community",
+   "creator",
+   "homepage"
+  ],
+  "notable": "Site of a creator of digital worlds and communities focused on fun, described by a neighbour as a creator of digital worlds.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Monastery of St. Blamensir",
+  "url": "https://blamensir.neocities.org/",
+  "source": "ribo.zone/neighborhood",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "neocities",
+   "illuminated-manuscript",
+   "world-building",
+   "navigation"
+  ],
+  "notable": "A site built like a monastery, with an illuminated-manuscript style and spaces that feel like a real place to explore.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Hill House",
+  "url": "https://hillhouse.neocities.org/",
+  "source": "ribo.zone/neighborhood",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "neocities",
+   "haunted",
+   "shrines",
+   "textured"
+  ],
+  "notable": "A haunted, textured site with shrines and ghosts whose welcome line reads 'silence lay steadily against the html and css of hill house'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Myrrh",
+  "url": "https://myrrh.city/",
+  "source": "ribo.zone/neighborhood",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "scrapbook",
+   "chaotic",
+   "collage",
+   "personal"
+  ],
+  "notable": "Chaotic, scrapbook-like personal site titled 'on the verge of something'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Saturn Town (Hermit)",
+  "url": "https://saturn.town/",
+  "source": "ribo.zone/neighborhood",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "minimalist",
+   "sketching",
+   "woodworking",
+   "personal"
+  ],
+  "notable": "A minimalist site with pieces on sketching and woodworking.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "hogsite",
+  "url": "https://hog.neocities.org/",
+  "source": "ribo.zone/neighborhood",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "neocities",
+   "hogs",
+   "hide-and-seek",
+   "playful"
+  ],
+  "notable": "A site about hogs with a hide-and-seek page featuring a hog named Venus.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "DAIKONET",
+  "url": "https://daikonet.neocities.org/",
+  "source": "ribo.zone/neighborhood",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "game-dev",
+   "rpg-maker",
+   "dev-diary",
+   "neocities"
+  ],
+  "notable": "A game developer's site using RPG Maker 2003, with a development diary.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Adel Faure",
+  "url": "https://www.adelfaure.net/",
+  "source": "ribo.zone/neighborhood",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "ascii-art",
+   "textmode",
+   "games",
+   "fonts"
+  ],
+  "notable": "Site of ASCII art games, fonts, artworks and livecoded lofi techno; it also distributes the jgs7 font used by neighbouring sites.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "CSS JOY webring",
+  "url": "https://cs.sjoy.lol/",
+  "source": "ribo.zone/neighborhood",
+  "source_url": "https://ribo.zone/neighborhood",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "webring",
+   "css",
+   "play",
+   "hand-written"
+  ],
+  "notable": "Webring for people who enjoy playing with CSS.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "That 1 Archive",
+  "url": "https://that1archive.neocities.org/",
+  "source": "neocities featured",
+  "source_url": "https://neocities.org/browse?sort_by=featured",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "meta-archive",
+   "preservation",
+   "neocities",
+   "history"
+  ],
+  "notable": "A meta-archive compiled in pursuit of exploring history and eternal preservation.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Lainzine",
+  "url": "https://lainzine.org/",
+  "source": "neocities featured",
+  "source_url": "https://neocities.org/browse?sort_by=featured",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "zine",
+   "neocities",
+   "fandom",
+   "art"
+  ],
+  "notable": "A zine published as a Neocities site, titled 'close this World'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Fuzzy SG - Hourly PM2.5",
+  "url": "https://fuzzyview.neocities.org/",
+  "source": "neocities featured",
+  "source_url": "https://neocities.org/browse?sort_by=featured",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "air-quality",
+   "singapore",
+   "dashboard",
+   "neocities"
+  ],
+  "notable": "Hourly PM2.5 and AQI monitoring for Singapore regions, built as a tiny Neocities dashboard.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "San Jose Department of Transportation",
+  "url": "https://sjtransport.neocities.org/",
+  "source": "neocities featured",
+  "source_url": "https://neocities.org/browse?sort_by=featured",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "dashboards",
+   "transit",
+   "neocities",
+   "civic"
+  ],
+  "notable": "Neocities site of dashboards showing information, presented as an unofficial department.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Pokemon Type Chart",
+  "url": "https://pokemontypes.neocities.org/",
+  "source": "neocities featured",
+  "source_url": "https://neocities.org/browse?sort_by=featured",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "reference",
+   "neocities",
+   "chart",
+   "utility"
+  ],
+  "notable": "Single-purpose type chart reference page hosted on Neocities.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "GIFYPET",
+  "url": "https://gify.pet/",
+  "source": "neocities featured",
+  "source_url": "https://neocities.org/browse?sort_by=featured",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "virtual-pet",
+   "gifs",
+   "widget",
+   "neocities"
+  ],
+  "notable": "Make a virtual pet for your website with gifs.",
+  "mechanic": "The visitor builds a pet and embeds it, causing a virtual creature to live on their own page, which reveals the playful widget culture of the small web.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Decentralized Web Summit 2018",
+  "url": "https://dwebsummit.neocities.org/",
+  "source": "neocities featured",
+  "source_url": "https://neocities.org/browse?sort_by=featured",
+  "year": 2018,
+  "category": "small-web-personal",
+  "tags": [
+   "event-site",
+   "decentralised-web",
+   "neocities",
+   "conference"
+  ],
+  "notable": "A conference site for a decentralised-web summit hosted on Neocities.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "in truth all sensation is already memory",
+  "url": "https://ningen.neocities.org/",
+  "source": "neocities featured",
+  "source_url": "https://neocities.org/browse?sort_by=featured",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "neocities",
+   "art",
+   "memory",
+   "poetic"
+  ],
+  "notable": "Personal Neocities site whose title is a line of prose.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Depictions and Perceptions of Transhumanism in Media",
+  "url": "https://transhuman.neocities.org/",
+  "source": "neocities featured",
+  "source_url": "https://neocities.org/browse?sort_by=featured",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "neocities",
+   "research",
+   "essay",
+   "media"
+  ],
+  "notable": "Student-style research site on transhumanism in media.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The IDE64 Project",
+  "url": "https://ide64.org/",
+  "source": "marginalia explore",
+  "source_url": "https://marginalia-search.com/explore/random",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "retro-hardware",
+   "commodore-64",
+   "project-site",
+   "hobby"
+  ],
+  "notable": "Project site for an IDE controller for the Commodore 64.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Doom2.net",
+  "url": "http://www.doom2.net/",
+  "source": "marginalia explore",
+  "source_url": "https://marginalia-search.com/explore/random",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "doom",
+   "fan-site",
+   "files",
+   "links"
+  ],
+  "notable": "Online resource for classic Doom 2 information, files and links.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "ICFP Programming Contest 2006",
+  "url": "http://www.boundvariable.org/",
+  "source": "marginalia explore",
+  "source_url": "https://marginalia-search.com/explore/random",
+  "year": 2006,
+  "category": "archive-interface",
+  "tags": [
+   "programming-contest",
+   "puzzle",
+   "archive",
+   "virtual-machine"
+  ],
+  "notable": "Preserved site of the 2006 ICFP contest, the contest built around the Universal Machine.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "ike.io",
+  "url": "http://ike.io/",
+  "source": "marginalia explore",
+  "source_url": "https://marginalia-search.com/explore/random",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "poetry",
+   "programming",
+   "piracy",
+   "digital-galley"
+  ],
+  "notable": "A digital galley full of original poetry, essays and handpicked internet gems.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Software Sessions",
+  "url": "http://www.softwaresessions.com/",
+  "source": "marginalia explore",
+  "source_url": "https://marginalia-search.com/explore/random",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "podcast",
+   "developer-interviews",
+   "show-notes",
+   "blog"
+  ],
+  "notable": "Podcast site presented as a plain list of episodes and show notes.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Notes by Baldur Bjarnason",
+  "url": "https://notes.baldurbjarnason.com/",
+  "source": "marginalia explore",
+  "source_url": "https://notes.baldurbjarnason.com/",
+  "year": null,
+  "category": "digital-garden",
+  "tags": [
+   "notes",
+   "web-development",
+   "publishing",
+   "blog"
+  ],
+  "notable": "Notes by a web developer in Hveragerdi, Iceland, writing about the web and digital publishing.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "tilde.news",
+  "url": "https://tilde.news/",
+  "source": "marginalia explore",
+  "source_url": "https://tilde.news/",
+  "year": null,
+  "category": "webring-directory",
+  "tags": [
+   "link-aggregator",
+   "tildeverse",
+   "community",
+   "news"
+  ],
+  "notable": "Link aggregator for the tilde and small-web community.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Yarn.social",
+  "url": "https://yarn.social/",
+  "source": "marginalia explore",
+  "source_url": "https://yarn.social/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "decentralised",
+   "plain-text",
+   "social",
+   "protocol"
+  ],
+  "notable": "Decentralised social ecosystem woven from plain text files.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Plain Text Sports",
+  "url": "https://plaintextsports.com/",
+  "source": "1mb.club",
+  "source_url": "https://1mb.club/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "live-scores",
+   "plain-text",
+   "real-time",
+   "minimal"
+  ],
+  "notable": "Instant live sports scores, play-by-play and box scores rendered as plain text.",
+  "mechanic": "The visitor opens a game, causing a live text play-by-play to update, which reveals sports data without any chrome.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "NPR text-only",
+  "url": "https://text.npr.org/",
+  "source": "1mb.club",
+  "source_url": "https://text.npr.org/",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "text-only",
+   "news",
+   "accessibility",
+   "lightweight"
+  ],
+  "notable": "Text-only version of NPR's news site, listed in several size clubs.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "CNN Lite",
+  "url": "https://lite.cnn.com/",
+  "source": "personalsit.es",
+  "source_url": "https://lite.cnn.com/",
+  "year": null,
+  "category": "low-tech",
+  "tags": [
+   "text-only",
+   "news",
+   "lightweight",
+   "accessibility"
+  ],
+  "notable": "Text-only version of CNN reachable at a lite subdomain.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Rectangles",
+  "url": "https://rectangles.app/",
+  "source": "1mb.club",
+  "source_url": "https://rectangles.app/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "time-visualisation",
+   "144-blocks",
+   "single-purpose",
+   "minimal"
+  ],
+  "notable": "Visualise your day as 144 rectangles, where each rectangle represents ten minutes.",
+  "mechanic": "The visitor looks at the grid of 144 boxes, causing elapsed time to be shown as filled blocks, which reveals how much of the day remains.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "localnotes.page",
+  "url": "https://localnotes.page/",
+  "source": "1mb.club",
+  "source_url": "https://localnotes.page/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "local-first",
+   "notes",
+   "browser-storage",
+   "privacy"
+  ],
+  "notable": "Local notes, stored in your browser, without the cloud.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Remaining Sailings",
+  "url": "https://vsta.org/ferry.html",
+  "source": "1mb.club",
+  "source_url": "https://vsta.org/ferry.html",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "plain-text",
+   "schedule",
+   "utility",
+   "ferry"
+  ],
+  "notable": "A ferry schedule page presented as text, titled Remaining Sailings.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "crackle.dev",
+  "url": "https://crackle.dev/",
+  "source": "250kb.club",
+  "source_url": "https://250kb.club/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "daily-practice",
+   "math",
+   "education",
+   "minimal"
+  ],
+  "notable": "Daily math problems in linear algebra and calculus, one small page a day.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "FOSSphones",
+  "url": "https://fossphones.com/",
+  "source": "512kb.club",
+  "source_url": "https://512kb.club/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "directory",
+   "open-source",
+   "phones",
+   "lightweight"
+  ],
+  "notable": "Lightweight resource page for open-source phones.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Temp.sh",
+  "url": "https://temp.sh/",
+  "source": "512kb.club",
+  "source_url": "https://512kb.club/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "utility",
+   "file-upload",
+   "cli",
+   "ephemeral"
+  ],
+  "notable": "Temporary file upload with a three-day lifetime, 4 GB size limit, CLI and ShareX support.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The Jolly Teapot",
+  "url": "https://thejollyteapot.com/",
+  "source": "250kb.club",
+  "source_url": "https://250kb.club/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "blog",
+   "light",
+   "personal",
+   "member"
+  ],
+  "notable": "Personal blog that appears in the 512KB, 250KB and 1MB club lists.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Erik Johannes Husom",
+  "url": "https://erikjohannes.no/",
+  "source": "512kb.club",
+  "source_url": "https://512kb.club/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "researcher",
+   "running",
+   "nature",
+   "writing"
+  ],
+  "notable": "Researcher and runner writing about technology, nature and physical endeavours.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Susam Pal",
+  "url": "https://susam.net/",
+  "source": "512kb.club",
+  "source_url": "https://512kb.club/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "blog",
+   "maths",
+   "programming",
+   "lightweight"
+  ],
+  "notable": "Long-running personal blog and notes that is a regular on lightweight-site lists.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Hunicke",
+  "url": "https://hunicke.com/",
+  "source": "250kb.club",
+  "source_url": "https://250kb.club/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "game-design",
+   "personal",
+   "redirect",
+   "club-member"
+  ],
+  "notable": "Personal domain listed in the 250KB Club whose page title currently reads 'Permanently Moved'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "ArtLung (Joe Crawford)",
+  "url": "https://artlung.com/",
+  "source": "personalsit.es",
+  "source_url": "https://artlung.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "creative-developer",
+   "artist",
+   "long-running",
+   "personal"
+  ],
+  "notable": "Personal website of creative web developer and artist Joe Crawford.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Asher Baron Weintraub",
+  "url": "https://asher.land/?theme=fun",
+  "source": "personalsit.es",
+  "source_url": "https://asher.land/?theme=fun",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "theme-switcher",
+   "personal",
+   "fun",
+   "playful"
+  ],
+  "notable": "The listed URL carries a 'theme=fun' query, indicating the site offers switchable visual themes.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "rmv.fyi (Ruby Morgan Voigt)",
+  "url": "https://rmv.fyi",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "pasteboard",
+   "drag",
+   "design-engineer",
+   "spatial"
+  ],
+  "notable": "Described as the desk of a graphic design engineer where you drag through work, software, writing and essays laid out on a pasteboard.",
+  "mechanic": "The visitor drags across the pasteboard, causing items to slide into view, which reveals the author's work, software and essays as objects on a desk.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Szymon Kaliski",
+  "url": "https://szymonkaliski.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "computational-interfaces",
+   "consultant",
+   "tools",
+   "experiments"
+  ],
+  "notable": "Independent consultant designing and developing computational interfaces, whose site is a portfolio of tool-making experiments.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "s-ol bekic (mmm)",
+  "url": "https://mmm.s-ol.nu",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "creative-technology",
+   "hacking",
+   "cms",
+   "portfolio"
+  ],
+  "notable": "Designer and creative technologist site running on the author's own mmm system, covering as much of the technological stack as possible.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "compudanzas",
+  "url": "https://compudanzas.net",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "human-scale-computing",
+   "dance",
+   "wiki",
+   "joyful"
+  ],
+  "notable": "Explorations of joyful and human-scale computing.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Rezmason",
+  "url": "https://rezmason.net",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "creative-coding",
+   "webgl",
+   "portfolio",
+   "experiments"
+  ],
+  "notable": "Portfolio of a creative coder behind browser-based graphics experiments.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Everest Pipkin",
+  "url": "https://everest-pipkin.com/",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "generative",
+   "games",
+   "art",
+   "portfolio"
+  ],
+  "notable": "Artist and game-maker home page whose entire title is just 'Home.'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Lunabee spaceport",
+  "url": "https://lunabee.space/extraspace/port.html",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "spaceport",
+   "esoterica",
+   "handmade",
+   "portal"
+  ],
+  "notable": "A 'spaceport' page described as informatic witchcraft and other esoterica.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Marvin Borner",
+  "url": "https://marvinborner.de",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "lambda-calculus",
+   "programming-languages",
+   "personal",
+   "research"
+  ],
+  "notable": "Personal site dedicated to lambda calculus and related things.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Hannah Crawford (EMBYR)",
+  "url": "https://embyr.sh",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "artist",
+   "portfolio",
+   "atmosphere",
+   "personal"
+  ],
+  "notable": "Artist portfolio with the line 'I'll leave you the dust, my love'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "HisVirusness",
+  "url": "https://hisvirusness.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "art",
+   "serial",
+   "confessional",
+   "personal"
+  ],
+  "notable": "Site that invites visitors to follow an artist's slow descent into madness, again.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Estfyr",
+  "url": "https://estfyr.net",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "paintings",
+   "fractals",
+   "gallery",
+   "art"
+  ],
+  "notable": "A gallery of paintings and fractal art.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Luka Princic",
+  "url": "https://prin.lu",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "sound",
+   "noise",
+   "music",
+   "new-media"
+  ],
+  "notable": "Site about sound, noise, music and new media.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Xinniw (David Minnix)",
+  "url": "https://xinniw.net",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "noise",
+   "tools",
+   "artist",
+   "software"
+  ],
+  "notable": "Artist, software engineer and musician who makes noise and tools for making noise.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "gr0k.net",
+  "url": "https://www.gr0k.net",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "music",
+   "zynthian",
+   "experiments",
+   "notes"
+  ],
+  "notable": "A dump for music-related activities, mostly experiments with the Zynthian synth platform.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Smidgeo bots",
+  "url": "https://smidgeo.com/bots",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "bots",
+   "generative",
+   "twitter-bots",
+   "projects"
+  ],
+  "notable": "A page of bots, each a small generative software project.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Web-Treehouse for Plants",
+  "url": "http://kira.eight45.net",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "treehouse",
+   "plants",
+   "handmade",
+   "personal"
+  ],
+  "notable": "A hand-built treehouse for plants, a whimsical personal home.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Zachary Kai",
+  "url": "https://zacharykai.net",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "lists",
+   "indieweb",
+   "webring",
+   "personal"
+  ],
+  "notable": "Personal site that hosts curated lists, including the Star Wars and Vintage Car webrings listed on IndieWeb.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "cblgh",
+  "url": "https://cblgh.org",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "tools",
+   "search-engine",
+   "community",
+   "personal"
+  ],
+  "notable": "Home of the author of the Lieu webring search engine, with the line 'find me on the web'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Heracl.es",
+  "url": "https://heracl.es",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "architect",
+   "design-technologist",
+   "cultural-production",
+   "portfolio"
+  ],
+  "notable": "Design technologist, digital maker and architect based in Athens working in cultural production.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Forrest O. Interactive",
+  "url": "https://www.forresto.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "interactive",
+   "prototypes",
+   "portfolio",
+   "experiments"
+  ],
+  "notable": "Interactive prototypes and experiments by one developer.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Ghetto Bastler",
+  "url": "https://ghettobastler.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "diy",
+   "hacks",
+   "french",
+   "maker"
+  ],
+  "notable": "Maker and DIY personal site greeting visitors with 'hello'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Abstractxan Mizi",
+  "url": "https://abstractxan.xyz",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "generator",
+   "static-site",
+   "personal",
+   "tool"
+  ],
+  "notable": "A personal site generated with the author's own static-site tool, Mizi.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Strength of One (Keith Hart)",
+  "url": "http://strengthofone.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "art-director",
+   "design",
+   "music",
+   "portfolio"
+  ],
+  "notable": "Home of an art director, designer, developer and musician.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Aaron Massicotte",
+  "url": "https://aaronmassicotte.com",
+  "source": "XXIIVV Webring",
+  "source_url": "https://webring.xxiivv.com/",
+  "year": null,
+  "category": "small-web-personal",
+  "tags": [
+   "peaceful",
+   "photos",
+   "recipes",
+   "writing"
+  ],
+  "notable": "A lightweight personal website designed to invoke a sense of peacefulness and inspiration.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "LC Labs",
+  "url": "https://labs.loc.gov/work/experiments/",
+  "source": "labs.loc.gov",
+  "source_url": "https://labs.loc.gov/work/experiments/",
+  "year": 2017,
+  "category": "archive-interface",
+  "tags": [
+   "library-of-congress",
+   "experiments",
+   "digital-methods",
+   "labs"
+  ],
+  "notable": "The Library of Congress tests emerging technologies and digital methods on its collections and publishes each as a named experiment, launched in September 2017.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Beyond Words (LC Labs)",
+  "url": "https://labs.loc.gov/work/experiments/beyond-words",
+  "source": "labs.loc.gov",
+  "source_url": "https://labs.loc.gov/work/experiments/beyond-words",
+  "year": 2017,
+  "category": "archive-interface",
+  "tags": [
+   "crowdsourcing",
+   "newspapers",
+   "retired",
+   "annotation"
+  ],
+  "notable": "Volunteer crowdsourcing experiment where people marked, transcribed and verified photos and illustrations in historical newspapers; launched September 2017 and retired November 2021.",
+  "mechanic": "The visitor draws a box around a pictorial item in a newspaper page, causing the page's annotations to grow, which reveals a visual dataset later used to train a model.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Newspaper Navigator",
+  "url": "https://labs.loc.gov/work/experiments/newspaper-navigator/",
+  "source": "labs.loc.gov",
+  "source_url": "https://news-navigator.labs.loc.gov/",
+  "year": 2020,
+  "category": "archive-interface",
+  "tags": [
+   "visual-search",
+   "newspapers",
+   "machine-learning",
+   "similarity"
+  ],
+  "notable": "Experimental search and browse application for finding visual content in historic newspapers, including by visual similarity; news-navigator.labs.loc.gov redirects here.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Citizen DJ",
+  "url": "https://citizen-dj.labs.loc.gov/",
+  "source": "labs.loc.gov",
+  "source_url": "https://citizen-dj.labs.loc.gov/",
+  "year": 2020,
+  "category": "archive-interface",
+  "tags": [
+   "remix",
+   "audio",
+   "drum-machine",
+   "library-of-congress"
+  ],
+  "notable": "Browser-based music maker that lets the public explore Library of Congress free-to-use audio and video, remix clips with beats in a drum-machine-style interface, and download the sounds; collections include Variety Stage, Tony Schwartz and the National Jukebox.",
+  "mechanic": "The visitor picks a collection and chooses samples, causing a beat grid to loop them, which reveals archival recordings as raw material for new music.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Free to Use and Reuse",
+  "url": "https://www.loc.gov/free-to-use/",
+  "source": "loc.gov",
+  "source_url": "https://www.loc.gov/free-to-use/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "rights-free",
+   "curated-sets",
+   "images",
+   "library-of-congress"
+  ],
+  "notable": "More than 100 curated sets of rights-free images from the Library of Congress, each a themed starting point rather than a search box.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Cooper Hewitt Labs",
+  "url": "https://labs.cooperhewitt.org/",
+  "source": "apidocs.cooperhewitt.org",
+  "source_url": "https://labs.cooperhewitt.org/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "museum-lab",
+   "blog",
+   "design-museum",
+   "technology"
+  ],
+  "notable": "Blog from the Cooper Hewitt technology and media team, with the tagline 'Technology + Media + Experience'.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Dive into Color",
+  "url": "https://labs.cooperhewitt.org/2018/making-dive-into-color/",
+  "source": "apidocs.cooperhewitt.org/showcase",
+  "source_url": "https://apidocs.cooperhewitt.org/showcase/",
+  "year": 2018,
+  "category": "museum-collection",
+  "tags": [
+   "timeline",
+   "colour-wheel",
+   "data-visualisation",
+   "collection-explorer"
+  ],
+  "notable": "Interactive timeline by Olivia Vane that places Cooper Hewitt objects by date and lets you explore by colour and colour harmony using a wheel modelled on a 1936-37 Hilaire Hiler design, capped at the 100 most saturated matches.",
+  "mechanic": "The visitor picks a colour and a harmony mode (monochromatic, complementary, analogous, spectrum), causing the timeline to filter to matching objects, which reveals when colour schemes recur in design history.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Art Clock",
+  "url": "https://artclock.redpaperheart.com/",
+  "source": "apidocs.cooperhewitt.org/showcase",
+  "source_url": "https://apidocs.cooperhewitt.org/showcase/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "clock",
+   "participatory",
+   "smithsonian-open-access",
+   "curation"
+  ],
+  "notable": "Described as a gallery that tells time with art, a participatory experience where users scour the Smithsonian Open Access catalog for images; the page itself does not explain the mechanic.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Cooper Hewitt Collections API (GraphQL)",
+  "url": "https://apidocs.cooperhewitt.org/",
+  "source": "apidocs.cooperhewitt.org",
+  "source_url": "https://apidocs.cooperhewitt.org/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "api",
+   "graphql",
+   "open-data",
+   "design-collection"
+  ],
+  "notable": "GraphQL API for one of the largest design collections, with an 'Explore the data' page that offers a spin-the-wheel to generate random queries by object type.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Explore the data (Cooper Hewitt)",
+  "url": "https://apidocs.cooperhewitt.org/explore-the-data/",
+  "source": "apidocs.cooperhewitt.org/showcase",
+  "source_url": "https://apidocs.cooperhewitt.org/showcase/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "random",
+   "wheel",
+   "query",
+   "api"
+  ],
+  "notable": "A wheel the visitor spins to generate random queries for different types of object.",
+  "mechanic": "The visitor spins the wheel, causing a random query to run against the API, which reveals a surprising slice of the collection and the query that produced it.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Cooper Hewitt on GitHub",
+  "url": "https://github.com/cooperhewitt",
+  "source": "cooperhewitt.org",
+  "source_url": "https://github.com/cooperhewitt",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "open-source",
+   "museum-code",
+   "repos",
+   "tools"
+  ],
+  "notable": "Over 100 public repositories from a museum technology team, covering collection tools and data experiments.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Wolfsonian Labs",
+  "url": "https://labs.wolfsonian.org",
+  "source": "labs.wolfsonian.org (search result)",
+  "source_url": "https://labs.wolfsonian.org",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "museum-lab",
+   "drag-and-drop",
+   "api",
+   "3d-models"
+  ],
+  "notable": "Labs site with a drag-and-drop tool where visitors build scenes from collection images, an API for the digital collection and a 3D object gallery proof of concept (DNS did not resolve from this machine, URL taken from search results).",
+  "mechanic": "The visitor drags collection images onto a canvas, causing a composed scene to build, which reveals the collection through play.",
+  "liveness": "DNS/timeout failure from this machine on probe; URL appeared in a web search result"
+ },
+ {
+  "name": "Wolfsonian 3D model gallery",
+  "url": "https://labs.wolfsonian.org/3dtools/3dmodel/index.html",
+  "source": "labs.wolfsonian.org (search result)",
+  "source_url": "https://labs.wolfsonian.org/3dtools/3dmodel/index.html",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "3d",
+   "digitisation",
+   "proof-of-concept",
+   "gallery"
+  ],
+  "notable": "Proof-of-concept interactive gallery showing how physical objects can be digitised in 3D (not reachable from this machine, URL taken from search results).",
+  "liveness": "DNS/timeout failure from this machine on probe; URL appeared in a web search result"
+ },
+ {
+  "name": "Collectionscope",
+  "url": "https://amnh-sciviz.github.io/collectionscope/",
+  "source": "amnh-sciviz.github.io",
+  "source_url": "https://amnh-sciviz.github.io/collectionscope/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "3d-space",
+   "time-and-place",
+   "open-source",
+   "museum-visualisation"
+  ],
+  "notable": "Tool that maps museum collection objects into 3D space across time and place, with example apps for the AMNH anthropology collection (over 250,000 objects) and the Met Open Access program (about 70,000 objects).",
+  "mechanic": "The visitor moves through the 3D collection with mouse and keyboard, causing object clusters to approach, which reveals where and when a museum collected its objects.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "AMNH Science Visualization Group",
+  "url": "https://amnh-sciviz.github.io/",
+  "source": "amnh-sciviz.github.io",
+  "source_url": "https://amnh-sciviz.github.io/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "science-visualisation",
+   "museum",
+   "tools",
+   "open-source"
+  ],
+  "notable": "Home page of the American Museum of Natural History's visualisation group, which publishes Collectionscope and related tools.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Rijksstudio",
+  "url": "https://www.rijksmuseum.nl/en/rijksstudio",
+  "source": "rijksmuseum.nl",
+  "source_url": "https://www.rijksmuseum.nl/en/rijksstudio",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "open-access",
+   "zoom",
+   "sets",
+   "high-resolution"
+  ],
+  "notable": "The Rijksmuseum's open collection interface, built so visitors can zoom into high-resolution images and collect their own sets.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Rijksmuseum Data Services",
+  "url": "https://data.rijksmuseum.nl/",
+  "source": "rijksmuseum.nl",
+  "source_url": "https://data.rijksmuseum.nl/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "api",
+   "linked-data",
+   "open-data",
+   "documentation"
+  ],
+  "notable": "Data services page providing the museum's collection through APIs and open data.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Rijksmuseum data research page",
+  "url": "https://www.rijksmuseum.nl/en/research/conduct-research/data",
+  "source": "rijksmuseum.nl",
+  "source_url": "https://www.rijksmuseum.nl/en/research/conduct-research/data",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "research",
+   "data",
+   "open-data",
+   "documentation"
+  ],
+  "notable": "Explains that data services are building blocks for the museum's open collection.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Smithsonian Open Access GitHub",
+  "url": "https://github.com/Smithsonian/OpenAccess",
+  "source": "si.edu/openaccess",
+  "source_url": "https://github.com/Smithsonian/OpenAccess",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "open-data",
+   "cc0",
+   "metadata",
+   "repository"
+  ],
+  "notable": "Repository of the Smithsonian's open-access metadata, the data layer behind projects like Art Clock.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Smithsonian Open Access",
+  "url": "https://www.si.edu/openaccess",
+  "source": "si.edu",
+  "source_url": "https://www.si.edu/openaccess",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "open-access",
+   "cc0",
+   "bot-protected",
+   "collections"
+  ],
+  "notable": "Landing page for the Smithsonian's open access program (returned 403 to automated requests; liveness inferred from search results and GitHub repo).",
+  "liveness": "HTTP 403: host answered but blocks scripted requests; page contents not verified by script"
+ },
+ {
+  "name": "Met Collection API (GitHub)",
+  "url": "https://github.com/metmuseum/openaccess",
+  "source": "metmuseum.org",
+  "source_url": "https://github.com/metmuseum/openaccess",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "open-access",
+   "api",
+   "cc0",
+   "museum-data"
+  ],
+  "notable": "The Met's Open Access Initiative repository with a live CC0 feed of collection data and over 400,000 images.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Met Collection API docs",
+  "url": "https://metmuseum.github.io/",
+  "source": "metmuseum.org",
+  "source_url": "https://metmuseum.github.io/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "api",
+   "documentation",
+   "no-key",
+   "open-data"
+  ],
+  "notable": "Documentation for the Met Collection API, which needs no authentication.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Google Arts & Culture",
+  "url": "https://artsandculture.google.com/",
+  "source": "artsandculture.google.com",
+  "source_url": "https://artsandculture.google.com/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "aggregator",
+   "partners",
+   "explore",
+   "experiments"
+  ],
+  "notable": "Aggregator for content from over 2,000 museums and archives, with an Explore view and a separate experiments strand.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Blob Opera",
+  "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+  "source": "artsandculture.google.com",
+  "source_url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+  "year": 2020,
+  "category": "museum-collection",
+  "tags": [
+   "music",
+   "machine-learning",
+   "drag",
+   "playful"
+  ],
+  "notable": "Create your own ML-powered opera song by David Li with Google Arts & Culture.",
+  "mechanic": "The visitor drags a blob up, down, in or out, causing a voice part to change pitch and vowel, which reveals a four-part harmony built from the drag.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "X Degrees of Separation",
+  "url": "https://artsexperiments.withgoogle.com/xdegrees/",
+  "source": "artsandculture.google.com",
+  "source_url": "https://artsexperiments.withgoogle.com/xdegrees/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "art-history",
+   "similarity",
+   "machine-learning",
+   "connections"
+  ],
+  "notable": "Mario Klingemann experiment that asks whether there are six degrees of separation between any two artworks by chaining visually similar works.",
+  "mechanic": "The visitor picks two artworks, causing a chain of intermediate images to be generated, which reveals the visual path between them.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Arts & Culture Experiments (Experiments with Google)",
+  "url": "https://experiments.withgoogle.com/collection/arts-culture",
+  "source": "experiments.withgoogle.com",
+  "source_url": "https://experiments.withgoogle.com/collection/arts-culture",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "experiments",
+   "collection",
+   "machine-learning",
+   "museum-data"
+  ],
+  "notable": "Curated set of coder-made experiments that use museum collections as material.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Experiments with Google",
+  "url": "https://experiments.withgoogle.com/",
+  "source": "experiments.withgoogle.com",
+  "source_url": "https://experiments.withgoogle.com/",
+  "year": 2009,
+  "category": "world-navigation",
+  "tags": [
+   "experiments",
+   "gallery",
+   "chrome",
+   "ai"
+  ],
+  "notable": "Since 2009 coders have created thousands of experiments, and this site is the index of them.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Europeana",
+  "url": "https://www.europeana.eu/",
+  "source": "europeana.eu",
+  "source_url": "https://www.europeana.eu/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "aggregator",
+   "europe",
+   "cultural-heritage",
+   "bot-protected"
+  ],
+  "notable": "Pan-European aggregator of museum, library and archive collections (returned 403 to automated requests, so liveness is inferred).",
+  "liveness": "HTTP 403: host answered but blocks scripted requests; page contents not verified by script"
+ },
+ {
+  "name": "Europeana Pro",
+  "url": "https://pro.europeana.eu/",
+  "source": "europeana.eu",
+  "source_url": "https://pro.europeana.eu/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "api",
+   "data",
+   "professional",
+   "bot-protected"
+  ],
+  "notable": "Professional-facing site for the data and APIs behind the aggregator (returned 403 to automated requests).",
+  "liveness": "HTTP 403: host answered but blocks scripted requests; page contents not verified by script"
+ },
+ {
+  "name": "Europeana Labs",
+  "url": "https://labs.europeana.eu/",
+  "source": "europeana.eu",
+  "source_url": "https://labs.europeana.eu/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "labs",
+   "experiments",
+   "api",
+   "unreachable"
+  ],
+  "notable": "Labs hub for developers using Europeana data (timed out from this machine, so liveness is unverified).",
+  "liveness": "DNS/timeout failure from this machine on probe"
+ },
+ {
+  "name": "Internet Archive",
+  "url": "https://archive.org/",
+  "source": "archive.org",
+  "source_url": "https://archive.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "library",
+   "wayback",
+   "media",
+   "borrowable"
+  ],
+  "notable": "Digital library of texts, movies, music and the Wayback Machine, with each media type presented as a category page of tiles.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Internet Archive TV News",
+  "url": "https://archive.org/details/tv",
+  "source": "archive.org",
+  "source_url": "https://archive.org/details/tv",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "tv",
+   "captions",
+   "research-library",
+   "search"
+  ],
+  "notable": "Research library service for searching captions and borrowing broadcasts from the TV news archive.",
+  "mechanic": "The visitor searches a phrase, causing matching broadcasts to be listed by channel and time, which reveals how topics appear across television.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Wayback Machine",
+  "url": "https://archive.org/web/",
+  "source": "archive.org",
+  "source_url": "https://archive.org/web/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "web-archive",
+   "timeline",
+   "snapshots",
+   "history"
+  ],
+  "notable": "Interface for browsing archived snapshots of websites over time.",
+  "mechanic": "The visitor enters a URL and picks a date on the calendar, causing the archived page to load, which reveals what that page looked like in the past.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Internet Arcade",
+  "url": "https://archive.org/details/internetarcade",
+  "source": "archive.org",
+  "source_url": "https://archive.org/details/internetarcade",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "games",
+   "emulation",
+   "playable-archive",
+   "arcade"
+  ],
+  "notable": "Collection of arcade games playable in the browser through emulation, a literal playable archive.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Software Library: MS-DOS",
+  "url": "https://archive.org/details/softwarelibrary_msdos",
+  "source": "archive.org",
+  "source_url": "https://archive.org/details/softwarelibrary_msdos",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "emulation",
+   "dos",
+   "playable-archive",
+   "software"
+  ],
+  "notable": "Browser-emulated MS-DOS software and games library.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "78 RPMs and Cylinder Recordings",
+  "url": "https://archive.org/details/78rpm",
+  "source": "archive.org",
+  "source_url": "https://archive.org/details/78rpm",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "audio",
+   "shellac",
+   "digitised",
+   "collection"
+  ],
+  "notable": "Collection of digitised 78 rpm records and cylinder recordings.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Live Music Archive (etree)",
+  "url": "https://archive.org/details/etree",
+  "source": "archive.org",
+  "source_url": "https://archive.org/details/etree",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "live-music",
+   "taper-culture",
+   "audio",
+   "collection"
+  ],
+  "notable": "Fan-recorded live concerts shared with artist permission.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Flickr Commons (Internet Archive)",
+  "url": "https://archive.org/details/flickrcommons",
+  "source": "archive.org",
+  "source_url": "https://archive.org/details/flickrcommons",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "images",
+   "commons",
+   "mirror",
+   "collection"
+  ],
+  "notable": "Archive of images from the Flickr Commons programme.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Internet Archive Scholar",
+  "url": "https://scholar.archive.org/",
+  "source": "archive.org",
+  "source_url": "https://scholar.archive.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "scholarly",
+   "search",
+   "papers",
+   "preservation"
+  ],
+  "notable": "Search interface for preserved scholarly papers.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Open Library",
+  "url": "https://openlibrary.org/",
+  "source": "openlibrary.org",
+  "source_url": "https://openlibrary.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "catalogue",
+   "books",
+   "editable",
+   "borrow"
+  ],
+  "notable": "Open, editable library catalog building toward a page for every book ever published.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Are.na",
+  "url": "https://www.are.na/",
+  "source": "are.na",
+  "source_url": "https://www.are.na/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "boards",
+   "connections",
+   "curation",
+   "knowledge"
+  ],
+  "notable": "Platform for connecting ideas and building knowledge as channels of blocks that can live in many channels at once.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Are.na Explore",
+  "url": "https://www.are.na/explore",
+  "source": "are.na",
+  "source_url": "https://www.are.na/explore",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "explore",
+   "serendipity",
+   "channels",
+   "curation"
+  ],
+  "notable": "Explore view that surfaces recent public channels and blocks from across the network.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Are.na API docs",
+  "url": "https://dev.are.na/",
+  "source": "are.na",
+  "source_url": "https://dev.are.na/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "api",
+   "developers",
+   "open",
+   "integration"
+  ],
+  "notable": "Developer documentation for building on Are.na's block and channel model.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Library of Babel",
+  "url": "https://libraryofbabel.info/",
+  "source": "libraryofbabel.info",
+  "source_url": "https://libraryofbabel.info/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "borges",
+   "hexagons",
+   "generative-library",
+   "text"
+  ],
+  "notable": "A project towards a universal library: every possible page of text is addressable by hexagon, wall, shelf, volume and page.",
+  "mechanic": "The visitor enters a hexagon address or searches a phrase, causing a page of the library to load, which reveals that any text already exists at some coordinate.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Babel Image Archives",
+  "url": "https://babelia.libraryofbabel.info/",
+  "source": "libraryofbabel.info",
+  "source_url": "https://babelia.libraryofbabel.info/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "images",
+   "all-permutations",
+   "generative",
+   "borges"
+  ],
+  "notable": "The image archives of the Library of Babel, containing all possible permutations of pixels.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Radio Garden",
+  "url": "https://radio.garden/",
+  "source": "radio.garden",
+  "source_url": "https://radio.garden/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "globe",
+   "radio",
+   "audio",
+   "geography"
+  ],
+  "notable": "Explore live radio by rotating the globe: each station is a point on the Earth.",
+  "mechanic": "The visitor spins the globe and taps a station, causing live audio to play, which reveals the sound of that place right now.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "earth",
+  "url": "https://earth.nullschool.net/",
+  "source": "earth.nullschool.net",
+  "source_url": "https://earth.nullschool.net/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "wind",
+   "weather",
+   "globe",
+   "forecast"
+  ],
+  "notable": "Global map of wind, weather, ocean and pollution conditions as forecast by supercomputers, on an interactive globe.",
+  "mechanic": "The visitor drags the globe and clicks a location, causing wind particles and values to update for that point, which reveals the planetary flow behind the forecast.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Windy",
+  "url": "https://www.windy.com/",
+  "source": "windy.com",
+  "source_url": "https://www.windy.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "weather",
+   "animated-map",
+   "layers",
+   "forecast"
+  ],
+  "notable": "Weather radar, wind and waves forecast shown as animated particles on a worldwide map with switchable layers.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Ventusky",
+  "url": "https://www.ventusky.com/",
+  "source": "ventusky.com",
+  "source_url": "https://www.ventusky.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "weather",
+   "map",
+   "layers",
+   "forecast"
+  ],
+  "notable": "Live wind, rain, radar and temperature maps with more than 50 weather layers.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Zoom Earth",
+  "url": "https://zoom.earth/",
+  "source": "zoom.earth",
+  "source_url": "https://zoom.earth/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "satellite",
+   "storms",
+   "weather",
+   "map"
+  ],
+  "notable": "Interactive weather and radar map for tracking hurricanes with live satellite images.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Radiooooo",
+  "url": "https://www.radiooooo.com/",
+  "source": "radiooooo.com",
+  "source_url": "https://www.radiooooo.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "music",
+   "time-machine",
+   "map",
+   "decades"
+  ],
+  "notable": "The Musical Time Machine: pick a country on the map and a decade, and it plays music from that place and time.",
+  "mechanic": "The visitor chooses a country and decade, causing a track from that era to play, which reveals music as a function of time and place.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "WindowSwap",
+  "url": "https://www.window-swap.com/",
+  "source": "window-swap.com",
+  "source_url": "https://www.window-swap.com/",
+  "year": 2020,
+  "category": "world-navigation",
+  "tags": [
+   "windows",
+   "video",
+   "calm",
+   "random"
+  ],
+  "notable": "Open a new window somewhere in the world and look through windows shared by real people.",
+  "mechanic": "The visitor clicks to open a new window, causing a looping video from someone's window to appear, which reveals a quiet view of another place.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The True Size Of",
+  "url": "https://www.thetruesize.com/",
+  "source": "thetruesize.com",
+  "source_url": "https://www.thetruesize.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "map",
+   "projection",
+   "comparison",
+   "drag"
+  ],
+  "notable": "Drag, drop and rotate countries and regions around the map to compare their relative size.",
+  "mechanic": "The visitor drags a country across the map, causing its shape to distort with the projection, which reveals how Mercator misrepresents size.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Shipmap",
+  "url": "https://www.shipmap.org/",
+  "source": "shipmap.org",
+  "source_url": "https://www.shipmap.org/",
+  "year": 2014,
+  "category": "world-navigation",
+  "tags": [
+   "shipping",
+   "animation",
+   "data-visualisation",
+   "time"
+  ],
+  "notable": "Animated and interactive visualisation of global commercial shipping by Kiln and UCL.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Submarine Cable Map",
+  "url": "https://www.submarinecablemap.com/",
+  "source": "submarinecablemap.com",
+  "source_url": "https://www.submarinecablemap.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "infrastructure",
+   "internet",
+   "map",
+   "telegeography"
+  ],
+  "notable": "Interactive map of the undersea cables that carry the internet.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Opte",
+  "url": "https://www.opte.org/",
+  "source": "opte.org",
+  "source_url": "https://www.opte.org/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "internet-map",
+   "visualisation",
+   "network",
+   "history"
+  ],
+  "notable": "Visual maps of the Internet's structure.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Light Pollution Map",
+  "url": "https://www.lightpollutionmap.info/",
+  "source": "lightpollutionmap.info",
+  "source_url": "https://www.lightpollutionmap.info/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "night-sky",
+   "map",
+   "viirs",
+   "layers"
+  ],
+  "notable": "Interactive world light pollution map combining NASA Black Marble VIIRS, sky brightness, aurora prediction and observatories.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "LightningMaps",
+  "url": "https://www.lightningmaps.org/",
+  "source": "lightningmaps.org",
+  "source_url": "https://www.lightningmaps.org/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "lightning",
+   "real-time",
+   "map",
+   "community"
+  ],
+  "notable": "Real-time lightning strike map with archived maps of former thunderstorms.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Global Fishing Watch map",
+  "url": "https://www.globalfishingwatch.org/map",
+  "source": "globalfishingwatch.org",
+  "source_url": "https://www.globalfishingwatch.org/map",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "fishing",
+   "vessels",
+   "open-data",
+   "map"
+  ],
+  "notable": "Open-access platform for visualising marine traffic and vessel-based fishing activity.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "VesselFinder",
+  "url": "https://www.vesselfinder.com/",
+  "source": "vesselfinder.com",
+  "source_url": "https://www.vesselfinder.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "ais",
+   "ships",
+   "live",
+   "map"
+  ],
+  "notable": "Free AIS vessel tracking site that shows real-time ship positions.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "ADS-B Exchange",
+  "url": "https://globe.adsbexchange.com/",
+  "source": "adsbexchange.com",
+  "source_url": "https://globe.adsbexchange.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "flights",
+   "unfiltered",
+   "live",
+   "map"
+  ],
+  "notable": "Track aircraft live with flight history on a world map.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "NASA FIRMS",
+  "url": "https://firms.modaps.eosdis.nasa.gov/map/",
+  "source": "nasa.gov",
+  "source_url": "https://firms.modaps.eosdis.nasa.gov/map/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "fire",
+   "satellite",
+   "near-real-time",
+   "map"
+  ],
+  "notable": "Global fire map and data from NASA's Fire Information for Resource Management System.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "NASA Worldview",
+  "url": "https://worldview.earthdata.nasa.gov/",
+  "source": "nasa.gov",
+  "source_url": "https://worldview.earthdata.nasa.gov/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "satellite",
+   "imagery",
+   "daily",
+   "time-slider"
+  ],
+  "notable": "Interactive interface for browsing full-resolution global daily satellite images.",
+  "mechanic": "The visitor scrubs the date slider or toggles layers, causing the globe imagery to update, which reveals the planet change day by day.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "NASA Eyes",
+  "url": "https://eyes.nasa.gov/",
+  "source": "nasa.gov",
+  "source_url": "https://eyes.nasa.gov/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "3d",
+   "real-data",
+   "solar-system",
+   "visualisation"
+  ],
+  "notable": "Suite of 3D visualisation applications that lets anyone explore real NASA data and imagery.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "ESASky",
+  "url": "https://sky.esa.int/",
+  "source": "esa.int",
+  "source_url": "https://sky.esa.int/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "astronomy",
+   "sky-browser",
+   "space-data",
+   "download"
+  ],
+  "notable": "Application for visualising and downloading public astronomical data from space-based missions.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Stellarium Web",
+  "url": "https://stellarium-web.org/",
+  "source": "stellarium-web.org",
+  "source_url": "https://stellarium-web.org/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "planetarium",
+   "sky",
+   "realistic",
+   "browser"
+  ],
+  "notable": "Planetarium running in the browser that shows a realistic star map.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "WorldWide Telescope Web Client",
+  "url": "https://worldwidetelescope.org/webclient/",
+  "source": "worldwidetelescope.org",
+  "source_url": "https://worldwidetelescope.org/webclient/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "astronomy",
+   "data",
+   "storytelling",
+   "browser"
+  ],
+  "notable": "Tool for showcasing astronomical data and knowledge in the browser.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Legacy Survey Sky Browser",
+  "url": "https://www.legacysurvey.org/viewer",
+  "source": "legacysurvey.org",
+  "source_url": "https://www.legacysurvey.org/viewer",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "astronomy",
+   "sky-survey",
+   "zoom",
+   "imagery"
+  ],
+  "notable": "Pan-and-zoom viewer for a deep sky survey.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "SDSS SkyServer",
+  "url": "https://skyserver.sdss.org/",
+  "source": "sdss.org",
+  "source_url": "https://skyserver.sdss.org/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "astronomy",
+   "database",
+   "sky",
+   "education"
+  ],
+  "notable": "Public interface to the Sloan Digital Sky Survey data.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Astronomy Picture of the Day",
+  "url": "https://apod.nasa.gov/apod/",
+  "source": "nasa.gov",
+  "source_url": "https://apod.nasa.gov/apod/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "astronomy",
+   "daily",
+   "plain-html",
+   "long-running"
+  ],
+  "notable": "A decades-old plain-HTML page that shows one astronomy image a day with a short explanation.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Earth and Moon Viewer",
+  "url": "https://www.fourmilab.ch/earthview/vplanet.html",
+  "source": "fourmilab.ch",
+  "source_url": "https://www.fourmilab.ch/earthview/vplanet.html",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "earth",
+   "daylight-map",
+   "classic",
+   "cgi"
+  ],
+  "notable": "Classic web viewer that renders the Earth or Moon as seen from a chosen point.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Satellite Tracker",
+  "url": "https://satellitemap.space/",
+  "source": "satellitemap.space",
+  "source_url": "https://satellitemap.space/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "satellites",
+   "3d",
+   "starlink",
+   "live"
+  ],
+  "notable": "Interactive 3D map of 30,000+ satellites, including Starlink trains and space stations.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Atlas of Economic Complexity",
+  "url": "https://atlas.cid.harvard.edu/",
+  "source": "atlas.cid.harvard.edu",
+  "source_url": "https://atlas.cid.harvard.edu/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "trade",
+   "data",
+   "countries",
+   "visualisation"
+  ],
+  "notable": "Visualises global trade data and growth opportunities for every country.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Our World in Data",
+  "url": "https://ourworldindata.org/",
+  "source": "ourworldindata.org",
+  "source_url": "https://ourworldindata.org/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "data",
+   "charts",
+   "research",
+   "open"
+  ],
+  "notable": "Research and data to make progress against the world's largest problems.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Gapminder Tools",
+  "url": "https://www.gapminder.org/tools/",
+  "source": "gapminder.org",
+  "source_url": "https://www.gapminder.org/tools/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "animation",
+   "bubble-chart",
+   "countries",
+   "time"
+  ],
+  "notable": "Animated bubble charts of country data over time.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Latest Earthquakes (USGS)",
+  "url": "https://earthquake.usgs.gov/earthquakes/map/",
+  "source": "usgs.gov",
+  "source_url": "https://earthquake.usgs.gov/earthquakes/map/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "earthquakes",
+   "real-time",
+   "map",
+   "filters"
+  ],
+  "notable": "Live map of recent earthquakes.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The Pudding",
+  "url": "https://pudding.cool/",
+  "source": "pudding.cool",
+  "source_url": "https://pudding.cool/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "visual-essays",
+   "data-journalism",
+   "scrollytelling",
+   "culture"
+  ],
+  "notable": "Visual essays that explain ideas through data and scroll-driven interaction.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Truth & Beauty (Moritz Stefaner)",
+  "url": "https://truth-and-beauty.net/",
+  "source": "truth-and-beauty.net",
+  "source_url": "https://truth-and-beauty.net/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "data-visualisation",
+   "portfolio",
+   "independent",
+   "cultural-data"
+  ],
+  "notable": "Independent data visualisation expert's portfolio, always chasing the perfect form for information.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Fathom Information Design",
+  "url": "https://fathom.info/",
+  "source": "fathom.info",
+  "source_url": "https://fathom.info/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "data-design",
+   "studio",
+   "platforms",
+   "tools"
+  ],
+  "notable": "Studio building platforms and products for understanding data.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Stamen",
+  "url": "https://stamen.com/work/",
+  "source": "stamen.com",
+  "source_url": "https://stamen.com/work/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "maps",
+   "studio",
+   "visualisation",
+   "portfolio"
+  ],
+  "notable": "Work page of a data-visualisation and cartography studio.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Information is Beautiful",
+  "url": "https://www.informationisbeautiful.net/",
+  "source": "informationisbeautiful.net",
+  "source_url": "https://www.informationisbeautiful.net/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "infographics",
+   "data",
+   "visualisation",
+   "gallery"
+  ],
+  "notable": "Distils the world's data, information and knowledge into infographics.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "OldNYC",
+  "url": "https://www.oldnyc.org/",
+  "source": "oldnyc.org",
+  "source_url": "https://www.oldnyc.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "map",
+   "photographs",
+   "nypl",
+   "history"
+  ],
+  "notable": "Maps 50,000 historical photographs from the New York Public Library onto the streets where they were taken.",
+  "mechanic": "The visitor clicks a map location, causing historic photos for that spot to open, which reveals how the same street looked in the past.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "PastVu",
+  "url": "https://pastvu.com/",
+  "source": "pastvu.com",
+  "source_url": "https://pastvu.com/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "historical-photos",
+   "map",
+   "user-generated",
+   "archive"
+  ],
+  "notable": "Archive of historical photos generated by users and placed on a map.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Whatwasthere",
+  "url": "https://whatwasthere.com/",
+  "source": "whatwasthere.com",
+  "source_url": "https://whatwasthere.com/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "historic-photos",
+   "overlay",
+   "street-view",
+   "history"
+  ],
+  "notable": "Site for viewing historic photographs overlaid on the places they depict.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "David Rumsey Map Collection",
+  "url": "https://www.davidrumsey.com/",
+  "source": "davidrumsey.com",
+  "source_url": "https://www.davidrumsey.com/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "maps",
+   "georeferenced",
+   "historical",
+   "collection"
+  ],
+  "notable": "Historical map collection with georeferenced overlays.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Mapillary",
+  "url": "https://www.mapillary.com/",
+  "source": "mapillary.com",
+  "source_url": "https://www.mapillary.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "street-level",
+   "crowdsourced",
+   "imagery",
+   "map"
+  ],
+  "notable": "Street-level imagery powered by collaboration and computer vision.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "OpenStreetMap",
+  "url": "https://www.openstreetmap.org/",
+  "source": "openstreetmap.org",
+  "source_url": "https://www.openstreetmap.org/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "map",
+   "open-data",
+   "community",
+   "editable"
+  ],
+  "notable": "Map of the world created by people and free to use under an open licence.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Hatnote: Listen to Wikipedia",
+  "url": "https://listen.hatnote.com/",
+  "source": "hatnote.com",
+  "source_url": "https://listen.hatnote.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "wikipedia",
+   "sonification",
+   "live",
+   "edits"
+  ],
+  "notable": "Listen to recent changes on Wikipedia as sound and animated circles.",
+  "mechanic": "The visitor leaves the page open, causing each Wikipedia edit to ring a note and draw a circle, which reveals the rate and rhythm of editing.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Zooniverse",
+  "url": "https://www.zooniverse.org/",
+  "source": "zooniverse.org",
+  "source_url": "https://www.zooniverse.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "citizen-science",
+   "crowdsourcing",
+   "projects",
+   "research"
+  ],
+  "notable": "World's largest platform for people-powered research.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Old Weather",
+  "url": "https://www.oldweather.org/",
+  "source": "oldweather.org",
+  "source_url": "https://www.oldweather.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "citizen-science",
+   "ship-logs",
+   "climate",
+   "transcription"
+  ],
+  "notable": "Citizen-science project that recovered historic observations from ships.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Freesound",
+  "url": "https://www.freesound.org/",
+  "source": "freesound.org",
+  "source_url": "https://www.freesound.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "sound",
+   "creative-commons",
+   "collaborative",
+   "database"
+  ],
+  "notable": "Collaborative database of Creative Commons licensed sound.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "radio aporee maps",
+  "url": "https://aporee.org/maps/",
+  "source": "aporee.org",
+  "source_url": "https://aporee.org/maps/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "soundmap",
+   "field-recording",
+   "acoustic-ecology",
+   "map"
+  ],
+  "notable": "Global soundmap dedicated to field recording, acoustic ecology and the art of listening.",
+  "mechanic": "The visitor clicks a pin on the map, causing a field recording from that spot to play, which reveals the sound of the place.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "V&A Collections API",
+  "url": "https://api.vam.ac.uk/docs/",
+  "source": "vam.ac.uk",
+  "source_url": "https://api.vam.ac.uk/docs/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "api",
+   "swagger",
+   "open-data",
+   "museum"
+  ],
+  "notable": "Swagger UI for the V&A's collections API.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Cleveland Museum of Art Open Access",
+  "url": "https://www.clevelandart.org/open-access",
+  "source": "clevelandart.org",
+  "source_url": "https://www.clevelandart.org/open-access",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "open-access",
+   "api",
+   "cc0",
+   "museum"
+  ],
+  "notable": "Open access policy and entry point to the museum's data and images.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Cleveland Open Access API",
+  "url": "https://openaccess-api.clevelandart.org/",
+  "source": "clevelandart.org",
+  "source_url": "https://openaccess-api.clevelandart.org/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "api",
+   "json",
+   "cc0",
+   "museum"
+  ],
+  "notable": "API endpoint for the museum's open collection data.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Getty Museum Collection",
+  "url": "https://www.getty.edu/art/collection/",
+  "source": "getty.edu",
+  "source_url": "https://www.getty.edu/art/collection/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "collection",
+   "museum",
+   "search",
+   "images"
+  ],
+  "notable": "Online collection of the J. Paul Getty Museum covering the Getty Center and Getty Villa.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Getty API Documentation",
+  "url": "https://data.getty.edu/",
+  "source": "getty.edu",
+  "source_url": "https://data.getty.edu/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "linked-data",
+   "api",
+   "documentation",
+   "vocabularies"
+  ],
+  "notable": "Documentation for the Getty's open data APIs.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "MoMA collection data",
+  "url": "https://github.com/MuseumofModernArt/collection",
+  "source": "moma.org",
+  "source_url": "https://github.com/MuseumofModernArt/collection",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "open-data",
+   "csv",
+   "museum",
+   "repository"
+  ],
+  "notable": "The Museum of Modern Art's collection data published as an open repository.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Tate collection metadata",
+  "url": "https://github.com/tategallery/collection",
+  "source": "tate.org.uk",
+  "source_url": "https://github.com/tategallery/collection",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "open-data",
+   "metadata",
+   "museum",
+   "repository"
+  ],
+  "notable": "Tate's collection metadata published as an open repository.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Harvard Art Museums Collections",
+  "url": "https://harvardartmuseums.org/collections",
+  "source": "harvardartmuseums.org",
+  "source_url": "https://harvardartmuseums.org/collections",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "collection",
+   "faceted-search",
+   "university-museum",
+   "images"
+  ],
+  "notable": "Collection browser for approximately 250,000 objects across the Fogg, Busch-Reisinger and Sackler museums.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Science Museum Group Collection",
+  "url": "https://collection.sciencemuseumgroup.org.uk/",
+  "source": "sciencemuseumgroup.org.uk",
+  "source_url": "https://collection.sciencemuseumgroup.org.uk/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "science-collection",
+   "objects",
+   "archives",
+   "search"
+  ],
+  "notable": "Explore over 500,000 objects and archives from the Science Museum Group.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Powerhouse Collection",
+  "url": "https://collection.powerhouse.com.au/",
+  "source": "powerhouse.com.au",
+  "source_url": "https://collection.powerhouse.com.au/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "collection",
+   "australia",
+   "objects",
+   "design"
+  ],
+  "notable": "More than half a million objects of national and international significance.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Te Papa Collections Online",
+  "url": "https://collections.tepapa.govt.nz/",
+  "source": "tepapa.govt.nz",
+  "source_url": "https://collections.tepapa.govt.nz/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "collection",
+   "new-zealand",
+   "objects",
+   "search"
+  ],
+  "notable": "Collections online for the Museum of New Zealand Te Papa Tongarewa.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Wellcome Collection",
+  "url": "https://wellcomecollection.org/collections",
+  "source": "wellcomecollection.org",
+  "source_url": "https://wellcomecollection.org/collections",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "health",
+   "library",
+   "museum",
+   "collections"
+  ],
+  "notable": "Free museum and library exploring health and human experience with an online collections search.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "NYPL Digital Collections",
+  "url": "https://digitalcollections.nypl.org/",
+  "source": "nypl.org",
+  "source_url": "https://digitalcollections.nypl.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "library",
+   "digitised",
+   "public-domain",
+   "search"
+  ],
+  "notable": "New York Public Library digital collections including public-domain images.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Digital Bodleian",
+  "url": "https://digital.bodleian.ox.ac.uk/",
+  "source": "bodleian.ox.ac.uk",
+  "source_url": "https://digital.bodleian.ox.ac.uk/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "manuscripts",
+   "rare-books",
+   "images",
+   "iiif"
+  ],
+  "notable": "Over a million images of rare books and manuscripts from the Bodleian Libraries and Oxford college libraries.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "e-codices",
+  "url": "https://www.e-codices.unifr.ch/",
+  "source": "unifr.ch",
+  "source_url": "https://www.e-codices.unifr.ch/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "manuscripts",
+   "medieval",
+   "virtual-library",
+   "switzerland"
+  ],
+  "notable": "Virtual manuscript library of Switzerland giving free access to medieval and some modern manuscripts.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "DigiVatLib",
+  "url": "https://digi.vatlib.it/",
+  "source": "vatlib.it",
+  "source_url": "https://digi.vatlib.it/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "manuscripts",
+   "vatican",
+   "digitised",
+   "viewer"
+  ],
+  "notable": "The Vatican Library's digitised manuscript viewer.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Munich Digitization Center",
+  "url": "https://www.digitale-sammlungen.de/",
+  "source": "digitale-sammlungen.de",
+  "source_url": "https://www.digitale-sammlungen.de/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "manuscripts",
+   "prints",
+   "maps",
+   "digitised"
+  ],
+  "notable": "Digitised manuscripts, prints, music, maps, photographs and newspapers from the Bavarian State Library.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The National Archives Discovery",
+  "url": "https://discovery.nationalarchives.gov.uk/",
+  "source": "nationalarchives.gov.uk",
+  "source_url": "https://discovery.nationalarchives.gov.uk/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "catalogue",
+   "government-records",
+   "uk",
+   "search"
+  ],
+  "notable": "Catalogue of the UK government archive.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "National Archives Catalog (US)",
+  "url": "https://catalog.archives.gov/",
+  "source": "archives.gov",
+  "source_url": "https://catalog.archives.gov/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "catalogue",
+   "records",
+   "us",
+   "search"
+  ],
+  "notable": "Online portal to the records held at the US National Archives.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Louvre Collections Database",
+  "url": "https://collections.louvre.fr/en/",
+  "source": "louvre.fr",
+  "source_url": "https://collections.louvre.fr/en/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "collection",
+   "database",
+   "louvre",
+   "search"
+  ],
+  "notable": "Database with entries for more than 480,000 works from the Louvre and the Musee national Eugene-Delacroix.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Van Gogh Museum Collection",
+  "url": "https://www.vangoghmuseum.nl/en/collection",
+  "source": "vangoghmuseum.nl",
+  "source_url": "https://www.vangoghmuseum.nl/en/collection",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "collection",
+   "artist-focused",
+   "letters",
+   "paintings"
+  ],
+  "notable": "Explore over 1,000 paintings, drawings and letters by Vincent van Gogh.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "LUX Yale Collections Discovery",
+  "url": "https://lux.collections.yale.edu/",
+  "source": "yale.edu",
+  "source_url": "https://lux.collections.yale.edu/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "cross-collection",
+   "discovery",
+   "university",
+   "linked-data"
+  ],
+  "notable": "Discovery layer that searches across Yale's museums, libraries and archives at once.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Walker Art Center Collection",
+  "url": "https://walkerart.org/collections",
+  "source": "walkerart.org",
+  "source_url": "https://walkerart.org/collections",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "collection",
+   "art",
+   "museum",
+   "search"
+  ],
+  "notable": "Collection of visual, performing and media arts since 1940.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Royal Museums Greenwich Collections",
+  "url": "https://www.rmg.co.uk/collections",
+  "source": "rmg.co.uk",
+  "source_url": "https://www.rmg.co.uk/collections",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "maritime",
+   "astronomy",
+   "timekeeping",
+   "collection"
+  ],
+  "notable": "Explore seafaring history, timekeeping and astronomy, fine art and the world's largest maritime collection.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "WikiArt",
+  "url": "https://www.wikiart.org/",
+  "source": "wikiart.org",
+  "source_url": "https://www.wikiart.org/",
+  "year": null,
+  "category": "museum-collection",
+  "tags": [
+   "encyclopedia",
+   "paintings",
+   "searchable",
+   "visual-art"
+  ],
+  "notable": "Visual art encyclopedia with searchable paintings and photographs.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Project Gutenberg",
+  "url": "https://www.gutenberg.org/",
+  "source": "gutenberg.org",
+  "source_url": "https://www.gutenberg.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "ebooks",
+   "public-domain",
+   "long-running",
+   "text"
+  ],
+  "notable": "Library of free eBooks, with choice of formats or reading online.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Standard Ebooks",
+  "url": "https://standardebooks.org/",
+  "source": "standardebooks.org",
+  "source_url": "https://standardebooks.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "ebooks",
+   "typography",
+   "public-domain",
+   "curated"
+  ],
+  "notable": "Free and liberated ebooks, carefully produced for the true book lover.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "The Public Domain Review",
+  "url": "https://publicdomainreview.org/",
+  "source": "publicdomainreview.org",
+  "source_url": "https://publicdomainreview.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "curation",
+   "public-domain",
+   "essays",
+   "collections"
+  ],
+  "notable": "Online journal showcasing interesting and unusual out-of-copyright works available on the web.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Public Domain Review Collections",
+  "url": "https://publicdomainreview.org/collections",
+  "source": "publicdomainreview.org",
+  "source_url": "https://publicdomainreview.org/collections",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "image-collections",
+   "curation",
+   "public-domain",
+   "themes"
+  ],
+  "notable": "Curated collections of images, books, audio and film, shining a light on curiosities.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "UbuWeb",
+  "url": "https://www.ubu.com/",
+  "source": "ubu.com",
+  "source_url": "https://www.ubu.com/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "avant-garde",
+   "archive",
+   "plain-html",
+   "film-sound"
+  ],
+  "notable": "Long-running archive of avant-garde art presented as a plain, text-heavy index.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Monoskop",
+  "url": "https://monoskop.org/",
+  "source": "monoskop.org",
+  "source_url": "https://monoskop.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "wiki",
+   "arts",
+   "media-theory",
+   "library"
+  ],
+  "notable": "Wiki for arts and studies.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Webrecorder",
+  "url": "https://webrecorder.net/",
+  "source": "webrecorder.net",
+  "source_url": "https://webrecorder.net/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "web-archiving",
+   "tools",
+   "replay",
+   "open-source"
+  ],
+  "notable": "Open-source solutions for archiving the complex, interactive web.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "ReplayWeb.page",
+  "url": "https://replayweb.page/",
+  "source": "webrecorder.net",
+  "source_url": "https://replayweb.page/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "web-archive",
+   "replay",
+   "browser",
+   "wacz"
+  ],
+  "notable": "Browser-based viewer for web archive files.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "oldweb.today",
+  "url": "https://oldweb.today/",
+  "source": "oldweb.today",
+  "source_url": "https://oldweb.today/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "web-archive",
+   "emulated-browsers",
+   "time-travel",
+   "playable-archive"
+  ],
+  "notable": "Lets visitors browse archived web pages using emulated old browsers.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Flickr Commons",
+  "url": "https://www.flickr.com/commons",
+  "source": "flickr.com",
+  "source_url": "https://www.flickr.com/commons",
+  "year": 2008,
+  "category": "archive-interface",
+  "tags": [
+   "images",
+   "institutions",
+   "commons",
+   "public-photos"
+  ],
+  "notable": "Programme launched in 2008 with the Library of Congress that shares hidden treasures from the world's photographic archives.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "IIIF",
+  "url": "https://iiif.io/",
+  "source": "iiif.io",
+  "source_url": "https://iiif.io/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "standard",
+   "images",
+   "interoperability",
+   "viewers"
+  ],
+  "notable": "Open standards for delivering high-quality digital objects online at scale, behind most museum zoom viewers.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Mirador",
+  "url": "https://projectmirador.org/",
+  "source": "projectmirador.org",
+  "source_url": "https://projectmirador.org/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "viewer",
+   "iiif",
+   "compare",
+   "open-source"
+  ],
+  "notable": "Image viewer for IIIF content that can compare multiple objects side by side.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Universal Viewer",
+  "url": "https://universalviewer.io/",
+  "source": "universalviewer.io",
+  "source_url": "https://universalviewer.io/",
+  "year": null,
+  "category": "archive-interface",
+  "tags": [
+   "viewer",
+   "iiif",
+   "embeddable",
+   "multimedia"
+  ],
+  "notable": "One interface for images, multimedia, documents and 3D models.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "Chrome Experiments: 100,000 Stars",
+  "url": "https://stars.chromeexperiments.com/",
+  "source": "chromeexperiments.com",
+  "source_url": "https://stars.chromeexperiments.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "stars",
+   "3d",
+   "zoom",
+   "universe"
+  ],
+  "notable": "Interactive visualisation of nearby stars that lets you zoom out from the Sun.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "SunCalc",
+  "url": "https://www.suncalc.org/",
+  "source": "suncalc.org",
+  "source_url": "https://www.suncalc.org/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "sun",
+   "map",
+   "time-slider",
+   "shadows"
+  ],
+  "notable": "Shows sun position and shadow length on a map for any date.",
+  "liveness": "200 ok"
+ },
+ {
+  "name": "SkylineWebcams",
+  "url": "https://www.skylinewebcams.com/",
+  "source": "skylinewebcams.com",
+  "source_url": "https://www.skylinewebcams.com/",
+  "year": null,
+  "category": "world-navigation",
+  "tags": [
+   "webcams",
+   "live",
+   "world",
+   "directory"
+  ],
+  "notable": "Live HD webcams broadcasting from the world.",
+  "liveness": "200 ok"
+ }
+]

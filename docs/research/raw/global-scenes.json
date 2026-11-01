@@ -1,0 +1,3894 @@
+[
+ {
+  "name": "Tomoya Okada portfolio v7",
+  "url": "https://v7.usestate.org/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18972.html",
+  "year": 2025,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "webgl",
+   "page-transition",
+   "astro",
+   "versioned-portfolio"
+  ],
+  "notable": "The seventh public rebuild of the same engineer's portfolio, tagged WebGL/3D and page-transition by MUUUUU, with the version number baked into the hostname itself."
+ },
+ {
+  "name": "TAIKI SATO Portfolio",
+  "url": "https://taikisato.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18716.html",
+  "year": 2025,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "art-direction",
+   "visual-design",
+   "astro",
+   "canvas",
+   "tokyo"
+  ],
+  "notable": "Tokyo visual designer and art director's portfolio, credited to Taiki Sato and Rowicy, filed under MUUUUU's design/art category and built on Astro with a canvas layer."
+ },
+ {
+  "name": "Kaito Note",
+  "url": "https://kaitonote.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18921.html",
+  "year": 2025,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "motion-designer",
+   "web-developer",
+   "webgl",
+   "page-transition",
+   "osaka"
+  ],
+  "notable": "Osaka motion designer and web developer's own site (credit Kaito Note / VANSCH), tagged WebGL-3D and page-transition on MUUUUU and using Lenis smooth scroll plus a canvas."
+ },
+ {
+  "name": "Junji Yamazaki Portfolio",
+  "url": "https://junji-yamazaki.design/",
+  "source": "Web Design Clip",
+  "source_url": "https://webdesignclip.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "designer",
+   "three.js",
+   "locomotive-scroll",
+   "webgl",
+   "canvas"
+  ],
+  "notable": "A designer's portfolio that loads three.js, Locomotive Scroll and a WebGL canvas, one of 43 entries in Web Design Clip's portfolio category."
+ },
+ {
+  "name": "Hiroki Shimoda portfolio 2025",
+  "url": "https://hirokishimoda.site/",
+  "source": "Web Design Clip",
+  "source_url": "https://webdesignclip.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "annual-portfolio",
+   "webgl",
+   "canvas",
+   "minimal"
+  ],
+  "notable": "A dated 'portfolio 2025' site with a WebGL canvas and no meta description at all, a bare-bones entry in Web Design Clip's portfolio list."
+ },
+ {
+  "name": "Izumi Tanaka, Animator",
+  "url": "https://www.izumi-tanaka.com/",
+  "source": "Web Design Clip",
+  "source_url": "https://webdesignclip.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "animator",
+   "hand-drawn",
+   "gif",
+   "webflow"
+  ],
+  "notable": "Animator Izumi Tanaka's Webflow portfolio presenting hand-drawn animation, GIF pieces and music-video work."
+ },
+ {
+  "name": "Shinya Matsuyama",
+  "url": "https://shinyamatsuyama.com/",
+  "source": "Web Design Clip",
+  "source_url": "https://webdesignclip.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "technology-artist",
+   "next.js",
+   "artworks"
+  ],
+  "notable": "Portfolio of technology artist Shinya Matsuyama showing artworks and commissioned projects, built with Next.js."
+ },
+ {
+  "name": "Marginal Man",
+  "url": "https://marginalman.net/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/16678.html",
+  "year": 2023,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "art",
+   "webgl",
+   "page-transition",
+   "next.js",
+   "canvas"
+  ],
+  "notable": "A portfolio MUUUUU files under both design/art and page-transition, with a WebGL canvas on a Next.js build."
+ },
+ {
+  "name": "bokoko33 (Kamaboko no heya)",
+  "url": "https://bokoko33.me/",
+  "source": "Web Design Clip",
+  "source_url": "https://webdesignclip.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "developer",
+   "side-projects",
+   "canvas",
+   "personal-site"
+  ],
+  "notable": "A salaried web developer's personal site where he publishes the websites he makes on his own time, with a canvas layer."
+ },
+ {
+  "name": "Komae no Temae",
+  "url": "https://koma-works.com/",
+  "source": "Web Design Clip",
+  "source_url": "https://webdesignclip.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "web-designer",
+   "illustration",
+   "gsap",
+   "lenis",
+   "canvas"
+  ],
+  "notable": "Freelance web designer Komae's portfolio (illustration and logo work too), using GSAP, Lenis and a canvas."
+ },
+ {
+  "name": "Ryo Hashimoto",
+  "url": "https://ryohashimoto.com/",
+  "source": "Web Design Clip",
+  "source_url": "https://webdesignclip.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "portfolio",
+   "nuxt",
+   "canvas"
+  ],
+  "notable": "Ryo Hashimoto's English-language portfolio on Nuxt with a canvas layer, from Web Design Clip's portfolio category."
+ },
+ {
+  "name": "Wolph Type",
+  "url": "https://wolphtype.com/",
+  "source": "Web Design Clip",
+  "source_url": "https://webdesignclip.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "type-foundry",
+   "latin-typefaces",
+   "typography"
+  ],
+  "notable": "One-person type foundry by Mao Ando that designs Latin text typefaces, presented as a portfolio in Web Design Clip."
+ },
+ {
+  "name": "ikeryou.jp (Ryo Ikeda)",
+  "url": "https://ikeryou.jp/",
+  "source": "Web Design Clip",
+  "source_url": "https://webdesignclip.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "creative-coder",
+   "devdev",
+   "toyama",
+   "canvas",
+   "motion"
+  ],
+  "notable": "Creative coder Ryo Ikeda's site; he is a programmer born in 1985 in Toyama, president of devdev Inc. and a Nauts member, and the site is billed around moving web work."
+ },
+ {
+  "name": "Kaisei Sadatoki Portfolio V4",
+  "url": "https://kaiseisadatoki-v4.vercel.app/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/orange/23641.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "freelance",
+   "developer-designer",
+   "page-transition",
+   "astro",
+   "versioned-portfolio"
+  ],
+  "notable": "A freelance developer-designer's fourth portfolio iteration hosted on Vercel, tagged page-transition on MUUUUU."
+ },
+ {
+  "name": "Daisuke Matsumoto",
+  "url": "https://daisukematsumoto.com/",
+  "source": "S5-Style",
+  "source_url": "https://www.s5-style.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "photography",
+   "street-photography",
+   "astro"
+  ],
+  "notable": "Street photographs by designer-photographer Daisuke Matsumoto on an Astro build that S5-Style lists in its gallery."
+ },
+ {
+  "name": "Toshiyuki Hashimoto",
+  "url": "https://toshiyukihashimoto.jp/",
+  "source": "SANKOU!",
+  "source_url": "https://sankoudesign.com/web/toshiyukihashimoto/",
+  "year": 2026,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "creative-archive",
+   "film",
+   "space",
+   "book"
+  ],
+  "notable": "A creative director's archive spanning film, space, design and technology over about twenty years, published as SANKOU! featured it alongside his June 2026 Kodansha book."
+ },
+ {
+  "name": "Shunsuke Satake",
+  "url": "https://shunsukesatake.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/17670.html",
+  "year": 2024,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "illustrator",
+   "character-design",
+   "page-transition"
+  ],
+  "notable": "Illustrator and character designer's portfolio credited to NASU and ADRIATIC, filed under MUUUUU's art category with page transitions."
+ },
+ {
+  "name": "Illustrator Doisena Portfolio",
+  "url": "https://doisena.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18107.html",
+  "year": 2024,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "illustrator",
+   "barba",
+   "page-transition"
+  ],
+  "notable": "Illustrator Doisena's portfolio built by Golden Record and Dot-Line-Form, with Barba page transitions in the markup."
+ },
+ {
+  "name": "ium",
+  "url": "https://ium.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/22630.html",
+  "year": 2025,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "independent-studio",
+   "branding",
+   "webgl-3d",
+   "page-transition"
+  ],
+  "notable": "Independent design studio ium's own site with English-first copy, tagged WebGL-3D and page-transition; the studio is credited on several other sites in this list."
+ },
+ {
+  "name": "NSSG",
+  "url": "https://nssg.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/22656.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "branding",
+   "art-direction",
+   "packaging",
+   "webgl-3d"
+  ],
+  "notable": "Multi-discipline studio spanning branding, art direction, packaging, photography and architecture, tagged WebGL-3D and page-transition on MUUUUU."
+ },
+ {
+  "name": "Golden Record inc.",
+  "url": "https://www.goldenrecord.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/school/18970.html",
+  "year": 2025,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "design-studio",
+   "horizontal-scroll",
+   "webgl-3d",
+   "barba"
+  ],
+  "notable": "Design studio site that MUUUUU tags for both horizontal scroll and WebGL-3D; the studio co-built the Doisena illustrator portfolio."
+ },
+ {
+  "name": "Spicato",
+  "url": "https://spicato.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18470.html",
+  "year": 2019,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "osaka",
+   "branding",
+   "astro",
+   "typography"
+  ],
+  "notable": "Osaka and Wakayama branding studio, also a credit on the Japan Typography Association and DoKomi sites in this list."
+ },
+ {
+  "name": "FunTech inc.",
+  "url": "https://www.funtech.inc/ja",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/black/18104.html",
+  "year": 2024,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "creative-studio",
+   "generative",
+   "webgl-3d",
+   "rive"
+  ],
+  "notable": "Creative studio credited on Goodpatch, Miroom and SCRAMBLE LABEL; its own site is tagged WebGL-3D and generative-design on MUUUUU and uses Rive."
+ },
+ {
+  "name": "monaka design.",
+  "url": "https://monakadesign.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/white/23663.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "framer",
+   "studio.design",
+   "three.js",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Small design studio that sells corporate, recruiting and LP sites on Framer and STUDIO, and whose own page loads three.js, GSAP and Lenis."
+ },
+ {
+  "name": "JXL Inc.",
+  "url": "https://jxl.co.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18762.html",
+  "year": 2025,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "graphic-production",
+   "video",
+   "astro",
+   "webgl-3d"
+  ],
+  "notable": "Graphic and video production company credited to ingraft, Sunny, unshift and Nauts, tagged WebGL-3D and page-transition."
+ },
+ {
+  "name": "mount inc.",
+  "url": "https://mount.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/23269.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "brand-strategy",
+   "design-practice",
+   "background-motion"
+  ],
+  "notable": "Brand-strategy and design practice credited on the Monex introduction and AFURI BREWING sites; its own site sits in MUUUUU's art and background-motion lists."
+ },
+ {
+  "name": "STUDIO DETAILS",
+  "url": "https://www.details.co.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/area/16153.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "brand-firm",
+   "strategy",
+   "astro",
+   "lottie"
+  ],
+  "notable": "Brand firm credited on Billboard Live, TYO recruiting and Toyokoh; site tagged parallax and art on MUUUUU."
+ },
+ {
+  "name": "Konel Inc.",
+  "url": "https://www.konel.co.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/24017.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "creative-company",
+   "tokyo-ny-milan",
+   "next.js"
+  ],
+  "notable": "Creative company with bases in Japan, New York and Milan, credited with dotbind on its own MUUUUU entry."
+ },
+ {
+  "name": "SHIFTBRAIN inc.",
+  "url": "https://shiftbrain.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/white/14094.html",
+  "year": 2021,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "branding-studio",
+   "three.js",
+   "webgl",
+   "barba",
+   "framer"
+  ],
+  "notable": "Branding studio credited on UNION TEC, Asobica and TBWA\\HAKUHODO; its own page loads three.js, WebGL, Barba and Framer."
+ },
+ {
+  "name": "PARTY",
+  "url": "https://prty.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/16808.html",
+  "year": 2023,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "spatial-experience",
+   "webgl",
+   "nuxt",
+   "art"
+  ],
+  "notable": "Studio that concepts and builds spaces and experiences by fusing technology and narrative, tagged WebGL-3D and art on MUUUUU."
+ },
+ {
+  "name": "VUILD",
+  "url": "https://vuild.co.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/building/17093.html",
+  "year": 2023,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "architecture-startup",
+   "three.js",
+   "generative",
+   "digital-fabrication"
+  ],
+  "notable": "Architecture startup whose mission is to let anyone become a maker; its site loads three.js and GSAP and is tagged WebGL-3D and generative-design."
+ },
+ {
+  "name": "DESIGN STUDIO K",
+  "url": "https://ds-k.site/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/22836.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "yamagata",
+   "branding",
+   "webgl",
+   "astro",
+   "lottie"
+  ],
+  "notable": "Yamagata-based branding and UI/UX studio whose site uses WebGL, GSAP and Astro; it also credits the MEDIUM lab site in Sendai."
+ },
+ {
+  "name": "Ceep",
+  "url": "https://ceep.co.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/black/17630.html",
+  "year": 2024,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "iwaki",
+   "fukushima",
+   "three.js",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Studio in Iwaki, Fukushima doing branding, web, photography and DX, tagged WebGL-3D on MUUUUU with three.js and Lenis in the page."
+ },
+ {
+  "name": "and inc.",
+  "url": "https://and-dsgn.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/taglist/topjs/25160.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "kumamoto",
+   "branding",
+   "webgl",
+   "astro",
+   "canvas"
+  ],
+  "notable": "Kumamoto creative company (branding, graphic, web, video) credited to DDD, with WebGL and a canvas on an Astro build."
+ },
+ {
+  "name": "mud Inc.",
+  "url": "https://mud.co.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/gray/24575.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "experience-design",
+   "generative",
+   "webgl",
+   "page-transition"
+  ],
+  "notable": "Creative studio whose line is 'shaping things while mixing'; MUUUUU tags it generative-design and page-transition and the markup includes WebGL."
+ },
+ {
+  "name": "NOSIGNER",
+  "url": "https://nosigner.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/19390.html",
+  "year": 2025,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "evolutionary-design",
+   "webgl-3d",
+   "dynamic-motion",
+   "astro"
+  ],
+  "notable": "Evolutionary design firm 'Design for Evolution' with a site tagged WebGL-3D and dynamic motion on MUUUUU."
+ },
+ {
+  "name": "Hitorigocochi Inc.",
+  "url": "https://hitorigocochi.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/24159.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "symbol-design",
+   "studio.design",
+   "nuxt"
+  ],
+  "notable": "Symbol-design studio whose pitch is to find your 'sense of being alone' (ひとりごこち); listed in MUUUUU's art category and built on STUDIO."
+ },
+ {
+  "name": "MEDIUM",
+  "url": "https://mediumlab.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/white/24793.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "editorial-story",
+  "tags": [
+   "sendai",
+   "communication-lab",
+   "gsap",
+   "print-heritage"
+  ],
+  "notable": "Communication design lab in a renovated Sendai printing factory, credited to DESIGN STUDIO K and shown on MUUUUU's animated-top-page list."
+ },
+ {
+  "name": "NEURON",
+  "url": "https://www.neuron-tokyo.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/19272.html",
+  "year": 2025,
+  "region": "Japan",
+  "category": "event-campaign",
+  "tags": [
+   "design-community",
+   "tokyo",
+   "baqemono",
+   "dynamic-motion"
+  ],
+  "notable": "Site for NEURON, a design-field gathering started in 2023 for people to share ideas, credited to baqemono."
+ },
+ {
+  "name": "ETOHA LAB",
+  "url": "https://etoha-lab.co.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/24559.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "fukuoka",
+   "tokyo",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Fukuoka and Tokyo design company doing web, graphic and branding, appearing in MUUUUU's art category."
+ },
+ {
+  "name": "HERALBONY",
+  "url": "https://www.heralbony.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/17938.html",
+  "year": 2024,
+  "region": "Japan",
+  "category": "product-brand",
+  "tags": [
+   "art-licensing",
+   "disability-art",
+   "horizontal-scroll",
+   "lottie"
+  ],
+  "notable": "Corporate site for HERALBONY, which licenses artworks by artists with disabilities under the mission 'Let the extraordinary shine'; credited ium and Snipe, tagged horizontal scroll."
+ },
+ {
+  "name": "syuz'gen",
+  "url": "https://syuzgen.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/24155.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "performing-arts",
+   "horizontal-scroll",
+   "studio.design",
+   "lottie"
+  ],
+  "notable": "Art-management team for the stage arts, whose STUDIO-built site is tagged horizontal scroll and page-transition on MUUUUU."
+ },
+ {
+  "name": "Ochill",
+  "url": "https://ochill.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/beauty/16622.html",
+  "year": 2023,
+  "region": "Japan",
+  "category": "experimental-art",
+  "tags": [
+   "meditation",
+   "webgl-3d",
+   "barba",
+   "lenis",
+   "psychedelic"
+  ],
+  "notable": "Site for a 'new Japanese-style meditation room' whose copy says 'naturally psychedelics, experimental'; MUUUUU tags it WebGL-3D and the page loads Lenis, Barba and Lottie."
+ },
+ {
+  "name": "NDC On-Screen Studio",
+  "url": "https://ndcosd.jp/",
+  "source": "S5-Style",
+  "source_url": "https://www.s5-style.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "nippon-design-center",
+   "on-screen-media",
+   "framer",
+   "lottie"
+  ],
+  "notable": "Nippon Design Center's on-screen team site, a design group focused on the particularity of screen media, built with Framer and Lottie."
+ },
+ {
+  "name": "Japan Typography Association",
+  "url": "https://typography.or.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/24665.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "editorial-story",
+  "tags": [
+   "typography",
+   "nonprofit",
+   "next.js",
+   "collaboration"
+  ],
+  "notable": "The Japan Typography Association's website, credited to four design parties (COSYDESIGN, OGAWAYOUHEI DESIGN, Shoho Design, spicato)."
+ },
+ {
+  "name": "GOENSAI, Design Studio L 50th",
+  "url": "https://50th.designstudio-l.jp/",
+  "source": "SANKOU!",
+  "source_url": "https://sankoudesign.com/web/designstudiol-50th/",
+  "year": null,
+  "region": "Japan",
+  "category": "event-campaign",
+  "tags": [
+   "anniversary",
+   "festival",
+   "gsap",
+   "wordpress"
+  ],
+  "notable": "Design Studio L's fiftieth-anniversary site framed as a festival called Goensai ('five-circle festival'), celebrating its October 2026 milestone."
+ },
+ {
+  "name": "POP IS YOU SAKAE 2026",
+  "url": "https://popisyousakae.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/entertainment/24789.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "event-campaign",
+  "tags": [
+   "pop-culture",
+   "festival",
+   "nagoya",
+   "dynamic-motion"
+  ],
+  "notable": "Site for a Nagoya Sakae pop-culture festival covering anime, art and cosplay, tagged dynamic motion and background motion on MUUUUU."
+ },
+ {
+  "name": "NITTOH 100 PICNIC",
+  "url": "https://100th.nittoh-tea.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/food/24937.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "event-campaign",
+  "tags": [
+   "anniversary",
+   "tea",
+   "studio.design",
+   "picnic"
+  ],
+  "notable": "Nittoh Tea's 100th-anniversary microsite built around the 'NITTOH 100 PICNIC' idea, credited to The Moose, YOMA inc. and KOOO and built on STUDIO."
+ },
+ {
+  "name": "BUMP OF CHICKEN 30th Anniversary",
+  "url": "https://bumpofchicken-30th.com/",
+  "source": "S5-Style",
+  "source_url": "https://www.s5-style.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "event-campaign",
+  "tags": [
+   "band",
+   "anniversary",
+   "webgl",
+   "next.js"
+  ],
+  "notable": "Thirtieth-anniversary site for the band BUMP OF CHICKEN that S5-Style lists, with WebGL in the page."
+ },
+ {
+  "name": "OKINA PROJECT",
+  "url": "https://www.okina-pj.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/entertainment/14907.html",
+  "year": 2021,
+  "region": "Japan",
+  "category": "editorial-story",
+  "tags": [
+   "noh",
+   "research",
+   "webgl-3d",
+   "next.js"
+  ],
+  "notable": "Research-style site that investigates the origins of the Noh ritual piece 'Okina', tagged WebGL-3D and entertainment on MUUUUU."
+ },
+ {
+  "name": "TOKYO NODE",
+  "url": "https://www.tokyonode.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/shopping/16904.html",
+  "year": 2023,
+  "region": "Japan",
+  "category": "event-campaign",
+  "tags": [
+   "venue",
+   "generative",
+   "background-motion",
+   "webflow"
+  ],
+  "notable": "Info hub for the TOKYO NODE venue in Toranomon Hills Station Tower (opened October 2023), tagged generative-design and background-motion on MUUUUU."
+ },
+ {
+  "name": "KINDAI GRAFFITI",
+  "url": "https://kindai-graffiti.kindai.ac.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/school/24700.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "editorial-story",
+  "tags": [
+   "university",
+   "student-voices",
+   "interviews",
+   "animation"
+  ],
+  "notable": "Kindai University's site compiled from interviews with a thousand students about study, play and daily life, shown on MUUUUU's animated-top-page list."
+ },
+ {
+  "name": "Okayama Art Summit",
+  "url": "https://www.okayamaartsummit.jp/2022/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/15840.html",
+  "year": 2019,
+  "region": "Japan",
+  "category": "event-campaign",
+  "tags": [
+   "art-festival",
+   "triennial",
+   "gsap",
+   "page-transition"
+  ],
+  "notable": "Site for the triennial Okayama Art Summit international contemporary art exhibition around Okayama Castle, credited to STAND FOUNDATION."
+ },
+ {
+  "name": "JAPAN Design Resource Database",
+  "url": "https://designdesigndesign.go.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18864.html",
+  "year": 2025,
+  "region": "Japan",
+  "category": "editorial-story",
+  "tags": [
+   "archive",
+   "design-history",
+   "astro",
+   "canvas"
+  ],
+  "notable": "A networked archive of past Japanese design resources, credited to Abstract Engine, Nadia and armsnox and built on Astro."
+ },
+ {
+  "name": "Mikaku Henshu (Taste Editing)",
+  "url": "https://mikakuhenshu.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/food/24966.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "editorial-story",
+  "tags": [
+   "food",
+   "taste",
+   "curiosity",
+   "sankou"
+  ],
+  "notable": "A site whose tagline is 'more taste-curiosity in the world', featured by both SANKOU! and MUUUUU in autumn 2026."
+ },
+ {
+  "name": "Kaneko Optical: Sabae to the World",
+  "url": "https://www.kaneko-optical.co.jp/sabae-world/index.html",
+  "source": "S5-Style",
+  "source_url": "https://www.s5-style.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "product-brand",
+  "tags": [
+   "eyewear",
+   "craft",
+   "flagship-store",
+   "lenis"
+  ],
+  "notable": "Special site for the flagship Sabae store of eyewear maker Kaneko Optical, tracing the brand's origin and the craft culture of Sabae."
+ },
+ {
+  "name": "SURUtto x Sadako campaign",
+  "url": "https://surutto-official.jp/sadako-campaign/",
+  "source": "SANKOU!",
+  "source_url": "https://sankoudesign.com/web/suruttosadako/",
+  "year": null,
+  "region": "Japan",
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "humor",
+   "gsap",
+   "astro"
+  ],
+  "notable": "A hair-smoothing brand's campaign in which the long-haired ghost Sadako shows her smoothing routine, built on Astro with GSAP."
+ },
+ {
+  "name": "4kake",
+  "url": "https://4kake.com/",
+  "source": "SANKOU!",
+  "source_url": "https://sankoudesign.com/web/4kake/",
+  "year": 2026,
+  "region": "Japan",
+  "category": "product-brand",
+  "tags": [
+   "product-label",
+   "shikake",
+   "playful",
+   "next.js"
+  ],
+  "notable": "A product label that weaves small 'shikake' (trick mechanisms) into daily life, featured by SANKOU! in August 2026 with English-and-Japanese copy."
+ },
+ {
+  "name": "Tanica",
+  "url": "https://tanica.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/electrical/25036.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "product-brand",
+  "tags": [
+   "yogurt-maker",
+   "page-transition",
+   "canvas",
+   "next.js"
+  ],
+  "notable": "Japan's pioneering yogurt-maker brand, credited to Soulmates Interactive, studio point and TRANSIT, tagged page-transition and shown by MUUUUU, SANKOU! and S5-Style."
+ },
+ {
+  "name": "Sanga (Atami ryokan)",
+  "url": "https://atami-sanga.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/trip/25107.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "product-brand",
+  "tags": [
+   "hotel",
+   "onsen",
+   "studio.design",
+   "parallax"
+  ],
+  "notable": "All-private open-air-bath ryokan in Ajiro, Atami, credited to Re:design, built on STUDIO and featured by MUUUUU, SANKOU!, Web Design Clip and S5-Style."
+ },
+ {
+  "name": "yama-niwa",
+  "url": "https://yama-niwa.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/trip/24827.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "product-brand",
+  "tags": [
+   "hostel",
+   "nakasendo",
+   "astro",
+   "lottie"
+  ],
+  "notable": "Hostel, bakery and gear shop in a former junior-high school in Narai-juku on the Nakasendo trail, credited to Re:design and HOLON."
+ },
+ {
+  "name": "MiSO TONE",
+  "url": "https://misotone.m-hand.co.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/area/17836.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "editorial-story",
+  "tags": [
+   "kyoto",
+   "temples-shrines",
+   "film",
+   "horizontal-scroll"
+  ],
+  "notable": "Window onto Kyoto shrines and temples through beautiful film, credited to M-HAND and tagged horizontal scroll and WebGL-3D on MUUUUU."
+ },
+ {
+  "name": "We-Being Project",
+  "url": "https://we-being.net/",
+  "source": "S5-Style",
+  "source_url": "https://www.s5-style.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "editorial-story",
+  "tags": [
+   "wellbeing",
+   "kokuyo",
+   "research",
+   "canvas"
+  ],
+  "notable": "KOKUYO and a Kyoto University researcher reframe happiness from 'I' to 'we' on a canvas-driven editorial site."
+ },
+ {
+  "name": "Nagorioshii Yoru",
+  "url": "https://nagorioshi-yoru.studio.site/",
+  "source": "SANKOU!",
+  "source_url": "https://sankoudesign.com/web/nagorioshiyoru/",
+  "year": null,
+  "region": "Japan",
+  "category": "event-campaign",
+  "tags": [
+   "creator-meetup",
+   "nagoya",
+   "studio.design"
+  ],
+  "notable": "Official site of a Nagoya creator meetup called 'A night hard to leave', built on STUDIO and listed by SANKOU!."
+ },
+ {
+  "name": "Tabun Daijoubu",
+  "url": "https://tabundaijoubu.jp/",
+  "source": "SANKOU!",
+  "source_url": "https://sankoudesign.com/web/tabundaijoubu/",
+  "year": null,
+  "region": "Japan",
+  "category": "portfolio-person",
+  "tags": [
+   "photography",
+   "portraits",
+   "photographers",
+   "grid"
+  ],
+  "notable": "A photo site titled 'Probably fine' that shows portraits of Japanese public figures in a thumbnail grid filterable by photographer.",
+  "mechanic": "The visitor filters the grid by photographer, causing the thumbnail wall to narrow to one person's work, which opens into individual portrait pages."
+ },
+ {
+  "name": "Musu Goka Sauna",
+  "url": "https://musu-sauna.com/",
+  "source": "S5-Style",
+  "source_url": "https://www.s5-style.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "product-brand",
+  "tags": [
+   "sauna",
+   "kyoto",
+   "farmhouse",
+   "lenis"
+  ],
+  "notable": "Private outdoor sauna in a renovated 100-year-old farmhouse in northern Kyoto with Lenis smooth scrolling, featured by SANKOU!."
+ },
+ {
+  "name": "Sanwa Koutsu Freshers",
+  "url": "https://freshers.sanwakoutsu.co.jp/",
+  "source": "SANKOU!",
+  "source_url": "https://sankoudesign.com/web/sanwakoutsufreshers/",
+  "year": null,
+  "region": "Japan",
+  "category": "event-campaign",
+  "tags": [
+   "recruiting",
+   "taxi",
+   "humor",
+   "wordpress"
+  ],
+  "notable": "A taxi company's graduate-recruiting site whose tagline is the movie cliché 'Follow that taxi!' (前のタクシーを追ってくれ)."
+ },
+ {
+  "name": "MOV KURAMAE",
+  "url": "https://mov-kuramae.kokuyo.com/",
+  "source": "SANKOU!",
+  "source_url": "https://sankoudesign.com/web/movkuramae/",
+  "year": null,
+  "region": "Japan",
+  "category": "product-brand",
+  "tags": [
+   "coworking",
+   "kokuyo",
+   "gsap",
+   "furnished-office"
+  ],
+  "notable": "KOKUYO's furnished shared-office site for Kuramae and Asakusabashi that SANKOU! featured in the same October 2026 batch."
+ },
+ {
+  "name": "Sun Bousai",
+  "url": "https://sunbousai.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/building/25071.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "fire-safety",
+   "wordpress",
+   "background-motion"
+  ],
+  "notable": "A Yamanashi fire-protection contractor's site that nevertheless got picked by SANKOU! and MUUUUU in the same period."
+ },
+ {
+  "name": "Kuma Web",
+  "url": "https://kumaweb-coding.jp/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/colorful/24817.html",
+  "year": 2026,
+  "region": "Japan",
+  "category": "studio-agency",
+  "tags": [
+   "coding-service",
+   "horizontal-scroll",
+   "colorful",
+   "next.js"
+  ],
+  "notable": "Outsourced front-end coding service branded with a bear, credited to MONBRAN and tagged horizontal scroll and colorful on MUUUUU."
+ },
+ {
+  "name": "Weekends (위켄즈)",
+  "url": "https://weekends.co.kr/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25969",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "studio-agency",
+  "tags": [
+   "pop-up",
+   "experience-design",
+   "three.js",
+   "matter.js",
+   "gsap"
+  ],
+  "notable": "Korean pop-up-experience agency whose page loads three.js, GSAP, Lenis and Matter.js, and whose home page leads with figures (10B+ sales, 16 staff, 25+ yearly clients) under the line about shaping 'scenes, experiences, weekends'."
+ },
+ {
+  "name": "NINEONELABS",
+  "url": "https://nineonelabs.co.kr/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25904",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "studio-agency",
+  "tags": [
+   "interactive-web",
+   "three.js",
+   "webgl",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Korean agency that sells interactive websites outright, and its own page loads three.js, WebGL, GSAP, Lenis and a canvas."
+ },
+ {
+  "name": "Soijeong",
+  "url": "https://www.soijeong.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25914",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "studio-agency",
+  "tags": [
+   "corporate-sites",
+   "3d-interactive",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Korean agency specialising in corporate and hospital sites that advertises 3D interactive design and loads three.js and WebGL, listed by DBCUT."
+ },
+ {
+  "name": "PLAN A-Z",
+  "url": "https://plan-az.com",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2025,
+  "region": "South Korea",
+  "category": "studio-agency",
+  "tags": [
+   "interactive-development",
+   "web-agency",
+   "gsap",
+   "canvas"
+  ],
+  "notable": "Web agency pitching a single flow from brand strategy through UX to interactive development, with GSAP, Lenis and a canvas on the page."
+ },
+ {
+  "name": "StudioXlab",
+  "url": "https://www.studioxlab.co.kr/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25869",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "studio-agency",
+  "tags": [
+   "branding",
+   "motion",
+   "3d-visuals",
+   "lenis"
+  ],
+  "notable": "Creative studio covering branding, web, motion and 3D visuals, listed by DBCUT."
+ },
+ {
+  "name": "StudioKyle",
+  "url": "https://www.studiokyle.kr/",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "studio-agency",
+  "tags": [
+   "identity",
+   "packaging",
+   "gsap",
+   "splitting-text"
+  ],
+  "notable": "Studio that raises brands from identity and package design through to web, with GSAP and split-text animation."
+ },
+ {
+  "name": "MYZ Studio",
+  "url": "https://myz-studio.com/",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "studio-agency",
+  "tags": [
+   "design-web-vmd",
+   "team",
+   "gsap",
+   "canvas"
+  ],
+  "notable": "A three-person-profile studio (a 14-year ad designer, an 11-year full-stack developer and an 11-year VMD) that sells design and web builds as one team."
+ },
+ {
+  "name": "Two More Steps",
+  "url": "https://twomos.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25960",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "studio-agency",
+  "tags": [
+   "brand-design",
+   "web-development",
+   "next.js"
+  ],
+  "notable": "Korean brand-design and web-development studio whose portfolio site DBCUT and GDWEB both listed in October 2026."
+ },
+ {
+  "name": "ORBYT",
+  "url": "https://orbyt.theater/",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "experimental-art",
+  "tags": [
+   "theater",
+   "intro-video",
+   "three.js",
+   "bilingual"
+  ],
+  "notable": "A theatre-branded landing page with a full-screen intro video, Korean and English switchers, and three.js and GSAP in the markup."
+ },
+ {
+  "name": "Mijiheon (미지헌)",
+  "url": "https://mijiheon.com/",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "experimental-art",
+  "tags": [
+   "immersive-theatre",
+   "three.js",
+   "webgl",
+   "multilingual",
+   "bukchon"
+  ],
+  "notable": "Site for an immersive theatre opening in Bukchon in December 2026 whose gate screen asks you to pull a jade pendant (옥패) before offering Korean, English, Japanese and Chinese.",
+  "mechanic": "The visitor pulls a jade pendant on the intro screen, causing the gate to open, which reveals the immersive theatre's site in four languages."
+ },
+ {
+  "name": "Soo Fonts",
+  "url": "https://soofonts.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25962",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "product-brand",
+  "tags": [
+   "typeface",
+   "layered-font",
+   "interactive-specimen",
+   "public-wall"
+  ],
+  "notable": "Specimen site for Soo, a free layered typeface that looks like thread stitched onto a patch, made from stacked 'Wappen' and 'Thread' fonts.",
+  "mechanic": "The visitor types in a live box and recolors the patch and thread layers, causing the stitched lettering to change, which can be saved as an image, posted to a public palette wall or downloaded."
+ },
+ {
+  "name": "Andre Font",
+  "url": "https://andrefont.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25954",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "product-brand",
+  "tags": [
+   "typeface",
+   "hand-drawn",
+   "lab",
+   "display-font"
+  ],
+  "notable": "Official site of Andre, a squishy hand-drawn display typeface by Studio JT, with a 'Lab' section for letter experiments."
+ },
+ {
+  "name": "Gallery Etrium",
+  "url": "https://etrium.art/",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "editorial-story",
+  "tags": [
+   "gallery",
+   "exhibitions",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Gallery Etrium's official site for exhibitions, space and rentals, with GSAP, Lenis and Lottie, listed in GDWEB's October 2026 batch."
+ },
+ {
+  "name": "Hongik ID Degree Show 2025",
+  "url": "https://hongik-id-degreeshow2025.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25855",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "event-campaign",
+  "tags": [
+   "degree-show",
+   "industrial-design",
+   "gsap",
+   "canvas"
+  ],
+  "notable": "Hongik University industrial-design graduation-show site with GSAP and a canvas, listed by DBCUT."
+ },
+ {
+  "name": "Hanjin 80th Online History Hall",
+  "url": "https://80years.hanjin.com/",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2025,
+  "region": "South Korea",
+  "category": "editorial-story",
+  "tags": [
+   "corporate-history",
+   "digital-museum",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Hanjin's online history hall for its 80th anniversary under the line 'Better Future with Better Logistics', animated with GSAP, Lenis and Lottie."
+ },
+ {
+  "name": "KODIT 50th Digital History Hall",
+  "url": "https://kodit50history.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25823",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "editorial-story",
+  "tags": [
+   "digital-museum",
+   "corporate-history",
+   "gsap"
+  ],
+  "notable": "Korea Credit Guarantee Fund's 50th-anniversary digital history hall, listed by DBCUT."
+ },
+ {
+  "name": "DR.A High-End Audio",
+  "url": "https://dr-a.co.kr/",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "product-brand",
+  "tags": [
+   "audio",
+   "acoustic-labs",
+   "framer",
+   "lenis"
+  ],
+  "notable": "High-end audio brand site ('ACOUSTIC LABS // DR.A') built in Framer with Lenis, framed as a digital architecture of silence and resonance."
+ },
+ {
+  "name": "Seoul Design Festival",
+  "url": "https://seoul.designfestival.co.kr/",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "event-campaign",
+  "tags": [
+   "design-festival",
+   "wordpress",
+   "barba"
+  ],
+  "notable": "Site for the Seoul Design Festival that the monthly magazine Design has run since 2002, listed first in GDWEB's late-October batch."
+ },
+ {
+  "name": "NAEOE Distillery",
+  "url": "http://naeoe.freewebclub.com/index.html",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "product-brand",
+  "tags": [
+   "spirits",
+   "korean-distillery",
+   "gsap"
+  ],
+  "notable": "Site for the Korean distillery NAEOE under the line 'Drink Korea, Discover the World', hosted on a free web club domain."
+ },
+ {
+  "name": "Pichi World",
+  "url": "https://pichiworld.co.kr/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25793",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "product-brand",
+  "tags": [
+   "food",
+   "pizza-chicken",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Pizza-and-chicken brand site with the line that pizza meeting chicken is a meeting 'of cosmic scale', animated with GSAP and Lenis."
+ },
+ {
+  "name": "Hyundai Transys",
+  "url": "https://www.hyundai-transys.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25784",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "product-brand",
+  "tags": [
+   "automotive",
+   "webgl",
+   "p5.js",
+   "splitting-text"
+  ],
+  "notable": "A car-seat and powertrain supplier's corporate site that loads WebGL, p5.js and split-text animation, a heavy creative stack for the sector."
+ },
+ {
+  "name": "Cinecube",
+  "url": "https://www.cinecube.co.kr/",
+  "source": "GDWEB",
+  "source_url": "https://www.gdweb.co.kr/sub/list.asp",
+  "year": 2025,
+  "region": "South Korea",
+  "category": "product-brand",
+  "tags": [
+   "cinema",
+   "arthouse",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Art-house cinema Cinecube's site for booking, screenings and events, from GDWEB's September 2026 list."
+ },
+ {
+  "name": "Kokmoongchi",
+  "url": "https://kokmoongchi.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25961",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "product-brand",
+  "tags": [
+   "badminton",
+   "community",
+   "platform"
+  ],
+  "notable": "Badminton community platform for finding local clubs, tournaments and coaches, listed by DBCUT and GDWEB."
+ },
+ {
+  "name": "BAT",
+  "url": "https://batcrew.co.kr/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25900",
+  "year": 2026,
+  "region": "South Korea",
+  "category": "studio-agency",
+  "tags": [
+   "brand-scale-up",
+   "gsap",
+   "lenis",
+   "lottie"
+  ],
+  "notable": "Brand scale-up company whose site uses GSAP, Lenis, Lottie and split-text, listed by DBCUT."
+ },
+ {
+  "name": "Nha Trang 24/7 (Cà Phê Đi)",
+  "url": "https://cafe24hnhatrang.vn/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25975",
+  "year": 2026,
+  "region": "Vietnam",
+  "category": "product-brand",
+  "tags": [
+   "cafe",
+   "webgl",
+   "canvas",
+   "dbcut"
+  ],
+  "notable": "A single Nha Trang corner café's site with WebGL and a canvas that a Korean gallery (DBCUT) still picked up."
+ },
+ {
+  "name": "Webdrift",
+  "url": "https://www.webdrift.be/en",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25968",
+  "year": 2026,
+  "region": "Belgium",
+  "category": "studio-agency",
+  "tags": [
+   "antwerp",
+   "web-studio",
+   "lenis",
+   "canvas"
+  ],
+  "notable": "Antwerp design-and-development studio that DBCUT listed in October 2026, with Lenis and a canvas on a Next.js build."
+ },
+ {
+  "name": "The Triadic Ballet",
+  "url": "https://www.thetriadicballetai.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25850",
+  "year": 2026,
+  "region": "International",
+  "category": "experimental-art",
+  "tags": [
+   "bauhaus",
+   "schlemmer",
+   "ai",
+   "three.js",
+   "webflow"
+  ],
+  "notable": "An AI reinvention of Oskar Schlemmer's Bauhaus Triadic Ballet, with three.js, GSAP and split-text, listed by DBCUT."
+ },
+ {
+  "name": "Susie & Jay: A Journey of Love",
+  "url": "https://wedding.jongjeonglee.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/websites/25785",
+  "year": 2026,
+  "region": "International",
+  "category": "event-campaign",
+  "tags": [
+   "wedding",
+   "invitation",
+   "three.js",
+   "canvas"
+  ],
+  "notable": "A three.js-and-canvas wedding invitation for a 9 October 2026 Brooklyn ceremony, listed by DBCUT."
+ },
+ {
+  "name": "Yuanzuo Studio (元作)",
+  "url": "https://yuanzuostudio.tw/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/24867.html",
+  "year": 2026,
+  "region": "Taiwan",
+  "category": "studio-agency",
+  "tags": [
+   "taichung",
+   "brand-illustration",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Taichung brand-and-web studio whose own copy says its site won MUUUUU's Site of the Day, with hand-drawn illustrations by its illustrator."
+ },
+ {
+  "name": "Nudot Studio (核點)",
+  "url": "https://nudot.com.tw",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/black/24423.html",
+  "year": 2026,
+  "region": "Taiwan",
+  "category": "studio-agency",
+  "tags": [
+   "taichung",
+   "webgl",
+   "three.js",
+   "lenis"
+  ],
+  "notable": "Taichung web studio that sells 'fluid minimal' dynamic-effect design and loads three.js, GSAP and Lenis."
+ },
+ {
+  "name": "Black Tide Island",
+  "url": "https://blacktideisland.tw/en",
+  "source": "Awwwards country filter: Taiwan",
+  "source_url": "https://www.awwwards.com/sites/black-tide-island-interactive",
+  "year": 2026,
+  "region": "Taiwan",
+  "category": "editorial-story",
+  "tags": [
+   "kuroshio",
+   "interactive-documentary",
+   "storytelling",
+   "webgl"
+  ],
+  "notable": "Interactive story about sailing the Kuroshio Current ('Starry Islands Under the Kuroshio'), tagged WebGL and storytelling in Awwwards' Taiwan filter."
+ },
+ {
+  "name": "SITCON 2026: Jam the Chaos",
+  "url": "https://sitcon.org/2026/",
+  "source": "Awwwards country filter: Taiwan",
+  "source_url": "https://www.awwwards.com/sites/jam-the-chaos",
+  "year": 2026,
+  "region": "Taiwan",
+  "category": "event-campaign",
+  "tags": [
+   "student-conference",
+   "astro",
+   "three.js",
+   "canvas"
+  ],
+  "notable": "Taiwan student computing conference site themed 'Jam the Chaos', with a canvas on Astro and Three.js/3D tags in Awwwards' Taiwan filter."
+ },
+ {
+  "name": "Teleport (Hong Kong immersive exhibition)",
+  "url": "https://weteleport.com",
+  "source": "Awwwards country filter: Hong Kong",
+  "source_url": "https://www.awwwards.com/sites/hong-kong-immersive-exhibition",
+  "year": 2022,
+  "region": "Hong Kong",
+  "category": "experimental-art",
+  "tags": [
+   "immersive-exhibition",
+   "webgl",
+   "experimental",
+   "next.js"
+  ],
+  "notable": "Hong Kong immersive-exhibition site tagged WebGL, typography and experimental in Awwwards' Hong Kong filter."
+ },
+ {
+  "name": "Lawted",
+  "url": "https://lawted.tech/",
+  "source": "Awwwards country filter: China",
+  "source_url": "https://www.awwwards.com/sites/lawted-immersive-3d-story",
+  "year": 2025,
+  "region": "China",
+  "category": "portfolio-person",
+  "tags": [
+   "design-engineer",
+   "immersive-3d",
+   "canvas",
+   "next.js"
+  ],
+  "notable": "Design engineer Lawted (Wu Mingze) presents his portfolio as an 'immersive 3D story', from Awwwards' China filter."
+ },
+ {
+  "name": "OXYZ3",
+  "url": "https://www.oxyz3.xyz",
+  "source": "Awwwards country filter: China",
+  "source_url": "https://www.awwwards.com/sites/oxyz3s-official-website",
+  "year": 2025,
+  "region": "China",
+  "category": "experimental-art",
+  "tags": [
+   "art",
+   "games",
+   "webgl",
+   "3d"
+  ],
+  "notable": "Official site of an art-and-games creator tagged WebGL and 3D in Awwwards' China filter, with no page title or description at all."
+ },
+ {
+  "name": "Uni-Yi (零彝)",
+  "url": "https://www.uniyi.org/en",
+  "source": "Awwwards country filter: China",
+  "source_url": "https://www.awwwards.com/sites/uni-yi",
+  "year": 2026,
+  "region": "China",
+  "category": "editorial-story",
+  "tags": [
+   "culture",
+   "data-visualization",
+   "three.js",
+   "education"
+  ],
+  "notable": "Chinese-language cultural-education site tagged data visualisation and Three.js in Awwwards' China filter."
+ },
+ {
+  "name": "JIEJOE",
+  "url": "https://www.jiejoe.com",
+  "source": "Awwwards country filter: China",
+  "source_url": "https://www.awwwards.com/sites/jiejoe",
+  "year": 2024,
+  "region": "China",
+  "category": "portfolio-person",
+  "tags": [
+   "visual-designer",
+   "experimental",
+   "interaction",
+   "chinese-language"
+  ],
+  "notable": "Chinese visual designer's site covering web, graphic, video and interaction work, tagged experimental in Awwwards' China filter."
+ },
+ {
+  "name": "Funtown (方糖星球)",
+  "url": "https://www.funtown.cn/main?id=7557ec0b1ae54dcaa4151229a038554f",
+  "source": "Awwwards country filter: China",
+  "source_url": "https://www.awwwards.com/sites/strolling-in-the-tsmc",
+  "year": 2024,
+  "region": "China",
+  "category": "product-brand",
+  "tags": [
+   "virtual-world",
+   "remote-teams",
+   "3d",
+   "interaction"
+  ],
+  "notable": "Virtual-world product for remote teams, events and online courses, shown as the Awwwards 'Strolling in the TSMC' entry from China."
+ },
+ {
+  "name": "Luke Baffait",
+  "url": "https://lukebaffait.fr/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/black/24932.html",
+  "year": 2026,
+  "region": "France",
+  "category": "portfolio-person",
+  "tags": [
+   "creative-developer",
+   "three.js",
+   "webgl",
+   "french-copy"
+  ],
+  "notable": "French-language creative developer portfolio ('Développeur créatif') that loads three.js, WebGL, GSAP and Lenis, sitting on MUUUUU's animated-top-page list in September 2026."
+ },
+ {
+  "name": "Get Hyped",
+  "url": "https://www.gethyped.nl/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/20093.html",
+  "year": 2025,
+  "region": "Netherlands",
+  "category": "studio-agency",
+  "tags": [
+   "social-content",
+   "dutch-copy",
+   "gsap",
+   "lottie"
+  ],
+  "notable": "Dutch-language social-first content agency credited to Dylan Brouwer and Kevin Masselink, filed under MUUUUU's art category."
+ },
+ {
+  "name": "Tranzition",
+  "url": "https://www.tranzition.agency/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/white/19330.html",
+  "year": 2025,
+  "region": "Netherlands",
+  "category": "studio-agency",
+  "tags": [
+   "dutch-copy",
+   "locomotive-scroll",
+   "barba",
+   "gsap"
+  ],
+  "notable": "Dutch digital agency from the east of the country that pairs Locomotive Scroll with Barba page transitions."
+ },
+ {
+  "name": "Bart Kolenda",
+  "url": "https://bartoszkolenda.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/22807.html",
+  "year": 2026,
+  "region": "Poland",
+  "category": "portfolio-person",
+  "tags": [
+   "landscape-designer",
+   "garden-design",
+   "lenis",
+   "moyra"
+  ],
+  "notable": "Landscape and garden designer's portfolio credited to the studio Moyra, filed in MUUUUU's art category in January 2026."
+ },
+ {
+  "name": "Nowy Teatr",
+  "url": "https://nowyteatr.org/pl",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/12887.html",
+  "year": 2019,
+  "region": "Poland",
+  "category": "editorial-story",
+  "tags": [
+   "theatre",
+   "warsaw",
+   "canvas",
+   "next.js"
+  ],
+  "notable": "Polish-language site of Warsaw's Nowy Teatr cultural centre with a canvas layer on Next.js, picked up by MUUUUU."
+ },
+ {
+  "name": "NOSPR",
+  "url": "https://nospr.org.pl/pl",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/music/13152.html",
+  "year": 2020,
+  "region": "Poland",
+  "category": "editorial-story",
+  "tags": [
+   "orchestra",
+   "katowice",
+   "canvas",
+   "wordpress"
+  ],
+  "notable": "Site of the National Polish Radio Symphony Orchestra in Katowice, with a canvas layer."
+ },
+ {
+  "name": "walaszczyk.studio",
+  "url": "https://walaszczyk.studio",
+  "source": "Awwwards country filter: Poland",
+  "source_url": "https://www.awwwards.com/sites/walaszczyk-studio",
+  "year": 2026,
+  "region": "Poland",
+  "category": "studio-agency",
+  "tags": [
+   "gdansk",
+   "polish-copy",
+   "webgl",
+   "webflow"
+  ],
+  "notable": "Gdansk implementation studio writing Polish-language copy for custom sites and shops, with WebGL and GSAP on a Webflow build."
+ },
+ {
+  "name": "Awake Agency",
+  "url": "https://www.awakeagency.dev/",
+  "source": "Awwwards country filter: Poland",
+  "source_url": "https://www.awwwards.com/sites/awake-agency",
+  "year": 2026,
+  "region": "Poland",
+  "category": "studio-agency",
+  "tags": [
+   "web-studio",
+   "three.js",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Web studio tagged Three.js and 3D under Awwwards' Poland filter, loading three.js, GSAP and Lenis."
+ },
+ {
+  "name": "Maxim Gorki Theater",
+  "url": "http://www.gorki.de/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/10610.html",
+  "year": 2016,
+  "region": "Germany",
+  "category": "editorial-story",
+  "tags": [
+   "theatre",
+   "berlin",
+   "german-copy",
+   "next.js"
+  ],
+  "notable": "Berlin's Maxim Gorki Theater site with German-language programme and ensemble pages, picked by MUUUUU."
+ },
+ {
+  "name": "Bleibt Gleich",
+  "url": "https://www.bleibtgleich.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18853.html",
+  "year": 2025,
+  "region": "Germany",
+  "category": "studio-agency",
+  "tags": [
+   "entertainment",
+   "german-copy",
+   "minimal"
+  ],
+  "notable": "German 'Unterhaltung mit Haltung' (entertainment with attitude) site, in MUUUUU's art category in March 2025."
+ },
+ {
+  "name": "DoKomi",
+  "url": "https://www.dokomi.de/ja",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/entertainment/23141.html",
+  "year": 2026,
+  "region": "Germany",
+  "category": "event-campaign",
+  "tags": [
+   "anime-convention",
+   "japan-germany",
+   "spicato",
+   "lenis"
+  ],
+  "notable": "Germany's largest Japan-and-anime expo site with a Japanese-language title, built by the Osaka studio spicato."
+ },
+ {
+  "name": "dotsandlines",
+  "url": "https://www.dotsandlines.io/en/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/white/23713.html",
+  "year": 2026,
+  "region": "Austria",
+  "category": "studio-agency",
+  "tags": [
+   "design-agency",
+   "webflow",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Design-solutions agency on Webflow and Next.js with GSAP and Lenis, shown by MUUUUU."
+ },
+ {
+  "name": "Gerax, Your Key to Gstaad",
+  "url": "https://www.gerax.ch/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/building/18768.html",
+  "year": 2025,
+  "region": "Switzerland",
+  "category": "studio-agency",
+  "tags": [
+   "gstaad",
+   "heritage",
+   "visioned",
+   "lottie",
+   "splitting-text"
+  ],
+  "notable": "Gstaad company's heritage-led site credited to Visioned, with GSAP, Lenis, Lottie and split-text."
+ },
+ {
+  "name": "BAM!",
+  "url": "https://bamlab.ch/en/",
+  "source": "Awwwards country filter: Switzerland",
+  "source_url": "https://www.awwwards.com/sites/bam",
+  "year": 2026,
+  "region": "Switzerland",
+  "category": "studio-agency",
+  "tags": [
+   "montreux",
+   "digital-studio",
+   "webgl",
+   "rive"
+  ],
+  "notable": "Montreux digital studio tagged WebGL, typography and experimental in Awwwards' Switzerland filter, with Rive animations."
+ },
+ {
+  "name": "Peaches",
+  "url": "https://peaches.world/",
+  "source": "Awwwards country filter: Switzerland",
+  "source_url": "https://www.awwwards.com/sites/peaches",
+  "year": 2026,
+  "region": "Switzerland",
+  "category": "studio-agency",
+  "tags": [
+   "basel",
+   "web-design",
+   "experimental",
+   "storytelling"
+  ],
+  "notable": "Web design studio in Pratteln near Basel, tagged experimental and storytelling in Awwwards' Switzerland filter."
+ },
+ {
+  "name": "Kultiveret",
+  "url": "https://www.kultiveret.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/trip/19073.html",
+  "year": 2025,
+  "region": "Denmark",
+  "category": "event-campaign",
+  "tags": [
+   "copenhagen",
+   "travel",
+   "3200-kelvin",
+   "gsap",
+   "barba"
+  ],
+  "notable": "Copenhagen curated-tours and workshops brand credited to 3200 Kelvin, using GSAP, Lenis, Barba and split-text."
+ },
+ {
+  "name": "Atmos Gallery",
+  "url": "https://atmos.gallery",
+  "source": "Awwwards country filter: Denmark",
+  "source_url": "https://www.awwwards.com/sites/atmos-gallery",
+  "year": 2026,
+  "region": "Denmark",
+  "category": "experimental-art",
+  "tags": [
+   "colour-palette",
+   "wcag",
+   "tool",
+   "gsap",
+   "webgl"
+  ],
+  "notable": "A tool-as-art site that pulls five colours from an image and checks their WCAG contrast, tagged three.js and photography in Awwwards' Denmark filter.",
+  "mechanic": "The visitor drops in an image, causing five colours to be extracted and contrast-checked, which reveals a palette graded for WCAG."
+ },
+ {
+  "name": "Oslo Konserthus",
+  "url": "http://www.oslokonserthus.no/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/music/9524.html",
+  "year": 2015,
+  "region": "Norway",
+  "category": "editorial-story",
+  "tags": [
+   "concert-hall",
+   "oslo",
+   "norwegian-copy",
+   "barba"
+  ],
+  "notable": "Oslo Concert Hall's Norwegian-language site that MUUUUU lists, using Barba page transitions."
+ },
+ {
+  "name": "Undead Fish Studios",
+  "url": "https://undead-fish.com/en",
+  "source": "Awwwards country filter: Norway",
+  "source_url": "https://www.awwwards.com/sites/undead-fish-studio",
+  "year": 2026,
+  "region": "Norway",
+  "category": "experimental-art",
+  "tags": [
+   "living-landing-page",
+   "interaction-design",
+   "canvas",
+   "next.js"
+  ],
+  "notable": "A landing page described as 'one organism, thousands of parts' tagged interaction design, games and storytelling in Awwwards' Norway filter."
+ },
+ {
+  "name": "Jonas Nygaard",
+  "url": "https://www.jonasnygaard.com/",
+  "source": "Awwwards country filter: Norway",
+  "source_url": "https://www.awwwards.com/sites/newfarm-studio",
+  "year": 2025,
+  "region": "Norway",
+  "category": "portfolio-person",
+  "tags": [
+   "designer-developer",
+   "oslo",
+   "experimental",
+   "3d"
+  ],
+  "notable": "Oslo designer-developer portfolio tagged experimental, Three.js and 3D in Awwwards' Norway filter."
+ },
+ {
+  "name": "InCollection",
+  "url": "https://incollection.fi/",
+  "source": "Awwwards country filter: Finland",
+  "source_url": "https://www.awwwards.com/sites/incollection",
+  "year": 2023,
+  "region": "Finland",
+  "category": "editorial-story",
+  "tags": [
+   "museum",
+   "emma",
+   "collection",
+   "art"
+  ],
+  "notable": "Collaboration site with EMMA, Espoo Museum of Modern Art, tagged art and culture in Awwwards' Finland filter."
+ },
+ {
+  "name": "Arstraumur",
+  "url": "https://arstraumur.music/",
+  "source": "Awwwards country filter: Sweden",
+  "source_url": "https://www.awwwards.com/sites/arstraumur-electronic-music",
+  "year": 2026,
+  "region": "Sweden",
+  "category": "experimental-art",
+  "tags": [
+   "electronic-music",
+   "atmosphere",
+   "webgl",
+   "canvas"
+  ],
+  "notable": "Instrumental electronic music shaped 'by atmosphere, not genre', with a WebGL canvas; Awwwards lists it under Sweden."
+ },
+ {
+  "name": "Tokonoma Studio",
+  "url": "https://www.tokonoma.xyz/",
+  "source": "Awwwards country filter: Sweden",
+  "source_url": "https://www.awwwards.com/sites/tokonoma-studio",
+  "year": 2026,
+  "region": "Sweden",
+  "category": "studio-agency",
+  "tags": [
+   "image-making",
+   "analogue",
+   "webgl",
+   "shader"
+  ],
+  "notable": "Image-making studio working across analogue and digital with WebGL and shader code in the page; Awwwards lists it under Sweden."
+ },
+ {
+  "name": "superhuge",
+  "url": "https://www.superhuge.net/",
+  "source": "Awwwards country filter: Netherlands",
+  "source_url": "https://www.awwwards.com/sites/superhuge",
+  "year": 2026,
+  "region": "Netherlands",
+  "category": "portfolio-person",
+  "tags": [
+   "internet-things",
+   "typography",
+   "webgl",
+   "experimental"
+  ],
+  "notable": "A maker's site ('I love making internet things, some for clients, some because') tagged typography, WebGL and experimental in Awwwards' Netherlands filter."
+ },
+ {
+  "name": "Hans Sleutelaar archive",
+  "url": "https://sleutelaar.xyz/",
+  "source": "Awwwards country filter: Netherlands",
+  "source_url": "https://www.awwwards.com/sites/archive-for-hans-sleutelaar",
+  "year": 2026,
+  "region": "Netherlands",
+  "category": "editorial-story",
+  "tags": [
+   "digital-archive",
+   "poet",
+   "nieuwe-stijl",
+   "barba",
+   "photography"
+  ],
+  "notable": "Dutch-language digital archive of poet, journalist and 'Nieuwe Stijl' painter Hans Sleutelaar, tagged photography and storytelling."
+ },
+ {
+  "name": "aquirin",
+  "url": "https://aquirin.com/",
+  "source": "Awwwards country filter: Netherlands",
+  "source_url": "https://www.awwwards.com/sites/https-aquirin-com",
+  "year": 2026,
+  "region": "Netherlands",
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "gallery",
+   "minimal"
+  ],
+  "notable": "Sparse experimental gallery-style site tagged Experimental and Gallery in Awwwards' Netherlands filter, with only the name as title."
+ },
+ {
+  "name": "Avec Anni",
+  "url": "https://avecanni.studio/",
+  "source": "Awwwards country filter: Netherlands",
+  "source_url": "https://www.awwwards.com/sites/avec-anni",
+  "year": 2026,
+  "region": "Netherlands",
+  "category": "studio-agency",
+  "tags": [
+   "branding",
+   "framer",
+   "microinteractions"
+  ],
+  "notable": "Strategy-led brand and website studio tagged interaction design and microinteractions in Awwwards' Netherlands filter."
+ },
+ {
+  "name": "Studio Merge",
+  "url": "https://www.studio-merge.com/",
+  "source": "Awwwards country filter: Portugal",
+  "source_url": "https://www.awwwards.com/sites/studio-merge",
+  "year": 2026,
+  "region": "Portugal",
+  "category": "studio-agency",
+  "tags": [
+   "porto",
+   "typography",
+   "experimental",
+   "interaction-design"
+  ],
+  "notable": "Porto graphic and web studio tagged typography and experimental in Awwwards' Portugal filter."
+ },
+ {
+  "name": "Phive",
+  "url": "https://phive.pt/en",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/sports/19176.html",
+  "year": 2025,
+  "region": "Portugal",
+  "category": "product-brand",
+  "tags": [
+   "fitness",
+   "bürocratik",
+   "lenis",
+   "nuxt"
+  ],
+  "notable": "Fitness brand site credited to Bürocratik with Lenis and Nuxt, from MUUUUU's list."
+ },
+ {
+  "name": "Raw House Athens",
+  "url": "https://rawhouseathens.gr/en/",
+  "source": "Awwwards country filter: Greece",
+  "source_url": "https://www.awwwards.com/sites/raw-house",
+  "year": 2026,
+  "region": "Greece",
+  "category": "studio-agency",
+  "tags": [
+   "athens",
+   "creator-hub",
+   "astro",
+   "art"
+  ],
+  "notable": "Athens creative hub for content creators built on Astro, tagged art and games in Awwwards' Greece filter."
+ },
+ {
+  "name": "Giats",
+  "url": "https://giats.me/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18198.html",
+  "year": 2024,
+  "region": "Greece",
+  "category": "portfolio-person",
+  "tags": [
+   "frontend-developer",
+   "greece",
+   "canvas",
+   "next.js"
+  ],
+  "notable": "Self-taught Greek front-end developer's portfolio with a canvas on Next.js, filed under MUUUUU's art category in August 2024."
+ },
+ {
+  "name": "Casa Vicens",
+  "url": "https://casavicens.org/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18609.html",
+  "year": 2025,
+  "region": "Spain",
+  "category": "editorial-story",
+  "tags": [
+   "gaudi",
+   "barcelona",
+   "museum",
+   "nuxt"
+  ],
+  "notable": "Gaudi's first house in Barcelona presented with never-before-seen material on a Nuxt build, in MUUUUU's art category in January 2025."
+ },
+ {
+  "name": "Artistas migrantes (Museo Thyssen)",
+  "url": "https://www.museothyssen.org/webdocs/conectathyssen/artistas-migrantes/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/area/15713.html",
+  "year": 2022,
+  "region": "Spain",
+  "category": "editorial-story",
+  "tags": [
+   "exhibition",
+   "museum",
+   "locomotive-scroll",
+   "spanish-copy"
+  ],
+  "notable": "Spanish-language microsite for a Museo Thyssen-Bornemisza exhibition on migrant artists, using Locomotive Scroll."
+ },
+ {
+  "name": "Iceberg: a transmedia documentary",
+  "url": "https://www.icebergdoc.org/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/area/18793.html",
+  "year": 2025,
+  "region": "Spain",
+  "category": "editorial-story",
+  "tags": [
+   "transmedia",
+   "documentary",
+   "plastic-design",
+   "nuxt"
+  ],
+  "notable": "Transmedia documentary by activist-filmmaker Amanda de Luis, credited to Plastic Design and built on Nuxt with Lenis."
+ },
+ {
+  "name": "Airbag Studio",
+  "url": "https://airbagstudio.it/en",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/electrical/18271.html",
+  "year": 2024,
+  "region": "Italy",
+  "category": "studio-agency",
+  "tags": [
+   "overpx",
+   "barba",
+   "splitting-text",
+   "nuxt"
+  ],
+  "notable": "Italian studio site credited to Overpx with Barba page transitions, split-text animation and Nuxt, but no title or description set."
+ },
+ {
+  "name": "Gabriel Norman",
+  "url": "https://gnrm.se/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/black/14145.html",
+  "year": 2021,
+  "region": "Italy",
+  "category": "portfolio-person",
+  "tags": [
+   "creative-developer",
+   "webgl",
+   "astro"
+  ],
+  "notable": "Creative-developer portfolio of Gabriel Norman, 'based in Italy', with WebGL on Astro and a Swedish .se domain."
+ },
+ {
+  "name": "Agenzia Progetta",
+  "url": "https://www.progetta.it/index.html",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/building/17940.html",
+  "year": 2024,
+  "region": "Italy",
+  "category": "studio-agency",
+  "tags": [
+   "catania",
+   "furniture",
+   "locomotive-scroll",
+   "italian-copy"
+  ],
+  "notable": "Catania Fantoni-furniture agency's Italian-language site with GSAP, Locomotive Scroll and Barba, filed by MUUUUU under building."
+ },
+ {
+  "name": "Opera national du Rhin",
+  "url": "https://www.operanationaldurhin.eu/fr",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/entertainment/12740.html",
+  "year": 2019,
+  "region": "France",
+  "category": "editorial-story",
+  "tags": [
+   "opera",
+   "strasbourg",
+   "french-copy",
+   "gsap"
+  ],
+  "notable": "French-language site of the Opera national du Rhin with GSAP and a canvas, picked by MUUUUU."
+ },
+ {
+  "name": "Rezo Zero",
+  "url": "https://www.rezo-zero.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/12211.html",
+  "year": 2018,
+  "region": "France",
+  "category": "studio-agency",
+  "tags": [
+   "digital-agency",
+   "french-copy",
+   "brand-identity"
+  ],
+  "notable": "French creative digital agency whose own site sits in MUUUUU's picks and writes its pitch in French."
+ },
+ {
+  "name": "Theatre de la Ville Paris",
+  "url": "https://www.theatredelaville-paris.com/fr",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/entertainment/12738.html",
+  "year": 2019,
+  "region": "France",
+  "category": "editorial-story",
+  "tags": [
+   "theatre",
+   "paris",
+   "french-copy",
+   "gsap"
+  ],
+  "notable": "Paris Theatre de la Ville's French-language season site, listed by MUUUUU."
+ },
+ {
+  "name": "Studio Bihua",
+  "url": "https://bihua.fr/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/color/black/13940.html",
+  "year": 2021,
+  "region": "France",
+  "category": "studio-agency",
+  "tags": [
+   "lyon",
+   "web-agency",
+   "astro",
+   "splitting-text"
+  ],
+  "notable": "Lyon web agency with an Astro build and split-text animation, listed by MUUUUU."
+ },
+ {
+  "name": "PARADE Development",
+  "url": "https://paradegroup.ru/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/building/23187.html",
+  "year": 2026,
+  "region": "Russia",
+  "category": "studio-agency",
+  "tags": [
+   "real-estate",
+   "only",
+   "barba",
+   "russian-copy"
+  ],
+  "notable": "Russian-language site for a federal developer of premium property, credited to the studio Only and using Barba transitions."
+ },
+ {
+  "name": "AZ Museum Shop",
+  "url": "https://shop.museum-az.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/shopping/14882.html",
+  "year": 2021,
+  "region": "Russia",
+  "category": "product-brand",
+  "tags": [
+   "museum-shop",
+   "books",
+   "russian-copy"
+  ],
+  "notable": "Russian-language book shop of the AZ Museum, a minimal page that MUUUUU picked up."
+ },
+ {
+  "name": "History of Banking in Russia",
+  "url": "https://bank-history.mosmuseum.ru/en",
+  "source": "Awwwards country filter: Thailand",
+  "source_url": "https://www.awwwards.com/sites/fascinating-history-of-banking",
+  "year": 2024,
+  "region": "Russia",
+  "category": "editorial-story",
+  "tags": [
+   "museum",
+   "history",
+   "barba",
+   "russian-copy"
+  ],
+  "notable": "A Russian museum's story site asking who appeared on the first coins, 'a prince or a bull', using Barba transitions; Awwwards lists it as 'Fascinating history of banking'."
+ },
+ {
+  "name": "Alejandro HA",
+  "url": "https://alejandroha.com/",
+  "source": "Awwwards country filter: Mexico",
+  "source_url": "https://www.awwwards.com/sites/alejandro-ha-web-developer",
+  "year": 2026,
+  "region": "Mexico",
+  "category": "portfolio-person",
+  "tags": [
+   "webflow-developer",
+   "spanish-copy",
+   "gsap",
+   "barba"
+  ],
+  "notable": "Spanish-language portfolio of a Webflow and Shopify developer, tagged experimental and typography in Awwwards' Mexico filter."
+ },
+ {
+  "name": "INHERITED",
+  "url": "https://inherited.band/",
+  "source": "Awwwards country filter: Mexico",
+  "source_url": "https://www.awwwards.com/sites/inherited-band",
+  "year": 2026,
+  "region": "Mexico",
+  "category": "experimental-art",
+  "tags": [
+   "band",
+   "typography",
+   "photography",
+   "transitions"
+  ],
+  "notable": "Band site tagged typography, photography and music in Awwwards' Mexico filter, with Lenis smooth scroll."
+ },
+ {
+  "name": "Every day is a gift",
+  "url": "https://everydaygift.polimata.mx/",
+  "source": "Awwwards country filter: Mexico",
+  "source_url": "https://www.awwwards.com/sites/every-day-is-a-gift",
+  "year": 2026,
+  "region": "Mexico",
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "storytelling",
+   "data-visualization",
+   "three.js"
+  ],
+  "notable": "A flat-design data-visualisation story tagged experimental and Three.js in Awwwards' Mexico filter, with the single-word title 'Everyday'."
+ },
+ {
+  "name": "Nico Borja",
+  "url": "https://nicoborja.com/",
+  "source": "Awwwards country filter: Mexico",
+  "source_url": "https://www.awwwards.com/sites/nicoborja-com",
+  "year": 2026,
+  "region": "Mexico",
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "shader",
+   "data-visualization",
+   "experimental"
+  ],
+  "notable": "Portfolio with a WebGL canvas and shader code and unusual navigation, tagged experimental in Awwwards' Mexico filter."
+ },
+ {
+  "name": "Neo-Tenochtitlan",
+  "url": "https://tenochtitlan.aleet.xyz",
+  "source": "Awwwards country filter: Mexico",
+  "source_url": "https://www.awwwards.com/sites/neo-tenochtitlan",
+  "year": 2024,
+  "region": "Mexico",
+  "category": "experimental-art",
+  "tags": [
+   "art",
+   "illustration",
+   "experimental",
+   "3d"
+  ],
+  "notable": "Art-and-illustration reimagining of Tenochtitlan tagged experimental and 3D in Awwwards' Mexico filter."
+ },
+ {
+  "name": "Sin Tesis Studio",
+  "url": "https://sintesis.studio/",
+  "source": "Awwwards country filter: Mexico",
+  "source_url": "https://www.awwwards.com/sites/sin-tesis-studio",
+  "year": 2025,
+  "region": "Mexico",
+  "category": "studio-agency",
+  "tags": [
+   "creative-playground",
+   "branding",
+   "art-direction",
+   "next.js"
+  ],
+  "notable": "Mexican creative office that calls itself a 'creative playground' for design, branding and art direction."
+ },
+ {
+  "name": "Skatebuilder",
+  "url": "https://www.skatebuilder.com/app/builder",
+  "source": "Awwwards country filter: Argentina",
+  "source_url": "https://www.awwwards.com/sites/skatebuilder",
+  "year": 2026,
+  "region": "Argentina",
+  "category": "game-like",
+  "tags": [
+   "skate",
+   "builder",
+   "webgl",
+   "experimental"
+  ],
+  "notable": "Skateboard-building site tagged art, WebGL, experimental and 3D in Awwwards' Argentina filter."
+ },
+ {
+  "name": "Christian Ortiz portfolio",
+  "url": "https://cortiz.dev/",
+  "source": "Awwwards country filter: Argentina",
+  "source_url": "https://www.awwwards.com/sites/cortiz-portfolio",
+  "year": 2025,
+  "region": "Argentina",
+  "category": "portfolio-person",
+  "tags": [
+   "full-stack",
+   "webgl",
+   "three.js",
+   "gsap"
+  ],
+  "notable": "Full-stack developer's creative portfolio with GSAP on Next.js, tagged WebGL, Three.js and experimental in Awwwards' Argentina filter."
+ },
+ {
+  "name": "Ya Lamps",
+  "url": "https://www.yalamps.com/",
+  "source": "Awwwards country filter: Argentina",
+  "source_url": "https://www.awwwards.com/sites/yalamps",
+  "year": 2025,
+  "region": "Argentina",
+  "category": "product-brand",
+  "tags": [
+   "lighting",
+   "e-commerce",
+   "three.js",
+   "experimental"
+  ],
+  "notable": "Modern lighting shop whose pages are tagged experimental, storytelling, Three.js and interaction design in Awwwards' Argentina filter."
+ },
+ {
+  "name": "Laser Drift: Neon Blast",
+  "url": "https://laserdrift.com/",
+  "source": "Awwwards country filter: Argentina",
+  "source_url": "https://www.awwwards.com/sites/laser-drift-neon-blast",
+  "year": 2025,
+  "region": "Argentina",
+  "category": "game-like",
+  "tags": [
+   "vaporwave",
+   "webgl",
+   "racing",
+   "browser-game"
+  ],
+  "notable": "A vaporwave WebGL browser game on Next.js, tagged games and experimental in Awwwards' Argentina filter."
+ },
+ {
+  "name": "Rauw Alejandro official site",
+  "url": "https://rauwalejandro.com/",
+  "source": "Awwwards country filter: Argentina",
+  "source_url": "https://www.awwwards.com/sites/rauw-official-website",
+  "year": 2025,
+  "region": "Argentina",
+  "category": "event-campaign",
+  "tags": [
+   "music",
+   "artist-site",
+   "3d",
+   "rive"
+  ],
+  "notable": "Official artist site tagged music, 3D and interaction design in Awwwards' Argentina filter, built with Next.js and Rive."
+ },
+ {
+  "name": "Samu Clima",
+  "url": "https://www.samuclima.com/en",
+  "source": "Awwwards country filter: Brazil",
+  "source_url": "https://www.awwwards.com/sites/samu-clima",
+  "year": 2026,
+  "region": "Brazil",
+  "category": "portfolio-person",
+  "tags": [
+   "visual-director",
+   "graphic-designer",
+   "three.js",
+   "gsap"
+  ],
+  "notable": "Brazilian visual director and graphic designer Samuel Costa de Lima's site, tagged WebGL, experimental and storytelling and loading three.js, GSAP and a canvas."
+ },
+ {
+  "name": "Still Making Stuff",
+  "url": "https://stillmakingstuff.com/",
+  "source": "Awwwards country filter: Brazil",
+  "source_url": "https://www.awwwards.com/sites/still-making-stuff",
+  "year": 2026,
+  "region": "Brazil",
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "experimental",
+   "storytelling",
+   "three.js"
+  ],
+  "notable": "Mauricio Daniachi's playful 'call me Mau' portfolio with three.js and a canvas, tagged WebGL, experimental and 3D in Awwwards' Brazil filter."
+ },
+ {
+  "name": "Leonardo Moreira",
+  "url": "https://leonardomoreira.com.br/",
+  "source": "Awwwards country filter: Brazil",
+  "source_url": "https://www.awwwards.com/sites/leonardo-moreira",
+  "year": 2026,
+  "region": "Brazil",
+  "category": "portfolio-person",
+  "tags": [
+   "game-developer",
+   "astro",
+   "storytelling"
+  ],
+  "notable": "Developer who got his first PC in 1996 and writes about 22 years of building games and software, tagged storytelling and WebGL."
+ },
+ {
+  "name": "Madrepunk Studio",
+  "url": "https://www.madrepunk.com/",
+  "source": "Awwwards country filter: Brazil",
+  "source_url": "https://www.awwwards.com/sites/madrepunktm-studio",
+  "year": 2026,
+  "region": "Brazil",
+  "category": "studio-agency",
+  "tags": [
+   "web-motion",
+   "immersive",
+   "three.js",
+   "framer"
+  ],
+  "notable": "Brazilian web-and-motion studio that crafts immersive sites with three.js and Framer, with a No-code Honors mention in Awwwards in June 2026."
+ },
+ {
+  "name": "Stefano Girardelli",
+  "url": "https://stefanobg.com",
+  "source": "Awwwards country filter: Brazil",
+  "source_url": "https://www.awwwards.com/sites/stefano-girardelli-designer",
+  "year": 2026,
+  "region": "Brazil",
+  "category": "portfolio-person",
+  "tags": [
+   "multidisciplinary",
+   "games",
+   "apps",
+   "astro"
+  ],
+  "notable": "Multidisciplinary designer's portfolio for games, apps and the web, tagged typography, experimental and games in Awwwards' Brazil filter."
+ },
+ {
+  "name": "Kunumi Institute",
+  "url": "https://www.kunuminst.org",
+  "source": "Awwwards country filter: Brazil",
+  "source_url": "https://www.awwwards.com/sites/kunumi-institute",
+  "year": 2026,
+  "region": "Brazil",
+  "category": "editorial-story",
+  "tags": [
+   "research-collective",
+   "global-south",
+   "three.js",
+   "next.js"
+  ],
+  "notable": "A research collective 'from the Global South to the world' whose site carries Three.js and 3D tags in Awwwards' Brazil filter."
+ },
+ {
+  "name": "Luto Verde",
+  "url": "https://www.lutoverde.com",
+  "source": "Awwwards country filter: Peru",
+  "source_url": "https://www.awwwards.com/sites/luto-verde",
+  "year": 2023,
+  "region": "Peru",
+  "category": "editorial-story",
+  "tags": [
+   "memorial",
+   "virtual-sanctuary",
+   "art",
+   "3d"
+  ],
+  "notable": "A virtual sanctuary to remember and grieve for a lost natural place, tagged art, culture and 3D in Awwwards' Peru filter."
+ },
+ {
+  "name": "Angello Torres",
+  "url": "https://angellotorres.com/",
+  "source": "Awwwards country filter: Peru",
+  "source_url": "https://www.awwwards.com/sites/angello-torres",
+  "year": 2022,
+  "region": "Peru",
+  "category": "portfolio-person",
+  "tags": [
+   "graphic-artist",
+   "typography",
+   "interaction-design",
+   "gsap"
+  ],
+  "notable": "Graphic artist's portfolio tagged art, typography and interaction design in Awwwards' Peru filter."
+ },
+ {
+  "name": "Sergio Ayala",
+  "url": "https://www.sergio-ayala.com",
+  "source": "Awwwards country filter: Colombia",
+  "source_url": "https://www.awwwards.com/sites/sergio-ayala-art-director",
+  "year": 2026,
+  "region": "Colombia",
+  "category": "portfolio-person",
+  "tags": [
+   "art-director",
+   "photographer",
+   "ux-ui",
+   "gsap"
+  ],
+  "notable": "Senior art director, photographer and UX/UI designer's site tagged experimental and interaction design in Awwwards' Colombia filter, with GSAP and split-text."
+ },
+ {
+  "name": "Jorge Toloza",
+  "url": "https://jorgetoloza.co",
+  "source": "Awwwards country filter: Colombia",
+  "source_url": "https://www.awwwards.com/sites/jorge-toloza-portfolio-2022",
+  "year": 2022,
+  "region": "Colombia",
+  "category": "portfolio-person",
+  "tags": [
+   "creative-developer",
+   "webgl",
+   "typography",
+   "experimental"
+  ],
+  "notable": "A systems-engineering graduate's creative-developer portfolio tagged WebGL, typography and experimental in Awwwards' Colombia filter."
+ },
+ {
+  "name": "Tres60Lab",
+  "url": "https://tres60lab.com/",
+  "source": "Awwwards country filter: Colombia",
+  "source_url": "https://www.awwwards.com/sites/tres60lab",
+  "year": 2025,
+  "region": "Colombia",
+  "category": "studio-agency",
+  "tags": [
+   "creative-platform",
+   "fashion",
+   "3d",
+   "e-commerce"
+  ],
+  "notable": "Spanish-language creative platform and store tagged fashion and 3D in Awwwards' Colombia filter."
+ },
+ {
+  "name": "Atrapa los Regalos (ABCDIN)",
+  "url": "https://atrapalosregalos.abcdin.cl/",
+  "source": "Awwwards country filter: Chile",
+  "source_url": "https://www.awwwards.com/sites/atrapa-los-regalos",
+  "year": 2021,
+  "region": "Chile",
+  "category": "game-like",
+  "tags": [
+   "christmas-game",
+   "retail",
+   "music",
+   "gsap"
+  ],
+  "notable": "A retailer's Christmas game ('release your inner squirrel and grab all the gifts') tagged games and music in Awwwards' Chile filter.",
+  "mechanic": "The visitor steers a squirrel to grab gifts, causing the score to climb, which becomes the retailer's Christmas promotion."
+ },
+ {
+  "name": "PhageLab",
+  "url": "https://phage-lab.com/",
+  "source": "Awwwards country filter: Chile",
+  "source_url": "https://www.awwwards.com/sites/phage-lab-science-works",
+  "year": 2022,
+  "region": "Chile",
+  "category": "studio-agency",
+  "tags": [
+   "biotech",
+   "science",
+   "experimental",
+   "storytelling"
+  ],
+  "notable": "Biotech 'science works' site tagged experimental and storytelling in Awwwards' Chile filter, with GSAP on WordPress."
+ },
+ {
+  "name": "Solitario Studio",
+  "url": "https://solitario.studio",
+  "source": "Awwwards country filter: Chile",
+  "source_url": "https://www.awwwards.com/sites/solitario-studio",
+  "year": 2021,
+  "region": "Chile",
+  "category": "studio-agency",
+  "tags": [
+   "creative-web-dev",
+   "art-direction",
+   "typography",
+   "experimental"
+  ],
+  "notable": "Chilean creative studio offering creative web development and art direction, tagged typography and experimental in Awwwards' Chile filter."
+ },
+ {
+  "name": "Everest: The Ascent",
+  "url": "https://everest.suraj.work",
+  "source": "Awwwards country filter: India",
+  "source_url": "https://www.awwwards.com/sites/everest-the-ascent",
+  "year": 2026,
+  "region": "India",
+  "category": "3d-webgl",
+  "tags": [
+   "everest",
+   "real-time-3d",
+   "cinematic",
+   "three.js",
+   "storytelling"
+  ],
+  "notable": "A cinematic expedition in which you climb Everest in real-time 3D, tagged WebGL, experimental and storytelling in Awwwards' India filter."
+ },
+ {
+  "name": "Studio Ping Pong",
+  "url": "https://studiopingpong.com/",
+  "source": "Awwwards country filter: India",
+  "source_url": "https://www.awwwards.com/sites/studio-ping-pong",
+  "year": 2026,
+  "region": "India",
+  "category": "studio-agency",
+  "tags": [
+   "colorful",
+   "storytelling",
+   "p5.js",
+   "lottie"
+  ],
+  "notable": "A small curious team's colourful studio site tagged experimental and storytelling in Awwwards' India filter, with p5.js and Lottie."
+ },
+ {
+  "name": "Pragadheesh Raj",
+  "url": "https://www.spragadheeshraj.com",
+  "source": "Awwwards country filter: India",
+  "source_url": "https://www.awwwards.com/sites/pragadheeshs-showcase",
+  "year": 2026,
+  "region": "India",
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "ogl",
+   "shader",
+   "art-science"
+  ],
+  "notable": "A portfolio built on OGL and shader code by someone who builds 'experiences at the intersection of art, science and technology'."
+ },
+ {
+  "name": "The Donut Studio",
+  "url": "http://www.donut-studio.com",
+  "source": "Awwwards country filter: India",
+  "source_url": "https://www.awwwards.com/sites/the-donut-studio",
+  "year": 2026,
+  "region": "India",
+  "category": "studio-agency",
+  "tags": [
+   "creative-studio",
+   "three.js",
+   "webgl",
+   "lenis"
+  ],
+  "notable": "Multidisciplinary creative studio founded by two people, loading three.js, WebGL and Lenis, from Awwwards' India filter."
+ },
+ {
+  "name": "CUTOBOT",
+  "url": "https://cutobot.byholm.co/",
+  "source": "Awwwards country filter: Turkey",
+  "source_url": "https://www.awwwards.com/sites/cutobot",
+  "year": 2026,
+  "region": "Turkey",
+  "category": "3d-webgl",
+  "tags": [
+   "webgl-film",
+   "scroll-driven",
+   "robot",
+   "glsl"
+  ],
+  "notable": "An experimental scroll-driven WebGL film in which a small robot walks through a scene, tagged Three.js and GLSL in Awwwards' Turkey filter.",
+  "mechanic": "The visitor scrolls, causing a small robot to walk through the scene, which advances the WebGL film."
+ },
+ {
+  "name": "What if George Orwell had a website",
+  "url": "https://orwell.byholm.co/",
+  "source": "Awwwards country filter: Turkey",
+  "source_url": "https://www.awwwards.com/sites/what-if-orwell-had-a-website",
+  "year": 2026,
+  "region": "Turkey",
+  "category": "experimental-art",
+  "tags": [
+   "literary",
+   "three.js",
+   "storytelling",
+   "gsap"
+  ],
+  "notable": "A literary what-if site that imagines George Orwell with a website, loading three.js, GSAP and Lenis, from Awwwards' Turkey filter."
+ },
+ {
+  "name": "Galekto",
+  "url": "https://galekto.com/",
+  "source": "Awwwards country filter: Turkey",
+  "source_url": "https://www.awwwards.com/sites/galekto",
+  "year": 2026,
+  "region": "Turkey",
+  "category": "portfolio-person",
+  "tags": [
+   "brand-identity",
+   "visual-design",
+   "webgl",
+   "experimental"
+  ],
+  "notable": "Evren's 'Galekto' portfolio for brand identity and visual design, tagged WebGL, experimental and art in Awwwards' Turkey filter."
+ },
+ {
+  "name": "sinedogma / dogma yayin",
+  "url": "https://sinedogma.com.tr/",
+  "source": "Awwwards country filter: Turkey",
+  "source_url": "https://www.awwwards.com/sites/sinedogma-dogma-yayin",
+  "year": 2026,
+  "region": "Turkey",
+  "category": "editorial-story",
+  "tags": [
+   "film-magazine",
+   "digital-archive",
+   "typography",
+   "turkish-copy"
+  ],
+  "notable": "Turkish film-magazine and publisher site hosting a digital archive of magazines and books, tagged typography and art."
+ },
+ {
+  "name": "Villa Aurelia",
+  "url": "https://hotelaurelia.online/",
+  "source": "Awwwards country filter: Turkey",
+  "source_url": "https://www.awwwards.com/sites/villa-aurelia",
+  "year": 2026,
+  "region": "Turkey",
+  "category": "product-brand",
+  "tags": [
+   "boutique-hotel",
+   "cinematic",
+   "typography",
+   "three.js"
+  ],
+  "notable": "Boutique hotel positioned as a 'quiet, cinematic escape' with Turkish copy, tagged typography and Three.js in Awwwards' Turkey filter."
+ },
+ {
+  "name": "For A Safer Quang Tri",
+  "url": "https://landmines.education/en/",
+  "source": "Awwwards country filter: Vietnam",
+  "source_url": "https://www.awwwards.com/sites/for-a-safer-quang-tri",
+  "year": 2025,
+  "region": "Vietnam",
+  "category": "editorial-story",
+  "tags": [
+   "landmines",
+   "education",
+   "3d",
+   "wordpress"
+  ],
+  "notable": "A bilingual Vietnamese-English look at landmine clearance in Quang Tri, tagged 3D and interaction design and fullscreen in Awwwards' Vietnam filter."
+ },
+ {
+  "name": "Mam Com: the Vietnamese family rice tray",
+  "url": "https://the-family-rice-tray.vercel.app",
+  "source": "Awwwards country filter: Vietnam",
+  "source_url": "https://www.awwwards.com/sites/mam-com-vietnamese-feast",
+  "year": 2026,
+  "region": "Vietnam",
+  "category": "editorial-story",
+  "tags": [
+   "food-culture",
+   "storytelling",
+   "vercel",
+   "illustration"
+  ],
+  "notable": "A love letter to 'mam com', the round tray of shared dishes at a Vietnamese family meal, tagged storytelling in Awwwards' Vietnam filter."
+ },
+ {
+  "name": "Zeit Media",
+  "url": "https://www.zeitmedia.vn/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/22838.html",
+  "year": 2026,
+  "region": "Vietnam",
+  "category": "studio-agency",
+  "tags": [
+   "art-first",
+   "creative-agency",
+   "gsap",
+   "barba"
+  ],
+  "notable": "Vietnamese creative agency whose slogan is 'Art Comes First', loading GSAP, Lenis, Barba and a canvas, in MUUUUU's art category in January 2026."
+ },
+ {
+  "name": "Benjamin Creative",
+  "url": "https://benjamincreative.me/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/24556.html",
+  "year": 2026,
+  "region": "Vietnam",
+  "category": "studio-agency",
+  "tags": [
+   "webflow",
+   "framer",
+   "canvas",
+   "lenis"
+  ],
+  "notable": "Creative studio site with Webflow, Framer and a canvas layer, filed in MUUUUU's art category in July 2026."
+ },
+ {
+  "name": "The Somnia",
+  "url": "https://the-somnia.com/",
+  "source": "Awwwards country filter: Indonesia",
+  "source_url": "https://www.awwwards.com/sites/the-somnia",
+  "year": 2025,
+  "region": "Indonesia",
+  "category": "experimental-art",
+  "tags": [
+   "lucid-dreaming",
+   "three.js",
+   "webgl",
+   "experimental"
+  ],
+  "notable": "A lucid-dreaming site tagged WebGL, experimental and Three.js in Awwwards' Indonesia filter."
+ },
+ {
+  "name": "Arcanamana",
+  "url": "https://arcanamana.com",
+  "source": "Awwwards country filter: Indonesia",
+  "source_url": "https://www.awwwards.com/sites/arcanamana",
+  "year": 2025,
+  "region": "Indonesia",
+  "category": "game-like",
+  "tags": [
+   "tarot",
+   "draw-a-card",
+   "framer",
+   "experimental"
+  ],
+  "notable": "Tarot site built in Framer where you draw a card for guidance, tagged art, typography and experimental in Awwwards' Indonesia filter.",
+  "mechanic": "The visitor draws a tarot card, which reveals guidance for the question held in mind."
+ },
+ {
+  "name": "Wildy Riftian",
+  "url": "https://www.wildyriftian.com/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/industry/art/18776.html",
+  "year": 2025,
+  "region": "Indonesia",
+  "category": "portfolio-person",
+  "tags": [
+   "visual-artist",
+   "motion-designer",
+   "rive",
+   "framer"
+  ],
+  "notable": "Visual artist and motion designer's portfolio credited to Surd Studio, filed in MUUUUU's art category in February 2025."
+ },
+ {
+  "name": "karma tracks",
+  "url": "https://karma-tracks.com/",
+  "source": "Awwwards country filter: Thailand",
+  "source_url": "https://www.awwwards.com/sites/karma-worlds",
+  "year": 2026,
+  "region": "Thailand",
+  "category": "experimental-art",
+  "tags": [
+   "music-producer",
+   "experimental",
+   "canvas",
+   "next.js"
+  ],
+  "notable": "A music producer's decade of tracks presented as an experimental site, tagged art, music and Three.js in Awwwards' Thailand filter."
+ },
+ {
+  "name": "Altis: real-time satellite tracker",
+  "url": "https://altis.to/",
+  "source": "Awwwards country filter: Thailand",
+  "source_url": "https://www.awwwards.com/sites/altis-beautiful-satellites",
+  "year": 2026,
+  "region": "Thailand",
+  "category": "3d-webgl",
+  "tags": [
+   "satellites",
+   "3d-globe",
+   "real-time",
+   "webgl"
+  ],
+  "notable": "Tracks over 10,000 satellites in real time on a 3D globe, tagged WebGL in Awwwards' Thailand filter.",
+  "mechanic": "The visitor orbits the 3D globe, causing the live satellite positions to shift, which reveals each satellite's track."
+ },
+ {
+  "name": "Bangkok Pains: The Board Game",
+  "url": "https://invisibleink.asia/bkkpains",
+  "source": "Awwwards country filter: Thailand",
+  "source_url": "https://www.awwwards.com/sites/bangkok-pains-the-board-game",
+  "year": 2024,
+  "region": "Thailand",
+  "category": "game-like",
+  "tags": [
+   "board-game",
+   "bangkok",
+   "agency-story",
+   "wordpress"
+  ],
+  "notable": "Case-study page by Invisible Ink on creating the Bangkok Pains board game, tagged art, games and storytelling in Awwwards' Thailand filter."
+ },
+ {
+  "name": "Bangkok Design Week 2026: Coffee Ground Zero",
+  "url": "https://bkkdw26.greydientlab.com/",
+  "source": "Awwwards country filter: Thailand",
+  "source_url": "https://www.awwwards.com/sites/coffee-ground-zero-bkkdw2026",
+  "year": 2026,
+  "region": "Thailand",
+  "category": "event-campaign",
+  "tags": [
+   "design-week",
+   "bangkok",
+   "gsap",
+   "barba"
+  ],
+  "notable": "Bangkok Design Week 2026 homepage tagged culture and storytelling in Awwwards' Thailand filter, with GSAP and Barba."
+ },
+ {
+  "name": "Mohamed Elgazzar",
+  "url": "https://thisisgazzar.com",
+  "source": "Awwwards country filter: Egypt",
+  "source_url": "https://www.awwwards.com/sites/beyond-what-you-see",
+  "year": 2026,
+  "region": "Egypt",
+  "category": "portfolio-person",
+  "tags": [
+   "interactive-portfolio",
+   "canvas",
+   "next.js",
+   "experimental"
+  ],
+  "notable": "Portfolio spanning interactive experiences, tagged experimental and storytelling in Awwwards' Egypt filter, with a canvas on Next.js."
+ },
+ {
+  "name": "Medhat Alkadri 3D portfolio",
+  "url": "https://medhatalkadri.com",
+  "source": "Awwwards country filter: Egypt",
+  "source_url": "https://www.awwwards.com/sites/medhat-alkadri-3d-portfolio",
+  "year": 2026,
+  "region": "Egypt",
+  "category": "portfolio-person",
+  "tags": [
+   "3d-portfolio",
+   "three.js",
+   "webgl",
+   "gsap"
+  ],
+  "notable": "A senior full-stack developer's interactive 3D portfolio loading three.js, WebGL and GSAP, from Awwwards' Egypt filter."
+ },
+ {
+  "name": "Mina Massoud",
+  "url": "https://mina-massoud.com/",
+  "source": "Awwwards country filter: Egypt",
+  "source_url": "https://www.awwwards.com/sites/mina-massoud",
+  "year": 2026,
+  "region": "Egypt",
+  "category": "portfolio-person",
+  "tags": [
+   "frontend-engineer",
+   "editorial",
+   "webgl",
+   "motion"
+  ],
+  "notable": "Frontend engineer's editorial, motion-heavy portfolio with WebGL, tagged typography and experimental in Awwwards' Egypt filter."
+ },
+ {
+  "name": "Udi Foundry",
+  "url": "https://www.udifoundry.com/",
+  "source": "African Digital Art",
+  "source_url": "https://www.africandigitalart.com/",
+  "year": null,
+  "region": "Nigeria",
+  "category": "studio-agency",
+  "tags": [
+   "type-foundry",
+   "african-typefaces",
+   "oja-display",
+   "touki-grotesk"
+  ],
+  "notable": "Independent type foundry making contemporary African typefaces, including Touki Grotesk, a 14-style grotesque inspired by mid-twentieth-century African street lettering."
+ },
+ {
+  "name": "Chisaokwu Joboson",
+  "url": "https://www.chisajoboson.com/",
+  "source": "African Digital Art",
+  "source_url": "https://www.africandigitalart.com/",
+  "year": null,
+  "region": "Nigeria",
+  "category": "portfolio-person",
+  "tags": [
+   "brand-designer",
+   "type-designer",
+   "lagos",
+   "udi-foundry"
+  ],
+  "notable": "Portfolio of the Lagos-based brand and type designer who founded Udi Foundry."
+ },
+ {
+  "name": "Nyamakop",
+  "url": "https://nyamakop.co.za/",
+  "source": "African Digital Art",
+  "source_url": "https://www.africandigitalart.com/",
+  "year": null,
+  "region": "South Africa",
+  "category": "studio-agency",
+  "tags": [
+   "game-studio",
+   "relooted",
+   "johannesburg",
+   "wordpress"
+  ],
+  "notable": "Johannesburg game studio behind the heist game Relooted, in which players recover African artifacts from Western museums as acts of restitution."
+ },
+ {
+  "name": "Maliyo Games",
+  "url": "https://www.maliyo.com/",
+  "source": "African Digital Art",
+  "source_url": "https://www.africandigitalart.com/",
+  "year": null,
+  "region": "Nigeria",
+  "category": "studio-agency",
+  "tags": [
+   "game-studio",
+   "lagos",
+   "rive",
+   "next.js"
+  ],
+  "notable": "Game studio founded in Lagos in 2012, making African-themed mobile games, with Rive animation on Next.js."
+ },
+ {
+  "name": "Jiwe Studios",
+  "url": "https://jiwe.studio/",
+  "source": "African Digital Art",
+  "source_url": "https://www.africandigitalart.com/",
+  "year": null,
+  "region": "Kenya",
+  "category": "studio-agency",
+  "tags": [
+   "game-hub",
+   "publishing",
+   "kenya"
+  ],
+  "notable": "A Kenyan hub for creating, publishing and playing games in Africa."
+ },
+ {
+  "name": "Yatreda",
+  "url": "https://yatreda.com/",
+  "source": "African Digital Art",
+  "source_url": "https://www.africandigitalart.com/",
+  "year": null,
+  "region": "Ethiopia",
+  "category": "portfolio-person",
+  "tags": [
+   "art-collective",
+   "motion-portraits",
+   "folklore",
+   "cinematic"
+  ],
+  "notable": "Ethiopian family art collective led by Kiya Tadele, turning folklore and history into handcrafted, photographed and composited cinematic worlds that are often mistaken for AI art."
+ },
+ {
+  "name": "Diane Cescutti",
+  "url": "https://dianecescutti.com/",
+  "source": "African Digital Art",
+  "source_url": "https://www.africandigitalart.com/",
+  "year": null,
+  "region": "Africa",
+  "category": "portfolio-person",
+  "tags": [
+   "textile",
+   "digital-weaving",
+   "nosukaay",
+   "wordpress"
+  ],
+  "notable": "Artist site hosting Nosukaay, a project at the crossing of textile craft and technology that African Digital Art covers in its 'Weaving the Digital' feature."
+ },
+ {
+  "name": "I.AM.ISIGO",
+  "url": "https://iamisigo.com/",
+  "source": "African Digital Art",
+  "source_url": "https://www.africandigitalart.com/",
+  "year": null,
+  "region": "Africa",
+  "category": "experimental-art",
+  "tags": [
+   "digital-mystery-system",
+   "bubu-ogisi",
+   "next.js",
+   "art"
+  ],
+  "notable": "Bubu Ogisi's project described on its page only as a 'digital mystery system', covered by African Digital Art."
+ },
+ {
+  "name": "Woven in Wa",
+  "url": "https://woveninwa.org/about",
+  "source": "African Digital Art",
+  "source_url": "https://www.africandigitalart.com/",
+  "year": null,
+  "region": "Ghana",
+  "category": "editorial-story",
+  "tags": [
+   "textile-archive",
+   "hand-weaving",
+   "regional-craft",
+   "next.js"
+  ],
+  "notable": "A living digital archive of regional hand-woven textiles in Ghana, featured by African Digital Art."
+ },
+ {
+  "name": "What if: Conceptual Africa",
+  "url": "https://fricanduo.com/what-if/",
+  "source": "Awwwards country filter: South Africa",
+  "source_url": "https://www.awwwards.com/sites/what-if-conceptual-africa",
+  "year": 2024,
+  "region": "South Africa",
+  "category": "editorial-story",
+  "tags": [
+   "conceptual-design",
+   "digital-artists",
+   "typography",
+   "storytelling"
+  ],
+  "notable": "A platform for designers and digital artists imagining 'what if' Africa, tagged art, culture, typography and storytelling in Awwwards' South Africa filter."
+ },
+ {
+  "name": "Untapped Africa",
+  "url": "https://www.untappedafrica.co.za/",
+  "source": "Awwwards country filter: South Africa",
+  "source_url": "https://www.awwwards.com/sites/untapped-africa",
+  "year": 2026,
+  "region": "South Africa",
+  "category": "studio-agency",
+  "tags": [
+   "water-infrastructure",
+   "typography",
+   "webgl",
+   "storytelling"
+  ],
+  "notable": "Water-infrastructure organisation's site tagged typography, WebGL and storytelling in Awwwards' South Africa filter."
+ },
+ {
+  "name": "South Side Studios",
+  "url": "https://sss.matchboxstudio.com/",
+  "source": "Awwwards country filter: South Africa",
+  "source_url": "https://www.awwwards.com/sites/south-side-studios",
+  "year": 2025,
+  "region": "South Africa",
+  "category": "studio-agency",
+  "tags": [
+   "film-studio",
+   "webgl",
+   "3d",
+   "video"
+  ],
+  "notable": "Film-and-animation studio page tagged WebGL, 3D and video in Awwwards' South Africa filter, with GSAP, Barba and a canvas."
+ },
+ {
+  "name": "Directionless",
+  "url": "https://directionless.webflow.io/",
+  "source": "Awwwards country filter: Nigeria",
+  "source_url": "https://www.awwwards.com/sites/directionless",
+  "year": 2026,
+  "region": "Nigeria",
+  "category": "experimental-art",
+  "tags": [
+   "ode",
+   "webflow",
+   "webgl",
+   "locomotive-scroll"
+  ],
+  "notable": "An art-and-illustration piece on Webflow 'for the ones willing to make something beautiful', tagged WebGL, experimental and storytelling in Awwwards' Nigeria filter."
+ },
+ {
+  "name": "Studio Lumio",
+  "url": "https://studiolumio.com/",
+  "source": "Awwwards country filter: Nigeria",
+  "source_url": "https://www.awwwards.com/sites/studio-lumio",
+  "year": 2025,
+  "region": "Nigeria",
+  "category": "studio-agency",
+  "tags": [
+   "digital-experience",
+   "webgl",
+   "3d",
+   "webflow"
+  ],
+  "notable": "Studio that crafts custom sites 'beyond looks', tagged WebGL, experimental and 3D in Awwwards' Nigeria filter."
+ },
+ {
+  "name": "Chowdeck Black Friday 2025",
+  "url": "https://bfcm2025.chowdeck.com/",
+  "source": "Awwwards country filter: Nigeria",
+  "source_url": "https://www.awwwards.com/sites/chowdeck-black-friday-2025",
+  "year": 2026,
+  "region": "Nigeria",
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "food-delivery",
+   "storytelling",
+   "3d"
+  ],
+  "notable": "Food-delivery company's Black Friday recap reporting 'vendors processed N1.4 billion', tagged art, music, storytelling and 3D in Awwwards' Nigeria filter."
+ },
+ {
+  "name": "Billodesign living portfolio",
+  "url": "https://billodesign.webflow.io/",
+  "source": "Awwwards country filter: Nigeria",
+  "source_url": "https://www.awwwards.com/sites/billodesign-living-portfolio",
+  "year": 2025,
+  "region": "Nigeria",
+  "category": "portfolio-person",
+  "tags": [
+   "webflow-partner",
+   "living-portfolio",
+   "gsap",
+   "canvas"
+  ],
+  "notable": "A Webflow-certified partner's 'living portfolio' with GSAP, Lenis and a canvas, tagged 3D and interaction design in Awwwards' Nigeria filter."
+ },
+ {
+  "name": "SANKOU! Web Design Gallery",
+  "url": "https://sankoudesign.com/",
+  "source": "SANKOU! Web Design Gallery",
+  "source_url": "https://sankoudesign.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "gallery-source",
+  "tags": [
+   "japan",
+   "curated",
+   "daily-updates",
+   "agency-credits"
+  ],
+  "notable": "Worked: 81 entries per page across 50 pages, each with outbound URL, detail page and date; plain HTTP scraping works, and it mixes corporate and recruiting sites with occasional art-directed picks."
+ },
+ {
+  "name": "io3000",
+  "url": "https://io3000.com/",
+  "source": "io3000",
+  "source_url": "https://io3000.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "gallery-source",
+  "tags": [
+   "japan",
+   "bookmarks",
+   "daily",
+   "global-sites"
+  ],
+  "notable": "Worked: a daily-updated bookmark list of 12 per page with outbound and detail URLs, covering Japanese and foreign sites (Pioneer DJ, Natural History Museum) with no descriptions."
+ },
+ {
+  "name": "81-web.com",
+  "url": "https://81-web.com/",
+  "source": "81-web.com",
+  "source_url": "https://81-web.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "gallery-source",
+  "tags": [
+   "japan",
+   "gallery",
+   "filters",
+   "spa"
+  ],
+  "notable": "Partial: the gallery is client-rendered, so neither WebFetch nor raw HTML exposes entries; it offers filters for type, category, colour, font, tag and agency that would need a real browser."
+ },
+ {
+  "name": "Japan Web Design",
+  "url": "https://japanwebdesign.com/",
+  "source": "Japan Web Design",
+  "source_url": "https://japanwebdesign.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "gallery-source",
+  "tags": [
+   "japan",
+   "mood-categories",
+   "site-of-the-week"
+  ],
+  "notable": "Worked: 12 entries per page with a Site of the Week and mood filters (Elegant, Kawaii, Messy, Modern, Quirky, Trendy), an unusual way to browse."
+ },
+ {
+  "name": "MUUUUU.ORG",
+  "url": "https://muuuuu.org/",
+  "source": "MUUUUU.ORG",
+  "source_url": "https://muuuuu.org/",
+  "year": null,
+  "region": "Japan",
+  "category": "gallery-source",
+  "tags": [
+   "japan",
+   "taxonomy",
+   "webgl-3d",
+   "credits"
+  ],
+  "notable": "Worked best: 96 entries per page with per-site credits and categories such as WebGL-3D, generative design, horizontal scroll and page transition (600+ WebGL sites), and it features many non-Japanese studios."
+ },
+ {
+  "name": "Web Design Clip",
+  "url": "https://webdesignclip.com/",
+  "source": "Web Design Clip",
+  "source_url": "https://webdesignclip.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "gallery-source",
+  "tags": [
+   "japan",
+   "tech-tags",
+   "portfolio-category",
+   "large-archive"
+  ],
+  "notable": "Worked: about 6,400 entries tagged by category and stack (Astro, Studio, Framer, WordPress), with a dedicated portfolio category of personal sites."
+ },
+ {
+  "name": "S5-Style",
+  "url": "https://www.s5-style.com/",
+  "source": "S5-Style",
+  "source_url": "https://www.s5-style.com/",
+  "year": null,
+  "region": "Japan",
+  "category": "gallery-source",
+  "tags": [
+   "japan",
+   "server-rendered",
+   "design-sets",
+   "interviews"
+  ],
+  "notable": "Worked via raw HTML (the bare domain fails DNS, www works): 120 server-rendered entries plus design sets and interviews."
+ },
+ {
+  "name": "Good Design Award (G Mark)",
+  "url": "https://www.g-mark.org/",
+  "source": "Good Design Award (G Mark)",
+  "source_url": "https://www.g-mark.org/",
+  "year": null,
+  "region": "Japan",
+  "category": "gallery-source",
+  "tags": [
+   "award",
+   "archive",
+   "japan"
+  ],
+  "notable": "Partial: the site loads and exposes /gallery/winners and yearly results, but no website or digital winners with outbound URLs could be extracted."
+ },
+ {
+  "name": "GDWEB",
+  "url": "https://gdweb.co.kr/",
+  "source": "GDWEB",
+  "source_url": "https://gdweb.co.kr/",
+  "year": null,
+  "region": "South Korea",
+  "category": "gallery-source",
+  "tags": [
+   "korea",
+   "award",
+   "since-2005",
+   "agency-credits"
+  ],
+  "notable": "Worked: 360 selected web and mobile entries whose detail pages link out to the live sites (via curl; the bare page JS-redirects), mostly corporate with a few studio and font microsites."
+ },
+ {
+  "name": "DBCUT",
+  "url": "https://www.dbcut.com/",
+  "source": "DBCUT",
+  "source_url": "https://www.dbcut.com/",
+  "year": null,
+  "region": "South Korea",
+  "category": "gallery-source",
+  "tags": [
+   "korea",
+   "gallery",
+   "redirect-links",
+   "international-mix"
+  ],
+  "notable": "Worked: 190 recent entries across board pages, whose outbound links are redirect URLs that resolve to the real site; it mixes Korean brands with Belgian, French and Vietnamese picks."
+ },
+ {
+  "name": "Korea Web Design",
+  "url": "https://www.koreawebdesign.com/",
+  "source": "Korea Web Design",
+  "source_url": "https://www.koreawebdesign.com/",
+  "year": null,
+  "region": "South Korea",
+  "category": "gallery-source",
+  "tags": [
+   "korea",
+   "desktop-mobile",
+   "colour-tags"
+  ],
+  "notable": "Partial: lists 12 desktop and 12 mobile entries by colour tag with internal detail pages only, mostly bank, retail and corporate work."
+ },
+ {
+  "name": "What Was IT (WWIT)",
+  "url": "https://wwit.design/",
+  "source": "What Was IT (WWIT)",
+  "source_url": "https://wwit.design/",
+  "year": null,
+  "region": "South Korea",
+  "category": "gallery-source",
+  "tags": [
+   "korea",
+   "ui-teardowns",
+   "app-screens"
+  ],
+  "notable": "Worked but off-target: it catalogues Korean app UI as screenshot teardowns (Alarmy, Naver Pay, Wrtn), not live websites, so no site entries were taken."
+ },
+ {
+  "name": "ZCOOL",
+  "url": "https://www.zcool.com.cn/",
+  "source": "ZCOOL",
+  "source_url": "https://www.zcool.com.cn/",
+  "year": null,
+  "region": "China",
+  "category": "gallery-source",
+  "tags": [
+   "china",
+   "design-community",
+   "brand-heavy"
+  ],
+  "notable": "Reachable but poor for this brief: the homepage cards were brand, illustration, packaging and photography work with no web or interactive pieces and no per-work links."
+ },
+ {
+  "name": "UISDC",
+  "url": "https://www.uisdc.com/",
+  "source": "UISDC",
+  "source_url": "https://www.uisdc.com/",
+  "year": null,
+  "region": "China",
+  "category": "gallery-source",
+  "tags": [
+   "china",
+   "design-platform",
+   "articles"
+  ],
+  "notable": "Reachable (HTTP 200) but not mined: a large Chinese designer-education platform whose editorial lists would need Chinese-language browsing."
+ },
+ {
+  "name": "African Digital Art",
+  "url": "https://www.africandigitalart.com/",
+  "source": "African Digital Art",
+  "source_url": "https://www.africandigitalart.com/",
+  "year": null,
+  "region": "Africa",
+  "category": "gallery-source",
+  "tags": [
+   "africa",
+   "editorial",
+   "artist-features",
+   "archive-since-2009"
+  ],
+  "notable": "Worked: an editorial archive since 2009 whose articles link out to artist, foundry and studio sites; I followed those to Udi Foundry, Nyamakop, Yatreda and others."
+ },
+ {
+  "name": "Awwwards country filters",
+  "url": "https://www.awwwards.com/websites/Brazil/",
+  "source": "Awwwards country filters",
+  "source_url": "https://www.awwwards.com/websites/Brazil/",
+  "year": null,
+  "region": "Global",
+  "category": "gallery-source",
+  "tags": [
+   "country-filter",
+   "nominees",
+   "english-gallery"
+  ],
+  "notable": "Worked with raw HTML at /websites/<Country>/ (31 recent items per country with tags); each detail page gives the outbound URL, and the country is the maker's declared one, so some entries are mislabelled."
+ },
+ {
+  "name": "Dutch Interactive Awards",
+  "url": "https://dutchinteractiveawards.nl/",
+  "source": "Dutch Interactive Awards",
+  "source_url": "https://dutchinteractiveawards.nl/",
+  "year": null,
+  "region": "Netherlands",
+  "category": "gallery-source",
+  "tags": [
+   "netherlands",
+   "award",
+   "interactive"
+  ],
+  "notable": "Partial: the 2026 site loads but the winners page returns 404 and the nominees page lists no URLs."
+ },
+ {
+  "name": "Guldagget",
+  "url": "https://guldagget.se/",
+  "source": "Guldagget",
+  "source_url": "https://guldagget.se/",
+  "year": null,
+  "region": "Sweden",
+  "category": "gallery-source",
+  "tags": [
+   "sweden",
+   "award",
+   "archive"
+  ],
+  "notable": "Partial: the 2026 winners archive lists projects, clients and agencies (Ad Builder, The Kidney Pass) without outbound URLs."
+ },
+ {
+  "name": "Best of Swiss Web",
+  "url": "https://www.bestofswissweb.swiss/",
+  "source": "Best of Swiss Web",
+  "source_url": "https://www.bestofswissweb.swiss/",
+  "year": null,
+  "region": "Switzerland",
+  "category": "gallery-source",
+  "tags": [
+   "switzerland",
+   "award",
+   "hall-of-fame"
+  ],
+  "notable": "Failed to yield entries: the redirect target returned an empty page to the fetcher."
+ },
+ {
+  "name": "Danish Design Award",
+  "url": "https://danishdesignaward.com/",
+  "source": "Danish Design Award",
+  "source_url": "https://danishdesignaward.com/",
+  "year": null,
+  "region": "Denmark",
+  "category": "gallery-source",
+  "tags": [
+   "denmark",
+   "award",
+   "winners"
+  ],
+  "notable": "Partial: homepage and yearly winner pages exist (the 2025 Best of the Best was UNHCR's Digital Gateway) but the 2024 page 404s and no site URLs were exposed."
+ },
+ {
+  "name": "Kristalova Lupa",
+  "url": "https://kristalova.lupa.cz/2026/",
+  "source": "Kristalova Lupa",
+  "source_url": "https://kristalova.lupa.cz/2026/",
+  "year": null,
+  "region": "Czechia",
+  "category": "gallery-source",
+  "tags": [
+   "czechia",
+   "award",
+   "internet"
+  ],
+  "notable": "Partial: the 2026 page says voting has ended and results come on 24 November, so no winners were listed yet."
+ },
+ {
+  "name": "Kristal Elma",
+  "url": "https://www.kristalelma.org.tr/",
+  "source": "Kristal Elma",
+  "source_url": "https://www.kristalelma.org.tr/",
+  "year": null,
+  "region": "Turkey",
+  "category": "gallery-source",
+  "tags": [
+   "turkey",
+   "award",
+   "pdf-results"
+  ],
+  "notable": "Partial: winners exist only as a PDF list, with no site URLs."
+ },
+ {
+  "name": "Kyoorius Awards",
+  "url": "https://awards.kyoorius.com/",
+  "source": "Kyoorius Awards",
+  "source_url": "https://awards.kyoorius.com/",
+  "year": null,
+  "region": "India",
+  "category": "gallery-source",
+  "tags": [
+   "india",
+   "award",
+   "archive"
+  ],
+  "notable": "Partial: archives for 2013 to 2025 exist, with digital sections for 2014 and 2015, but they are image-led without outbound URLs."
+ },
+ {
+  "name": "Loeries",
+  "url": "https://www.loeries.com/",
+  "source": "Loeries",
+  "source_url": "https://www.loeries.com/",
+  "year": null,
+  "region": "South Africa",
+  "category": "gallery-source",
+  "tags": [
+   "south-africa",
+   "award",
+   "digital-category"
+  ],
+  "notable": "Partial: describes the Digital category and links a 2026 winners archive on a separate entry site, with no winner names on the page."
+ },
+ {
+  "name": "El Ojo de Iberoamerica",
+  "url": "https://www.elojodeiberoamerica.com/",
+  "source": "El Ojo de Iberoamerica",
+  "source_url": "https://www.elojodeiberoamerica.com/",
+  "year": null,
+  "region": "Latin America",
+  "category": "gallery-source",
+  "tags": [
+   "latin-america",
+   "award",
+   "ibero"
+  ],
+  "notable": "Partial: the 2026 festival homepage links a 2025 winners page, with no digital winners or URLs on the page itself."
+ },
+ {
+  "name": "iBest Award",
+  "url": "https://premioibest.com/",
+  "source": "iBest Award",
+  "source_url": "https://premioibest.com/",
+  "year": null,
+  "region": "Brazil",
+  "category": "gallery-source",
+  "tags": [
+   "brazil",
+   "award",
+   "creators"
+  ],
+  "notable": "Reachable but off-target: its title frames it as Brazil's biggest award for creators, influencers and digital channels rather than site design."
+ },
+ {
+  "name": "BDA Premio Brasileiro de Design",
+  "url": "https://bdapremiobrasileirodesign.com.br/",
+  "source": "BDA Premio Brasileiro de Design",
+  "source_url": "https://bdapremiobrasileirodesign.com.br/",
+  "year": null,
+  "region": "Brazil",
+  "category": "gallery-source",
+  "tags": [
+   "brazil",
+   "award",
+   "catalogs"
+  ],
+  "notable": "Partial: lists rules, juries and PDF catalogs for 2018 to 2025 but no winning projects or URLs on the page."
+ },
+ {
+  "name": "Design Indaba",
+  "url": "https://www.designindaba.com/",
+  "source": "Design Indaba",
+  "source_url": "https://www.designindaba.com/",
+  "year": null,
+  "region": "South Africa",
+  "category": "gallery-source",
+  "tags": [
+   "south-africa",
+   "design-media",
+   "festival"
+  ],
+  "notable": "Reachable (HTTP 200) but not mined: a Cape Town design platform that could source African creative work."
+ }
+]

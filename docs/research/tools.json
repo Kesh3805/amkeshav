@@ -1,0 +1,2248 @@
+[
+ {
+  "name": "Aceternity UI",
+  "url": "https://ui.aceternity.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Not stated on page (links to /licence)",
+  "highlights": "Animation-heavy React + Tailwind + Motion components for landing pages; free components, paid All-Access Pass for blocks, templates and pages.",
+  "standout_components": [
+   "3D Card Effect",
+   "Apple Cards Carousel",
+   "Background Beams",
+   "3D Marquee",
+   "Wobble Card",
+   "Hero Highlight"
+  ]
+ },
+ {
+  "name": "Aceternity UI Pro",
+  "url": "https://ui.aceternity.com/pro",
+  "kind": "template-marketplace",
+  "pricing": "paid",
+  "stack": "react",
+  "license": "Commercial (All-Access Pass; third-party list cites $249 one-time)",
+  "highlights": "Paid tier of Aceternity UI: premium blocks, full templates and pages.",
+  "standout_components": [
+   "All-Access Pass",
+   "Blocks",
+   "Templates",
+   "Pages"
+  ]
+ },
+ {
+  "name": "Aceternity Studio",
+  "url": "https://www.aceternity.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "react",
+  "license": "not stated on site",
+  "highlights": "Studio site linked from Aceternity UI as a related project (not fetched; kind/pricing unverified).",
+  "standout_components": []
+ },
+ {
+  "name": "Acebuilder",
+  "url": "https://acebuilder.ai",
+  "kind": "prompt-marketplace",
+  "pricing": "unknown",
+  "stack": "react",
+  "license": "not stated on site",
+  "highlights": "AI builder from the Aceternity team, linked from the Aceternity UI site as a related project (not fetched in detail).",
+  "standout_components": []
+ },
+ {
+  "name": "React Bits",
+  "url": "https://reactbits.dev",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "MIT + Commons Clause",
+  "highlights": "215+ free animated components (text animations, animations, components, micro-interactions, 63 backgrounds) with JS/TS and CSS/Tailwind variants; paid Pro tier; Vue and Svelte ports exist.",
+  "standout_components": [
+   "Topography",
+   "Fluid Glass",
+   "Liquid Chrome",
+   "Circular Gallery",
+   "Strands",
+   "Split Text"
+  ]
+ },
+ {
+  "name": "Magic UI",
+  "url": "https://magicui.design",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "MIT (per third-party list); site says free and open-source",
+  "highlights": "150+ free animated React/Tailwind/Motion components for shadcn/ui projects, installed via CLI.",
+  "standout_components": [
+   "Marquee",
+   "Globe",
+   "Dock",
+   "Bento Grid",
+   "Orbiting Circles",
+   "Icon Cloud",
+   "Hero Video Dialog",
+   "Lens"
+  ]
+ },
+ {
+  "name": "Magic UI Pro",
+  "url": "https://pro.magicui.design",
+  "kind": "template-marketplace",
+  "pricing": "paid",
+  "stack": "react",
+  "license": "Individual license, lifetime ($199 one-time)",
+  "highlights": "50+ landing page sections and 9 full templates (Next.js, Tailwind, Motion).",
+  "standout_components": [
+   "Codeforge",
+   "AI Agent",
+   "Dev Tool",
+   "SaaS",
+   "Portfolio"
+  ]
+ },
+ {
+  "name": "21st.dev",
+  "url": "https://21st.dev",
+  "kind": "template-marketplace",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Code copied into your repo; no license text on page",
+  "highlights": "Community registry of 12,000+ React/Tailwind components, templates, themes, shaders and gradients with CLI/MCP install and a Copy-prompt flow for AI tools; 2 free copies/day, paid membership.",
+  "standout_components": [
+   "Community components",
+   "Templates",
+   "Shaders",
+   "Gradients",
+   "Copy prompt",
+   "MCP/CLI init"
+  ]
+ },
+ {
+  "name": "Scrolltide",
+  "url": "https://www.scrolltide.co",
+  "kind": "prompt-marketplace",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "100% personal and client use (per site)",
+  "highlights": "Prompt and template library for scroll-driven cinematic sites (132 templates, 66 components, 55 shaders, 20 sections, 14 UI screens); copy a prompt into an AI tool. Unlimited plan ~$29/mo; free tier incl. SELENE template.",
+  "standout_components": [
+   "Scroll Key",
+   "Particle Globe",
+   "Tide Swirl",
+   "Magma Flow",
+   "SELENE (free template)"
+  ]
+ },
+ {
+  "name": "Planes",
+  "url": "https://useplanes.com",
+  "kind": "component-library",
+  "pricing": "paid",
+  "stack": "react",
+  "license": "Lifetime license $99, one developer, unlimited commercial projects",
+  "highlights": "170+ React/Tailwind/Motion components with an MCP server and llms.txt for agents; strong on novelty and shader-like effects.",
+  "standout_components": [
+   "Galaxy",
+   "Magma",
+   "Caustics",
+   "Ferrofluid",
+   "Cymatics",
+   "Split-Flap Board",
+   "Text Cylinder",
+   "Cover Flow"
+  ]
+ },
+ {
+  "name": "Motion Primitives",
+  "url": "https://motion-primitives.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Open source (license not named on page)",
+  "highlights": "Composable animated building blocks built with Motion, with an Advanced paid tier.",
+  "standout_components": [
+   "Text Scramble"
+  ]
+ },
+ {
+  "name": "Cult UI",
+  "url": "https://www.cult-ui.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "154 free shadcn-based animated components plus AI SDK agent patterns; Cult Pro paid.",
+  "standout_components": [
+   "Globe",
+   "Kanban board",
+   "Fluted glass",
+   "Mac screen",
+   "Analytics chart"
+  ]
+ },
+ {
+  "name": "Skiper UI",
+  "url": "https://skiper-ui.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "Un-common shadcn/ui components with Motion; free, $129 Premium, $549 Exclusive (templates, Figma, coming soon).",
+  "standout_components": [
+   "Image reveal",
+   "Hover members",
+   "Dynamic island",
+   "Vercel Tooltip",
+   "Aave token swap"
+  ]
+ },
+ {
+  "name": "Animata",
+  "url": "https://animata.design",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "Free collection of micro-interaction and animation components.",
+  "standout_components": [
+   "Animated Beam",
+   "Flower Menu",
+   "Gooey Tabs",
+   "Card Stack",
+   "Bar Chart"
+  ]
+ },
+ {
+  "name": "Hover.dev",
+  "url": "https://www.hover.dev",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Proprietary; no redistribution without written consent",
+  "highlights": "Animated React/Tailwind components and templates with Motion; copy-paste, some free, paid Unlock Everything.",
+  "standout_components": [
+   "Encrypt Button",
+   "Navbars & Menus",
+   "Carousels",
+   "3D sections",
+   "Kanban Boards"
+  ]
+ },
+ {
+  "name": "Kokonut UI",
+  "url": "https://kokonutui.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "Free shadcn/Motion component set with a paid Pro ($119 lifetime, 120+ components, 6 templates).",
+  "standout_components": [
+   "AI Input Selector",
+   "Apple Activity Card",
+   "Slide to Confirm",
+   "Detent Dial",
+   "Liquid Gauge"
+  ]
+ },
+ {
+  "name": "coss ui (formerly Origin UI)",
+  "url": "https://coss.com/ui",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT (per third-party list)",
+  "highlights": "Origin UI now lives at coss ui, a component library layered on Base UI with a Composer for chat/AI interfaces.",
+  "standout_components": [
+   "Accordion",
+   "Calendar",
+   "Command",
+   "Composer"
+  ]
+ },
+ {
+  "name": "Eldora UI",
+  "url": "https://www.eldoraui.site",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "Free, open-source animated components in the Magic UI style (React, Tailwind, Motion).",
+  "standout_components": [
+   "Animated Frameworks",
+   "Clerk OTP",
+   "Testimonial Slider",
+   "Map"
+  ]
+ },
+ {
+  "name": "SyntaxUI",
+  "url": "https://syntaxui.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "Free React/Tailwind/Framer UI elements, with SyntaxUI Pro for blocks and templates.",
+  "standout_components": [
+   "Button",
+   "Input",
+   "Tab",
+   "Accordion",
+   "Stepper"
+  ]
+ },
+ {
+  "name": "Fancy Components",
+  "url": "https://fancycomponents.dev",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "Not specified (says open source)",
+  "highlights": "Free and open-source React components for experimental effects.",
+  "standout_components": [
+   "Image Trail",
+   "Text Highlighter",
+   "Gravity",
+   "CSS Box",
+   "Marquee Along SVG Path"
+  ]
+ },
+ {
+  "name": "Lightswind UI",
+  "url": "https://lightswind.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "MIT for open-source components; Pro/Enterprise commercial",
+  "highlights": "React kit mixing free components with Pro 3D blocks using WebGL, Three.js and Rapier physics.",
+  "standout_components": [
+   "Globe",
+   "Magic Card",
+   "Dock",
+   "Count Up",
+   "Aurora Text Effect"
+  ]
+ },
+ {
+  "name": "Systaliko UI",
+  "url": "https://systaliko-ui.vercel.app",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "Not stated (open source)",
+  "highlights": "Free shadcn-registry components and full templates built with Motion.",
+  "standout_components": [
+   "Magnetic Grid",
+   "Cards Stack",
+   "Abla",
+   "Veo",
+   "Cognify AI"
+  ]
+ },
+ {
+  "name": "SmoothUI",
+  "url": "https://www.smoothui.dev",
+  "kind": "component-library",
+  "pricing": "unknown",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "React 19 / Tailwind v4 shadcn-compatible components with Motion and GSAP.",
+  "standout_components": [
+   "Dynamic Island",
+   "Siri Orb",
+   "AI Prompt Input",
+   "Infinite Slider",
+   "Morph Toggle"
+  ]
+ },
+ {
+  "name": "Tailark",
+  "url": "https://tailark.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "Open-source shadcn marketing blocks (heroes, content, footers) in cohesive themes; Next.js.",
+  "standout_components": [
+   "Quartz",
+   "Libre",
+   "Dusk",
+   "Dark"
+  ]
+ },
+ {
+  "name": "Tailark Pro",
+  "url": "https://pro.tailark.com",
+  "kind": "template-marketplace",
+  "pricing": "paid",
+  "stack": "react",
+  "license": "Commercial lifetime ($249/$299/$499)",
+  "highlights": "Paid shadcn marketing kit: pages, blocks and illustrations; moving to tailark.com.",
+  "standout_components": [
+   "Essentials",
+   "Complete",
+   "Team",
+   "Page templates"
+  ]
+ },
+ {
+  "name": "Spectrum UI",
+  "url": "https://ui.spectrumhq.in",
+  "kind": "component-library",
+  "pricing": "unknown",
+  "stack": "react",
+  "license": "Not stated (all rights reserved footer)",
+  "highlights": "shadcn/Tailwind/Motion components, blocks and animations for Next.js.",
+  "standout_components": [
+   "Recent Activity",
+   "Transfer Funds Card",
+   "FAQ Tabs Card",
+   "AI Chat Card",
+   "Kanban Board"
+  ]
+ },
+ {
+  "name": "Luxe",
+  "url": "https://luxeui.com",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT (per GitHub third-party listing)",
+  "highlights": "Copy-paste React/Tailwind/Motion components with a CLI and a dark, elegant look.",
+  "standout_components": [
+   "Accordion",
+   "Input OTP",
+   "Button"
+  ]
+ },
+ {
+  "name": "BuouUI",
+  "url": "https://buouui.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Template License (terms not shown)",
+  "highlights": "React/Tailwind/Framer Motion components plus SupaUI MCP and Next.js starter kits.",
+  "standout_components": [
+   "Bill Calendar",
+   "Password Input",
+   "Scroll Island",
+   "Floating Dock",
+   "Animations Stepper"
+  ]
+ },
+ {
+  "name": "unlumen UI",
+  "url": "https://ui.unlumen.com/",
+  "kind": "component-library",
+  "pricing": "unknown",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "Beautifully designed React components and primitives with a Pricing tier.",
+  "standout_components": [
+   "Components",
+   "Primitives"
+  ]
+ },
+ {
+  "name": "Shadcnblocks",
+  "url": "https://www.shadcnblocks.com",
+  "kind": "template-marketplace",
+  "pricing": "paid",
+  "stack": "react",
+  "license": "Commercial license (lifetime tiers $149/$299/$399)",
+  "highlights": "2,600+ shadcn/Tailwind blocks across Radix, Base UI and React Aria builds.",
+  "standout_components": [
+   "Hero (292 blocks)",
+   "Feature (334 blocks)",
+   "Pricing (96 blocks)",
+   "Dashboard (31 blocks)"
+  ]
+ },
+ {
+  "name": "shadcn.io",
+  "url": "https://www.shadcn.io",
+  "kind": "template-marketplace",
+  "pricing": "paid",
+  "stack": "react",
+  "license": "Individual (personal/OSS) vs Team/Org commercial",
+  "highlights": "Independent marketplace of 6,000+ blocks, hooks and themes for React, Vue, Svelte and Solid.",
+  "standout_components": [
+   "Hero (150 blocks)",
+   "Features (170 blocks)",
+   "Pricing (108 blocks)",
+   "Login (100 blocks)"
+  ]
+ },
+ {
+  "name": "shadcn/ui",
+  "url": "https://ui.shadcn.com",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "Not stated on page (MIT per third-party list)",
+  "highlights": "The copy-paste component foundation most libraries here build on, with blocks, charts and a registry system.",
+  "standout_components": [
+   "Components",
+   "Blocks",
+   "Charts"
+  ]
+ },
+ {
+  "name": "Kibo UI",
+  "url": "https://www.kibo-ui.com",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "Free shadcn registry of advanced app components.",
+  "standout_components": [
+   "Color Picker",
+   "Image Zoom",
+   "QR Code",
+   "Code Block",
+   "Dropzone"
+  ]
+ },
+ {
+  "name": "ReUI",
+  "url": "https://reui.io",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "MIT for free components; Pro blocks paid ($249+)",
+  "highlights": "1,000+ free shadcn components on Radix or Base UI with MCP support and paid Pro blocks.",
+  "standout_components": [
+   "Data Grid",
+   "Kanban",
+   "Gantt",
+   "Event Calendar",
+   "Filters"
+  ]
+ },
+ {
+  "name": "MynaUI",
+  "url": "https://mynaui.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "Tailwind/shadcn UI kit with Figma file and icons; free and Pro.",
+  "standout_components": [
+   "Accordion",
+   "Calendar",
+   "Combobox",
+   "Data Table",
+   "Dialog"
+  ]
+ },
+ {
+  "name": "Velora UI",
+  "url": "https://velora.colorlib.com",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "31 free animated shadcn blocks with Next.js 16, Tailwind 4 and Motion.",
+  "standout_components": [
+   "Globe split hero",
+   "Bento feature grid",
+   "Three-tier pricing",
+   "Testimonial marquee"
+  ]
+ },
+ {
+  "name": "Efferd",
+  "url": "https://efferd.com",
+  "kind": "template-marketplace",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Not stated (License page)",
+  "highlights": "shadcn block registry for auth, heroes, dashboards, app shells, footers.",
+  "standout_components": [
+   "Auth (14 blocks)",
+   "Hero Sections",
+   "Dashboard",
+   "App Shell",
+   "Footer"
+  ]
+ },
+ {
+  "name": "HextaUI",
+  "url": "https://hextaui.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "MIT for free components; Pro blocks paid",
+  "highlights": "React 19 / Tailwind v4 / Base UI components with $49 early Pro blocks.",
+  "standout_components": [
+   "Questionnaire",
+   "Number Flow",
+   "Switch",
+   "Toast",
+   "Input OTP"
+  ]
+ },
+ {
+  "name": "Ruixen UI",
+  "url": "https://www.ruixen.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Not named (Pro has commercial license)",
+  "highlights": "Free shadcn catalog plus $99 lifetime Pro with 50+ premium components.",
+  "standout_components": [
+   "Split Feature Showcase",
+   "Structured Hero Section",
+   "Comment Thread",
+   "Wordmark Footer",
+   "Rising Glow"
+  ]
+ },
+ {
+  "name": "Launch UI",
+  "url": "https://www.launchuicomponents.com",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "Open source (license not named)",
+  "highlights": "Free shadcn/Tailwind v4 landing page blocks with named colour themes.",
+  "standout_components": [
+   "Ember",
+   "Fire",
+   "Ultraviolet",
+   "Titanium",
+   "Holo"
+  ]
+ },
+ {
+  "name": "UI-Layouts",
+  "url": "https://www.ui-layouts.com",
+  "kind": "component-library",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "100+ free blocks plus premium blocks; visual effects for Next.js/Tailwind sites.",
+  "standout_components": [
+   "Liquid Glass",
+   "Image Mousetrail",
+   "Globe",
+   "Image Reveal"
+  ]
+ },
+ {
+  "name": "Cuicui",
+  "url": "https://cuicui.day",
+  "kind": "component-library",
+  "pricing": "unknown",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "All-in-one React component library.",
+  "standout_components": [
+   "Action Menu",
+   "Alert",
+   "Authentication",
+   "Battery",
+   "Code"
+  ]
+ },
+ {
+  "name": "HeroUI",
+  "url": "https://www.heroui.com",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "React Aria + Tailwind v4 component library with a Native version.",
+  "standout_components": [
+   "React components",
+   "Native components"
+  ]
+ },
+ {
+  "name": "Animate UI",
+  "url": "https://animate-ui.com",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "Not stated (source on GitHub)",
+  "highlights": "Animated shadcn-style components on Radix, Base UI and React Aria, installed via its CLI; Vue version linked.",
+  "standout_components": [
+   "Switch",
+   "Tabs",
+   "Accordion",
+   "Checkbox",
+   "Radio Group"
+  ]
+ },
+ {
+  "name": "Inspira UI",
+  "url": "https://inspira-ui.com/docs",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "vue",
+  "license": "Not stated on page (MIT per third-party summary)",
+  "highlights": "150+ animated Vue/Nuxt components incl. WebGL and HTML-in-Canvas effects, the Vue answer to Aceternity.",
+  "standout_components": [
+   "HTML ASCII",
+   "HTML Liquid",
+   "HTML Cloth",
+   "Cube Carousel",
+   "Shader Toy Viewer"
+  ]
+ },
+ {
+  "name": "Vue Bits",
+  "url": "https://vue-bits.dev",
+  "kind": "component-library",
+  "pricing": "unknown",
+  "stack": "vue",
+  "license": "Not stated",
+  "highlights": "Animated UI components for Vue (page content was minimal when fetched).",
+  "standout_components": []
+ },
+ {
+  "name": "Svelte Bits",
+  "url": "https://sveltebits.xyz",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "svelte",
+  "license": "MIT + Commons Clause (per search listing)",
+  "highlights": "Official Svelte 5 port of React Bits via jsrepo or shadcn.",
+  "standout_components": [
+   "Dot Field",
+   "Soft Aurora",
+   "Ballpit",
+   "Splash Cursor",
+   "Balatro",
+   "Magic Rings"
+  ]
+ },
+ {
+  "name": "Paper Shaders",
+  "url": "https://shaders.paper.design",
+  "kind": "shader-library",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "Apache-2.0 (GitHub page; other sources disagree)",
+  "highlights": "Zero-dependency WebGL canvas shaders with React and vanilla packages for gradients, noise and patterns.",
+  "standout_components": [
+   "MeshGradient",
+   "DotOrbit"
+  ]
+ },
+ {
+  "name": "Shaders (shaders.com)",
+  "url": "https://shaders.com",
+  "kind": "shader-library",
+  "pricing": "freemium",
+  "stack": "framework-agnostic",
+  "license": "Open-source npm library; Pro platform paid",
+  "highlights": "WebGPU effects toolkit for React, Vue, Svelte, Solid with visual editor and MCP server (Pro).",
+  "standout_components": [
+   "Aurora",
+   "LinearGradient",
+   "Plasma",
+   "Blur",
+   "Glass",
+   "Glow"
+  ]
+ },
+ {
+  "name": "ShaderGradient",
+  "url": "https://www.shadergradient.co",
+  "kind": "shader-library",
+  "pricing": "unknown",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "Moving gradients for Framer, Figma and React.",
+  "standout_components": [
+   "Moving gradients"
+  ]
+ },
+ {
+  "name": "LYGIA",
+  "url": "https://lygia.xyz",
+  "kind": "shader-library",
+  "pricing": "freemium",
+  "stack": "framework-agnostic",
+  "license": "Prosperity + Patron dual license",
+  "highlights": "Granular shader function library across GLSL, WGSL, HLSL, MSL and TSL.",
+  "standout_components": [
+   "generative/",
+   "sdf/",
+   "color/",
+   "lighting/",
+   "distort/"
+  ]
+ },
+ {
+  "name": "glslify",
+  "url": "https://github.com/glslify/glslify",
+  "kind": "shader-library",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "MIT",
+  "highlights": "Node-style module system for GLSL.",
+  "standout_components": [
+   "#pragma glslify imports",
+   "Browserify transform",
+   "Webpack loader"
+  ]
+ },
+ {
+  "name": "Shader Park",
+  "url": "https://shaderpark.com",
+  "kind": "shader-library",
+  "pricing": "unknown",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "Shader authoring tool (only title visible when fetched).",
+  "standout_components": []
+ },
+ {
+  "name": "Unicorn Studio",
+  "url": "https://www.unicorn.studio",
+  "kind": "design-tool-runtime",
+  "pricing": "unknown",
+  "stack": "no-code",
+  "license": "not stated on site",
+  "highlights": "No-code interactive WebGL graphics tool (only tagline seen: Craft Interactive Graphics that Ship).",
+  "standout_components": []
+ },
+ {
+  "name": "MagicPattern",
+  "url": "https://www.magicpattern.design",
+  "kind": "other",
+  "pricing": "freemium",
+  "stack": "no-code",
+  "license": "not stated on site",
+  "highlights": "30+ background/pattern/gradient tools with a shader gradient editor, dither, god rays and fractal glass.",
+  "standout_components": [
+   "Shader gradient editor",
+   "Dither generator",
+   "Fractal glass",
+   "God rays"
+  ]
+ },
+ {
+  "name": "Spline",
+  "url": "https://spline.design",
+  "kind": "design-tool-runtime",
+  "pricing": "freemium",
+  "stack": "no-code",
+  "license": "Not stated",
+  "highlights": "Browser 3D design tool with web, React and native export plus MCP and AI generation.",
+  "standout_components": [
+   "Spline MCP",
+   "AI 3D Generation",
+   "States and events",
+   "Physics"
+  ]
+ },
+ {
+  "name": "react-spline",
+  "url": "https://github.com/splinetool/react-spline",
+  "kind": "design-tool-runtime",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "React component to embed Spline scenes with event and object APIs.",
+  "standout_components": [
+   "<Spline /> component",
+   "emitEvent",
+   "SSR blurred placeholder"
+  ]
+ },
+ {
+  "name": "Rive",
+  "url": "https://rive.app",
+  "kind": "design-tool-runtime",
+  "pricing": "freemium",
+  "stack": "framework-agnostic",
+  "license": "MIT runtimes",
+  "highlights": "State-machine-driven 2D/3D interactive animation with runtimes for web, React, Unity and website builders.",
+  "standout_components": [
+   "State Machine",
+   "Data Binding"
+  ]
+ },
+ {
+  "name": "rive-react",
+  "url": "https://github.com/rive-app/rive-react",
+  "kind": "design-tool-runtime",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "React runtime and hooks for Rive state machines.",
+  "standout_components": [
+   "React hooks",
+   "State machine hooks"
+  ]
+ },
+ {
+  "name": "LottieFiles",
+  "url": "https://lottiefiles.com",
+  "kind": "design-tool-runtime",
+  "pricing": "freemium",
+  "stack": "framework-agnostic",
+  "license": "Not stated",
+  "highlights": "Lottie/dotLottie platform: 800k+ animations, runtimes for JS/React/Vue/Svelte, Lottie Creator with AI.",
+  "standout_components": [
+   "dotLottie",
+   "Lottie Creator",
+   "Motion Copilot",
+   "Prompt to Themes"
+  ]
+ },
+ {
+  "name": "lottie-web",
+  "url": "https://github.com/airbnb/lottie-web",
+  "kind": "design-tool-runtime",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT",
+  "highlights": "Renders After Effects (Bodymovin) animations as SVG, canvas or HTML.",
+  "standout_components": [
+   "SVG renderer",
+   "Canvas renderer",
+   "playSegments"
+  ]
+ },
+ {
+  "name": "Theatre.js",
+  "url": "https://www.theatrejs.com",
+  "kind": "motion-library",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "Not stated on page",
+  "highlights": "Keyframe animation toolset with sequence editor and R3F, three.js and DOM integrations.",
+  "standout_components": [
+   "Sequence editor",
+   "Dope sheet",
+   "Graph editor"
+  ]
+ },
+ {
+  "name": "GSAP",
+  "url": "https://gsap.com",
+  "kind": "motion-library",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "Free for everyone (Webflow-owned); no terms on page",
+  "highlights": "Now-free pro-grade animation platform with every plugin.",
+  "standout_components": [
+   "ScrollTrigger",
+   "ScrollSmoother",
+   "SplitText",
+   "MorphSVG",
+   "Flip",
+   "DrawSVG"
+  ]
+ },
+ {
+  "name": "Motion",
+  "url": "https://motion.dev",
+  "kind": "motion-library",
+  "pricing": "freemium",
+  "stack": "framework-agnostic",
+  "license": "Free and open source; Motion+ paid",
+  "highlights": "Formerly Framer Motion: layout, gesture, scroll and spring animation for React, Vue and vanilla with Motion+ add-ons.",
+  "standout_components": [
+   "Layout animations",
+   "AnimatePresence",
+   "Scroll animations",
+   "Motion Studio"
+  ]
+ },
+ {
+  "name": "Anime.js",
+  "url": "https://animejs.com",
+  "kind": "motion-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Not named on page (100% free)",
+  "highlights": "v4: timeline, scroll observer, draggable, SVG toolset and scope API, modular.",
+  "standout_components": [
+   "Timeline",
+   "Scroll Observer",
+   "Draggable",
+   "SVG toolset"
+  ]
+ },
+ {
+  "name": "react-spring",
+  "url": "https://www.react-spring.dev",
+  "kind": "motion-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "Not stated",
+  "highlights": "Spring-physics animation with web, native, three, konva and zdog targets.",
+  "standout_components": [
+   "@react-spring/web",
+   "three target",
+   "imperative API"
+  ]
+ },
+ {
+  "name": "AutoAnimate",
+  "url": "https://auto-animate.formkit.com",
+  "kind": "motion-library",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "MIT",
+  "highlights": "One-line zero-config animation for DOM add/remove/move across many frameworks.",
+  "standout_components": [
+   "useAutoAnimate",
+   "v-auto-animate",
+   "Native JS"
+  ]
+ },
+ {
+  "name": "mo.js",
+  "url": "https://github.com/mojs/mojs",
+  "kind": "motion-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT",
+  "highlights": "Retina-ready motion graphics with Burst, Swirl, Shape and Stagger.",
+  "standout_components": [
+   "Burst",
+   "Swirl",
+   "Shape",
+   "Stagger"
+  ]
+ },
+ {
+  "name": "Zdog",
+  "url": "https://zzz.dog",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "not stated on site",
+  "highlights": "Pseudo-3D flat-shaded engine for canvas or SVG, 28KB.",
+  "standout_components": [
+   "Declarative shapes",
+   "Canvas/SVG output"
+  ]
+ },
+ {
+  "name": "Matter.js",
+  "url": "https://brm.io/matter-js/",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "not stated on site",
+  "highlights": "2D rigid-body physics engine.",
+  "standout_components": [
+   "Rigid bodies",
+   "Constraints",
+   "Collision stages"
+  ]
+ },
+ {
+  "name": "p5.js",
+  "url": "https://p5js.org",
+  "kind": "other",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Not named on page",
+  "highlights": "Creative coding library and web editor.",
+  "standout_components": [
+   "Online editor",
+   "Examples",
+   "WebGL mode"
+  ]
+ },
+ {
+  "name": "Remotion",
+  "url": "https://www.remotion.dev",
+  "kind": "other",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "Free for 3 people or fewer; company license above",
+  "highlights": "Programmatic video with React, studio, player and WebGPU background removal.",
+  "standout_components": [
+   "Studio",
+   "Player",
+   "Effect presets",
+   "Transition presets"
+  ]
+ },
+ {
+  "name": "Motion Canvas",
+  "url": "https://motioncanvas.io",
+  "kind": "other",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "TypeScript generator-based animation tool with a web editor.",
+  "standout_components": [
+   "Generator animation",
+   "Web editor"
+  ]
+ },
+ {
+  "name": "Lenis",
+  "url": "https://lenis.dev/",
+  "kind": "scroll-library",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "MIT (GitHub)",
+  "highlights": "Smooth scroll that wraps native scrolling; React, Vue, Framer adapters and snap plugin.",
+  "standout_components": [
+   "lenis/react",
+   "lenis/snap",
+   "lenis/framer"
+  ]
+ },
+ {
+  "name": "Locomotive Scroll",
+  "url": "https://github.com/locomotivemtl/locomotive-scroll",
+  "kind": "scroll-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT",
+  "highlights": "Scroll detection, animation and smooth scroll built on Lenis.",
+  "standout_components": [
+   "Two intersection observers",
+   "Parallax",
+   "Smooth scroll"
+  ]
+ },
+ {
+  "name": "ScrollMagic",
+  "url": "https://scrollmagic.io",
+  "kind": "scroll-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Not stated on page",
+  "highlights": "Scroll interaction library with pin, parallax and class toggling.",
+  "standout_components": [
+   "Pinning",
+   "Parallax",
+   "Scroll scenes"
+  ]
+ },
+ {
+  "name": "Scrollama",
+  "url": "https://github.com/russellgoldenberg/scrollama",
+  "kind": "scroll-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT",
+  "highlights": "IntersectionObserver scrollytelling with step callbacks.",
+  "standout_components": [
+   "onStepEnter",
+   "onStepProgress"
+  ]
+ },
+ {
+  "name": "AOS",
+  "url": "https://michalsnik.github.io/aos/",
+  "kind": "scroll-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Not stated on page",
+  "highlights": "Animate On Scroll via data attributes.",
+  "standout_components": [
+   "data-aos",
+   "fade/flip/zoom"
+  ]
+ },
+ {
+  "name": "scroll-driven-animations.style",
+  "url": "https://scroll-driven-animations.style",
+  "kind": "scroll-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Apache-2.0",
+  "highlights": "Bramus demos and debugger for CSS scroll-driven animations.",
+  "standout_components": [
+   "Cover Flow",
+   "Stacking Cards",
+   "Image Reveal Effects",
+   "3D Shoe Explorer"
+  ]
+ },
+ {
+  "name": "Barba.js",
+  "url": "https://barba.js.org",
+  "kind": "transition-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Not stated",
+  "highlights": "Fluid page transitions between pages.",
+  "standout_components": [
+   "Transitions"
+  ]
+ },
+ {
+  "name": "Swup",
+  "url": "https://swup.js.org",
+  "kind": "transition-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Not stated",
+  "highlights": "Page transition library with plugins.",
+  "standout_components": [
+   "Preload Plugin",
+   "Fragment Plugin",
+   "Parallel Plugin",
+   "Head Plugin"
+  ]
+ },
+ {
+  "name": "Taxi.js",
+  "url": "https://taxi.js.org",
+  "kind": "transition-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Not stated",
+  "highlights": "PJAX navigation and transitions from Unseen Studio.",
+  "standout_components": [
+   "URL-based routing",
+   "Preloading",
+   "Renderers"
+  ]
+ },
+ {
+  "name": "Astro View Transitions",
+  "url": "https://docs.astro.build/en/guides/view-transitions/",
+  "kind": "transition-library",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "Part of Astro",
+  "highlights": "Built-in View Transitions with ClientRouter.",
+  "standout_components": [
+   "ClientRouter",
+   "transition:animate",
+   "transition:persist",
+   "transition:name"
+  ]
+ },
+ {
+  "name": "next-view-transitions",
+  "url": "https://github.com/shuding/next-view-transitions",
+  "kind": "transition-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "View Transitions API for Next.js App Router.",
+  "standout_components": [
+   "ViewTransitions",
+   "Link",
+   "useTransitionRouter"
+  ]
+ },
+ {
+  "name": "SplitType",
+  "url": "https://github.com/lukePeavey/SplitType",
+  "kind": "text-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Not stated",
+  "highlights": "Split text into lines, words and chars for any animation lib.",
+  "standout_components": [
+   "Lines",
+   "Words",
+   "Chars"
+  ]
+ },
+ {
+  "name": "Splitting.js",
+  "url": "https://splitting.js.org",
+  "kind": "text-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT",
+  "highlights": "Splits text and grids into CSS-variable-indexed elements.",
+  "standout_components": [
+   "CSS variables"
+  ]
+ },
+ {
+  "name": "Typed.js",
+  "url": "https://github.com/mattboldt/typed.js",
+  "kind": "text-library",
+  "pricing": "freemium",
+  "stack": "vanilla",
+  "license": "GPL-3.0 or commercial",
+  "highlights": "Typing animation.",
+  "standout_components": [
+   "Smart backspacing",
+   "Pause markers"
+  ]
+ },
+ {
+  "name": "cursor-effects",
+  "url": "https://github.com/tholman/cursor-effects",
+  "kind": "motion-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT",
+  "highlights": "Retro cursor effects.",
+  "standout_components": [
+   "Rainbow Cursor",
+   "Fairy Dust",
+   "Ghost Following",
+   "Bubbles Particles"
+  ]
+ },
+ {
+  "name": "Mouse Follower",
+  "url": "https://github.com/Cuberto/mouse-follower",
+  "kind": "motion-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT",
+  "highlights": "GSAP-based custom cursor with states and sticky effect.",
+  "standout_components": [
+   "Sticky",
+   "Skewing",
+   "Content modes"
+  ]
+ },
+ {
+  "name": "Atropos",
+  "url": "https://atroposjs.com",
+  "kind": "motion-library",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "MIT",
+  "highlights": "3D parallax hover, 2KB.",
+  "standout_components": [
+   "Parallax layers"
+  ]
+ },
+ {
+  "name": "vanilla-tilt.js",
+  "url": "https://github.com/micku7zu/vanilla-tilt.js",
+  "kind": "motion-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT",
+  "highlights": "3D tilt with glare and gyroscope.",
+  "standout_components": [
+   "Glare",
+   "Gyroscope"
+  ]
+ },
+ {
+  "name": "three.js",
+  "url": "https://threejs.org",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT (per third-party)",
+  "highlights": "Dominant 3D library with TSL and WebGPU renderer.",
+  "standout_components": [
+   "TSL",
+   "WebGPURenderer",
+   "Editor"
+  ]
+ },
+ {
+  "name": "React Three Fiber",
+  "url": "https://github.com/pmndrs/react-three-fiber",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "React renderer for three.js.",
+  "standout_components": [
+   "useFrame",
+   "Pointer events"
+  ]
+ },
+ {
+  "name": "drei",
+  "url": "https://github.com/pmndrs/drei",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "Helpers for R3F.",
+  "standout_components": [
+   "CameraControls",
+   "Text",
+   "MeshDistortMaterial",
+   "Float",
+   "Html"
+  ]
+ },
+ {
+  "name": "react-three-rapier",
+  "url": "https://github.com/pmndrs/react-three-rapier",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "Rapier WASM physics for R3F.",
+  "standout_components": [
+   "Physics",
+   "RigidBody",
+   "InstancedRigidBodies",
+   "Joints"
+  ]
+ },
+ {
+  "name": "@react-three/postprocessing",
+  "url": "https://github.com/pmndrs/react-postprocessing",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "Postprocessing wrapper for R3F.",
+  "standout_components": [
+   "Bloom",
+   "DepthOfField",
+   "Noise",
+   "Vignette"
+  ]
+ },
+ {
+  "name": "postprocessing",
+  "url": "https://github.com/pmndrs/postprocessing",
+  "kind": "shader-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Zlib",
+  "highlights": "three.js post-processing library.",
+  "standout_components": [
+   "Bloom",
+   "God Rays",
+   "SSAO",
+   "Glitch",
+   "Outline"
+  ]
+ },
+ {
+  "name": "three-custom-shader-material",
+  "url": "https://github.com/FarazzShaikh/THREE-CustomShaderMaterial",
+  "kind": "shader-library",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "MIT",
+  "highlights": "Extend three.js standard materials with custom shaders.",
+  "standout_components": [
+   "csm_Position",
+   "patchMap"
+  ]
+ },
+ {
+  "name": "pmndrs/math (maath)",
+  "url": "https://github.com/pmndrs/maath",
+  "kind": "other",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "MIT",
+  "highlights": "Allocation-free math, easing, noise, springs.",
+  "standout_components": [
+   "Easing",
+   "Noise",
+   "Vectors"
+  ]
+ },
+ {
+  "name": "Leva",
+  "url": "https://github.com/pmndrs/leva",
+  "kind": "other",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "MIT",
+  "highlights": "React GUI controls for tweaking.",
+  "standout_components": [
+   "useControls"
+  ]
+ },
+ {
+  "name": "pmndrs uikit",
+  "url": "https://github.com/pmndrs/uikit",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "not stated on site",
+  "highlights": "3D UI for R3F with flexbox and shadcn-based kit.",
+  "standout_components": [
+   "default kit",
+   "horizon-kit"
+  ]
+ },
+ {
+  "name": "TresJS",
+  "url": "https://tresjs.org",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "vue",
+  "license": "MIT",
+  "highlights": "Vue renderer for three.js with WebGL/WebGPU.",
+  "standout_components": [
+   "Cientos",
+   "Postprocessing"
+  ]
+ },
+ {
+  "name": "Threlte",
+  "url": "https://threlte.xyz",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "svelte",
+  "license": "not stated on site",
+  "highlights": "Svelte 3D framework for three.js.",
+  "standout_components": [
+   "@threlte/rapier",
+   "@threlte/extras",
+   "@threlte/gltf"
+  ]
+ },
+ {
+  "name": "Babylon.js",
+  "url": "https://www.babylonjs.com",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "Full web engine v9.0 with WebGPU.",
+  "standout_components": [
+   "Playground",
+   "Node Material Editor",
+   "Frame Graph"
+  ]
+ },
+ {
+  "name": "PlayCanvas",
+  "url": "https://playcanvas.com",
+  "kind": "3d-engine",
+  "pricing": "freemium",
+  "stack": "framework-agnostic",
+  "license": "MIT",
+  "highlights": "Open-source engine plus editor with WebGPU, React.",
+  "standout_components": [
+   "Editor",
+   "SuperSplat",
+   "Model Viewer"
+  ]
+ },
+ {
+  "name": "Galacean Engine",
+  "url": "https://galacean.antgroup.com/engine/en",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "MIT",
+  "highlights": "Web engine with online editor.",
+  "standout_components": [
+   "Shader Lab",
+   "Online editor",
+   "WebXR"
+  ]
+ },
+ {
+  "name": "Wonderland Engine",
+  "url": "https://wonderlandengine.com",
+  "kind": "3d-engine",
+  "pricing": "freemium",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "C++/WASM engine with editor.",
+  "standout_components": [
+   "Editor",
+   "Meshlets"
+  ]
+ },
+ {
+  "name": "Spark",
+  "url": "https://sparkjs.dev",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "Gaussian splat renderer for three.js by World Labs.",
+  "standout_components": [
+   "PLY/SPZ support",
+   "Programmable splat effects"
+  ]
+ },
+ {
+  "name": "PixiJS",
+  "url": "https://pixijs.com",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "2D WebGPU/WebGL renderer.",
+  "standout_components": [
+   "@pixi/react",
+   "Filters",
+   "DevTools"
+  ]
+ },
+ {
+  "name": "OGL",
+  "url": "https://github.com/oframe/ogl",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "Unlicense",
+  "highlights": "Minimal WebGL library, 29KB.",
+  "standout_components": [
+   "Geometry",
+   "Program",
+   "RenderTarget"
+  ]
+ },
+ {
+  "name": "curtains.js",
+  "url": "https://www.curtainsjs.com",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT",
+  "highlights": "DOM-to-WebGL planes.",
+  "standout_components": [
+   "Slideshow",
+   "Ping-pong flowmap"
+  ]
+ },
+ {
+  "name": "regl",
+  "url": "https://github.com/regl-project/regl",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "MIT",
+  "highlights": "Functional WebGL.",
+  "standout_components": [
+   "Commands",
+   "Resources"
+  ]
+ },
+ {
+  "name": "luma.gl",
+  "url": "https://luma.gl",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "WebGPU/WebGL2 GPU toolkit.",
+  "standout_components": [
+   "shadertools",
+   "Gaussian splats"
+  ]
+ },
+ {
+  "name": "COBE",
+  "url": "https://cobe.vercel.app",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "5KB WebGL globe.",
+  "standout_components": [
+   "Markers",
+   "Arcs"
+  ]
+ },
+ {
+  "name": "Vanta.js",
+  "url": "https://www.vantajs.com",
+  "kind": "shader-library",
+  "pricing": "free/open-source",
+  "stack": "vanilla",
+  "license": "not stated on site",
+  "highlights": "Animated backgrounds on three.js/p5.js.",
+  "standout_components": [
+   "Waves"
+  ]
+ },
+ {
+  "name": "tsParticles",
+  "url": "https://particles.js.org",
+  "kind": "3d-engine",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "MIT",
+  "highlights": "Particle engine incl. confetti.",
+  "standout_components": [
+   "confetti",
+   "fireworks",
+   "ribbons"
+  ]
+ },
+ {
+  "name": "Swiper",
+  "url": "https://swiperjs.com",
+  "kind": "other",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "Slider with parallax/transition effects.",
+  "standout_components": [
+   "Parallax transitions"
+  ]
+ },
+ {
+  "name": "Embla Carousel",
+  "url": "https://www.embla-carousel.com",
+  "kind": "other",
+  "pricing": "free/open-source",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "Fluid carousel with plugins.",
+  "standout_components": [
+   "Autoplay",
+   "Fade",
+   "Wheel Gestures"
+  ]
+ },
+ {
+  "name": "Framer Marketplace",
+  "url": "https://www.framer.com/marketplace/",
+  "kind": "template-marketplace",
+  "pricing": "freemium",
+  "stack": "no-code",
+  "license": "Per-creator",
+  "highlights": "Templates, components, plugins; $2-$129 templates.",
+  "standout_components": [
+   "Templates",
+   "Components",
+   "Plugins"
+  ]
+ },
+ {
+  "name": "Framer",
+  "url": "https://www.framer.com",
+  "kind": "design-tool-runtime",
+  "pricing": "freemium",
+  "stack": "no-code",
+  "license": "not stated on site",
+  "highlights": "Website builder with design agent, code components, MCP.",
+  "standout_components": [
+   "Design agent",
+   "Code components",
+   "MCP"
+  ]
+ },
+ {
+  "name": "v0",
+  "url": "https://v0.app/",
+  "kind": "prompt-marketplace",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "not stated on site",
+  "highlights": "Vercel AI app/UI builder with community templates.",
+  "standout_components": [
+   "Community templates"
+  ]
+ },
+ {
+  "name": "Bolt",
+  "url": "https://bolt.new",
+  "kind": "prompt-marketplace",
+  "pricing": "freemium",
+  "stack": "framework-agnostic",
+  "license": "not stated on site",
+  "highlights": "AI builder with fork-able templates.",
+  "standout_components": [
+   "Bolt Templates",
+   "Bolt Cloud"
+  ]
+ },
+ {
+  "name": "Relume",
+  "url": "https://www.relume.ai/",
+  "kind": "template-marketplace",
+  "pricing": "freemium",
+  "stack": "react",
+  "license": "not stated on site",
+  "highlights": "AI site builder with 1,000+ React components, exports to Figma/Webflow/React and MCP.",
+  "standout_components": [
+   "React Library",
+   "Relume MCP",
+   "Sitemaps"
+  ]
+ },
+ {
+  "name": "Aura",
+  "url": "https://www.aura.build",
+  "kind": "prompt-marketplace",
+  "pricing": "unknown",
+  "stack": "no-code",
+  "license": "not stated on site",
+  "highlights": "AI website builder (only title seen).",
+  "standout_components": []
+ },
+ {
+  "name": "Chakra UI",
+  "url": "https://chakra-ui.com",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "not stated on site",
+  "highlights": "Accessible modular React library (listed in Aceternity guide).",
+  "standout_components": []
+ },
+ {
+  "name": "Material UI",
+  "url": "https://mui.com",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "not stated on site",
+  "highlights": "React Material Design implementation (listed in guide).",
+  "standout_components": []
+ },
+ {
+  "name": "Radix UI",
+  "url": "https://radix-ui.com",
+  "kind": "component-library",
+  "pricing": "free/open-source",
+  "stack": "react",
+  "license": "not stated on site",
+  "highlights": "Unstyled primitives under shadcn/ui.",
+  "standout_components": []
+ },
+ {
+  "name": "atelier-ui.com",
+  "url": "https://atelier-ui.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "React Three Fiber and Motion components sharing a common WebGL infrastructure; free and Pro.",
+  "standout_components": [],
+  "source": "ChatGPT — Shader, WebGL and visually experimental component systems"
+ },
+ {
+  "name": "canvasui.dev",
+  "url": "https://canvasui.dev/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "WebGL/WebGPU effects applied over live HTML, with multiple framework implementations.",
+  "standout_components": [],
+  "source": "ChatGPT — Shader, WebGL and visually experimental component systems"
+ },
+ {
+  "name": "radiant-shaders.com",
+  "url": "https://radiant-shaders.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Independent open-source collection of striking self-contained shader effects.",
+  "standout_components": [],
+  "source": "ChatGPT — Shader, WebGL and visually experimental component systems"
+ },
+ {
+  "name": "crucibleui.com",
+  "url": "https://crucibleui.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Animated React registry with original shader backgrounds, physics and sophisticated effects.",
+  "standout_components": [],
+  "source": "ChatGPT — Shader, WebGL and visually experimental component systems"
+ },
+ {
+  "name": "shadertoy.com",
+  "url": "https://www.shadertoy.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Direct source of advanced shader techniques rather than prepackaged components.",
+  "standout_components": [],
+  "source": "ChatGPT — Shader, WebGL and visually experimental component systems"
+ },
+ {
+  "name": "thebookofshaders.com",
+  "url": "https://thebookofshaders.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Foundational reference for building original GLSL effects.",
+  "standout_components": [],
+  "source": "ChatGPT — Shader, WebGL and visually experimental component systems"
+ },
+ {
+  "name": "hydra.ojack.xyz",
+  "url": "https://hydra.ojack.xyz/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Live-coded audiovisual and feedback-based visual synthesis.",
+  "standout_components": [],
+  "source": "ChatGPT — Shader, WebGL and visually experimental component systems"
+ },
+ {
+  "name": "canvasui.dev/docs",
+  "url": "https://canvasui.dev/docs",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Implementation documentation for canvas-over-DOM and GPU effects.",
+  "standout_components": [],
+  "source": "ChatGPT — Shader, WebGL and visually experimental component systems"
+ },
+ {
+  "name": "useplanes.com/components",
+  "url": "https://useplanes.com/components",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Motion-based controls, galleries, charts and interactive WebGL-backed UI.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "ui.aceternity.com/components",
+  "url": "https://ui.aceternity.com/components",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "High-impact motion and animated marketing blocks.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "eased.dev",
+  "url": "https://eased.dev/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Carefully tuned Motion components with free and paid versions.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "annnimate.com",
+  "url": "https://annnimate.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "GSAP component systems for React, Vue and HTML, with commercial access.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "madewithgsap.com",
+  "url": "https://madewithgsap.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Scroll, hover, drag and other GSAP effects, including paid resources.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "osmo.supply",
+  "url": "https://osmo.supply/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "GSAP-heavy creative-development snippets, Webflow patterns and subscription vault.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "motionin.design",
+  "url": "https://motionin.design/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Physics-driven sections and prompt-assisted interaction references.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "paceui.com",
+  "url": "https://paceui.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Animated React components, product blocks and application templates.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "ui.ballmac.com",
+  "url": "https://ui.ballmac.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Interaction-first component registry, including paid animated scene elements.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "uibrik.com",
+  "url": "https://uibrik.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Agent-installable React UI library with animated controls and WebGL backgrounds.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "design.helpmarq.com",
+  "url": "https://design.helpmarq.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "ns-ui collection of canvas, motion and glass-focused components.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "forgeui.in",
+  "url": "https://forgeui.in/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Animated React components, interactive backgrounds and ready-made blocks.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "ui.soralabs.studio",
+  "url": "https://ui.soralabs.studio/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Animated shadcn-style component distribution.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "shadcnregistry.com",
+  "url": "https://shadcnregistry.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Discoverable component registries, including niche shader and motion sets.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "registry.directory",
+  "url": "https://registry.directory/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Search the wider ecosystem of shadcn registries.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "shoogle.dev/directory",
+  "url": "https://shoogle.dev/directory",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Large searchable registry directory, useful for new independent libraries.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "shadcn.io/awesome/animations",
+  "url": "https://www.shadcn.io/awesome/animations",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Collection of motion-first registries and animations.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "21st.dev/community/libraries/s/motion",
+  "url": "https://21st.dev/community/libraries/s/motion",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Motion-focused creator libraries inside 21st.dev.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "uibrik.com/docs/introduction",
+  "url": "https://uibrik.com/docs/introduction",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Agent and component installation workflow.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "crucibleui.com/components",
+  "url": "https://crucibleui.com/components",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Browse specific shader, physics, text and scroll implementations.",
+  "standout_components": [],
+  "source": "ChatGPT — Creative components, animation registries and paid interaction kits"
+ },
+ {
+  "name": "relume.io",
+  "url": "https://www.relume.io/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Page-section systems and structured website composition references.",
+  "standout_components": [],
+  "source": "ChatGPT — Design-system foundations and larger UI marketplaces"
+ },
+ {
+  "name": "flowbase.co",
+  "url": "https://www.flowbase.co/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Webflow and Framer components, blocks and templates.",
+  "standout_components": [],
+  "source": "ChatGPT — Design-system foundations and larger UI marketplaces"
+ },
+ {
+  "name": "finsweet.com/attributes",
+  "url": "https://www.finsweet.com/attributes",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Powerful interaction and behavior utilities for Webflow.",
+  "standout_components": [],
+  "source": "ChatGPT — Design-system foundations and larger UI marketplaces"
+ },
+ {
+  "name": "untitledui.com",
+  "url": "https://www.untitledui.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Comprehensive product UI kits, patterns and React resources.",
+  "standout_components": [],
+  "source": "ChatGPT — Design-system foundations and larger UI marketplaces"
+ },
+ {
+  "name": "floatui.com",
+  "url": "https://www.floatui.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Open-source landing-page and application interface blocks.",
+  "standout_components": [],
+  "source": "ChatGPT — Design-system foundations and larger UI marketplaces"
+ },
+ {
+  "name": "daisyui.com",
+  "url": "https://daisyui.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Themeable Tailwind component system.",
+  "standout_components": [],
+  "source": "ChatGPT — Design-system foundations and larger UI marketplaces"
+ },
+ {
+  "name": "flowbite.com",
+  "url": "https://flowbite.com/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Tailwind components and interactive application UI.",
+  "standout_components": [],
+  "source": "ChatGPT — Design-system foundations and larger UI marketplaces"
+ },
+ {
+  "name": "preline.co",
+  "url": "https://preline.co/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Application UI and interactive component primitives.",
+  "standout_components": [],
+  "source": "ChatGPT — Design-system foundations and larger UI marketplaces"
+ },
+ {
+  "name": "hyperui.dev",
+  "url": "https://hyperui.dev/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Copyable Tailwind interface patterns.",
+  "standout_components": [],
+  "source": "ChatGPT — Design-system foundations and larger UI marketplaces"
+ },
+ {
+  "name": "lenis.darkroom.engineering",
+  "url": "https://lenis.darkroom.engineering/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Smooth scrolling and scroll-motion coordination.",
+  "standout_components": [],
+  "source": "ChatGPT — Motion engines and creative-development primitives"
+ },
+ {
+  "name": "r3f.docs.pmnd.rs",
+  "url": "https://r3f.docs.pmnd.rs/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "React integration for complex Three.js scenes.",
+  "standout_components": [],
+  "source": "ChatGPT — Motion engines and creative-development primitives"
+ },
+ {
+  "name": "drei.docs.pmnd.rs",
+  "url": "https://drei.docs.pmnd.rs/",
+  "kind": "other",
+  "pricing": "unknown",
+  "stack": "",
+  "license": "",
+  "highlights": "Scene controls, helpers and advanced React Three Fiber utilities.",
+  "standout_components": [],
+  "source": "ChatGPT — Motion engines and creative-development primitives"
+ }
+]

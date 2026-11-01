@@ -1,0 +1,722 @@
+[
+ {
+  "key": "bruno-simon.com",
+  "url": "https://bruno-simon.com",
+  "name": "Bruno's Portfolio",
+  "in_library": true,
+  "sources": 7,
+  "i": 0,
+  "file": null,
+  "status": "error: page.goto: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "messenger.abeto.co",
+  "url": "https://messenger.abeto.co",
+  "name": "Messenger",
+  "in_library": true,
+  "sources": 3,
+  "i": 1,
+  "file": "docs/research/shots/02-messenger-abeto-co.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "igloo.inc",
+  "url": "https://www.igloo.inc/",
+  "name": "Igloo Inc",
+  "in_library": true,
+  "sources": 5,
+  "i": 2,
+  "file": "docs/research/shots/03-igloo-inc.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "lusion.co",
+  "url": "https://lusion.co/",
+  "name": "Lusion v3",
+  "in_library": true,
+  "sources": 6,
+  "i": 3,
+  "file": "docs/research/shots/04-lusion-co.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "labs.lusion.co",
+  "url": "https://labs.lusion.co/",
+  "name": "Lusion Labs",
+  "in_library": true,
+  "sources": 2,
+  "i": 4,
+  "file": "docs/research/shots/05-labs-lusion-co.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "landonorris.com",
+  "url": "https://landonorris.com/",
+  "name": "Lando Norris",
+  "in_library": true,
+  "sources": 3,
+  "i": 5,
+  "file": "docs/research/shots/06-landonorris-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "kprverse.com",
+  "url": "https://kprverse.com/",
+  "name": "KPR",
+  "in_library": true,
+  "sources": 3,
+  "i": 6,
+  "file": "docs/research/shots/07-kprverse-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "activetheory.net",
+  "url": "http://activetheory.net",
+  "name": "Active Theory V6",
+  "in_library": true,
+  "sources": 5,
+  "i": 7,
+  "file": "docs/research/shots/08-activetheory-net.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "experiment.obys.agency",
+  "url": "https://experiment.obys.agency/",
+  "name": "Obys Experiment Space",
+  "in_library": true,
+  "sources": 1,
+  "i": 8,
+  "file": "docs/research/shots/09-experiment-obys-agency.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "madewithgsap.com",
+  "url": "https://madewithgsap.com/",
+  "name": "Made With GSAP",
+  "in_library": true,
+  "sources": 1,
+  "i": 9,
+  "file": null,
+  "status": "error: page.goto: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "henryheffernan.com",
+  "url": "https://henryheffernan.com",
+  "name": "Henry Heffernan",
+  "in_library": true,
+  "sources": 1,
+  "i": 10,
+  "file": "docs/research/shots/11-henryheffernan-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "daikifujita.com",
+  "url": "https://daikifujita.com",
+  "name": "Daiki Fujita - Portfolio",
+  "in_library": true,
+  "sources": 3,
+  "i": 11,
+  "file": "docs/research/shots/12-daikifujita-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "samsy.ninja",
+  "url": "https://samsy.ninja/",
+  "name": "samsy.ninja",
+  "in_library": true,
+  "sources": 4,
+  "i": 12,
+  "file": null,
+  "status": "error: page.goto: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "zarcerog.com",
+  "url": "https://zarcerog.com",
+  "name": "Nicolas Zarcero - Box Office",
+  "in_library": true,
+  "sources": 2,
+  "i": 13,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "dbydt.space",
+  "url": "https://www.dbydt.space",
+  "name": "Deebak Tamilmani Portfolio",
+  "in_library": true,
+  "sources": 3,
+  "i": 14,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "mananthakkar.dev",
+  "url": "https://mananthakkar.dev/",
+  "name": "mananthakkar.dev",
+  "in_library": true,
+  "sources": 2,
+  "i": 15,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "ciechanow.ski",
+  "url": "https://ciechanow.ski/",
+  "name": "ciechanow.ski",
+  "in_library": true,
+  "sources": 3,
+  "i": 16,
+  "file": "docs/research/shots/17-ciechanow-ski.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "maggieappleton.com",
+  "url": "https://maggieappleton.com",
+  "name": "Maggie Appleton",
+  "in_library": true,
+  "sources": 1,
+  "i": 17,
+  "file": "docs/research/shots/18-maggieappleton-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "lynnandtonic.com",
+  "url": "https://lynnandtonic.com",
+  "name": "Lynn Fisher",
+  "in_library": true,
+  "sources": 1,
+  "i": 18,
+  "file": "docs/research/shots/19-lynnandtonic-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "still.mingjyunhung.com",
+  "url": "https://still.mingjyunhung.com/",
+  "name": "Still (WebGPU generative garden)",
+  "in_library": true,
+  "sources": 1,
+  "i": 19,
+  "file": "docs/research/shots/20-still-mingjyunhung-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "false-earth.mingjyunhung.com",
+  "url": "https://false-earth.mingjyunhung.com/",
+  "name": "False Earth",
+  "in_library": true,
+  "sources": 1,
+  "i": 20,
+  "file": "docs/research/shots/21-false-earth-mingjyunhung-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "shader.se",
+  "url": "https://www.shader.se/",
+  "name": "shader.se",
+  "in_library": true,
+  "sources": 4,
+  "i": 21,
+  "file": "docs/research/shots/22-shader-se.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "phantom.land",
+  "url": "https://www.phantom.land/",
+  "name": "Phantom.land",
+  "in_library": true,
+  "sources": 2,
+  "i": 22,
+  "file": "docs/research/shots/23-phantom-land.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "byholm.co",
+  "url": "https://byholm.co",
+  "name": "byholm.co",
+  "in_library": false,
+  "sources": 0,
+  "i": 23,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "optikka.com",
+  "url": "https://optikka.com/",
+  "name": "OPTIKKA",
+  "in_library": true,
+  "sources": 1,
+  "i": 24,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "foodforfish.org",
+  "url": "https://foodforfish.org/",
+  "name": "Food for Fish",
+  "in_library": true,
+  "sources": 1,
+  "i": 25,
+  "file": "docs/research/shots/26-foodforfish-org.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "airforceecho.com",
+  "url": "https://airforceecho.com/",
+  "name": "E.C.H.O.",
+  "in_library": true,
+  "sources": 2,
+  "i": 26,
+  "file": null,
+  "status": "error: page.goto: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "coastalworld.com",
+  "url": "https://coastalworld.com",
+  "name": "Coastal World",
+  "in_library": true,
+  "sources": 2,
+  "i": 27,
+  "file": null,
+  "status": "error: page.goto: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "buttermax.net",
+  "url": "https://buttermax.net/",
+  "name": "Buttermax",
+  "in_library": true,
+  "sources": 2,
+  "i": 28,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "sztanki.com",
+  "url": "https://www.sztanki.com/",
+  "name": "Sztanki's Portfolio",
+  "in_library": true,
+  "sources": 1,
+  "i": 29,
+  "file": "docs/research/shots/30-sztanki-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "theseawebreathe.com",
+  "url": "https://www.theseawebreathe.com",
+  "name": "The Sea We Breathe",
+  "in_library": true,
+  "sources": 1,
+  "i": 30,
+  "file": "docs/research/shots/31-theseawebreathe-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "symphonyofvines.unseen.co",
+  "url": "https://symphonyofvines.unseen.co/",
+  "name": "The Symphony of Vines",
+  "in_library": true,
+  "sources": 1,
+  "i": 31,
+  "file": "docs/research/shots/32-symphonyofvines-unseen-co.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "holtsetio.com/lab/softbodies",
+  "url": "https://holtsetio.com/lab/softbodies/",
+  "name": "Holtsetio Lab: Softbodies",
+  "in_library": true,
+  "sources": 1,
+  "i": 32,
+  "file": null,
+  "status": "error: page.goto: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "tsl-experiments.vercel.app",
+  "url": "https://tsl-experiments.vercel.app",
+  "name": "Grischa Erbe TSL Experiments",
+  "in_library": true,
+  "sources": 1,
+  "i": 33,
+  "file": "docs/research/shots/34-tsl-experiments-vercel-app.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "nocturnaldream.com",
+  "url": "https://nocturnaldream.com/",
+  "name": "nocturnaldream.com",
+  "in_library": true,
+  "sources": 3,
+  "i": 34,
+  "file": "docs/research/shots/35-nocturnaldream-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "midnightvideo.cuchillo.rocks",
+  "url": "https://midnightvideo.cuchillo.rocks/",
+  "name": "midnightvideo.cuchillo.rocks",
+  "in_library": true,
+  "sources": 1,
+  "i": 35,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "stillwet.art",
+  "url": "https://stillwet.art/",
+  "name": "stillwet.art",
+  "in_library": true,
+  "sources": 1,
+  "i": 36,
+  "file": "docs/research/shots/37-stillwet-art.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "typeincube.com",
+  "url": "https://typeincube.com/",
+  "name": "typeincube.com",
+  "in_library": true,
+  "sources": 1,
+  "i": 37,
+  "file": "docs/research/shots/38-typeincube-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "interfaces.kylejeong.com",
+  "url": "https://interfaces.kylejeong.com/",
+  "name": "interfaces.kylejeong.com",
+  "in_library": true,
+  "sources": 1,
+  "i": 38,
+  "file": "docs/research/shots/39-interfaces-kylejeong-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "ertdfgcvb.xyz",
+  "url": "https://ertdfgcvb.xyz",
+  "name": "ertdfgcvb",
+  "in_library": true,
+  "sources": 1,
+  "i": 39,
+  "file": "docs/research/shots/40-ertdfgcvb-xyz.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "makingsoftware.com",
+  "url": "https://www.makingsoftware.com/",
+  "name": "Making Software",
+  "in_library": true,
+  "sources": 1,
+  "i": 40,
+  "file": "docs/research/shots/41-makingsoftware-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "joshpuckett.me",
+  "url": "https://joshpuckett.me/nyc-moma",
+  "name": "Interface Craft x MoMA",
+  "in_library": true,
+  "sources": 1,
+  "i": 41,
+  "file": "docs/research/shots/42-joshpuckett-me.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "rain-drops.justabayet.com",
+  "url": "https://rain-drops.justabayet.com/",
+  "name": "Photo Gallery - Tristan Haquenne",
+  "in_library": true,
+  "sources": 2,
+  "i": 42,
+  "file": "docs/research/shots/43-rain-drops-justabayet-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "astrodither.robertborghesi.is",
+  "url": "https://astrodither.robertborghesi.is/",
+  "name": "ASTRODITHER",
+  "in_library": true,
+  "sources": 2,
+  "i": 43,
+  "file": "docs/research/shots/44-astrodither-robertborghesi-is.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "displace.agency",
+  "url": "https://displace.agency/",
+  "name": "Displace",
+  "in_library": true,
+  "sources": 1,
+  "i": 44,
+  "file": "docs/research/shots/45-displace-agency.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "nothing-to-watch.port80.ch",
+  "url": "https://nothing-to-watch.port80.ch/",
+  "name": "Nothing to Watch",
+  "in_library": true,
+  "sources": 1,
+  "i": 45,
+  "file": "docs/research/shots/46-nothing-to-watch-port80-ch.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "cathydolle.com",
+  "url": "https://www.cathydolle.com/",
+  "name": "Cathy Dolle",
+  "in_library": true,
+  "sources": 2,
+  "i": 46,
+  "file": "docs/research/shots/47-cathydolle-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "devouringdetails.com",
+  "url": "https://devouringdetails.com",
+  "name": "Devouring Details",
+  "in_library": true,
+  "sources": 1,
+  "i": 47,
+  "file": "docs/research/shots/48-devouringdetails-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "gilhuybrecht.com",
+  "url": "https://gilhuybrecht.com/",
+  "name": "Gil Huybrecht",
+  "in_library": true,
+  "sources": 6,
+  "i": 48,
+  "file": "docs/research/shots/49-gilhuybrecht-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "unseen.co",
+  "url": "https://unseen.co/",
+  "name": "Unseen Studio",
+  "in_library": true,
+  "sources": 6,
+  "i": 49,
+  "file": "docs/research/shots/50-unseen-co.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "carterogunsola.com",
+  "url": "https://carterogunsola.com",
+  "name": "Carter Ogunsola",
+  "in_library": true,
+  "sources": 5,
+  "i": 50,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "guillaumecolombel.fr",
+  "url": "https://guillaumecolombel.fr/",
+  "name": "G. Colombel - Portfolio 2026",
+  "in_library": true,
+  "sources": 5,
+  "i": 51,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "mathiasadolfsson.dev",
+  "url": "https://mathiasadolfsson.dev",
+  "name": "Mathias Adolfsson 2026",
+  "in_library": true,
+  "sources": 5,
+  "i": 52,
+  "file": "docs/research/shots/53-mathiasadolfsson-dev.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "noth.in",
+  "url": "https://www.noth.in",
+  "name": "NOTHIN'",
+  "in_library": true,
+  "sources": 5,
+  "i": 53,
+  "file": "docs/research/shots/54-noth-in.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "shopify.com/editions/winter2026",
+  "url": "https://www.shopify.com/editions/winter2026",
+  "name": "The Renaissance Edition",
+  "in_library": true,
+  "sources": 5,
+  "i": 54,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "immersive-g.com",
+  "url": "https://immersive-g.com/",
+  "name": "Immersive Garden website",
+  "in_library": true,
+  "sources": 5,
+  "i": 55,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "bleibtgleich.dev",
+  "url": "https://bleibtgleich.dev",
+  "name": "bleibtgleich'26",
+  "in_library": true,
+  "sources": 4,
+  "i": 56,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "cagdascecen.com",
+  "url": "https://www.cagdascecen.com",
+  "name": "Cagdas Cecen - Media Arts",
+  "in_library": true,
+  "sources": 4,
+  "i": 57,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "corentinbernadou.com",
+  "url": "https://corentinbernadou.com/",
+  "name": "Corentin Bernadou Portfolio",
+  "in_library": true,
+  "sources": 4,
+  "i": 58,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "fabiantjoeaon.com",
+  "url": "https://fabiantjoeaon.com",
+  "name": "Fabian Tjoe-A-On Portfolio",
+  "in_library": true,
+  "sources": 4,
+  "i": 59,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "forgeautomotive.co.uk",
+  "url": "https://forgeautomotive.co.uk/",
+  "name": "Forge Automotive",
+  "in_library": true,
+  "sources": 4,
+  "i": 60,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 30000ms exceeded."
+ },
+ {
+  "key": "houseofhoney.com",
+  "url": "https://www.houseofhoney.com/",
+  "name": "House of Honey",
+  "in_library": true,
+  "sources": 4,
+  "i": 61,
+  "file": "docs/research/shots/62-houseofhoney-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "huyml.co",
+  "url": "https://huyml.co/",
+  "name": "Huy Phan Vol.2",
+  "in_library": true,
+  "sources": 4,
+  "i": 62,
+  "file": "docs/research/shots/63-huyml-co.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "michaelgatt.com",
+  "url": "https://michaelgatt.com/",
+  "name": "Michael Gatt",
+  "in_library": true,
+  "sources": 4,
+  "i": 63,
+  "file": "docs/research/shots/64-michaelgatt-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "bymonolog.com",
+  "url": "https://bymonolog.com/",
+  "name": "MONOLOG",
+  "in_library": true,
+  "sources": 4,
+  "i": 64,
+  "file": "docs/research/shots/65-bymonolog-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "2019.makemepulse.com",
+  "url": "https://2019.makemepulse.com",
+  "name": "Nomadic Tribe",
+  "in_library": true,
+  "sources": 4,
+  "i": 65,
+  "file": "docs/research/shots/66-2019-makemepulse-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "oryzo.ai",
+  "url": "https://oryzo.ai",
+  "name": "Oryzo AI",
+  "in_library": true,
+  "sources": 4,
+  "i": 66,
+  "file": "docs/research/shots/67-oryzo-ai.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "prometheusfuels.com",
+  "url": "https://www.prometheusfuels.com/",
+  "name": "Prometheus Fuels",
+  "in_library": true,
+  "sources": 4,
+  "i": 67,
+  "file": "docs/research/shots/68-prometheusfuels-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "why.zero.university",
+  "url": "https://why.zero.university/",
+  "name": "Why Zero",
+  "in_library": true,
+  "sources": 4,
+  "i": 68,
+  "file": "docs/research/shots/69-why-zero-university.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "dogstudio.co",
+  "url": "http://www.dogstudio.co",
+  "name": "Dogstudio",
+  "in_library": true,
+  "sources": 4,
+  "i": 69,
+  "file": "docs/research/shots/70-dogstudio-co.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "exoape.com",
+  "url": "https://www.exoape.com",
+  "name": "Exo Ape",
+  "in_library": true,
+  "sources": 4,
+  "i": 70,
+  "file": "docs/research/shots/71-exoape-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "itomdev.com",
+  "url": "https://itomdev.com/",
+  "name": "itomdev.com",
+  "in_library": true,
+  "sources": 4,
+  "i": 71,
+  "file": "docs/research/shots/72-itomdev-com.jpg",
+  "status": "ok"
+ }
+]

@@ -1,0 +1,6094 @@
+[
+ {
+  "name": "Gregor Collienne",
+  "url": "https://gregorcollienne.com/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/fjoqfqm-gregor-collienne",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "photo-portfolio",
+   "typographic",
+   "minimal",
+   "editorial"
+  ],
+  "notable": "A photo portfolio that shows work in a drifting image layout with bold, type-led navigation."
+ },
+ {
+  "name": "Nothing to Watch",
+  "url": "https://nothing-to-watch.port80.ch/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/6wmr7uw-nothing-to-watch",
+  "year": 2026,
+  "category": "3d-webgl",
+  "tags": [
+   "3d",
+   "interactive",
+   "react",
+   "dark"
+  ],
+  "notable": "An interactive 3D movie picker that spins a sphere of posters to surface random films with ratings and plot summaries."
+ },
+ {
+  "name": "Augen",
+  "url": "https://augen.pro/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/erz4438-augen",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "3d",
+   "gsap",
+   "lenis",
+   "long-scroll",
+   "minimal"
+  ],
+  "notable": "Italian startup site for AI wearables for neural and sensory health, with 3D visuals and long scrolling built on Nuxt, GSAP and Lenis."
+ },
+ {
+  "name": "Displace",
+  "url": "https://displace.agency/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/yqc9ady-displace",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "retro-os",
+   "interactive",
+   "dark",
+   "nextjs"
+  ],
+  "notable": "Agency homepage presented as a Mac-style desktop you can explore, with working app windows, notes and terminal demos."
+ },
+ {
+  "name": "Harry Atkins",
+  "url": "https://harryjatkins.com/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/9b18jw0-harry-atkins",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "typographic",
+   "minimal",
+   "large-type",
+   "transitions"
+  ],
+  "notable": "A stripped-back personal portfolio with oversized type, project listings and a black-and-white preview switch."
+ },
+ {
+  "name": "Interfere",
+  "url": "https://interfere.com/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/mysyrbt-interfere",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "saas",
+   "typographic",
+   "pastel",
+   "gradient"
+  ],
+  "notable": "SaaS site for app bug detection and sorting, built with sharp type, soft color washes and interface mockups."
+ },
+ {
+  "name": "Becane Paris",
+  "url": "https://www.becaneparis.com/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/1s74lok-becane-paris",
+  "year": 2026,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "editorial",
+   "threejs",
+   "transitions"
+  ],
+  "notable": "Understated online boutique for functional women's clothing with magazine-style lookbook visuals; uses Three.js and Motion."
+ },
+ {
+  "name": "Cathy Dolle",
+  "url": "https://www.cathydolle.com/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/sayzd67-cathy-dolle",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "experimental",
+   "minimal",
+   "gsap",
+   "lenis",
+   "threejs"
+  ],
+  "notable": "A sparse portfolio of photographic studies, fashion-focused objects and experimental visual work, built with GSAP, Lenis and Three.js."
+ },
+ {
+  "name": "Astro Dither",
+  "url": "https://astrodither.robertborghesi.is/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/rlgsqpq-astro-dither",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "3d",
+   "sound",
+   "dither",
+   "threejs"
+  ],
+  "notable": "Experimental sound-and-visual site featuring a glowing pixelated hand with distortion effects and motion that reacts to the user."
+ },
+ {
+  "name": "Meech213",
+  "url": "https://www.meech213.com/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/i1mq7nk-meech213",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "fashion",
+   "editorial",
+   "floating-cards",
+   "webflow",
+   "lenis"
+  ],
+  "notable": "A fashion portfolio that shows editorial photos as floating, print-style cards on a minimal backdrop."
+ },
+ {
+  "name": "Podium",
+  "url": "https://podium.global/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/gxi9ddp-podium",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "scroll-animation",
+   "large-type",
+   "monochrome",
+   "gsap",
+   "threejs"
+  ],
+  "notable": "Sports-oriented agency site pairing animated project displays and heavy headlines with a monochrome layout accented by full-color imagery."
+ },
+ {
+  "name": "Belen Jones",
+  "url": "https://www.belenjones.com/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/si1eikw-belen-jones",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "typographic",
+   "3d",
+   "pastel",
+   "transitions",
+   "threejs"
+  ],
+  "notable": "A portfolio combining huge lettering with 3D showcases of editorial projects against changing pastel backdrops."
+ },
+ {
+  "name": "Avara",
+  "url": "https://avara.xyz/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/bimlbnk-avara",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "web3",
+   "illustrative",
+   "playful",
+   "dark",
+   "sound"
+  ],
+  "notable": "Interactive dark-themed showcase presenting Avara's ecosystem products as animated, character-style illustrations."
+ },
+ {
+  "name": "Dirt",
+  "url": "https://dirtverse.co/",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/1of4fz4-dirt",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "3d",
+   "large-type",
+   "framer",
+   "editorial"
+  ],
+  "notable": "Studio site combining oversized typography and animated 3D visuals with a curated portfolio of brand projects."
+ },
+ {
+  "name": "Icebug",
+  "url": "https://www.icebug.com/en-GB",
+  "source": "Recent.design",
+  "source_url": "https://recent.design/i/xa3v96i-icebug",
+  "year": 2026,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "editorial",
+   "large-type",
+   "photography"
+  ],
+  "notable": "Outdoor-footwear store homepage using big photography and a bold editorial header."
+ },
+ {
+  "name": "Boc.Studio",
+  "url": "https://boc.studio/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13648-bocstudio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Cactus Digitale",
+  "url": "https://cactusdigitale.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13647-cactus-digitale",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Hedroom",
+  "url": "https://www.hedroom.fm/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13636-hedroom",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Artemii Lebedev",
+  "url": "https://artemiilebedev.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13624-artemii-lebedev",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Visual (Archives) Society",
+  "url": "https://visualsociety.ch/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13620-visual-archives-society",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Kai Blamey Nguyen",
+  "url": "https://kaiblamey.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13618-kai-blamey-nguyen",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Pear",
+  "url": "https://pear.no/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13572-pear",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Gil Huybrecht",
+  "url": "https://gilhuybrecht.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13576-gil-huybrecht",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Jason Bradley",
+  "url": "https://jasonbradley.co/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13577-jason-bradley",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Atlason",
+  "url": "http://atlason.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/2361-atlason",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Viktor Horváth",
+  "url": "https://viktorhor.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13587-viktor-horvath",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "BD85BD85",
+  "url": "https://bd85bd85.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13588-bd85bd85",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "abstract-naming",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Numeric/hex-named site filed under Siteinspire's Unusual Layout category."
+ },
+ {
+  "name": "Seunghyuk Kim",
+  "url": "https://seunghyuk.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13590-seunghyuk-kim",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Aparelho Studio",
+  "url": "https://aparelho.studio/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13599-aparelho-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Special Offer, Inc.",
+  "url": "https://specialoffer.inc/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13602-special-offer-inc",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Alex Villarejo i Garcia",
+  "url": "https://villarejoigarcia.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13605-alex-villarejo-i-garcia",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Company Picnic",
+  "url": "https://companypicnic.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13528-company-picnic",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "hungryman",
+  "url": "https://hungryman.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13532-hungryman",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Pattern Breaking",
+  "url": "https://patternbreak.ing/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13513-pattern-breaking",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Kieran Timberlake",
+  "url": "https://kierantimberlake.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13503-kieran-timberlake",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "&friends",
+  "url": "https://andfriends.soccer/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13502-andfriends",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Heliot Emil – AW 21",
+  "url": "https://aw21.heliotemil.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13497-heliot-emil-aw-21",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "fashion",
+   "lookbook",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Fashion lookbook site for Heliot Emil's AW21 collection, listed under Unusual Layout."
+ },
+ {
+  "name": "Reed Hilderbrand",
+  "url": "https://www.reedhilderbrand.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13496-reed-hilderbrand",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Studio Bruch",
+  "url": "https://studiobruch.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13494-studio-bruch",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Beats in Space",
+  "url": "https://www.beatsinspace.net/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13488-beats-in-space",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "music",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Site for the Beats in Space radio/music brand, listed under Unusual Layout."
+ },
+ {
+  "name": "Zauberberg",
+  "url": "https://zauberbergproductions.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13487-zauberberg",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "STAGECREW",
+  "url": "https://stagecrew.studio/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13482-stagecrew",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Angela Ricciardi",
+  "url": "https://www.angelaricciardi.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13481-angela-ricciardi",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "James Walsh Studio",
+  "url": "https://www.jameswalsh.studio/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13478-james-walsh-studio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Funner",
+  "url": "https://shopfunner.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13473-funner",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Serena Congiu",
+  "url": "https://www.serenacongiu.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13469-serena-congiu",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "There to There",
+  "url": "https://theretothere.co.nz/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13468-there-to-there",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "AND2ES™",
+  "url": "https://www.and2es.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13467-and2estm",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Corentin Bernadou",
+  "url": "https://corentinbernadou.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13459-corentin-bernadou",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Studio Krisztián Éder",
+  "url": "https://krisztianeder.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13365-studio-krisztian-eder",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "DVTK →↓↑←",
+  "url": "https://dvtk.us/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13381-dvtk",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "glyph-branding",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Studio site whose name uses arrow glyphs, listed under Unusual Layout and Typographic."
+ },
+ {
+  "name": "Moke Valley Cabin",
+  "url": "https://mokevalley.co.nz",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13384-moke-valley-cabin",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Rhythm Dialogues",
+  "url": "https://rhythmdialogues.ca/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13385-rhythm-dialogues",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Parallel Society",
+  "url": "https://ps.logos.co/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13392-parallel-society",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Pawel Achtelik",
+  "url": "https://pawelachtelik.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13394-pawel-achtelik",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Studio of Vincent Lowe",
+  "url": "https://vincent-lowe.info",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13398-studio-of-vincent-lowe",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Fácil",
+  "url": "https://facilagencia.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13404-facil",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "YZA Voku",
+  "url": "https://voku.studio/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13417-yza-voku",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "NOA — No Ordinary Accessories",
+  "url": "https://noordinaryaccessories.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13420-noa-no-ordinary-accessories",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Hard Sun",
+  "url": "https://www.hardsun.com",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/13355-hard-sun",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Apossible",
+  "url": "https://apossible.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/12079-apossible",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Idheal",
+  "url": "https://idheal.fr/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/10449-idheal",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Fluff CC",
+  "url": "https://www.itsallfluff.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/9922-fluff-cc",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Yamauchi No. 10 Family Office",
+  "url": "https://y-n10.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/10060-yamauchi-no-10-family-office",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "XXIX",
+  "url": "https://www.xxix.co/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7389-xxix",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Make Me Pulse",
+  "url": "http://makemepulse.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/5446-make-me-pulse",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "webgl",
+   "interactive-studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Long-running interactive studio (WebGL / real-time experiences); listed by Siteinspire under Unusual Layout."
+ },
+ {
+  "name": "Dvein",
+  "url": "https://dvein.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/9126-dvein",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Wade and Leta",
+  "url": "https://wadeandleta.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8880-wade-and-leta",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Mariya Pepelanova",
+  "url": "https://pepecph.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8814-mariya-pepelanova",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Ursa Major Supercluster",
+  "url": "https://ursamajorsupercluster.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8801-ursa-major-supercluster",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Silo",
+  "url": "https://s-i-l-o.fr/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8647-silo",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Kontrapunkt",
+  "url": "http://counterpoint-association.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8627-kontrapunkt",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "StudioOtto",
+  "url": "https://studio-otto.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8543-studiootto",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Atelier Florian Markl",
+  "url": "https://florianmarkl.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8517-atelier-florian-markl",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Revelé",
+  "url": "https://studiorevele.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8316-revele",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Simon Abranowicz",
+  "url": "https://simon.abranowicz.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8380-simon-abranowicz",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "032c",
+  "url": "https://032c.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8281-032c",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "editorial-grid",
+   "magazine",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Berlin culture and fashion magazine with an art-directed, print-minded website."
+ },
+ {
+  "name": "Cuchillo",
+  "url": "http://www.somoscuchillo.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8174-cuchillo",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Rhombus Press",
+  "url": "http://rhombuspress.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8068-rhombus-press",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Skylab Architecture",
+  "url": "http://www.skylabarchitecture.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8062-skylab-architecture",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Unfun",
+  "url": "http://unfun.de/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/4619-unfun",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Jacqui Nguyen",
+  "url": "http://jacqui-nguyen.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8044-jacqui-nguyen",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Paris Georgia",
+  "url": "https://www.parisgeorgiastore.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8046-paris-georgia",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Frans Hals Museum",
+  "url": "https://www.franshalsmuseum.nl/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8045-frans-hals-museum",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Sim Sim Falafel",
+  "url": "http://simsim.fouroom.co/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8000-sim-sim-falafel",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Entireworld",
+  "url": "https://theentireworld.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/8004-entireworld",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Magasins Généraux",
+  "url": "https://magasinsgeneraux.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7997-magasins-generaux",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Charles and Ray Eames",
+  "url": "http://enso.readymag.com/eames",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7823-charles-and-ray-eames",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "readymag",
+   "scrollytelling",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Readymag-built editorial microsite on Charles and Ray Eames, a scroll-story format example."
+ },
+ {
+  "name": "Next Wave",
+  "url": "http://nextwave.org.au/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7975-next-wave",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Magic People Voodoo People",
+  "url": "http://magicpeoplevoodoopeople.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7934-magic-people-voodoo-people",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Torque Editions",
+  "url": "http://torquetorque.net/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7914-torque-editions",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Stéphane Elbaz",
+  "url": "http://stephaneelbaz.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7884-stephane-elbaz",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "The Artery",
+  "url": "http://www.the-artery.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7622-the-artery",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Artifax",
+  "url": "https://artifax.us/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7714-artifax",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "CRUX Media",
+  "url": "https://www.cruxmedia.com.au/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7748-crux-media",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Hopes&Fears",
+  "url": "http://www.hopesandfears.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/5478-hopes-and-fears",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Do You Speak Human?",
+  "url": "http://doyouspeakhuman.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7642-do-you-speak-human",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Victorian Opera",
+  "url": "https://www.victorianopera.com.au/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7645-victorian-opera",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Dropbox Design",
+  "url": "https://dropbox.design/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7557-dropbox-design",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "corporate-design",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Dropbox's design-team site, listed as an example of an unusual-layout corporate design showcase."
+ },
+ {
+  "name": "Very Hong Kong Very Hong Kong",
+  "url": "http://veryhkveryhk.com/2017",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7505-very-hong-kong-very-hong-kong",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Architecture for London",
+  "url": "https://architectureforlondon.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7546-architecture-for-london",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Dries Van Broeck",
+  "url": "http://driesvanbroeck.be/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7536-dries-van-broeck",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Offshore Studio",
+  "url": "http://www.offshorestudio.ch/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7516-offshore-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Gunter Piekarski",
+  "url": "http://gp.works/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7469-gunter-piekarski",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Alexander Coggin",
+  "url": "http://alexandercoggin.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7438-alexander-coggin",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Jordan Sowers",
+  "url": "http://jordansowers.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7382-jordan-sowers",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Hinterland",
+  "url": "http://www.hinterlandstudio.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/4193-hinterland",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "The Beguiling Siren is Thy Crest",
+  "url": "http://syrena.artmuseum.pl/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7299-the-beguiling-siren-is-thy-crest",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "L'Echappée Volée",
+  "url": "http://about.lechappeevolee.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7297-lechappee-volee",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Florent Petitfrere",
+  "url": "http://florentpetitfrere.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7319-florent-petitfrere",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Destroyer LA",
+  "url": "http://destroyer.la/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7179-destroyer-la",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Superimpose Studio",
+  "url": "http://superimpose.studio/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7270-superimpose-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Nick Jones",
+  "url": "http://www.narrowdesign.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/310-nick-jones",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Andreas Murkudis",
+  "url": "https://andreasmurkudis.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7214-andreas-murkudis",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Jana Kirschner",
+  "url": "http://www.janakirschner.com/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7093-jana-kirschner",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Lindsay Howard",
+  "url": "http://lindsayhoward.net/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7196-lindsay-howard",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Johnson Banks",
+  "url": "http://www.johnsonbanks.co.uk/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7184-johnson-banks",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Shantell Martin",
+  "url": "http://shantellmartin.art/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7154-shantell-martin",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Non-Breaking Space — Design of Dissent",
+  "url": "http://www.non-breaking.space/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/7076-non-breaking-space-design-of-dissent",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Badesaison",
+  "url": "http://www.badesaison.ch/",
+  "source": "Siteinspire — Unusual Layout",
+  "source_url": "https://www.siteinspire.com/website/6714-badesaison",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "unusual-layout",
+   "experimental-layout"
+  ],
+  "notable": "Curated by Siteinspire under Unusual Layout (sites that depart from standard page structure); not individually reviewed."
+ },
+ {
+  "name": "Core-A Studios",
+  "url": "https://www.coreastudios.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13646-core-a-studios",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "ViV Management",
+  "url": "https://vivmgmt.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13645-viv-management",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "IWONDERU Studios",
+  "url": "https://www.iwonderu.se/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13644-iwonderu-studios",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Sam Thies",
+  "url": "https://samthies.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13642-sam-thies",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Alicia Dubuis",
+  "url": "https://aliciadubuis.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13640-alicia-dubuis",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Félix Péault",
+  "url": "https://felixpeault.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13634-felix-peault",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Studio OL",
+  "url": "https://ol.studio/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13632-studio-ol",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Scullion Architects",
+  "url": "https://scullion.ie/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13630-scullion-architects",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "TaylorHare Architects",
+  "url": "https://taylorhare.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13628-taylorhare-architects",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Maximilian Kaspar",
+  "url": "https://www.maximiliankaspar.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13623-maximilian-kaspar",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "House of Honey",
+  "url": "https://www.houseofhoney.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13621-house-of-honey",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "This Design",
+  "url": "https://this.design/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13570-this-design",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Quatrième Étage",
+  "url": "https://quatriemeetage.studio/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13573-quatrieme-etage",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Emi Takahashi",
+  "url": "https://emitakahashi.ca/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13574-emi-takahashi",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Mac Moss Studio",
+  "url": "https://macmoss.studio/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13575-mac-moss-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Artem Taradash",
+  "url": "https://taradash.me/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13578-artem-taradash",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Nick Clement",
+  "url": "https://nickclement.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13580-nick-clement",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Thomas Hervé",
+  "url": "https://hervethomas.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13581-thomas-herve",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Little Plains",
+  "url": "https://www.littleplains.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13611-little-plains",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "David Fiz",
+  "url": "https://www.davidfiz.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/11556-david-fiz",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Slav Vitanov",
+  "url": "https://slavvitanov.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13583-slav-vitanov",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Evan Tolleson",
+  "url": "https://evantolleson.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13585-evan-tolleson",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Isaac Leon",
+  "url": "https://isaacleon.cargo.site/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13586-isaac-leon",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Yuri Roga",
+  "url": "https://yuriroga.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13593-yuri-roga",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Kenj Pena",
+  "url": "https://kenjpena.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13594-kenj-pena",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Smörgåsbord",
+  "url": "https://smorgasbord.studio/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13603-smorgasbord",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "DIA Studio",
+  "url": "https://dia.studio/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13608-dia-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Khanh Nguyen",
+  "url": "https://khanhnguyen.design/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13543-khanh-nguyen",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "DSGN Dept.",
+  "url": "https://www.dsgn-dept.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13551-dsgn-dept",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Michal Rome",
+  "url": "https://romemichal.pl/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13550-michal-rome",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Heure Bleue",
+  "url": "https://heurebleue.studio/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13549-heure-bleue",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Alexandra Tellez",
+  "url": "https://alexandratellez.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13547-alexandra-tellez",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "designmill®",
+  "url": "https://www.designmill.in/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13546-designmillr",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Maison Auge",
+  "url": "https://maisonauge.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13545-maison-auge",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Direct",
+  "url": "https://wearedirect.co/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13541-direct",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "ANDMADE Inc.",
+  "url": "https://andmade.jp/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13537-andmade-inc",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Daigh Rick",
+  "url": "https://daighrick.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13526-daigh-rick",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Tillmann Franzen",
+  "url": "https://tillmannfranzen.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13522-tillmann-franzen",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Jack McEntee",
+  "url": "https://jackentee.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13520-jack-mcentee",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Stephen Kent Johnson",
+  "url": "https://stephenkentjohnson.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13519-stephen-kent-johnson",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Franklin Azzi",
+  "url": "https://www.franklinazzi.fr/en",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13523-franklin-azzi",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Antinomy Studio",
+  "url": "https://antinomy.studio/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13510-antinomy-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Ulysses de Santi",
+  "url": "https://ulyssesdesanti.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13509-ulysses-de-santi",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "MONOLOG",
+  "url": "https://bymonolog.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13508-monolog",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Alex Zarour",
+  "url": "https://alexzarour.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13501-alex-zarour",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "MMXX Artists",
+  "url": "https://mmxxartists.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13500-mmxx-artists",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Collection",
+  "url": "https://www.collection.industries/en",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13486-collection",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Jakub Jakubik",
+  "url": "https://jakubjakubik.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13477-jakub-jakubik",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Jordan Robson",
+  "url": "https://jordandrobson.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13483-jordan-robson",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Hélène del Marmol",
+  "url": "https://helenedelmarmol.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13480-helene-del-marmol",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Otherkind",
+  "url": "https://www.otherkind.design/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13476-otherkind",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Satoshi Watanabe",
+  "url": "https://satoshiwatanabe.org/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13474-satoshi-watanabe",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Super Keen",
+  "url": "https://www.superkeen.studio/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13471-super-keen",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Julia Noni",
+  "url": "https://julianoni.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13462-julia-noni",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Field Studies Flora",
+  "url": "https://www.fieldstudiesflora.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13458-field-studies-flora",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Fabio Caverzasio",
+  "url": "https://caverzasio.ch",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13442-fabio-caverzasio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Edoardo Lunardi",
+  "url": "https://www.edoardolunardi.dev",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13356-edoardo-lunardi",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "developer",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Developer's personal site (.dev domain), a rare engineer-portfolio entry in the Siteinspire listings."
+ },
+ {
+  "name": "Victoria Gee",
+  "url": "https://victoriagee.es/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13374-victoria-gee",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Antoine Corbineau - Life on maps",
+  "url": "https://antoinecorbineau.com",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13380-antoine-corbineau-life-on-maps",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Jackson Todd",
+  "url": "https://jacksonalexander.com.au/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13388-jackson-todd",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Vogelhaus",
+  "url": "https://www.vogel.haus/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13405-vogelhaus",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "And And And Studio",
+  "url": "https://andandand.studio",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13409-and-and-and-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Tessa van den Berg",
+  "url": "https://tessavandenberg.com",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13410-tessa-van-den-berg",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Daniel Blue",
+  "url": "https://danielblue.com",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13427-daniel-blue",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Hélio Teles",
+  "url": "https://helioteles.com",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13357-helio-teles",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "See You Later",
+  "url": "https://seeyoulater.la",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13354-see-you-later",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Jon Howell",
+  "url": "https://www.jonhowell.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13321-jon-howell",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "David Rinman",
+  "url": "https://www.davidrinman.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13315-david-rinman",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Geoffrey Mark Taylor",
+  "url": "https://geoffreymarktaylor.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13317-geoffrey-mark-taylor",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Shelby Kay",
+  "url": "https://shelbykay.dev/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/9785-shelby-kay",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "developer",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Developer portfolio (.dev domain) listed in Siteinspire's Portfolio category."
+ },
+ {
+  "name": "Keith Greenbaum",
+  "url": "https://www.keithgreenbaum.com",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13289-keith-greenbaum",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Oh Ira",
+  "url": "https://ohira.design",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13285-oh-ira",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Champ Studio",
+  "url": "https://pleasecallmechamp.com",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13279-champ-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Special Projects",
+  "url": "https://s-p.studio/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13266-special-projects",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Ingmar Coenen",
+  "url": "https://ingmarcoenen.com/",
+  "source": "Siteinspire — Portfolio",
+  "source_url": "https://www.siteinspire.com/website/13305-ingmar-coenen",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "portfolio",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Portfolio category; not individually reviewed."
+ },
+ {
+  "name": "Lambert | Lambert",
+  "url": "https://lambert-lambert.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13617-lambert-or-lambert",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Spatial",
+  "url": "https://spatial-festival.program.studio/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13607-spatial",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "festival",
+   "art",
+   "curated"
+  ],
+  "notable": "Festival site built on the Program Studio platform, listed under Art."
+ },
+ {
+  "name": "Centre de la photographie Genève",
+  "url": "https://www.centrephotogeneve.ch/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13475-centre-de-la-photographie-geneve",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Museum Department",
+  "url": "https://museumdepartment.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13464-museum-department",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Mennour",
+  "url": "https://mennour.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13460-mennour",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Merit",
+  "url": "https://merit-la.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13449-merit",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Berger & Föhr Art",
+  "url": "https://bergerfohr.art/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/10743-berger-and-fohr-art",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "PW Magazine",
+  "url": "https://www.pw-magazine.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13364-pw-magazine",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "QP Magazine",
+  "url": "https://www.qpmagazine.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13367-qp-magazine",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Panconesi",
+  "url": "https://marcopanconesi.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13375-panconesi",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "GIOLABS",
+  "url": "https://giolabs.lu/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13406-giolabs",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "VCASS",
+  "url": "https://www.vcass.vic.edu.au/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13418-vcass",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Kunsthalle Basel",
+  "url": "https://kunsthallebasel.ch/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13361-kunsthalle-basel",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Barcelona Arts Summer School",
+  "url": "https://bassbcn.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13338-barcelona-arts-summer-school",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Museo Cappella Sansevero",
+  "url": "https://www.museosansevero.it/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13319-museo-cappella-sansevero",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Vie",
+  "url": "https://vieprojects.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13230-vie",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Laura Waddington",
+  "url": "https://www.laurawaddington.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13203-laura-waddington",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Super Dakota",
+  "url": "https://www.superdakota.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13185-super-dakota",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Non Fiction",
+  "url": "https://nonfiction.cc/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13138-non-fiction",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Bisou Gallery",
+  "url": "https://www.bisougallery.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13126-bisou-gallery",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Angela Palmer",
+  "url": "https://www.angelaspalmer.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13099-angela-palmer",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "The Tremaine Collection",
+  "url": "https://www.tremainecollection.org/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12517-the-tremaine-collection",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Jacky Winter Gallery",
+  "url": "https://www.jackywinter.gallery/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13067-jacky-winter-gallery",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Eleanor Art Advisory",
+  "url": "https://eleanorartadvisory.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13078-eleanor-art-advisory",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Simone Hoàng",
+  "url": "https://simonehoang.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13032-simone-hoang",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "c0da",
+  "url": "https://c0da.org",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13035-c0da",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "art-project",
+   "art",
+   "curated"
+  ],
+  "notable": "Site for the c0da project, listed in both Art and Minimal-leaning categories on Siteinspire."
+ },
+ {
+  "name": "Extraordinary Things",
+  "url": "https://extraordinarythings.co",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13036-extraordinary-things",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Ben Coode-Adams",
+  "url": "https://www.bencoodeadams.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13042-ben-coode-adams",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Profiler",
+  "url": "https://profiler.world",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/13048-profiler",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Giulia Tonon",
+  "url": "https://www.giuliatonon.it",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12996-giulia-tonon",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Incite at Columbia University",
+  "url": "https://incite.columbia.edu",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12956-incite-at-columbia-university",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Ludovic Sauvage",
+  "url": "https://ludovicsauvage.fr",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12959-ludovic-sauvage",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "12th Berlin Biennale for Contemporary Art",
+  "url": "https://12.berlinbiennale.de",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12936-12th-berlin-biennale-for-contemporary-art",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "biennale",
+   "art",
+   "curated"
+  ],
+  "notable": "Digital identity for the 12th Berlin Biennale, listed under Siteinspire's Art category."
+ },
+ {
+  "name": "Propositions",
+  "url": "https://propositions.art",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12911-propositions",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Hung Chi Art",
+  "url": "https://hungchi.art",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12665-hung-chi-art",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "PortPort Inc.",
+  "url": "https://portport.jp",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12674-portport-inc",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Metamorphoses",
+  "url": "https://metamorphosesobjects.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12700-metamorphoses",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Oliver Jeffers",
+  "url": "https://oliverjeffers.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12698-oliver-jeffers",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Headless Horse",
+  "url": "https://headless.horse",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12669-headless-horse",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "art",
+   "curated"
+  ],
+  "notable": "Experimental site filed under Siteinspire's Art category."
+ },
+ {
+  "name": "i-D",
+  "url": "https://i-d.co",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12661-i-d",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "GoodMood",
+  "url": "https://www.goodmoodprints.io",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12660-goodmood",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Chloé Desjardins",
+  "url": "https://chloedesjardins.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12485-chloe-desjardins",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Overtime",
+  "url": "https://overtime.companypolicy.studio",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12658-overtime",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "The Minories",
+  "url": "https://www.theminories.org",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12640-the-minories",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Public Work",
+  "url": "https://public.work",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12646-public-work",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Claudia Piepenbrock",
+  "url": "https://www.claudia-piepenbrock.de",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12493-claudia-piepenbrock",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Oui Non Éditions",
+  "url": "https://oui-non-editions.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12495-oui-non-editions",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Studio Tijmen Smeulders",
+  "url": "https://tijmensmeulders.nl",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12267-studio-tijmen-smeulders",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Saint Heron",
+  "url": "https://saintheron.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12306-saint-heron",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Akademia Sztuk Pięknych w Warszawie",
+  "url": "https://asp.waw.pl",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12458-akademia-sztuk-pieknych-w-warszawie",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Museum of Contemporary Art Australia",
+  "url": "https://www.mca.com.au",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12210-museum-of-contemporary-art-australia",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Nik Bentel Studio",
+  "url": "http://nikbentel.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12385-nik-bentel-studio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Pardon",
+  "url": "https://www.pardon.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12433-pardon",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Southern Guild",
+  "url": "https://southernguild.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12288-southern-guild",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Porto Rocha — Swipe",
+  "url": "https://swipe.portorocha.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12369-porto-rocha-swipe",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "microsite",
+   "art",
+   "curated"
+  ],
+  "notable": "Porto Rocha's 'Swipe' microsite, listed under Art."
+ },
+ {
+  "name": "Hunger",
+  "url": "https://www.hungermag.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12365-hunger",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Mirage at Apple Park",
+  "url": "https://mirage.place",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12299-mirage-at-apple-park",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "installation",
+   "art",
+   "curated"
+  ],
+  "notable": "Site for the Mirage at Apple Park art installation, filed under Siteinspire's Art category."
+ },
+ {
+  "name": "Peggy",
+  "url": "https://www.peggy.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12322-peggy",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Francis Gallery",
+  "url": "https://francisgallery.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12273-francis-gallery",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "The Beams",
+  "url": "https://thebeamslondon.com",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12166-the-beams",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "NESR Art Foundation",
+  "url": "https://www.nesrartfoundation.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/12101-nesr-art-foundation",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Corners",
+  "url": "https://cornersnewyork.co/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11948-corners",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Light Art Space",
+  "url": "https://www.las-art.foundation/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11941-light-art-space",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Plaster Magazine",
+  "url": "https://plastermagazine.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11917-plaster-magazine",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Studio Museum in Harlem",
+  "url": "https://studiomuseum.org/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11856-studio-museum-in-harlem",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Chazwick",
+  "url": "https://chazwick.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11833-chazwick",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Roy Lichtenstein",
+  "url": "https://www.lichtensteincatalogue.org/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11842-roy-lichtenstein",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Half of Eight",
+  "url": "https://halfof8.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11816-half-of-eight",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Cereal Magazine",
+  "url": "https://www.readcereal.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/3744-cereal-magazine",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "magazine",
+   "photography",
+   "art",
+   "curated"
+  ],
+  "notable": "Travel and lifestyle magazine whose site carries a quiet, photography-forward editorial layout."
+ },
+ {
+  "name": "Space10",
+  "url": "https://space10.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/6195-space10",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Lévy Gorvy Dayan",
+  "url": "https://lgdr.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11775-levy-gorvy-dayan",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Belvédère",
+  "url": "https://belvedere.paris/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11680-belvedere",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "West Space",
+  "url": "https://westspace.org.au/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11688-west-space",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "White Cube",
+  "url": "https://www.whitecube.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11579-white-cube",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Les Traces Habiles",
+  "url": "https://les-traces-habiles.org/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11535-les-traces-habiles",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Blockchain Art Directory",
+  "url": "https://badog.xyz/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11334-blockchain-art-directory",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "directory",
+   "art",
+   "curated"
+  ],
+  "notable": "Directory site for blockchain-based art, listed under Art."
+ },
+ {
+  "name": "The Dedalus Foundation",
+  "url": "https://dedalusfoundation.org/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11323-the-dedalus-foundation",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Decade",
+  "url": "https://decadewyndham.com.au/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11370-decade",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Pérez Art Museum Miami",
+  "url": "https://www.pamm.org/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11317-perez-art-museum-miami",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Fellowship",
+  "url": "https://fellowship.xyz/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11437-fellowship",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Very Happy Very Disturbed",
+  "url": "https://veryhappyverydisturbed.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11375-very-happy-very-disturbed",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "MSCHF",
+  "url": "https://mschf.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11348-mscf",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "playful",
+   "internet-art",
+   "art",
+   "curated"
+  ],
+  "notable": "Product-drop collective (MSCHF) whose website functions as part of the prank-art practice."
+ },
+ {
+  "name": "Tarzeer Pictures",
+  "url": "https://tarzeerpictures.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/10681-tarzeer-pictures",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Making of – Berl Berl World – Jakob Kudsk Steensen",
+  "url": "http://berlberl.world/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11191-making-of-berl-berl-world-jakob-kudsk-steensen",
+  "year": null,
+  "category": "3d-webgl",
+  "tags": [
+   "3d",
+   "webgl",
+   "real-time-3d",
+   "art-installation",
+   "art",
+   "curated"
+  ],
+  "notable": "Web companion to artist Jakob Kudsk Steensen's real-time 3D 'Berl Berl' project."
+ },
+ {
+  "name": "Chronicle of Garage Museum of Contemporary Art",
+  "url": "https://chronicle.garagemca.org/en",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11194-chronicle-of-garage-museum-of-contemporary-art",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Art In Dumbo Open Studios",
+  "url": "https://dumboopenstudios.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11236-art-in-dumbo-open-studios",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Possible Monuments",
+  "url": "https://possiblemonuments.se/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/11141-possible-moments",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Magnus Art",
+  "url": "https://www.magnusart.cz/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/10632-magnus-art",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Other Matter",
+  "url": "https://other-matter.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/10649-other-matter",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Tofu Collective",
+  "url": "https://tofucollective.com/",
+  "source": "Siteinspire — Art",
+  "source_url": "https://www.siteinspire.com/website/10623-tofu-collective",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "art",
+   "curated"
+  ],
+  "notable": "Curated by Siteinspire in its Art category; not individually reviewed."
+ },
+ {
+  "name": "Komma Komma",
+  "url": "https://kommakomma.is/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/13619-komma-komma",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Grafik",
+  "url": "https://grafik.co.nz/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/8074-grafik",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Bianco Bianco",
+  "url": "https://www.biancobian.co/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/13535-bianco-bianco",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Special Offer",
+  "url": "https://s-o.io/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/13342-special-offer",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Early Works",
+  "url": "https://www.early.works",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/13337-early-works",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Ars Thanea",
+  "url": "https://arsthanea.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/13329-ars-thanea",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "New Apology",
+  "url": "https://newapology.com",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/13327-new-apology",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Design Beyond Barriers",
+  "url": "https://designbeyondbarriers.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/13308-design-beyond-barriers",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Gentle Systems",
+  "url": "https://www.gentle.systems/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/13316-gentle-systems",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Signal-A Studio",
+  "url": "https://signal-a.studio",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/13402-signal-a-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Alright Studio",
+  "url": "https://alright.studio/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/11419-alright-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Bodeyco",
+  "url": "https://www.bodeyco.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/13470-bodeyco",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Studio Almond",
+  "url": "https://www.almond.studio/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/9499-studio-almond",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Bureau for Visual Affairs",
+  "url": "https://www.bureau-va.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/446-bureau-for-visual-affairs",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Athletics",
+  "url": "https://athleticsnyc.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/2199-athletics",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Huncwot",
+  "url": "https://huncwot.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/5378-huncwot",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Elodie Fabbri",
+  "url": "http://elodiefabbri.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/7655-elodie-fabbri",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Lundgren+Lindqvist",
+  "url": "https://www.lundgrenlindqvist.se/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/1515-lundgren-plus-lindqvist",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Tom Zelmanski",
+  "url": "https://zelmanski.pl/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12723-tom-zelmanski",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Andrew Trousdale",
+  "url": "https://andrewtrousdale.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12742-andrew-trousdale",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Templo",
+  "url": "http://templo.co.uk/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/6360-templo",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Pedro Duarte",
+  "url": "https://ped.ro/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12691-pedro-duarte",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Duties XYZ",
+  "url": "https://www.duties.xyz/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/11158-duties-xyz",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Opening Hours",
+  "url": "https://openinghours.studio/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/11702-opening-hours",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Gardener NYC",
+  "url": "https://www.gardener.nyc/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/10615-gardener-nyc",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Unveil",
+  "url": "https://unveil.fr/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12497-unveil",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "MoreAir",
+  "url": "https://moreair.co/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/7678-moreair",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Emele Collab",
+  "url": "https://emelecollab.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12659-emele-collab",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "MARCD",
+  "url": "https://www.marcd.co/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12621-marcd",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Jordan Gilroy",
+  "url": "https://www.jordangilroy.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/9264-jordan-gilroy",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Sergey Lisovskiy",
+  "url": "https://lisovskiy.work/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12617-sergey-lisovskiy",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Input Logic",
+  "url": "https://www.inputlogic.ca/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12508-input-logic",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Adrien_M_Studio",
+  "url": "https://www.adrien-m.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12504-adrien-m-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Koal Studio",
+  "url": "https://www.koal.ch/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12551-koal-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "MILL3",
+  "url": "https://mill3.studio/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12503-mill3",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "September Works",
+  "url": "https://www.september.works/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12511-september-works",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Forms.Supply",
+  "url": "https://forms.supply/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12547-forms-dot-supply",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Salad Creative",
+  "url": "http://saladcreative.com/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/6552-salad-creative",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Haritos Constantinos",
+  "url": "https://www.haritos.co/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12313-haritos-constantinos",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "SAY Studio",
+  "url": "https://www.say.studio/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12337-say-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Eva Sánchez",
+  "url": "https://evasanchez.info/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/11985-eva-sanchez",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Dyo Tanya",
+  "url": "https://dyotanya.com/en",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12064-dyo-tanya",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "099",
+  "url": "https://099.supply/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12065-099",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Your Majesty",
+  "url": "https://yourmajesty.co/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/4432-your-majesty",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Special Offer Studio",
+  "url": "https://www.special-offer.studio/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12157-special-offer",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Daniel Sun",
+  "url": "https://danielsun.space/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12203-daniel-sun",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Baast Studio",
+  "url": "https://baast.studio/",
+  "source": "Siteinspire — Web & Interactive Design",
+  "source_url": "https://www.siteinspire.com/website/12308-baast-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "web-design",
+   "interactive"
+  ],
+  "notable": "Curated by Siteinspire in its Web & Interactive Design category; not individually reviewed."
+ },
+ {
+  "name": "Gemini Services",
+  "url": "https://geminiservic.es",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13260-gemini-services",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "seb-astian",
+  "url": "https://www.seb-astian.com",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13241-seb-astian",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Personal site listed under Typographic; the name is stylised as seb-astian."
+ },
+ {
+  "name": "Verde",
+  "url": "http://verde.io/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/3952-verde",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "SuperHi.cv",
+  "url": "https://www.superhi.cv",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13229-superhicv",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "portfolio-builder",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Portfolio-builder product from the SuperHi education brand, filed under Typographic."
+ },
+ {
+  "name": "Control",
+  "url": "https://cntrl.site",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13228-control",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Pier-Luc Cossette",
+  "url": "https://plcossette.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13168-pier-luc-cossette",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Lorenz Woehr",
+  "url": "https://lorenzwoehr.com",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13173-lorenz-woehr",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Body Shop",
+  "url": "https://www.body-shop.co",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13150-body-shop",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Sebastián Martínez",
+  "url": "https://www.sebastian-martinez.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12224-sebastian-martinez",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Magic as a Service",
+  "url": "https://maas.engineering",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13122-magic-as-a-service",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "engineering",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Engineering-flavoured studio site (maas.engineering) filed under Typographic."
+ },
+ {
+  "name": "Andrei Rybin",
+  "url": "https://andreirybin.com",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13024-andrei-rybin",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Anvar Shoe",
+  "url": "https://n-w-r.xyz/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13063-anvar-shoe",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Subframe",
+  "url": "https://www.subframe.com",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13087-subframe",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Limesharp",
+  "url": "https://limesharp.net/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13076-limesharp",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Dan Highbrown",
+  "url": "https://www.danhighbrown.com",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13025-dan-highbrown",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Paulo Ferreira Jorge",
+  "url": "https://pauloferreirajorge.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13030-paulo-ferreira-jorge",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Over-Stimulated",
+  "url": "https://www.over-stimulated.com",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13037-over-stimulated",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Monolif",
+  "url": "https://monolif.co/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13038-monolif",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Neutral Studio",
+  "url": "https://neutral-studio.com",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13049-neutral-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Roko Gabrilo",
+  "url": "https://roko-g.work/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13015-roko-gabrilo",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Reboot",
+  "url": "https://reboot.studio/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12977-reboot",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Thomas Monavon",
+  "url": "https://www.thomasmonavon.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12933-thomas-monavon",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Lucas Urbanek",
+  "url": "https://lucasurbanek.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12927-lucas-urbanek",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Standard Projects",
+  "url": "https://www.standard-projects.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/10502-standard-projects",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Arthur Petrillo",
+  "url": "https://arthurpetrillo.co/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12870-arthur-petrillo",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Design Business Company",
+  "url": "https://dbco.online/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12868-design-business-company",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Anna Parellada",
+  "url": "https://www.annaparellada.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12866-anna-parellada",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Romain Granai",
+  "url": "https://romaingranai.xyz/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12832-romain-granai",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Alchemy Digital",
+  "url": "https://alchemy.digital/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12857-alchemy-digital",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Bakken & Bæck",
+  "url": "https://bakkenbaeck.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/3491-bakken-and-baeck",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "storytelling",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Digital design studio with a long record of interactive and storytelling work, listed under Typographic."
+ },
+ {
+  "name": "Area 17",
+  "url": "https://area17.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/735-area-17",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "editorial-grid",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Long-standing digital product studio whose site is a recurring Siteinspire pick for type-led editorial layouts."
+ },
+ {
+  "name": "The Future In Black",
+  "url": "https://www.thefutureinblack.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13635-the-future-in-black",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Thérèse of Lisieux",
+  "url": "https://thereseoflisieux.co.nz/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13612-therese-of-lisieux",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Casa Gay",
+  "url": "https://casagay.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13589-casa-gay",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "CcType Foundry",
+  "url": "https://cctype.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13596-cctype-foundry",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Il Capo Production",
+  "url": "https://ilcapoproduction.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13597-il-capo-production",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "PERFECT DAYS",
+  "url": "https://perfectdays-movie.jp/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13600-perfect-days",
+  "year": null,
+  "category": "event-campaign",
+  "tags": [
+   "campaign",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Hardholy",
+  "url": "https://www.hardholy.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13536-hardholy",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Pasqua Wines",
+  "url": "https://www.pasqua.it/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13560-pasqua-wines",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Atlas",
+  "url": "https://www.atlasnyc.us/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13525-atlas",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Driftime®",
+  "url": "https://driftime.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13512-driftimer",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Base Off Mute",
+  "url": "https://offmute.basedesign.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13499-base-off-mute",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Lift Type",
+  "url": "https://www.lift-type.fr/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13498-lift-type",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Huts",
+  "url": "https://huts.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13492-huts",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Robert Feasley",
+  "url": "https://rfeasley.io/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13485-robert-feasley",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Bureau Rouge",
+  "url": "https://bureaurouge.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13489-bureau-rouge",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "The Red",
+  "url": "https://www.333southwabash.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13472-the-red",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Fiona Vilmer",
+  "url": "http://fionavilmer.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13461-fiona-vilmer",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Mammoth Brands",
+  "url": "https://mammothbrands.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13456-mammoth-brands",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Coutumes",
+  "url": "https://coutumes.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13453-coutumes",
+  "year": null,
+  "category": "ecommerce",
+  "tags": [
+   "ecommerce",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Small Talk Studio",
+  "url": "https://smalltalkstudio.biz/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13451-small-talk-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "GT Standard",
+  "url": "https://gt-standard.com",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13245-gt-standard",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Anaïis",
+  "url": "https://www.anaiis.world/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13370-anaiis",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "THE LOOKBACK",
+  "url": "https://tlb.betteroff.studio",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13395-the-lookback",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "24/7",
+  "url": "https://247-sports.tv/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13397-247",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Music Videos I Like",
+  "url": "https://music-videos.lsvs.cloud/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13412-music-videos-i-like",
+  "year": null,
+  "category": "experimental-art",
+  "tags": [
+   "experimental",
+   "archive",
+   "curation",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Personal curated archive of music videos, filed under Siteinspire's Typographic category."
+ },
+ {
+  "name": "Sound & Vision (Monotype)",
+  "url": "https://monotype.com/type-trends/sound-vision",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13415-sound-and-vision",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Openfield",
+  "url": "https://of.domains/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13333-openfield",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "domains",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Domain-name project filed by Siteinspire under Typographic."
+ },
+ {
+  "name": "Displaay",
+  "url": "https://displaay.net/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13332-displaay",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Spin",
+  "url": "https://spin.co.uk/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/4874-spin",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Unknown, Untitled",
+  "url": "https://unknown-untitled.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/9046-unknown-untitled",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Perform—Produce",
+  "url": "https://performproduce.com",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/13184-performproduce",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "New Ground Coffee",
+  "url": "https://www.newgroundcoffee.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12167-new-ground-coffee",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Lotta Nieminen Studio",
+  "url": "http://www.lottanieminen.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/2860-lotta-nieminen-studio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Design West",
+  "url": "http://designwest.eu/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12704-design-west",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Pedro Ajo",
+  "url": "https://pedroajo.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12869-pedro-ajo",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Love + Money",
+  "url": "https://www.loveandmoney.agency/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/6082-love-plus-money",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Bleed",
+  "url": "https://bleed.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/1490-bleed",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Stripe Dot Dev",
+  "url": "https://stripe.dev/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12688-stripe-dot-dev",
+  "year": null,
+  "category": "tool-library",
+  "tags": [
+   "tool",
+   "developer-brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Stripe's developer-community site, a rare example of a developer brand treated with editorial design."
+ },
+ {
+  "name": "SpectreVision",
+  "url": "https://www.spectrevision.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12552-spectrevision",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Giulia Boggio",
+  "url": "http://giuliaboggio.xyz/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12650-giulia-boggio",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Not A Bike Shop",
+  "url": "https://notabikeshop.eu/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12490-not-a-bike-shop",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Watson",
+  "url": "https://watson.la/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/8599-watson",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Monoceros",
+  "url": "https://www.monoceros.com/",
+  "source": "Siteinspire — Typographic",
+  "source_url": "https://www.siteinspire.com/website/12541-monoceros",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "typographic",
+   "type-led"
+  ],
+  "notable": "Curated by Siteinspire in its Typographic category, i.e. type is the main design element; not individually reviewed."
+ },
+ {
+  "name": "Royal Sites Ireland",
+  "url": "https://royalsites.ie/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13655-royal-sites-ireland",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "SIHA",
+  "url": "https://siha.com.au/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13654-siha",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Oath Biome",
+  "url": "https://www.oathbiome.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13653-oath-biome",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "WSM",
+  "url": "https://wschupfer.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13652-wsm",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Fume",
+  "url": "https://fume-studio.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13651-fume",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Carrière Scène",
+  "url": "https://carrierescene.ca/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13650-carriere-scene",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Life Stories",
+  "url": "https://lifestories.org/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13649-life-stories",
+  "year": null,
+  "category": "other",
+  "tags": [
+   "institution",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Town",
+  "url": "https://www.town.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13643-town",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Union Boulangerie",
+  "url": "https://unionboulangerie.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13641-union-boulangerie",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "The Surfer's Journal Archives",
+  "url": "https://archives.surfersjournal.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13639-the-surfers-journal-archives",
+  "year": null,
+  "category": "editorial-story",
+  "tags": [
+   "editorial",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Les Grands Chênes",
+  "url": "https://www.maisonlesgrandschenes.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13638-les-grands-chenes",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Jakobsen Copenhagen",
+  "url": "https://jakobsencopenhagen.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13637-jakobsen-copenhagen",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Nothin'",
+  "url": "https://www.noth.in/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13633-nothin",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Tekt",
+  "url": "https://tekt.com.au/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13631-tekt",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Studio Gerosa",
+  "url": "https://www.studio-gerosa.it/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13629-studio-gerosa",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Exemplar",
+  "url": "https://exemplarfromsweden.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13627-exemplar",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "SORT Office",
+  "url": "https://sort-office.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13626-sort-office",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Grapa Studio",
+  "url": "https://studiograpa.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13625-grapa-studio",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Stereoscope Coffee",
+  "url": "https://www.stereoscopecoffee.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13622-stereoscope-coffee",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Arc'teryx System_0",
+  "url": "https://arcteryx.com/us/en/explore/system0",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13616-arcteryx",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "product-story",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Product-explainer microsite for Arc'teryx System_0, listed in Siteinspire's Minimal category."
+ },
+ {
+  "name": "WWAKE",
+  "url": "https://wwake.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13615-wwake",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Jack & Jill",
+  "url": "https://www.jackandjill.ai/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13614-jack-and-jill",
+  "year": null,
+  "category": "product-brand",
+  "tags": [
+   "brand",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Love and Money",
+  "url": "https://loveandmoney.com/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/13571-love-and-money",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "Blond",
+  "url": "https://blond.cc/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/11135-blond",
+  "year": null,
+  "category": "studio-agency",
+  "tags": [
+   "studio",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ },
+ {
+  "name": "David McGillivray",
+  "url": "http://dmcg.co/",
+  "source": "Siteinspire — Minimal",
+  "source_url": "https://www.siteinspire.com/website/2969-david-mcgillivray",
+  "year": null,
+  "category": "portfolio-person",
+  "tags": [
+   "personal-site",
+   "minimal",
+   "clean"
+  ],
+  "notable": "Curated by Siteinspire in its Minimal category (recently added); not individually reviewed."
+ }
+]

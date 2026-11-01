@@ -1,0 +1,5001 @@
+[
+ {
+  "name": "Poster Expo",
+  "url": "https://www.behance.net/gallery/229732641/Poster-Expo-Vol-I",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/10/29/poster-expo/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "poster-design",
+   "typography",
+   "interaction"
+  ],
+  "notable": "Designing 50 posters in 21 days to break out of a creative block, from image to idea to finished layout. Stack/technique tags: poster-design, typography, interaction."
+ },
+ {
+  "name": "Songs of Hyrule (Ocarina mini-game)",
+  "url": "https://ocarina.thibaut-lefrancois.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/10/27/songs-of-hyrule-from-a-fans-idea-to-a-three-js-mini-game-in-a-few-days/",
+  "year": 2026,
+  "category": "game-like",
+  "tags": [
+   "game",
+   "song-recognition",
+   "gsap",
+   "blender",
+   "three.js",
+   "gamified"
+  ],
+  "notable": "A Three.js mini-game for playing the Ocarina of Time songs in the browser, with song recognition, a song book and self-steering fairies."
+ },
+ {
+  "name": "Juan Mora Romero Portfolio '26",
+  "url": "https://juanmoraromero.com",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/10/22/juan-mora-romero-portfolio/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "react-three-fiber",
+   "gsap",
+   "next.js",
+   "glsl-shaders",
+   "typography"
+  ],
+  "notable": "How Juan Mora Romero's portfolio was built with Next.js, React Three Fiber and GSAP, from an endlessly draggable Lab to a chromatic channel split and wind-blown cloth posters."
+ },
+ {
+  "name": "Maria Vasilyeva Portfolio",
+  "url": "https://www.mariavasilyeva.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/10/20/maria-vasilyeva-portfolio/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "post-processing",
+   "page-transitions",
+   "image-distortion",
+   "typography",
+   "webgl",
+   "glsl-shaders"
+  ],
+  "notable": "How music became the framework for Maria Vasilyeva's portfolio, from its layouts to its motion and sound. Stack/technique tags: post-processing, page-transitions, image-distortion, typography."
+ },
+ {
+  "name": "Paperlab (React paper-fold library)",
+  "url": "https://paperlab.nawwara.studio/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/10/18/real-folds-real-fire/",
+  "year": 2026,
+  "category": "tool-library",
+  "tags": [
+   "react-library",
+   "webcam",
+   "post-processing",
+   "mediapipe",
+   "react-three-fiber"
+  ],
+  "notable": "How an open-source React library renders sheets of paper as real 3D geometry that folds, rolls and peels, and lets you set them on fire through a webcam with a pinch or a real lighter."
+ },
+ {
+  "name": "Noho",
+  "url": "https://noho.ink/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/10/15/noho-redesign/",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "lenis",
+   "custom-cursor"
+  ],
+  "notable": "An exploration of how Noho's product philosophy shaped both the behaviour and performance of its digital experience, from purposeful interaction to knowing when the site should simply do less."
+ },
+ {
+  "name": "Heron AI",
+  "url": "https://heronaiapp.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/10/12/heron-ai/",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "gsap",
+   "image-distortion",
+   "scroll-choreography",
+   "lenis",
+   "custom-cursor",
+   "svg"
+  ],
+  "notable": "How Bearplus designed and built the site for Heron, an AI agent for architects, around the visual language of technical drawings instead of the usual look of AI products."
+ },
+ {
+  "name": "Chasing the Moment",
+  "url": "https://chasing-the-moment.byholm.co/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/10/12/chasing-the-moment/",
+  "year": 2026,
+  "category": "editorial-story",
+  "tags": [
+   "webfilm",
+   "three.js",
+   "glsl",
+   "blender",
+   "gsap",
+   "canvas-2d"
+  ],
+  "notable": "How a faceless runner, an endless city and a shattering screen came together in Chasing the Moment, a webfilm built with Three.js and GLSL."
+ },
+ {
+  "name": "Yichen Xie Portfolio",
+  "url": "https://yichenxie.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/10/06/yichen-xie-portfolio/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "particles",
+   "canvas-2d",
+   "fluid-simulation",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "How I turned an infinite bubble canvas into a playful portfolio opening, from the first compositions to the WebGL rendering and pop interactions."
+ },
+ {
+  "name": "ULTRAGRID Portfolio",
+  "url": "https://ultragrid.studio/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/09/30/ultragrid-portfolio/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "spline",
+   "blender",
+   "webflow",
+   "three.js",
+   "glsl-shaders"
+  ],
+  "notable": "A case study on building a 3D isometric desk as the navigation for the ULTRAGRID portfolio site, modeled in Blender, brought to the web with Spline, and wired into Webflow."
+ },
+ {
+  "name": "bleibtgleich '26",
+  "url": "https://bleibtgleich.dev/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/09/23/bleibtgleich26-a-180-turn-from-brutalism-to-minimalism/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "webflow",
+   "lenis",
+   "barba.js",
+   "custom-cursor",
+   "svg"
+  ],
+  "notable": "A yearly portfolio rebuild exploring how Webflow, GSAP, WebGL, and AI can turn spontaneous experiments into a playful, interactive experience."
+ },
+ {
+  "name": "Kononenko Architectural Bureau",
+  "url": "https://kononenkogroup.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/09/18/kononenko-architectural-bureau/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "lenis",
+   "webgl",
+   "typography"
+  ],
+  "notable": "How designer Artem Shcherban and creative developer Reksa Andhika translated Kononenko Architectural Bureau's identity into an interactive website."
+ },
+ {
+  "name": "House of Yellow",
+  "url": "https://houseofyellow.nl/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/09/16/house-of-yellow/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "lenis",
+   "kinetic-type",
+   "svg",
+   "typography"
+  ],
+  "notable": "A motion-driven website for House of Yellow, turning video, typography and interaction into an extension of the studio's creative energy."
+ },
+ {
+  "name": "Vivid",
+  "url": "https://viivid.webflow.io/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/09/15/vivid-turning-a-visual-experiment-into-an-interactive-webflow-experience/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "webflow",
+   "gsap",
+   "custom-cursor",
+   "glsl-shaders"
+  ],
+  "notable": "Learn how Vivid combines Webflow, custom code, motion, and pixel-based effects to create an interactive visual experience."
+ },
+ {
+  "name": "Depth (3D renderer inside Figma)",
+  "url": "https://depth.fyi/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/09/13/building-depth-designing-and-developing-a-3d-renderer-inside-figma/",
+  "year": 2026,
+  "category": "tool-library",
+  "tags": [
+   "three.js",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "A look at how Depth came together, from building a 3D renderer inside Figma to designing a website that explores what it can do."
+ },
+ {
+  "name": "Decathlon Yestalgia",
+  "url": "https://decathlonyestalgia.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/09/12/yestalgia-bringing-decathlons-90s-spirit-to-life-through-a-playful-digital-experience/",
+  "year": 2026,
+  "category": "event-campaign",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "motion-design",
+   "lenis",
+   "typography"
+  ],
+  "notable": "A closer look at how Yestalgia brings Decathlon's '90s-inspired vision to the web through art direction, interaction, animation, and creative development."
+ },
+ {
+  "name": "Still (WebGPU generative garden)",
+  "url": "https://still.mingjyunhung.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/09/09/still-from-akira-to-ink-wash-building-a-generative-garden-in-webgpu/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "webgpu",
+   "generative",
+   "post-processing",
+   "blender",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "A technical deep dive into Still, exploring how WebGPU, procedural systems, and Japanese art influences come together to create a living generative garden."
+ },
+ {
+  "name": "Goodgrowth",
+  "url": "https://goodgrowth.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/08/27/goodgrowth-boot-sequences-spinning-discs-and-the-art-of-the-portfolio/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "dithering",
+   "audio-reactive",
+   "gsap",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Discover the process behind Goodgrowth, from its console-inspired concept to the 3D, motion, sound, and technical details that bring the experience to life."
+ },
+ {
+  "name": "Sixty Frames for the Record (FFFrontier)",
+  "url": "https://fffrontier.co/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/08/22/sixty-frames-for-the-record-a-three-js-game-seven-fly-throughs-and-a-wall-of-crts/",
+  "year": 2026,
+  "category": "game-like",
+  "tags": [
+   "game",
+   "music",
+   "post-processing",
+   "blender",
+   "3d-scroll",
+   "react-three-fiber"
+  ],
+  "notable": "What building a Three.js lab around my own music taught me about the renderer. Stack/technique tags: game, music, post-processing, blender."
+ },
+ {
+  "name": "Run Rob Run",
+  "url": "https://www.runrobrun.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/08/20/run-rob-run-building-a-music-reactive-goo-with-three-js-and-webgpu/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "audio-reactive",
+   "webgpu",
+   "scroll-choreography",
+   "three.js",
+   "typography"
+  ],
+  "notable": "Exploring the techniques behind an audio-reactive 3D scene, from custom geometry deformation and music analysis to scroll-driven morphing, damping, and performance optimization."
+ },
+ {
+  "name": "HAOQI.DESIGN",
+  "url": "https://haoqi.design/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "lenis",
+   "particles",
+   "react-three-fiber",
+   "webgl",
+   "glsl-shaders"
+  ],
+  "notable": "A technical look at the making of HAOQI.DESIGN, exploring scroll sync, glass shaders, and the interplay of DOM, CSS, and WebGL in a retro-futurist portfolio."
+ },
+ {
+  "name": "Chems.Studio",
+  "url": "https://www.chems.studio/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/08/08/designing-a-flexible-digital-archive-for-chems-studios-creative-practice/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "webflow",
+   "typography",
+   "interaction"
+  ],
+  "notable": "A film-led website for Chems Studio, bringing years of creative direction and moving image together through a quiet, flexible digital framework."
+ },
+ {
+  "name": "PX PUSH",
+  "url": "https://pxpush.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/08/07/the-department-is-open-building-the-px-push-website/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "nuxt",
+   "scroll-choreography",
+   "lenis",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "How a design subscription studio built its website around a single governing idea: an old, always-on machine, running underneath a modern Nuxt and Three.js stack."
+ },
+ {
+  "name": "MERSI Architecture",
+  "url": "https://www.mersi-architecture.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/07/27/between-print-and-digital-the-making-of-mersis-website/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "webflow",
+   "flip-animation",
+   "gsap",
+   "scroll-choreography",
+   "typography"
+  ],
+  "notable": "FLOT NOIR reimagines MERSI's digital presence as a quiet, immersive space between architectural print and interactive web, combining a tailored Webflow build with precise motion and editorial storytelling."
+ },
+ {
+  "name": "Cerebrium",
+  "url": "https://cerebrium.ai/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/07/23/building-cerebrium-making-serverless-infrastructure-tangible/",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "post-processing",
+   "webgpu",
+   "tsl",
+   "particles",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Go behind the scenes of Cerebrium to explore the design, 3D, and WebGL techniques that turned complex AI infrastructure into an intuitive interactive experience."
+ },
+ {
+  "name": "Dash Creative",
+  "url": "https://www.dashcreative.co/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/07/21/magnetic-commerce-building-the-dash-creative-website/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "image-distortion",
+   "webflow",
+   "custom-cursor",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "How a simple branding concept shaped the interaction design, animation, and WebGL implementation of the Dash Creative website."
+ },
+ {
+  "name": "ZERO (Zero University)",
+  "url": "https://why.zero.university/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/07/17/zero-the-engineering-behind-a-defiant-interactive-narrative/",
+  "year": 2026,
+  "category": "editorial-story",
+  "tags": [
+   "scrollytelling",
+   "scroll-choreography",
+   "gsap",
+   "generative",
+   "audio-reactive",
+   "glsl-shaders"
+  ],
+  "notable": "A technical breakdown of the pipeline, rendering techniques, and performance optimizations behind ZERO, an immersive scroll driven WebGL experience built for desktop and mobile."
+ },
+ {
+  "name": "Trionn",
+  "url": "https://trionn.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/07/15/the-architecture-behind-trionn-coordinating-gsap-three-js-lenis-and-web-audio/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "audio-reactive",
+   "scroll-choreography",
+   "particles",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "A behind-the-scenes look at how multiple animation, rendering, and interaction layers were unified into one performant web experience."
+ },
+ {
+  "name": "The Sleepers",
+  "url": "https://projects.thibautfoussard.com/the-sleepers/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/07/10/the-sleepers-creating-an-atmospheric-webgl-experience-with-lightweight-techniques/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "blender",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "From swirling transitions and animated fog to mesh outlines and infinite worlds, here's a breakdown of the techniques behind it."
+ },
+ {
+  "name": "Ten Years Away (Studio375)",
+  "url": "https://ten.375.studio/en",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/07/08/ten-years-away-designing-an-interactive-comic-for-studio375s-tenth-anniversary/",
+  "year": 2026,
+  "category": "editorial-story",
+  "tags": [
+   "interactive-comic",
+   "gsap",
+   "scroll-choreography",
+   "react-three-fiber",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "The story behind \"Ten Years Away\", a scroll-driven interactive comic created to celebrate Studio375's tenth anniversary, from its printed origins to its WebGL implementation."
+ },
+ {
+  "name": "Stefanos Tsitsipas",
+  "url": "https://tsitsipas.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/07/01/sculpting-a-digital-athlete-capturing-stefanos-tsitsipas-beyond-the-court/",
+  "year": 2026,
+  "category": "3d-webgl",
+  "tags": [
+   "photogrammetry",
+   "blender",
+   "webgl"
+  ],
+  "notable": "Explore the complete 3D workflow behind Stefanos Tsitsipas' digital character, from photogrammetry and rigging to animation and WebGL optimization."
+ },
+ {
+  "name": "Bisous Production",
+  "url": "https://bisous-production.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/06/29/inside-bisous-designing-an-editorial-experience-for-cinematic-cgi/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "typography",
+   "interaction"
+  ],
+  "notable": "A behind-the-scenes look at how editorial composition, purposeful motion, and minimalist design create a portfolio that lets cinematic CGI take the spotlight."
+ },
+ {
+  "name": "Shopify Editions Spring '26",
+  "url": "https://www.shopify.com/editions/spring2026",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/06/26/engineering-the-web-experience-behind-shopifys-spring-26-edition-everywhere/",
+  "year": 2026,
+  "category": "event-campaign",
+  "tags": [
+   "raymarching",
+   "image-distortion",
+   "post-processing",
+   "scroll-choreography",
+   "webgl",
+   "react"
+  ],
+  "notable": "A detailed look at the rendering architecture, custom tooling, and performance techniques behind Shopify's Spring '26 Edition: Everywhere."
+ },
+ {
+  "name": "Podium",
+  "url": "https://podium.global/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/06/23/podium-building-a-website-where-running-becomes-storytelling/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "page-transitions",
+   "glsl-shaders",
+   "custom-cursor",
+   "webgl"
+  ],
+  "notable": "How we designed and built a portfolio that preserves cinematic storytelling through rhythm, motion, and restraint."
+ },
+ {
+  "name": "A Better Lou",
+  "url": "https://abetterlou.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/06/16/designing-a-better-lou-reducing-cognitive-load-through-design-content-and-systems/",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "webflow",
+   "gsap",
+   "typography"
+  ],
+  "notable": "A look at the design, content, and development decisions behind A Better Lou, a healthcare platform built to reduce complexity and improve clarity."
+ },
+ {
+  "name": "Itom Dev 3D Portfolio",
+  "url": "https://itomdev.com",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/06/11/sketching-the-impossible-a-3d-portfolio-built-without-a-single-3d-model/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "blender",
+   "react-three-fiber",
+   "infinite-scroll",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "How a complete lack of Blender skills accidentally led to an award-winning 3D universe. Here's what happens when you ignore the \"correct\" way to code and build an infinite corridor out of flat geometry."
+ },
+ {
+  "name": "Horeca Social",
+  "url": "https://www.horeca-social.com/en",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/06/10/building-horeca-advanced-motion-design-in-webflow-without-the-performance-trade-offs/",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "webflow",
+   "lenis"
+  ],
+  "notable": "An inside look at how we built Horeca's motion system in Webflow, from scroll-triggered animations and sticky layouts to performance tuning, mobile optimization, and production-ready architecture."
+ },
+ {
+  "name": "Digital Stamp Collection",
+  "url": "https://marijanapav.com/stamps",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/06/09/building-an-interactive-digital-stamp-collection-with-shaders-postcards-and-playful-inspection/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "shader-loupe",
+   "draggable",
+   "flip-animation",
+   "glsl-shaders",
+   "typography",
+   "svg"
+  ],
+  "notable": "How we turned a small archive of stamp illustrations into a tactile web experience with draggable stamps, a shader-based loupe, and a postcard feedback dialog."
+ },
+ {
+  "name": "Lesse Studio",
+  "url": "https://lessestudio.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/06/05/the-making-of-the-new-lesse-studio-website-clarity-performance-and-intentionality/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "next.js",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "What rebuilding the Lesse Studio website taught us about self-hosting, performance, and choosing tools with intention."
+ },
+ {
+  "name": "Shader.se",
+  "url": "https://shader.se",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/05/19/80s-business-tech-seamless-scene-transitions-inside-shader-ses-scroll-driven-webgpu-pipeline/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "webgpu",
+   "scene-transitions",
+   "react-three-fiber",
+   "post-processing",
+   "tsl",
+   "three.js"
+  ],
+  "notable": "How we built the scroll-driven WebGPU pipeline behind Shader.se, from selective scene rendering to seamless scene transitions using React Three Fiber."
+ },
+ {
+  "name": "Obys Agency",
+  "url": "https://obys.agency/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/05/14/designing-ourselves-the-new-obys-identity-and-website/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "typography",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "An inside look at the new Obys – from rethinking our identity to building a system where type, motion, and structure work as one, shaping a more precise and consistent experience."
+ },
+ {
+  "name": "Thibault Guignand Portfolio",
+  "url": "https://www.thibaultguignand.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/05/06/from-shader-uniforms-to-clip-path-wipes-how-gsap-drives-my-portfolio/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "css-clip-path",
+   "lenis",
+   "scroll-choreography",
+   "webgl",
+   "custom-cursor"
+  ],
+  "notable": "A look at how my portfolio came together as a technical handshake, with GSAP orchestrating everything from shader uniforms to text reveals."
+ },
+ {
+  "name": "Artem Shcherban Portfolio",
+  "url": "https://artemshcherban.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/05/02/designing-against-the-gallery-a-two-year-journey-to-a-layered-portfolio-experience/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "layered-ui",
+   "svg",
+   "interaction"
+  ],
+  "notable": "A two-year journey to create a layered, engaging portfolio beyond the traditional gallery. Stack/technique tags: layered-ui, svg, interaction."
+ },
+ {
+  "name": "Joseph San Portfolio",
+  "url": "https://joseph-san.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/04/28/more-than-a-portfolio-building-a-scroll-driven-3d-world-with-something-to-say/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "scroll-choreography",
+   "gsap",
+   "blender",
+   "sound-design",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "A scroll-driven 3D world built from scratch with Three.js, GSAP, and WebGL — where every technical decision serves a message worth sharing."
+ },
+ {
+  "name": "Susurrus",
+  "url": "https://susurrus.vercel.app/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/04/24/susurrus-crafting-a-cozy-watercolor-world-with-three-js-and-shaders/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "sound-design",
+   "post-processing",
+   "physics",
+   "audio-reactive",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "A behind-the-scenes look at blending NPR shading, sound, and interaction to shape a meditative WebGL scene. Stack/technique tags: sound-design, post-processing, physics, audio-reactive."
+ },
+ {
+  "name": "4WIDE",
+  "url": "https://4wide.jp/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/04/23/building-4wide-turning-distortion-blur-and-motion-into-a-coherent-experience/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "image-distortion",
+   "three.js"
+  ],
+  "notable": "A look at designing and building the 4WIDE website, exploring how distortion, blur, and motion were used to create an expressive experience while balancing clarity and performance."
+ },
+ {
+  "name": "False Earth",
+  "url": "https://false-earth.mingjyunhung.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/04/21/false-earth-from-webgl-limits-to-a-webgpu-driven-world/",
+  "year": 2026,
+  "category": "3d-webgl",
+  "tags": [
+   "webgpu",
+   "compute-shaders",
+   "post-processing",
+   "gpgpu",
+   "generative",
+   "glsl-shaders"
+  ],
+  "notable": "A deep dive into building an infinite procedural landscape using WebGPU and Three.js, where compute shaders and indirect drawing bring millions of interactive grass blades to life."
+ },
+ {
+  "name": "They Call Me Giulio",
+  "url": "https://www.theycallmegiulio.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/04/14/they-call-me-giulio-the-making-of-a-cinematic-cyberpunk-portfolio/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "blender",
+   "post-processing",
+   "sound-design",
+   "lenis",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "A deep dive into four cinematic scenes, exploring how film-inspired ideas evolved into a cohesive and immersive portfolio experience."
+ },
+ {
+  "name": "Exat Microsite (Hot Type)",
+  "url": "https://exat.hottype.co/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "scroll-choreography",
+   "typography",
+   "custom-cursor"
+  ],
+  "notable": "A case study on how motion, interaction, and scroll-driven design turned the Exat microsite into an expressive showcase for contemporary type."
+ },
+ {
+  "name": "Ravi Klaassens R-K '26",
+  "url": "https://www.raviklaassens.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/04/07/r-k-26-the-thinking-and-code-behind-a-portfolio-led-by-presence/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "barba.js",
+   "audio-reactive",
+   "webflow",
+   "webgl",
+   "typography"
+  ],
+  "notable": "More than a year of iteration, motion studies, and technical refinement went into shaping R—K '26 into a portfolio where identity, rhythm, and interaction work as one."
+ },
+ {
+  "name": "Maxima Therapy",
+  "url": "https://maximatherapy.com",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/04/06/building-the-maxima-therapy-website-react-gsap-and-dabbling-with-ai/",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "gsap",
+   "lottie",
+   "physics",
+   "scroll-choreography",
+   "svg",
+   "react"
+  ],
+  "notable": "A behind-the-scenes look at how we built Maxima Therapy with playful interactions, creative code, and a little AI help along the way."
+ },
+ {
+  "name": "Arnaud Rocca Portfolio",
+  "url": "https://arnaudrocca.fr/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/03/31/arnaud-roccas-portfolio-from-a-gsap-powered-motion-system-to-fluid-webgl/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "kinetic-type",
+   "gsap",
+   "scroll-choreography",
+   "image-distortion",
+   "webgl",
+   "glsl-shaders"
+  ],
+  "notable": "An exploration of how reusable GSAP animations, custom text transitions, and fluid WebGL interactions shape a distinctive portfolio experience."
+ },
+ {
+  "name": "Pell Mell",
+  "url": "https://pellmell.fr/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/03/27/pell-mell-crafting-a-visual-exploration-platform-with-editorial-rhythm/",
+  "year": 2026,
+  "category": "editorial-story",
+  "tags": [
+   "typography",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "A refined case study on how Pell Mell reimagines creative discovery through immersive scrolling, restrained interactions, editorial-inspired design, and a performance-conscious visual system."
+ },
+ {
+  "name": "San Rita",
+  "url": "https://sanrita.ca",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/03/24/digital-craft-wild-soul-building-san-ritas-topographic-web-experience/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "infinite-scroll",
+   "blender",
+   "react-three-fiber",
+   "glsl-shaders"
+  ],
+  "notable": "Designed as a digital landscape to explore, San Rita's portfolio combines 3D terrain, vintage map textures, and immersive motion with a strong sense of place."
+ },
+ {
+  "name": "Jackie Zhang Portfolio",
+  "url": "https://jackiezhang.co.za",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/03/20/jackie-zhangs-portfolio-from-chasing-references-to-finding-direction/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "flip-animation",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "How I stopped chasing references and built a portfolio that actually feels like me. Stack/technique tags: flip-animation, interaction, motion-design."
+ },
+ {
+  "name": "Jonas Reymondin Portfolio",
+  "url": "https://jonasreymondin.com",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/03/16/jonas-reymondins-portfolio-reclaiming-the-ui-eye-through-systems-code-and-pixel-motion/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "nuxt",
+   "vue",
+   "lenis",
+   "gsap",
+   "custom-cursor",
+   "webgl"
+  ],
+  "notable": "A candid journey through the challenging process of defining my narrative as a creative who cares deeply about both design and engineering."
+ },
+ {
+  "name": "Corentin Bernadou Portfolio",
+  "url": "https://corentinbernadou.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/03/05/inside-corentin-bernadous-portfolio-swiss-inspired-layouts-webgl-geometry-and-thoughtful-motion/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "page-transitions",
+   "webgl",
+   "glsl-shaders",
+   "typography"
+  ],
+  "notable": "An overview of how I redesigned my portfolio as a creative playground, blending editorial design, WebGL experiments, and thoughtful motion."
+ },
+ {
+  "name": "The Lookback (Better Off Studio)",
+  "url": "https://tlb.betteroff.studio/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/03/03/the-lookback-a-digital-capsule-for-better-off-studios-creative-past/",
+  "year": 2026,
+  "category": "editorial-story",
+  "tags": [
+   "page-transitions",
+   "infinite-scroll",
+   "gsap",
+   "custom-cursor",
+   "typography"
+  ],
+  "notable": "How we designed and built a digital capsule for Better Off® Studio to document what shaped them into who they are today."
+ },
+ {
+  "name": "threejs.paris",
+  "url": "https://threejs.paris",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/02/28/when-community-becomes-ui-building-the-website-for-the-first-three-js-conference/",
+  "year": 2026,
+  "category": "event-campaign",
+  "tags": [
+   "community-ui",
+   "physics",
+   "webgpu",
+   "tsl",
+   "three.js",
+   "typography"
+  ],
+  "notable": "How Makio64 & Hervé Studio designed threejs.paris, the website of the very first Three.js conference, to make every visitor part of the show!"
+ },
+ {
+  "name": "Telha Clarke",
+  "url": "https://telhaclarke.com.au/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/02/25/reshaping-telha-clarkes-digital-home-from-wordmark-to-motion-system/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "typography"
+  ],
+  "notable": "A behind-the-scenes look at balancing clean layouts and thoughtful motion for Telha Clarke's new identity. Stack/technique tags: gsap, scroll-choreography, typography."
+ },
+ {
+  "name": "Jason Bergh",
+  "url": "https://www.jasonbergh.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/02/20/cinematic-presence-the-directors-cut-of-the-jason-bergh-experience/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "lenis",
+   "barba.js",
+   "webflow",
+   "gsap"
+  ],
+  "notable": "This is Brooklyn grit in a darkroom palette—italicized first letters, cream-toned “film stock” whites, and UI details pulled straight from the edge of a 35mm strip."
+ },
+ {
+  "name": "Joffrey Spitzer Portfolio",
+  "url": "https://joffreyspitzer.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/02/18/joffrey-spitzer-portfolio-a-minimalist-astro-gsap-build-with-reveals-flip-transitions-and-subtle-motion/",
+  "year": 2026,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "page-transitions",
+   "astro",
+   "flip-animation",
+   "three.js",
+   "typography"
+  ],
+  "notable": "Building a minimalist, smooth portfolio with Astro + GSAP: reveals, page transitions and subtle animations, crafted with restraint and precision."
+ },
+ {
+  "name": "1820 Productions",
+  "url": "https://1820productions.com",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/02/13/1820-productions-minimal-design-maximal-motion/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "page-transitions",
+   "webflow",
+   "lenis",
+   "custom-cursor",
+   "svg"
+  ],
+  "notable": "A detailed behind-the-build on turning a strict minimal brief into a high-end experience through rhythm, transitions, and micro-interactions."
+ },
+ {
+  "name": "Naked City Films",
+  "url": "https://www.nakedcityfilms.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/01/19/naked-city-films-designing-and-building-a-website-that-refuses-to-stand-still/",
+  "year": 2026,
+  "category": "studio-agency",
+  "tags": [
+   "page-transitions",
+   "nuxt",
+   "three.js",
+   "glsl-shaders"
+  ],
+  "notable": "A behind-the-scenes look at how restraint, rhythm, and custom technical systems shaped a website that behaves with the same confidence and control as the films it represents."
+ },
+ {
+  "name": "Flim",
+  "url": "https://flim.ai/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/01/14/a-site-for-sore-eyes-combining-gsap-and-webflow-to-showcase-flim/",
+  "year": 2026,
+  "category": "product-brand",
+  "tags": [
+   "gsap",
+   "physics",
+   "lottie",
+   "scroll-choreography",
+   "custom-cursor"
+  ],
+  "notable": "A deep dive into how Flim was built, breaking down the animations, interactions, and technical decisions behind a GSAP-powered Webflow experience."
+ },
+ {
+  "name": "Obys' Design Books",
+  "url": "https://library.obys.agency/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/01/12/obys-design-books-turning-a-reading-list-into-a-tactile-web-library/",
+  "year": 2026,
+  "category": "editorial-story",
+  "tags": [
+   "gsap",
+   "typography",
+   "interaction"
+  ],
+  "notable": "A case study on how Obys turned book recommendations into a tactile, animated web library. Stack/technique tags: gsap, typography, interaction."
+ },
+ {
+  "name": "The Spark",
+  "url": "https://spark.thedigitalpanda.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2026/01/09/the-spark-engineering-an-immersive-story-first-web-experience/",
+  "year": 2026,
+  "category": "editorial-story",
+  "tags": [
+   "webflow",
+   "scroll-choreography",
+   "webgl"
+  ],
+  "notable": "An in-depth look at how The Spark was imagined, designed, and engineered as a cinematic, scroll-driven web experience that brings story, motion, sound, and performance together in the browser."
+ },
+ {
+  "name": "Frequency Breathwork",
+  "url": "https://frequencybreathwork.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/12/29/frequency-breathwork-translating-the-invisible-rhythm-of-breath-into-digital-form/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "webgl",
+   "typography",
+   "interaction"
+  ],
+  "notable": "An exploration of how concept, motion, sound, and code came together to create a website that doesn't just present breathwork, but embodies it."
+ },
+ {
+  "name": "Noe Inoi 8-bit Portfolio",
+  "url": "https://noeinoi.com",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/12/23/building-a-nostalgic-8-bit-universe-with-modern-tech-a-vibe-coding-journey/",
+  "year": 2025,
+  "category": "game-like",
+  "tags": [
+   "image-distortion",
+   "gsap",
+   "scroll-choreography",
+   "dithering",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "A nostalgic 8-bit portfolio experiment built with modern AI workflows and performance-first web tech. Stack/technique tags: image-distortion, gsap, scroll-choreography, dithering."
+ },
+ {
+  "name": "Spain Collection",
+  "url": "https://spaincollection.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/12/18/spain-collection-evolving-a-luxury-website-into-a-digital-ecosystem/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "blender",
+   "typography",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "An in-depth look at the evolution of Spain Collection's first website into a more ambitious digital ecosystem, connecting strategy, design, and technology across Spain and Portugal."
+ },
+ {
+  "name": "UntilLabs",
+  "url": "https://www.untillabs.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/12/10/simulating-life-in-the-browser-creating-a-living-particle-system-for-the-untillabs-website/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "particles",
+   "post-processing",
+   "physics",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Learn how a real photograph was transformed into a living, physics-driven particle system using WebGL, shaders, and data-driven motion for the UntilLabs homepage."
+ },
+ {
+  "name": "Nature Beyond Tech",
+  "url": "https://nature-beyond.tech/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/12/04/crafting-nature-beyond-technology-a-project-from-roots-to-leaves/",
+  "year": 2025,
+  "category": "3d-webgl",
+  "tags": [
+   "particles",
+   "post-processing",
+   "scroll-choreography",
+   "webgl",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "A deep dive into how a nature-inspired concept evolved into a polished WebGL experience blending design, animation, and technology."
+ },
+ {
+  "name": "Olha Lazarieva Portfolio",
+  "url": "https://olhalazarieva.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/12/02/two-portfolios-one-process-where-design-motion-and-code-come-together/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "pixi.js",
+   "scroll-choreography",
+   "blender",
+   "typography"
+  ],
+  "notable": "An exploration of how design and development come together to transform ideas into motion, shaping two portfolio websites through animation and creative coding."
+ },
+ {
+  "name": "The Monolith Project",
+  "url": "https://themonolithproject.net/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/11/29/building-the-monolith-composable-rendering-systems-for-a-13-scene-webgl-epic/",
+  "year": 2025,
+  "category": "3d-webgl",
+  "tags": [
+   "scene-composition",
+   "particles",
+   "react-three-fiber",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "An exploration of how composable materials, particles, and transitions were engineered to bring The Monolith Project's stylized universe to life."
+ },
+ {
+  "name": "Raymond Templier",
+  "url": "https://templier.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/11/28/the-geometry-of-movement-a-shopify-powered-digital-tribute-to-raymond-templiers-modernist-vision/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "gsap",
+   "page-transitions",
+   "interaction"
+  ],
+  "notable": "How a custom Shopify experience reimagines Templier's modernist legacy through motion and refined digital design."
+ },
+ {
+  "name": "Roman Jeanelie Portfolio",
+  "url": "https://www.romanjeanelie.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/11/27/letting-the-creative-process-shape-a-webgl-portfolio/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "react-three-fiber",
+   "image-distortion",
+   "svg",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Exploring how experimenting with Three.js, React Three Fiber, and GSAP shaped the final experience. Stack/technique tags: gsap, react-three-fiber, image-distortion, svg."
+ },
+ {
+  "name": "INK Games",
+  "url": "https://www.inkgames.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/11/21/one-canvas-to-rule-them-all-how-ink-games-new-site-handles-complex-3d/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "react-three-fiber",
+   "gsap",
+   "scroll-choreography",
+   "next.js",
+   "webgl",
+   "custom-cursor"
+  ],
+  "notable": "A look at how ToyFight® crafted a bold new site for INK Games, a global leader in mobile gaming, through layered 3D, scroll-driven animation, and a single shared WebGL canvas."
+ },
+ {
+  "name": "KAI Design Dept",
+  "url": "https://www.kai-group.com/global/design/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/11/20/behind-the-kai-design-dept-experience-webgl-line-blur-video-scrubbing-and-3d-animation/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "video-scrubbing",
+   "blender",
+   "webgl"
+  ],
+  "notable": "A look at the technical insights behind the KAI Design Dept. site, covering WebGL line DoF, video scrubbing, and Blender integration."
+ },
+ {
+  "name": "Windsurf x Metalab",
+  "url": "https://windsurf.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/11/17/windsurf-x-metalab-building-a-new-brand-for-the-future-of-ai-coding/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "typography",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "How Metalab partnered with Windsurf to build a brand that led to a $2.4 billion deal with Google and Cognition."
+ },
+ {
+  "name": "Blood Sugar Battler",
+  "url": "https://bloodsugarbattler.app/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/11/12/blood-sugar-battler-building-a-real-game-as-a-designer-using-ai/",
+  "year": 2025,
+  "category": "game-like",
+  "tags": [
+   "sound-design",
+   "physics",
+   "gamified",
+   "typography",
+   "custom-cursor"
+  ],
+  "notable": "A look behind Alex's design-first diabetes education game, built by hand-crafted pixel art and powered by an AI that mostly knew what it was doing."
+ },
+ {
+  "name": "FUTURE THREE",
+  "url": "https://www.futurethree.studio/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/10/23/a-studio-reborn-future-three-and-the-art-of-self-redesign/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "css-clip-path",
+   "page-transitions",
+   "lottie"
+  ],
+  "notable": "How FUTURE THREE® reimagined their brand, team, and digital presence to reflect who they've become. Stack/technique tags: gsap, css-clip-path, page-transitions, lottie."
+ },
+ {
+  "name": "Weisdevice",
+  "url": "https://www.weisdevice.xyz/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/10/22/weisdevice-crafting-a-glitched-out-world-between-2d-3d-and-sound/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "2d-3d-audio",
+   "glitch",
+   "blender",
+   "gsap",
+   "audio-reactive",
+   "sound-design"
+  ],
+  "notable": "Behind the scenes of a 2D-3D-audio experiment that turns creative chaos into digital art. Stack/technique tags: 2d-3d-audio, glitch, blender, gsap."
+ },
+ {
+  "name": "Forged.build",
+  "url": "https://forged.build/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/10/20/from-garage-to-browser-forged-build-and-the-webgpu-revolution/",
+  "year": 2025,
+  "category": "3d-webgl",
+  "tags": [
+   "webgpu",
+   "blender",
+   "post-processing",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Forged.build reimagines what a studio website can be, turning it from a static showcase into a living, explorable world powered by WebGPU."
+ },
+ {
+  "name": "OPTIKKA",
+  "url": "https://optikka.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/10/16/creating-smooth-scroll-synchronized-animation-for-optikka-from-html5-video-to-frame-sequences/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "scroll-choreography",
+   "video-scrubbing",
+   "gsap"
+  ],
+  "notable": "Learn how Zajno built OPTIKKA's smooth scroll-synced animation using frame sequences instead of HTML5 video for better control and performance."
+ },
+ {
+  "name": "Eloy Benoffi Portfolio",
+  "url": "https://eloyb.design/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/10/15/from-blank-canvas-to-mayhem-eloy-benoffis-brutalist-glitchy-portfolio-built-with-webflow-and-gsap/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "ascii",
+   "glitch",
+   "gsap",
+   "scroll-choreography",
+   "webflow",
+   "svg"
+  ],
+  "notable": "Crafting an unapologetically glitchy web experience that fuses brutalist structure, maximalist energy, ASCII art, and a bold motion design."
+ },
+ {
+  "name": "Clay Boan Portfolio",
+  "url": "https://www.clayboan.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/10/14/the-underdogs-crown-clay-boans-3d-playground-of-design-motion-and-gsap-magic/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "vue",
+   "scroll-choreography",
+   "nuxt",
+   "webgl",
+   "svg"
+  ],
+  "notable": "A collaborative case study exploring how 3D, WebGL, and GSAP animation converge in Clay Boan's portfolio to shape a deeply personal and dynamic digital experience."
+ },
+ {
+  "name": "NITEX",
+  "url": "https://nitex.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/10/10/nitex-building-a-brand-and-digital-platform-for-fashions-new-supply-chain/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "gsap",
+   "typography",
+   "interaction"
+  ],
+  "notable": "Behind the scenes of creating a scalable brand system and digital platform that transforms how fashion moves from concept to delivery."
+ },
+ {
+  "name": "Ponpon Mania",
+  "url": "https://ponpon-mania.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/10/07/ponpon-mania-how-webgl-and-gsap-bring-a-comic-sheeps-dream-to-life/",
+  "year": 2025,
+  "category": "editorial-story",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "motion-design",
+   "kinetic-type",
+   "webgl",
+   "glsl-shaders"
+  ],
+  "notable": "This article takes you behind the scenes of Ponpon Mania, exploring how illustration, animation, WebGL, and GSAP came together to create an interactive comic experience."
+ },
+ {
+  "name": "Martin Laxenaire Portfolio 2025",
+  "url": "https://www.martin-laxenaire.fr/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/10/06/self-doubt-and-the-quest-for-fun-how-i-ended-up-turning-my-portfolio-into-a-game/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "gamified",
+   "webgpu",
+   "particles",
+   "curtains.js",
+   "gpgpu",
+   "glsl-shaders"
+  ],
+  "notable": "From early design experimentations to radical UX decisions: a deep dive into the creative and technical process of my 2025 portfolio."
+ },
+ {
+  "name": "Daiki Fujita Portfolio 2025",
+  "url": "https://da-san333.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/09/30/abstract-feelings-concrete-forms-daiki-fujita-portfolio-2025/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "particles",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "In this case study, Tokyo-based designer Daiki Fujita shares the background and process of creating his digital portfolio."
+ },
+ {
+  "name": "Lax Space",
+  "url": "https://www.laxspace.co/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/09/23/lax-space-designing-with-duct-tape-and-everyday-chaos/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "Lax Chee invites us behind the scenes of his experimental portfolio, where duct tape, design, and code transform everyday chaos into playful digital experiences."
+ },
+ {
+  "name": "LO2S",
+  "url": "https://snp.agency/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/09/19/lo2s-x-snp-dashdigital-designing-a-website-full-of-movement-and-energy/",
+  "year": 2025,
+  "category": "event-campaign",
+  "tags": [
+   "ogl",
+   "image-distortion",
+   "glsl-shaders"
+  ],
+  "notable": "The teams at SNP and DashDigital share how they brought the LO2S website to life with motion, interactivity and a focus on performance."
+ },
+ {
+  "name": "Mike van der Sanden Portfolio",
+  "url": "https://mikevandersanden.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/09/17/the-making-of-a-personal-project-platform-a-portfolio-that-grew-out-of-process-and-play/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "p5.js",
+   "nuxt",
+   "three.js"
+  ],
+  "notable": "Mike van der Sanden invites us backstage to see how his portfolio evolved into a living archive of projects and resources."
+ },
+ {
+  "name": "Jitter",
+  "url": "https://jitter.video/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/09/02/a-behind-the-scenes-look-at-the-new-jitter-website/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "motion-design",
+   "gsap",
+   "interaction"
+  ],
+  "notable": "How Jitter reimagined its website to highlight collaboration, creativity, and motion design at scale. Stack/technique tags: motion-design, gsap, interaction."
+ },
+ {
+  "name": "Christian Fleming (print, web and 3D)",
+  "url": "https://tympanus.net/codrops/2025/08/14/setting-the-stage-inside-the-process-of-bringing-christian-flemings-work-to-life-in-print-web-and-3d/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/08/14/setting-the-stage-inside-the-process-of-bringing-christian-flemings-work-to-life-in-print-web-and-3d/",
+  "year": 2025,
+  "category": "editorial-story",
+  "tags": [
+   "image-distortion",
+   "post-processing",
+   "motion-design",
+   "react",
+   "glsl-shaders"
+  ],
+  "notable": "A detailed, behind-the-scenes look at how theatrical design, visual storytelling, and creative collaboration shaped this multi-format project."
+ },
+ {
+  "name": "Aether 1",
+  "url": "https://www.aether1.ai/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/08/06/building-aether-1-sound-without-boundaries/",
+  "year": 2025,
+  "category": "3d-webgl",
+  "tags": [
+   "fluid-simulation",
+   "particles",
+   "lenis",
+   "post-processing",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "A case study on Aether 1, where 3D, sound, and WebGL merge into an unbounded experience. Stack/technique tags: fluid-simulation, particles, lenis, post-processing."
+ },
+ {
+  "name": "Eduard Bodak Portfolio",
+  "url": "https://www.eduardbodak.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/07/29/built-to-move-a-closer-look-at-the-animations-behind-eduard-bodaks-portfolio/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "interaction"
+  ],
+  "notable": "A hands-on walkthrough from Eduard Bodak on crafting scroll-driven and interactive animations for his portfolio."
+ },
+ {
+  "name": "Reform Collective",
+  "url": "https://www.reformcollective.com",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/07/24/reform-collective-a-new-website-designed-to-be-seen/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "react-three-fiber",
+   "three.js"
+  ],
+  "notable": "Reform Collective's new site strips away the noise in favor of clarity, performance, and structure—with the tech lead detailing how AI, GSAP, and CSS hacks brought it to life."
+ },
+ {
+  "name": "21 TSI",
+  "url": "https://21tsi.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/07/21/beyond-the-corporate-mold-how-21-tsi-sets-the-future-of-sports-in-motion/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "motion-design",
+   "webgl",
+   "typography"
+  ],
+  "notable": "Exploring how 21 TSI's website breaks convention through motion and minimalism. Stack/technique tags: motion-design, webgl, typography."
+ },
+ {
+  "name": "Meet Your Legend",
+  "url": "https://meetyourlegend.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/07/17/designing-momentum-the-story-behind-meet-your-legend/",
+  "year": 2025,
+  "category": "event-campaign",
+  "tags": [
+   "typography",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "An inside look at how movement in design, storytelling and technology shaped a platform to inspire the next generation of creatives."
+ },
+ {
+  "name": "Hello Robo",
+  "url": "https://hellorobo.co/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/07/14/hello-robos-rebrand-distilling-complex-tech-into-interfaces-anyone-can-use/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "interaction",
+   "motion-design",
+   "web-experience"
+  ],
+  "notable": "How Hello Robo reimagined its brand and website to speak the language of AI, robotics, and deep-tech clients. Stack/technique tags: interaction, motion-design, web-experience."
+ },
+ {
+  "name": "Bloom Paris TV",
+  "url": "https://bloomparis.tv/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/07/08/bloom-paris-tv-where-refined-art-direction-meets-world-class-production/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "post-processing",
+   "page-transitions",
+   "typography"
+  ],
+  "notable": "A behind-the-scenes exploration of how creative ambition and modern tech defined a standout digital presence for one of Paris's most forward-thinking production companies."
+ },
+ {
+  "name": "Phantom.land",
+  "url": "https://www.phantom.land/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/06/30/invisible-forces-the-making-of-phantom-lands-interactive-grid-and-3d-face-particle-system/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "image-distortion",
+   "particles",
+   "gsap",
+   "react-three-fiber",
+   "glsl-shaders",
+   "custom-cursor"
+  ],
+  "notable": "Inside Phantom.land's dynamic grid and volumetric face scans, crafted with React Three Fiber, GLSL shaders, and GSAP."
+ },
+ {
+  "name": "TrueKind",
+  "url": "https://truekindskincare.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/06/25/designing-truekind-a-skincare-brands-journey-through-moodboards-motion-and-meaning/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "gsap",
+   "nuxt",
+   "page-transitions",
+   "motion-design",
+   "typography",
+   "svg"
+  ],
+  "notable": "From aesthetic restraint to GSAP magic, this case study reveals what happens when trust meets thoughtful execution."
+ },
+ {
+  "name": "KODE Immersive",
+  "url": "https://kodeimmersive.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/06/16/inside-the-frontier-of-ai-webxr-real-time-3d-crafting-kode-immersive/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "webxr",
+   "physics",
+   "webgl",
+   "custom-cursor",
+   "typography"
+  ],
+  "notable": "A behind-the-scenes look at how bold vision and emerging tech shaped a boundary-pushing digital experience. Stack/technique tags: webxr, physics, webgl, custom-cursor."
+ },
+ {
+  "name": "DICH Fashion",
+  "url": "https://dich-fashion.webflow.io/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/06/02/dich-fashion-a-new-era-of-futuristic-fashion/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "webflow",
+   "gsap",
+   "spline",
+   "image-distortion",
+   "custom-cursor",
+   "typography"
+  ],
+  "notable": "How a creative course challenge became a full digital fashion experience, built with Webflow, GSAP, Spline, and a focus on motion and detail. DICH™ is our visual manifesto in code."
+ },
+ {
+  "name": "35mm Website",
+  "url": "https://35mm-one.vercel.app/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/05/30/deconstructing-the-35mm-website-a-look-at-the-process-and-technical-details/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "depth-maps",
+   "post-processing",
+   "physics",
+   "scroll-choreography",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "A closer look at the main components of the 35mm site and the core concepts and techniques behind how it was built."
+ },
+ {
+  "name": "OXI Instruments ONE MKII",
+  "url": "https://oxiinstruments.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/05/29/no-visuals-no-time-no-problem-launching-oxi-instruments-one-mkii-in-2-weeks/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "webflow",
+   "typography",
+   "interaction"
+  ],
+  "notable": "Built in two weeks from minimal assets, the OXI ONE MKII site used structure, type, and hustle to deliver a sharp launch right on time."
+ },
+ {
+  "name": "Aurel's Grand Theater",
+  "url": "https://aurelienvigne.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/05/20/behind-the-curtain-building-aurels-grand-theater-from-design-to-code/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "physics",
+   "gsap",
+   "vue",
+   "scroll-choreography",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Step inside Aurel's Grand Theater, an unconventional creative portfolio crafted with Three.js, Vue.js, GSAP, and Blender, bursting with animations and thoughtful details."
+ },
+ {
+  "name": "Arts Corporation",
+  "url": "https://www.artscorporation.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/04/22/designing-for-flow-not-frustration-the-transformation-of-arts-corporation/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "scroll-choreography",
+   "gsap",
+   "interaction"
+  ],
+  "notable": "Exploring how refined animations and interactive design reshaped Arts Corporation's website, enhancing user experience and creative expression."
+ },
+ {
+  "name": "24/7 Artists Launch Page",
+  "url": "https://247artists.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/04/16/case-study-24-7-artists/",
+  "year": 2025,
+  "category": "event-campaign",
+  "tags": [
+   "gsap",
+   "motion-design",
+   "interaction"
+  ],
+  "notable": "A closer look at how Waaark designed and built the launch page for 24/7 Artists' latest product. Stack/technique tags: gsap, motion-design, interaction."
+ },
+ {
+  "name": "Nite Riot",
+  "url": "https://www.nite-riot.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/04/15/nite-riot-minimalism-gets-a-wild-side/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "barba.js",
+   "webflow",
+   "lenis"
+  ],
+  "notable": "When a client like Nite Riot walks through the (digital) door, you don't play it safe. You go all in. Stack/technique tags: gsap, barba.js, webflow, lenis."
+ },
+ {
+  "name": "Ciel Rose",
+  "url": "https://cielrose.tv/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/04/07/case-study-ciel-rose/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "page-transitions",
+   "webgl",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Explore how storytelling and subtle design come together in a filmmaker duo's portfolio. Stack/technique tags: page-transitions, webgl, glsl-shaders, three.js."
+ },
+ {
+  "name": "Warhol Arts",
+  "url": "https://warhol-arts.webflow.io/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/04/01/warhol-arts-a-digital-playground-of-pop-pixels-and-pure-motion/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "pop-art",
+   "gsap",
+   "webflow",
+   "scroll-choreography",
+   "kinetic-type",
+   "custom-cursor"
+  ],
+  "notable": "A deep dive into the code, craft, and chaos behind a pop-art-inspired digital experience powered by GSAP and Webflow."
+ },
+ {
+  "name": "Troa '25 Folio",
+  "url": "https://www.troa.fr/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/03/28/case-study-troa-25-folio/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "page-transitions",
+   "barba.js",
+   "typography"
+  ],
+  "notable": "A look at how Troa reimagined their portfolio — focusing on performance, sustainability, and a clean, thoughtful design."
+ },
+ {
+  "name": "Green Stack (Zajno)",
+  "url": "https://greenstack.zajno.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/03/26/design-in-motion-the-animation-principles-behind-green-stack/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "webflow",
+   "gsap",
+   "css-clip-path",
+   "custom-cursor",
+   "typography"
+  ],
+  "notable": "A concept-to-site journey in Webflow, shaped by design, dev, and bold animation principles. Stack/technique tags: webflow, gsap, css-clip-path, custom-cursor."
+ },
+ {
+  "name": "Stas Bondar Portfolio 2025",
+  "url": "https://stabondar.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/03/25/stas-bondar-25-the-code-techniques-behind-a-next-level-portfolio/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "dithering",
+   "physics",
+   "scroll-choreography",
+   "three.js",
+   "glsl-shaders"
+  ],
+  "notable": "A look behind stabondar.com — a creative portfolio featuring advanced web animations with GSAP, Three.js, and physics-based effects."
+ },
+ {
+  "name": "Motoyoshi Takamitsu",
+  "url": "https://photoyoshi.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/03/17/case-study-motoyoshi-takamitsu/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "infinite-scroll",
+   "three.js",
+   "interaction"
+  ],
+  "notable": "An exploration of the design and development of photographer Motoyoshi Takamitsu's portfolio website. Stack/technique tags: infinite-scroll, three.js, interaction."
+ },
+ {
+  "name": "Fiddle.Digital",
+  "url": "https://fiddle.digital/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/03/12/case-study-fiddle-digital-design-agency-the-new-us/",
+  "year": 2025,
+  "category": "studio-agency",
+  "tags": [
+   "custom-cursor",
+   "webgl",
+   "interaction"
+  ],
+  "notable": "This case study tells the story of how a small rebranding idea sparked a revolution within the agency. Stack/technique tags: custom-cursor, webgl, interaction."
+ },
+ {
+  "name": "Stefan Vitasovic Portfolio 2025",
+  "url": "https://stefanvitasovic.dev/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/03/05/case-study-stefan-vitasovic-portfolio-2025/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "page-transitions",
+   "infinite-scroll",
+   "webgl",
+   "typography",
+   "glsl-shaders"
+  ],
+  "notable": "An article behind the process of Stefan's 2025 creative dev portfolio — a minimalist design, dynamic visuals and shader effects."
+ },
+ {
+  "name": "Gianluca Gradogna Portfolio '25",
+  "url": "https://gianlucagradogna.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/01/30/case-study-gianluca-gradogna-portfolio-25/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "infinite-scroll",
+   "typography",
+   "interaction"
+  ],
+  "notable": "This case study unveils the journey of creating a personal portfolio, highlighting the creative collaboration between Gianluca Gradogna and Gabriel Norman in bringing the project to life."
+ },
+ {
+  "name": "Merouane Bali 3D Portfolio",
+  "url": "https://merodev.net/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/01/21/the-journey-of-creating-a-3d-portfolio/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "blender",
+   "webgl",
+   "three.js",
+   "react"
+  ],
+  "notable": "Merouane Bali shares the process behind his 3D web design, highlighting WebGL and React integration, along with the challenges and solutions that shaped this immersive portfolio."
+ },
+ {
+  "name": "Gentle Rain",
+  "url": "https://tympanus.net/codrops/2025/01/16/case-study-gentle-rain/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/01/16/case-study-gentle-rain/",
+  "year": 2025,
+  "category": "product-brand",
+  "tags": [
+   "webflow",
+   "fluid-simulation",
+   "webgl"
+  ],
+  "notable": "This case study explores how retro aesthetics and modern innovation came together to create a unique and inspiring learning experience. (Live site no longer resolves as of Nov 2026; the Codrops write-up is the reference.)"
+ },
+ {
+  "name": "Dondre Green",
+  "url": "https://www.dondregreen.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/01/07/case-study-dondre-green/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "image-distortion",
+   "scroll-choreography",
+   "page-transitions",
+   "typography",
+   "webgl"
+  ],
+  "notable": "This case study explores how The Blackpepper Studio meticulously designed and developed a digital portfolio that captures the artistic vision of Dondre Green, a New York-based Art Director and Photographer known for his innovative, narrative-driven, and storytelling work."
+ },
+ {
+  "name": "Travel Next Level",
+  "url": "https://tympanus.net/codrops/2024/12/26/case-study-travel-next-level/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/12/26/case-study-travel-next-level/",
+  "year": 2024,
+  "category": "product-brand",
+  "tags": [
+   "webflow",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "An exploration of how design innovation, technical creativity, and user-focused functionality came together to create a unique platform that embodies the spirit of travel and discovery. (Live site no longer resolves as of Nov 2026; the Codrops write-up is the reference.)"
+ },
+ {
+  "name": "Isabel Moranta Portfolio 2024",
+  "url": "https://www.isabelmoranta.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/12/05/case-study-isabel-moranta-portfolio-2024/",
+  "year": 2024,
+  "category": "portfolio-person",
+  "tags": [
+   "webgl",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "This case study captures the journey of crafting a personal portfolio—an exploration of bold design, creative freedom, and the beauty of designing for oneself. Inspired by literature, music, and a desire for true expression, the project merges art, subtle animations, and meaningful interactions."
+ },
+ {
+  "name": "Nod Coding Bootcamp",
+  "url": "https://nodcoding.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/11/26/case-study-nod-coding-bootcamp/",
+  "year": 2024,
+  "category": "product-brand",
+  "tags": [
+   "gsap",
+   "lottie",
+   "physics",
+   "motion-design",
+   "svg",
+   "typography"
+  ],
+  "notable": "Follow Waaark behind the scenes of Nod Coding Bootcamp's new website transformation and discover how we turned a lacklustre site into a memorable experience."
+ },
+ {
+  "name": "ChainGPT Labs",
+  "url": "https://labs.chaingpt.org/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/11/19/case-study-chaingpt-labs/",
+  "year": 2024,
+  "category": "product-brand",
+  "tags": [
+   "gsap",
+   "webflow",
+   "flip-animation",
+   "page-transitions",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "A look behind the ChainGPT Labs, ChainGPT's new venture capital and incubator for the next generation of web3 startups. Designed by Sigma Software Design team, and compiled into an insight-packed case study by Sigma's designer, Ilya Kostin."
+ },
+ {
+  "name": "Anderson Moss",
+  "url": "https://andersonmoss.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/11/11/case-study-anderson-moss-%ef%b8%8f/",
+  "year": 2024,
+  "category": "studio-agency",
+  "tags": [
+   "blender",
+   "three.js",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Discover how Anderson Moss redefined its brand with an award-winning website that blends artful design with innovative tech."
+ },
+ {
+  "name": "Monolith Studio",
+  "url": "https://monolithstudio.com",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/10/22/case-study-monolith-studio/",
+  "year": 2024,
+  "category": "studio-agency",
+  "tags": [
+   "interaction",
+   "motion-design",
+   "web-experience"
+  ],
+  "notable": "Go behind the scenes of Monolith Studio's bold website, crafted in collaboration with Artemii Lebedev, Okan Uckun, and Oscar Akermo, to discover how they brought a modern Brooklyn tattoo studio to life online."
+ },
+ {
+  "name": "Duten 2024",
+  "url": "https://www.duten.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/10/17/case-study-dutens-2024-website/",
+  "year": 2024,
+  "category": "studio-agency",
+  "tags": [
+   "particles",
+   "svg",
+   "interaction"
+  ],
+  "notable": "Explore the dynamic collaboration between designer Sébastien Salord and the talented team at Incredibles Development Studio as they join forces to take Duten's digital presence to the next level."
+ },
+ {
+  "name": "Treize Grammes 2024",
+  "url": "https://www.13g.fr/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/10/10/case-study-treize-grammes-2024/",
+  "year": 2024,
+  "category": "studio-agency",
+  "tags": [
+   "webflow",
+   "motion-design",
+   "gsap"
+  ],
+  "notable": "Learn about the challenges and creative solutions that shaped Treize Grammes' bold rebrand and interactive design."
+ },
+ {
+  "name": "Federico Pian Portfolio 2024",
+  "url": "https://www.federicopian.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/10/02/case-study-federico-pian-portfolio-2024/",
+  "year": 2024,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "nuxt",
+   "page-transitions",
+   "kinetic-type",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Learn how Federico Pian built his 2024 portfolio using Nuxt, GSAP, and TresJs, with insights into design inspiration, animation techniques, and seamless page transitions."
+ },
+ {
+  "name": "Mount Media",
+  "url": "https://www.mount-media.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/09/10/case-study-mount-media/",
+  "year": 2024,
+  "category": "studio-agency",
+  "tags": [
+   "interaction",
+   "motion-design",
+   "web-experience"
+  ],
+  "notable": "During Mount Media's rebranding journey, its website became the ultimate stage for showcasing its \"we know how to result\" vibe. Here is a long story short about teamwork behind it."
+ },
+ {
+  "name": "Armur (Alexandra Murgu)",
+  "url": "https://www.armur.co",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/08/29/case-study-armur-alexandra-murgu-portfolio/",
+  "year": 2024,
+  "category": "portfolio-person",
+  "tags": [
+   "webflow",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "Behind the scenes of one of Artemii Lebedev's projects: Armur, a portfolio website for the film industry, created for Alexandra Murgu."
+ },
+ {
+  "name": "Design Education Series (Obys)",
+  "url": "https://des.obys.agency/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/08/21/case-study-design-education-series/",
+  "year": 2024,
+  "category": "editorial-story",
+  "tags": [
+   "physics",
+   "image-distortion",
+   "gsap",
+   "typography",
+   "three.js"
+  ],
+  "notable": "Explore how the Design Education Series (DES) by Obys Agency was developed to provide a dynamic and engaging learning experience with innovative design and 3D features."
+ },
+ {
+  "name": "Rogier de Boeve Portfolio 2024",
+  "url": "https://rogierdeboeve.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/07/26/case-study-rogier-de-boeve-portfolio-2024/",
+  "year": 2024,
+  "category": "portfolio-person",
+  "tags": [
+   "sound-design",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Insights into the creative process and technical details behind the portfolio of Rogier de Boevé, a Belgium-based creative developer and digital designer."
+ },
+ {
+  "name": "ToyFight 2024",
+  "url": "https://toyfight.co/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/06/11/case-study-toyfight-2024/",
+  "year": 2024,
+  "category": "studio-agency",
+  "tags": [
+   "gsap",
+   "react-three-fiber",
+   "next.js",
+   "webgl"
+  ],
+  "notable": "A snapshot of how the new ToyFight site was designed and developed. Stack/technique tags: gsap, react-three-fiber, next.js, webgl."
+ },
+ {
+  "name": "Oscar Pico Portfolio 2024",
+  "url": "https://www.oscarpico.es/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/06/04/case-study-oscar-pico-portfolio-2024/",
+  "year": 2024,
+  "category": "portfolio-person",
+  "tags": [
+   "nuxt",
+   "vue",
+   "lenis",
+   "webgl",
+   "custom-cursor",
+   "typography"
+  ],
+  "notable": "An exploration of the collaborative creative process between Oscar Pico and Nam Hai during the design and development phases."
+ },
+ {
+  "name": "Vendredi Society",
+  "url": "https://vendredi-society.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/05/14/case-study-vendredi-society/",
+  "year": 2024,
+  "category": "studio-agency",
+  "tags": [
+   "motion-design",
+   "gsap",
+   "physics",
+   "kinetic-type",
+   "typography"
+  ],
+  "notable": "Being visible is just no longer enough. It's all about leveraging attention. And then moving forward together. Synced."
+ },
+ {
+  "name": "Gabriel Contassot Portfolio 2024",
+  "url": "https://gabrielcontassot.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/04/24/case-study-gabriel-contassots-portfolio-2024/",
+  "year": 2024,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "astro",
+   "lenis",
+   "page-transitions",
+   "webgl"
+  ],
+  "notable": "A look into the making of Gabriel's 2024 portfolio website, complementing minimal design choices with subtle animations."
+ },
+ {
+  "name": "84-24",
+  "url": "https://84-24.org",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/04/08/case-study-84-24/",
+  "year": 2024,
+  "category": "event-campaign",
+  "tags": [
+   "gsap",
+   "blender",
+   "scroll-choreography",
+   "three.js",
+   "webgl",
+   "svg"
+  ],
+  "notable": "A look into the making of 84—24. The tale of restoring an '80s timeless classic. Stack/technique tags: gsap, blender, scroll-choreography, three.js."
+ },
+ {
+  "name": "Design Embraced Portfolio 2024",
+  "url": "https://designembraced.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/03/21/case-study-design-embraced-portfolio-2024/",
+  "year": 2024,
+  "category": "portfolio-person",
+  "tags": [
+   "page-transitions",
+   "flip-animation",
+   "next.js",
+   "gsap",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "A look behind the code and collaboration of the new portfolio for Anthony Goodwin at Design Embraced. Stack/technique tags: page-transitions, flip-animation, next.js, gsap."
+ },
+ {
+  "name": "Ronin161 Portfolio 2024",
+  "url": "https://www.ronin161.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2024/02/20/case-study-ronin161s-portfolio-2024/",
+  "year": 2024,
+  "category": "portfolio-person",
+  "tags": [
+   "post-processing",
+   "fluid-simulation",
+   "kinetic-type",
+   "glsl-shaders",
+   "webgl",
+   "custom-cursor"
+  ],
+  "notable": "A look into the making of Ronin161's new portfolio for 2024, from ideas to code. Plus an in-depth explanation about the custom Toon Shader."
+ },
+ {
+  "name": "Sophie Studio",
+  "url": "https://sophie.studio/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2023/05/10/case-study-sophie-studio/",
+  "year": 2023,
+  "category": "studio-agency",
+  "tags": [
+   "typography",
+   "interaction",
+   "motion-design"
+  ],
+  "notable": "With a gaming interface as its core concept, Sophie Studio's website design showcases its values, purpose, and expertise in a fun and engaging way."
+ },
+ {
+  "name": "Studiogusto",
+  "url": "https://www.studiogusto.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2023/04/25/case-study-studiogusto/",
+  "year": 2023,
+  "category": "studio-agency",
+  "tags": [
+   "react-three-fiber",
+   "next.js",
+   "page-transitions",
+   "gsap",
+   "webgl"
+  ],
+  "notable": "As a dynamic agency, we recognize the importance of constantly innovating to stay ahead of the curve. With this in mind,"
+ },
+ {
+  "name": "Crosswire",
+  "url": "http://crosswire.unseen.co/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2023/04/04/case-study-crosswire/",
+  "year": 2023,
+  "category": "3d-webgl",
+  "tags": [
+   "blender",
+   "webgl",
+   "three.js",
+   "glsl-shaders"
+  ],
+  "notable": "Take a look behind the scenes of the creation of a unique website for Crosswire that used a 3D environment made with WebGL to simplify their complex service offering."
+ },
+ {
+  "name": "Windland",
+  "url": "https://windland-neotix.vercel.app/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2022/04/25/case-study-windland-an-immersive-three-js-experience/",
+  "year": 2022,
+  "category": "3d-webgl",
+  "tags": [
+   "blender",
+   "post-processing",
+   "motion-design",
+   "three.js",
+   "gamified",
+   "glsl-shaders"
+  ],
+  "notable": "In this article we'll look at the creation of a mini-city full of post effects and micro-interactions using Three.js. Vi"
+ },
+ {
+  "name": "Anatole Touvron Portfolio",
+  "url": "https://anatoletouvron.fr",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2022/01/14/case-study-anatole-touvrons-portfolio/",
+  "year": 2022,
+  "category": "portfolio-person",
+  "tags": [
+   "ogl",
+   "post-processing",
+   "webgl",
+   "glsl-shaders"
+  ],
+  "notable": "Like many developers, I've decided to redo my portfolio in the summer of 2021. I wanted to do everything from scratch, i"
+ },
+ {
+  "name": "Basement Grotesque",
+  "url": "https://www.typescriptlang.org/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2021/12/13/case-study-a-unique-website-for-basement-grotesque/",
+  "year": 2021,
+  "category": "product-brand",
+  "tags": [
+   "physics",
+   "typography",
+   "interaction"
+  ],
+  "notable": "Basement Grotesque is one of basement studio's first self-initiated projects. We wanted to create a typeface tailored to"
+ },
+ {
+  "name": "itsnotviolent.com",
+  "url": "https://itsnotviolent.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2020/01/21/case-study-itsnotviolent-com/",
+  "year": 2020,
+  "category": "event-campaign",
+  "tags": [
+   "lottie",
+   "vue",
+   "interaction"
+  ],
+  "notable": "SOS Violence Conjugale is an organization that helps victims of violence with the goal of improving their safety. Their"
+ },
+ {
+  "name": "Akaru 2019",
+  "url": "https://www.akaru.fr/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2019/12/30/case-study-akaru-2019/",
+  "year": 2019,
+  "category": "studio-agency",
+  "tags": [
+   "image-distortion",
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "In 2019, a new version of our Akaru studio website has been released. After long discussions between developers and desi"
+ },
+ {
+  "name": "Bruno Arizio Portfolio (case study page)",
+  "url": "https://tympanus.net/codrops/2019/12/18/case-study-portfolio-of-bruno-arizio/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2019/12/18/case-study-portfolio-of-bruno-arizio/",
+  "year": 2019,
+  "category": "portfolio-person",
+  "tags": [
+   "image-distortion",
+   "infinite-scroll",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Introduction Bruno Arizio, Designer — @brunoarizio Since I first became aware of the energy in this community, I felt th"
+ },
+ {
+  "name": "Chang Liu Portfolio V4",
+  "url": "https://changliu.io",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2019/10/16/case-study-chang-liu-portfolio-v4/",
+  "year": 2019,
+  "category": "portfolio-person",
+  "tags": [
+   "image-distortion",
+   "gsap",
+   "three.js",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Recently, I rehauled my personal website in 3D using Three.js. In this post, I'll run through my design process and outl"
+ },
+ {
+  "name": "Max Milkin Portfolio",
+  "url": "https://maxmilkin.com/",
+  "source": "Codrops case study",
+  "source_url": "https://tympanus.net/codrops/2025/12/02/two-portfolios-one-process-where-design-motion-and-code-come-together/",
+  "year": 2025,
+  "category": "portfolio-person",
+  "tags": [
+   "gsap",
+   "motion-design",
+   "creative-coding"
+  ],
+  "notable": "Second portfolio covered in 'Two Portfolios, One Process': how design and development turn ideas into motion through animation and creative coding."
+ },
+ {
+  "name": "Building an Infinite Loom: Unravelling Images into Threads with Three.js",
+  "url": "https://tympanus.net/Development/Unwoven/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/09/05/building-an-infinite-loom-unravelling-images-into-threads-with-three-js/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "three.js",
+   "glsl-shaders",
+   "interaction"
+  ],
+  "notable": "An experimental Three.js demo that transforms images into flowing ribbons, weaving them together and unraveling them as they move across the screen."
+ },
+ {
+  "name": "Beyond the Luminance Ramp: A Shape-Aware ASCII Renderer in Three.js",
+  "url": "https://tympanus.net/Tutorials/ASCIILogo/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "ascii",
+   "draggable",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "The Codrops mark, rebuilt as a draggable solid and printed in ASCII on the GPU, where every character cell searches 95 glyphs for its own."
+ },
+ {
+  "name": "Breaking the Frame: Building a Real-Time Datamosh Effect with Three.js",
+  "url": "https://tympanus.net/Tutorials/Datamosh/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/09/02/breaking-the-frame-building-a-real-time-datamosh-effect-with-three-js/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "image-distortion",
+   "post-processing",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "A hands-on exploration of how Three.js, shaders, and codec-inspired techniques can turn a scene transition into a convincing real-time datamosh effect."
+ },
+ {
+  "name": "Building a Mouse-Following Square Lens Effect with Three.js and GLSL",
+  "url": "https://tympanus.net/Tutorials/PointerSquareLensDistortion",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/08/25/building-a-mouse-following-square-lens-effect-with-three-js-and-glsl/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "A step-by-step tutorial on using Three.js and GLSL to create a mouse-following square lens effect with image distortion, RGB shifting, and animated shader effects."
+ },
+ {
+  "name": "Relighting Images with Depth Maps and Three.js",
+  "url": "https://tympanus.net/Tutorials/RelightingImages",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/08/19/relighting-images-with-depth-maps-and-three-js/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "three.js",
+   "interaction"
+  ],
+  "notable": "Explore how depth maps, TSL, and WebGPU can be combined to turn flat 2D images into dynamic surfaces with realistic lighting, surface detail, and self-shadowing."
+ },
+ {
+  "name": "Creating an Interactive 3D Cluster with Three.js, TSL and Three Start",
+  "url": "https://tympanus.net/Tutorials/3DCluster/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/08/12/creating-an-interactive-3d-cluster-with-three-js-tsl-and-three-start/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "webgpu",
+   "gsap",
+   "tsl",
+   "dithering",
+   "three.js",
+   "svg"
+  ],
+  "notable": "A step-by-step tutorial on turning a simple icosahedron into a dynamic, interactive 3D cluster using Three.js, TSL, WebGPU, noise, interaction, and post-processing."
+ },
+ {
+  "name": "Exploring Procedural Geometry with Three.js and WebGPU",
+  "url": "https://tympanus.net/Tutorials/GeometryPainterThreeJS",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/08/11/exploring-procedural-geometry-with-three-js-and-webgpu/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "post-processing",
+   "webgpu",
+   "tsl",
+   "generative",
+   "three.js",
+   "glsl-shaders"
+  ],
+  "notable": "A deep dive into building a flexible Three.js Geometry Painter with WebGPU and TSL, from surface picking and procedural geometry to live controls, custom shaders, lighting, and post-processing."
+ },
+ {
+  "name": "Building an Endless Interactive Glass Xylophone with Three.js",
+  "url": "https://tympanus.net/Tutorials/Xylophone/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/08/04/building-an-endless-interactive-glass-xylophone-with-three-js/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "fluid-simulation",
+   "post-processing",
+   "three.js",
+   "glsl-shaders",
+   "custom-cursor"
+  ],
+  "notable": "A scrolling helix of frosted glass bars that ring as you sweep across them, built in Three.js with instancing, a fluid simulation, and glass faked entirely in the shader."
+ },
+ {
+  "name": "Building an Infinite GSAP Scroll Gallery with Parallax and Flip Transitions",
+  "url": "https://tympanus.net/Tutorials/InfiniteScrollGSAPGallery/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/07/30/building-an-infinite-gsap-scroll-gallery-with-parallax-and-flip-transitions/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "flip-animation",
+   "infinite-scroll",
+   "kinetic-type"
+  ],
+  "notable": "Learn how to build an infinite GSAP gallery with parallax scrolling, reveal animations, and Flip-powered fullscreen transitions."
+ },
+ {
+  "name": "Building a Scroll-Driven 3D Gallery Using a Blender Camera Path with Three.js and GSAP",
+  "url": "https://tympanus.net/Tutorials/CurveGallery/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/07/07/building-a-scroll-driven-3d-gallery-using-a-blender-camera-path-with-three-js-and-gsap/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "blender",
+   "3d-scroll",
+   "scroll-choreography",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Build a cinematic, scroll-driven 3D gallery using a camera path authored in Blender, rendered with Three.js, and animated with GSAP."
+ },
+ {
+  "name": "Creating a Thumbnail Flow Animation with GSAP MotionPath",
+  "url": "https://tympanus.net/Tutorials/MotionPathTransition/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/06/04/creating-a-thumbnail-flow-animation-with-gsap-motionpath/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "interaction",
+   "css"
+  ],
+  "notable": "A creative exploration of GSAP MotionPath, where stacked thumbnails unfold into a flowing image strip through curved trajectories."
+ },
+ {
+  "name": "The Never Ending Story: Building a Seamless Infinite Scroll Experience with GSAP & Lenis",
+  "url": "https://tympanus.net/Tutorials/InfiniteScrollParallax/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/05/28/the-never-ending-story-building-a-seamless-infinite-scroll-experience-with-gsap-lenis/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "lenis",
+   "gsap",
+   "scroll-choreography",
+   "infinite-scroll"
+  ],
+  "notable": "Most pages end when you stop scrolling. This one doesn't. Learn how to build a seamless infinite scroll with a layered parallax depth effect."
+ },
+ {
+  "name": "Creating Scroll-Driven SVG Map Animations with GSAP",
+  "url": "https://tympanus.net/Tutorials/ScrollMap/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/05/21/creating-scroll-driven-svg-map-animations-with-gsap/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "svg"
+  ],
+  "notable": "A hands-on tutorial showing how to create lightweight, cinematic scroll-driven SVG map animations with GSAP using path drawing, motion tracking, and camera-like zoom effects—without relying on third-party map APIs."
+ },
+ {
+  "name": "Animating 160,000 Cubes in Three.js to Visualize Dithering",
+  "url": "https://tympanus.net/Tutorials/VisualizingDitheringThreejs/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/04/01/animating-160000-cubes-in-three-js-to-visualize-dithering/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "dithering",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "A step-by-step breakdown of how I built a Three.js visual explainer on dithering by animating 160,000 cubes with custom shaders."
+ },
+ {
+  "name": "Building a Dual-Scene Fluid X-Ray Reveal Effect in Three.js",
+  "url": "https://tympanus.net/Tutorials/SkeletonFluidReveal/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/03/23/building-a-dual-scene-fluid-x-ray-reveal-effect-in-three-js/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "post-processing",
+   "fluid-simulation",
+   "tsl",
+   "webgpu",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Learn how to use Three.js to blend two scenes with a fluid simulation, creating a smooth, dynamic reveal effect."
+ },
+ {
+  "name": "SVG Mask Transitions on Scroll with GSAP and ScrollTrigger",
+  "url": "https://tympanus.net/Tutorials/SVGMaskScrollTransition/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/03/11/svg-mask-transitions-on-scroll-with-gsap-and-scrolltrigger/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "image-distortion",
+   "svg"
+  ],
+  "notable": "In this tutorial, we'll create four scroll-driven transitions that reveal fullscreen images using SVG masks, GSAP, and grid- and blind-based patterns."
+ },
+ {
+  "name": "Building a Scroll-Reactive 3D Gallery with Three.js, Velocity, and Mood-Based Backgrounds",
+  "url": "https://tympanus.net/Tutorials/DepthGallery/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/03/09/building-a-scroll-reactive-3d-gallery-with-three-js-velocity-and-mood-based-backgrounds/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "A tutorial on building a scroll-driven WebGL gallery in Three.js with depth-layered images, palette-driven backgrounds, and motion that responds to scroll velocity."
+ },
+ {
+  "name": "Sticky Grid Scroll: Building a Scroll-Driven Animated Grid",
+  "url": "https://tympanus.net/Tutorials/StickyGridScroll/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/03/02/sticky-grid-scroll-building-a-scroll-driven-animated-grid/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "lenis"
+  ],
+  "notable": "Learn how to build a structured scroll-driven image grid where movement unfolds progressively within a sticky layout."
+ },
+ {
+  "name": "Creating a Smooth Horizontal Parallax Gallery: From DOM to WebGL",
+  "url": "https://tympanus.net/Tutorials/HorizontalParallaxGallery/index2.html",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/02/19/creating-a-smooth-horizontal-parallax-gallery-from-dom-to-webgl/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "draggable",
+   "image-distortion",
+   "webgl",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Build a smooth horizontal parallax gallery in DOM/CSS/JS, then upgrade it to GPU-powered WebGL (Three.js) with shaders."
+ },
+ {
+  "name": "Reactive Depth: Building a Scroll-Driven 3D Image Tube with React Three Fiber",
+  "url": "https://tympanus.net/Tutorials/3DImageTubeR3F/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/02/17/reactive-depth-building-a-scroll-driven-3d-image-tube-with-react-three-fiber/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "scroll-choreography",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Build a scroll-driven, infinitely looping 3D image tube in React Three Fiber powered by shaders, inertia, and a unified motion system."
+ },
+ {
+  "name": "Building an Endless Procedural Snake with Three.js and WebGL",
+  "url": "https://tympanus.net/Tutorials/WebGLSnakeAnimation/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/02/10/building-an-endless-procedural-snake-with-three-js-and-webgl/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "generative",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "A deep dive into building a GPU-enhanced procedural curve system in Three.js, where organic motion emerges from simple steering rules and endless Bézier paths."
+ },
+ {
+  "name": "WebGPU Gommage Effect: Dissolving MSDF Text into Dust and Petals with Three.js & TSL",
+  "url": "https://tympanus.net/Tutorials/WebGPUGommage",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/01/28/webgpu-gommage-effect-dissolving-msdf-text-into-dust-and-petals-with-three-js-tsl/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "particles",
+   "kinetic-type",
+   "webgpu",
+   "tsl",
+   "three.js",
+   "glsl-shaders"
+  ],
+  "notable": "Build a Three.js WebGPU scene where MSDF text dissolves with a noise-driven TSL shader while synchronized dust and spinning petal particles burst out, finished with selective bloom using MRT."
+ },
+ {
+  "name": "Animating Responsive Grid Layout Transitions with GSAP Flip",
+  "url": "https://tympanus.net/Tutorials/GridLayoutTransitions/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/01/20/animating-responsive-grid-layout-transitions-with-gsap-flip/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "flip-animation",
+   "gsap",
+   "interaction"
+  ],
+  "notable": "We'll explore how to use GSAP's Flip plugin to animate dynamic grid layout changes, showing how grid items can resize and rearrange fluidly."
+ },
+ {
+  "name": "Building a Scroll-Driven Dual-Wave Text Animation with GSAP",
+  "url": "https://tympanus.net/Tutorials/DualWaveTextAnimation/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/01/15/building-a-scroll-driven-dual-wave-text-animation-with-gsap/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "scroll-choreography",
+   "gsap",
+   "lenis"
+  ],
+  "notable": "Learn how to create smooth, opposing wave text animations across dual columns with scroll-driven sine wave mathematics and synchronized image updates."
+ },
+ {
+  "name": "Infinite Canvas: Building a Seamless, Pan-Anywhere Image Space",
+  "url": "https://tympanus.net/Tutorials/InfiniteCanvas/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/01/07/infinite-canvas-building-a-seamless-pan-anywhere-image-space/",
+  "year": 2026,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Learn how to build an infinite, pannable image canvas with React Three Fiber. We'll use chunk-based rendering and performance-first techniques to create a smooth, endlessly explorable image space."
+ },
+ {
+  "name": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
+  "url": "https://tympanus.net/Tutorials/PixelVoxelDrop",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2026/01/05/how-to-create-a-pixel-to-voxel-video-drop-effect-with-three-js-and-rapier/",
+  "year": 2026,
+  "category": "experimental-art",
+  "tags": [
+   "physics",
+   "gsap",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "A concise tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier."
+ },
+ {
+  "name": "Creating Wavy Infinite Carousels in React Three Fiber with GLSL Shaders",
+  "url": "https://tympanus.net/Tutorials/R3FExperimentalCarousels",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/11/26/creating-wavy-infinite-carousels-in-react-three-fiber-with-glsl-shaders/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "react-three-fiber",
+   "lenis",
+   "glsl-shaders"
+  ],
+  "notable": "Experimenting with infinitely scrolling, wavy 3D carousels in React Three Fiber with smooth scroll-driven distortion effects."
+ },
+ {
+  "name": "Building a 3D Infinite Carousel with Reactive Background Gradients",
+  "url": "https://tympanus.net/Tutorials/3DGradientCarousel/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/11/11/building-a-3d-infinite-carousel-with-reactive-background-gradients/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "draggable",
+   "interaction",
+   "css"
+  ],
+  "notable": "Learn how to build a smooth, infinite 3D carousel where each image drives a reactive, canvas-based background gradient that adapts to its colors."
+ },
+ {
+  "name": "Creating 3D Scroll-Driven Text Animations with CSS and GSAP",
+  "url": "https://tympanus.net/Tutorials/3DTextScroll/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/11/04/creating-3d-scroll-driven-text-animations-with-css-and-gsap/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "scroll-choreography",
+   "gsap",
+   "typography"
+  ],
+  "notable": "A step-by-step guide to building high-performance 3D scroll effects with GSAP, ScrollTrigger, and CSS transform math."
+ },
+ {
+  "name": "Building a Layered Zoom Scroll Effect with GSAP ScrollSmoother and ScrollTrigger",
+  "url": "https://tympanus.net/Tutorials/TelescopeZoom/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/10/29/building-a-layered-zoom-scroll-effect-with-gsap-scrollsmoother-and-scrolltrigger/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "scroll-choreography",
+   "gsap",
+   "kinetic-type"
+  ],
+  "notable": "Learn how to recreate Telescope's smooth, layered zoom scroll animation using GSAP's ScrollSmoother and ScrollTrigger plugins to achieve a cinematic, depth-filled scrolling experience."
+ },
+ {
+  "name": "How to Animate WebGL Shaders with GSAP: Ripples, Reveals, and Dynamic Blur Effects",
+  "url": "https://tympanus.net/Tutorials/ShaderAnimationGSAP/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/10/08/how-to-animate-webgl-shaders-with-gsap-ripples-reveals-and-dynamic-blur-effects/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "draggable",
+   "image-distortion",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "A hands-on guide to animating WebGL shaders with GSAP, exploring how to control shader uniforms and sync JavaScript timelines."
+ },
+ {
+  "name": "Recreating Palmer's Draggable Product Grid with GSAP",
+  "url": "https://tympanus.net/Tutorials/PalmerDraggableGrid/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/09/01/recreating-palmers-draggable-product-grid-with-gsap/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "draggable",
+   "kinetic-type",
+   "flip-animation"
+  ],
+  "notable": "Learn how to use GSAP and its plugins to recreate a refined grid animation."
+ },
+ {
+  "name": "Exporting a Cloth Simulation from Blender to an Interactive Three.js Scene",
+  "url": "https://tympanus.net/Tutorials/BalloonButton",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/08/20/exporting-a-cloth-simulation-from-blender-to-an-interactive-three-js-scene/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "physics",
+   "blender",
+   "react-three-fiber",
+   "three.js",
+   "custom-cursor"
+  ],
+  "notable": "This tutorial walks through creating an interactive animation: starting in Blender by designing a button and simulating"
+ },
+ {
+  "name": "Interactive WebGL Backgrounds: A Quick Guide to Bayer Dithering",
+  "url": "https://tympanus.net/Tutorials/BayerDithering",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/07/30/interactive-webgl-backgrounds-a-quick-guide-to-bayer-dithering/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "dithering",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Discover how to create a subtle, interactive WebGL background with Bayer dithering in this quick tutorial."
+ },
+ {
+  "name": "Interactive Text Destruction with Three.js, WebGPU, and TSL",
+  "url": "https://tympanus.net/Tutorials/InteractiveTextDestruction/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/07/22/interactive-text-destruction-with-three-js-webgpu-and-tsl/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "tsl",
+   "post-processing",
+   "webgpu",
+   "three.js",
+   "glsl-shaders",
+   "typography"
+  ],
+  "notable": "Learn how to create an interactive 3D text effect where letters explode into dynamic shapes using Three.js, WebGPU, and Three Shader Language (TSL)."
+ },
+ {
+  "name": "How To Create Kinetic Image Animations with React Three Fiber",
+  "url": "https://tympanus.net/Tutorials/KineticImages",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/07/09/how-to-create-kinetic-image-animations-with-react-three-fiber/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "kinetic-type",
+   "webgl",
+   "glsl-shaders"
+  ],
+  "notable": "Bring static visuals to life with rotating textures, 3D geometry, and smooth motion powered by React Three Fiber."
+ },
+ {
+  "name": "Building an Infinite Parallax Grid with GSAP and Seamless Tiling",
+  "url": "https://tympanus.net/Tutorials/InfiniteLayersGrid",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/06/11/building-an-infinite-parallax-grid-with-gsap-and-seamless-tiling/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "kinetic-type",
+   "infinite-scroll"
+  ],
+  "notable": "Learn how to create a responsive, infinitely scrolling image grid with parallax motion and staggered text animations using GSAP."
+ },
+ {
+  "name": "How to Create Interactive, Droplet-like Metaballs with Three.js and GLSL",
+  "url": "https://tympanus.net/Tutorials/InteractiveBubbleMetaballs",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/06/09/how-to-create-interactive-droplet-like-metaballs-with-three-js-and-glsl/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "sdf",
+   "post-processing",
+   "image-distortion",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "In this tutorial, we'll walk you through how to create bubble-like spheres using Three.js and GLSL—an effect that responds interactively to your mouse movements."
+ },
+ {
+  "name": "How to Create Responsive and SEO-friendly WebGL Text",
+  "url": "https://tympanus.net/Tutorials/AccessibleWebGLText",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/06/05/how-to-create-responsive-and-seo-friendly-webgl-text/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "post-processing",
+   "lenis",
+   "image-distortion",
+   "scroll-choreography",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Learn how to combine responsive HTML text with WebGL rendering, enabling scroll-driven animations and custom shader effects."
+ },
+ {
+  "name": "Building a Real-Time Dithering Shader",
+  "url": "https://tympanus.net/Development/DitheringShader",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/06/04/building-a-real-time-dithering-shader/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "dithering",
+   "post-processing",
+   "react-three-fiber",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "A minimal, real-time WebGL shader that applies ordered dithering and optional pixelation as a composable postprocessing effect."
+ },
+ {
+  "name": "Elastic Grid Scroll: Creating Lag-Based Layout Animations with GSAP ScrollSmoother",
+  "url": "https://tympanus.net/Tutorials/ElasticGridScroll/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/06/03/elastic-grid-scroll-creating-lag-based-layout-animations-with-gsap-scrollsmoother/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "scroll-choreography",
+   "gsap",
+   "interaction"
+  ],
+  "notable": "A scroll effect where each column of a grid moves at a slightly different speed, creating a soft, elastic feel as you scroll."
+ },
+ {
+  "name": "Animated Product Grid Preview with GSAP & Clip-Path",
+  "url": "https://tympanus.net/Tutorials/GridToFullPreview",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/05/27/animated-product-grid-preview-with-gsap-clip-path/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "css-clip-path",
+   "gsap",
+   "interaction"
+  ],
+  "notable": "Learn how to transform a simple product grid into an interactive, animated preview experience using GSAP in this hands-on tutorial."
+ },
+ {
+  "name": "Matrix Sentinels: Building Dynamic Particle Trails with TSL",
+  "url": "https://tympanus.net/Tutorials/MatrixSentinels",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/05/05/matrix-sentinels-building-dynamic-particle-trails-with-tsl/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "particles",
+   "tsl",
+   "gpgpu",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "A step-by-step guide to creating particle trails with TSL (Three.js Shader Language), simulating dynamic movement in 3D space."
+ },
+ {
+  "name": "Building a Fully-Featured 3D World in the Browser with Blender and Three.js",
+  "url": "https://tympanus.net/Tutorials/CodropsFanMuseum",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/04/08/3d-world-in-the-browser-with-blender-and-three-js/",
+  "year": 2025,
+  "category": "3d-webgl",
+  "tags": [
+   "blender",
+   "react-three-fiber",
+   "flip-animation",
+   "three.js",
+   "svg"
+  ],
+  "notable": "Go behind the scenes of an immersive 3D museum built with Blender and Three.js, and explore the creative process, technical decisions, and browser-ready workflow that brought it to life."
+ },
+ {
+  "name": "WebGPU Scanning Effect with Depth Maps",
+  "url": "https://tympanus.net/Development/ScanEffect",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/03/31/webgpu-scanning-effect-with-depth-maps/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "webgpu",
+   "tsl",
+   "image-distortion",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "An exploration of a scanning effect using depth maps, custom shaders, and WebGPU rendering."
+ },
+ {
+  "name": "Animating Letters with Shaders: Interactive Text Effect with Three.js & GLSL",
+  "url": "https://tympanus.net/Tutorials/AnimatedLettersShader",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/03/24/animating-letters-with-shaders-interactive-text-effect-with-three-js-glsl/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "A beginner-friendly tutorial that explores how to create a dynamic text displacement effect using Three.js and custom shaders."
+ },
+ {
+  "name": "Building an Interactive Image Grid with Three.js",
+  "url": "https://tympanus.net/Tutorials/InteractiveImageGrid",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/03/18/building-an-interactive-image-grid-with-three-js/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "In this tutorial, we'll walk through creating a dynamic interactive image grid with Three.js, covering everything from grid setup and card initialization to advanced animations and shader effects."
+ },
+ {
+  "name": "Playing with Light and Refraction in Three.js: Warping 3D Text Inside a Glass Torus",
+  "url": "https://tympanus.net/Tutorials/TransmissionMaterial/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/03/13/warping-3d-text-inside-a-glass-torus/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "blender",
+   "react-three-fiber",
+   "three.js",
+   "glsl-shaders"
+  ],
+  "notable": "Explore how MeshTransmissionMaterial in Three.js bends light, creates refraction effects, and enhances realistic glass-like materials."
+ },
+ {
+  "name": "Rendering a Procedural Vortex Inside a Glass Sphere with Three.js and TSL",
+  "url": "https://tympanus.net/Tutorials/VortexGlassSphere",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/03/10/rendering-a-procedural-vortex-inside-a-glass-sphere-with-three-js-and-tsl/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "particles",
+   "image-distortion",
+   "generative",
+   "tsl",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "A step-by-step guide to creating a procedural vortex inside a glass sphere using Three.js Shader Language (TSL)."
+ },
+ {
+  "name": "Creating Stylized Water Effects with React Three Fiber",
+  "url": "https://tympanus.net/Tutorials/StylizedWater/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/03/04/creating-stylized-water-effects-with-react-three-fiber/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "blender",
+   "glsl-shaders"
+  ],
+  "notable": "Learn how to craft smooth, cartoon-style water effects with dynamic movement, optimized for performance, using React Three Fiber."
+ },
+ {
+  "name": "Implementing a Dissolve Effect with Shaders and Particles in Three.js",
+  "url": "https://tympanus.net/Tutorials/EmissiveDissolveEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/02/17/implementing-a-dissolve-effect-with-shaders-and-particles-in-three-js/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "particles",
+   "post-processing",
+   "dithering",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Learn how to create an emissive dissolve effect, a popular technique in games for smoothly fading or transforming objects."
+ },
+ {
+  "name": "Building a Playful Stop-Motion Crayon Cursor in p5.js",
+  "url": "https://tympanus.net/Tutorials/StopMotionCrayonCursor/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/02/06/building-a-playful-stop-motion-crayon-cursor-in-p5-js/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "p5.js",
+   "spline",
+   "custom-cursor"
+  ],
+  "notable": "Create a playful stop-motion crayon cursor effect with p5.brush.js and smooth animations."
+ },
+ {
+  "name": "Building an On-Scroll 3D Circle Text Animation with Three.js and Shaders",
+  "url": "https://tympanus.net/Tutorials/3DTextCircleScroll/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/02/03/building-an-on-scroll-3d-circle-text-animation-with-three-js-and-shaders/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "kinetic-type",
+   "image-distortion",
+   "gsap",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Learn how to create a circular text animation in 3D space using Three.js, shaders, and msdf-text-utils."
+ },
+ {
+  "name": "WebGL Shader Techniques for Dynamic Image Transitions",
+  "url": "https://tympanus.net/Tutorials/ShaderImageReveal",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/01/22/webgl-shader-techniques-for-dynamic-image-transitions/",
+  "year": 2025,
+  "category": "demo-technique",
+  "tags": [
+   "glsl-shaders",
+   "webgl",
+   "interaction"
+  ],
+  "notable": "Learn how to create dynamic image transitions with WebGL shaders, exploring techniques like circle SDFs, noise patterns, smooth merging, and texture integration."
+ },
+ {
+  "name": "Creating a Generative Artwork with Three.js",
+  "url": "https://tympanus.net/Tutorials/GenerativeArtworkThreejs",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2025/01/15/creating-generative-artwork-with-three-js/",
+  "year": 2025,
+  "category": "experimental-art",
+  "tags": [
+   "react-three-fiber",
+   "generative",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Learn how to create dynamic, generative artwork using Three.js, inspired by Lygia Clark's minimalist geometric designs, with a grid system and creative coding techniques."
+ },
+ {
+  "name": "Crafting a Dreamy Particle Effect with Three.js and GPGPU",
+  "url": "https://tympanus.net/Tutorials/DreamyParticles",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/12/19/crafting-a-dreamy-particle-effect-with-three-js-and-gpgpu/",
+  "year": 2024,
+  "category": "experimental-art",
+  "tags": [
+   "gpgpu",
+   "particles",
+   "post-processing",
+   "glsl-shaders",
+   "custom-cursor",
+   "three.js"
+  ],
+  "notable": "Learn how to create an interactive particle effect using Three.js, GPGPU, and shaders."
+ },
+ {
+  "name": "Creating the Morphing Effect of the Luma Dream Machine Website",
+  "url": "https://tympanus.net/Tutorials/MorphingEffectCanvas2D/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/12/09/creating-the-morphing-effect-of-the-luma-dream-machine-website/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "canvas-2d",
+   "interaction",
+   "css"
+  ],
+  "notable": "Learn how to create this powerful morphing effect with only JavaScript using the Canvas2D API."
+ },
+ {
+  "name": "How to Create a WebGL Rotating Image Gallery using OGL and GLSL Shaders",
+  "url": "https://tympanus.net/Tutorials/RotatingSlideshow/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/12/03/how-to-create-a-webgl-rotating-image-gallery-using-ogl-and-glsl-shaders/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "ogl",
+   "infinite-scroll",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Learn how to create a progressive image rotation effect using WebGL, OGL, and GLSL shaders."
+ },
+ {
+  "name": "How to Code a Shader Based Reveal Effect with React Three Fiber & GLSL",
+  "url": "https://tympanus.net/Tutorials/R3FImageReveal/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/12/02/how-to-code-a-shader-based-reveal-effect-with-react-three-fiber-glsl/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "A simple yet cool image reveal effect created with React-Three-Fiber/Drei and animated using Framer Motion."
+ },
+ {
+  "name": "Creating Dynamic Terrain Deformation with React Three Fiber",
+  "url": "https://tympanus.net/Tutorials/DynamicTerrainDeformation",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/11/27/creating-dynamic-terrain-deformation-with-react-three-fiber/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "react-three-fiber",
+   "interaction"
+  ],
+  "notable": "An exploration of real-time terrain reshaping through user interactions, using React Three Fiber."
+ },
+ {
+  "name": "From Product to Cart: Adding Guiding Animations to the Shopping Experience",
+  "url": "https://tympanus.net/Tutorials/ShoppingCartAnimation",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/11/21/from-product-to-cart-adding-guiding-animations-to-the-shopping-experience/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "interaction",
+   "css"
+  ],
+  "notable": "An in-depth tutorial on how to create an engaging animation where items move from the product gallery to the shopping cart."
+ },
+ {
+  "name": "How to Create a Gooey Search Interaction with Framer Motion and React",
+  "url": "https://tympanus.net/Tutorials/GooeySearch",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/11/18/how-to-create-a-gooey-search-interaction-with-framer-motion-and-react/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "svg",
+   "react",
+   "interaction"
+  ],
+  "notable": "A ready-to-use search bar made with Framer Motion, featuring an interesting gooey effect."
+ },
+ {
+  "name": "Creating an ASCII Shader Using OGL",
+  "url": "https://tympanus.net/Tutorials/ascii-shader-ogl",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/11/13/creating-an-ascii-shader-using-ogl/",
+  "year": 2024,
+  "category": "experimental-art",
+  "tags": [
+   "ascii",
+   "ogl",
+   "generative",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Explore the world of shaders with this easy-to-follow guide to creating a custom ASCII art animation using WebGL, Perlin noise, and GLSL."
+ },
+ {
+  "name": "How to Create an Organic Text Distortion Effect with Infinite Scrolling",
+  "url": "https://tympanus.net/Tutorials/OrganicTextDistortion",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/11/06/how-to-create-an-organic-text-distortion-effect-with-infinite-scrolling/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "kinetic-type",
+   "image-distortion",
+   "infinite-scroll",
+   "typography"
+  ],
+  "notable": "Learn how to create an organic distortion effect for text using JavaScript and CSS for a unique, fluid animation."
+ },
+ {
+  "name": "Creating a 3D Hand Controller Using a Webcam with MediaPipe and Three.js",
+  "url": "https://tympanus.net/Tutorials/webcam-3D-handcontrols",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/10/24/creating-a-3d-hand-controller-using-a-webcam-with-mediapipe-and-three-js/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "mediapipe",
+   "webcam",
+   "three.js",
+   "webgl",
+   "custom-cursor"
+  ],
+  "notable": "Learn how to create a full 3D hand controller with depth, using @mediapipe/hands and Three.js."
+ },
+ {
+  "name": "How to Create a PS1-Inspired Jitter Shader with React-Three-Fiber",
+  "url": "https://tympanus.net/Tutorials/ps1-jitter-shader",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/09/03/how-to-create-a-ps1-inspired-jitter-shader-with-react-three-fiber/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "glsl-shaders",
+   "interaction"
+  ],
+  "notable": "Learn how to create a custom Jitter Shader in React-Three-Fiber, inspired by the visual style of PS1-era games, to add a retro aesthetic to 3D models."
+ },
+ {
+  "name": "Grid Displacement Texture with RGB Shift using Three.js GPGPU and Shaders",
+  "url": "https://tympanus.net/Development/GridDistortionEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/08/27/grid-displacement-texture-with-rgb-shift-using-three-js-gpgpu-and-shaders/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "gpgpu",
+   "image-distortion",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Learn how to apply a pixels/grid displacement to a texture in Three.js using shaders and GPGPU with a subtle RGB shift effect on cursor move."
+ },
+ {
+  "name": "Interactive 3D Device Showcase with Threepipe",
+  "url": "https://tympanus.net/Tutorials/DeviceShowcase",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/08/07/interactive-3d-device-showcase-with-threepipe/",
+  "year": 2024,
+  "category": "tool-library",
+  "tags": [
+   "post-processing",
+   "three.js",
+   "svg"
+  ],
+  "notable": "Build a minimal 3D web application to showcase designs on a laptop and phone in an interactive environment using Three.js and threepipe."
+ },
+ {
+  "name": "Origami: 12 Free Animated 3D Objects",
+  "url": "https://tympanus.net/Development/Origami",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/07/30/origami-12-free-animated-3d-objects/",
+  "year": 2024,
+  "category": "tool-library",
+  "tags": [
+   "react-three-fiber",
+   "gsap",
+   "interaction"
+  ],
+  "notable": "A set of twelve free 3D animations created with React Three Fiber and GSAP."
+ },
+ {
+  "name": "How to Create Distortion and Grain Effects on Scroll with Shaders in Three.js",
+  "url": "https://tympanus.net/Tutorials/ShaderOnScroll",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/07/18/how-to-create-distortion-and-grain-effects-on-scroll-with-shaders-in-three-js/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "nuxt",
+   "glsl-shaders",
+   "custom-cursor",
+   "webgl"
+  ],
+  "notable": "Learn how to create distortion and grain effects on scroll using Three.js shaders, syncing HTML images with WebGL."
+ },
+ {
+  "name": "How to Create a Liquid Raymarching Scene Using Three.js Shading Language",
+  "url": "https://tympanus.net/Tutorials/LiquidRaymarching/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/07/15/how-to-create-a-liquid-raymarching-scene-using-three-js-shading-language/",
+  "year": 2024,
+  "category": "experimental-art",
+  "tags": [
+   "raymarching",
+   "webgpu",
+   "react-three-fiber",
+   "tsl",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "An introduction to Raymarching using the power of Signed Distance Fields (SDFs) and simple lighting to create a liquid shape effect."
+ },
+ {
+  "name": "Creating an Animated Displaced Sphere with a Custom Three.js Material",
+  "url": "https://tympanus.net/Tutorials/DistortedSphereCustomMaterial",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/07/09/creating-an-animated-displaced-sphere-with-a-custom-three-js-material/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "react-three-fiber",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Learn how to create an animated, displaced sphere using custom shaders with Three.js and React Three Fiber."
+ },
+ {
+  "name": "Progressive Blur Effect using WebGL with OGL and GLSL Shaders",
+  "url": "https://tympanus.net/Tutorials/WebGLProgressiveBlur/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/07/02/progressive-blur-effect-using-webgl-with-ogl-and-glsl-shaders/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "ogl",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Learn how to create an interesting progressive blur effect using WebGL, OGL, and GLSL shaders."
+ },
+ {
+  "name": "Digital meets Physical: Risograph Printing with WebGL",
+  "url": "https://tympanus.net/Tutorials/RisoPrinting",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/06/27/digital-meets-physical-risograph-printing-with-webgl/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Learn how to create a custom tool for printing Riso posters using Three.js."
+ },
+ {
+  "name": "Creating a Glowing Text Marquee Animation",
+  "url": "https://tympanus.net/Tutorials/GlowingTextMarqueeAnimation",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/06/26/creating-a-glowing-text-marquee-animation/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "css-clip-path",
+   "svg",
+   "interaction"
+  ],
+  "notable": "Learn how to create a glowing SVG text animation with a marquee effect using only HTML and CSS."
+ },
+ {
+  "name": "Shape Lens Blur Effect with SDFs and WebGL",
+  "url": "https://tympanus.net/Tutorials/SDFLensBlur/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/06/12/shape-lens-blur-effect-with-sdfs-and-webgl/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "sdf",
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "An introduction on harnessing the power of Signed Distance Fields (SDFs) to draw shapes in WebGL and create interactive effects, such as lens blur."
+ },
+ {
+  "name": "Model Texture Transition and Procedural Radial Noise using WebGL",
+  "url": "https://tympanus.net/Development/TextureTransition",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/05/02/model-texture-transition-and-procedural-radial-noise-using-webgl/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "generative",
+   "react-three-fiber",
+   "image-distortion",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "A WebGL experiment that explores two visual effects: a texture transition on a 3D can model and a procedural radial noise field."
+ },
+ {
+  "name": "Reaction-Diffusion Compute Shader in WebGPU",
+  "url": "https://tympanus.net/Tutorials/WebGPUReactionDiffusion",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/05/01/reaction-diffusion-compute-shader-in-webgpu/",
+  "year": 2024,
+  "category": "experimental-art",
+  "tags": [
+   "webgpu",
+   "gpgpu",
+   "image-distortion",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Learn how to use WebGPU compute shaders to create reaction-diffusion patterns."
+ },
+ {
+  "name": "Creating an Interactive 3D Bulge Text Effect with React Three Fiber",
+  "url": "https://tympanus.net/Tutorials/3DBulgeTextEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/03/20/creating-an-interactive-3d-bulge-text-effect-with-react-three-fiber/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "glsl-shaders",
+   "interaction"
+  ],
+  "notable": "Exploring how to generate an engaging bulge effect on text using React Three Fiber."
+ },
+ {
+  "name": "On-Scroll Revealing WebGL Images",
+  "url": "https://tympanus.net/Development/RevealingWebGLImages",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/02/07/on-scroll-revealing-webgl-image-explorations/",
+  "year": 2024,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "react-three-fiber",
+   "lenis",
+   "pixi.js",
+   "webgl"
+  ],
+  "notable": "An exploration of on-scroll reveal effects for images in WebGL, using React Three Fiber."
+ },
+ {
+  "name": "Making CSS View Transitions Easy with Velvette",
+  "url": "https://tympanus.net/Tutorials/Velvette/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2024/01/19/making-css-view-transitions-easy-with-velvette/",
+  "year": 2024,
+  "category": "tool-library",
+  "tags": [
+   "interaction",
+   "css",
+   "frontend"
+  ],
+  "notable": "Learn how to effortlessly implement smooth CSS view-transitions with Velvette, a useful library designed to tackle common challenges and enhance user experiences in web applications."
+ },
+ {
+  "name": "Creating Audio-Reactive Visuals with Dynamic Particles in Three.js",
+  "url": "https://tympanus.net/Tutorials/ParticlesMusicVisualizer",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/12/19/creating-audio-reactive-visuals-with-dynamic-particles-in-three-js/",
+  "year": 2023,
+  "category": "demo-technique",
+  "tags": [
+   "particles",
+   "audio-reactive",
+   "gsap",
+   "generative",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Learn how to build a particles music visualizer with Three.js, with techniques covering audio synchronization and 3D visual effects, inspired by ARKx's work for Coala Music's website."
+ },
+ {
+  "name": "Creating an Interactive Mouse Effect with Instancing in Three.js",
+  "url": "https://tympanus.net/Tutorials/MouseInstancing/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/12/13/creating-an-interactive-mouse-effect-with-instancing-in-three-js/",
+  "year": 2023,
+  "category": "demo-technique",
+  "tags": [
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Explore the fundamentals of Three.js Instancing in this tutorial, learning how to optimize GPU performance and efficiently render large numbers of objects."
+ },
+ {
+  "name": "3D Glass Portal Card Effect with React Three Fiber and Gaussian Splatting",
+  "url": "https://tympanus.net/Development/3DPortalCard",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/11/29/3d-glass-portal-card-effect-with-react-three-fiber-and-gaussian-splatting/",
+  "year": 2023,
+  "category": "3d-webgl",
+  "tags": [
+   "react-three-fiber",
+   "gaussian-splatting",
+   "spline",
+   "three.js"
+  ],
+  "notable": "Explore the creation of a 3D glass portal with React Three Fiber, with optimized rendering using Gaussian Splatting and integrating real-world objects."
+ },
+ {
+  "name": "Creating a Bulge Distortion Effect with WebGL",
+  "url": "https://tympanus.net/Tutorials/WebGLBulge/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/06/28/creating-a-bulge-distortion-effect-with-webgl/",
+  "year": 2023,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "ogl",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Learn how to create a fun bulge effect in WebGL using the OGL library and shaders."
+ },
+ {
+  "name": "Coding the Sliced Image Hover Effect from Quai Network",
+  "url": "https://tympanus.net/Tutorials/ClipHoverEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/06/21/coding-the-sliced-image-hover-effect-from-quai-network/",
+  "year": 2023,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "css-clip-path",
+   "interaction"
+  ],
+  "notable": "Learn how to code a similar hover animation to the one seen on the website of Quai Network."
+ },
+ {
+  "name": "Recreating the Gradient Mask Hover Effect from Evervault",
+  "url": "https://tympanus.net/Tutorials/AnimatedCodeBackground/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/05/17/recreating-the-gradient-mask-hover-effect-from-evervault/",
+  "year": 2023,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "svg",
+   "typography"
+  ],
+  "notable": "A recreation of the hover effect seen on the customer grid on the Evervault website."
+ },
+ {
+  "name": "Building a WebGL Carousel with React Three Fiber and GSAP",
+  "url": "https://tympanus.net/Tutorials/WebGLCarousel/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/04/27/building-a-webgl-carousel-with-react-three-fiber-and-gsap/",
+  "year": 2023,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "gsap",
+   "post-processing",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Learn how to create an interactive 3D carousel using WebGL, React Three Fiber, and GSAP with this step-by-step tutorial."
+ },
+ {
+  "name": "Turning 3D Models to Voxel Art with Three.js",
+  "url": "https://tympanus.net/Tutorials/Voxelizer/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/03/28/turning-3d-models-to-voxel-art-with-three-js/",
+  "year": 2023,
+  "category": "3d-webgl",
+  "tags": [
+   "gsap",
+   "blender",
+   "three.js"
+  ],
+  "notable": "In this detailed tutorial you will learn how to turn 3D models into voxel art with Three.js."
+ },
+ {
+  "name": "Animate a Camera Fly-through on Scroll Using Theatre.js and React Three Fiber",
+  "url": "https://tympanus.net/Development/CameraFlyThrough/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/02/14/animate-a-camera-fly-through-on-scroll-using-theatre-js-and-react-three-fiber/",
+  "year": 2023,
+  "category": "3d-webgl",
+  "tags": [
+   "react-three-fiber",
+   "theatre.js",
+   "3d-scroll",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "A tutorial showing how to fly a camera through a 3D scene as the user scrolls using Theatre.js and React Three Fiber."
+ },
+ {
+  "name": "Crafting a Dice Roller with Three.js and Cannon-es",
+  "url": "https://tympanus.net/Tutorials/DiceRoller/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/01/25/crafting-a-dice-roller-with-three-js-and-cannon-es/",
+  "year": 2023,
+  "category": "game-like",
+  "tags": [
+   "physics",
+   "gsap",
+   "three.js"
+  ],
+  "notable": "This tutorial will guide you through the process of creating a 3D dice roller using Three.js and Cannon-es."
+ },
+ {
+  "name": "Getting Creative with Infinite Loop Scrolling",
+  "url": "https://tympanus.net/Tutorials/LoopScrolling/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2023/01/11/getting-creative-with-infinite-loop-scrolling/",
+  "year": 2023,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "lenis",
+   "scroll-choreography",
+   "infinite-scroll",
+   "svg"
+  ],
+  "notable": "A quick look at how to recreate the infinite loop scrolling animation seen on Bureau DAM with GSAP and Lenis."
+ },
+ {
+  "name": "How to Code an On-Scroll Folding 3D Cardboard Box Animation with Three.js and GSAP",
+  "url": "https://tympanus.net/Tutorials/OnScrollFoldingCardboardBox/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2022/12/13/how-to-code-an-on-scroll-folding-3d-cardboard-box-animation-with-three-js-and-gsap/",
+  "year": 2022,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "scroll-choreography",
+   "three.js",
+   "custom-cursor"
+  ],
+  "notable": "A tutorial on how to create a 3D cardboard box that folds and unfolds on scroll using Three.js and the GSAP ScrollTrigger."
+ },
+ {
+  "name": "Sketchy Pencil Effect with Three.js Post-Processing",
+  "url": "https://tympanus.net/Tutorials/PencilLines/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2022/11/29/sketchy-pencil-effect-with-three-js-post-processing/",
+  "year": 2022,
+  "category": "demo-technique",
+  "tags": [
+   "post-processing",
+   "image-distortion",
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "A tutorial where you'll learn how to create a pencil effect with a sketchy look using Three.js post-processing."
+ },
+ {
+  "name": "3D Typing Effects with Three.js",
+  "url": "https://tympanus.net/Development/3DTypeEffects",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2022/11/08/3d-typing-effects-with-three-js/",
+  "year": 2022,
+  "category": "demo-technique",
+  "tags": [
+   "particles",
+   "custom-cursor",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "A detailed tutorial on how to create typable 3D text with Three.js."
+ },
+ {
+  "name": "How to Create a Cover Page Transition",
+  "url": "https://tympanus.net/Tutorials/CoverPageTransition/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2022/07/06/how-to-create-a-cover-page-transition/",
+  "year": 2022,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "page-transitions",
+   "svg"
+  ],
+  "notable": "GSAP cover page transition recreated from a Dribbble concept, where a panel covers the outgoing page before the next one is revealed."
+ },
+ {
+  "name": "How to Animate SVG Shapes on Scroll",
+  "url": "https://tympanus.net/Tutorials/OnScrollPathAnimations/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2022/06/08/how-to-animate-svg-shapes-on-scroll/",
+  "year": 2022,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "lenis",
+   "scroll-choreography",
+   "css-clip-path",
+   "svg"
+  ],
+  "notable": "Animates SVG paths and clip-paths on smooth scroll, morphing one path into another for a wavy, dramatic scroll feel (GSAP morphing)."
+ },
+ {
+  "name": "How to Add More Fun to a Game: Extending “The Aviator”",
+  "url": "https://tympanus.net/Tutorials/TheAviator2",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2022/04/20/how-to-add-more-fun-to-a-game-extending-the-aviator/",
+  "year": 2022,
+  "category": "game-like",
+  "tags": [
+   "particles",
+   "sound-design",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Extends Karim Maaloul's Three.js 'The Aviator' flying game with hands-on changes to make it more fun and engaging."
+ },
+ {
+  "name": "Creating a Risograph Grain Light Effect in Three.js",
+  "url": "https://tympanus.net/Tutorials/RisographGrainShader/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2022/03/07/creating-a-risograph-grain-light-effect-in-three-js/",
+  "year": 2022,
+  "category": "demo-technique",
+  "tags": [
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Two ways of applying a risograph-style grain effect to 3D elements in Three.js, taken from a portfolio-launch experiment."
+ },
+ {
+  "name": "Pixel Distortion Effect with Three.js",
+  "url": "https://tympanus.net/Development/DistortedPixels/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2022/01/12/pixel-distortion-effect-with-three-js/",
+  "year": 2022,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "particles",
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Interactive WebGL pixel distortion effect based on the one on the 'Infinite Bad Guy' site, with lots of variations (Three.js)."
+ },
+ {
+  "name": "Creating the Effect of Transparent Glass and Plastic in Three.js",
+  "url": "https://tympanus.net/Tutorials/GlassEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/10/27/creating-the-effect-of-transparent-glass-and-plastic-in-three-js/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "post-processing",
+   "image-distortion",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Uses MeshPhysicalMaterial features (Three.js r129+) with postprocessing, reflection and refraction to build convincing glass and plastic."
+ },
+ {
+  "name": "Surface Sampling in Three.js",
+  "url": "https://tympanus.net/Tutorials/SurfaceSampling/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/08/31/surface-sampling-in-three-js/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "particles",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Uses Three.js MeshSurfaceSampler to sample points on mesh surfaces for particle effects."
+ },
+ {
+  "name": "Create an Abstract Image Slideshow with OGL, GLSL, and GSAP",
+  "url": "https://tympanus.net/Tutorials/TriangleSlideshow/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/08/16/abstract-image-carousel-ogl-glsl-gsap/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "ogl",
+   "css-clip-path",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "WebGL (OGL) image slideshow whose entire abstract animation depends on a single value animated with GSAP and fed to GLSL."
+ },
+ {
+  "name": "Superhero Animation Effect with SVG Filters",
+  "url": "https://tympanus.net/Tutorials/Mystique/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/08/09/superhero-animation-effect-with-svg-filters/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "image-distortion",
+   "svg"
+  ],
+  "notable": "Interactive superhero-style illustration effect created with SVG filters and masks on hover."
+ },
+ {
+  "name": "Magical Marbles in Three.js",
+  "url": "https://tympanus.net/Tutorials/MagicalMarbles/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/08/02/magical-marbles-in-three-js/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "raymarching",
+   "blender",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Adds volumetric effects to a built-in Three.js shader to recreate Harry Alisavakis's 'magical marbles' effect."
+ },
+ {
+  "name": "Creating a Typography Motion Trail Effect with Three.js",
+  "url": "https://tympanus.net/Tutorials/text-trail-effect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/07/21/creating-a-typography-motion-trail-effect-with-three-js/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "post-processing",
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Uses WebGL framebuffers via Three.js to create an interactive motion-trail effect for text."
+ },
+ {
+  "name": "Rock the Stage with a Smooth WebGL Shader Transformation on Scroll",
+  "url": "https://tympanus.net/Tutorials/ShadersOnScroll/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/07/13/rock-the-stage-with-a-smooth-webgl-shader-transformation-on-scroll/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "image-distortion",
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Smooth scroll-based GLSL animation using Three.js and GSAP, with vertex displacement on scroll."
+ },
+ {
+  "name": "How to Code the K72 Marquee Hover Animation",
+  "url": "https://tympanus.net/Tutorials/MarqueeMenu/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/06/30/how-to-code-the-k72-marquee-hover-animation/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "custom-cursor",
+   "interaction"
+  ],
+  "notable": "Direction-aware marquee menu hover recreated from the K72 website by Locomotive."
+ },
+ {
+  "name": "How to Code a Crosshair Mouse Cursor with Distortion Hover Effect",
+  "url": "https://tympanus.net/Tutorials/CrosshairDistortion/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/05/26/how-to-code-a-crosshair-mouse-cursor-with-distortion-hover-effect/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "image-distortion",
+   "custom-cursor",
+   "svg"
+  ],
+  "notable": "Fullscreen SVG crosshair mouse cursor with a distortion hover effect on menu items."
+ },
+ {
+  "name": "Dynamic CSS Masks with Custom Properties and GSAP",
+  "url": "https://tympanus.net/Tutorials/codrops-masked-hero/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/05/04/dynamic-css-masks-with-custom-properties-and-gsap/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "css-clip-path",
+   "gsap",
+   "custom-cursor",
+   "svg"
+  ],
+  "notable": "Animates CSS masks from cursor position using GSAP and custom properties for a spotlight reveal of alternate hero styling."
+ },
+ {
+  "name": "Tropical Particles Rain Animation with Three.js",
+  "url": "https://tympanus.net/Development/ParticleRainEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/03/17/tropical-particles-rain-animation-with-three-js/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "particles",
+   "physics",
+   "canvas-2d",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "WebGL particle rain animation with an interesting image effect, made with Three.js and simple physics."
+ },
+ {
+  "name": "Creating an Infinite Circular Gallery using WebGL with OGL and GLSL Shaders",
+  "url": "https://tympanus.net/Tutorials/InfiniteCircularGallery/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/02/23/creating-an-infinite-circular-gallery-using-webgl-with-ogl-and-glsl-shaders/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "ogl",
+   "kinetic-type",
+   "infinite-scroll",
+   "draggable",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Draggable and scrollable infinite circular gallery in WebGL with OGL and GLSL, based on the Lions Good News 2020 site."
+ },
+ {
+  "name": "Rotating Loading Animation of 3D Shapes with Three.js",
+  "url": "https://tympanus.net/Development/RotatingShapes/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/02/03/rotating-loading-animation-of-3d-shapes-with-three-js/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "webgl",
+   "interaction"
+  ],
+  "notable": "Rubber-like rotating 3D shapes made with vertex distortion in Three.js, suited to loading animations."
+ },
+ {
+  "name": "Twisted Colorful Spheres with Three.js",
+  "url": "https://tympanus.net/Tutorials/WebGLBlobs/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/01/26/twisted-colorful-spheres-with-three-js/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Deforms and colors spheres with custom shaders to make blobby, twisting animations in Three.js."
+ },
+ {
+  "name": "Drawing 2D Metaballs with WebGL2",
+  "url": "https://tympanus.net/Tutorials/WebGL2Metaballs/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2021/01/19/drawing-2d-metaballs-with-webgl2/",
+  "year": 2021,
+  "category": "demo-technique",
+  "tags": [
+   "post-processing",
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Vanilla WebGL2 tutorial for drawing 2D metaballs with postprocessing, without a framework."
+ },
+ {
+  "name": "Recreating a Dave Whyte Animation in React-Three-Fiber",
+  "url": "https://tympanus.net/Tutorials/BreathingDots/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/12/17/recreating-a-dave-whyte-animation-in-react-three-fiber/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "post-processing",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Instanced rendering and post-processing in react-three-fiber to recreate a hypnotic looping Dave Whyte animation."
+ },
+ {
+  "name": "Crafting a Scrollable and Draggable Parallax Slider",
+  "url": "https://tympanus.net/Tutorials/ParallaxSliderHoverReveal/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/12/01/crafting-a-scrollable-and-draggable-parallax-slider/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "draggable",
+   "svg"
+  ],
+  "notable": "Scrollable and draggable parallax slider with a reveal animation, built with GSAP, CSS Grid and Flexbox."
+ },
+ {
+  "name": "WebGL Video Transitions with Curtains.js",
+  "url": "https://tympanus.net/Development/videoTransitions/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/10/07/webgl-video-transitions-with-curtains-js/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "curtains.js",
+   "webgl",
+   "glsl-shaders"
+  ],
+  "notable": "Experimental WebGL video transitions with Curtains.js and shaders, bringing earlier image-transition techniques to video."
+ },
+ {
+  "name": "Creating Mirrors in React-Three-Fiber and Three.js",
+  "url": "https://tympanus.net/Tutorials/Mirrors/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/09/30/creating-mirrors-in-react-three-fiber-and-three-js/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "physics",
+   "three.js"
+  ],
+  "notable": "Mirror scene with react-three-fiber, reflection/refraction and use-cannon physics, inspired by Claudio Guglieri's playful 3D portfolio."
+ },
+ {
+  "name": "Experimental Triangle Image Transitions with WebGL",
+  "url": "https://tympanus.net/Development/PolygonalTransitions/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/08/27/experimental-triangle-image-transitions-with-webgl/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Experimental triangle-based image transitions in WebGL for slideshows."
+ },
+ {
+  "name": "Creating a Menu Image Animation on Hover",
+  "url": "https://tympanus.net/Tutorials/RapidImageHoverMenu/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/07/01/creating-a-menu-image-animation-on-hover/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "custom-cursor",
+   "interaction"
+  ],
+  "notable": "Menu where images appear with an animation on each item hover, built with GSAP."
+ },
+ {
+  "name": "Making Stagger Reveal Animations for Text",
+  "url": "https://tympanus.net/Tutorials/TypographyMotion/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/06/17/making-stagger-reveal-animations-for-text/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "custom-cursor",
+   "typography"
+  ],
+  "notable": "Letter stagger reveal with GSAP and Splitting.js, recreated from Thibaud Allie's animation on Dani Morales's site."
+ },
+ {
+  "name": "How to Create a Motion Hover Effect for a Background Image Grid",
+  "url": "https://tympanus.net/Tutorials/ImageGridMotionEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/06/10/how-to-create-a-motion-hover-effect-for-a-background-image-grid/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "interaction",
+   "css"
+  ],
+  "notable": "Motion hover effect on a background image grid with GSAP, inspired by a tubik grid design."
+ },
+ {
+  "name": "Kinetic Typography with Three.js",
+  "url": "https://tympanus.net/Tutorials/codrops-kinetic-typo/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/06/02/kinetic-typography-with-three-js/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "kinetic-type",
+   "glsl-shaders",
+   "three.js",
+   "typography"
+  ],
+  "notable": "Kinetic 3D typography: text combined with motion on 3D objects, rendered with Three.js and GLSL."
+ },
+ {
+  "name": "An Infinitely Scrollable Vertical Menu",
+  "url": "https://tympanus.net/Tutorials/ScrollLoopMenu/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/05/23/an-infinitely-scrollable-vertical-menu/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "interaction",
+   "css",
+   "frontend"
+  ],
+  "notable": "Infinitely scrollable vertical menu based on a looping scroll illusion of cloned items."
+ },
+ {
+  "name": "Interactive WebGL Hover Effects",
+  "url": "https://tympanus.net/Tutorials/webgl-mouseover-effects/step3.html",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/04/14/interactive-webgl-hover-effects/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "post-processing",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Interactive mouseover distortion effect on images using Three.js shaders and postprocessing."
+ },
+ {
+  "name": "Create a Wave Motion Effect on an Image with Three.js",
+  "url": "https://tympanus.net/Tutorials/WaveMotionEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/03/17/create-a-wave-motion-effect-on-an-image-with-three-js/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Wave motion on a 3D plane textured with an image, driven by a shader in Three.js."
+ },
+ {
+  "name": "Audio-based Image Distortion Effects with WebGL",
+  "url": "https://tympanus.net/Development/AudioBasedImageDistortion/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/02/24/audio-based-image-distortion-effects-with-webgl/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "p5.js",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Audio-based image distortion effects in WebGL, using p5.js and p5.sound to read audio data."
+ },
+ {
+  "name": "How to Create a Physics-based 3D Cloth with Cannon.js and Three.js",
+  "url": "https://tympanus.net/Tutorials/3DClothSlideshow/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/02/11/how-to-create-a-physics-based-3d-cloth-with-cannon-js-and-three-js/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "physics",
+   "particles",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Physics-based 3D cloth slideshow with Cannon.js and Three.js, using simplex noise for a wind effect."
+ },
+ {
+  "name": "Crafting a Cutout Collage Layout with CSS Grid and Clip-path",
+  "url": "https://tympanus.net/Tutorials/CutoutCollageLayout/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/02/05/crafting-a-cutout-collage-layout-with-css-grid-and-clip-path/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "css-clip-path",
+   "interaction",
+   "css"
+  ],
+  "notable": "Cutout collage layout that combines CSS Grid, clip-path and parallax."
+ },
+ {
+  "name": "How to Create Procedural Clouds Using Three.js Sprites",
+  "url": "https://tympanus.net/Tutorials/ProceduralClouds/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/01/28/how-to-create-procedural-clouds-using-three-js-sprites/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "generative",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Animated procedural clouds on a Three.js Sprite with a custom shader material, built in react-three-fiber."
+ },
+ {
+  "name": "How to Unroll Images with Three.js",
+  "url": "https://tympanus.net/Development/UnrollingImages/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/01/22/how-to-unroll-images-with-three-js/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "webgl",
+   "three.js",
+   "glsl-shaders"
+  ],
+  "notable": "Basic concept of an unrolling image effect using WebGL and Three.js."
+ },
+ {
+  "name": "3D Folding Layout Technique for HTML Elements",
+  "url": "https://tympanus.net/Tutorials/FoldingDOM/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/01/14/3d-folding-technique/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "interaction",
+   "css",
+   "frontend"
+  ],
+  "notable": "Experimental 3D layout technique that bends and folds plain HTML elements, with scroll interaction."
+ },
+ {
+  "name": "Playing with Texture Projection in Three.js",
+  "url": "https://tympanus.net/Tutorials/TextureProjection/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2020/01/07/playing-with-texture-projection-in-three-js/",
+  "year": 2020,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Projects a texture onto 3D objects as if from a single point, with Perlin-noise examples in Three.js."
+ },
+ {
+  "name": "How to Create the Apple Fifth Avenue Cube in WebGL",
+  "url": "https://tympanus.net/Tutorials/apple-fifth-avenue/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/12/20/how-to-create-the-apple-fifth-avenue-cube-in-webgl/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "post-processing",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Recreates Apple's Fifth Avenue cube animation in WebGL with regl, glass, reflection and postprocessing."
+ },
+ {
+  "name": "Scroll, Refraction and Shader Effects in Three.js and React",
+  "url": "https://tympanus.net/Tutorials/the-substance/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/12/16/scroll-refraction-and-shader-effects-in-three-js-and-react/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "react-three-fiber",
+   "three.js",
+   "glsl-shaders"
+  ],
+  "notable": "react-three-fiber layout combining scroll-tied motion, parallax, refraction and shader distortion."
+ },
+ {
+  "name": "Building a Physics-based 3D Menu with Cannon.js and Three.js",
+  "url": "https://tympanus.net/Tutorials/PhysicsMenu/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/12/10/building-a-physics-based-3d-menu-with-cannon-js-and-three-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "physics",
+   "three.js",
+   "webgl",
+   "typography"
+  ],
+  "notable": "Physics-based 3D menu with Cannon.js and Three.js, introducing physics in WebGL."
+ },
+ {
+  "name": "High-speed Light Trails in Three.js",
+  "url": "https://tympanus.net/Tutorials/InfiniteLights/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/11/13/high-speed-light-trails-in-three-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Real-time recreation of a high-speed light trails (time-lapse) effect in Three.js."
+ },
+ {
+  "name": "Creative WebGL Image Transitions",
+  "url": "https://tympanus.net/Development/webGLImageTransitions/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/11/05/creative-webgl-image-transitions/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "webgl",
+   "glsl-shaders",
+   "three.js"
+  ],
+  "notable": "Set of WebGL image transitions with distortion and warp effects, built on Three.js."
+ },
+ {
+  "name": "Making Gooey Image Hover Effects with Three.js",
+  "url": "https://tympanus.net/Tutorials/GooeyImageHoverEffects/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/10/23/making-gooey-image-hover-effects-with-three-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "gsap",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Gooey reveal hover effects on images using noise within a Three.js shader plus GSAP."
+ },
+ {
+  "name": "How to Create Motion Hover Effects with Image Distortions using Three.js",
+  "url": "https://tympanus.net/Tutorials/MotionHoverEffects/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/10/21/how-to-create-motion-hover-effects-with-image-distortions-using-three-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "gsap",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Hover motion effects with image distortions and a motion trail in Three.js, animated with GSAP."
+ },
+ {
+  "name": "How to Create an Interactive 3D Character with Three.js",
+  "url": "https://tympanus.net/Tutorials/Interactive3DCharacter/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/10/14/how-to-create-an-interactive-3d-character-with-three-js/",
+  "year": 2019,
+  "category": "3d-webgl",
+  "tags": [
+   "blender",
+   "three.js",
+   "custom-cursor",
+   "webgl"
+  ],
+  "notable": "Interactive 3D character (Mixamo animations) that follows the mouse and performs random animations on click, in Three.js."
+ },
+ {
+  "name": "Simulating Depth of Field with Particles using the Blurry Library",
+  "url": "https://tympanus.net/Tutorials/Blurry/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/10/01/simulating-depth-of-field-with-particles-using-the-blurry-library/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "generative",
+   "particles",
+   "three.js",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Geometric scenes with a bokeh/depth-of-field look using the Blurry library on top of Three.js."
+ },
+ {
+  "name": "Mouse Flowmap Deformation with OGL",
+  "url": "https://tympanus.net/Development/FlowmapDeformation/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/09/25/mouse-flowmap-deformation-with-ogl/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "ogl",
+   "image-distortion",
+   "webgl"
+  ],
+  "notable": "Interactive fluid distortion hover effect based on the OGL mouse flowmap example."
+ },
+ {
+  "name": "How to Build a Color Customizer App for a 3D Model with Three.js",
+  "url": "https://tympanus.net/Tutorials/3DModelCustomizer/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/09/17/how-to-build-a-color-customizer-app-for-a-3d-model-with-three-js/",
+  "year": 2019,
+  "category": "3d-webgl",
+  "tags": [
+   "blender",
+   "flip-animation",
+   "three.js",
+   "webgl",
+   "svg"
+  ],
+  "notable": "Complete color-customizer app for a 3D chair model in Three.js."
+ },
+ {
+  "name": "How to Create a Webcam Audio Visualizer with Three.js",
+  "url": "https://tympanus.net/Tutorials/webcam-audio-visualizer/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/09/06/how-to-create-a-webcam-audio-visualizer-with-three-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "particles",
+   "audio-reactive",
+   "webcam",
+   "three.js"
+  ],
+  "notable": "Three.js audio visualizer that takes input from the web camera."
+ },
+ {
+  "name": "A Configurator for Creating Custom WebGL Distortion Effects",
+  "url": "https://tympanus.net/Development/WebGLDistortionConfigurator/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/09/04/a-configurator-for-creating-custom-webgl-distortion-effects/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "flip-animation",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Configurator for creating custom fullscreen WebGL image animations with distortion effects in Three.js."
+ },
+ {
+  "name": "How to Add Smooth Scrolling with Inner Image Animations to a Web Page",
+  "url": "https://tympanus.net/Tutorials/SmoothScrollAnimations/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/07/10/how-to-add-smooth-scrolling-with-inner-image-animations-to-a-web-page/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "interaction",
+   "css",
+   "frontend"
+  ],
+  "notable": "Adds smooth scrolling to a page plus subtle inner animations on images entering the viewport."
+ },
+ {
+  "name": "Creating Grid-to-Fullscreen Animations with Three.js",
+  "url": "https://tympanus.net/Tutorials/GridToFullscreenAnimations/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/05/22/creating-grid-to-fullscreen-animations-with-three-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "flip-animation",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Grid-to-fullscreen image animations in Three.js, where thumbnails expand into fullscreen views."
+ },
+ {
+  "name": "How to Build an Underwater-Style Navigation Using PixiJS",
+  "url": "https://tympanus.net/Tutorials/underwater-navigation/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/04/24/how-to-build-an-underwater-style-navigation-using-pixijs/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "pixi.js",
+   "image-distortion",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Underwater-style navigation built with PixiJS, designed to be visually distinct yet usable and accessible."
+ },
+ {
+  "name": "How to Create a Sticky Image Effect with Three.js",
+  "url": "https://tympanus.net/Tutorials/StickyImageEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/04/10/how-to-create-a-sticky-image-effect-with-three-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Sticky image effect in Three.js, inspired by Ultranoir's Awwwards/FWA-featured website."
+ },
+ {
+  "name": "Exploding 3D Objects with Three.js",
+  "url": "https://tympanus.net/Development/ExplodingObjects/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/03/26/exploding-3d-objects-with-three-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Exploding 3D objects experiment in Three.js, inspired by the Kubrick Life website's 3D motion."
+ },
+ {
+  "name": "How to Create Smooth WebGL Transitions on Scroll using Phenomenon",
+  "url": "https://tympanus.net/Tutorials/scroll-transitions-webgl",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/03/22/how-to-create-smooth-webgl-transitions-on-scroll-using-phenomenon/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "webgl",
+   "three.js",
+   "glsl-shaders"
+  ],
+  "notable": "Smooth WebGL transition on scroll using Phenomenon, a small library based on three.js."
+ },
+ {
+  "name": "How to Create a Fake 3D Image Effect with WebGL",
+  "url": "https://tympanus.net/Tutorials/Fake3DEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/02/20/how-to-create-a-fake-3d-image-effect-with-webgl/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "glsl-shaders",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "Fake 3D image effect in WebGL that gives a flat image the illusion of depth."
+ },
+ {
+  "name": "Text Distortion Effects using Blotter.js",
+  "url": "https://tympanus.net/Development/TextDistortionEffects/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/02/06/text-distortion-effects-using-blotter-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Text distortion effects on live text using Blotter.js."
+ },
+ {
+  "name": "Custom Cursor Effects",
+  "url": "https://tympanus.net/Tutorials/CustomCursors/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/01/31/custom-cursor-effects/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "custom-cursor",
+   "svg"
+  ],
+  "notable": "Set of custom cursor effects, a big web trend of 2018."
+ },
+ {
+  "name": "Buildings Wave Animation with Three.js",
+  "url": "https://tympanus.net/Tutorials/BuildingsWave/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/01/30/buildings-wave-animation-with-three-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Wave animation across a grid of building models in Three.js."
+ },
+ {
+  "name": "Interactive Particles with Three.js",
+  "url": "https://tympanus.net/Tutorials/InteractiveParticles/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/01/17/interactive-particles-with-three-js/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "particles",
+   "glsl-shaders",
+   "three.js",
+   "custom-cursor"
+  ],
+  "notable": "Draws a large number of interactive particles with Three.js using an efficient approach to make them respond to the pointer."
+ },
+ {
+  "name": "Animated Mesh Lines",
+  "url": "https://tympanus.net/Development/AnimatedMeshLines",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2019/01/08/animated-mesh-lines/",
+  "year": 2019,
+  "category": "demo-technique",
+  "tags": [
+   "spline",
+   "webgl",
+   "three.js",
+   "svg"
+  ],
+  "notable": "Animated mesh lines in WebGL built on THREE.MeshLine."
+ },
+ {
+  "name": "Interactive Animated Landscape",
+  "url": "https://tympanus.net/Development/InteractiveLandscape/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2018/12/20/interactive-animated-landscape/",
+  "year": 2018,
+  "category": "demo-technique",
+  "tags": [
+   "glsl-shaders",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "Playful animated landscape with a psychedelic look, showing how an experiment becomes an interactive Three.js scene."
+ },
+ {
+  "name": "Interactive Repulsion Effect with Three.js",
+  "url": "https://tympanus.net/Tutorials/InteractiveRepulsionEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2018/12/06/interactive-repulsion-effect-with-three-js/",
+  "year": 2018,
+  "category": "demo-technique",
+  "tags": [
+   "gsap",
+   "three.js",
+   "webgl",
+   "custom-cursor"
+  ],
+  "notable": "Interactive repulsion effect for a grid of elements in Three.js."
+ },
+ {
+  "name": "WebGL Distortion Hover Effects",
+  "url": "https://tympanus.net/Development/DistortionHoverEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2018/04/10/webgl-distortion-hover-effects/",
+  "year": 2018,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "webgl",
+   "three.js"
+  ],
+  "notable": "WebGL distortion hover effect library for images."
+ },
+ {
+  "name": "Animated Fragment Slideshow",
+  "url": "https://tympanus.net/Tutorials/PiecesSlider/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2018/02/21/animated-fragment-slideshow/",
+  "year": 2018,
+  "category": "demo-technique",
+  "tags": [
+   "interaction",
+   "css",
+   "frontend"
+  ],
+  "notable": "Playful slider with an original fragmented look, where each slide is split into animated pieces."
+ },
+ {
+  "name": "CSS Glitch Effect",
+  "url": "https://tympanus.net/Tutorials/CSSGlitchEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2017/12/21/css-glitch-effect/",
+  "year": 2017,
+  "category": "demo-technique",
+  "tags": [
+   "css-clip-path",
+   "interaction",
+   "css"
+  ],
+  "notable": "CSS glitch effect powered by CSS animations and clip-path, inspired by the 404 conference speakers page."
+ },
+ {
+  "name": "3D Particle Explorations",
+  "url": "https://tympanus.net/Development/3d-particle-explorations/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2017/12/12/3d-particle-explorations/",
+  "year": 2017,
+  "category": "demo-technique",
+  "tags": [
+   "particles",
+   "three.js",
+   "webgl"
+  ],
+  "notable": "3D particle animations with three.js and easing, morphing particles into different shapes."
+ },
+ {
+  "name": "Decorative WebGL Backgrounds",
+  "url": "https://tympanus.net/Development/DecorativeBackgrounds/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2017/11/28/decorative-webgl-backgrounds/",
+  "year": 2017,
+  "category": "demo-technique",
+  "tags": [
+   "webgl",
+   "three.js",
+   "interaction"
+  ],
+  "notable": "Original and experimental decorative backgrounds generated with WebGL."
+ },
+ {
+  "name": "Liquid Distortion Effects",
+  "url": "https://tympanus.net/Development/LiquidDistortion/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2017/10/10/liquid-distortion-effects/",
+  "year": 2017,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "pixi.js",
+   "gsap",
+   "webgl"
+  ],
+  "notable": "Liquid distortion effect using a displacement map to transition images."
+ },
+ {
+  "name": "Infinite Tubes with Three.js",
+  "url": "https://tympanus.net/Development/InfiniteTubes/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2017/05/09/infinite-tubes-with-three-js/",
+  "year": 2017,
+  "category": "demo-technique",
+  "tags": [
+   "three.js",
+   "webgl",
+   "interaction"
+  ],
+  "notable": "Infinite tubes with Three.js, a WebGL tunnel effect for creative backgrounds."
+ },
+ {
+  "name": "WebGL Scroll Spiral",
+  "url": "https://tympanus.net/Development/ScrollSpiral/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2017/04/26/webgl-scroll-spiral/",
+  "year": 2017,
+  "category": "demo-technique",
+  "tags": [
+   "glsl-shaders",
+   "webgl",
+   "interaction"
+  ],
+  "notable": "WebGL shader art that creates a decorative background effect by twisting on scroll (scroll spiral)."
+ },
+ {
+  "name": "Animated Heat Distortion Effects with WebGL",
+  "url": "https://tympanus.net/Tutorials/HeatDistortionEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2016/05/03/animated-heat-distortion-effects-webgl/",
+  "year": 2016,
+  "category": "demo-technique",
+  "tags": [
+   "image-distortion",
+   "svg",
+   "glsl-shaders",
+   "webgl"
+  ],
+  "notable": "Realistic heat haze distortion effects with fragment shaders in WebGL."
+ },
+ {
+  "name": "The Making of “The Aviator”: Animating a Basic 3D Scene with Three.js",
+  "url": "https://tympanus.net/Tutorials/TheAviator/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2016/04/26/the-aviator-animating-basic-3d-scene-threejs/",
+  "year": 2016,
+  "category": "game-like",
+  "tags": [
+   "three.js",
+   "webgl",
+   "interaction"
+  ],
+  "notable": "Step-by-step build of 'The Aviator', a simple 3D flying plane scene in Three.js."
+ },
+ {
+  "name": "Rain & Water Effect Experiments",
+  "url": "https://tympanus.net/Development/RainEffect/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/",
+  "year": 2015,
+  "category": "demo-technique",
+  "tags": [
+   "glsl-shaders",
+   "webgl",
+   "interaction"
+  ],
+  "notable": "Realistic rain and water droplet effects in WebGL."
+ },
+ {
+  "name": "How to Create a Fullscreen Video Opening Animation",
+  "url": "https://tympanus.net/Tutorials/VideoOpeningAnimation/",
+  "source": "Codrops demo",
+  "source_url": "https://tympanus.net/codrops/2015/09/17/how-to-create-a-fullscreen-video-opening-animation/",
+  "year": 2015,
+  "category": "demo-technique",
+  "tags": [
+   "interaction",
+   "css",
+   "frontend"
+  ],
+  "notable": "Fullscreen video opening animation recreated from the Moments app site."
+ }
+]

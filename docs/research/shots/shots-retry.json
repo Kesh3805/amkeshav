@@ -1,0 +1,222 @@
+[
+ {
+  "key": "bruno-simon.com",
+  "url": "https://bruno-simon.com",
+  "name": "Bruno's Portfolio",
+  "in_library": true,
+  "sources": 7,
+  "i": 0,
+  "file": "docs/research/shots/01-bruno-simon-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "madewithgsap.com",
+  "url": "https://madewithgsap.com/",
+  "name": "Made With GSAP",
+  "in_library": true,
+  "sources": 1,
+  "i": 9,
+  "file": "docs/research/shots/10-madewithgsap-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "samsy.ninja",
+  "url": "https://samsy.ninja/",
+  "name": "samsy.ninja",
+  "in_library": true,
+  "sources": 4,
+  "i": 12,
+  "file": "docs/research/shots/13-samsy-ninja.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "zarcerog.com",
+  "url": "https://zarcerog.com",
+  "name": "Nicolas Zarcero - Box Office",
+  "in_library": true,
+  "sources": 2,
+  "i": 13,
+  "file": "docs/research/shots/14-zarcerog-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "dbydt.space",
+  "url": "https://www.dbydt.space",
+  "name": "Deebak Tamilmani Portfolio",
+  "in_library": true,
+  "sources": 3,
+  "i": 14,
+  "file": "docs/research/shots/15-dbydt-space.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "mananthakkar.dev",
+  "url": "https://mananthakkar.dev/",
+  "name": "mananthakkar.dev",
+  "in_library": true,
+  "sources": 2,
+  "i": 15,
+  "file": "docs/research/shots/16-mananthakkar-dev.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "byholm.co",
+  "url": "https://byholm.co",
+  "name": "byholm.co",
+  "in_library": false,
+  "sources": 0,
+  "i": 23,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 90000ms exceeded."
+ },
+ {
+  "key": "optikka.com",
+  "url": "https://optikka.com/",
+  "name": "OPTIKKA",
+  "in_library": true,
+  "sources": 1,
+  "i": 24,
+  "file": null,
+  "status": "error: page.goto: Timeout 60000ms exceeded."
+ },
+ {
+  "key": "airforceecho.com",
+  "url": "https://airforceecho.com/",
+  "name": "E.C.H.O.",
+  "in_library": true,
+  "sources": 2,
+  "i": 26,
+  "file": "docs/research/shots/27-airforceecho-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "coastalworld.com",
+  "url": "https://coastalworld.com",
+  "name": "Coastal World",
+  "in_library": true,
+  "sources": 2,
+  "i": 27,
+  "file": "docs/research/shots/28-coastalworld-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "buttermax.net",
+  "url": "https://buttermax.net/",
+  "name": "Buttermax",
+  "in_library": true,
+  "sources": 2,
+  "i": 28,
+  "file": null,
+  "status": "error: page.screenshot: Protocol error (Page.captureScreenshot): Unable to capture scre"
+ },
+ {
+  "key": "holtsetio.com/lab/softbodies",
+  "url": "https://holtsetio.com/lab/softbodies/",
+  "name": "Holtsetio Lab: Softbodies",
+  "in_library": true,
+  "sources": 1,
+  "i": 32,
+  "file": "docs/research/shots/33-holtsetio-com-lab-softbodies.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "midnightvideo.cuchillo.rocks",
+  "url": "https://midnightvideo.cuchillo.rocks/",
+  "name": "midnightvideo.cuchillo.rocks",
+  "in_library": true,
+  "sources": 1,
+  "i": 35,
+  "file": "docs/research/shots/36-midnightvideo-cuchillo-rocks.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "carterogunsola.com",
+  "url": "https://carterogunsola.com",
+  "name": "Carter Ogunsola",
+  "in_library": true,
+  "sources": 5,
+  "i": 50,
+  "file": "docs/research/shots/51-carterogunsola-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "guillaumecolombel.fr",
+  "url": "https://guillaumecolombel.fr/",
+  "name": "G. Colombel - Portfolio 2026",
+  "in_library": true,
+  "sources": 5,
+  "i": 51,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 90000ms exceeded."
+ },
+ {
+  "key": "shopify.com/editions/winter2026",
+  "url": "https://www.shopify.com/editions/winter2026",
+  "name": "The Renaissance Edition",
+  "in_library": true,
+  "sources": 5,
+  "i": 54,
+  "file": "docs/research/shots/55-shopify-com-editions-winter2026.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "immersive-g.com",
+  "url": "https://immersive-g.com/",
+  "name": "Immersive Garden website",
+  "in_library": true,
+  "sources": 5,
+  "i": 55,
+  "file": "docs/research/shots/56-immersive-g-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "bleibtgleich.dev",
+  "url": "https://bleibtgleich.dev",
+  "name": "bleibtgleich'26",
+  "in_library": true,
+  "sources": 4,
+  "i": 56,
+  "file": null,
+  "status": "error: page.screenshot: Timeout 90000ms exceeded."
+ },
+ {
+  "key": "cagdascecen.com",
+  "url": "https://www.cagdascecen.com",
+  "name": "Cagdas Cecen - Media Arts",
+  "in_library": true,
+  "sources": 4,
+  "i": 57,
+  "file": "docs/research/shots/58-cagdascecen-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "corentinbernadou.com",
+  "url": "https://corentinbernadou.com/",
+  "name": "Corentin Bernadou Portfolio",
+  "in_library": true,
+  "sources": 4,
+  "i": 58,
+  "file": "docs/research/shots/59-corentinbernadou-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "fabiantjoeaon.com",
+  "url": "https://fabiantjoeaon.com",
+  "name": "Fabian Tjoe-A-On Portfolio",
+  "in_library": true,
+  "sources": 4,
+  "i": 59,
+  "file": "docs/research/shots/60-fabiantjoeaon-com.jpg",
+  "status": "ok"
+ },
+ {
+  "key": "forgeautomotive.co.uk",
+  "url": "https://forgeautomotive.co.uk/",
+  "name": "Forge Automotive",
+  "in_library": true,
+  "sources": 4,
+  "i": 60,
+  "file": "docs/research/shots/61-forgeautomotive-co-uk.jpg",
+  "status": "ok"
+ }
+]
