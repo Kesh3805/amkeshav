@@ -68,7 +68,7 @@ The signature is one flagship sheet where the visitor watches a conclusion chang
 2. **The measurement enters.** The fixed interpreter overhead the model left out appears in the drawing: about 120.5 ms per verification plus 0.05 ms per case, roughly 92% of a verification's cost.
 3. **The conclusion changes.** The saving redraws to **6.4% measured, [5.1, 7.8]**, with its scope stated, and the revision is dated.
 
-All figures are from `content/research/frontier.json` (exp-009). The visitor experiences an intellectual correction, which nothing else on the site can do and no other portfolio does. This is the Ledger idea at its most honest: one deep moment, not a site-wide replay.
+All figures are from `content/research/frontier.json` (exp-009). The visitor sees a technical conclusion change when measured evidence contradicts the original model. The correction is the interaction, not merely its subject (ChatGPT's wording, which replaced an unverifiable uniqueness claim). This is the Ledger idea at its most honest: one deep moment, not a site-wide replay.
 
 Other sheets stay quiet and explanatory. There is no giant transition, camera fly-through, animated drafting machine or drawing intro.
 
@@ -125,7 +125,7 @@ Five sheets, ordered to show authorship, then depth, then research judgement:
 
 **Everything else goes in the text index, credited accurately.** That includes Ferite (docs site, deployment and brand: no mechanism sheet), the other professional work, the independent projects and the writing. The rule: importance alone does not earn a drawing. A project gets one only if it has a distinct visual explanation.
 
-ChatGPT also proposed a sixth sheet, "Kinetic". It is not in `content/` and is not among Keshav's GitHub repositories, so it is left out unless Keshav says it is his.
+ChatGPT also proposed a sixth sheet, Kinetic, a public repository (`ostrium-labs/kinetic`, "programmable cinematography for engineering", v0.1 in development). It is not in `content/`, and nothing establishes Keshav's contribution to it, so it is left out unless he says what he built. ChatGPT agreed.
 
 ## Risks
 
@@ -160,6 +160,7 @@ If GST is excellent but FRONTIER looks like a flowchart with a key, the Drawing 
 1. Approve the Drawing Set (with the Index as the fallback), or choose the Index now.
 2. GST is employer work. Is a reconstruction drawn from your own published write-up acceptable on the site?
 3. Which Loams subsystem can you attribute to yourself?
+4. Did you build part of Kinetic (`ostrium-labs/kinetic`)? If so, what?
 
 ---
 
@@ -174,5 +175,7 @@ If GST is excellent but FRONTIER looks like a flowchart with a key, the Drawing 
 - **Sheets:** ReviewGraph, GST (with confidentiality care), FRONTIER, Temporal Compute, Loams (one attributable subsystem). Ferite goes in the index. The BullMQ incident is a detail, not a sheet. (Its "Kinetic" suggestion could not be verified; see above.)
 - **Widen the gate** to the cover, GST and FRONTIER, tested on mobile, in greyscale and without hover.
 - **Closing line:** "The drawings must reveal how the work behaves, not merely demonstrate that Keshav knows how to draw software architecture beautifully."
+
+**On the revision:** ChatGPT approved it for Keshav's decision, after one edit (the uniqueness claim, now replaced).
 
 Checked before use: exp-009's 6.4% [5.1, 7.8] against 92.9% modelled, and TC-S1's 5.07% loss to EDF, against `content/research/*.json`.
