@@ -27,3 +27,16 @@ The gate from [`../direction.md`](../direction.md): static pages judged with not
 **Known gaps:**
 - The Loams drawing is pending until Keshav names a subsystem he can attribute.
 - The ReviewGraph and Temporal Compute sheets exist only as cover miniatures.
+
+## Round 2, after ChatGPT's judgement (1 Nov 2026)
+
+**Verdict:** keep the Drawing Set; **Cover B, type pairing 1**; don't revive the Index. The gate stayed open on two points, both fixed:
+- **FRONTIER mixed two units.** 92.9% is a cut in *charge*, and 6.4% is a cut in *wall time*.
+  - Striking out 92.9% implied it was false; it was correct within the charge model.
+  - The labels now read "92.9% less charged" (modelled) and "6.4% less time" (measured).
+  - The redline now marks what was actually refuted: the assumption that charge tracks time.
+  - The fan is labelled as schematic, placed by the fitted timing.
+  - The revision row names exp-009's object, and notes that its own registered predictions held.
+- **The GST phone layout depended on its text.** It is redrawn as before and after side by side, with one representative path each, the repetition stated ("× every cell", "× every source, per cell"), and the same two sources at the foot of both columns.
+
+ChatGPT's single biggest weakness, which shaped both fixes: "The visual language currently looks more authoritative than the evidence distinctions it communicates."

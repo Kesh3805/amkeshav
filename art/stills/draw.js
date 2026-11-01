@@ -146,72 +146,69 @@ function gst(host, narrow) {
     return;
   }
 
-  // Narrow: the same two states, flowing downward.
-  const W = 360, H = 1920;
+  // Narrow: before and after side by side, one representative path each, the repetition stated.
+  const W = 360, H = 700;
   const s = svgFor(host, W, H);
-  const gx = (W - 102) / 2;
+  const cw = 168, L = 0, R = W - cw;
+  const mid = (x) => x + cw / 2;
 
-  let y0 = 0;
-  txt(s, 0, y0 + 12, "Before", "labk");
-  lines(s, 0, y0 + 36, ["The reader asks every source,", "for every cell on screen."], "note", 20);
-  txt(s, gx, y0 + 86, "Returns dashboard", "lab");
-  let gd = grid(s, gx, y0 + 98);
-  const api = { x: 96, y: y0 + 300, w: 168, h: 76 };
-  box(s, api.x, api.y, api.w, api.h, "Returns read API", ["derives status on", "every request"]);
-  for (let i = 0; i < 18; i++)
-    line(s, spread(gx, gx + gd.w, 18, i), y0 + 98 + gd.h + 6, spread(api.x + 8, api.x + api.w - 8, 18, i), api.y, "hair");
-  const sy = y0 + 590, sw = 172, sh = 118;
-  box(s, 0, sy, sw, sh, "GSTR-1", ["outward supplies:", "drafts, portal sync,", "GSTN submission"]);
-  box(s, W - sw, sy, sw, sh, "GSTR-3B", ["monthly summary;", "CAs correct tiles", "by hand"]);
-  for (let i = 0; i < 18; i++) {
-    line(s, spread(api.x + 6, api.x + api.w - 6, 36, i * 2), api.y + api.h, spread(8, sw - 8, 18, i), sy, "thin");
-    line(s, spread(api.x + 6, api.x + api.w - 6, 36, i * 2 + 1), api.y + api.h, spread(W - sw + 8, W - 8, 18, i), sy, "thin");
+  for (const [x, head, note] of [[L, "Before", ["The reader asks every", "source, for every cell."]], [R, "After", ["The writers keep one", "row current."]]]) {
+    txt(s, x, 12, head, "labk");
+    lines(s, x, 36, note, "note", 19);
+    // the dashboard, small: cells are illustrative
+    for (let r = 0; r < 4; r++)
+      for (let c = 0; c < 3; c++)
+        el("rect", { x: mid(x) - 37 + c * 26, y: 88 + r * 16, width: 22, height: 12, class: x === L && r === 1 && c === 0 ? "ln" : "thin", fill: x === L && r === 1 && c === 0 ? "var(--ink-4)" : "var(--paper)" }, s);
+    txt(s, mid(x), 80, "Dashboard", "lab", "middle");
+    box(s, x + 9, 180, cw - 18, 58, "Read API", [x === L ? "derives status" : "one SELECT"]);
+    // the same two sources at the bottom of both columns
+    el("rect", { x: x + 9, y: 530, width: 70, height: 34, class: "ln", fill: "var(--paper)" }, s);
+    el("rect", { x: x + cw - 79, y: 530, width: 70, height: 34, class: "ln", fill: "var(--paper)" }, s);
+    txt(s, x + 44, 551, "GSTR-1", "labk", "middle");
+    txt(s, x + cw - 44, 551, "GSTR-3B", "labk", "middle");
   }
-  let w = ev(s, 0, y0 + 748, "Measured");
-  txt(s, w + 10, y0 + 749, "> 3,000 ms at peak load", "val");
-  lines(s, 0, y0 + 772, ["as reported; method not published"], "note", 19);
+  line(s, W / 2, 0, W / 2, 640, "hair");
 
-  y0 = 840;
-  line(s, 0, y0 - 24, W, y0 - 24, "hair");
-  txt(s, 0, y0 + 12, "After", "labk");
-  lines(s, 0, y0 + 36, ["The writers keep one row current.", "The reader fetches it."], "note", 20);
-  txt(s, gx, y0 + 86, "Returns dashboard", "lab");
-  gd = grid(s, gx, y0 + 98);
-  ev(s, 0, y0 + 130, "Measured");
-  txt(s, 0, y0 + 156, "< 15 ms", "val");
-  txt(s, 0, y0 + 174, "at peak load", "lab");
-  const api2 = { x: 96, y: y0 + 270, w: 168, h: 76 };
-  line(s, W / 2, y0 + 98 + gd.h + 6, W / 2, api2.y, "ln");
-  box(s, api2.x, api2.y, api2.w, api2.h, "Returns read API", ["one indexed SELECT", "per account"]);
-  const T = { x: 62, y: y0 + 400, w: 236, rh: 22 };
-  line(s, W / 2, api2.y + api2.h, W / 2, T.y, "ln", "ah");
-  txt(s, W / 2 + 10, api2.y + api2.h + 30, "by key", "lab");
-  txt(s, T.x, T.y - 10, "return_status", "labk");
-  el("rect", { x: T.x, y: T.y, width: T.w, height: T.rh * 7, class: "ln", fill: "var(--paper)" }, s);
-  txt(s, T.x + 10, T.y + 16, "account, gstin, period", "note", "start", { style: "font-size:13px" });
-  txt(s, T.x + 176, T.y + 15, "status", "lab");
-  line(s, T.x + 166, T.y, T.x + 166, T.y + T.rh * 7, "hair");
-  line(s, T.x, T.y + T.rh, T.x + T.w, T.y + T.rh, "thin");
-  for (let r = 2; r < 7; r++) line(s, T.x, T.y + T.rh * r, T.x + T.w, T.y + T.rh * r, "hair");
-  el("rect", { x: T.x + 1, y: T.y + T.rh * 3 + 1, width: T.w - 2, height: T.rh - 2, class: "tint" }, s);
-  txt(s, T.x, T.y + T.rh * 7 + 22, "one row per (account, GSTIN, period)", "note");
-  const P = { x: 112, y: y0 + 640, w: 136, h: 76 };
-  box(s, P.x, P.y, P.w, P.h, "Projector", ["recomputes one", "row, upserts it"]);
-  line(s, W / 2, P.y, W / 2, T.y + T.rh * 7, "ln2", "ah");
-  const ty = y0 + 860;
-  box(s, 0, ty, sw, 96, "GSTR-1 writer", ["announces every", "change it makes"]);
-  box(s, W - sw, ty, sw, 96, "GSTR-3B writer", ["filing and hand", "corrections"]);
-  line(s, sw / 2, ty, P.x + 30, P.y + P.h, "ln2", "ah");
-  line(s, W - sw / 2, ty, P.x + P.w - 30, P.y + P.h, "ln2", "ah");
-  line(s, P.x + 8, P.y + P.h, sw / 2 - 30, ty, "thin dash", "ah2");
-  line(s, P.x + P.w - 8, P.y + P.h, W - sw / 2 + 30, ty, "thin dash", "ah2");
-  txt(s, W / 2, ty - 84, "source-changed:", "lab", "middle");
-  txt(s, W / 2, ty - 68, "the key only", "lab", "middle");
-  el("circle", { cx: W / 2, cy: ty - 34, r: 13, class: "ln", fill: "var(--paper)" }, s);
-  txt(s, W / 2, ty - 29.5, "1", "val", "middle");
-  lines(s, 0, ty + 128, ["dashed: the projector then reads the", "sources as they are now"], "note", 19);
-  w = ev(s, 0, H - 32, "Reconstructed");
-  lines(s, 0, H - 8, ["from Keshav's write-up; not the employer's diagram"], "note", 19);
+  // Before: one cell's request, then one question per source. Repeated for every cell.
+  line(s, mid(L) - 26, 120, mid(L) - 20, 180, "ln", "ah");
+  txt(s, mid(L) - 14, 162, "× every cell", "lab");
+  line(s, L + 44, 238, L + 44, 530, "ln", "ah");
+  line(s, L + cw - 44, 238, L + cw - 44, 530, "ln", "ah");
+  lines(s, mid(L), 360, ["× every source,", "per cell"], "lab", 16, "middle");
+  [...s.querySelectorAll("text")].slice(-2).forEach((t) => t.setAttribute("style", "paint-order:stroke;stroke:var(--paper);stroke-width:6px"));
+  ev(s, L, 600, "Measured");
+  txt(s, L, 624, "> 3,000 ms", "val");
+  txt(s, L, 642, "at peak load", "lab");
+
+  // After: one read by key; writers push keys to the projector, which rewrites one row.
+  line(s, mid(R), 154, mid(R), 180, "ln");
+  const T = { x: R + 9, y: 284, w: cw - 18, rh: 12 };
+  line(s, mid(R), 238, mid(R), T.y, "ln", "ah");
+  txt(s, mid(R) + 6, 262, "by key", "lab");
+  el("rect", { x: T.x, y: T.y, width: T.w, height: T.rh * 6, class: "ln", fill: "var(--paper)" }, s);
+  for (let r = 1; r < 6; r++) line(s, T.x, T.y + T.rh * r, T.x + T.w, T.y + T.rh * r, "hair");
+  el("rect", { x: T.x + 1, y: T.y + T.rh * 2 + 1, width: T.w - 2, height: T.rh - 2, class: "tint" }, s);
+  txt(s, T.x, T.y + T.rh * 6 + 18, "one row per key", "note");
+  const P = { x: R + 24, y: 400, w: cw - 48, h: 50 };
+  el("rect", { x: P.x, y: P.y, width: P.w, height: P.h, class: "ln", fill: "var(--paper)" }, s);
+  txt(s, mid(R), P.y + 22, "Projector", "labk", "middle");
+  txt(s, mid(R), P.y + 40, "rewrites a row", "note", "middle");
+  line(s, mid(R), P.y, mid(R), T.y + T.rh * 6 + 26, "ln2", "ah");
+  line(s, R + 44, 530, P.x + 14, P.y + P.h, "ln2", "ah");
+  line(s, R + cw - 44, 530, P.x + P.w - 14, P.y + P.h, "ln2", "ah");
+  line(s, P.x + 30, P.y + P.h, R + 60, 530, "thin dash", "ah2");
+  line(s, P.x + P.w - 30, P.y + P.h, R + cw - 60, 530, "thin dash", "ah2");
+  el("circle", { cx: R + 20, cy: 470, r: 11, class: "ln", fill: "var(--paper)" }, s);
+  txt(s, R + 20, 474, "1", "val", "middle");
+  txt(s, R + 20, 500, "key", "lab", "middle");
+  txt(s, R + 20, 514, "only", "lab", "middle");
+  ev(s, R, 600, "Measured");
+  txt(s, R, 624, "< 15 ms", "val");
+  txt(s, R, 642, "at peak load", "lab");
+
+  const w = ev(s, 0, H - 22, "Reconstructed");
+  txt(s, w + 8, H - 21, "from Keshav's write-up", "note");
+  txt(s, 0, H - 2, "dashed: the projector reads the sources as they are now", "note", "start", { style: "font-size:13px" });
 }
 
 /* ---------------- FRONTIER: the model, then the measurement ---------------- */
@@ -261,33 +258,28 @@ function frontier(host, narrow, compact) {
 
   // Row 1 text
   let w;
-  txt(s, 0, 12, "As the model charged it", "labk");
-  w = ev(s, narrow ? 0 : 214, narrow ? 38 : 12, "Modelled");
+  txt(s, 0, 12, "Charge, as the model billed it", "labk");
+  w = ev(s, narrow ? 0 : 262, narrow ? 38 : 12, "Modelled");
   if (narrow) {
     lines(s, 0, 66, ["0.005 CU per case, nothing for overhead"], "note", 19);
   } else {
-    txt(s, 214 + w + 12, 13, "199 cases at 0.005 CU each, and nothing for the call itself", "note");
+    txt(s, 262 + w + 12, 13, "199 cases at 0.005 CU each, and nothing for the call itself", "note");
   }
   const dimY1 = b1.y - 18;
   dim(xs, W, dimY1);
-  const t929 = txt(s, W, dimY1 - 12, "92.9% saved", "big", "end");
-  // the refuted claim, struck in the revision colour
-  const tw = narrow ? 150 : 158;
-  line(s, W - tw, dimY1 - 20, W + 2, dimY1 - 20, "acc");
-  txt(s, W - tw - 12, dimY1 - 16, "Refuted · exp-009", "lab acc-t", "end", halo);
-  if (narrow) t929.setAttribute("style", "font-size:26px");
+  txt(s, W, dimY1 - 12, "92.9% less charged", "big", "end", narrow ? { style: "font-size:24px" } : {});
   txt(s, 0, b1.y + b1.h + 24, `early stop: mean ${FX.stop} cases`, "val", "start", halo);
 
   // Row 2 text
   txt(s, xf / 2, b2.y + b2.h / 2 + 4, narrow ? "fixed overhead 92% [86, 97]" : "fixed overhead per call: 92% [86, 97] of a full verification", "labk", "middle");
   const dimY2 = b2.y + b2.h + 20;
   dim(xe, W, dimY2);
-  txt(s, W, dimY2 + 36, "6.4% saved", "big", "end", narrow ? { style: "font-size:26px" } : {});
+  txt(s, W, dimY2 + 36, "6.4% less time", "big", "end", narrow ? { style: "font-size:24px" } : {});
   txt(s, W, dimY2 + 56, "[5.1, 7.8]", "val", "end");
   txt(s, xe - 10, b2.y - 14, `early stop ${FX.early} ms`, "val", "end", halo);
   const r2y = narrow ? dimY2 + 92 : dimY2 + 16;
-  txt(s, 0, r2y, "As it ran", "labk");
-  w = ev(s, 92, r2y, "Measured");
+  txt(s, 0, r2y, "Wall time, as measured", "labk");
+  w = ev(s, 196, r2y, "Measured");
   if (narrow) {
     lines(s, 0, r2y + 26, ["mean of 1,020 failing candidates:", "131.8 ms in full, 124.1 ms stopping early"], "note", 19);
   } else {
@@ -298,8 +290,12 @@ function frontier(host, narrow, compact) {
   el("circle", { cx, cy, r: 13, class: "ln", fill: "var(--paper)" }, s);
   txt(s, cx, cy + 4.5, "1", "val", "middle");
   line(s, cx, cy + 13, cx, b2.y - 2, "thin");
-  txt(s, narrow ? 0 : W * 0.42, narrow ? (b1.y + b2.y + b1.h) / 2 + 30 : (b1.y + b2.y + b1.h) / 2 + 6,
-    "the same 199 cases, where they actually fall", "note", "start", halo);
+  // The revision: the assumption linking the two bars, not either number.
+  const fx = narrow ? 0 : W * 0.4, fy = (b1.y + b2.y + b1.h) / 2 + (narrow ? 10 : -8);
+  txt(s, fx, fy, "Assumed: charge tracks time · refuted, exp-009", "lab acc-t", "start", halo);
+  lines(s, fx, fy + 22, narrow ? ["schematic: the same 199 cases, placed", "by the fitted timing (≈ 120.5 ms + 0.05 ms", "per case)"]
+    : ["schematic: the same 199 cases, placed by the fitted timing (≈ 120.5 ms + 0.05 ms per case)"], "note", 19, "start");
+  [...s.querySelectorAll("text")].slice(-3).forEach((t) => t.setAttribute("style", "paint-order:stroke;stroke:var(--paper);stroke-width:6px;stroke-linejoin:round"));
 }
 
 // Magnified detail of the measured bar's last 8%: the cases.

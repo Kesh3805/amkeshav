@@ -24,7 +24,7 @@
   </div>
 </section>
 
-<p class="lede">Stopping a verification at its first failing case looked like it saved almost all of the cost, because the model charged per case. Then the verifications were timed. Almost all of the cost was the call itself.</p>
+<p class="lede">Stopping a verification at its first failing case cut its modelled charge by 92.9%, because the model billed per case. Then the verifications were timed. Almost all of the time was the call itself, which the model never billed.</p>
 
 <div class="drawing" id="d"></div>
 
@@ -43,8 +43,8 @@
 
 <section class="revs">
   <h2 class="label">Revisions</h2>
-  <div class="rev"><span class="label">27 Oct 2026</span><span class="label">exp-008</span><span class="state">SUPPORTED</span><span>Charging a failed verification only up to its first failing case lets round-robin recover 71% / 93% / 96% of the lost yield. <span class="ev">Modelled</span></span></div>
-  <div class="rev"><span class="label">27 Oct 2026</span><span class="label">exp-009</span><span class="state revised">REFUTED</span><span>Fail-fast verification saves wall time in proportion to the modelled charge: 6.4% measured against 92.9% modelled. exp-008's recovery holds only in the charge model. <span class="ev">Measured</span></span></div>
+  <div class="rev"><span class="label">27 Oct 2026</span><span class="label">exp-008</span><span class="state">SUPPORTED</span><span>In the charge model: charging a failed verification only up to its first failing case lets round-robin recover 71% / 93% / 96% of the lost yield. <span class="ev">Modelled</span></span></div>
+  <div class="rev"><span class="label">27 Oct 2026</span><span class="label">exp-009</span><span class="state revised">REFUTED</span><span>The assumption that fail-fast verification saves wall time in proportion to the modelled charge. Wall time fell 6.4% [5.1, 7.8] where the charge fell 92.9%. exp-009's own registered predictions held; exp-008's recovery stands in the charge model only. <span class="ev">Measured</span></span></div>
   <div class="rev"><span class="label">Next</span><span class="label">—</span><span class="state">PLANNED</span><span>Re-run the allocation comparisons under the measured cost model: fixed overhead plus per-case cost.</span></div>
 </section>
 
