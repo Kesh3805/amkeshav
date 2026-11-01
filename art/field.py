@@ -190,4 +190,7 @@ else:
 # and the 170 losses become the pattern the standing few interrupt.
 cam = c.camera(sc, (-54.0, -54.0, 69.0), (0, 0, 0), 85)
 c.aim(cam, (-1.0, 9.0, 0.0))
-c.render(sc, a["out"])
+if os.environ.get("DEPTH"):
+    c.depth_map(sc, cam, 480, 270, os.environ["DEPTH"])
+else:
+    c.render(sc, a["out"])

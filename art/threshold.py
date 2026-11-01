@@ -64,7 +64,9 @@ door.location = (0.0, 7.7, 1.0)
 
 cam = c.camera(sc, (4.0, -0.9, 0.26), (0, 0, 0), 20, focus=2.4, fstop=2.2)
 c.aim(cam, (-0.6, 11.0, 3.4))
-if os.environ.get("PROBE"):
+if os.environ.get("DEPTH"):
+    c.depth_map(sc, cam, 480, 270, os.environ["DEPTH"])
+elif os.environ.get("PROBE"):
     # Ray-cast through given pixels to find where the counter actually is in world space.
     from bpy_extras.view3d_utils import region_2d_to_vector_3d  # noqa: F401 (kept for reference)
     from mathutils import Vector

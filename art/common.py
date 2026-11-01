@@ -204,3 +204,47 @@ def backdrop(sc, color, strength):
     bg = world.node_tree.nodes["Background"]
     bg.inputs["Color"].default_value = (*color, 1)
     bg.inputs["Strength"].default_value = strength
+
+
+def depth_map(sc, cam, w, h, out):
+    """Write a nearness map (white = near, black = far) by ray-casting every pixel.
+    Volumes and hidden helpers are excluded so the haze doesn't read as a surface."""
+    from mathutils import Vector
+    for o in sc.objects:
+        if o.name.startswith("haze"):
+            o.hide_viewport = True
+    bpy.context.view_layer.update()
+    deps = bpy.context.evaluated_depsgraph_get()
+    cam.data.sensor_fit = "HORIZONTAL"
+    sc.render.resolution_x, sc.render.resolution_y = w, h
+    frame = [cam.matrix_world @ v for v in cam.data.view_frame(scene=sc)]
+    # view_frame order: top-right, bottom-right, bottom-left, top-left
+    tr, br, bl, tl = frame
+    origin = cam.matrix_world.translation
+    fwd = (cam.matrix_world.to_3x3() @ Vector((0, 0, -1))).normalized()
+    zs = []
+    for j in range(h):
+        v = (j + 0.5) / h
+        left = tl.lerp(bl, v)
+        right = tr.lerp(br, v)
+        row = []
+        for i in range(w):
+            u = (i + 0.5) / w
+            p = left.lerp(right, u)
+            d = (p - origin).normalized()
+            hit, loc, *_ = sc.ray_cast(deps, origin, d, distance=2000.0)
+            row.append((loc - origin).dot(fwd) if hit else None)
+        zs.append(row)
+    flat = [z for r in zs for z in r if z]
+    zmin = max(min(flat), 0.05)
+    img = bpy.data.images.new("depth", w, h, alpha=False, float_buffer=False)
+    px = []
+    for j in reversed(range(h)):  # Blender images are stored bottom-up
+        for z in zs[j]:
+            n = 0.0 if z is None else min(1.0, zmin / z) ** 0.5
+            px += [n, n, n, 1.0]
+    img.pixels = px
+    img.filepath_raw = out
+    img.file_format = "PNG"
+    img.save()
+    print("DEPTH", out, "zmin", round(zmin, 2))

@@ -6,7 +6,7 @@ import fs from "node:fs";
 const [url = "http://localhost:3300/", out = "artifacts/strip", w = "1440", h = "900", theme = "light", step = "0.8", reduced = "no"] =
   process.argv.slice(2);
 fs.mkdirSync(out, { recursive: true });
-for (const f of fs.readdirSync(out)) fs.rmSync(`${out}/${f}`);
+for (const f of fs.readdirSync(out)) fs.rmSync(`${out}/${f}`, { recursive: true, force: true });
 
 const browser = await chromium.launch();
 const page = await browser.newPage({

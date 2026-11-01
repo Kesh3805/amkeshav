@@ -141,4 +141,7 @@ c.haze(sc, (0, DEPTH / 2, ceil_z / 2), (AISLE + 1, DEPTH, ceil_z), 0.026 if day 
 
 cam = c.camera(sc, (0, -3.0, 1.62), (0, 0, 0), 32)
 c.aim(cam, (-0.35, 60, 2.2))
-c.render(sc, a["out"])
+if os.environ.get("DEPTH"):
+    c.depth_map(sc, cam, 480, 270, os.environ["DEPTH"])
+else:
+    c.render(sc, a["out"])
