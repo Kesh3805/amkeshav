@@ -1,5 +1,7 @@
 # Art direction gate — three still frames
 
+> **Superseded (1 Nov 2026)** by [`direction.md`](direction.md), the Drawing Set, set after the visual atlas and taste-boundary study. These plates are kept as a record.
+
 This is the visual reboot ChatGPT asked for after its verdict on the first build. Before any more animation, three full-resolution stills have to hold up with nothing moving. Keshav approves or rejects the direction from these frames.
 
 Each plate is rendered in Blender (Cycles) from a scene script in `art/`, built procedurally. There is no stock imagery and there are no fake screenshots. Where a plate encodes data, the counts are the real ones.
