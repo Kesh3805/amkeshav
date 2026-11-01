@@ -54,6 +54,29 @@ else:
     c.sun_toward(sc, 0.7, (0.55, 0.66, 1.0), (-0.3, -0.94, -0.35), angle_deg=2)
     c.haze(sc, (0, 75, 12), (260, 110, 28), 0.05, (0.4, 0.48, 0.78))
 
+# The focal event: a warm light inside the K's counter, so only the void's inner walls and floor glow.
+door = bpy.data.objects.new("door", bpy.data.lights.new("door", "POINT"))
+sc.collection.objects.link(door)
+door.data.shadow_soft_size = 0.6
+door.data.energy = 1800 if dawn else 1000
+door.data.color = (1.0, 0.78, 0.52) if dawn else (0.6, 0.7, 1.0)
+door.location = (0.0, 7.7, 1.0)
+
 cam = c.camera(sc, (4.0, -0.9, 0.26), (0, 0, 0), 20, focus=2.4, fstop=2.2)
 c.aim(cam, (-0.6, 11.0, 3.4))
-c.render(sc, a["out"])
+if os.environ.get("PROBE"):
+    # Ray-cast through given pixels to find where the counter actually is in world space.
+    from bpy_extras.view3d_utils import region_2d_to_vector_3d  # noqa: F401 (kept for reference)
+    from mathutils import Vector
+    deps = bpy.context.evaluated_depsgraph_get()
+    cam.data.sensor_fit = "HORIZONTAL"
+    frame = [cam.matrix_world @ v for v in cam.data.view_frame(scene=sc)]
+    for px, py in [(0.55, 0.45), (0.55, 0.62), (0.57, 0.7), (0.53, 0.55)]:
+        top = frame[3].lerp(frame[0], px)
+        bot = frame[2].lerp(frame[1], px)
+        target = top.lerp(bot, py)
+        d = (target - cam.location).normalized()
+        hit, loc, nrm, idx, obj, mat = sc.ray_cast(deps, cam.location, d)
+        print("PROBE", px, py, hit, obj.name if obj else None, tuple(round(v, 2) for v in loc), tuple(round(v, 2) for v in nrm))
+else:
+    c.render(sc, a["out"])
