@@ -42,8 +42,28 @@ So stills overrated colour-led playfulness and underrated quiet, documentary aut
 
 This refines ChatGPT's "controlled visual disruption". The disruption he likes is a construction, not a surprise.
 
+## ChatGPT's refinement (accepted)
+
+ChatGPT accepted "constructive vs performative" as the leading hypothesis and challenged it with three counterexamples:
+- Making Software was marked at 2.2 s, before anything moved.
+- OXMAN builds nothing.
+- The Odd Works mark is on a static logotype.
+
+So Keshav doesn't specifically want things to assemble themselves. He values **visual authorship becoming visible**. The working principle is now:
+
+> **Strong graphic authorship first. Motion should reveal, construct or substantiate the visual idea, not compete with it.**
+
+Two cautions from ChatGPT that we keep:
+- "Performative" does not mean colourful, and "constructive" does not mean monochrome.
+- Don't turn this into a ban on cinematic ambition. Every extraordinary moment should feel intentional; nothing needs to be quieter for its own sake.
+
+## Rauno, settled
+
+Asked what bothered him most when Rauno turned "too playful", Keshav chose **all three**: the bright colours, the sideways movement, and the feeling that the motion was performing rather than creating or revealing anything. The boundary is therefore both formal (saturated colour as the lead) and behavioural (motion grammar and purpose). One of these alone would not have been enough to explain the flip.
+
+**Confidence:** moderate. The evidence is precise in time but small in quantity.
+
 ## Still unknown
 
-- **Why**, in his words. No mark has a note. One question would settle the biggest flip: *what made Rauno feel too playful in motion?*
 - Verdicts on Making Software, Immersive Garden and Odd Works were left blank. Their marks were positive, but "loved, no reservations" is not confirmed.
 - Whether the Teenage Engineering objection is to wit, to the dark spotlight register, or to the dense navigation.
