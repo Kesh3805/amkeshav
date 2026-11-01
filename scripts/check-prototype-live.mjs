@@ -10,7 +10,7 @@ p.on("response", (r) => r.status() >= 400 && bad.push(`${r.status()} ${r.url()}`
 p.on("pageerror", (e) => bad.push(`error ${e.message}`));
 await p.goto(url, { waitUntil: "load" });
 const ready = await p
-  .waitForSelector("canvas[data-ready]", { timeout: 30000 })
+  .waitForSelector("[data-prototype][data-live]", { timeout: 30000 })
   .then(() => true)
   .catch(() => false);
 await p.evaluate(() => window.scrollTo(0, document.body.scrollHeight * 0.5));

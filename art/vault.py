@@ -141,6 +141,11 @@ c.haze(sc, (0, DEPTH / 2, ceil_z / 2), (AISLE + 1, DEPTH, ceil_z), 0.026 if day 
 
 cam = c.camera(sc, (0, -3.0, 1.62), (0, 0, 0), 32)
 c.aim(cam, (-0.35, 60, 2.2))
+if os.environ.get("SHOT") == "close":
+    # Standing at the pulled bay, looking down into the lit record: the prototype's passage out.
+    cam.location = (-0.15, y - 1.45, z + 0.95)
+    cam.data.lens = 35
+    c.aim(cam, (-AISLE / 2 + PULL / 2 + 0.05, y + 0.1, z - 0.15))
 if os.environ.get("DEPTH"):
     c.depth_map(sc, cam, 480, 270, os.environ["DEPTH"])
 else:

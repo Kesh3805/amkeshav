@@ -190,6 +190,14 @@ else:
 # and the 170 losses become the pattern the standing few interrupt.
 cam = c.camera(sc, (-54.0, -54.0, 69.0), (0, 0, 0), 85)
 c.aim(cam, (-1.0, 9.0, 0.0))
+if os.environ.get("SHOT") == "close":
+    # One marker at the eye's level of detail, before the camera rises to the whole field.
+    cam.location = (-3.2, 3.6, 2.6)
+    cam.data.lens = 40
+    cam.data.dof.use_dof = True
+    cam.data.dof.focus_distance = 3.4
+    cam.data.dof.aperture_fstop = 4.0
+    c.aim(cam, (-1.4, 6.4, 0.2))
 if os.environ.get("DEPTH"):
     c.depth_map(sc, cam, 480, 270, os.environ["DEPTH"])
 else:

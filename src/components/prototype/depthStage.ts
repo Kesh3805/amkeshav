@@ -16,6 +16,16 @@ export type ShotState = {
   opacity: number;
   focalX: number; // focal point in image UV, origin top-left
   focalY: number;
+  // Light with a visible source: a warm disc of radius glowR (in screen heights) around glowX/Y.
+  glow: number;
+  glowR: number;
+  glowX: number;
+  glowY: number;
+  // Reveal mask around maskX/Y: mode 1 shows the plate outside maskR, -1 inside it, 0 everywhere.
+  mask: number;
+  maskR: number;
+  maskX: number;
+  maskY: number;
 };
 
 const vertex = /* glsl */ `
@@ -38,6 +48,17 @@ const fragment = /* glsl */ `
   uniform vec2 uShift;
   uniform float uExposure;
   uniform float uOpacity;
+  uniform float uAspect;   // viewport width / height
+  uniform vec3 uGlow;      // strength, radius, unused
+  uniform vec2 uGlowC;
+  uniform vec3 uMask;      // mode, radius, unused
+  uniform vec2 uMaskC;
+
+  float dist(vec2 a, vec2 b) {
+    vec2 d = a - b;
+    d.x *= uAspect;
+    return length(d);
+  }
 
   void main() {
     vec2 uv = (vUv - 0.5) * uCover + 0.5;
@@ -56,7 +77,23 @@ const fragment = /* glsl */ `
     // A whisper of vignette keeps the eye centred.
     vec2 q = vUv - 0.5;
     col *= 1.0 - dot(q, q) * 0.18;
-    gl_FragColor = vec4(col, uOpacity);
+
+    // Screen position with origin top-left, matching how focal points are written.
+    vec2 sp = vec2(vUv.x, 1.0 - vUv.y);
+    vec3 warm = vec3(1.0, 0.95, 0.88);
+    if (uGlow.x > 0.0) {
+      float r = dist(sp, uGlowC) / max(uGlow.y, 0.0001);
+      float g = exp(-r * r * 2.2);  // light falls off, it doesn't stop at an edge
+      col = mix(col, warm, g * uGlow.x);
+    }
+    float a = uOpacity;
+    if (uMask.x != 0.0) {
+      float d = dist(sp, uMaskC);
+      float soft = 0.12 + uMask.y * 0.25;
+      float inside = 1.0 - smoothstep(uMask.y - soft, uMask.y, d);
+      a *= uMask.x > 0.0 ? 1.0 - inside : inside;
+    }
+    gl_FragColor = vec4(col, a);
   }
 `;
 
@@ -96,6 +133,11 @@ export class DepthStage {
         uShift: { value: new THREE.Vector2() },
         uExposure: { value: 1 },
         uOpacity: { value: 1 },
+        uAspect: { value: 16 / 9 },
+        uGlow: { value: new THREE.Vector3() },
+        uGlowC: { value: new THREE.Vector2(0.5, 0.5) },
+        uMask: { value: new THREE.Vector3() },
+        uMaskC: { value: new THREE.Vector2(0.5, 0.5) },
       },
     });
     const mesh = new THREE.Mesh(new THREE.PlaneGeometry(2, 2), mat);
@@ -109,7 +151,10 @@ export class DepthStage {
     const view = w / h;
     // "cover": shrink the UV span on the axis that overflows.
     const cover = view > this.aspect ? new THREE.Vector2(1, this.aspect / view) : new THREE.Vector2(view / this.aspect, 1);
-    for (const l of this.layers) l.mat.uniforms.uCover.value.copy(cover);
+    for (const l of this.layers) {
+      l.mat.uniforms.uCover.value.copy(cover);
+      l.mat.uniforms.uAspect.value = view;
+    }
   }
 
   render() {
@@ -121,6 +166,10 @@ export class DepthStage {
       u.uExposure.value = state.exposure;
       u.uOpacity.value = state.opacity;
       u.uFocal.value.set(state.focalX, state.focalY);
+      u.uGlow.value.set(state.glow, state.glowR, 0);
+      u.uGlowC.value.set(state.glowX, state.glowY);
+      u.uMask.value.set(state.mask, state.maskR, 0);
+      u.uMaskC.value.set(state.maskX, state.maskY);
       (mat as THREE.ShaderMaterial).visible = state.opacity > 0.001;
     }
     this.renderer.render(this.scene, this.camera);
