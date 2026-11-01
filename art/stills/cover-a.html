@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keshav — cover A</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=Inter+Tight:wght@600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&family=Geist+Mono:wght@400;500&family=IBM+Plex+Serif:ital,wght@0,400;1,400&family=IBM+Plex+Sans+Condensed:wght@500;600&display=block">
+<link rel="stylesheet" href="sheet.css">
+<script src="draw.js"></script>
+</head>
+<body>
+<header class="head label">
+  <span class="mark">Keshav</span>
+  <span class="no">Cover sheet · 5 sheets</span>
+  <span class="right">Software engineer</span>
+</header>
+
+<section class="hero">
+  <h1 class="name">Keshav</h1>
+  <p class="stmt">I build production backends at jpteam / C1X Inc., and on my own time I build and test things whose answers I don't know yet.</p>
+</section>
+
+<div class="section-h label"><span>Sheets</span><span>Each draws how the work behaves</span></div>
+<section class="sheets">
+  <article class="card">
+    <span class="label">01 · ReviewGraph</span>
+    <div class="drawing" id="m1"></div>
+    <h3>Review starts from the repository, not the patch</h3>
+    <p class="label">Sole author</p>
+  </article>
+  <article class="card">
+    <span class="label">02 · GST compliance</span>
+    <div class="drawing" id="m2"></div>
+    <h3>The answer is kept before anyone asks for it</h3>
+    <p class="label">Primary contributor</p>
+  </article>
+  <article class="card">
+    <span class="label">03 · FRONTIER</span>
+    <div class="drawing" id="m3"></div>
+    <h3>The saving was real in the model, and only there</h3>
+    <p class="label">Author · research</p>
+  </article>
+  <article class="card">
+    <span class="label">04 · Temporal Compute</span>
+    <div class="drawing" id="m4"></div>
+    <h3>A scheduler that lost to EDF, kept on the record</h3>
+    <p class="label">Author · research</p>
+  </article>
+  <article class="card">
+    <span class="label">05 · Loams</span>
+    <div class="drawing" id="m5"></div>
+    <h3>Your data in your own bucket, in open formats</h3>
+    <p class="label">Co-maintainer</p>
+  </article>
+</section>
+
+<div class="section-h label" style="margin-top:64px"><span>Also</span><span>Work without a sheet</span></div>
+<section class="rows">
+  <div class="row"><span class="label">—</span><span class="t">Ferite</span><span class="d">The docs site, its deployment and brand for a Rust toolchain. Not the toolchain.</span><span class="label">Contributor</span></div>
+  <div class="row"><span class="label">—</span><span class="t">Dynamic QR campaigns</span><span class="d">Many people scanning one limited inventory at once; no unit redeemed twice.</span><span class="label">Primary backend engineer</span></div>
+  <div class="row"><span class="label">—</span><span class="t">Layered Memory (BARA)</span><span class="d">Retrieval as a decision made by rules you can read.</span><span class="label">Author</span></div>
+  <div class="row"><span class="label">—</span><span class="t">AI Content Forensics Suite</span><span class="d">Never a score without the evidence behind it.</span><span class="label">Author</span></div>
+  <div class="row human"><span class="label">—</span><span class="t">SonicMirror</span><span class="d">I also built something that roasts your Spotify taste.</span><span class="label">Author</span></div>
+</section>
+
+<script>
+  frontierMini = (h) => frontier(h, true, true);
+  mount("#m1", miniGraph); mount("#m2", miniGst); mount("#m3", frontierMini); mount("#m4", miniTc); mount("#m5", miniPending);
+</script>
+</body>
+</html>

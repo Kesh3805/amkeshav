@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GST read model — sheet 02</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=Inter+Tight:wght@600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&family=Geist+Mono:wght@400;500&family=IBM+Plex+Serif:ital,wght@0,400;1,400&family=IBM+Plex+Sans+Condensed:wght@500;600&display=block">
+<link rel="stylesheet" href="sheet.css">
+<script src="draw.js"></script>
+</head>
+<body>
+<header class="head label">
+  <span class="mark">Keshav</span>
+  <span class="no">Sheet 02 of 05</span>
+  <span class="right">GST compliance platform</span>
+</header>
+
+<section class="title">
+  <h1>The answer is kept before anyone asks for it</h1>
+  <div class="meta">
+    <p class="label">Primary contributor · employer work · Aug 2025 – present</p>
+    <p>A returns dashboard for accounting firms: for each client GSTIN and tax period, where does every return stand?</p>
+  </div>
+</section>
+
+<p class="lede">The read path used to work out every status on every request, asking each source for each client and period on screen. So it slowed down at exactly the moment it was needed: near filing deadlines. The fix inverted the direction of the work.</p>
+
+<div class="drawing" id="d"></div>
+
+<section class="callout">
+  <div class="ring">1</div>
+  <div>
+    <h3>The event names a key, never a change</h3>
+    <p>A writer announces only which row is stale: account, GSTIN, period. The projector then reads the sources as they are now and rewrites that row.</p>
+  </div>
+  <div>
+    <p>So a duplicate event changes nothing, and two events arriving out of order still converge on the same row. An event carrying a change ("draft → filed") would have to arrive exactly once, in order.</p>
+    <p>The same path is the rebuild: recomputing a period is sending one key per row.</p>
+  </div>
+</section>
+
+<div class="sources">
+  <p><span class="ev">Source</span> &nbsp;How a GST Returns Dashboard Became a Sub-15ms Read, Keshav, 25 Sep 2026. Its code is written for the post and simplified; it is not the employer's source.</p>
+  <p>Dashboard cells are illustrative. No revision table: this sheet has no dated history to show.</p>
+</div>
+<script>mount("#d", gst);</script>
+</body>
+</html>

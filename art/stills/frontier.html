@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FRONTIER — sheet 03</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=Inter+Tight:wght@600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400&family=Geist+Mono:wght@400;500&family=IBM+Plex+Serif:ital,wght@0,400;1,400&family=IBM+Plex+Sans+Condensed:wght@500;600&display=block">
+<link rel="stylesheet" href="sheet.css">
+<script src="draw.js"></script>
+</head>
+<body>
+<header class="head label">
+  <span class="mark">Keshav</span>
+  <span class="no">Sheet 03 of 05</span>
+  <span class="right">FRONTIER</span>
+</header>
+
+<section class="title">
+  <h1>The saving was real in the model, and only there</h1>
+  <div class="meta">
+    <p class="label">Author · research · Rust control plane, Python verifier</p>
+    <p>Does deciding which attempt runs next get more independently verified results out of a fixed compute budget?</p>
+  </div>
+</section>
+
+<p class="lede">Stopping a verification at its first failing case looked like it saved almost all of the cost, because the model charged per case. Then the verifications were timed. Almost all of the cost was the call itself.</p>
+
+<div class="drawing" id="d"></div>
+
+<section class="callout">
+  <div class="ring">1</div>
+  <div>
+    <h3>The 199 cases, magnified</h3>
+    <div class="drawing" id="detail" style="max-width:420px;margin-top:8px"></div>
+  </div>
+  <div>
+    <p>A verification costs about 120.5 ms before any case runs: process start-up, hidden-input generation, the harness. Each case adds about 0.05 ms.</p>
+    <p>Half of the failing candidates fail on their very first case. Even so, stopping there saves about 8 ms of 132.</p>
+    <p>What did not change: every verdict. All 1,257 candidates were judged the same both ways.</p>
+  </div>
+</section>
+
+<section class="revs">
+  <h2 class="label">Revisions</h2>
+  <div class="rev"><span class="label">27 Oct 2026</span><span class="label">exp-008</span><span class="state">SUPPORTED</span><span>Charging a failed verification only up to its first failing case lets round-robin recover 71% / 93% / 96% of the lost yield. <span class="ev">Modelled</span></span></div>
+  <div class="rev"><span class="label">27 Oct 2026</span><span class="label">exp-009</span><span class="state revised">REFUTED</span><span>Fail-fast verification saves wall time in proportion to the modelled charge: 6.4% measured against 92.9% modelled. exp-008's recovery holds only in the charge model. <span class="ev">Measured</span></span></div>
+  <div class="rev"><span class="label">Next</span><span class="label">—</span><span class="state">PLANNED</span><span>Re-run the allocation comparisons under the measured cost model: fixed overhead plus per-case cost.</span></div>
+</section>
+
+<div class="sources">
+  <p><span class="ev">Source</span> &nbsp;FRONTIER, results/exp-009/README.md: 1,257 candidates × 2 modes × 3 repetitions, timed on one host (i5-1135G7, 8 threads). Not confirmatory: the predictions were informed by a disclosed smoke run.</p>
+  <p>Bars are drawn to scale: the top in charge units, the bottom in measured milliseconds.</p>
+</div>
+<script>mount("#d", frontier); mount("#detail", frontierDetail);</script>
+</body>
+</html>
