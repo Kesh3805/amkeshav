@@ -23,3 +23,15 @@ The direction came out of a critique round with ChatGPT:
 Dark mode is planned as the same worlds re-lit (blue hour, tungsten, dusk), not inverted. The scripts already take a `night` mood.
 
 Not decided yet: the scroll choreography between frames. That is the 15–30 s prototype, and it only gets built if these stills are approved.
+
+## Gate status (1 Nov 2026)
+
+Three critique rounds with ChatGPT, judged on the pixels:
+
+| Frame | Round 1 | Round 2 | Now |
+| --- | --- | --- | --- |
+| Vault | Revise — the lit bay was a clipped white bar | **Pass** | Unchanged |
+| Threshold | Revise — flat beige, no light structure | Revise — the left wall was a dead zone; make the counter the focal event | Counter now lit as a glowing doorway. ChatGPT: "very likely ready, pending a direct visual check" |
+| Test Site | Reject — dominoes, focus on one fin | Its verdict was of a stale cached image | Elevated system view. Not yet judged: ChatGPT's environment couldn't fetch the new file |
+
+Previews for review: `preview/*-r3.jpg`. Keshav makes the final call.
