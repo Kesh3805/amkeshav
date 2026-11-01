@@ -7,7 +7,7 @@ import common as c
 
 a = c.args({"out": "//renders/threshold.png", "w": 1920, "h": 1080, "samples": 96, "mood": "dawn"})
 dawn = a["mood"] == "dawn"
-sc = c.setup(a, exposure=0.15 if dawn else 0.4)
+sc = c.setup(a, exposure=-0.1 if dawn else 0.4)
 
 # Floor
 bpy.ops.mesh.primitive_plane_add(size=600)
@@ -40,14 +40,15 @@ bev = cube.modifiers.new("bevel", "BEVEL")
 bev.width = 0.005
 bev.segments = 3
 cube.rotation_euler = (0, 0, math.radians(-22))
-cube.data.materials.append(c.flat("signal", (0.022, 0.028, 1.0), rough=0.42))
+# Backlit, the cube would go navy; a faint self-luminance keeps it the signal colour.
+cube.data.materials.append(c.flat("signal", (0.022, 0.028, 1.0), rough=0.38, emission=(0.03, 0.04, 1.0), strength=0.9))
 
 # Light: a low sun from the far end of the word, travelling toward the lens and grazing the faces,
 # so the cast texture and the counters go deep and the letters' shadows reach back across the floor.
 if dawn:
-    c.backdrop(sc, (0.72, 0.68, 0.62), 0.55)
-    c.sun_toward(sc, 14.0, (1.0, 0.83, 0.64), (-0.42, -0.86, -0.28), angle_deg=0.4)
-    c.haze(sc, (0, 85, 14), (260, 110, 32), 0.022, (0.97, 0.93, 0.87))
+    c.backdrop(sc, (0.62, 0.6, 0.58), 0.07)
+    c.sun_toward(sc, 20.0, (1.0, 0.82, 0.6), (-0.36, -0.9, -0.24), angle_deg=0.3)
+    c.haze(sc, (0, 75, 14), (260, 110, 32), 0.02, (0.98, 0.94, 0.88))
 else:
     c.backdrop(sc, (0.1, 0.13, 0.22), 0.6)
     c.sun_toward(sc, 0.7, (0.55, 0.66, 1.0), (-0.3, -0.94, -0.35), angle_deg=2)

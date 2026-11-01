@@ -92,7 +92,7 @@ end.rotation_euler = (math.radians(90), 0, 0)
 end.data.materials.append(c.flat("end", (1, 1, 1), emission=(0.8, 0.86, 0.95), strength=1.4))
 
 # The one row: a bay ~12 m in, left wall, fourth from the floor — pulled out and lit from inside.
-col, row = 14, 3
+col, row = 14, 2
 y = col * CELL_W + CELL_W / 2
 z = row * CELL_H + CELL_H / 2
 PULL = 1.7
@@ -117,23 +117,23 @@ sc.collection.objects.link(glow)
 glow.data.shape = "RECTANGLE"
 glow.data.size = PULL - 0.2
 glow.data.size_y = CELL_W - 0.2
-glow.data.energy = 1400 if day else 1800
+glow.data.energy = 140 if day else 180
 glow.data.color = (1.0, 0.97, 0.92)
-glow.location = (-AISLE / 2 + PULL / 2, y, z - 0.18)
+glow.location = (-AISLE / 2 + PULL / 2, y, z - 0.12)
 glow.rotation_euler = (math.radians(180), 0, math.radians(90))  # area lights face -Z; flip to shine up
 # The record inside the tray: a pale sheet catching the light.
 bpy.ops.mesh.primitive_plane_add(size=1, location=(-AISLE / 2 + PULL / 2, y, z - 0.2))
 sheet = bpy.context.active_object
 sheet.scale = (PULL - 0.3, CELL_W - 0.3, 1)
-sheet.data.materials.append(c.flat("record", (1, 1, 1), emission=(1, 0.97, 0.92), strength=8.0))
+sheet.data.materials.append(c.flat("record", (1, 1, 1), emission=(1, 0.97, 0.92), strength=2.2))
 # A narrow beam rising from the open bay, visible only in the haze.
 beam = bpy.data.objects.new("beam", bpy.data.lights.new("beam", "SPOT"))
 sc.collection.objects.link(beam)
-beam.data.energy = 6000 if day else 8000
+beam.data.energy = 2600 if day else 3400
 beam.data.spot_size = math.radians(16)
 beam.data.spot_blend = 0.6
 beam.data.color = (1.0, 0.97, 0.92)
-beam.location = (-AISLE / 2 + PULL / 2, y, z - 0.1)
+beam.location = (-AISLE / 2 + PULL / 2, y, z - 0.05)
 beam.rotation_euler = (math.radians(180), 0, 0)
 
 c.backdrop(sc, (0, 0, 0), 0)

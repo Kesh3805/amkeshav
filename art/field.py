@@ -45,6 +45,23 @@ def apron():
     mx.operation = "MAXIMUM"
     nt.links.new(line("X", PX, PX / 2), mx.inputs[0])
     nt.links.new(line("Y", PY, PY / 2), mx.inputs[1])
+    # Only inside the surveyed rectangle; plain apron beyond it.
+    inside = None
+    for axis, lo_v, hi_v in (("X", -13.2, 13.2), ("Y", 0.6, 19.4)):
+        g = c.node(nt, "ShaderNodeMath"); g.operation = "GREATER_THAN"; g.inputs[1].default_value = lo_v
+        l = c.node(nt, "ShaderNodeMath"); l.operation = "LESS_THAN"; l.inputs[1].default_value = hi_v
+        nt.links.new(sep.outputs[axis], g.inputs[0]); nt.links.new(sep.outputs[axis], l.inputs[0])
+        both = c.node(nt, "ShaderNodeMath"); both.operation = "MULTIPLY"
+        nt.links.new(g.outputs[0], both.inputs[0]); nt.links.new(l.outputs[0], both.inputs[1])
+        if inside is None:
+            inside = both
+        else:
+            m2 = c.node(nt, "ShaderNodeMath"); m2.operation = "MULTIPLY"
+            nt.links.new(inside.outputs[0], m2.inputs[0]); nt.links.new(both.outputs[0], m2.inputs[1])
+            inside = m2
+    mx2 = c.node(nt, "ShaderNodeMath"); mx2.operation = "MULTIPLY"
+    nt.links.new(mx.outputs[0], mx2.inputs[0]); nt.links.new(inside.outputs[0], mx2.inputs[1])
+    mx = mx2
     # Worn paint: break the lines up with noise.
     wear = c.node(nt, "ShaderNodeTexNoise", Scale=9.0, Detail=6.0)
     mul = c.node(nt, "ShaderNodeMath")
@@ -60,7 +77,7 @@ def apron():
     nt.links.new(tc.outputs["Object"], stain.inputs["Vector"])
     sr = nt.nodes.new("ShaderNodeValToRGB")
     sr.color_ramp.elements[0].position = 0.42
-    sr.color_ramp.elements[0].color = (0.62, 0.6, 0.56, 1)
+    sr.color_ramp.elements[0].color = (0.84, 0.82, 0.79, 1)
     sr.color_ramp.elements[1].position = 0.68
     sr.color_ramp.elements[1].color = (1, 1, 1, 1)
     nt.links.new(stain.outputs["Fac"], sr.inputs["Fac"])
@@ -155,20 +172,22 @@ for i, o in enumerate(outcomes):
         ob.rotation_euler = (lean, 0, push + yaw)
         ob.location = (x - math.sin(push) * math.sin(lean) * FH / 2, y + math.cos(push) * math.sin(lean) * FH / 2, math.cos(lean) * FH / 2 + 0.01)
     else:
-        h = push + rng.uniform(-0.18, 0.18)
+        h = push + rng.uniform(-0.035, 0.035)
         ob.rotation_euler = (math.radians(90), 0, h)
         ob.location = (x - math.sin(h) * FH / 2, y + math.cos(h) * FH / 2, FD / 2)
 bpy.data.objects.remove(proto)
 
 if day:
     c.backdrop(sc, (0.78, 0.74, 0.68), 0.55)
-    c.sun_toward(sc, 7.0, (1.0, 0.9, 0.78), (0.86, 0.36, -0.13), angle_deg=0.5)
+    c.sun_toward(sc, 6.5, (1.0, 0.9, 0.78), (0.62, 0.74, -0.26), angle_deg=0.5)
     c.haze(sc, (0, 120, 8), (400, 220, 16), 0.006, (0.95, 0.92, 0.88))
 else:
     c.backdrop(sc, (0.06, 0.08, 0.16), 0.6)
     c.sun_toward(sc, 0.4, (0.6, 0.7, 1.0), (0.82, 0.4, -0.45), angle_deg=1.5)
     c.haze(sc, (0, 120, 8), (400, 220, 16), 0.01, (0.4, 0.48, 0.78))
 
-cam = c.camera(sc, (-2.2, -1.4, 0.48), (0, 0, 0), 70, focus=6.2, fstop=4.0)
-c.aim(cam, (0.8, 30, 0.35))
+# Elevated three-quarter view through a long lens: the whole 20 x 10 field reads as one instrument,
+# and the 170 losses become the pattern the standing few interrupt.
+cam = c.camera(sc, (-54.0, -54.0, 69.0), (0, 0, 0), 85)
+c.aim(cam, (-1.0, 9.0, 0.0))
 c.render(sc, a["out"])
