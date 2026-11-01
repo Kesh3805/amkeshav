@@ -1,0 +1,12 @@
+{
+  "id": "studio-feixen",
+  "url": "https://www.studiofeixen.ch/",
+  "started": "2026-11-01T11:38:16.619Z",
+  "notes": [
+    "pageerror: $(...).sss is not a function"
+  ],
+  "finalUrl": "https://www.studiofeixen.ch/",
+  "gate": "none",
+  "title": "Studio Feixen",
+  "finished": "2026-11-01T11:40:34.444Z"
+}

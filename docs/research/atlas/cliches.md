@@ -7,7 +7,7 @@ Taken from the 48 GPU captures in this folder (1 Nov 2026), not from opinion alo
 - **The percentage loader.** Seen at Lusion (000 → 079), Fabian Tjoe-A-On (stuck at 069), Mathis Biabiany (stuck at 17), itomdev (60% → 90%), Daiki Fujita (087 → 090), Sea We Breathe (dial). A number counting up is the most common first impression among award sites. It promises spectacle and delays it. Two sites froze on it for more than a minute on real hardware.
 - **Black screen, then a wordmark.** Seen at Active Theory, Junni, Nature Beyond Tech, OceanX and Symphony of Vines. The first four seconds show nothing.
 - **"Best with headphones" / sound gates.** Seen at Voyage Azarien, Sea We Breathe and Unseen. A gate before content is only earned when the gate is itself part of the fiction (Henry Heffernan's BIOS boot, Shader's CRT boot).
-- **"Click to enter" with nothing to see behind it.** Seen at Daiki Fujita, OceanX and Messenger. The visitor commits before they know why.
+- **"Click to enter" with nothing to see behind it.** Seen at Daiki Fujita, OceanX and Messenger. The visitor commits before they know why. (Daiki Fujita and Messenger draw the button inside the canvas, so our automation could not pass it. A person can, so treat those as "interaction not traversed", not as broken sites.)
 
 ## Art direction
 
@@ -34,7 +34,7 @@ Taken from the 48 GPU captures in this folder (1 Nov 2026), not from opinion alo
 
 ## What the clean, premium sites avoid
 
-The calm, finished sites (Immersive Garden, Making Software, Rauno, Kenta Toshikura, Nothin', d/dt, Exo Ape, Lando Norris) do three things the others don't:
-1. **The first frame is already the design.** It is type and one image, with no loader.
+The calm, finished sites (Immersive Garden, Making Software, Rauno, Kenta Toshikura, Nothin', Exo Ape, Non-Objective: Time, OXMAN, Teenage Engineering) mostly do three things the others don't:
+1. **The first frame is already the design.** It is type and one image, with no loader. This is not universal: d/dt has a premium editorial layout but opens on a black frame (first frame 1/5), and Lando Norris opens on a lime splash.
 2. **One material, held all the way through**: plaster relief, blueprint linework, black-and-white portal circles, paper.
 3. **Motion responds to the visitor**, through hover reveals, a helmet wiping away or a cursor sculpting the wordmark, rather than playing at them.

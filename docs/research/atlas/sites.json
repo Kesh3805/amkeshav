@@ -1,56 +1,335 @@
 {
   "about": "The 40 sites for the visual taste calibration (ChatGPT's Creative Direction Atlas). Picked for visual quality and interaction originality alone; the engineering-transfer rankings in top-tier.json were deliberately ignored. Groups: cinematic = visual art direction, interaction = original interaction, both = strong on each.",
   "sites": [
-    { "id": "lusion", "url": "https://lusion.co/", "group": "cinematic", "why": "Studio benchmark for real-time 3D art direction; many juries." },
-    { "id": "igloo", "url": "https://www.igloo.inc/", "group": "cinematic", "why": "Awwwards Site of the Year 2024; ice-sculpted scroll world." },
-    { "id": "unseen", "url": "https://unseen.co/", "group": "cinematic", "why": "Pastel, restrained WebGL studio site; multi-source." },
-    { "id": "activetheory", "url": "https://activetheory.net/", "group": "cinematic", "why": "Long-running real-time studio; spatial navigation." },
-    { "id": "immersive-garden", "url": "https://immersive-g.com/", "group": "cinematic", "why": "Agency known for cinematic transitions." },
-    { "id": "shopify-renaissance", "url": "https://www.shopify.com/editions/winter2026", "group": "cinematic", "why": "Big-budget editorial art direction, framed like a painting." },
-    { "id": "oryzo", "url": "https://oryzo.ai/", "group": "cinematic", "why": "Technical-drawing product story; quiet but exact." },
-    { "id": "nature-beyond-tech", "url": "https://nature-beyond.tech/", "group": "cinematic", "why": "Organic WebGL world, multi-source." },
-    { "id": "voyage-azarien", "url": "https://le-voyage-azarien.art/", "group": "cinematic", "why": "Painterly travelling story." },
-    { "id": "foodforfish", "url": "https://foodforfish.org/", "group": "cinematic", "why": "FWA of the Year 2024, WebGPU." },
-    { "id": "shader-se", "url": "https://www.shader.se/", "group": "cinematic", "why": "Shader-led studio, WebGPU." },
-    { "id": "samsy", "url": "https://samsy.ninja/", "group": "cinematic", "why": "One developer's WebGPU city." },
-    { "id": "daikifujita", "url": "https://daikifujita.com/", "group": "cinematic", "why": "Japanese personal portfolio, real-time scene." },
-    { "id": "oceanx-2025", "url": "https://2025.oceanx.org/", "group": "cinematic", "why": "Year-in-review as an underwater descent." },
-    { "id": "exoape", "url": "https://www.exoape.com/", "group": "cinematic", "why": "Photographic, typographic agency site; editorial pacing." },
-    { "id": "landonorris", "url": "https://landonorris.com/", "group": "cinematic", "why": "Award-winning athlete site; topographic line art." },
-    { "id": "phantom", "url": "https://www.phantom.land/", "group": "cinematic", "why": "Studio site with a dark, sculpted scene." },
-    { "id": "sea-we-breathe", "url": "https://theseawebreathe.com/", "group": "cinematic", "why": "Environmental story told as an ocean world." },
-    { "id": "junni", "url": "https://next.junni.co.jp/", "group": "cinematic", "why": "Japanese studio; playful 3D art direction." },
-    { "id": "symphony-of-vines", "url": "https://symphonyofvines.unseen.co/", "group": "cinematic", "why": "Unseen's narrative vineyard piece." },
-
-    { "id": "messenger", "url": "https://messenger.abeto.co/", "group": "interaction", "why": "Tiny-planet multiplayer letter delivery." },
-    { "id": "radio-garden", "url": "https://radio.garden/", "group": "interaction", "why": "Spin the globe, hear live radio: the world is the navigation." },
-    { "id": "ciechanowski", "url": "https://ciechanow.ski/", "group": "interaction", "why": "Explanation through manipulable simulation." },
-    { "id": "rauno", "url": "https://rauno.me/", "group": "interaction", "why": "Interaction-craft engineer's personal site." },
-    { "id": "henryheffernan", "url": "https://henryheffernan.com/", "group": "interaction", "why": "Portfolio as a usable retro computer; the loader is a BIOS boot." },
-    { "id": "ertdfgcvb", "url": "https://ertdfgcvb.xyz/", "group": "interaction", "why": "Text-mode, ASCII-driven art and tools." },
-    { "id": "zarcero", "url": "https://zarcerog.com/", "group": "interaction", "why": "Portfolio as a cinema box office." },
-    { "id": "carter-ogunsola", "url": "https://carterogunsola.com/", "group": "interaction", "why": "Spatial canvas index of projects." },
-    { "id": "paper-planes", "url": "https://paperplanes.world/", "group": "interaction", "why": "Throw a paper plane carrying a stamp; catch others'." },
-    { "id": "making-software", "url": "https://www.makingsoftware.com/", "group": "interaction", "why": "A beautiful technical manual with diagrams that explain." },
-
-    { "id": "bruno-simon", "url": "https://bruno-simon.com/", "group": "both", "why": "Portfolio as a drivable world; the reference point." },
-    { "id": "ponpon-mania", "url": "https://ponpon-mania.com/", "group": "both", "why": "Character-led playful 3D." },
-    { "id": "fabian-tjoe-a-on", "url": "https://fabiantjoeaon.com/", "group": "both", "why": "WebGPU portfolio with the best fallback we saw." },
-    { "id": "cagdas-cecen", "url": "https://www.cagdascecen.com/", "group": "both", "why": "Media-art portfolio with a data-panel UI and 3D tree." },
-    { "id": "wodniack", "url": "https://wodniack.dev/", "group": "both", "why": "Developer portfolio with a strong graphic system." },
-    { "id": "itomdev", "url": "https://itomdev.com/", "group": "both", "why": "Crumpled-paper physical world; art-directed loader." },
-    { "id": "dbydt", "url": "https://www.dbydt.space/", "group": "both", "why": "Point-cloud portfolio, WebGPU." },
-    { "id": "mathis-biabiany", "url": "https://www.mathis-biabiany.fr/", "group": "both", "why": "Creative developer portfolio, rich transitions." },
-    { "id": "kenta-toshikura", "url": "https://kentatoshikura.com/", "group": "both", "why": "Japanese designer portfolio with a distinctive 3D gallery." },
-    { "id": "nothin", "url": "https://www.noth.in/", "group": "both", "why": "Personal portfolio with a sculpted interactive scene." },
-
-    { "id": "linear", "url": "https://linear.app/", "group": "clean-premium", "why": "Added at Keshav's request (clean and premium, not only unique): the reference for dark, exact product craft." },
-    { "id": "stripe", "url": "https://stripe.com/", "group": "clean-premium", "why": "Premium finish at scale; gradient, type and diagrams." },
-    { "id": "family", "url": "https://family.co/", "group": "clean-premium", "why": "Soft, tactile product craft; micro-interaction as brand." },
-    { "id": "teenage-engineering", "url": "https://teenage.engineering/", "group": "clean-premium", "why": "Industrial-design restraint; objects on white." },
-    { "id": "raycast", "url": "https://www.raycast.com/", "group": "clean-premium", "why": "Developer-tool premium: dark, glassy, precise." },
-    { "id": "arc", "url": "https://arc.net/", "group": "clean-premium", "why": "Warm, confident product storytelling." },
-    { "id": "paco", "url": "https://paco.me/", "group": "clean-premium", "why": "An engineer's personal site: almost nothing, perfectly finished." },
-    { "id": "emilkowalski", "url": "https://emilkowal.ski/", "group": "clean-premium", "why": "Design engineer's site; quiet type, exact motion." }
+    {
+      "id": "lusion",
+      "url": "https://lusion.co/",
+      "group": "cinematic",
+      "why": "Studio benchmark for real-time 3D art direction; many juries."
+    },
+    {
+      "id": "igloo",
+      "url": "https://www.igloo.inc/",
+      "group": "cinematic",
+      "why": "Awwwards Site of the Year 2024; ice-sculpted scroll world."
+    },
+    {
+      "id": "unseen",
+      "url": "https://unseen.co/",
+      "group": "cinematic",
+      "why": "Pastel, restrained WebGL studio site; multi-source."
+    },
+    {
+      "id": "activetheory",
+      "url": "https://activetheory.net/",
+      "group": "cinematic",
+      "why": "Long-running real-time studio; spatial navigation."
+    },
+    {
+      "id": "immersive-garden",
+      "url": "https://immersive-g.com/",
+      "group": "cinematic",
+      "why": "Agency known for cinematic transitions."
+    },
+    {
+      "id": "shopify-renaissance",
+      "url": "https://www.shopify.com/editions/winter2026",
+      "group": "cinematic",
+      "why": "Big-budget editorial art direction, framed like a painting."
+    },
+    {
+      "id": "oryzo",
+      "url": "https://oryzo.ai/",
+      "group": "cinematic",
+      "why": "Technical-drawing product story; quiet but exact."
+    },
+    {
+      "id": "nature-beyond-tech",
+      "url": "https://nature-beyond.tech/",
+      "group": "cinematic",
+      "why": "Organic WebGL world, multi-source."
+    },
+    {
+      "id": "voyage-azarien",
+      "url": "https://le-voyage-azarien.art/",
+      "group": "cinematic",
+      "why": "Painterly travelling story."
+    },
+    {
+      "id": "foodforfish",
+      "url": "https://foodforfish.org/",
+      "group": "cinematic",
+      "why": "FWA of the Year 2024, WebGPU."
+    },
+    {
+      "id": "shader-se",
+      "url": "https://www.shader.se/",
+      "group": "cinematic",
+      "why": "Shader-led studio, WebGPU."
+    },
+    {
+      "id": "samsy",
+      "url": "https://samsy.ninja/",
+      "group": "cinematic",
+      "why": "One developer's WebGPU city."
+    },
+    {
+      "id": "daikifujita",
+      "url": "https://daikifujita.com/",
+      "group": "cinematic",
+      "why": "Japanese personal portfolio, real-time scene."
+    },
+    {
+      "id": "oceanx-2025",
+      "url": "https://2025.oceanx.org/",
+      "group": "cinematic",
+      "why": "Year-in-review as an underwater descent."
+    },
+    {
+      "id": "exoape",
+      "url": "https://www.exoape.com/",
+      "group": "cinematic",
+      "why": "Photographic, typographic agency site; editorial pacing."
+    },
+    {
+      "id": "landonorris",
+      "url": "https://landonorris.com/",
+      "group": "cinematic",
+      "why": "Award-winning athlete site; topographic line art."
+    },
+    {
+      "id": "phantom",
+      "url": "https://www.phantom.land/",
+      "group": "cinematic",
+      "why": "Studio site with a dark, sculpted scene."
+    },
+    {
+      "id": "sea-we-breathe",
+      "url": "https://theseawebreathe.com/",
+      "group": "cinematic",
+      "why": "Environmental story told as an ocean world."
+    },
+    {
+      "id": "junni",
+      "url": "https://next.junni.co.jp/",
+      "group": "cinematic",
+      "why": "Japanese studio; playful 3D art direction."
+    },
+    {
+      "id": "symphony-of-vines",
+      "url": "https://symphonyofvines.unseen.co/",
+      "group": "cinematic",
+      "why": "Unseen's narrative vineyard piece."
+    },
+    {
+      "id": "messenger",
+      "url": "https://messenger.abeto.co/",
+      "group": "interaction",
+      "why": "Tiny-planet multiplayer letter delivery."
+    },
+    {
+      "id": "radio-garden",
+      "url": "https://radio.garden/",
+      "group": "interaction",
+      "why": "Spin the globe, hear live radio: the world is the navigation."
+    },
+    {
+      "id": "ciechanowski",
+      "url": "https://ciechanow.ski/",
+      "group": "interaction",
+      "why": "Explanation through manipulable simulation."
+    },
+    {
+      "id": "rauno",
+      "url": "https://rauno.me/",
+      "group": "interaction",
+      "why": "Interaction-craft engineer's personal site."
+    },
+    {
+      "id": "henryheffernan",
+      "url": "https://henryheffernan.com/",
+      "group": "interaction",
+      "why": "Portfolio as a usable retro computer; the loader is a BIOS boot."
+    },
+    {
+      "id": "ertdfgcvb",
+      "url": "https://ertdfgcvb.xyz/",
+      "group": "interaction",
+      "why": "Text-mode, ASCII-driven art and tools."
+    },
+    {
+      "id": "zarcero",
+      "url": "https://zarcerog.com/",
+      "group": "interaction",
+      "why": "Portfolio as a cinema box office."
+    },
+    {
+      "id": "carter-ogunsola",
+      "url": "https://carterogunsola.com/",
+      "group": "interaction",
+      "why": "Spatial canvas index of projects."
+    },
+    {
+      "id": "paper-planes",
+      "url": "https://paperplanes.world/",
+      "group": "interaction",
+      "why": "Throw a paper plane carrying a stamp; catch others'."
+    },
+    {
+      "id": "making-software",
+      "url": "https://www.makingsoftware.com/",
+      "group": "interaction",
+      "why": "A beautiful technical manual with diagrams that explain."
+    },
+    {
+      "id": "bruno-simon",
+      "url": "https://bruno-simon.com/",
+      "group": "both",
+      "why": "Portfolio as a drivable world; the reference point."
+    },
+    {
+      "id": "ponpon-mania",
+      "url": "https://ponpon-mania.com/",
+      "group": "both",
+      "why": "Character-led playful 3D."
+    },
+    {
+      "id": "fabian-tjoe-a-on",
+      "url": "https://fabiantjoeaon.com/",
+      "group": "both",
+      "why": "WebGPU portfolio with the best fallback we saw."
+    },
+    {
+      "id": "cagdas-cecen",
+      "url": "https://www.cagdascecen.com/",
+      "group": "both",
+      "why": "Media-art portfolio with a data-panel UI and 3D tree."
+    },
+    {
+      "id": "wodniack",
+      "url": "https://wodniack.dev/",
+      "group": "both",
+      "why": "Developer portfolio with a strong graphic system."
+    },
+    {
+      "id": "itomdev",
+      "url": "https://itomdev.com/",
+      "group": "both",
+      "why": "Crumpled-paper physical world; art-directed loader."
+    },
+    {
+      "id": "dbydt",
+      "url": "https://www.dbydt.space/",
+      "group": "both",
+      "why": "Point-cloud portfolio, WebGPU."
+    },
+    {
+      "id": "mathis-biabiany",
+      "url": "https://www.mathis-biabiany.fr/",
+      "group": "both",
+      "why": "Creative developer portfolio, rich transitions."
+    },
+    {
+      "id": "kenta-toshikura",
+      "url": "https://kentatoshikura.com/",
+      "group": "both",
+      "why": "Japanese designer portfolio with a distinctive 3D gallery."
+    },
+    {
+      "id": "nothin",
+      "url": "https://www.noth.in/",
+      "group": "both",
+      "why": "Personal portfolio with a sculpted interactive scene."
+    },
+    {
+      "id": "linear",
+      "url": "https://linear.app/",
+      "group": "clean-premium",
+      "why": "Added at Keshav's request (clean and premium, not only unique): the reference for dark, exact product craft."
+    },
+    {
+      "id": "stripe",
+      "url": "https://stripe.com/",
+      "group": "clean-premium",
+      "why": "Premium finish at scale; gradient, type and diagrams."
+    },
+    {
+      "id": "family",
+      "url": "https://family.co/",
+      "group": "clean-premium",
+      "why": "Soft, tactile product craft; micro-interaction as brand."
+    },
+    {
+      "id": "teenage-engineering",
+      "url": "https://teenage.engineering/",
+      "group": "clean-premium",
+      "why": "Industrial-design restraint; objects on white."
+    },
+    {
+      "id": "raycast",
+      "url": "https://www.raycast.com/",
+      "group": "clean-premium",
+      "why": "Developer-tool premium: dark, glassy, precise."
+    },
+    {
+      "id": "arc",
+      "url": "https://arc.net/",
+      "group": "clean-premium",
+      "why": "Warm, confident product storytelling."
+    },
+    {
+      "id": "paco",
+      "url": "https://paco.me/",
+      "group": "clean-premium",
+      "why": "An engineer's personal site: almost nothing, perfectly finished."
+    },
+    {
+      "id": "emilkowalski",
+      "url": "https://emilkowal.ski/",
+      "group": "clean-premium",
+      "why": "Design engineer's site; quiet type, exact motion."
+    },
+    {
+      "id": "non-objective",
+      "url": "https://non-objective.works/",
+      "group": "chatgpt-round-2",
+      "why": "Proposed by ChatGPT in its cross-check of the 12 finalists (1 Nov 2026): Conceptual graphic design practice; archive and exhibitions with limited runs."
+    },
+    {
+      "id": "oxman",
+      "url": "https://www.oxman.com/",
+      "group": "chatgpt-round-2",
+      "why": "Proposed by ChatGPT in its cross-check of the 12 finalists (1 Nov 2026): Research-institution authority: platforms, applications, the lab."
+    },
+    {
+      "id": "oddworks",
+      "url": "https://oddworks.studio/",
+      "group": "chatgpt-round-2",
+      "why": "Proposed by ChatGPT in its cross-check of the 12 finalists (1 Nov 2026): Precise black-and-white composition with unexpected objects."
+    },
+    {
+      "id": "studio-feixen",
+      "url": "https://www.studiofeixen.ch/",
+      "group": "chatgpt-round-2",
+      "why": "Proposed by ChatGPT in its cross-check of the 12 finalists (1 Nov 2026): Systematic graphic invention: own typefaces, tools, publications."
+    },
+    {
+      "id": "arena",
+      "url": "https://www.are.na/",
+      "group": "chatgpt-round-2",
+      "why": "Proposed by ChatGPT in its cross-check of the 12 finalists (1 Nov 2026): Quiet premium: an information system of connected collections."
+    },
+    {
+      "id": "bisous",
+      "url": "https://bisous-production.com/",
+      "group": "chatgpt-round-2",
+      "why": "Proposed by ChatGPT in its cross-check of the 12 finalists (1 Nov 2026): Controlled CGI inside a restrained editorial frame."
+    },
+    {
+      "id": "nonobjective-time",
+      "url": "https://time.non-objective.works/",
+      "group": "chatgpt-round-2",
+      "why": "Proposed by ChatGPT in its cross-check of the 12 finalists (1 Nov 2026): A conceptual exploration of time and perception."
+    }
   ]
 }

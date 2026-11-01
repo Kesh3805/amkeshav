@@ -4,7 +4,8 @@
     "visual": "Art direction: composition, material, light, colour, typography.",
     "interaction": "How original and meaningful the visitor's agency is.",
     "clean_premium": "Restraint and finish: does it feel expensive and calm?",
-    "first_frame": "What a visitor sees in the first 4 s on real hardware."
+    "first_frame": "What a visitor sees in the first 4 s on real hardware.",
+    "subject_independence": "Added on ChatGPT's advice: does the quality survive once the celebrity, expensive product, commissioned art or brand recognition is removed? Scored for the finalists, the cut finalists and round-2 sites."
   },
   "sites": [
     {
@@ -17,7 +18,8 @@
       "seen": "A sculpted igloo on a snowfield in near-monochrome; scrolling breaks it into a floating ice crystal, then a carved logo ring.",
       "compelling": "One material (ice) held for the whole film; photographic snow; the restraint of grey-blue.",
       "derivative": "Scroll-as-film; ends on the logo.",
-      "for_keshav": "The discipline of one material and one palette."
+      "for_keshav": "The discipline of one material and one palette.",
+      "subject_independence": 3
     },
     {
       "id": "lusion",
@@ -65,7 +67,8 @@
       "seen": "A plain line of type on pale grey; the pointer raises a white plaster bas-relief of birds and flowers out of the page; project films sit in the relief as you scroll.",
       "compelling": "Monochrome relief that reacts to the cursor; editorial serif; the page feels carved, not rendered.",
       "derivative": "Little. The cursor-reveal is common, the material is not.",
-      "for_keshav": "Proof that 'premium' and 'interactive' can be the same thing: quiet first frame, one material, the visitor's hand shapes it."
+      "for_keshav": "Proof that 'premium' and 'interactive' can be the same thing: quiet first frame, one material, the visitor's hand shapes it.",
+      "subject_independence": 4
     },
     {
       "id": "shopify-renaissance",
@@ -77,7 +80,8 @@
       "seen": "A framed title on black, then a Renaissance painting collage with modern props; past the gate, a field of scattered slash-commands (/bundle-finder, /checkout-drops) on parchment, then torn-paper transitions into oil-painting scenes holding phones and code, with huge words (Agentic, Online).",
       "compelling": "Art-historical collage as a coherent system; torn paper as the transition; serif and sans paired with real wit; very expensive.",
       "derivative": "Not repeatable by one person at this production level.",
-      "for_keshav": "Frame-within-frame and torn-paper transitions; one strong visual metaphor applied to dry product news."
+      "for_keshav": "Frame-within-frame and torn-paper transitions; one strong visual metaphor applied to dry product news.",
+      "subject_independence": 1
     },
     {
       "id": "oryzo",
@@ -89,7 +93,8 @@
       "seen": "A technical-drawing loader of a cork ring, then a photoreal cork coaster on a green cutting mat; scroll turns it into a hero object on dark brown with 'Isn't just a coaster.'",
       "compelling": "Photoreal tactility; a drafting-table metaphor; the joke of treating a coaster like a product launch.",
       "derivative": "Product-orbit scroll.",
-      "for_keshav": "The drafting-table and technical-drawing language suits an engineer, and it is calm and expensive."
+      "for_keshav": "The drafting-table and technical-drawing language suits an engineer, and it is calm and expensive.",
+      "subject_independence": 2
     },
     {
       "id": "nature-beyond-tech",
@@ -137,7 +142,8 @@
       "seen": "A blue CRT boot screen as the loader, then a period computer on a moody desk, an office of beige PCs, a page-curl into an 80s brochure with a staff photo.",
       "compelling": "A single governing fiction (an 80s computer company) carried from loader to footer; the loader is a feature.",
       "derivative": "Retro nostalgia is popular, but the commitment is rare.",
-      "for_keshav": "A fiction committed to completely; the boot screen solves the loader problem."
+      "for_keshav": "A fiction committed to completely; the boot screen solves the loader problem.",
+      "subject_independence": 3
     },
     {
       "id": "samsy",
@@ -197,7 +203,8 @@
       "seen": "A lime splash, then a white portrait whose helmet wipes away with the pointer over faint topographic lines; scroll goes to a dark band with a signature, then a scattered photo field.",
       "compelling": "Cursor-as-visor reveal; a tight system (lime, topo lines, serif plus grotesk, signature); feels expensive.",
       "derivative": "Athlete-brand vocabulary.",
-      "for_keshav": "The reveal mechanic: the cursor uncovers a second layer of the same subject."
+      "for_keshav": "The reveal mechanic: the cursor uncovers a second layer of the same subject.",
+      "subject_independence": 1
     },
     {
       "id": "phantom",
@@ -269,7 +276,8 @@
       "seen": "One saturated blue field; the globe is made of green station dots; dragging tunes live radio (it started Chennai).",
       "compelling": "Two colours, no chrome; the world is the control.",
       "derivative": "Nothing.",
-      "for_keshav": "An interface whose entire visual identity is its data."
+      "for_keshav": "An interface whose entire visual identity is its data.",
+      "subject_independence": 4
     },
     {
       "id": "ciechanowski",
@@ -293,7 +301,8 @@
       "seen": "A horizontal strip of white cards on light grey: a name sentence over a yellow circle, then giant cropped words (Craft, Projects), a pixel hand, field notes, and 'Make it fast. Make it beautiful…'.",
       "compelling": "Confident, almost no colour, every element exact; instant first frame; scroll is horizontal and feels designed.",
       "derivative": "Swiss minimalism.",
-      "for_keshav": "The closest thing to a clean, premium engineer's personal site."
+      "for_keshav": "The closest thing to a clean, premium engineer's personal site.",
+      "subject_independence": 5
     },
     {
       "id": "henryheffernan",
@@ -305,7 +314,8 @@
       "seen": "A BIOS boot (the loader), a start dialog, then a soft-lit desk with a beige computer; the camera moves into the monitor, which runs a real portfolio OS.",
       "compelling": "One fiction; the loader is part of it; the render is clean and soft, not gamey.",
       "derivative": "Retro computer nostalgia.",
-      "for_keshav": "A software engineer's portfolio as a machine you use."
+      "for_keshav": "A software engineer's portfolio as a machine you use.",
+      "subject_independence": 4
     },
     {
       "id": "ertdfgcvb",
@@ -365,7 +375,8 @@
       "seen": "A white page, a pixel-mono masthead, serif body and blue isometric exploded diagrams (floppy disk, CRT, keyswitch, hard drive), a chapter index and a progress bar.",
       "compelling": "One illustration language; reads like an expensive technical manual; instant.",
       "derivative": "Nothing.",
-      "for_keshav": "The strongest single reference for an engineer: technical drawing as the visual identity."
+      "for_keshav": "The strongest single reference for an engineer: technical drawing as the visual identity.",
+      "subject_independence": 5
     },
     {
       "id": "bruno-simon",
@@ -437,7 +448,8 @@
       "seen": "Black, then a golden point-cloud of a building beside a menu; entering gives an editorial paper layout: 'Hues of Al'Ula' with photographs, diagrams and orbiting image clusters.",
       "compelling": "Warm editorial layout meets a point-cloud; feels like a monograph.",
       "derivative": "Nothing obvious.",
-      "for_keshav": "Research presented like a monograph; a point-cloud as the frontispiece."
+      "for_keshav": "Research presented like a monograph; a point-cloud as the frontispiece.",
+      "subject_independence": 3
     },
     {
       "id": "mathis-biabiany",
@@ -461,7 +473,8 @@
       "seen": "Black with grain; white circular portals show each project's mark as a silhouette; scroll moves through them (Stone & Style, Drift, Aircord, Garden Eight, Maxilla).",
       "compelling": "Stark black and white; one shape (the circle) as the whole system; very premium.",
       "derivative": "Nothing.",
-      "for_keshav": "A one-shape system for a project index."
+      "for_keshav": "A one-shape system for a project index.",
+      "subject_independence": 4
     },
     {
       "id": "nothin",
@@ -473,7 +486,8 @@
       "seen": "A giant black 'NOTHIN'' on white; a chrome-and-black sculpted figure dives through the letters on hover; scroll turns to dark project mockups and surreal photography.",
       "compelling": "Brutal-clean type with one sculptural intruder.",
       "derivative": "Device mockups.",
-      "for_keshav": "Black-on-white type with one 3D object breaking it."
+      "for_keshav": "Black-on-white type with one 3D object breaking it.",
+      "subject_independence": 4
     },
     {
       "id": "linear",
@@ -521,7 +535,8 @@
       "seen": "One product photographed under a spotlight on black with a dense, tiny, technical nav; scrolling follows its long shadow into a joke: 'This shadow is unrealistically long… are you hiding something?'.",
       "compelling": "Object photography as the whole page; deadpan wit; industrial typography.",
       "derivative": "Nothing.",
-      "for_keshav": "Premium plus a dry joke, which is rare and memorable."
+      "for_keshav": "Premium plus a dry joke, which is rare and memorable.",
+      "subject_independence": 3
     },
     {
       "id": "raycast",
@@ -570,6 +585,96 @@
       "compelling": "Hover states are exact.",
       "derivative": "The minimal-engineer template.",
       "for_keshav": "As Paco."
+    },
+    {
+      "id": "non-objective",
+      "visual": 4,
+      "interaction": 2,
+      "clean_premium": 5,
+      "first_frame": 4,
+      "subject_independence": 4,
+      "capture": "full",
+      "seen": "A white page with a tiny hand-drawn mark and one sentence; scrolling opens black-and-white photo grids, vertical micro-type and exhibition notes.",
+      "compelling": "Gallery quiet; confidence to leave the page almost empty.",
+      "derivative": "Minimal-studio vocabulary.",
+      "for_keshav": "Authority through restraint and authorship, not effects."
+    },
+    {
+      "id": "oxman",
+      "visual": 5,
+      "interaction": 2,
+      "clean_premium": 5,
+      "first_frame": 5,
+      "subject_independence": 3,
+      "capture": "full",
+      "seen": "A lab video (plants in white planters, a scientist) under a huge hairline OXMAN and a thin circle; then a white research page: 'From bacteria to bacteria', 'One material. One biome.', the research team credited by name, specimen photographs and a large number.",
+      "compelling": "A research lab presented with institutional authority; credits and evidence are part of the design.",
+      "derivative": "Nothing.",
+      "for_keshav": "The closest model for presenting research: claim, team, specimen, number, all calm."
+    },
+    {
+      "id": "oddworks",
+      "visual": 5,
+      "interaction": 3,
+      "clean_premium": 4,
+      "first_frame": 2,
+      "subject_independence": 4,
+      "capture": "full",
+      "seen": "Blurred thumbnails while loading, then a huge black ink logotype, a dry line ('Design and art services, creative direction, fun') and playful graphic objects: wooden letters, books, type specimens.",
+      "compelling": "Precise layout carrying genuinely playful objects.",
+      "derivative": "Studio-portfolio grid.",
+      "for_keshav": "Premium can be funny if the grid stays exact."
+    },
+    {
+      "id": "studio-feixen",
+      "visual": 4,
+      "interaction": 2,
+      "clean_premium": 4,
+      "first_frame": 3,
+      "subject_independence": 3,
+      "capture": "partial (the works grid never lazy-loaded)",
+      "seen": "A collage of their publications and posters, then phones with their graphic tools; the work index stayed blank.",
+      "compelling": "Their own tools and type are the content.",
+      "derivative": "",
+      "for_keshav": "Show your instruments, not only your outputs."
+    },
+    {
+      "id": "arena",
+      "visual": 3,
+      "interaction": 3,
+      "clean_premium": 4,
+      "first_frame": 5,
+      "subject_independence": 5,
+      "capture": "full",
+      "seen": "A plain white page: 'Are.na is a) … b) … c) +', 'For the last 15 years and 84 days…', a product walkthrough, editorial cards, navy footer.",
+      "compelling": "A live, exact age ('15 years and 84 days'); lettered list as the headline; honest business-model copy.",
+      "derivative": "Nothing.",
+      "for_keshav": "A true, live number in a sentence; humility as premium."
+    },
+    {
+      "id": "bisous",
+      "visual": 0,
+      "interaction": 0,
+      "clean_premium": 0,
+      "first_frame": 0,
+      "capture": "failed (its firewall blocked our IP)",
+      "seen": "",
+      "compelling": "",
+      "derivative": "",
+      "for_keshav": "Unreachable."
+    },
+    {
+      "id": "nonobjective-time",
+      "visual": 5,
+      "interaction": 3,
+      "clean_premium": 5,
+      "first_frame": 4,
+      "subject_independence": 5,
+      "capture": "full",
+      "seen": "A grid of hundreds of hand-drawn clock faces in navy on pale lavender, each a different idea of time (in centimetres, as a spiral, as words, as 'earlier / later', as fractions); a NON-OBJECTIVE title and short statement.",
+      "compelling": "One question answered a hundred ways; a strict system with endless invention inside it; no budget, no product, no GPU.",
+      "derivative": "Nothing.",
+      "for_keshav": "The strongest model of 'one idea, rigorously varied'. It is also about time, which is close to Keshav's own record of how his thinking changed."
     },
     {
       "id": "cagdas-cecen",
