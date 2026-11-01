@@ -48,3 +48,4 @@ next-env.d.ts
 
 # rendered plates are reproducible from art/*.py
 /art/renders/
+__pycache__/
