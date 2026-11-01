@@ -40,3 +40,11 @@ The gate from [`../direction.md`](../direction.md): static pages judged with not
 - **The GST phone layout depended on its text.** It is redrawn as before and after side by side, with one representative path each, the repetition stated ("× every cell", "× every source, per cell"), and the same two sources at the foot of both columns.
 
 ChatGPT's single biggest weakness, which shaped both fixes: "The visual language currently looks more authoritative than the evidence distinctions it communicates."
+
+## Round 3: gate passed (1 Nov 2026)
+
+ChatGPT re-checked the committed images. **Still gate: PASS** for Cover B / type 1, the GST sheet (desktop and phone) and the FRONTIER sheet (desktop and phone), including greyscale and the Making Software comparison.
+
+One correction was applied before Keshav saw it: the FRONTIER headline "The saving was real in the model, and only there" overstated the case, because 6.4% of wall time *was* saved. It now reads **"The large saving existed only in the charge model."** The phone sheet's assumption label was also given slightly larger type.
+
+**Still to come from Keshav:** his judgement of the pixels. Motion is prototyped only after he approves.

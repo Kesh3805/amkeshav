@@ -292,7 +292,7 @@ function frontier(host, narrow, compact) {
   line(s, cx, cy + 13, cx, b2.y - 2, "thin");
   // The revision: the assumption linking the two bars, not either number.
   const fx = narrow ? 0 : W * 0.4, fy = (b1.y + b2.y + b1.h) / 2 + (narrow ? 10 : -8);
-  txt(s, fx, fy, "Assumed: charge tracks time · refuted, exp-009", "lab acc-t", "start", halo);
+  txt(s, fx, fy, "Assumed: charge tracks time · refuted, exp-009", "lab acc-t", "start", narrow ? { style: halo.style + ";font-size:11.5px" } : halo);
   lines(s, fx, fy + 22, narrow ? ["schematic: the same 199 cases, placed", "by the fitted timing (≈ 120.5 ms + 0.05 ms", "per case)"]
     : ["schematic: the same 199 cases, placed by the fitted timing (≈ 120.5 ms + 0.05 ms per case)"], "note", 19, "start");
   [...s.querySelectorAll("text")].slice(-3).forEach((t) => t.setAttribute("style", "paint-order:stroke;stroke:var(--paper);stroke-width:6px;stroke-linejoin:round"));
