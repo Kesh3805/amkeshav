@@ -35,3 +35,13 @@ Three critique rounds with ChatGPT, judged on the pixels:
 | Test Site | Reject — dominoes, focus on one fin | Its verdict was of a stale cached image | Elevated system view. Not yet judged: ChatGPT's environment couldn't fetch the new file |
 
 Previews for review: `preview/*-r3.jpg`. Keshav makes the final call.
+
+## Prototype (approved direction → motion gate)
+
+Live at `/prototype/` on the preview (not linked, noindex). Recording: `prototype.mp4` (26 s). Beats: `prototype-beats.png`.
+
+- Each plate has a ray-cast depth map (`art/*.py` with `DEPTH=…`); a WebGL shader (`src/components/prototype/depthStage.ts`) moves a virtual camera with parallax.
+- One rule joins the scenes: light comes from a visible source. The K's doorway light contracts into the far end of the vault. The record's light travels outward, and the test site emerges from it.
+- Close-up plates (`SHOT=close`) replace extreme zooms: at the vault bay, and among the test-site markers before the rise to the full field.
+- ChatGPT's motion review drove the second version. Its verdict on timing and continuity is still pending: it can't load video from GitHub, so it needs `prototype.mp4` attached directly.
+- Known artifact: a faint strip of duplicated floor above the cube during the opening push, from depth-edge reprojection.
