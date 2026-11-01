@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Frame 2 — The Vault</title>
+    <link rel="stylesheet" href="frames.css" />
+    <style>
+      .frame {
+        background-image: url("../renders/vault.png");
+      }
+      .head {
+        position: absolute;
+        left: 64px;
+        top: 112px;
+        display: grid;
+        gap: 8px;
+      }
+      .sentence {
+        position: absolute;
+        left: 50%;
+        bottom: 128px;
+        transform: translateX(-50%);
+        margin: 0;
+        width: 1100px;
+        text-align: center;
+        font-size: 58px;
+        line-height: 1.04;
+        text-shadow: 0 2px 30px rgba(0, 0, 0, 0.35);
+      }
+      .foot {
+        position: absolute;
+        left: 50%;
+        bottom: 72px;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 40px;
+        white-space: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame dark">
+      <div class="nav">
+        <span class="mark">KESHAV<i></i></span>
+        <span class="links"><span>Work</span><span>Research</span><span>Writing</span><span>About</span></span>
+      </div>
+      <div class="head">
+        <span class="label">02 — Production</span>
+        <span class="label">GST compliance &amp; document AI · jpteam / C1X</span>
+      </div>
+      <p class="sentence serif-line">The writers maintain the state.<br />The reader fetches one row.</p>
+      <div class="foot">
+        <span class="label">Returns status at peak · 3,000ms+ → under 15ms</span>
+        <span class="label">Case study →</span>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&display=block");
+
+:root {
+  --ink: #141413;
+  --paper: #f1efe9;
+  --signal: #2a2dff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+  background: #000;
+}
+
+.frame {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background-size: cover;
+  background-position: center;
+  color: var(--ink);
+  font-family: "Newsreader", serif;
+}
+
+.frame.dark {
+  color: var(--paper);
+}
+
+.nav {
+  position: absolute;
+  top: 40px;
+  left: 64px;
+  right: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mark {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 4px;
+  font-family: "Anybody", sans-serif;
+  font-weight: 900;
+  font-variation-settings: "wdth" 70;
+  font-size: 26px;
+  line-height: 0.8;
+  letter-spacing: 0.01em;
+}
+
+.mark i {
+  width: 6px;
+  height: 6px;
+  background: var(--signal);
+  display: block;
+}
+
+.links {
+  display: flex;
+  gap: 36px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.label {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.78;
+}
+
+.serif-line {
+  font-family: "Newsreader", serif;
+  font-weight: 380;
+  letter-spacing: -0.015em;
+}
