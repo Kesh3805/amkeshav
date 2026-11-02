@@ -85,6 +85,50 @@ Gate check (ChatGPT's brief):
 - Pass: stone, leather (grain tiled at 6–13 cm), walnut, shelf variety.
 - Fail: brass shows the plate scan's rivets, and the sconce arm is faceted.
 
+### Section pass 2: brass, sconce, books (ChatGPT's gate before hero-002)
+
+- **Brass** is now Gemini's procedural recipe, with no scan. It darkens to oil-rubbed bronze in crevices
+  (local AO), has stretched handling-wear roughness, radial anisotropy 0.65 so brushed highlights wrap
+  turned parts, and Voronoi tooling scratches.
+- **The sconce** is turned hardware: an ogee rose, a continuous swan-neck arm (Bézier tube with
+  parallel-transport frames, tapering), a collar, cup and bobeche, and a frosted shade. It sits proud of
+  the reeds.
+- **Books** have rounded fore-edge corners on the boards, 3 mm squares over the text block, and rolled
+  headcaps at head and tail.
+
+### Propagation: the chamber on the kit
+
+`bay.py` writes the pilaster, case, books and sconce once, in a bay's local frame. The rotunda's bays are
+now flat facets of a 16-sided wall (apothem 11.65 m), so the case fronts meet the gallery walkways. Each bay
+has:
+
+- a giant-order reeded pilaster
+- three walnut cases of bound volumes
+- an ashlar facet
+
+Every bay and tier has its own random stream (Gemini's "twin-bay syndrome"). The inverted niches hang
+their books from the shelf above. The entrance bay is a masonry arch of 13 voussoirs with a projecting
+keystone. Bays behind the hero camera (θ 100–260°) use simple books to keep CPU renders tractable.
+
+### Desk, folio and plumb lines (ChatGPT: verify the desk before hero-002)
+
+- **The reading desk** (`bay.reading_desk`) is a library table:
+  - a 50 mm walnut top with a moulded thumbnail edge
+  - a dark-green tooled leather inset with a gilt fillet
+  - a recessed frieze with two drawers a side and turned brass knobs
+  - four turned baluster legs on cast brass sabots (Gemini), joined by an H-stretcher
+- **The folio** (`bay.folio`) is the FRONTIER volume lying closed: rounded fore-edge boards, 3 mm squares,
+  a rounded spine with five raised bands, and a gilt double rule with a central ring. There is no baked
+  title, by the contract; the title lives in HTML.
+- **The plumb lines** (`bay.plumb`) are turned brass stands: a weighted foot, a column with a finial, an arm,
+  a fine line, and a turned bob hanging along the surface's own "down".
+- **The desk lamp** is turned brass on the desk, and the desk light is a spot inside its shade.
+- **Light:** the sun is reduced from 36 to 22 W/m², which was washing the walnut out under the shaft.
+
+`crops.py` cuts the brief's gate crops (desk, anomaly, pilaster-wall, books, sconce, instrument) from a hero
+frame at 100 %, and builds a matched hero-001 / hero-002 lighting comparison. `EXR=1` writes a 32-bit
+scene-linear EXR next to each PNG.
+
 ## Build
 
 Blender 5.2, headless, seed 1102. Fetch the textures once with `python art/textures/fetch.py`.

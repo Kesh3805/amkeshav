@@ -81,6 +81,27 @@ class Mesh:
             frames.append((p, side, up))
         self.sweep(frames, profile, closed=closed)
 
+    def tube(self, points, radii, sides=16):
+        """A round tube along a smooth path with rotation-minimising frames; `radii` tapers per point."""
+        frames, n_prev = [], None
+        for i, p in enumerate(points):
+            t = (points[min(i + 1, len(points) - 1)] - points[max(i - 1, 0)]).normalized()
+            if n_prev is None:
+                ref = Z if abs(t.dot(Z)) < 0.9 else X
+                n_prev = t.cross(ref).normalized()
+            n = (n_prev - t * n_prev.dot(t)).normalized()  # parallel transport: no twist along the arm
+            frames.append((p, n, t.cross(n).normalized()))
+            n_prev = n
+        b = len(self.v)
+        for (p, n, bn), r in zip(frames, radii):
+            for k in range(sides):
+                a = 2 * math.pi * k / sides
+                self.v.append(p + n * (r * math.cos(a)) + bn * (r * math.sin(a)))
+        for s in range(len(points) - 1):
+            for k in range(sides):
+                q = (k + 1) % sides
+                self._face((b + s * sides + k, b + s * sides + q, b + (s + 1) * sides + q, b + (s + 1) * sides + k))
+
     def lathe(self, profile, base, steps=24, axis_up=Z):
         """Turn an (r, h) outline about a vertical axis at `base` (balusters, finials, bobs)."""
         ref = X if abs(axis_up.dot(X)) < 0.9 else Y
@@ -170,7 +191,7 @@ def principled(name):
     return m, nt, nt.nodes["Principled BSDF"], nt.nodes.new("ShaderNodeTexCoord")
 
 
-def pbr(name, asset, tile_m, tint=None, keep=0.0, rough=(0.0, 1.0), normal=1.0, metallic=0.0, bevel=0.01, seed=0):
+def pbr(name, asset, tile_m, tint=None, keep=0.0, rough=(0.0, 1.0), normal=1.0, metallic=0.0, bevel=0.01, seed=0, contrast=1.0):
     """Scanned CC0 PBR set (art/textures/fetch.py), box-projected in object space at real-world scale:
     one tile spans `tile_m` metres. `tint` recolours the scan while `keep` of its own colour survives;
     roughness is remapped into `rough`; normal map and a shading bevel are chained so edges catch light."""
@@ -194,8 +215,14 @@ def pbr(name, asset, tile_m, tint=None, keep=0.0, rough=(0.0, 1.0), normal=1.0, 
         nt.links.new(colour, bw.inputs["Color"])
         detail = nt.nodes.new("ShaderNodeMath")
         detail.operation = "MULTIPLY"
-        detail.inputs[1].default_value = 1.0 / SCAN_MEAN[asset]
+        detail.inputs[1].default_value = contrast / SCAN_MEAN[asset]
         nt.links.new(bw.outputs["Val"], detail.inputs[0])
+        if contrast != 1.0:  # 1 + contrast·(bw/mean − 1): keep the scan's pattern, scale its swing
+            off = nt.nodes.new("ShaderNodeMath")
+            off.operation = "ADD"
+            off.inputs[1].default_value = 1.0 - contrast
+            nt.links.new(detail.outputs["Value"], off.inputs[0])
+            detail = off
         mul = nt.nodes.new("ShaderNodeMix")
         mul.data_type, mul.blend_type = "RGBA", "MULTIPLY"
         mul.inputs["Factor"].default_value = 1.0
@@ -220,6 +247,65 @@ def pbr(name, asset, tile_m, tint=None, keep=0.0, rough=(0.0, 1.0), normal=1.0, 
     nt.links.new(nm.outputs["Normal"], bev.inputs["Normal"])
     nt.links.new(bev.outputs["Normal"], bsdf.inputs["Normal"])
     bsdf.inputs["Metallic"].default_value = metallic
+    return m
+
+
+def bezier(p0, p1, p2, p3, n):
+    """Points on a cubic Bézier."""
+    out = []
+    for k in range(n + 1):
+        t = k / n
+        out.append(p0 * (1 - t) ** 3 + p1 * (3 * t * (1 - t) ** 2) + p2 * (3 * t * t * (1 - t)) + p3 * t ** 3)
+    return out
+
+
+def aged_brass(name):
+    """Gemini's recipe for library brass, no scan: brass darkening to oil-rubbed bronze in crevices (local AO),
+    handling-worn stretched roughness, radial anisotropy so brushed highlights wrap turned parts, and fine
+    tooling scratches from a Voronoi edge field."""
+    m, nt, bsdf, tc = principled(name)
+    ao = nt.nodes.new("ShaderNodeAmbientOcclusion")
+    ao.samples, ao.only_local = 8, True
+    ao.inputs["Distance"].default_value = 0.03
+    cav = nt.nodes.new("ShaderNodeMapRange")
+    cav.inputs["From Min"].default_value, cav.inputs["From Max"].default_value = 0.45, 1.0
+    nt.links.new(ao.outputs["AO"], cav.inputs["Value"])
+    mix = nt.nodes.new("ShaderNodeMix")
+    mix.data_type = "RGBA"
+    mix.inputs["A"].default_value = (*srgb("#5E4A32"), 1)
+    mix.inputs["B"].default_value = (*srgb("#BFA16B"), 1)
+    nt.links.new(cav.outputs["Result"], mix.inputs["Factor"])
+    nt.links.new(mix.outputs["Result"], bsdf.inputs["Base Color"])
+    mp = nt.nodes.new("ShaderNodeMapping")
+    mp.inputs["Scale"].default_value = (18.0, 18.0, 110.0)  # stretched: wear runs along the handled direction
+    nt.links.new(tc.outputs["Object"], mp.inputs["Vector"])
+    wear = nt.nodes.new("ShaderNodeTexNoise")
+    wear.inputs["Detail"].default_value = 6.0
+    nt.links.new(mp.outputs["Vector"], wear.inputs["Vector"])
+    rr = nt.nodes.new("ShaderNodeMapRange")
+    rr.inputs["To Min"].default_value, rr.inputs["To Max"].default_value = 0.28, 0.46
+    nt.links.new(wear.outputs["Fac"], rr.inputs["Value"])
+    nt.links.new(rr.outputs["Result"], bsdf.inputs["Roughness"])
+    bsdf.inputs["Metallic"].default_value = 1.0
+    bsdf.inputs["Anisotropic"].default_value = 0.65
+    tan = nt.nodes.new("ShaderNodeTangent")
+    tan.direction_type, tan.axis = "RADIAL", "Z"
+    nt.links.new(tan.outputs["Tangent"], bsdf.inputs["Tangent"])
+    vor = nt.nodes.new("ShaderNodeTexVoronoi")
+    vor.feature = "DISTANCE_TO_EDGE"
+    vor.inputs["Scale"].default_value = 420.0
+    nt.links.new(tc.outputs["Object"], vor.inputs["Vector"])
+    line = nt.nodes.new("ShaderNodeMapRange")
+    line.inputs["From Min"].default_value, line.inputs["From Max"].default_value = 0.0, 0.04
+    line.inputs["To Min"].default_value, line.inputs["To Max"].default_value = 1.0, 0.0
+    nt.links.new(vor.outputs["Distance"], line.inputs["Value"])
+    bump = nt.nodes.new("ShaderNodeBump")
+    bump.inputs["Strength"].default_value, bump.inputs["Distance"].default_value = 0.12, 0.0002
+    nt.links.new(line.outputs["Result"], bump.inputs["Height"])
+    bev = nt.nodes.new("ShaderNodeBevel")
+    bev.samples, bev.inputs["Radius"].default_value = 8, 0.0012
+    nt.links.new(bev.outputs["Normal"], bump.inputs["Normal"])
+    nt.links.new(bump.outputs["Normal"], bsdf.inputs["Normal"])
     return m
 
 
@@ -255,6 +341,14 @@ def paper(name):
     return m
 
 
+def frosted(name):
+    m, nt, bsdf, tc = principled(name)
+    bsdf.inputs["Base Color"].default_value = (1.0, 0.93, 0.82, 1)
+    bsdf.inputs["Transmission Weight"].default_value = 1.0
+    bsdf.inputs["Roughness"].default_value = 0.45
+    return m
+
+
 def emissive(name, rgb, strength):
     m, nt, bsdf, tc = principled(name)
     bsdf.inputs["Base Color"].default_value = (*rgb, 1)
@@ -277,11 +371,12 @@ def materials():
     M.stone = pbr("limestone", "beige_wall_001", 2.2, tint=srgb("#9A9284"), keep=0.55, rough=(0.55, 0.9), normal=0.8, bevel=0.012)
     M.masonry = pbr("masonry", "sandstone_blocks_08", 2.4, tint=srgb("#A39A8A"), keep=0.5, rough=(0.5, 0.9), normal=1.0, bevel=0.012)
     M.floor = pbr("floor", "marble_01", 3.0, tint=srgb("#2A2A27"), keep=0.15, rough=(0.08, 0.32), normal=0.4, bevel=0.004)
-    M.wood = pbr("walnut", "dark_wood", 1.6, tint=srgb("#3B2A20"), keep=0.4, rough=(0.3, 0.6), normal=0.6, bevel=0.004)
-    M.brass = pbr("brass", "metal_plate", 0.8, tint=srgb("#B08A55"), keep=0.0, rough=(0.16, 0.48), normal=0.25, metallic=1.0, bevel=0.0015)
+    M.wood = pbr("walnut", "dark_wood", 1.6, tint=srgb("#231B16"), keep=0.0, rough=(0.3, 0.55), normal=0.4, bevel=0.004, contrast=0.45)  # quiet, dark, oiled
+    M.brass = aged_brass("brass")
     M.gilt = gold_leaf("gilt")
     M.paper = paper("page_edges")
     M.bulb = emissive("bulb", (1.0, 0.75, 0.48), 25.0)
+    M.glass = frosted("frosted_glass")
     M.books = [pbr(f"binding_{k}", "brown_leather", 0.06 + 0.008 * k, tint=srgb(h), keep=0.12, rough=rr, normal=0.9, bevel=0.0015, seed=k)
                for k, (h, rr, _) in enumerate(BINDINGS)]
     M.book_weights = [w for *_, w in BINDINGS]

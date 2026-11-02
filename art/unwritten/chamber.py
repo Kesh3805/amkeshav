@@ -13,7 +13,11 @@ from mathutils import Vector
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
+sys.path.insert(0, HERE)
 import common as c
+import kit
+import bay
+from types import SimpleNamespace
 
 LOOK = os.environ.get("LOOK", "hero")
 a = c.args({"out": os.path.join(HERE, "..", "renders", "unwritten"), "w": 1280, "h": 720, "samples": 48, "mood": LOOK})
@@ -267,25 +271,18 @@ def pbr(name, asset, tile_m, tint=None, keep=0.0, rough=(0.0, 1.0), normal=1.0, 
 
 
 if LOOK == "hero":
-    STONE = pbr("limestone", "beige_wall_001", 2.2, tint=srgb("#9A9284"), keep=0.55, rough=(0.55, 0.9), normal=0.8, bevel=0.02)
-    MASONRY = pbr("masonry", "sandstone_blocks_08", 2.4, tint=srgb("#A39A8A"), keep=0.5, rough=(0.5, 0.9), normal=1.0, bevel=0.02)
-    FLOOR = pbr("floor", "marble_01", 3.0, tint=srgb("#2A2A27"), keep=0.15, rough=(0.08, 0.32), normal=0.4, bevel=0.01)
-    WOOD = pbr("walnut", "dark_wood", 1.6, tint=srgb("#3B2A20"), keep=0.4, rough=(0.3, 0.6), normal=0.6, bevel=0.006)
-    METAL = pbr("brass", "metal_plate", 0.8, tint=srgb("#B08A55"), keep=0.0, rough=(0.16, 0.48), normal=0.25, metallic=1.0, bevel=0.003)
-    FOLIO = pbr("folio_oxide", "brown_leather", 0.35, tint=srgb("#874B43"), keep=0.2, rough=(0.4, 0.75), normal=0.9, bevel=0.008)
+    M = kit.materials()
+    STONE, MASONRY, FLOOR, WOOD, METAL = M.stone, M.masonry, M.floor, M.wood, M.brass
+    FOLIO = pbr("folio_oxide", "brown_leather", 0.12, tint=srgb("#5E261F"), keep=0.08, rough=(0.38, 0.7), normal=0.9, bevel=0.004)
     ENAMEL = polished("abyss_enamel", srgb("#273B43"), 0.18, 0.3)
-    BOOKS = [pbr(f"book_{k}", "brown_leather", 0.3 + 0.07 * k, tint=srgb(h), keep=0.12, rough=rr, normal=0.9, bevel=0.005, seed=k)
-             for k, (h, rr) in enumerate((
-                 ("#5A1A16", (0.35, 0.7)), ("#3B1410", (0.45, 0.8)), ("#1F3326", (0.5, 0.85)), ("#18233F", (0.45, 0.8)),
-                 ("#6B4A2B", (0.3, 0.65)), ("#3A2618", (0.4, 0.75)), ("#151515", (0.25, 0.6)), ("#B9A88A", (0.65, 0.95)),
-                 ("#1E3A3D", (0.5, 0.85)), ("#7A3A1E", (0.35, 0.7))))]
-    BOOK_WEIGHTS = (14, 10, 8, 8, 12, 14, 6, 5, 4, 9)
+    BOOKS, BOOK_WEIGHTS = M.books, M.book_weights
 else:
     STONE = FLOOR = WOOD = MASONRY = c.flat("clay", (0.52, 0.51, 0.49), rough=0.85)
     METAL = c.flat("clay_brass", (0.62, 0.58, 0.5), rough=0.35, metallic=1.0)
     FOLIO = c.flat("clay_folio", (0.42, 0.25, 0.22), rough=0.7)
     ENAMEL = c.flat("clay_books", (0.26, 0.255, 0.25), rough=0.8)
     BOOKS, BOOK_WEIGHTS = [ENAMEL], (1,)
+    M = SimpleNamespace(books=BOOKS, book_weights=BOOK_WEIGHTS, paper=STONE, gilt=METAL, stone=STONE, masonry=MASONRY, wood=WOOD, brass=METAL)
 WARM_BULB = c.flat("bulb", (1, 0.8, 0.55), emission=(1.0, 0.72, 0.42), strength=40.0)
 
 
@@ -325,9 +322,6 @@ m.build("C01_FLOOR", FLOOR, shell)
 m = Mesh()
 m.revolve(rect(R_WALL, R_WALL_OUT, 0, Z_SPRING), 0, 0, 128, full=True)
 wall = m.build("C01_WALL", STONE, shell)  # one closed ring, so the entrance boolean stays manifold
-m = Mesh()
-m.revolve(rect(12.4, R_WALL - 0.002, Z_SPRING - 0.3, Z_SPRING + 0.25), 0, 0, 128, full=True)  # springline cornice
-m.build("C01_CORNICE", STONE, shell)
 
 # Entrance: an arched opening 3.4 m × 5.8 m at the south, cut through the wall.
 bpy.ops.mesh.primitive_cube_add(size=1, location=(0, -13.6, (5.8 - 1.7) / 2))
@@ -341,92 +335,66 @@ for cutter in (cut, arch):
     mod.object = cutter
     cutter.hide_render = cutter.hide_viewport = True
 
-# ---------------------------------------------------------------- pilasters + springline arches
-m = Mesh()
-for i in range(16):
-    th = (i + 0.5) * 22.5
-    m.box_at(R_PIL, th, 0.35, 0.92, 0.92, 0.7)  # plinth
-    m.box_at(R_PIL, th, 0.76, 0.78, 0.78, 0.12)  # base moulding
-    m.box_at(R_PIL, th, (0.82 + Z_SPRING - 0.45) / 2, 0.62, 0.62, Z_SPRING - 0.45 - 0.82)
-    m.box_at(R_PIL, th, Z_SPRING - 0.5, 0.74, 0.74, 0.1)  # necking
-    m.box_at(R_PIL, th, Z_SPRING - 0.45 + 0.2, 0.9, 0.9, 0.4)  # capital
-m.build("C01_PILASTERS", STONE, shell)
-
-m = Mesh()
-for i in range(16):
-    th = i * 22.5
-    o, T = polar(R_PIL, th), tangent(th)
-    seg = 24
-    for s in range(seg):
-        p0, p1 = math.pi * s / seg, math.pi * (s + 1) / seg
-        q0 = o + T * (1.775 * math.cos(p0)) + Z * (Z_SPRING - 1.5 + 1.5 * math.sin(p0))
-        q1 = o + T * (1.775 * math.cos(p1)) + Z * (Z_SPRING - 1.5 + 1.5 * math.sin(p1))
-        d = q1 - q0
-        m.obox((q0 + q1) / 2, d.normalized(), radial(th), d.normalized().cross(radial(th)), d.length + 0.02, 0.6, 0.3)
-m.build("C01_VAULT_ARCHES", STONE, shell)
-
-# ---------------------------------------------------------------- shelving: 16 bays × 3 tiers
+# ---------------------------------------------------------------- 16 faceted bays (bay.py)
+# Each bay is a flat facet of a 16-sided wall at apothem BAY_A, so the case fronts meet the gallery
+# walkways (r = 11.2). Giant-order reeded pilasters stand at the facet corners from floor to springline.
+BAY_A, CASE_D = 11.65, 0.45
+HALF_CHORD = BAY_A * math.tan(math.radians(11.25))
+CASE_TIERS = ((0.35, 5.55), (GALLERY_Z[0], 11.55), (GALLERY_Z[1], 17.6))
+ENT_W, ENT_H = 3.4, 5.8
 shelves = collection("C01_SHELVES")
-frames_m, books_m = Mesh(), Mesh()
-HALF = math.degrees(3.65 / ((R_SHELF0 + R_SHELF1) / 2)) / 2
-R_SPINE = R_SHELF0 + 0.22  # book spines sit near the front of the case, where light reaches them
+stone_m, reeds_m, wall_m, wood_m = kit.Mesh(), kit.Mesh(), kit.Mesh(), kit.Mesh()
 frame_count = 0
 for i in range(16):
     th_c = i * 22.5
-    for t, (z0, z1) in enumerate(TIERS):
+    T = tangent(th_c)
+    f = bay.Frame(polar(BAY_A, th_c) - T * HALF_CHORD, T, radial(th_c))
+    L = 2 * HALF_CHORD
+    bay.pilaster(stone_m, reeds_m, f, 0.0, Z_SPRING, 0.62, 0.42)
+    if i == ENTRANCE_BAY:
+        # Ashlar around the entrance, with a semicircular arch of 13 voussoirs and a keystone.
+        x0, x1 = HALF_CHORD - ENT_W / 2, HALF_CHORD + ENT_W / 2
+        f.box(wall_m, 0, 0, 0, x0, 0.5, Z_SPRING)
+        f.box(wall_m, x1, 0, 0, L, 0.5, Z_SPRING)
+        f.box(wall_m, x0, 0, ENT_H + 0.55, x1, 0.5, Z_SPRING)
+        rad = ENT_W / 2
+        for k in range(13):
+            a0, a1 = math.pi * k / 13, math.pi * (k + 1) / 13
+            am = (a0 + a1) / 2
+            mid = f.p(HALF_CHORD + (rad + 0.25) * math.cos(am), 0.2, ENT_H - rad + (rad + 0.25) * math.sin(am))
+            radial_dir = f.dir(math.cos(am), 0, math.sin(am))
+            tang_dir = f.dir(-math.sin(am), 0, math.cos(am))
+            wall_m.obox(mid - f.N * (0.06 if k == 6 else 0.0), tang_dir, f.N, radial_dir, (rad + 0.25) * (a1 - a0) - 0.012, 0.55 + (0.12 if k == 6 else 0), 0.5)
+        for side in (-1, 1):  # spandrels between the arch and the square head
+            for k in range(6):
+                zz = ENT_H - rad + rad * k / 6
+                half = math.sqrt(max(0.0, (rad + 0.5) ** 2 - (zz - (ENT_H - rad)) ** 2))
+                xa = HALF_CHORD + side * half
+                xb = x1 if side > 0 else x0
+                f.box(wall_m, min(xa, xb), 0.05, zz, max(xa, xb), 0.45, zz + rad / 6 + 0.01)
+        # The passage through to the outer wall.
+        for xs in (x0, x1):
+            f.box(wall_m, xs - (0.3 if xs == x0 else 0), 0.5, 0, xs + (0.3 if xs == x1 else 0), 3.0, ENT_H + 0.55)
+        f.box(wall_m, x0 - 0.3, 0.5, ENT_H, x1 + 0.3, 3.0, ENT_H + 0.6)
+    else:
+        f.box(wall_m, 0, 0, 0, L, 0.5, Z_SPRING)  # coursed ashlar facet behind the cases
+    for t, (z0, z1) in enumerate(CASE_TIERS):
         if i == ENTRANCE_BAY and t == 0:
-            continue  # the entrance replaces this frame
+            continue
         frame_count += 1
-        inverted = (i, t) in INVERTED_NICHES
-        frames_m.revolve(rect(R_SHELF1 - 0.1, R_SHELF1, z0, z1), th_c - HALF, th_c + HALF, 12)
-        for side in (-1, 1):
-            frames_m.box_at((R_SHELF0 + R_SHELF1) / 2, th_c + side * (HALF + 0.3), (z0 + z1) / 2, 0.12, R_SHELF1 - R_SHELF0, z1 - z0)
-        boards = int((z1 - z0) / 0.44)
-        pitch = (z1 - z0) / boards
-        for k in range(boards + 1):
-            z = z0 + k * pitch
-            frames_m.revolve(rect(R_SHELF0, R_SHELF1 - 0.1, z - 0.02, z + 0.02), th_c - HALF, th_c + HALF, 12)
-        for k in range(boards):
-            lo, hi = z0 + k * pitch + 0.02, z0 + (k + 1) * pitch - 0.02
-            arc = math.radians(2 * HALF) * R_SPINE
-            s, lean_next = 0.0, False
-            while s < arc:
-                w = random.uniform(0.028, 0.08)
-                if random.random() < 0.03:
-                    s += random.uniform(0.08, 0.35)
-                    lean_next = True
-                    continue
-                if not inverted and random.random() < 0.012 and s + 0.4 < arc:
-                    # A short stack lying flat: 2-5 books, slightly misaligned.
-                    th = th_c - HALF + math.degrees((s + 0.2) / R_SPINE)
-                    zb = lo
-                    for _ in range(random.randint(2, 5)):
-                        t_ = random.uniform(0.03, 0.06)
-                        books_m.slot = pick_book()
-                        books_m.obox(polar(R_SPINE + 0.13, th + random.uniform(-0.3, 0.3), zb + t_ / 2),
-                                     tangent(th), radial(th), Z, random.uniform(0.28, 0.36), random.uniform(0.2, 0.26), t_ * 0.95)
-                        zb += t_
-                    s += 0.42
-                    continue
-                h = min(random.uniform(0.22, 0.38), hi - lo - 0.01)
-                d = random.uniform(0.2, 0.3)
-                th = th_c - HALF + math.degrees((s + w / 2) / R_SPINE)
-                zc = hi - h / 2 if inverted else lo + h / 2  # inverted niches: books stand on the underside
-                books_m.slot = pick_book()
-                r_ = R_SPINE + d / 2 + random.uniform(-0.015, 0.045)  # spines never form one plane
-                if lean_next and not inverted:
-                    # The book beside a gap leans into it, resting on its neighbour.
-                    a_ = math.radians(random.uniform(8, 22))
-                    T_, N_ = tangent(th), radial(th)
-                    up = Z * math.cos(a_) - T_ * math.sin(a_)
-                    along = T_ * math.cos(a_) + Z * math.sin(a_)
-                    books_m.obox(polar(r_, th, lo) + up * (h / 2) - T_ * (h / 2 * math.sin(a_)), along, N_, up, w * 0.94, d, h)
-                else:
-                    books_m.box_at(r_, th, zc, w * 0.94, d, h)
-                lean_next = False
-                s += w
-frames_m.build("C01_SHELF_FRAMES", WOOD, shelves)
-books_m.build("C01_BOOKS", BOOKS, shelves)
+        tops = bay.case(wood_m, f, 0.31, L - 0.31, z0, z1, CASE_D)
+        # Bays behind the hero camera carry simple books; everything the camera sees gets bound volumes.
+        simple = LOOK != "hero" or 100 < th_c < 260
+        b = bay.Books(M, random.Random(1102 + 31 * i + t), simple=simple)
+        b.fill(f, 0.31, L - 0.31, tops, 0.42, CASE_D, flip=(i, t) in INVERTED_NICHES)
+        b.build(f"C01_BOOKS_{i:02d}_{t}", shelves)
+stone_m.build("C01_PILASTERS", STONE, shell)
+reeds_m.build("C01_REEDS", STONE, shell, smooth=True)
+wall_m.build("C01_BAY_WALLS", MASONRY, shell)
+wood_m.build("C01_SHELF_CASES", WOOD, shelves)
+m = Mesh()
+m.revolve(rect(BAY_A - 0.6, R_WALL_OUT, Z_SPRING - 0.05, Z_SPRING + 0.3), 0, 0, 128, full=True)  # springline ledge under the dome
+m.build("C01_SPRING_LEDGE", STONE, shell)
 
 # ---------------------------------------------------------------- conventional galleries
 galleries = collection("C01_GALLERIES")
@@ -601,20 +569,24 @@ m.build("C01_DOME_RIBS", STONE, dome_c)
 
 # ---------------------------------------------------------------- desk, lamp, instrument, folio
 desk_c = collection("C01_DESK")
-m = Mesh()
-m.obox(Vector((0, -1.45, 0.88)), X, Y, Z, 2.4, 1.3, 0.08)
-for sx in (-0.85, 0.85):
-    m.obox(Vector((sx, -1.45, 0.42)), X, Y, Z, 0.55, 1.15, 0.84)
-m.slot = 1
-m.obox(Vector((0, -1.45, 0.921)), X, Y, Z, 1.9, 0.9, 0.004)  # oxide leather writing inset
-m.slot = 0
-m.obox(Vector((0, -1.45, 0.8)), X, Y, Z, 2.3, 1.2, 0.08)  # apron
-m.build("C01_READING_DESK", [WOOD, FOLIO], desk_c)
-m = Mesh()
-m.obox(Vector((-0.65, -0.62, 1.2)), X, Y, Z, 0.04, 0.04, 2.4)  # standard
-m.obox(Vector((-0.65, -0.81, 2.36)), X, Y, Z, 0.04, 0.4, 0.04)  # arm
-m.obox(Vector((-0.65, -1.0, 2.32)), X, Y, Z, 0.56, 0.4, 0.14)  # shade housing for L04
-m.build("C01_DESK_LAMP", METAL, desk_c)
+m = kit.Mesh()
+bay.reading_desk(m, (0.0, -1.45))
+DESK_LEATHER = pbr("desk_leather", "brown_leather", 0.12, tint=srgb("#1C2B22"), keep=0.1, rough=(0.35, 0.7), normal=0.8, bevel=0.002) if LOOK == "hero" else FOLIO
+m.build("C01_READING_DESK", [WOOD, DESK_LEATHER, M.gilt, METAL], desk_c, smooth=True)
+# A turned brass reading lamp standing on the desk: weighted base, column, arm, and a deep shade over the page.
+LAMP_HEAD = Vector((-0.42, -1.2, 1.5))
+m = kit.Mesh()
+base = Vector((-0.82, -1.0, 0.92))
+m.lathe([(0.0, 0.0), (0.1, 0.0), (0.105, 0.012), (0.085, 0.03), (0.04, 0.045), (0.025, 0.06), (0.0, 0.06)], base, 40)
+m.tube([base + Z * 0.05, base + Z * 0.58], [0.011, 0.011], 16)
+arm = kit.bezier(base + Z * 0.58, base + Z * 0.66, LAMP_HEAD + Vector((-0.2, 0.1, 0.06)), LAMP_HEAD + Z * 0.04, 24)
+m.tube(arm, [0.009] * len(arm), 14)
+m.lathe([(0.0, 0.0), (0.016, 0.0), (0.016, 0.03), (0.0, 0.03)], base + Z * 0.56, 16)  # knuckle
+m.lathe([(0.0, 0.06), (0.03, 0.06), (0.09, 0.0), (0.095, -0.01), (0.07, -0.004), (0.026, 0.05), (0.0, 0.05)], LAMP_HEAD - Z * 0.04, 40)  # shade
+m.build("C01_DESK_LAMP", METAL, desk_c, smooth=True)
+m = kit.Mesh()
+m.lathe([(0.0, 0.0), (0.016, 0.006), (0.018, 0.03), (0.0, 0.045)], LAMP_HEAD - Z * 0.06, 16)
+m.build("C01_DESK_LAMP_BULB", M.bulb if LOOK == "hero" else WARM_BULB, desk_c, smooth=True)
 
 inst = collection("C01_MERIDIAN_INDEX")
 CENTRE = Vector((-4.3, -2.2, 6.4))  # ruled 2 Nov: left, out of the anomaly's silhouette; lowered to stay whole in the hero frame
@@ -647,11 +619,9 @@ for side in (-1, 1):
 m.build("C01_INDEX_RODS", METAL, inst)
 
 folio = collection("C01_FOLIO_FRONTIER")
-m = Mesh()
-m.obox(Vector((0, -1.36, 0.92 + 0.0375)), X, Y, Z, 0.34, 0.46, 0.075)
-m.slot = 1
-m.obox(Vector((0.012, -1.36, 0.92 + 0.0375)), X, Y, Z, 0.32, 0.44, 0.06)  # page block, inset on three sides
-m.build("C01_FOLIO_FRONTIER", [FOLIO, c.flat("vellum", srgb("#EAE2D4"), rough=0.85)], folio)
+m = kit.Mesh()
+bay.folio(m, (0.0, -1.36), z=0.9216)
+m.build("C01_FOLIO_FRONTIER", [FOLIO, M.paper, M.gilt], folio, smooth=True)
 m = Mesh()
 m.obox(Vector((0, -1.36, 0.94)), X, Y, Z, 0.52, 0.64, 0.04)  # HIT_FOLIO click proxy, never rendered
 hit = m.build("HIT_FOLIO", STONE, folio)
@@ -662,20 +632,12 @@ props = collection("C01_PLUMB_LINES")
 m = Mesh()
 
 
-def plumb(base, up, along, k=1.0):
-    """A gallows standing on a surface whose local 'up' is `up`; the bob hangs along -up."""
-    side = up.cross(along).normalized()
-    m.obox(base + up * 0.3 * k, along, side, up, 0.025 * k, 0.025 * k, 0.6 * k)
-    m.obox(base + up * 0.6 * k + along * 0.09 * k, along, side, up, 0.2 * k, 0.02 * k, 0.02 * k)
-    m.obox(base + up * 0.42 * k + along * 0.18 * k, along, side, up, 0.004 * k, 0.004 * k, 0.36 * k)
-    m.obox(base + up * 0.2 * k + along * 0.18 * k, along, side, up, 0.05 * k, 0.05 * k, 0.08 * k)
-
-
-plumb(Vector((0.85, -1.75, 0.92)), Z, X)
+m = kit.Mesh()
+bay.plumb(m, Vector((0.85, -1.75, 0.9216)), Z, X)
 for seg, u in ((0, 0.14), (1, 0.6), (2, 0.86)):
     o, W, n = walk_frame(seg, u)
-    plumb(o + W * (0.15 if seg != 1 else 0.3), n, tangent(theta(u)), 3.0)
-m.build("C01_PLUMB_LINES", METAL, props)
+    bay.plumb(m, o + W * (0.15 if seg != 1 else 0.3), n, tangent(theta(u)), 3.0)
+m.build("C01_PLUMB_LINES", METAL, props, smooth=True)
 
 # ---------------------------------------------------------------- lighting
 lights = collection("C01_LIGHTS")
@@ -714,16 +676,22 @@ def light(name, kind, pos, target, kelvin_k, watts, size=None, size_y=None, shap
     return ob
 
 
-SCONCES = [polar(11.0, th, 7.15) for th in (-135, -90, -45, 45, 90, 135)]
+# Six crafted sconces on pilaster faces at walkway height of the lower gallery, clear of the anomaly's arc.
+sconce_brass, sconce_glass, sconce_bulb = kit.Mesh(), kit.Mesh(), kit.Mesh()
+SCONCES = []
+for i in (5, 7, 10, 12, 14, 15):
+    T_ = tangent(i * 22.5)
+    f_ = bay.Frame(polar(BAY_A, i * 22.5) - T_ * HALF_CHORD, T_, radial(i * 22.5))
+    SCONCES.append(bay.sconce(sconce_brass, sconce_glass, sconce_bulb, f_, 0.0, GALLERY_Z[0] + 1.45))
 if LOOK == "hero":
     # Gemini's rig: one brutal source. Daylight falls through the oculus as a hard shaft onto the desk;
     # most of the chamber lives in shadow. Warm practicals answer it; the turning rooms glow from inside.
     oc = Vector((0, 0, dome_z(R_OCULUS)))
-    shaft = c.sun_toward(sc, float(os.environ.get("SUN", "36.0")), kelvin(5600), tuple(Vector((0, -1.45, 0.92)) - oc), angle_deg=0.6)
+    shaft = c.sun_toward(sc, float(os.environ.get("SUN", "22.0")), kelvin(5600), tuple(Vector((0, -1.45, 0.92)) - oc), angle_deg=0.6)
     shaft.name = "L01_OCULUS_SHAFT"
     c.backdrop(sc, srgb("#9DB4D6"), 0.9)  # sky seen through the oculus and the entrance
     light("L02_CORRIDOR_GRAZE", "AREA", (7.5, -2.0, 3.5), polar(CORR_R, 27, CORR_Z + 1.1), 3600, 120, 1.5, 0.8)
-    light("L04_DESK_PRACTICAL", "AREA", (-0.65, -1.0, 2.25), (0, -1.4, 0.96), 2750, 60, 0.5, 0.35)
+    light("L04_DESK_PRACTICAL", "SPOT", LAMP_HEAD - Z * 0.05, None, 2750, 40).data.spot_size = math.radians(110)
     for k, p in enumerate(SCONCES):
         light(f"L05_SCONCE_{k + 1}", "POINT", p, None, 2700, 45)
     for k, p in enumerate(ROOM_LIGHTS):
@@ -764,16 +732,9 @@ if LOOK == "hero":
     nt.links.new(shape.outputs["Result"], mul.inputs[0])
     nt.links.new(fall.outputs["Result"], mul.inputs[1])
     nt.links.new(mul.outputs["Value"], vol.inputs["Density"])
-    bulbs = Mesh()
-    for p in SCONCES:
-        bulbs.obox(p, X, Y, Z, 0.09, 0.09, 0.13)
-    bulbs.build("C01_SCONCE_BULBS", WARM_BULB, lights)
-    m = Mesh()
-    for p in SCONCES:
-        th = math.degrees(math.atan2(p.x, p.y))
-        m.box_at(11.18, th, 7.15, 0.04, 0.3, 0.04)  # bracket to the pilaster face
-        m.box_at(11.0, th, 7.32, 0.2, 0.2, 0.03)  # canopy
-    m.build("C01_SCONCE_HARDWARE", METAL, lights)
+    sconce_brass.build("C01_SCONCES", METAL, lights, smooth=True)
+    sconce_glass.build("C01_SCONCE_SHADES", M.glass, lights, smooth=True)
+    sconce_bulb.build("C01_SCONCE_BULBS", M.bulb, lights, smooth=True)
 else:
     light("L01_OCULUS_KEY", "AREA", (0, 0, 24.15), (0, -0.4, 5.0), 6100, 3500, 4.2, shape="DISK")
     light("L02_GALLERY_GRAZE", "AREA", (8.2, -0.7, 15.6), (5.7, 6.5, 12.1), 3900, 1800, 4.0, 1.8)
@@ -815,6 +776,7 @@ CAMS = {
     # The hero: A_IN at 24 mm, aimed a little lower so the pool of light on the floor stays in frame.
     "HERO": camera("CAM_HERO", A_IN, (0.8, 2.3, float(os.environ.get("HERO_TZ", "4.8"))), 24, level=True),
     "B": camera("CAM_B", (3.6, -5.5, 2.55), (0.0, -1.45, 1.05), 38),
+    "DESK": camera("CAM_DESK", (1.25, -3.05, 1.3), (0.1, -1.45, 0.75), 45),
     "C": camera("CAM_C", (0.52, -2.47, 1.67), (0.0, -1.36, 0.98), 68),
 }
 
@@ -855,3 +817,8 @@ if os.environ.get("RAYCHECK"):
 for key in [k for k in os.environ.get("CAMS", "HERO").split(",") if k and k != "NONE"]:
     sc.camera = CAMS[key]
     c.render(sc, os.path.join(a["out"], f"{LOOK}-{key}.png"))
+    if os.environ.get("EXR"):  # scene-linear master for grading (ChatGPT's brief: EXR intermediate)
+        fmt = sc.render.image_settings
+        fmt.file_format, fmt.color_depth = "OPEN_EXR", "32"
+        bpy.data.images["Render Result"].save_render(os.path.join(a["out"], f"{LOOK}-{key}.exr"))
+        fmt.file_format, fmt.color_depth = "PNG", "8"
