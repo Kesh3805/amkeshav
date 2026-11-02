@@ -1,0 +1,89 @@
+.frame {
+  --obsidian: #141512;
+  --vellum: #eae2d4;
+  --brass: #ac8960;
+
+  position: relative;
+  min-height: 100svh;
+  overflow: hidden;
+  background: var(--obsidian);
+  color: var(--vellum);
+}
+
+/* Full bleed, anchored left so the dark left third of the render stays under the copy. */
+.poster {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+
+.copy {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100svh;
+  max-width: min(36rem, 34vw);
+  padding: 0 0 0 clamp(1.25rem, 6vw, 6rem);
+}
+
+.name {
+  margin: 0;
+  font-family: var(--font-newsreader), Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: clamp(3.5rem, 9vw, 9rem);
+  line-height: 0.9;
+  letter-spacing: -0.02em;
+}
+
+.descriptor {
+  margin: 1.25rem 0 0;
+  font-family: var(--font-newsreader), Georgia, serif;
+  font-style: italic;
+  font-size: clamp(1.05rem, 1.6vw, 1.4rem);
+  color: color-mix(in srgb, var(--vellum) 82%, transparent);
+}
+
+.enter {
+  margin-top: 2.5rem;
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brass);
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--brass) 45%, transparent);
+  padding-bottom: 0.2rem;
+  transition: border-color 200ms ease, color 200ms ease;
+}
+
+.enter:hover,
+.enter:focus-visible {
+  color: var(--vellum);
+  border-bottom-color: var(--vellum);
+}
+
+.enter:focus-visible {
+  outline: 1px solid var(--brass);
+  outline-offset: 4px;
+}
+
+/* Narrow screens: the dark third is too thin to carry the copy, so shade the frame beneath it. */
+@media (max-width: 720px) {
+  .copy {
+    max-width: none;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background: linear-gradient(90deg, rgb(20 21 18 / 0.85), rgb(20 21 18 / 0.35));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .enter {
+    transition: none;
+  }
+}

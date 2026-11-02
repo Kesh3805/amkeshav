@@ -82,3 +82,7 @@ Still open:
 - The ChatGPT page has an editable "Writing" canvas. Target the composer with
   `form .ProseMirror[contenteditable="true"]`, or text lands in the canvas. Images can't be attached
   cheaply from scripts, so Keshav attaches renders by hand when pixel review is needed.
+
+## Web prototype (subagent, not yet viewed)
+
+`/prototype/unwritten/` (unlinked, noindex): a full-bleed poster (`public/unwritten/hero-poster.png`, currently hero-001; replace it with hero-002 when that passes). Over the dark left third, real HTML: "Keshav" in Newsreader, "Engineer & researcher", and "Enter the archive" linking to `/work/`. No WebGL. Files: `src/app/prototype/unwritten/page.tsx`, `src/components/unwritten/`. Typecheck passes; lint shows 0 errors. **Not yet viewed in a browser:** run `pnpm dev` and check that the left third stays dark behind the type, on desktop and mobile.
