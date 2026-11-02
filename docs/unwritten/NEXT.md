@@ -55,6 +55,26 @@ Textures are git-ignored; fetch them first on a fresh clone with `python art/tex
 4. Only after the hero master passes: WebGL translation (baked GI, PMREM, the poster-to-canvas
    handoff), then the FRONTIER folio interaction.
 
+## Code review findings still open (reviewer subagent, 2 Nov)
+
+Fixed in the last commit:
+
+- Top-shelf books poked through cornices.
+- The inverted-niche top row hung above the case.
+- Flat stacks could run into the pilasters.
+
+Note: the hero-002 render that was running started **before** these fixes, so its top shelves may show
+books through the cornices. Re-render before judging.
+
+Still open:
+
+1. `chamber.py` (around line 353): each pilaster is aligned to facet i only. The previous facet's case
+   end goes about 0.2 m into it, and its front corner shows about 0.1 m past the pilaster face at all 16
+   corners. Rotate pilasters to the corner bisector, or shorten the case ends by the facet angle.
+2. `bay.py` lean pivot: leaning books can overlap their neighbour by up to about 7 mm. Low severity.
+3. `kit.py`: the `ShaderNodeMix` `inputs["A"]`, `["B"]` and `["Result"]` lookups work in this Blender
+   build (renders succeed). If a tint ever looks wrong, switch to socket indices 6, 7 and output 2.
+
 ## Practical notes
 
 - CPU only (no NVIDIA GPU). Draft at 960×540, 24–32 samples (about 1–2 min); finals at 1920×1080, 128

@@ -46,7 +46,7 @@ def case(wood, f, x0, x1, z0, z1, depth=0.45, pitch=0.42):
     f.box(wood, x0, -depth + 0.04, z0, x1, 0, z0 + 0.1)
     lip = [(0.0, 0.0), (0.01, 0.0)] + kit.arc(0.01, 0.014, 0.014, -90, 90, 5)[1:] + [(0.0, 0.028)]
     tops, z = [], z0 + 0.1
-    while z < z1 - 0.2:
+    while z + pitch <= z1 - 0.115:  # the top shelf keeps a full pitch of clearance under the cornice
         f.box(wood, x0, -depth, z, x1, 0, z + 0.028)
         wood.moulding([f.p(x0, -depth, z), f.p(x1, -depth, z)], lip)
         tops.append(z + 0.028)
@@ -134,7 +134,7 @@ class Books:
                 self.volume(f, x, z, w, h, r.uniform(0.2, 0.27), -depth + r.uniform(0.01, 0.05), lean, r.choice(palette), r.random() < pband)
                 x += w + 0.003
                 continue
-            if style == "sparse" and not flip and r.random() < 0.05:  # a short stack lying flat
+            if style == "sparse" and not flip and x + 0.32 < x1 and r.random() < 0.05:  # a short stack lying flat
                 zz = z
                 for _ in range(r.randint(2, 4)):
                     tt = r.uniform(0.03, 0.055)
