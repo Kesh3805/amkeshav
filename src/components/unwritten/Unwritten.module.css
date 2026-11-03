@@ -72,13 +72,18 @@
   outline-offset: 4px;
 }
 
-/* Narrow screens: the dark third is too thin to carry the copy, so shade the frame beneath it. */
-@media (max-width: 720px) {
+/* Portrait and narrow screens: centre the frame on the light shaft and the turning rooms (the image's
+   reason to exist), and set the copy at the foot of the frame over a shadow that rises from the floor. */
+@media (max-width: 720px), (max-aspect-ratio: 1/1) {
+  .poster {
+    object-position: 56% 50%;
+  }
+
   .copy {
+    justify-content: flex-end;
     max-width: none;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    background: linear-gradient(90deg, rgb(20 21 18 / 0.85), rgb(20 21 18 / 0.35));
+    padding: 0 1rem 3.5rem;
+    background: linear-gradient(0deg, rgb(20 21 18 / 0.92) 0%, rgb(20 21 18 / 0.6) 30%, transparent 55%);
   }
 }
 

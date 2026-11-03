@@ -129,6 +129,35 @@ keystone. Bays behind the hero camera (θ 100–260°) use simple books to keep 
 frame at 100 %, and builds a matched hero-001 / hero-002 lighting comparison. `EXR=1` writes a 32-bit
 scene-linear EXR next to each PNG.
 
+### hero-002, hero-003 and the final art pass (3 Nov)
+
+- **hero-002** was the first frame that read as a photograph of a real place.
+- **hero-003** adds:
+  - pilasters square to each corner's bisector (code review)
+  - books kept under the cornices
+  - quoins and nine-voussoir arches on the turning rooms (room two's springs sideways; gate 3 now passes
+    in Claude's read)
+  - quieter walnut
+
+  It is the poster of `/prototype/unwritten/`.
+- **Final art pass, approved by ChatGPT:**
+  - sun 30 W/m², with haze still height-thinned
+  - a honed French limestone floor (Gemini): 900 × 600 mm flags in running bond, each dished 1.5–3.5 mm,
+    over a dusty joint bed
+  - folio `#3E1712` oxblood
+  - desk inset: finer, matter, darker-green leather
+- **ChatGPT's guards:**
+  - the shaft anchors the frame but must not become the brightest narrative event
+  - folio and inset must separate clearly in hue, finish and texture
+- **Freeze condition:**
+  - the shaft anchors without washing out
+  - the floor no longer reads as pale tile
+  - the folio reads oxblood
+  - the inset reads as leather
+  - no new material imbalance
+
+  Then freeze the cinematic master and move to WebGL translation.
+
 ## Build
 
 Blender 5.2, headless, seed 1102. Fetch the textures once with `python art/textures/fetch.py`.

@@ -10,7 +10,7 @@ export function Unwritten() {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         className={s.poster}
-        src={`${base}/unwritten/hero-poster.png`}
+        src={`${base}/unwritten/hero-poster.webp`}
         alt="An impossible classical library: shelves rising out of sight, receding into shadow."
         width={1920}
         height={1080}

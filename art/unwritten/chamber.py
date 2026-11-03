@@ -23,6 +23,8 @@ LOOK = os.environ.get("LOOK", "hero")
 a = c.args({"out": os.path.join(HERE, "..", "renders", "unwritten"), "w": 1280, "h": 720, "samples": 48, "mood": LOOK})
 a["out"] = os.path.abspath(a["out"])
 sc = c.setup(a, exposure=float(os.environ.get("EV", "0.0" if LOOK == "hero" else "-0.7")))
+if LOOK == "hero":  # Punchy keeps hue in bright areas, so sunlit oxblood and green leather stay themselves
+    sc.view_settings.look = os.environ.get("VIEW_LOOK", "AgX - Punchy")
 sc.cycles.volume_bounces = 1
 random.seed(1102)
 
@@ -272,8 +274,9 @@ def pbr(name, asset, tile_m, tint=None, keep=0.0, rough=(0.0, 1.0), normal=1.0, 
 
 if LOOK == "hero":
     M = kit.materials()
-    STONE, MASONRY, FLOOR, WOOD, METAL = M.stone, M.masonry, M.floor, M.wood, M.brass
-    FOLIO = pbr("folio_oxide", "brown_leather", 0.12, tint=srgb("#5E261F"), keep=0.08, rough=(0.38, 0.7), normal=0.9, bevel=0.004)
+    STONE, MASONRY, WOOD, METAL = M.stone, M.masonry, M.wood, M.brass
+    FLOOR = kit.pbr("floor_limestone", "beige_wall_001", 1.3, tint=srgb("#6B6358"), keep=0.3, rough=(0.3, 0.55), normal=0.45, bevel=0.005, contrast=0.6)
+    FOLIO = kit.pbr("folio_oxide", "brown_leather", 0.12, tint=srgb("#3E1712"), keep=0.05, rough=(0.42, 0.72), normal=0.9, bevel=0.004)
     ENAMEL = polished("abyss_enamel", srgb("#273B43"), 0.18, 0.3)
     BOOKS, BOOK_WEIGHTS = M.books, M.book_weights
 else:
@@ -284,6 +287,7 @@ else:
     BOOKS, BOOK_WEIGHTS = [ENAMEL], (1,)
     M = SimpleNamespace(books=BOOKS, book_weights=BOOK_WEIGHTS, paper=STONE, gilt=METAL, stone=STONE, masonry=MASONRY, wood=WOOD, brass=METAL)
 WARM_BULB = c.flat("bulb", (1, 0.8, 0.55), emission=(1.0, 0.72, 0.42), strength=40.0)
+JOINT = c.flat("joint_dust", (0.035, 0.031, 0.027), rough=0.95)
 
 
 def round_edges(mat, radius):
@@ -315,9 +319,43 @@ def pick_book():
 
 # ---------------------------------------------------------------- shell
 shell = collection("C01_SHELL")
+# Floor (Gemini): honed French limestone flags, 900 × 600 mm in staggered running bond, each one dished a
+# few millimetres by centuries of footfall, set over a dusty bed that shows in the joints.
 m = Mesh()
-m.revolve([(0.0, -0.4), (R_WALL_OUT, -0.4), (R_WALL_OUT, 0.0), (0.0, 0.0)], 0, 0, 128, full=True)
-m.build("C01_FLOOR", FLOOR, shell)
+m.revolve([(0.0, -0.4), (R_WALL_OUT, -0.4), (R_WALL_OUT, -0.006), (0.0, -0.006)], 0, 0, 128, full=True)
+m.build("C01_FLOOR_BED", JOINT, shell)
+flags = kit.Mesh()
+FW, FD, GAP = 0.9, 0.6, 0.004
+rows = int(2 * 12.6 / FD) + 1
+for row in range(rows):
+    y0 = -12.6 + row * FD
+    off = (FW / 2) * (row % 2)
+    x = -12.6 - off
+    while x < 12.6:
+        cx_, cy_ = x + FW / 2, y0 + FD / 2
+        if math.hypot(cx_, cy_) < 12.3:
+            b = len(flags.v)
+            dish = random.uniform(0.0015, 0.0035)
+            for j in range(3):  # 3 × 3 top grid: corners proud, the centre worn down
+                for i in range(3):
+                    depth = dish * (1 - abs(i - 1)) * (1 - abs(j - 1)) + dish * 0.35 * ((i == 1) ^ (j == 1))
+                    flags.v.append(Vector((x + GAP / 2 + (FW - GAP) * i / 2, y0 + GAP / 2 + (FD - GAP) * j / 2, -depth)))
+            for j in range(2):
+                for i in range(2):
+                    flags._face((b + j * 3 + i, b + j * 3 + i + 1, b + (j + 1) * 3 + i + 1, b + (j + 1) * 3 + i))
+            corners = [b, b + 2, b + 8, b + 6]
+            bb = len(flags.v)
+            for k_ in corners:
+                q = flags.v[k_]
+                flags.v.append(Vector((q.x, q.y, -0.05)))
+            ring = [b, b + 1, b + 2, b + 5, b + 8, b + 7, b + 6, b + 3]
+            low = {b: bb, b + 2: bb + 1, b + 8: bb + 2, b + 6: bb + 3}
+            for a_, c_ in ((b, b + 2), (b + 2, b + 8), (b + 8, b + 6), (b + 6, b)):  # sides
+                mid = {(b, b + 2): b + 1, (b + 2, b + 8): b + 5, (b + 8, b + 6): b + 7, (b + 6, b): b + 3}[(a_, c_)]
+                flags._face((a_, mid, c_, low[c_], low[a_]))
+            flags._face((bb + 3, bb + 2, bb + 1, bb))
+        x += FW
+flags.build("C01_FLOOR", FLOOR, shell)
 
 m = Mesh()
 m.revolve(rect(R_WALL, R_WALL_OUT, 0, Z_SPRING), 0, 0, 128, full=True)
@@ -350,7 +388,10 @@ for i in range(16):
     T = tangent(th_c)
     f = bay.Frame(polar(BAY_A, th_c) - T * HALF_CHORD, T, radial(th_c))
     L = 2 * HALF_CHORD
-    bay.pilaster(stone_m, reeds_m, f, 0.0, Z_SPRING, 0.62, 0.42)
+    # The pilaster stands on the corner between facets i−1 and i, square to the bisector, so it closes
+    # both case ends instead of following one facet (code review, 2 Nov).
+    th_k = th_c - 11.25
+    bay.pilaster(stone_m, reeds_m, bay.Frame(polar(BAY_A / math.cos(math.radians(11.25)), th_k), tangent(th_k), radial(th_k)), 0.0, Z_SPRING, 0.62, 0.42)
     if i == ENTRANCE_BAY:
         # Ashlar around the entrance, with a semicircular arch of 13 voussoirs and a keystone.
         x0, x1 = HALF_CHORD - ENT_W / 2, HALF_CHORD + ENT_W / 2
@@ -382,11 +423,11 @@ for i in range(16):
         if i == ENTRANCE_BAY and t == 0:
             continue
         frame_count += 1
-        tops = bay.case(wood_m, f, 0.31, L - 0.31, z0, z1, CASE_D)
+        tops = bay.case(wood_m, f, 0.41, L - 0.41, z0, z1, CASE_D)  # clear of the bisector-square pilasters
         # Bays behind the hero camera carry simple books; everything the camera sees gets bound volumes.
         simple = LOOK != "hero" or 100 < th_c < 260
         b = bay.Books(M, random.Random(1102 + 31 * i + t), simple=simple)
-        b.fill(f, 0.31, L - 0.31, tops, 0.42, CASE_D, flip=(i, t) in INVERTED_NICHES)
+        b.fill(f, 0.41, L - 0.41, tops, 0.42, CASE_D, flip=(i, t) in INVERTED_NICHES)
         b.build(f"C01_BOOKS_{i:02d}_{t}", shelves)
 stone_m.build("C01_PILASTERS", STONE, shell)
 reeds_m.build("C01_REEDS", STONE, shell, smooth=True)
@@ -510,8 +551,14 @@ for k, u in enumerate(ROOM_U):
     # Carving: corner pilasters, rusticated courses, and an architrave + keystone + pediment around the
     # doorway that follow the doorway's own "up". Room two's pediment sits on its side.
     face = fo - N * (wall_t / 2 + 0.03)
+    # Quoins: alternating long and short dressed stones up both front corners, proud of the wall face.
+    n_q = 7
+    q_h = (CORR_H + 0.64) / n_q
     for s_ in (-1, 1):
-        rib.obox(face + T * s_ * (ROOM_LEN / 2 - 0.14), T, N, Z, 0.28, 0.08, CORR_H + 0.64)
+        for j in range(n_q):
+            w_q = 0.46 if j % 2 == 0 else 0.3
+            zq = -(CORR_H + 0.64) / 2 + q_h * (j + 0.5)
+            rib.obox(face + T * s_ * (ROOM_LEN / 2 - w_q / 2 + 0.02) + Z * zq, T, N, Z, w_q, 0.09, q_h - 0.014)
     for zc in (-0.75, -0.25, 0.25, 0.75):
         if abs(zc) * 2 > dh + 0.1:  # rustication only above and below the opening
             for s_ in (-1, 1):
@@ -522,10 +569,17 @@ for k, u in enumerate(ROOM_U):
         rib.obox(fr + up * s_ * (du / 2 + 0.07), across, N, up, da + 0.28, 0.06, 0.14)
         rib.obox(fr + across * s_ * (da / 2 + 0.07), across, N, up, 0.14, 0.06, du + 0.28)
     rib.obox(fr + up * (du / 2 + 0.12), across, N, up, 0.16, 0.08, 0.24)  # keystone
-    for s_ in (-1, 1):  # pediment: two raking members meeting over the keystone
-        rake = (across * s_ * 0.5 + up * 0.22).normalized()
-        n_ = rake.cross(N).normalized()
-        rib.obox(fr + up * (du / 2 + 0.4) + across * s_ * (da / 4 + 0.12), rake, N, n_, da / 2 + 0.45, 0.07, 0.1)
+    # A ring of nine voussoirs over the head, with a projecting keystone: the arch follows the doorway's
+    # own "up", so in room two it springs sideways.
+    rad = da / 2 + 0.16
+    for j in range(9):
+        a0, a1 = math.pi * j / 9, math.pi * (j + 1) / 9
+        am = (a0 + a1) / 2
+        r_dir = across * math.cos(am) + up * math.sin(am)
+        t_dir = -across * math.sin(am) + up * math.cos(am)
+        key = j == 4
+        rib.obox(fr + up * (du / 2) + r_dir * (rad + 0.12) - N * (0.04 if key else 0.0), t_dir, N, r_dir,
+                 rad * (a1 - a0) - 0.014, 0.08 + (0.06 if key else 0.0), 0.26 + (0.08 if key else 0.0))
     ROOM_LIGHTS.append(o)
 
 rib.slot = 0
@@ -571,7 +625,7 @@ m.build("C01_DOME_RIBS", STONE, dome_c)
 desk_c = collection("C01_DESK")
 m = kit.Mesh()
 bay.reading_desk(m, (0.0, -1.45))
-DESK_LEATHER = pbr("desk_leather", "brown_leather", 0.12, tint=srgb("#1C2B22"), keep=0.1, rough=(0.35, 0.7), normal=0.8, bevel=0.002) if LOOK == "hero" else FOLIO
+DESK_LEATHER = kit.pbr("desk_leather", "brown_leather", 0.05, tint=srgb("#142019"), keep=0.05, rough=(0.45, 0.78), normal=1.0, bevel=0.002, contrast=0.7) if LOOK == "hero" else FOLIO
 m.build("C01_READING_DESK", [WOOD, DESK_LEATHER, M.gilt, METAL], desk_c, smooth=True)
 # A turned brass reading lamp standing on the desk: weighted base, column, arm, and a deep shade over the page.
 LAMP_HEAD = Vector((-0.42, -1.2, 1.5))
@@ -681,13 +735,14 @@ sconce_brass, sconce_glass, sconce_bulb = kit.Mesh(), kit.Mesh(), kit.Mesh()
 SCONCES = []
 for i in (5, 7, 10, 12, 14, 15):
     T_ = tangent(i * 22.5)
-    f_ = bay.Frame(polar(BAY_A, i * 22.5) - T_ * HALF_CHORD, T_, radial(i * 22.5))
+    th_k = i * 22.5 - 11.25  # the corner pilaster, square to its bisector
+    f_ = bay.Frame(polar(BAY_A / math.cos(math.radians(11.25)), th_k), tangent(th_k), radial(th_k))
     SCONCES.append(bay.sconce(sconce_brass, sconce_glass, sconce_bulb, f_, 0.0, GALLERY_Z[0] + 1.45))
 if LOOK == "hero":
     # Gemini's rig: one brutal source. Daylight falls through the oculus as a hard shaft onto the desk;
     # most of the chamber lives in shadow. Warm practicals answer it; the turning rooms glow from inside.
     oc = Vector((0, 0, dome_z(R_OCULUS)))
-    shaft = c.sun_toward(sc, float(os.environ.get("SUN", "22.0")), kelvin(5600), tuple(Vector((0, -1.45, 0.92)) - oc), angle_deg=0.6)
+    shaft = c.sun_toward(sc, float(os.environ.get("SUN", "24.0")), kelvin(5600), tuple(Vector((0, -1.45, 0.92)) - oc), angle_deg=0.6)
     shaft.name = "L01_OCULUS_SHAFT"
     c.backdrop(sc, srgb("#9DB4D6"), 0.9)  # sky seen through the oculus and the entrance
     light("L02_CORRIDOR_GRAZE", "AREA", (7.5, -2.0, 3.5), polar(CORR_R, 27, CORR_Z + 1.1), 3600, 120, 1.5, 0.8)
@@ -716,7 +771,7 @@ if LOOK == "hero":
     nt.links.new(tc.outputs["Object"], noise.inputs["Vector"])
     shape = nt.nodes.new("ShaderNodeMapRange")
     shape.inputs["From Min"].default_value, shape.inputs["From Max"].default_value = 0.35, 0.75
-    base = float(os.environ.get("HAZE", "0.007"))
+    base = float(os.environ.get("HAZE", "0.009"))
     shape.inputs["To Min"].default_value, shape.inputs["To Max"].default_value = base * 0.15, base * 2.2
     nt.links.new(noise.outputs["Fac"], shape.inputs["Value"])
     # Dust settles: the air thins with height, so the column is densest near the floor and clears

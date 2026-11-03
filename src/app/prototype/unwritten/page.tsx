@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 export default function UnwrittenPage() {
   return (
     <>
-      {/* The poster is full-bleed; the site chrome would sit on top of the frame. */}
-      <style>{`header[data-header]{display:none}`}</style>
+      {/* The poster is full-bleed; the site header and footer would sit on and under the frame. */}
+      <style>{`header[data-header],body>footer{display:none!important}`}</style>
       <Unwritten />
     </>
   );
