@@ -1,0 +1,77 @@
+{
+  "name": "CAM_HERO",
+  "up_axis": "y",
+  "position": [
+    -1.0,
+    1.78,
+    12.4
+  ],
+  "direction": [
+    0.12154,
+    0.0,
+    -0.99259
+  ],
+  "fov_v_deg": 45.74733,
+  "aspect": 1.777778,
+  "sensor_fit": "HORIZONTAL",
+  "shift_x": 0.0,
+  "shift_y": 0.135946,
+  "blender": {
+    "position_zup": [
+      -1.0,
+      -12.4,
+      1.78
+    ],
+    "rotation_euler_xyz": [
+      1.570796,
+      -0.0,
+      -0.121842
+    ],
+    "lens_mm": 24.0,
+    "sensor_width_mm": 36.0,
+    "sensor_fit": "HORIZONTAL",
+    "shift_x": 0.0,
+    "shift_y": 0.135946,
+    "clip": [
+      0.10000000149011612,
+      200.0
+    ]
+  },
+  "render": {
+    "width": 960,
+    "height": 540,
+    "aspect": 1.777778
+  },
+  "three": {
+    "position": [
+      -1.0,
+      1.78,
+      12.4
+    ],
+    "direction": [
+      0.12154,
+      0.0,
+      -0.99259
+    ],
+    "up": [
+      -0.0,
+      1.0,
+      0.0
+    ],
+    "target_1m": [
+      -0.87846,
+      1.78,
+      11.40741
+    ],
+    "fov_vertical_deg_at_render_aspect": 45.74733,
+    "fov_horizontal_deg": 73.7398,
+    "sensor_fit": "HORIZONTAL",
+    "near": 0.10000000149011612,
+    "far": 200.0,
+    "projection_offset_ndc": [
+      0.0,
+      0.483364
+    ]
+  },
+  "howto": "PerspectiveCamera at three.position looking along three.direction (lookAt(target_1m)), up = three.up. Sensor fit is HORIZONTAL: hold the horizontal FOV and on every resize set fov = 2*atan(tan(hfov/2)/aspect) in degrees. The glTF camera's yfov is only right at the render aspect. Lens shift is NOT in the glTF. Reproduce it either with cam.setViewOffset(w, h, -shift_x*w, -shift_y*w, w, h) (w,h = canvas px; shifts are fractions of the width because fit is horizontal; negative offsetY moves the window up) or, after updateProjectionMatrix(), cam.projectionMatrix.elements[8] += 2*shift_x; cam.projectionMatrix.elements[9] += 2*shift_y*aspect; then projectionMatrixInverse.copy(projectionMatrix).invert(). Verticals stay parallel because the camera pitch is 0 (level=True in chamber.py)."
+}

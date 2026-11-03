@@ -2,7 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 
 vi.mock("server-only", () => ({}));
 
-const { getPrograms, getWork, getWriting } = await import("./content");
+const { getExp009Nomogram, getExperiment, getPrograms, getWork, getWriting } = await import("./content");
 
 describe("content", () => {
   const work = getWork();
@@ -53,5 +53,11 @@ describe("content", () => {
     const e = programs.find((p) => p.slug === "frontier")!.experiments.find((x) => x.id === "exp-009")!;
     expect(e.effect).toMatchObject({ estimate: 6.4, low: 5.1, high: 7.8 });
     expect(e.result).toContain("92.9%");
+  });
+
+  it("loads the exp-009 nomogram data consistently with the experiment", () => {
+    const n = getExp009Nomogram();
+    expect(n.failing).toHaveLength(n.fail);
+    expect(getExperiment("frontier", "exp-009")?.verdict).toBe("refuted");
   });
 });

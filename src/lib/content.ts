@@ -4,9 +4,11 @@ import path from "node:path";
 import matter from "gray-matter";
 import { cache } from "react";
 import {
+  exp009NomogramSchema,
   programSchema,
   workSchema,
   writingSchema,
+  type Exp009Nomogram,
   type Program,
   type Work,
   type Writing,
@@ -65,3 +67,14 @@ export const getPrograms = cache((): Program[] =>
     )
     .sort((a, b) => a.order - b.order),
 );
+
+export const getExperiment = (programSlug: string, id: string) =>
+  getPrograms()
+    .find((p) => p.slug === programSlug)
+    ?.experiments.find((e) => e.id === id);
+
+/** Per-candidate data behind the exp-009 nomogram. Lives in research/data/ so getPrograms skips it. */
+export const getExp009Nomogram = cache((): Exp009Nomogram => {
+  const file = "research/data/frontier-exp009.json";
+  return parse<Exp009Nomogram>(exp009NomogramSchema, file, JSON.parse(fs.readFileSync(path.join(root, file), "utf8")));
+});

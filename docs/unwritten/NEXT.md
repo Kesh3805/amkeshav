@@ -1,88 +1,79 @@
-# THE UNWRITTEN — handoff (2 Nov 2026, end of session)
+# THE UNWRITTEN — handoff (4 Nov 2026)
 
 Read [`README.md`](README.md) first: every ruling from ChatGPT and Gemini is recorded there.
 
 ## State
 
-- Branch `unwritten/chamber-001` in `Kesh3805/amkeshav`. Commit `344d489` is pushed (greybox → section
-  test). Everything after it is **uncommitted**:
-  - `art/unwritten/bay.py`, `crops.py`
-  - kit/chamber/section changes
-  - the new docs frames
-  - possibly `src/app/prototype/unwritten/` and `public/unwritten/`
-- **Concept is frozen** (ChatGPT: "You are no longer proving the concept. You are proving the image.").
-  Approved: 16-facet rotunda; envelope-pivot corridor on the lower ring; level 24 mm CAM_HERO inside the
-  entrance; oculus shaft; plumb lines.
-- **Passed gates** (ChatGPT): brass (Gemini's procedural recipe), the crafted sconce, book corners
-  (rounded boards, squares, headcaps). It accepted the chamber propagation onto the kit.
-- **Desk:** modelled (`bay.reading_desk`). The second close-up still showed orange, stripy walnut and a
-  salmon folio. Fixed after that render (walnut `contrast=0.45`, cooler tint; folio `#5E261F`), but the
-  fix is **not yet verified in pixels**.
+- **Branch:** `unwritten/chamber-001` in `Kesh3805/amkeshav`. `f1167ec` (hero-004) is the last push;
+  everything after it is uncommitted until Keshav OKs a commit.
+- **Cinematic master: FROZEN at hero-006** ([`hero-006.png`](hero-006.png), crops, EXR in
+  `art/renders/unwritten/hero006/`).
+  - Settings: sun 24 W/m² at 4°, 5100 K; `FLOOR_LIFT` 2.6; SKY 22 with `SKY_HAZE=0`. These are the
+    `chamber.py` defaults now.
+  - No hero-007 and no more lighting sweeps unless the browser exposes a concrete defect.
+- **Poster:** `public/unwritten/hero-poster.webp` is hero-006 (88 KB).
+- **FRONTIER folio: built.**
+  - `src/components/unwritten/folio/`: a true alignment-chart nomogram (collinearity unit-tested), the
+    "COST MODEL REFUTED" stamp, and a split provenance colophon.
+  - Opens from the book hotspot, with CSS-3D lift and rack-focus.
+  - Flat mode: `/prototype/unwritten/frontier/`, the `#frontier` link, and narrow screens via the "Open
+    the FRONTIER volume" link.
+  - Data comes from `scripts/research/exp009-nomogram.py ../frontier` →
+    `content/research/data/frontier-exp009.json`.
 
-## Was running when the session ended
+## WebGL translation (in progress)
 
-`hero-002` (1920×1080, 128 samples, EXR) followed by `finish.py` and `crops.py`. If it finished, these
-exist:
-
-- `docs/unwritten/hero-002.png` (finished) and `hero-002-untreated.png`
-- `docs/unwritten/hero-002-crops/` (desk, anomaly, pilaster-wall, books, sconce, instrument,
-  lighting-comparison, desk-closeup)
-- `art/renders/unwritten/hero002/hero-HERO.exr`
-
-If not, re-run:
+Rebuild and bake:
 
 ```bash
-cd C:/Users/user/Desktop/amkeshav
-CAMS=HERO,DESK EXR=1 EV=-0.3 "C:/Program Files/Blender Foundation/Blender 5.2/blender.exe" -b -P art/unwritten/chamber.py -- "C:/Users/user/Desktop/amkeshav/art/renders/unwritten/hero002" 1920 1080 128
-python -I art/unwritten/finish.py art/renders/unwritten/hero002/hero-HERO.png docs/unwritten/hero-002.png
-python -I art/unwritten/crops.py docs/unwritten/hero-002.png docs/unwritten/hero-002-crops docs/unwritten/hero-001.png
+WEB=1 SAVE_BLEND=<dir>/chamber.blend CAMS=NONE blender -b -P art/unwritten/chamber.py -- <dir> 960 540 8
+BAKE=1 LM_MAX=1024 LM_SAMPLES=192 DRACO=1 blender -b <dir>/chamber.blend -P art/unwritten/export_web.py -- <dir>/chamber.glb
 ```
 
-Textures are git-ignored; fetch them first on a fresh clone with `python art/textures/fetch.py`.
+Copy `chamber.glb`, `chamber-camera.json` and `lightmaps/` into `public/unwritten/` (the GLB and the
+lightmaps are git-ignored). The bake takes about 26 min on the CPU.
+
+- **Bake** (`art/unwritten/bake_web.py`):
+  - Cycles DIFFUSE (direct + indirect) on UV1, per batched web mesh.
+  - Encode: sRGB PNG, with a per-map auto EV at the 97th percentile.
+  - Island-masked denoise (`LM_BLUR`).
+  - Texel boosts: desk and folio ×4. The floor gets a planar top-down UV at full resolution, because
+    per-flag islands made the pool blocky.
+  - Rotunda book boxes lose their back and bottom faces before UV (they bled black into the spines).
+- **Runtime** (`ChamberScene.tsx`):
+  - Baked meshes become unlit `MeshBasicMaterial` + lightMap, so nothing is double-counted.
+  - AgX at the master's EV −0.3.
+  - The `chamber-env.hdr` probe (CAMS=PANO, 1024×512) goes through PMREM to the scene environment, for the
+    unbaked metals.
+  - An additive cone carries the haze shaft.
+- **Verified on the real GPU** (Edge, D3D11, Iris Xe, `?tier=high`): live in 6–17 s, framing identical to
+  the poster.
 
 ## Next, in order
 
-1. Review hero-002 and its crops honestly against ChatGPT's 10 gates (README → realism brief). Report to
-   ChatGPT ("Portfolio Aesthetic Directions" thread) and Gemini ("Architectural Spec for Keshav's
-   Portfolio"). They can't see each other; relay between them. ChatGPT can read the pushed branch.
-2. Known weak spots to check first:
-   - walnut colour
-   - folio colour
-   - the marble floor slabs in the light pool reading as tiles
-   - the turning rooms still being fairly plain masonry boxes
-   - the haze wash in the centre
-3. Commit and push only with Keshav's OK.
-4. Only after the hero master passes: WebGL translation (baked GI, PMREM, the poster-to-canvas
-   handoff), then the FRONTIER folio interaction.
-
-## Code review findings still open (reviewer subagent, 2 Nov)
-
-Fixed in the last commit:
-
-- Top-shelf books poked through cornices.
-- The inverted-niche top row hung above the case.
-- Flat stacks could run into the pilasters.
-
-Note: the hero-002 render that was running started **before** these fixes, so its top shelves may show
-books through the cornices. Re-render before judging.
-
-Still open:
-
-1. `chamber.py` (around line 353): each pilaster is aligned to facet i only. The previous facet's case
-   end goes about 0.2 m into it, and its front corner shows about 0.1 m past the pilaster face at all 16
-   corners. Rotate pilasters to the corner bisector, or shorten the case ends by the facet angle.
-2. `bay.py` lean pivot: leaning books can overlap their neighbour by up to about 7 mm. Low severity.
-3. `kit.py`: the `ShaderNodeMix` `inputs["A"]`, `["B"]` and `["Result"]` lookups work in this Blender
-   build (renders succeed). If a tint ever looks wrong, switch to socket indices 6, 7 and output 2.
+1. **Planar-floor bake: done (4 Nov).** The pool is a continuous soft ellipse over dark stone, and the
+   book spines carry their colour.
+   - The floor slab bottoms had to go first: they face the sky under the floor and overwrote the tops.
+   - A few worn flags at the pool's rim still read a touch flat.
+2. **Handoff match:**
+   - three's base AgX vs Blender's AgX Punchy, plus `finish.py`'s grade
+   - books still darker than the poster
+   - masonry map (EV dominated by the shaft)
+3. **Probe height:** move the PANO probe up (z ≈ 3 m) so the desk doesn't fill its lower hemisphere.
+4. **Size:** Meshopt in place of Draco, keeping silhouettes. Decide whether to ship the GLB and the
+   lightmaps (about 12 MB together).
+5. **Later:** the three camera stances (Threshold → Desk → Book), then the folio on the real Book stance.
 
 ## Practical notes
 
-- CPU only (no NVIDIA GPU). Draft at 960×540, 24–32 samples (about 1–2 min); finals at 1920×1080, 128
-  samples (30+ min). Keep coding while renders run.
-- The ChatGPT page has an editable "Writing" canvas. Target the composer with
-  `form .ProseMirror[contenteditable="true"]`, or text lands in the canvas. Images can't be attached
-  cheaply from scripts, so Keshav attaches renders by hand when pixel review is needed.
-
-## Web prototype (subagent, not yet viewed)
-
-`/prototype/unwritten/` (unlinked, noindex): a full-bleed poster (`public/unwritten/hero-poster.png`, currently hero-001; replace it with hero-002 when that passes). Over the dark left third, real HTML: "Keshav" in Newsreader, "Engineer & researcher", and "Enter the archive" linking to `/work/`. No WebGL. Files: `src/app/prototype/unwritten/page.tsx`, `src/components/unwritten/`. Typecheck passes; lint shows 0 errors. **Not yet viewed in a browser:** run `pnpm dev` and check that the left third stays dark behind the type, on desktop and mobile.
+- CPU only, so keep the laptop on the charger: on battery Windows throttles Blender to about 1 core.
+- `BORDERS=name:x0,y0,x1,y1;...` with `SKIES=` / `SHAFTS=` renders gate crops without a full frame.
+- **ChatGPT:**
+  - Composer: `form .ProseMirror[contenteditable="true"]`. Check `document.title` first.
+  - "This response couldn't load": read the reply from `/backend-api/conversation/<id>` with the session
+    token from `/api/auth/session`.
+- **Gemini** (Flash-Lite) sometimes truncates its replies.
+- **Images can't be attached:** chatgpt.com's CSP blocks fetching from localhost and popups replace the
+  tab, so relay the review as text.
+- **Built-in browser pane:** its canvas doesn't draw (300×150), so check WebGL with Playwright on Edge:
+  `channel: "msedge"`, `--use-angle=d3d11`.

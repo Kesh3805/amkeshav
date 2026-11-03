@@ -275,19 +275,33 @@ def pbr(name, asset, tile_m, tint=None, keep=0.0, rough=(0.0, 1.0), normal=1.0, 
 if LOOK == "hero":
     M = kit.materials()
     STONE, MASONRY, WOOD, METAL = M.stone, M.masonry, M.wood, M.brass
-    FLOOR = kit.pbr("floor_limestone", "beige_wall_001", 1.3, tint=srgb("#6B6358"), keep=0.3, rough=(0.3, 0.55), normal=0.45, bevel=0.005, contrast=0.6)
+    # hero-004 read the pool as pale tile: one tint and near-black joints. Each flag now draws from four
+    # quarried tints, the scan keeps its own figure, and the joints are dust rather than shadow.
+    # Contrast 1.6 (ChatGPT, hero-005): the pool needs real figure to reveal. Slots 4–7 are the same four
+    # stones worn by footfall around the desk and along the approach: a touch darker and more polished.
+    TINTS = ("#5F574C", "#665B4E", "#6B6358", "#736A5C")  # dark → light, for the drift
+    # FLOOR_LIFT scales every flag's albedo: the floor has to return enough of the pool to light the room.
+    FLOOR_LIFT = float(os.environ.get("FLOOR_LIFT", "2.6"))
+    lift = lambda rgb, k=1.0: tuple(min(1.0, v * k * FLOOR_LIFT) for v in rgb)
+    FLOORS = [kit.pbr(f"floor_limestone_{i}", "beige_wall_001", 1.3, tint=lift(srgb(t)), keep=0.35, rough=(0.28, 0.6), normal=0.8, bevel=0.005, seed=i, contrast=1.6)
+              for i, t in enumerate(TINTS)]
+    FLOORS += [kit.pbr(f"floor_worn_{i}", "beige_wall_001", 1.3, tint=lift(srgb(t), 0.9), keep=0.35, rough=(0.16, 0.4), normal=0.5, bevel=0.005, seed=i, contrast=1.6)
+               for i, t in enumerate(TINTS)]
+    FLOOR = FLOORS[0]
+    ROOM_STONE = kit.pbr("room_stone", "sandstone_blocks_08", 1.6, tint=srgb("#776E61"), keep=0.5, rough=(0.55, 0.92), normal=1.3, bevel=0.012, contrast=1.3)
     FOLIO = kit.pbr("folio_oxide", "brown_leather", 0.12, tint=srgb("#3E1712"), keep=0.05, rough=(0.42, 0.72), normal=0.9, bevel=0.004)
     ENAMEL = polished("abyss_enamel", srgb("#273B43"), 0.18, 0.3)
     BOOKS, BOOK_WEIGHTS = M.books, M.book_weights
 else:
-    STONE = FLOOR = WOOD = MASONRY = c.flat("clay", (0.52, 0.51, 0.49), rough=0.85)
+    STONE = FLOOR = WOOD = MASONRY = ROOM_STONE = c.flat("clay", (0.52, 0.51, 0.49), rough=0.85)
+    FLOORS = [FLOOR] * 8
     METAL = c.flat("clay_brass", (0.62, 0.58, 0.5), rough=0.35, metallic=1.0)
     FOLIO = c.flat("clay_folio", (0.42, 0.25, 0.22), rough=0.7)
     ENAMEL = c.flat("clay_books", (0.26, 0.255, 0.25), rough=0.8)
     BOOKS, BOOK_WEIGHTS = [ENAMEL], (1,)
     M = SimpleNamespace(books=BOOKS, book_weights=BOOK_WEIGHTS, paper=STONE, gilt=METAL, stone=STONE, masonry=MASONRY, wood=WOOD, brass=METAL)
 WARM_BULB = c.flat("bulb", (1, 0.8, 0.55), emission=(1.0, 0.72, 0.42), strength=40.0)
-JOINT = c.flat("joint_dust", (0.035, 0.031, 0.027), rough=0.95)
+JOINT = c.flat("joint_dust", (0.11, 0.097, 0.083), rough=0.95)
 
 
 def round_edges(mat, radius):
@@ -325,6 +339,7 @@ m = Mesh()
 m.revolve([(0.0, -0.4), (R_WALL_OUT, -0.4), (R_WALL_OUT, -0.006), (0.0, -0.006)], 0, 0, 128, full=True)
 m.build("C01_FLOOR_BED", JOINT, shell)
 flags = kit.Mesh()
+FLOOR_RNG = random.Random(7)
 FW, FD, GAP = 0.9, 0.6, 0.004
 rows = int(2 * 12.6 / FD) + 1
 for row in range(rows):
@@ -334,6 +349,16 @@ for row in range(rows):
     while x < 12.6:
         cx_, cy_ = x + FW / 2, y0 + FD / 2
         if math.hypot(cx_, cy_) < 12.3:
+            # Correlated drift (ChatGPT): neighbouring flags come from the same bed of the quarry, with a
+            # little jitter; its own stream so the shelves keep their layout.
+            drift = 0.5 + 0.25 * math.sin(cx_ * 0.29 + cy_ * 0.13) + 0.2 * math.sin(cy_ * 0.41 - cx_ * 0.17 + 1.3)
+            flags.slot = min(3, max(0, int((drift + FLOOR_RNG.gauss(0, 0.12)) * 4)))
+            # Footfall: a ring round the desk where readers stand, and the line in from the entrance.
+            ring = abs(math.hypot(cx_ / 1.35, (cy_ + 1.45) / 1.0) - 1.3)  # ~0.5 m off the desk edge, inside the pool
+            lane = abs(cx_ + 0.3) if cy_ < -2.4 else 9.0
+            wear = max(0.0, 1 - ring / 0.7) if ring < lane else max(0.0, 1 - lane / 0.9)
+            if FLOOR_RNG.random() < wear * 0.85:
+                flags.slot += 4
             b = len(flags.v)
             dish = random.uniform(0.0015, 0.0035)
             for j in range(3):  # 3 × 3 top grid: corners proud, the centre worn down
@@ -355,7 +380,7 @@ for row in range(rows):
                 flags._face((a_, mid, c_, low[c_], low[a_]))
             flags._face((bb + 3, bb + 2, bb + 1, bb))
         x += FW
-flags.build("C01_FLOOR", FLOOR, shell)
+flags.build("C01_FLOOR", FLOORS, shell)
 
 m = Mesh()
 m.revolve(rect(R_WALL, R_WALL_OUT, 0, Z_SPRING), 0, 0, 128, full=True)
@@ -425,7 +450,7 @@ for i in range(16):
         frame_count += 1
         tops = bay.case(wood_m, f, 0.41, L - 0.41, z0, z1, CASE_D)  # clear of the bisector-square pilasters
         # Bays behind the hero camera carry simple books; everything the camera sees gets bound volumes.
-        simple = LOOK != "hero" or 100 < th_c < 260
+        simple = LOOK != "hero" or 100 < th_c < 260 or bool(os.environ.get("WEB"))  # WEB=1: one box per book for the GLB
         b = bay.Books(M, random.Random(1102 + 31 * i + t), simple=simple)
         b.fill(f, 0.41, L - 0.41, tops, 0.42, CASE_D, flip=(i, t) in INVERTED_NICHES)
         b.build(f"C01_BOOKS_{i:02d}_{t}", shelves)
@@ -580,8 +605,37 @@ for k, u in enumerate(ROOM_U):
         key = j == 4
         rib.obox(fr + up * (du / 2) + r_dir * (rad + 0.12) - N * (0.04 if key else 0.0), t_dir, N, r_dir,
                  rad * (a1 - a0) - 0.014, 0.08 + (0.06 if key else 0.0), 0.26 + (0.08 if key else 0.0))
-    ROOM_LIGHTS.append(o)
+    ROOM_LIGHTS.append(o + up * (0.75 if k == 0 else 0.85))  # under its own ceiling: falloff, not a lightbox
 
+# ChatGPT (hero-005): the sideways room needs corroborating evidence, readable from the entrance. Its "up"
+# is +T, so a shelf on the back wall carries books that stand along +T, and a plumb hangs along −T.
+th2 = theta(ROOM_U[1])
+T2, N2 = tangent(th2), radial(th2)
+side_back = polar(CORR_R, th2, CORR_Z + CORR_H / 2) + N2 * CORR_HW
+SIDE_ROOM = SimpleNamespace(back=side_back, T=T2, N=N2)
+rib.slot = 2
+rib.obox(side_back - N2 * 0.13 - T2 * 0.55 + Z * 0.5, T2, N2, Z, 0.035, 0.26, 0.95)  # the shelf, its face to +T
+rib.obox(side_back - N2 * 0.13 - T2 * 0.55 + Z * 0.5 + T2 * 0.12 + Z * 0.49, T2, N2, Z, 0.24, 0.26, 0.03)  # bookend cheek
+side_rng = random.Random(23)
+zb = 0.05
+while zb < 0.48:
+    w_b, h_b, d_b = side_rng.uniform(0.035, 0.065), side_rng.uniform(0.2, 0.34), side_rng.uniform(0.15, 0.22)
+    rib.slot = 3 + side_rng.choices(range(len(BOOKS)), weights=BOOK_WEIGHTS)[0]
+    rib.obox(side_back - N2 * (d_b / 2 + 0.02) - T2 * (0.5325 - h_b / 2) + Z * (zb + w_b / 2), T2, N2, Z, h_b, d_b, w_b - 0.003)
+    zb += w_b
+# A plain row turned 90° could pass for a flat pile; a leaner can't. One book tips back against the row in
+# the room's own gravity, and a short stack lies flat (in that gravity) at the end of the shelf.
+a_l, h_l, w_l, d_l = math.radians(20), 0.27, 0.05, 0.19
+h_dir, w_dir = T2 * math.cos(a_l) - Z * math.sin(a_l), T2 * math.sin(a_l) + Z * math.cos(a_l)
+p_l = side_back - N2 * (d_l / 2 + 0.02) - T2 * 0.5325 + Z * (zb + h_l * math.sin(a_l) + 0.004)
+rib.slot = 3 + side_rng.choices(range(len(BOOKS)), weights=BOOK_WEIGHTS)[0]
+rib.obox(p_l + h_dir * h_l / 2 + w_dir * w_l / 2, h_dir, N2, w_dir, h_l, d_l, w_l)
+t_s = 0.5325
+for j in range(3):
+    t_b, z_len = side_rng.uniform(0.03, 0.05), side_rng.uniform(0.2, 0.26)
+    rib.slot = 3 + side_rng.choices(range(len(BOOKS)), weights=BOOK_WEIGHTS)[0]
+    rib.obox(side_back - N2 * 0.12 - T2 * (t_s - t_b / 2) + Z * (0.968 - z_len / 2 - side_rng.uniform(0.0, 0.006)), T2, N2, Z, t_b - 0.002, 0.18, z_len)
+    t_s -= t_b
 rib.slot = 0
 # Gemini: a twin of the reading desk bolted to the wall segment, so it juts sideways into the room.
 o, W, n = walk_frame(1, 0.47)
@@ -591,7 +645,7 @@ rib.obox(o + n * 0.88, T, W, n, 2.4, 1.3, 0.08)
 for sx in (-0.85, 0.85):
     rib.obox(o + n * 0.42 + T * sx, T, W, n, 0.55, 1.15, 0.84)
 rib.slot = 0
-rib.build("C01_GALLERY_RETURNING", [STONE, METAL, WOOD] + BOOKS + [MASONRY], returning)
+rib.build("C01_GALLERY_RETURNING", [STONE, METAL, WOOD] + BOOKS + [ROOM_STONE], returning)
 
 # ---------------------------------------------------------------- dome, ribs, oculus
 dome_c = collection("C01_DOME")
@@ -625,7 +679,7 @@ m.build("C01_DOME_RIBS", STONE, dome_c)
 desk_c = collection("C01_DESK")
 m = kit.Mesh()
 bay.reading_desk(m, (0.0, -1.45))
-DESK_LEATHER = kit.pbr("desk_leather", "brown_leather", 0.05, tint=srgb("#142019"), keep=0.05, rough=(0.45, 0.78), normal=1.0, bevel=0.002, contrast=0.7) if LOOK == "hero" else FOLIO
+DESK_LEATHER = kit.pbr("desk_leather", "brown_leather", 0.09, tint=srgb("#16241B"), keep=0.08, rough=(0.3, 0.62), normal=1.8, bevel=0.002, contrast=1.15) if LOOK == "hero" else FOLIO  # hero-004 read as felt: grain lives in the sheen
 m.build("C01_READING_DESK", [WOOD, DESK_LEATHER, M.gilt, METAL], desk_c, smooth=True)
 # A turned brass reading lamp standing on the desk: weighted base, column, arm, and a deep shade over the page.
 LAMP_HEAD = Vector((-0.42, -1.2, 1.5))
@@ -691,6 +745,15 @@ bay.plumb(m, Vector((0.85, -1.75, 0.9216)), Z, X)
 for seg, u in ((0, 0.14), (1, 0.6), (2, 0.86)):
     o, W, n = walk_frame(seg, u)
     bay.plumb(m, o + W * (0.15 if seg != 1 else 0.3), n, tangent(theta(u)), 3.0)
+# The sideways room's plumb: a bracket off the back wall, the line and bob falling along −T, scaled to read
+# at ~9 m from the entrance.
+p0 = SIDE_ROOM.back + SIDE_ROOM.T * 0.8 + Z * 0.25
+p1 = p0 - SIDE_ROOM.N * 0.6
+m.tube([p0, p1], [0.014, 0.012], 12)
+m.lathe([(0.0, 0.0), (0.03, 0.0), (0.03, 0.02), (0.0, 0.02)], p0 - SIDE_ROOM.N * 0.01, 16, axis_up=-SIDE_ROOM.N)  # rose
+m.tube([p1, p1 - SIDE_ROOM.T * 0.95], [0.0025, 0.0025], 6)
+bob = p1 - SIDE_ROOM.T * 0.95
+m.lathe([(0.0, 0.0), (0.03, -0.01), (0.055, -0.06), (0.04, -0.11), (0.0, -0.17)], bob, 24, axis_up=SIDE_ROOM.T)
 m.build("C01_PLUMB_LINES", METAL, props, smooth=True)
 
 # ---------------------------------------------------------------- lighting
@@ -742,15 +805,17 @@ if LOOK == "hero":
     # Gemini's rig: one brutal source. Daylight falls through the oculus as a hard shaft onto the desk;
     # most of the chamber lives in shadow. Warm practicals answer it; the turning rooms glow from inside.
     oc = Vector((0, 0, dome_z(R_OCULUS)))
-    shaft = c.sun_toward(sc, float(os.environ.get("SUN", "24.0")), kelvin(5600), tuple(Vector((0, -1.45, 0.92)) - oc), angle_deg=0.6)
+    shaft = c.sun_toward(sc, float(os.environ.get("SUN", "24.0")), kelvin(int(os.environ.get("SUN_K", "5100"))), tuple(Vector((0, -1.45, 0.92)) - oc), angle_deg=float(os.environ.get("SUN_ANGLE", "4.0")))
     shaft.name = "L01_OCULUS_SHAFT"
-    c.backdrop(sc, srgb("#9DB4D6"), 0.9)  # sky seen through the oculus and the entrance
+    c.backdrop(sc, srgb("#9DB4D6"), float(os.environ.get("SKY", "22")))  # sky through the oculus and the entrance; its fill is what makes the pool daylight
+    # SKY_HAZE=0 keeps the sky out of the haze: it fills the floor and the desk, the haze stays the sun's.
+    sc.world.cycles_visibility.scatter = os.environ.get("SKY_HAZE", "0") != "0"
     light("L02_CORRIDOR_GRAZE", "AREA", (7.5, -2.0, 3.5), polar(CORR_R, 27, CORR_Z + 1.1), 3600, 120, 1.5, 0.8)
-    light("L04_DESK_PRACTICAL", "SPOT", LAMP_HEAD - Z * 0.05, None, 2750, 40).data.spot_size = math.radians(110)
+    light("L04_DESK_PRACTICAL", "SPOT", LAMP_HEAD - Z * 0.05, None, 2750, float(os.environ.get("DESK_W", "40"))).data.spot_size = math.radians(110)
     for k, p in enumerate(SCONCES):
         light(f"L05_SCONCE_{k + 1}", "POINT", p, None, 2700, 45)
     for k, p in enumerate(ROOM_LIGHTS):
-        light(f"L07_ROOM_{k + 1}", "POINT", p, None, 2700, 220)
+        light(f"L07_ROOM_{k + 1}", "POINT", p, None, 2700, 70)  # 220 W turned the doorways into lightboxes
     # Each segment is lit from its own local ceiling, so the light itself obeys the turning gravity.
     for seg, (u0, u1) in enumerate(SPANS):
         um = (u0 + u1) / 2
@@ -834,6 +899,11 @@ CAMS = {
     "DESK": camera("CAM_DESK", (1.25, -3.05, 1.3), (0.1, -1.45, 0.75), 45),
     "C": camera("CAM_C", (0.52, -2.47, 1.67), (0.0, -1.36, 0.98), 68),
 }
+# The web's reflection probe: an equirect from just above the desk (run it alone, CAMS=PANO EXR=1 at 2:1).
+# Rotation (90°, 0, −90°) is Blender's environment-texture convention, so the EXR maps like a world HDRI.
+CAMS["PANO"] = camera("CAM_PANO", (0.0, -1.45, 1.45), (0.0, 5.0, 1.45), 24)
+CAMS["PANO"].data.type, CAMS["PANO"].data.panorama_type = "PANO", "EQUIRECTANGULAR"
+CAMS["PANO"].rotation_euler = (math.pi / 2, 0.0, -math.pi / 2)
 
 # ---------------------------------------------------------------- manifest + renders
 os.makedirs(a["out"], exist_ok=True)
@@ -871,6 +941,28 @@ if os.environ.get("RAYCHECK"):
     print("WALL faces after boolean", len(w.data.polygons))
 for key in [k for k in os.environ.get("CAMS", "HERO").split(",") if k and k != "NONE"]:
     sc.camera = CAMS[key]
+    # BORDERS=name:x0,y0,x1,y1;... renders only those regions of the HERO frame (image fractions, top-left
+    # origin): matched gate crops at full resolution without paying for the whole frame.
+    regions = [r.split(":") for r in os.environ.get("BORDERS", "").split(";") if r] if key == "HERO" else []
+    for name, box in regions:
+        x0, y0, x1, y1 = (float(v) for v in box.split(","))
+        r_ = sc.render
+        r_.use_border, r_.use_crop_to_border = True, True
+        r_.border_min_x, r_.border_max_x, r_.border_min_y, r_.border_max_y = x0, x1, 1 - y1, 1 - y0
+        # SKIES=0.9,2.5,... repeats each region per sky-fill strength, so one scene build answers a sweep.
+        # SHAFTS=24@1.2,14@3.5,... does the same for the oculus sun (strength@angle in degrees).
+        for sky in [v for v in os.environ.get("SKIES", "").split(",") if v] or [None]:
+            if sky is not None:
+                sc.world.node_tree.nodes["Background"].inputs["Strength"].default_value = float(sky)
+            for sh in [v for v in os.environ.get("SHAFTS", "").split(",") if v] or [None]:
+                if sh is not None:
+                    e_, ang = sh.split("@")
+                    shaft.data.energy, shaft.data.angle = float(e_), math.radians(float(ang))
+                tag = (f"-sky{sky}" if sky else "") + (f"-sun{sh}" if sh else "")
+                c.render(sc, os.path.join(a["out"], f"{LOOK}-{key}-{name}{tag}.png"))
+    sc.render.use_border = False
+    if regions:
+        continue
     c.render(sc, os.path.join(a["out"], f"{LOOK}-{key}.png"))
     if os.environ.get("EXR"):  # scene-linear master for grading (ChatGPT's brief: EXR intermediate)
         fmt = sc.render.image_settings

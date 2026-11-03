@@ -1,0 +1,659 @@
+/*
+  The FRONTIER folio. Vellum, ink and brass; the site serif with real small caps and tabular figures;
+  hairlines that stay one device pixel. No embossing, no text shadow, no glow.
+*/
+
+.spread {
+  --obsidian: #141512;
+  --vellum: #eae2d4;
+  --vellum-deep: #ddd2bf;
+  --brass: #ac8960;
+  --brass-ink: #6f5434;
+  --abyss: #273b43;
+  --oxide: #874b43;
+  --ink: #1d1c18;
+  --ink-soft: rgb(29 28 24 / 0.74);
+  --serif: var(--font-newsreader), Georgia, "Times New Roman", serif;
+  --mono: var(--font-jetbrains), ui-monospace, monospace;
+
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: min(1240px, 100%);
+  margin: 0 auto;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-variant-numeric: lining-nums tabular-nums;
+  transform-style: preserve-3d;
+}
+
+/* Contact shadow of the spread on whatever it lies on. A sibling, so it never flattens the 3D. */
+.shadow {
+  position: absolute;
+  inset: 2% 1% 0;
+  border-radius: 2px;
+  box-shadow:
+    0 30px 60px -20px rgb(0 0 0 / 0.55),
+    0 12px 22px -12px rgb(0 0 0 / 0.5);
+  pointer-events: none;
+}
+
+.board {
+  position: relative;
+  transform-style: preserve-3d;
+  transform-origin: 100% 50%;
+}
+
+.page {
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  padding: clamp(1.25rem, 4.2vh, 2.3rem) clamp(1.25rem, 3.2vw, 2.9rem) clamp(1.1rem, 3.6vh, 1.9rem);
+  background-color: var(--vellum);
+  backface-visibility: hidden;
+}
+
+/* Fibre and the fall of light toward the gutter; the gutter shadow itself is narrow and soft. */
+.page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9 0.35' numOctaves='3' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 0.35 0 0 0 0 0.3 0 0 0 0 0.22 0 0 0 0.55 0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23f)'/%3E%3C/svg%3E");
+  opacity: 0.16;
+  mix-blend-mode: multiply;
+}
+
+.pageLeft::after,
+.pageRight::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.pageLeft::after {
+  background: linear-gradient(
+    270deg,
+    rgb(52 38 22 / 0.2) 0,
+    rgb(52 38 22 / 0.07) 1.6rem,
+    transparent 4.5rem,
+    transparent 85%,
+    rgb(52 38 22 / 0.05) 100%
+  );
+}
+
+.pageRight::after {
+  background: linear-gradient(
+    90deg,
+    rgb(52 38 22 / 0.22) 0,
+    rgb(52 38 22 / 0.07) 1.6rem,
+    transparent 4.5rem,
+    transparent 85%,
+    rgb(52 38 22 / 0.05) 100%
+  );
+}
+
+/* A restrained specular sheet that crosses the vellum once while the volume opens (3D only). */
+.sheen {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 30%, rgb(255 251 240 / 0.22) 46%, transparent 62%);
+  background-size: 260% 100%;
+  background-position: 100% 0;
+  opacity: 0;
+}
+
+.runningHead {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-bottom: 0.55rem;
+  margin-bottom: clamp(0.8rem, 2.6vh, 1.5rem);
+  border-bottom: 1px solid rgb(29 28 24 / 0.32);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  font-variant-caps: all-small-caps;
+  color: var(--brass-ink);
+}
+
+.kicker,
+.label,
+.entries dt,
+.colophon dt {
+  margin: 0;
+  font-size: 0.82rem;
+  letter-spacing: 0.09em;
+  font-variant-caps: all-small-caps;
+  color: var(--brass-ink);
+}
+
+.title {
+  margin: 0.15rem 0 clamp(0.9rem, 2vw, 1.4rem);
+  font-weight: 400;
+  font-size: clamp(1.7rem, 2.7vw, 2.45rem);
+  line-height: 1.05;
+  letter-spacing: -0.012em;
+  outline: none;
+}
+
+.entries {
+  display: grid;
+  grid-template-columns: 6.4rem 1fr;
+  gap: 0.5rem 1rem;
+  margin: 0;
+  padding: 0.85rem 0;
+  border-top: 1px solid rgb(29 28 24 / 0.2);
+  border-bottom: 1px solid rgb(29 28 24 / 0.2);
+  font-size: clamp(0.9rem, 1.05vw, 0.98rem);
+  line-height: 1.45;
+}
+
+.entries dt {
+  padding-top: 0.12rem;
+}
+
+.entries dd {
+  margin: 0;
+}
+
+.verdict {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  margin: clamp(1rem, 2vw, 1.5rem) 0 0.4rem;
+}
+
+/* Ink, not a sticker: a double rule and small caps in oxide, slightly off square, multiplied into the vellum. */
+.stamp {
+  flex: none;
+  margin: 0;
+  padding: 3px;
+  border: 1.5px solid var(--oxide);
+  transform: rotate(-3deg);
+  mix-blend-mode: multiply;
+  opacity: 0.9;
+}
+
+.stamp span {
+  display: block;
+  padding: 0.32rem 0.7rem 0.38rem;
+  border: 1px solid var(--oxide);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  font-variant-caps: all-small-caps;
+  color: var(--oxide);
+  white-space: nowrap;
+}
+
+.figures {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+
+.lesson {
+  margin: 0.9rem 0 0.5rem;
+  font-style: italic;
+  font-size: clamp(1.15rem, 1.6vw, 1.38rem);
+  line-height: 1.25;
+}
+
+.body,
+.limits {
+  margin: 0 0 0.6rem;
+  font-size: clamp(0.88rem, 1vw, 0.95rem);
+  line-height: 1.45;
+}
+
+.limits {
+  color: var(--ink-soft);
+}
+
+.colophon {
+  margin-top: clamp(0.9rem, 2vw, 1.4rem);
+  padding-top: 0.6rem;
+  border-top: 1px solid rgb(29 28 24 / 0.32);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--ink-soft);
+}
+
+.colophon dl {
+  display: grid;
+  grid-template-columns: 9.5rem 1fr;
+  gap: 0.3rem 0.9rem;
+  margin: 0.35rem 0 0;
+}
+
+.colophon dt {
+  font-size: 0.74rem;
+}
+
+.colophon dd {
+  margin: 0;
+}
+
+.colophon code,
+.figures code {
+  font-family: var(--mono);
+  font-size: 0.92em;
+  color: var(--ink);
+}
+
+.colophon a {
+  color: var(--abyss);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.colophon a:focus-visible {
+  outline: 1px solid var(--abyss);
+  outline-offset: 3px;
+}
+
+.slider {
+  outline: none;
+}
+
+/* Keyboard focus on the chart: the pin's ring turns abyss blue and a fine frame is drawn. */
+.slider:focus-visible {
+  outline: 1px solid rgb(39 59 67 / 0.45);
+  outline-offset: 6px;
+}
+
+.slider:focus-visible .pinRing {
+  stroke: #9fc0cc;
+}
+
+/* The board's outside: oxblood cloth, one blind-tooled frame, the title in brass. */
+.cover {
+  position: absolute;
+  inset: 0;
+  display: none;
+  place-items: center;
+  background:
+    linear-gradient(90deg, rgb(0 0 0 / 0.28), transparent 8%, transparent 92%, rgb(0 0 0 / 0.22)),
+    #5b2622;
+  /* Lifted a hair off the page block, so the shut board never z-fights the right page. */
+  transform: rotateY(180deg) translateZ(2px);
+  backface-visibility: hidden;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  inset: 7%;
+  border: 1px solid rgb(172 137 96 / 0.45);
+}
+
+.cover span {
+  font-size: clamp(1rem, 2vw, 1.6rem);
+  letter-spacing: 0.3em;
+  font-variant-caps: all-small-caps;
+  color: var(--brass);
+}
+
+[data-folio-mode="3d"] .cover {
+  display: grid;
+}
+
+/* ───────────── Nomogram ───────────── */
+
+.nomogram {
+  margin: 0;
+}
+
+.slider {
+  display: block;
+  max-width: 34rem;
+  margin: 0 auto;
+}
+
+.chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: min(600px, 60vh);
+  margin: 0 auto;
+  overflow: visible;
+  font-family: var(--serif);
+  user-select: none;
+}
+
+.chart line,
+.chart path,
+.chart circle {
+  vector-effect: non-scaling-stroke;
+}
+
+.scaleTitle text {
+  font-size: 14.5px;
+  letter-spacing: 0.08em;
+  font-variant-caps: all-small-caps;
+  fill: var(--brass-ink);
+}
+
+.rule {
+  stroke: rgb(29 28 24 / 0.32);
+  stroke-width: 1;
+}
+
+.axis {
+  stroke: var(--ink);
+  stroke-width: 1;
+}
+
+.tick {
+  stroke: var(--ink);
+  stroke-width: 1;
+}
+
+.num {
+  font-size: 13px;
+  font-variant-numeric: lining-nums tabular-nums;
+  fill: var(--ink);
+}
+
+.note {
+  font-size: 12.5px;
+  font-style: italic;
+  fill: var(--ink-soft);
+}
+
+.legend {
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  font-variant-caps: all-small-caps;
+  fill: var(--brass-ink);
+}
+
+.legendSub {
+  font-size: 12px;
+  font-style: italic;
+  fill: var(--ink-soft);
+}
+
+.bracket path {
+  fill: none;
+  stroke: var(--ink-soft);
+  stroke-width: 1;
+}
+
+.rug line {
+  stroke: var(--abyss);
+  stroke-width: 1;
+  stroke-opacity: 0.85;
+}
+
+.straightedge {
+  cursor: grab;
+  touch-action: none;
+}
+
+.straightedge:active {
+  cursor: grabbing;
+}
+
+.bevelLight {
+  stroke: #e9d4ad;
+  stroke-width: 1;
+  stroke-opacity: 0.8;
+}
+
+.bevelDark {
+  stroke: #4c3a22;
+  stroke-width: 1;
+  stroke-opacity: 0.7;
+}
+
+.grad {
+  stroke: #3a2c18;
+  stroke-width: 1;
+  stroke-opacity: 0.55;
+}
+
+.edge {
+  stroke: #3a2c18;
+  stroke-width: 1;
+}
+
+.reading {
+  fill: var(--vellum);
+  stroke: var(--oxide);
+  stroke-width: 1.5;
+}
+
+.pin {
+  pointer-events: none;
+}
+
+.pinHead {
+  fill: #2b241b;
+  stroke: #0f0d0a;
+  stroke-width: 1;
+}
+
+.pinRing {
+  fill: none;
+  stroke: #8d7350;
+  stroke-width: 1;
+}
+
+.dragSurface {
+  fill: transparent;
+  cursor: ns-resize;
+  touch-action: none;
+}
+
+.foot {
+  font-size: 12px;
+  font-style: italic;
+  fill: var(--ink-soft);
+}
+
+.readouts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 34rem;
+  margin: 0.6rem auto 0;
+  text-align: center;
+}
+
+.readouts div {
+  padding: 0.1rem 0.4rem;
+}
+
+.readouts div + div {
+  border-left: 1px solid rgb(29 28 24 / 0.2);
+}
+
+.readouts dt {
+  font-size: 0.76rem;
+  letter-spacing: 0.08em;
+  font-variant-caps: all-small-caps;
+  color: var(--brass-ink);
+}
+
+.readouts dd {
+  margin: 0.1rem 0 0;
+  font-size: clamp(1.25rem, 1.9vw, 1.6rem);
+  line-height: 1.1;
+}
+
+.of {
+  font-size: 0.55em;
+  color: var(--ink-soft);
+}
+
+.caption {
+  max-width: 34rem;
+  margin: 0.8rem auto 0;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  font-style: italic;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+/* Narrow: the leaves stack, record above instrument. */
+@media (max-width: 900px) {
+  .spread {
+    grid-template-columns: 1fr;
+  }
+
+  .pageLeft::after,
+  .pageRight::after {
+    background: none;
+  }
+
+  .entries {
+    grid-template-columns: 1fr;
+    gap: 0.15rem;
+  }
+
+  .entries dd + dt {
+    margin-top: 0.5rem;
+  }
+
+  .colophon dl {
+    grid-template-columns: 1fr;
+  }
+
+  .colophon dd + dt {
+    margin-top: 0.4rem;
+  }
+
+  .verdict {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .chart {
+    max-height: none;
+  }
+
+  .pageRight {
+    padding-inline: 0.75rem;
+  }
+
+  /* The chart is drawn at about 0.6× here: set its type larger so it stays ≥ 10 px. */
+  .scaleTitle text {
+    font-size: 18px;
+  }
+
+  .num {
+    font-size: 18px;
+  }
+
+  .note,
+  .foot {
+    font-size: 16.5px;
+  }
+
+  .legend {
+    font-size: 15px;
+  }
+
+  .legendSub {
+    font-size: 15px;
+  }
+
+  .readouts dt {
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* ───────────── The stage it opens on (the chamber's dialog and the flat route) ───────────── */
+
+.stage {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
+  margin: 0;
+  padding: clamp(3.5rem, 6vh, 4.5rem) clamp(1rem, 3vw, 2.5rem) 2.5rem;
+  border: 0;
+  background: transparent;
+  overflow: auto;
+  overscroll-behavior: contain;
+  perspective: 1900px;
+  perspective-origin: 50% 40%;
+  box-sizing: border-box;
+}
+
+.stage::backdrop {
+  background: transparent;
+}
+
+.stage[data-folio-mode="flat"] {
+  animation: fade-in 320ms ease-out both;
+}
+
+.stage[data-closing][data-folio-mode="flat"] {
+  animation: fade-out 220ms ease-in both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+.close {
+  position: fixed;
+  top: clamp(0.75rem, 2vh, 1.25rem);
+  right: clamp(0.75rem, 2vw, 1.5rem);
+  z-index: 2;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid rgb(234 226 212 / 0.4);
+  background: rgb(20 21 18 / 0.55);
+  color: #eae2d4;
+  font-family: var(--font-jetbrains), ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color 200ms ease, background-color 200ms ease;
+}
+
+.close:hover,
+.close:focus-visible {
+  border-color: #ac8960;
+  background: rgb(20 21 18 / 0.8);
+}
+
+.close:focus-visible {
+  outline: 1px solid #ac8960;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stage[data-folio-mode="flat"],
+  .stage[data-closing][data-folio-mode="flat"] {
+    animation-duration: 1ms;
+  }
+}
+
+/* The flat reading route. */
+.flatStage {
+  min-height: 100svh;
+  padding: clamp(3.75rem, 8vh, 5rem) clamp(1rem, 3vw, 2.5rem) 3rem;
+  background: radial-gradient(120% 80% at 50% 0%, #22231e 0%, #141512 70%);
+  box-sizing: border-box;
+}

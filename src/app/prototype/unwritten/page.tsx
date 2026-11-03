@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Unwritten } from "@/components/unwritten/Unwritten";
+import { FrontierFolio } from "@/components/unwritten/folio/FrontierFolio";
 
 export const metadata: Metadata = {
   title: "The Unwritten",
@@ -12,7 +13,7 @@ export default function UnwrittenPage() {
     <>
       {/* The poster is full-bleed; the site header and footer would sit on and under the frame. */}
       <style>{`header[data-header],body>footer{display:none!important}`}</style>
-      <Unwritten />
+      <Unwritten folio={<FrontierFolio />} />
     </>
   );
 }

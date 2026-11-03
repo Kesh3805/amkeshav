@@ -55,3 +55,8 @@ docs/research/atlas/*/desktop.webm
 
 # CC0 texture images (fetched by art/textures/fetch.py)
 /art/textures/*/
+
+# THE UNWRITTEN: uncompressed draft GLB for local WebGL tests (ship the meshopt build instead)
+/public/unwritten/chamber.glb
+/public/unwritten/lightmaps/
+/public/unwritten/chamber-env.hdr

@@ -88,8 +88,26 @@ export const programSchema = z.object({
   reproduce: z.array(z.string()),
 });
 
+/** content/research/data/frontier-exp009.json, written by scripts/research/exp009-nomogram.py. */
+export const exp009NomogramSchema = z.object({
+  source: z.string(),
+  casesFull: z.number().int().positive(),
+  chargePerCase: z.number().positive(),
+  fit: z.object({ fixedMs: z.number().positive(), perCaseMs: z.number().positive() }),
+  candidates: z.number().int(),
+  fail: z.number().int(),
+  savingModelled: z.number(),
+  savingMeasured: z.number(),
+  savingMeasuredCi: z.tuple([z.number(), z.number()]),
+  fixedShare: z.number(),
+  columns: z.tuple([z.literal("k"), z.literal("medianWallEarlyMs"), z.literal("medianWallFullMs")]),
+  /** One row per FAIL candidate: [cases run before the first failure, median early-stop ms, median full ms]. */
+  failing: z.array(z.tuple([z.number().int().positive(), z.number(), z.number()])),
+});
+
 export type Work = z.infer<typeof workSchema>;
 export type Writing = z.infer<typeof writingSchema>;
 export type Program = z.infer<typeof programSchema>;
 export type Experiment = z.infer<typeof experimentSchema>;
 export type Verdict = z.infer<typeof verdict>;
+export type Exp009Nomogram = z.infer<typeof exp009NomogramSchema>;

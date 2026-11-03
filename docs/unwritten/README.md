@@ -158,6 +158,123 @@ scene-linear EXR next to each PNG.
 
   Then freeze the cinematic master and move to WebGL translation.
 
+### hero-004: not frozen (3 Nov)
+
+[`hero-004.png`](hero-004.png), crops in [`hero-004-crops/`](hero-004-crops/). Claude's read against the
+freeze condition:
+
+- The shaft doesn't wash out (pool max 180/255, nothing clipped), but it's the brightest event and the
+  pool is a hard disc: a stage follow-spot.
+- The floor still reads as tile: every flag in the pool is the same pale beige, with near-black joints.
+- The folio is marginal: oxblood in the wide shot, brick under direct sun.
+- The inset reads as felt.
+- A new imbalance at full resolution: the turning rooms are pale untextured boxes, and their 220 W
+  interiors turn the doorways into lightboxes.
+
+**ChatGPT's ruling for hero-005.** No redesign and no new effects; change only these variables:
+
+- **Shaft:** sun angle 0.6° → 1.2°. Break the pool only with real structural members; none cross the
+  open oculus, so no invented glazing.
+- **Floor:** four limestone tints with correlated drift, not independent picks (no checkerboard), and dusty
+  joints.
+- **Inset:** grain at 9 cm, a stronger normal, and roughness 0.30–0.62 so the grain shows in the sheen.
+- **Rooms:**
+  - a darker weathered sandstone of their own
+  - room lights cut to 70 W and moved under each room's own ceiling, so the interior falls off
+  - in the sideways room, a shelf of books standing along that room's "up" (+T), and a plumb line hanging
+    along −T
+- **Folio:** unchanged until the new light is seen.
+- **Process:** matched crops of the anomaly and the pool (`BORDERS=` region renders) come before any full
+  hero render.
+
+**Freeze gate for hero-005:**
+
+- the pool no longer reads as a follow-spot
+- the floor reads as monumental stone
+- the inset shows leather grain and sheen
+- the rooms show masonry depth
+- the sideways gravity is readable at 960×540
+- no new imbalance at 1920×1080
+
+### hero-005: not frozen (3 Nov)
+
+[`hero-005.png`](hero-005.png), crops in [`hero-005-crops/`](hero-005-crops/). Claude's read against the
+gate:
+
+- **Pass:** inset leather, room masonry, sideways gravity.
+- **Partial:** the floor reads as stone inside the pool and as black outside it.
+- **Minor:** the upper half and the left are very dark.
+- **Fail:** the pool is still a follow-spot, with no bounce on the desk underside, stretcher, legs or
+  nearby floor. Measured pool centre against 1 m outside the edge: about 120:1 (display luminance,
+  sRGB-decoded). The floor albedo, about 0.11 linear, returns almost nothing.
+
+**ChatGPT's ruling for hero-006:**
+
+- Fix the receiving side first: the floor must take part in the light so the pool lights the room, not
+  just itself. Raise the floor albedo in and just beyond the pool, slightly less rough where plausible,
+  and keep it stone, not gloss.
+- Tame the shaft only as far as that needs; don't trade a good shaft for a floor that is still a void.
+- **Target:** pool centre against 1 m outside the edge at about 12:1, acceptable 10–14:1. Above about
+  15:1 it stays theatrical.
+
+`FLOOR_LIFT` scales every flag's albedo; `SHAFTS=strength@angle,...` sweeps the sun inside `BORDERS`
+crops; `DESK_W` sets the desk practical.
+
+**The sweep** (ratio measured 1.2 m beyond the half-max edge):
+
+- **Sun 24 W/m² at 4°:** softens the rim into a real penumbra, but the ratio holds at 137:1.
+- **Sun 14@8:** reaches 16:1 only by smearing the pool flat. Rejected.
+- **Floor ×2.2 and ×3.2:** 106:1 and 90:1. The surround flags read as stone, but the interior drifts
+  toward pale tile.
+- **Conclusion:** one source in a dark-walled rotunda caps out at about 80–100:1.
+
+**ChatGPT's revised ruling:**
+
+- 12:1 was too rigid. The ratio is a diagnostic: 10–20:1 preferred, 20–40:1 conditional on a soft
+  boundary and a legible floor, above 40:1 review rather than reject.
+- The desk's 2750 K practical is the sanctioned second source; take the lowest setting (90 W before
+  160 W) that passes.
+- Keep the sun at 24 W/m² at 4°.
+- `FLOOR_LIFT` 2.6 stays an experiment: keep the flag variation and avoid the pale tile.
+- If neither lamp setting passes, look to diffuse light from the oculus, not more lamp.
+- "A photographed impossible place, not numerical compliance with a contrast target."
+
+**What hero-006 uses:**
+
+- **Desk lamp:** 90 W and 160 W measured the same (100:1 and 102:1). The shade aims the cone at the
+  leather, so it stays at 40 W.
+- **Oculus sky fill:** the real omission. A clear sky gives about 15% of the sun's irradiance as diffuse
+  light; through a 4.4 m oculus 24 m up, that needs about 100× the old sky strength.
+- **Sky sweep:** SKY 12/30/60 gives 23:1, 9:1 and 5:1, but from 30 up the sky lights the haze into a
+  grey-blue veil over the anomaly.
+- **Haze:** `SKY_HAZE=0` keeps the world out of volume scatter, so the haze stays the sun's shaft. With it,
+  SKY 22 measures 25:1 with no veil.
+- **hero-006 settings:** sun 24 W/m² at 4°, 5100 K; `FLOOR_LIFT` 2.6; SKY 22 with `SKY_HAZE=0`; desk
+  lamp 40 W.
+
+### hero-006: FROZEN as the cinematic master (3 Nov)
+
+[`hero-006.png`](hero-006.png), crops in [`hero-006-crops/`](hero-006-crops/), all gates PASS:
+
+- the pool is now a real penumbra over legible stone (26:1 on the full frame)
+- the sky fill reveals the lower cases and both gallery tiers
+- the floor in the desk's shadow is 2.2× brighter, and the legs and stretcher separate from the floor
+
+ChatGPT approved the freeze on Claude's pixel review: "The cinematic master is the visual authority. The
+browser implementation must approach it, not redefine it." No hero-007 and no more lighting sweeps unless
+the browser exposes a concrete defect.
+
+**WebGL next, in order:**
+
+1. Archive the master: untreated render, EXR, finished PNG and settings.
+2. Poster from hero-006.
+3. Bake diffuse against the optimized WebGL geometry and its own lightmap UVs, not the cinematic scene.
+   Don't double-count: baked meshes get no runtime lights. Brass and glass reflections come separately
+   (PMREM).
+4. Meshopt, keeping silhouettes and moulding profiles.
+5. Validate the handoff: the WebGL first frame against the poster at the same framing, exposure and
+   viewport, on desktop, mobile, reduced motion and the fallback.
+
 ## Build
 
 Blender 5.2, headless, seed 1102. Fetch the textures once with `python art/textures/fetch.py`.
@@ -172,7 +289,12 @@ python art/unwritten/finish.py <in.png> <out.png>   # vignette, corner CA, shado
 - `chamber.py`:
   - `LOOK=hero|clay`
   - `CAMS` (HERO, A, A_LEVEL, A_IN, A_IN24, A_IN28, B, C)
-  - `SUN`, `HAZE`, `HERO_TZ`, `EV`, `SAVE_BLEND`
+  - `SUN` (24), `SUN_ANGLE` (4°), `SUN_K` (5100), `HAZE`, `HERO_TZ`, `EV`, `EXR`, `SAVE_BLEND`
+  - `SKY` (22): oculus sky fill. `SKY_HAZE` (0): whether the sky lights the haze.
+  - `FLOOR_LIFT` (2.6): albedo scale for every floor flag. `DESK_W` (40): desk practical.
+  - `BORDERS=name:x0,y0,x1,y1;...` renders only those regions of the HERO frame (matched gate crops).
+    Inside it, `SKIES=a,b,...` and `SHAFTS=strength@angle,...` sweep the sky and the sun without
+    rebuilding the scene.
   - `RAYCHECK=1 CAMS=NONE` traces the oculus ray and reports the wall after its boolean.
 
 `kit.py` holds the shared mesh builder (mitred moulding sweeps, lathe), the classical profiles and the

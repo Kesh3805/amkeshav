@@ -33,7 +33,8 @@ if prev:
     sheet.paste(b_, (a_.width + 12, 40))
     d = ImageDraw.Draw(sheet)
     f = ImageFont.truetype("C:/Windows/Fonts/consola.ttf", 22)
-    d.text((10, 8), "hero-001", fill=(235, 226, 212), font=f)
-    d.text((a_.width + 22, 8), "hero-002", fill=(235, 226, 212), font=f)
+    name = lambda p: os.path.splitext(os.path.basename(p))[0]
+    d.text((10, 8), name(prev), fill=(235, 226, 212), font=f)
+    d.text((a_.width + 22, 8), name(src), fill=(235, 226, 212), font=f)
     sheet.save(os.path.join(out, "lighting-comparison.png"))
     print("comparison")
