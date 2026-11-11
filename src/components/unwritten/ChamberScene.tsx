@@ -148,7 +148,10 @@ SUN_RGB.multiplyScalar(1 / (0.2126 * SUN_RGB.r + 0.7152 * SUN_RGB.g + 0.0722 * S
 /** Development only: ?gloss=0 turns the sun and probe gloss off, and the metals' sun (A/B against Cycles). */
 const SUN_GLOSS = typeof window !== "undefined" && process.env.NODE_ENV !== "production" && new URLSearchParams(window.location.search).get("gloss") === "0" ? 0 : 1;
 
-function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
+/** The scan's normal map (art/unwritten/detail_web.py) and Blender's Normal Map strength for it. */
+type SurfaceNormal = { map: THREE.Texture; strength: number };
+
+function withSurface(m: THREE.MeshBasicMaterial, roughness: number, grain?: SurfaceNormal) {
   const r = Math.min(1, Math.max(0.12, roughness)); // the 4° sun disc widens a sharper lobe
   m.onBeforeCompile = (shader) => {
     shader.uniforms.sunTo = { value: SUN_TO };
@@ -156,6 +159,8 @@ function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
     shader.uniforms.sunE = { value: SUN_E / Math.PI };
     shader.uniforms.surfRough = { value: r };
     shader.uniforms.envGain = { value: ENV_INTENSITY * SUN_GLOSS };
+    shader.uniforms.grainMap = { value: grain?.map ?? null };
+    shader.uniforms.grainStrength = { value: grain?.strength ?? 0 };
     shader.vertexShader = shader.vertexShader
       .replace("#include <common>", "#include <common>\nvarying vec3 vSurfN;\nvarying vec3 vSurfW;")
       .replace("#include <fog_vertex>", "#include <fog_vertex>\n  vSurfW = (modelMatrix * vec4(transformed, 1.0)).xyz;\n  vSurfN = normalize(mat3(modelMatrix) * normal);");
@@ -164,12 +169,26 @@ function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
         "#include <common>",
         /* glsl */ `#include <common>
         varying vec3 vSurfN; varying vec3 vSurfW;
-        uniform vec3 sunTo; uniform vec3 sunRadiance; uniform float sunE; uniform float surfRough; uniform float envGain;`,
+        uniform vec3 sunTo; uniform vec3 sunRadiance; uniform float sunE; uniform float surfRough; uniform float envGain;
+        ${grain ? "#define SURF_GRAIN\nuniform sampler2D grainMap; uniform float grainStrength;" : ""}`,
       )
       .replace(
         "#include <opaque_fragment>",
         /* glsl */ `{
           vec3 N = normalize(vSurfN) * (gl_FrontFacing ? 1.0 : -1.0);
+          #if defined(SURF_GRAIN) && defined(USE_MAP)
+            // The scan's normal map in a cotangent frame from screen derivatives (the box UVs carry no
+            // tangents), its xy scaled by Blender's Normal Map strength.
+            vec3 nm = texture2D(grainMap, vMapUv).xyz * 2.0 - 1.0;
+            nm.xy *= grainStrength;
+            vec3 dp1 = dFdx(vSurfW), dp2 = dFdy(vSurfW);
+            vec2 duv1 = dFdx(vMapUv), duv2 = dFdy(vMapUv);
+            vec3 dp2perp = cross(dp2, N), dp1perp = cross(N, dp1);
+            vec3 T = dp2perp * duv1.x + dp1perp * duv2.x;
+            vec3 Bt = dp2perp * duv1.y + dp1perp * duv2.y;
+            float invmax = inversesqrt(max(max(dot(T, T), dot(Bt, Bt)), 1e-12));
+            N = normalize(mat3(T * invmax, Bt * invmax, N) * nm);
+          #endif
           vec3 V = normalize(cameraPosition - vSurfW);
           float NdotV = clamp(dot(N, V), 1e-4, 1.0);
           outgoingLight *= 1.0 - min(0.6, 0.17 / surfRough) * pow(1.0 - NdotV, 4.0);
@@ -209,7 +228,7 @@ function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
       );
   };
   m.userData.surface = true;
-  m.customProgramCacheKey = () => `surface-${r.toFixed(3)}`;
+  m.customProgramCacheKey = () => `surface-${r.toFixed(3)}${grain ? "-grain" : ""}`;
 }
 
 /*
@@ -243,6 +262,38 @@ function inSunColumn(m: THREE.MeshStandardMaterial) {
       );
   };
   m.customProgramCacheKey = () => "sun-column";
+}
+
+/** The leathers the Book stance sees up close get the scan's grain back (art/unwritten/detail_web.py):
+    the asset and chamber.py's Normal Map strength. */
+const GRAIN: Record<string, { asset: string; strength: number }> = {
+  folio_oxide: { asset: "brown_leather", strength: 0.9 },
+  desk_leather: { asset: "brown_leather", strength: 1.8 },
+};
+const grainCache = new Map<string, Promise<THREE.Texture>>();
+
+/** The grain's albedo detail and normal map (UV0, the exporter's box projection in tiles); null if absent. */
+async function loadGrain(base: string, material: string, asset: string): Promise<{ albedo: THREE.Texture; normal: THREE.Texture } | null> {
+  const load = (path: string) => {
+    let p = grainCache.get(path);
+    if (!p) {
+      p = new THREE.TextureLoader().loadAsync(`${base}/unwritten/detail/${path}`).then((t) => {
+        t.flipY = false; // glTF UV convention
+        t.wrapS = t.wrapT = THREE.RepeatWrapping;
+        t.colorSpace = THREE.NoColorSpace; // both are data: a linear ratio and a normal
+        t.anisotropy = 4;
+        return t;
+      });
+      grainCache.set(path, p);
+    }
+    return p;
+  };
+  try {
+    const [albedo, normal] = await Promise.all([load(`${material}.jpg`), load(`${asset}-normal.jpg`)]);
+    return { albedo, normal };
+  } catch {
+    return null;
+  }
 }
 
 /**
@@ -282,7 +333,13 @@ async function applyLightmaps(root: THREE.Object3D, base: string): Promise<numbe
           lightMap: tex,
           lightMapIntensity: LIGHTMAP_INTENSITY * Math.PI * 2 ** -ev,
         });
-        withSurface(basic, std.roughness);
+        const grain = GRAIN[std.name];
+        const detail = grain ? await loadGrain(base, std.name, grain.asset) : null;
+        if (detail && grain) {
+          basic.map = detail.albedo; // ratio / 2 around a mean of 1, so the base colour doubles
+          basic.color.multiplyScalar(2);
+          withSurface(basic, std.roughness, { map: detail.normal, strength: grain.strength });
+        } else withSurface(basic, std.roughness);
         mesh.material = basic;
         return true;
       } catch {

@@ -406,6 +406,16 @@ and volume passes, and `art/unwritten/passfit.py` sets them against the web fram
   materials is masked to the column of sun the oculus admits (`inSunColumn`), since there is no shadow
   map. The folio's gilt ring now catches the gold glint Cycles shows. The Book went from 6.9 to 6.3
   codes; the Desk is 5.5 and the Threshold 5.3.
+- **Leather grain.** The exporter flattens each material to one colour, so at 1.4 m the folio and the
+  blotter read as smooth slabs. `art/unwritten/detail_web.py` derives from the CC0 scan:
+  - a per-material albedo detail (the kit's `1 + contrast·(bw/mean − 1)`, normalised to mean 1, so no
+    region's brightness moves)
+  - the scan's normal map
+
+  Both go into `public/unwritten/detail/` (350 KB, committed). The web samples them on UV0, the
+  exporter's box projection. The normal map perturbs the normal the gloss terms use, in a cotangent
+  frame from screen derivatives, at chamber.py's Normal Map strength. Book 6.2 codes, Desk 5.5,
+  Threshold 5.3.
 
 ## Build
 
