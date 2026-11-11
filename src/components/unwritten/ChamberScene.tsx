@@ -51,7 +51,6 @@ const LIGHTMAP_INTENSITY = (() => {
 })();
 /** The fill that remains for meshes without a lightmap (metals, glass, bulbs) once a bake exists. */
 const FILL_HEMI = 0.25;
-const FILL_KEY = 0.6;
 /** The sconces' frosted shades glow from the 45 W bulb inside (hero-006); three's transmission would cost
     a pass and render them dull, so they become unlit emitters at this linear radiance, warm (2700 K). */
 const SHADE_GLOW = new THREE.Color(1.0, 0.72, 0.45).multiplyScalar(6);
@@ -146,7 +145,7 @@ const SUN_TO = new THREE.Vector3(0, 0.998, -0.063).normalize(); // chamber.py's 
 const SUN_E = 24; // W/m², L01_OCULUS_SHAFT
 const SUN_RGB = new THREE.Color("#ffe8cf"); // 5100 K, as the shaft; normalised to luminance 1 below
 SUN_RGB.multiplyScalar(1 / (0.2126 * SUN_RGB.r + 0.7152 * SUN_RGB.g + 0.0722 * SUN_RGB.b));
-/** Development only: ?gloss=0 turns the patch off (A/B against Cycles). */
+/** Development only: ?gloss=0 turns the sun and probe gloss off, and the metals' sun (A/B against Cycles). */
 const SUN_GLOSS = typeof window !== "undefined" && process.env.NODE_ENV !== "production" && new URLSearchParams(window.location.search).get("gloss") === "0" ? 0 : 1;
 
 function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
@@ -211,6 +210,39 @@ function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
   };
   m.userData.surface = true;
   m.customProgramCacheKey = () => `surface-${r.toFixed(3)}`;
+}
+
+/*
+  The unbaked metals (brass, gilt) in the sun. With a bake the rig's key light becomes the real sun (24 W/m²
+  from the oculus), and only the materials still lit by three's lights see it: the lightmapped ones are
+  unlit. Without a shadow map, the oculus itself is the occluder: direct light counts only inside the
+  column of sun the oculus admits (2.2 m, widening by the 4° sun's 2° half-angle). The gilt on the folio
+  then catches the glint Cycles shows, and the gallery's brass in shade stays dark.
+*/
+function inSunColumn(m: THREE.MeshStandardMaterial) {
+  m.onBeforeCompile = (shader) => {
+    shader.uniforms.sunOculus = { value: OCULUS };
+    shader.uniforms.sunPool = { value: POOL };
+    shader.vertexShader = shader.vertexShader
+      .replace("#include <common>", "#include <common>\nvarying vec3 vSunW;")
+      .replace("#include <fog_vertex>", "#include <fog_vertex>\n  vSunW = (modelMatrix * vec4(transformed, 1.0)).xyz;");
+    shader.fragmentShader = shader.fragmentShader
+      .replace("#include <common>", "#include <common>\nvarying vec3 vSunW;\nuniform vec3 sunOculus; uniform vec3 sunPool;")
+      .replace(
+        "#include <lights_fragment_end>",
+        /* glsl */ `#include <lights_fragment_end>
+        {
+          vec3 axis = normalize(sunPool - sunOculus);
+          vec3 q = vSunW - sunOculus;
+          float along = dot(q, axis);
+          float r = 2.2 + max(along, 0.0) * 0.0349;
+          float lit = 1.0 - smoothstep(r - 0.1, r + 0.1, length(q - along * axis));
+          reflectedLight.directDiffuse *= lit;
+          reflectedLight.directSpecular *= lit;
+        }`,
+      );
+  };
+  m.customProgramCacheKey = () => "sun-column";
 }
 
 /**
@@ -317,6 +349,11 @@ async function loadChamber(base: string): Promise<Loaded | null> {
       mesh.material = new THREE.MeshBasicMaterial({ name: "frosted_glass", color: SHADE_GLOW });
     });
     const lightmapped = await applyLightmaps(gltf.scene, base);
+    if (lightmapped > 0)
+      gltf.scene.traverse((o) => {
+        const m = (o as THREE.Mesh).material;
+        if (m instanceof THREE.MeshStandardMaterial) inSunColumn(m);
+      });
     if (veil) {
       veil.minFilter = veil.magFilter = THREE.LinearFilter;
       veil.generateMipmaps = false;
@@ -951,17 +988,18 @@ function Chamber({ loaded, tier, onReady, onFail }: { loaded: Loaded; tier: Scen
       {baked && <Shaft gate={shaftGate} />}
       {loaded.lut && <Grade lut={loaded.lut} veil={loaded.veil} weight={veilWeight} airWeight={shaftGate} win={gradeWindow} />}
 
-      {/* TEMPORARY rig (ruling E): a warm hemisphere and one "oculus" key from almost straight above, aimed
-          at the desk. With a bake it drops to a faint, shadowless fill that only reaches the meshes without a
-          lightmap (the baked ones are unlit MeshBasicMaterial); without one it is the whole lighting. */}
+      {/* The rig (ruling E): a warm hemisphere and one key from the oculus, aimed at the desk. Without a bake
+          it is the whole lighting. With one it only reaches the meshes without a lightmap (the baked ones are
+          unlit MeshBasicMaterial): the hemisphere drops to a faint fill and the key becomes the real sun,
+          masked to the oculus's column (inSunColumn). */}
       <hemisphereLight args={["#f2d8b0", "#2a2118", baked ? FILL_HEMI : 0.8]} />
       <primitive object={deskTarget} position={DESK} />
       <directionalLight
         ref={sun}
         target={deskTarget}
-        position={[DESK.x + 0.6, 22, DESK.z - 0.4]}
-        color="#fff0d8"
-        intensity={baked ? FILL_KEY : 3}
+        position={baked ? DESK.clone().addScaledVector(SUN_TO, 25).toArray() : [DESK.x + 0.6, 22, DESK.z - 0.4]}
+        color={baked ? SUN_RGB : "#fff0d8"}
+        intensity={baked ? SUN_E * SUN_GLOSS : 3}
         castShadow={tier === "high" && !baked}
         shadow-mapSize={[2048, 2048]}
         shadow-bias={-0.0004}

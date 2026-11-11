@@ -19,7 +19,7 @@ handoff, measured (4 Nov)" and "The Desk and the Book, measured (11 Nov)" cover 
     (occluded by the bake) and Principled's grazing diffuse loss.
   - **Air:** off the Threshold, a depth term (3 m) fitted against Cycles at the Desk and the Book.
   - **Error, in display codes:** Threshold vs the poster 5.3 (every region within 2.5); Desk vs Cycles
-    5.6; Book vs Cycles 6.9. Every measured region at both stances is within 7.2.
+    5.5; Book vs Cycles 6.3. Every measured region at both stances is within 8.2.
   - **Lightmaps:** rebaked 11 Nov with the sliver fix (UV overlap 35 % → 0.01 %) and a shared floor
     exposure (no more grey flags in the pool).
 
@@ -57,19 +57,16 @@ lightmaps, the env HDR and the veil HDR are git-ignored. The bake took 42 min on
 1. **Ship decision:** the GLB, lightmaps, probe and veil (about 11 MB: GLB 3.1, lightmaps 7.7) have to reach production
    (git LFS, or a release upload in CI) before the live chamber exists anywhere but locally. Meshopt
    was measured and rejected: larger than Draco even after brotli.
-2. **The gilt on the cover** (and the desk's) is an unbaked metal lit only by the probe and the faint
-   fill, so at the Book its rules and roundel read dark brown where Cycles shows thin gold lines. Give
-   the metals the same sun GGX term (MeshStandard: a directional light masked to them, or the same
-   onBeforeCompile).
-3. **Book stance polish.** The cover is a flat slab at 1.4 m. A cover texture (oxide leather grain, the
+2. **Book stance polish.** The cover is a flat slab at 1.4 m. A cover texture (oxide leather grain, the
    gilt roundel) would hold up there.
-4. **Relay to ChatGPT and Gemini.** The browser was signed out of chatgpt.com on 4 Nov, so the 4 and 11
+3. **Relay to ChatGPT and Gemini.** The browser was signed out of chatgpt.com on 4 Nov, so the 4 and 11
    Nov measurements are not reviewed. Relay the two README sections once signed in.
-5. **Done 11 Nov:**
+4. **Done 11 Nov:**
    - the sliver bake bug fixed and rebaked
    - grey and flat flags at the pool fixed by the shared floor exposure
    - sun gloss, probe gloss and the grazing diffuse loss added to the baked materials
    - the air refitted at the Desk and the Book
+   - the metals lit by the real sun, masked to the oculus's column
 
 ## Practical notes
 

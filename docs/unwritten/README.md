@@ -401,6 +401,11 @@ and volume passes, and `art/unwritten/passfit.py` sets them against the web fram
 - **Cost:** within run-to-run noise. The flight runs at 33–43 fps; with gloss on and off, 30–43 and
   35–43 fps over three alternating runs.
 - **Dev switch:** `?gloss=0` turns the sun term off for A/B comparisons.
+- **The metals in the sun.** The unbaked brass and gilt had only a 0.6 W/m² stand-in key. With a bake,
+  that key is now the real sun (24 W/m², 5100 K, the oculus's angle). Its direct light on those
+  materials is masked to the column of sun the oculus admits (`inSunColumn`), since there is no shadow
+  map. The folio's gilt ring now catches the gold glint Cycles shows. The Book went from 6.9 to 6.3
+  codes; the Desk is 5.5 and the Threshold 5.3.
 
 ## Build
 
