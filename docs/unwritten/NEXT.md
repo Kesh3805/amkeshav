@@ -15,9 +15,10 @@ handoff, measured (4 Nov)" and "The Desk and the Book, measured (11 Nov)" cover 
   - **Probe:** at 3 m.
   - **Shades:** glowing emitters.
   - **Stances:** Threshold → Desk → Book.
-  - **Air:** off the Threshold, a near-flat in-scatter fitted against Cycles at the Desk.
-  - **Error, in display codes:** Threshold vs the poster 5.5 (every region within 2.2); Desk vs Cycles
-    7.5; Book vs Cycles 16.1, mostly leather gloss.
+  - **Surfaces:** the sun's GGX gloss and Principled's grazing diffuse loss on every baked material.
+  - **Air:** off the Threshold, a depth term (3 m) fitted against Cycles at the Desk and the Book.
+  - **Error, in display codes:** Threshold vs the poster 5.2 (every region within 2.5); Desk vs Cycles
+    5.7; Book vs Cycles 6.8.
   - **Lightmaps:** rebaked 11 Nov with the sliver fix (UV overlap 35 % → 0.01 %) and a shared floor
     exposure (no more grey flags in the pool).
 
@@ -43,7 +44,8 @@ Then:
    - **Desk and Book:** `node scripts/unwritten/desk.mjs art/renders/unwritten/web<stance> <stance>`, then
      `STANCE=<stance> blender -b -P art/unwritten/airfit.py -- <hero-WEB_<STANCE>.exr> <web-<stance>.bin> <dir>`
      (absolute paths). The Cycles frames come from `CAMS=WEB_DESK` / `CAMS=WEB_BOOK EXR=1` at 960×540, 256
-     spp, about 16 min each; they only need re-rendering if the scene changes.
+     spp, about 16 min each; they only need re-rendering if the scene changes. With `PASSES=1`, add
+     `art/unwritten/passfit.py` for the diffuse, glossy and volume breakdown.
 
 **Rebuild the veil after every rebake:** it is a residual against that exact bake. The GLB, the
 lightmaps, the env HDR and the veil HDR are git-ignored. The bake took 42 min on the CPU on 11 Nov
@@ -54,20 +56,18 @@ lightmaps, the env HDR and the veil HDR are git-ignored. The bake took 42 min on
 1. **Ship decision:** the GLB, lightmaps, probe and veil (about 11 MB: GLB 3.1, lightmaps 7.7) have to reach production
    (git LFS, or a release upload in CI) before the live chamber exists anywhere but locally. Meshopt
    was measured and rejected: larger than Draco even after brotli.
-2. **Book stance: the leathers' gloss.** The cover is 19 codes and the blotter 15–24 codes below Cycles
-   at the Book. That is the sheen under the near-vertical sun, which an unlit, lightmapped material can't
-   carry. Options:
-   - a sun-specular term on those two materials only
-   - a cover texture (oxide leather grain, the gilt roundel), which would also hold up at 1.4 m
-3. **The pool at the Desk** reads 9 codes bright (1.49 vs 1.19 linear). Before the floor fix the clipped
-   flags hid this. Likely the floor's gloss in Cycles (Principled's Fresnel takes from the diffuse) or the
-   air term over an already-right pool; measure the floor without the air first.
+2. **Gloss in shade.** The walnut apron at the Desk is 13 codes low, because its gloss reflects the
+   room, not the sun. A roughness-filtered sample of the probe (`chamber-env.hdr`) in `withSurface`
+   would carry it. Watch the cost: the gloss pass is free today.
+3. **Book stance polish.** The cover is a flat slab at 1.4 m. A cover texture (oxide leather grain, the
+   gilt roundel) would hold up there.
 4. **Relay to ChatGPT and Gemini.** The browser was signed out of chatgpt.com on 4 Nov, so the 4 and 11
    Nov measurements are not reviewed. Relay the two README sections once signed in.
 5. **Done 11 Nov:**
-   - off-Threshold air fitted
    - the sliver bake bug fixed and rebaked
    - grey and flat flags at the pool fixed by the shared floor exposure
+   - sun gloss and the grazing diffuse loss added to the baked materials
+   - the air refitted at the Desk and the Book
 
 ## Practical notes
 

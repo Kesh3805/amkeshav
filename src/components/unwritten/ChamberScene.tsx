@@ -132,6 +132,71 @@ function shotFromGltf(gltf: GLTF): Shot | null {
   };
 }
 
+/*
+  What a diffuse bake cannot carry on a lit surface, added to the unlit material (measured 11 Nov with
+  art/unwritten/passfit.py against Cycles' passes at the Desk and the Book):
+  - The sun's gloss. Principled at F0 0.04 under the 24 W/m² sun gives the leathers 0.12–0.16 linear of
+    glossy light, more than their diffuse. GGX from the sun alone, gated by how sunlit the texel is: the
+    lightmap's irradiance over the sun's own (E/π = 24·N·L/π), so shaded texels get none.
+  - The diffuse the specular layer takes. Principled is energy-conserving, so its diffuse albedo falls at
+    grazing views; the bake's albedo is the straight-on one. Measured on a Cycles plane (rough 0.3–0.75,
+    0–85°), relative to straight on: g = 1 − min(0.6, 0.17 / r) · (1 − N·V)⁴, within ≈ 0.02.
+*/
+const SUN_TO = new THREE.Vector3(0, 0.998, -0.063).normalize(); // chamber.py's oculus sun, Blender (0, 0.063, 0.998)
+const SUN_E = 24; // W/m², L01_OCULUS_SHAFT
+const SUN_RGB = new THREE.Color("#ffe8cf"); // 5100 K, as the shaft; normalised to luminance 1 below
+SUN_RGB.multiplyScalar(1 / (0.2126 * SUN_RGB.r + 0.7152 * SUN_RGB.g + 0.0722 * SUN_RGB.b));
+/** Development only: ?gloss=0 turns the patch off (A/B against Cycles). */
+const SUN_GLOSS = typeof window !== "undefined" && process.env.NODE_ENV !== "production" && new URLSearchParams(window.location.search).get("gloss") === "0" ? 0 : 1;
+
+function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
+  const r = Math.min(1, Math.max(0.12, roughness)); // the 4° sun disc widens a sharper lobe
+  m.onBeforeCompile = (shader) => {
+    shader.uniforms.sunTo = { value: SUN_TO };
+    shader.uniforms.sunRadiance = { value: SUN_RGB.clone().multiplyScalar(SUN_E * SUN_GLOSS) };
+    shader.uniforms.sunE = { value: SUN_E / Math.PI };
+    shader.uniforms.surfRough = { value: r };
+    shader.vertexShader = shader.vertexShader
+      .replace("#include <common>", "#include <common>\nvarying vec3 vSurfN;\nvarying vec3 vSurfW;")
+      .replace("#include <fog_vertex>", "#include <fog_vertex>\n  vSurfW = (modelMatrix * vec4(transformed, 1.0)).xyz;\n  vSurfN = normalize(mat3(modelMatrix) * normal);");
+    shader.fragmentShader = shader.fragmentShader
+      .replace(
+        "#include <common>",
+        /* glsl */ `#include <common>
+        varying vec3 vSurfN; varying vec3 vSurfW;
+        uniform vec3 sunTo; uniform vec3 sunRadiance; uniform float sunE; uniform float surfRough;`,
+      )
+      .replace(
+        "#include <opaque_fragment>",
+        /* glsl */ `{
+          vec3 N = normalize(vSurfN) * (gl_FrontFacing ? 1.0 : -1.0);
+          vec3 V = normalize(cameraPosition - vSurfW);
+          float NdotV = clamp(dot(N, V), 1e-4, 1.0);
+          outgoingLight *= 1.0 - min(0.6, 0.17 / surfRough) * pow(1.0 - NdotV, 4.0);
+          #ifdef USE_LIGHTMAP
+            float NdotL = dot(N, sunTo);
+            if (NdotL > 0.0) {
+              vec3 E = lightMapTexel.rgb * lightMapIntensity * RECIPROCAL_PI;  // the bake: E/π, all light
+              float seen = smoothstep(0.35, 0.85, dot(E, vec3(0.2126, 0.7152, 0.0722)) / (sunE * NdotL));
+              vec3 H = normalize(sunTo + V);
+              float NdotH = clamp(dot(N, H), 0.0, 1.0);
+              float a2 = pow(surfRough, 4.0);
+              float d = NdotH * NdotH * (a2 - 1.0) + 1.0;
+              float D = a2 / (PI * d * d);
+              float gv = NdotL * sqrt(NdotV * NdotV * (1.0 - a2) + a2);
+              float gl = NdotV * sqrt(NdotL * NdotL * (1.0 - a2) + a2);
+              float Vis = 0.5 / max(gv + gl, 1e-5);
+              float F = 0.04 + 0.96 * pow(1.0 - clamp(dot(V, H), 0.0, 1.0), 5.0);
+              outgoingLight += sunRadiance * (F * Vis * D * NdotL * seen);
+            }
+          #endif
+        }
+        #include <opaque_fragment>`,
+      );
+  };
+  m.customProgramCacheKey = () => `surface-${r.toFixed(3)}`;
+}
+
 /**
   Swap each lightmapped mesh to an unlit MeshBasicMaterial carrying the bake: three has no per-light
   masking, and Basic's lightMap term is exactly Standard's diffuse lightmap term (albedo · E / π) without the
@@ -159,7 +224,7 @@ async function applyLightmaps(root: THREE.Object3D, base: string): Promise<numbe
         // arrises) sampled them as dashed, sky-blue lines. Lightmaps are low-frequency; bilinear is enough.
         tex.generateMipmaps = false;
         tex.minFilter = THREE.LinearFilter;
-        mesh.material = new THREE.MeshBasicMaterial({
+        const basic = new THREE.MeshBasicMaterial({
           name: std.name,
           color: std.color,
           map: std.map,
@@ -169,6 +234,8 @@ async function applyLightmaps(root: THREE.Object3D, base: string): Promise<numbe
           lightMap: tex,
           lightMapIntensity: LIGHTMAP_INTENSITY * Math.PI * 2 ** -ev,
         });
+        withSurface(basic, std.roughness);
+        mesh.material = basic;
         return true;
       } catch {
         return false;
@@ -334,13 +401,14 @@ const FINISH = 1;
 const TARGET_SAMPLES = 4;
 /*
   Away from the Threshold the veil can't hold, so the haze's in-scatter becomes a depth term: AIR · (1 −
-  e^(−d / AIR_LENGTH)). Fitted against Cycles at the Desk stance (art/unwritten/airfit.py, 11 Nov): there the
-  camera stands at the sun shaft's edge, so every view ray crosses lit haze and the in-scatter is nearly
-  flat with distance (≈ 0.09 linear at 3 m and at 15 m alike), hence the short length. It weighs 1 − the
-  veil's weight, like the cone, so the Threshold stays the veil's.
+  e^(−d / AIR_LENGTH)). Fitted against Cycles at the Desk and the Book (art/unwritten/airfit.py, 11 Nov),
+  once the surfaces carry their sun gloss (withSurface): Cycles' volume pass there is ≈ 0.02 linear at
+  1.3 m, 0.03 at 3 m and 0.08 at 15 m, and the term also absorbs the gloss of shaded surfaces (room light
+  in the walnut and the shelves), which the sun term leaves out. It weighs 1 − the veil's weight, like the
+  cone, so the Threshold stays the veil's.
 */
-const AIR = new THREE.Color(0.111, 0.087, 0.078);
-const AIR_LENGTH = 1;
+const AIR = new THREE.Color(0.107, 0.084, 0.077);
+const AIR_LENGTH = 3;
 
 /** The visible crop as a window (x, y, w, h; y up) on the poster frame, and that frame's aspect. */
 type GradeWindow = { frame: THREE.Vector4; aspect: { value: number } };

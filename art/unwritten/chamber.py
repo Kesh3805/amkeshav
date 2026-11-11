@@ -951,6 +951,13 @@ if os.environ.get("RAYCHECK"):
     print("RAY", hit, tuple(round(x, 2) for x in loc) if hit else None, obj.name if hit else None)
     w = sc.objects["C01_WALL"].evaluated_get(deps)
     print("WALL faces after boolean", len(w.data.polygons))
+# PASSES=1 (with EXR=1): diffuse, glossy and volume light (direct, indirect, colour) and emission go into a
+# multilayer EXR next to the plain one, to split what the web's diffuse bake can and cannot carry.
+if os.environ.get("PASSES"):
+    vl = sc.view_layers[0]
+    for p_ in ("diffuse_direct", "diffuse_indirect", "diffuse_color", "glossy_direct", "glossy_indirect", "glossy_color", "emit", "normal"):
+        setattr(vl, f"use_pass_{p_}", True)
+    vl.cycles.use_pass_volume_direct = vl.cycles.use_pass_volume_indirect = True
 for key in [k for k in os.environ.get("CAMS", "HERO").split(",") if k and k != "NONE"]:
     sc.camera = CAMS[key]
     # BORDERS=name:x0,y0,x1,y1;... renders only those regions of the HERO frame (image fractions, top-left
@@ -980,4 +987,8 @@ for key in [k for k in os.environ.get("CAMS", "HERO").split(",") if k and k != "
         fmt = sc.render.image_settings
         fmt.file_format, fmt.color_depth = "OPEN_EXR", "32"
         bpy.data.images["Render Result"].save_render(os.path.join(a["out"], f"{LOOK}-{key}.exr"))
+        if os.environ.get("PASSES"):
+            fmt.media_type = "MULTI_LAYER_IMAGE"  # Blender 5: multilayer EXR is a media type
+            bpy.data.images["Render Result"].save_render(os.path.join(a["out"], f"{LOOK}-{key}-passes.exr"))
+            fmt.media_type = "IMAGE"
         fmt.file_format, fmt.color_depth = "PNG", "8"

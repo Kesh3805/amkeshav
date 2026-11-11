@@ -372,6 +372,32 @@ Cycles or the poster:
 - **Performance.** The flight takes 2.8 s with no screenshots, the same as before; the new bake runs at
   40–42 fps against 37.
 
+**Surfaces: the sun's gloss and the grazing loss.** `chamber.py PASSES=1` writes Cycles' diffuse, glossy
+and volume passes, and `art/unwritten/passfit.py` sets them against the web frame.
+
+- **What the bake was missing.** Gloss is large on the leathers: 0.12–0.16 linear on the blotter and
+  the cover, more than their diffuse. The real haze grows with distance (0.02 at 1.3 m, 0.03 at 3 m,
+  0.08 at 15 m). So the flat air fitted earlier that day had been standing in for the missing gloss.
+- **What the web now adds** (`withSurface` in ChamberScene) to every baked material:
+  - GGX gloss from the sun alone, gated by how sunlit the texel's lightmap is
+  - Principled's grazing diffuse loss, measured on a Cycles plane:
+    g = 1 − min(0.6, 0.17 / r) · (1 − N·V)⁴
+- **The air was refitted** with those terms in place: `AIR` (0.107, 0.084, 0.077), `AIR_LENGTH` 3 m.
+- **Gloss alone, before the air refit** (web without air vs Cycles diffuse + glossy): the Book cover
+  0.282 vs 0.255 (was 0.122), the blotters about 0.22 vs 0.21–0.25, and the Desk book 0.221 vs 0.235.
+
+| Frame (display codes) | Before the rebake | Rebake | + surfaces and air |
+|---|---|---|---|
+| Threshold vs poster | 6.0 | 5.5 | 5.2 |
+| Desk vs Cycles | 8.5 | 7.5 | 5.7 |
+| Book vs Cycles | 20.3 | 16.1 | 6.8 |
+
+- **Left over:** the shaded walnut apron at the Desk is 13 codes low, because its gloss comes from room
+  light, not the sun. The pool is +4 codes.
+- **Cost:** within run-to-run noise. Gloss on and off measured 30–43 and 35–43 fps over three
+  alternating runs.
+- **Dev switch:** `?gloss=0` turns the sun term off for A/B comparisons.
+
 ## Build
 
 Blender 5.2, headless, seed 1102. Fetch the textures once with `python art/textures/fetch.py`.
