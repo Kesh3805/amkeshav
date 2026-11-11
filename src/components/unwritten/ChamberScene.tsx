@@ -156,6 +156,7 @@ function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
     shader.uniforms.sunRadiance = { value: SUN_RGB.clone().multiplyScalar(SUN_E * SUN_GLOSS) };
     shader.uniforms.sunE = { value: SUN_E / Math.PI };
     shader.uniforms.surfRough = { value: r };
+    shader.uniforms.envGain = { value: ENV_INTENSITY * SUN_GLOSS };
     shader.vertexShader = shader.vertexShader
       .replace("#include <common>", "#include <common>\nvarying vec3 vSurfN;\nvarying vec3 vSurfW;")
       .replace("#include <fog_vertex>", "#include <fog_vertex>\n  vSurfW = (modelMatrix * vec4(transformed, 1.0)).xyz;\n  vSurfN = normalize(mat3(modelMatrix) * normal);");
@@ -164,7 +165,7 @@ function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
         "#include <common>",
         /* glsl */ `#include <common>
         varying vec3 vSurfN; varying vec3 vSurfW;
-        uniform vec3 sunTo; uniform vec3 sunRadiance; uniform float sunE; uniform float surfRough;`,
+        uniform vec3 sunTo; uniform vec3 sunRadiance; uniform float sunE; uniform float surfRough; uniform float envGain;`,
       )
       .replace(
         "#include <opaque_fragment>",
@@ -174,9 +175,9 @@ function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
           float NdotV = clamp(dot(N, V), 1e-4, 1.0);
           outgoingLight *= 1.0 - min(0.6, 0.17 / surfRough) * pow(1.0 - NdotV, 4.0);
           #ifdef USE_LIGHTMAP
+            vec3 E = lightMapTexel.rgb * lightMapIntensity * RECIPROCAL_PI;  // the bake: E/π, all light
             float NdotL = dot(N, sunTo);
             if (NdotL > 0.0) {
-              vec3 E = lightMapTexel.rgb * lightMapIntensity * RECIPROCAL_PI;  // the bake: E/π, all light
               float seen = smoothstep(0.35, 0.85, dot(E, vec3(0.2126, 0.7152, 0.0722)) / (sunE * NdotL));
               vec3 H = normalize(sunTo + V);
               float NdotH = clamp(dot(N, H), 0.0, 1.0);
@@ -189,11 +190,26 @@ function withSurface(m: THREE.MeshBasicMaterial, roughness: number) {
               float F = 0.04 + 0.96 * pow(1.0 - clamp(dot(V, H), 0.0, 1.0), 5.0);
               outgoingLight += sunRadiance * (F * Vis * D * NdotL * seen);
             }
+            #ifdef ENVMAP_TYPE_PMREM
+              // The room's gloss: the probe along the reflection at this roughness (as MeshStandard samples
+              // it), times the split-sum DFG (Karis' fit), occluded by the bake: the lightmap's irradiance
+              // over the probe's own at this normal (a book deep in a shelf sees far less than the probe).
+              vec3 Rw = normalize(mix(reflect(-V, N), N, pow4(surfRough)));
+              vec3 envSpec = textureLod(envMap, envMapRotation * Rw, roughnessToMip(surfRough)).rgb;
+              vec3 envIrr = textureLod(envMap, envMapRotation * N, ENVMAP_MAX_LOD).rgb;
+              vec3 lum3 = vec3(0.2126, 0.7152, 0.0722);
+              float occ = clamp(dot(E, lum3) / max(dot(envIrr, lum3), 1e-4), 0.0, 1.0);
+              vec4 rr = surfRough * vec4(-1.0, -0.0275, -0.572, 0.022) + vec4(1.0, 0.0425, 1.04, -0.04);
+              float a004 = min(rr.x * rr.x, exp2(-9.28 * NdotV)) * rr.x + rr.y;
+              vec2 AB = vec2(-1.04, 1.04) * a004 + rr.zw;
+              outgoingLight += envSpec * envGain * (0.04 * AB.x + AB.y) * occ;
+            #endif
           #endif
         }
         #include <opaque_fragment>`,
       );
   };
+  m.userData.surface = true;
   m.customProgramCacheKey = () => `surface-${r.toFixed(3)}`;
 }
 
@@ -407,7 +423,7 @@ const TARGET_SAMPLES = 4;
   in the walnut and the shelves), which the sun term leaves out. It weighs 1 − the veil's weight, like the
   cone, so the Threshold stays the veil's.
 */
-const AIR = new THREE.Color(0.107, 0.084, 0.077);
+const AIR = new THREE.Color(0.095, 0.074, 0.066);
 const AIR_LENGTH = 3;
 
 /** The visible crop as a window (x, y, w, h; y up) on the poster frame, and that frame's aspect. */
@@ -768,9 +784,10 @@ function Chamber({ loaded, tier, onReady, onFail }: { loaded: Loaded; tier: Scen
     return { x: c.x, y: c.y, book: Math.hypot(r.x - l.x, r.y - l.y), tilt: Math.min(80, Math.max(20, 90 - pitch)) };
   };
 
-  // Reflections for the unbaked metals and glass: the probe, prefiltered once. The lightmapped meshes are
-  // MeshBasicMaterial and ignore it, so the bake is not double-counted. The PANO camera uses Blender's
-  // environment-texture convention (image centre = Blender −Y = three +Z); ENV_ROTATION_Y lines it up.
+  // Reflections for the unbaked metals and glass: the probe, prefiltered once. The PANO camera uses Blender's
+  // environment-texture convention (image centre = Blender −Y = three +Z); ENV_ROTATION_Y lines it up. The
+  // lightmapped MeshBasicMaterials get it too, but only withSurface's gloss reads it (Basic's own envmap
+  // term does nothing with a PMREM map), so the bake is not double-counted.
   useEffect(() => {
     if (!loaded.env) return;
     const pmrem = new THREE.PMREMGenerator(gl);
@@ -779,12 +796,26 @@ function Chamber({ loaded, tier, onReady, onFail }: { loaded: Loaded; tier: Scen
     scene.environment = rt.texture;
     scene.environmentRotation.set(0, ENV_ROTATION_Y, 0);
     scene.environmentIntensity = ENV_INTENSITY;
+    const surfaces: THREE.MeshBasicMaterial[] = [];
+    loaded.model.traverse((o) => {
+      const m = (o as THREE.Mesh).material;
+      if (m instanceof THREE.MeshBasicMaterial && m.userData.surface) surfaces.push(m);
+    });
+    for (const m of surfaces) {
+      m.envMap = rt.texture;
+      m.envMapRotation.set(0, ENV_ROTATION_Y, 0);
+      m.needsUpdate = true;
+    }
     invalidate();
     return () => {
       scene.environment = null;
+      for (const m of surfaces) {
+        m.envMap = null;
+        m.needsUpdate = true;
+      }
       rt.dispose();
     };
-  }, [loaded.env, gl, scene, invalidate]);
+  }, [loaded.env, loaded.model, gl, scene, invalidate]);
 
   // Compile shaders first so the timing check measures rendering, not program linking.
   useEffect(() => {

@@ -380,22 +380,26 @@ and volume passes, and `art/unwritten/passfit.py` sets them against the web fram
   0.08 at 15 m). So the flat air fitted earlier that day had been standing in for the missing gloss.
 - **What the web now adds** (`withSurface` in ChamberScene) to every baked material:
   - GGX gloss from the sun alone, gated by how sunlit the texel's lightmap is
+  - the room's gloss: the probe sampled along the reflection at the material's roughness, times the
+    split-sum DFG, occluded by the bake (the lightmap's irradiance over the probe's at that normal)
   - Principled's grazing diffuse loss, measured on a Cycles plane:
     g = 1 − min(0.6, 0.17 / r) · (1 − N·V)⁴
-- **The air was refitted** with those terms in place: `AIR` (0.107, 0.084, 0.077), `AIR_LENGTH` 3 m.
+- **The air was refitted** with those terms in place: `AIR` (0.095, 0.074, 0.066), `AIR_LENGTH` 3 m.
+  The Desk and the Book each asked for the same value at 3 m, independently.
 - **Gloss alone, before the air refit** (web without air vs Cycles diffuse + glossy): the Book cover
   0.282 vs 0.255 (was 0.122), the blotters about 0.22 vs 0.21–0.25, and the Desk book 0.221 vs 0.235.
 
 | Frame (display codes) | Before the rebake | Rebake | + surfaces and air |
 |---|---|---|---|
-| Threshold vs poster | 6.0 | 5.5 | 5.2 |
-| Desk vs Cycles | 8.5 | 7.5 | 5.7 |
-| Book vs Cycles | 20.3 | 16.1 | 6.8 |
+| Threshold vs poster | 6.0 | 5.5 | 5.3 |
+| Desk vs Cycles | 8.5 | 7.5 | 5.6 |
+| Book vs Cycles | 20.3 | 16.1 | 6.9 |
 
-- **Left over:** the shaded walnut apron at the Desk is 13 codes low, because its gloss comes from room
-  light, not the sun. The pool is +4 codes.
-- **Cost:** within run-to-run noise. Gloss on and off measured 30–43 and 35–43 fps over three
-  alternating runs.
+- **Worst region at either stance:** 7.2 codes (the Book cover, +7.2; the Desk pool, +5.9). Before the
+  probe gloss, the shaded walnut apron was −13; it is now +4.5.
+- **The veil is smaller:** mean 0.039 → 0.035, so the scene carries more light itself at the Threshold.
+- **Cost:** within run-to-run noise. The flight runs at 33–43 fps; with gloss on and off, 30–43 and
+  35–43 fps over three alternating runs.
 - **Dev switch:** `?gloss=0` turns the sun term off for A/B comparisons.
 
 ## Build
