@@ -275,6 +275,79 @@ the browser exposes a concrete defect.
 5. Validate the handoff: the WebGL first frame against the poster at the same framing, exposure and
    viewport, on desktop, mobile, reduced motion and the fallback.
 
+### The handoff, measured (4 Nov)
+
+Claude compared the WebGL frame with the poster on the real GPU (Edge, D3D11), region by region.
+
+- **Grade.** three's `AgXToneMapping` is not Blender's AgX: three uses 16.5 stops in Rec.2020 and no
+  look; Blender uses 25 stops in E-Gamut through a LUT, with Punchy as a shadow tone curve. So
+  `art/unwritten/agx_lut.py` exports Blender's own OCIO pipeline (view AgX, look "AgX - Punchy") as a
+  48³ LUT (`public/unwritten/agx-punchy.png`, 21 KB). The scene now renders scene-linear into a
+  half-float target, and one pass applies the LUT at EV −0.3 plus `finish.py`'s vignette, CA and grain,
+  placed on the poster's frame. Against hero-006's EXR, the LUT is within 0.42 codes of Blender's own
+  PNG (p99 1.3). The mean error between poster and WebGL halved (24.6 → 12.4 codes).
+- **Probe.** The PANO probe now sits at z = 3 m (`PANO_Z`), so the desk no longer fills its lower
+  hemisphere.
+- **Meshopt: rejected.** It is larger than Draco even after brotli (4.9 vs 4.4 MB), because UVs
+  outside 0–1 can't be quantised. Draco stays.
+- **Haze in the bake: no.** A 256 px A/B (`LM_HAZE`) moved surfaces by under 5 %, and the pool by
+  −9 %. The haze's real effect is in-camera: rendered without haze, the master's pool drops from 68 to
+  40 codes and the desk from 59 to 22. A bake can't carry that veil, because it is view-dependent.
+- **Shelves: mostly air, partly a bake defect.** Rendered in Cycles, the WebGL build's own blend
+  matches the master (shelves 22.5 vs 22.4, pool 68.4 vs 68.5). But the WebGL bookcases came out 4+
+  stops dark while the stone stayed within about a stop. A pass breakdown of the master on those pixels
+  (42 % of the frame) settled it:
+  - the haze's in-scatter is 60 % of their light, glossy 13 %, diffuse 11 %; neither of the first two
+    can be baked
+  - the bake also ran 2–3× low on the books. A spine is a few texels, the UV packer had shrunk the
+    island gap to 0 px, and the black, neighbour-facing book sides bled in. The sides are culled now,
+    and the shelf maps get twice the texels (book lightmaps up 4×).
+  - Two dead ends, measured and kept honest: haze in the bake (no effect) and the exporter's flat
+    albedo estimates (Cycles' own albedo bake agreed within 4 %; it now replaces them anyway).
+- **Pilaster lines.** Arris faces narrower than a texel own no texel, so they drew as dashed,
+  sky-bright lines. `fix_slivers` re-points such faces at their largest neighbour's lightmap UVs.
+- **Sconces.** The frosted shades are unlit warm emitters in the browser. three's transmission cost a
+  pass and left them dull, and the veil then smeared their missing glow into soft squares.
+- **The veil** (`art/unwritten/veil.py`) is the residual: master scene-linear light minus WebGL
+  scene-linear light at the Threshold (captured with `?dump` on the dev server), low-passed into a
+  240×135 Radiance HDR on the poster's frame. The grade adds it before the view transform at the
+  Threshold and fades it out over the first 2.5 m of a stance flight, while the shaft cone fades in.
+  Residuals brighter than 0.2 (linear luminance) are capped, so lamps aren't smeared into it. With the
+  veil and the full bake, every region of the WebGL frame is within 2 codes of the poster (mean error 6.0, from
+  24.6 at the start of the day).
+
+**Stances (ruling B) are built.** When the live chamber is up, the book hotspot flies the camera
+Threshold → Desk → Book on one eased Catmull-Rom track:
+
+- position, direction, horizontal FOV and lens shift all move along that track
+- the Desk stays level, and only the Book (a three-quarter view, 1.4 m away, 27° down) pitches
+- the folio then rises from where the camera actually sees the book, and closing flies back
+- the title fades while the camera is away from the Threshold
+
+Without WebGL (the poster, narrow screens, reduced motion), the folio opens exactly as before.
+
+### The Desk and the Book, measured (11 Nov)
+
+`chamber.py` has two more cameras, `WEB_DESK` and `WEB_BOOK`, which are the web's Desk and Book stances.
+`scripts/unwritten/desk.mjs` captures the web at those poses (dev only: `?stance=desk|book`). It saves
+the graded frame and the linear frame with the shaft and the air term, plus the view distance.
+`art/unwritten/airfit.py` puts both through Blender's own view and compares them region by region. It
+also bins the light the web still lacks by view distance.
+
+- **The air term was the wrong shape.** At the Desk the camera stands at the edge of the sun shaft, so
+  every view ray crosses lit haze. The needed in-scatter is about 0.09 (linear) at 3 m and at 15 m
+  alike, but the old term rose over 12 m. Fitted: `AIR` (0.111, 0.087, 0.078) with `AIR_LENGTH` 1 m.
+  The Desk frame went from 23.7 to 8.5 codes off. Shelves, the far floor, the desk apron and the pool
+  are each within 4 codes; the blotter and the book are still about 12 codes low (surface light, not
+  air). The Threshold is unchanged, since the veil carries it.
+- **The Book exposed a bake bug.** In Cycles the sun lights the cover directly: sunlit oxblood, 0.27
+  linear. In the web it was 0.012, 22× too dark. Baked in the master scene, the cover gets D = 5.96, in
+  line with the desk beside it, but the export's lightmap gave it 0.85. The cause is `fix_slivers`. It
+  re-points each corner of a sub-texel face to its largest neighbour's UV, separately. A 4 mm board edge
+  joins the cover (one UV island) to the board's underside (another), so its "collapsed" face stretched
+  across the map. It ran before the bake, so the bake wrote edge light over the cover. On the folio's
+  map, 67 % of the texels were claimed twice.
+
 ## Build
 
 Blender 5.2, headless, seed 1102. Fetch the textures once with `python art/textures/fetch.py`.

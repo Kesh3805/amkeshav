@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keshav — Field</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@800;900&family=Newsreader:opsz,wght@6..72,400&family=IBM+Plex+Mono:wght@500&display=block">
+<style>
+  html, body { margin: 0; height: 100%; background: #f3f1ec; overflow: hidden; }
+  canvas { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; }
+  .ui { position: fixed; inset: 0; pointer-events: none; color: #141412; display: grid; grid-template-rows: auto 1fr auto; }
+  .bar, .foot { background: #f3f1ec; padding: 18px 28px; display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+  .bar { font: 500 11px/1 "IBM Plex Mono", monospace; letter-spacing: .1em; text-transform: uppercase; border-bottom: 1px solid #141412; }
+  .bar nav { display: flex; gap: 28px; }
+  .foot { border-top: 1px solid #141412; align-items: baseline; }
+  .stmt { margin: 0; font: 400 18px/1.4 "Newsreader", serif; max-width: 34rem; }
+  .hint { margin: 0; font: 500 11px/1.5 "IBM Plex Mono", monospace; letter-spacing: .1em; text-transform: uppercase; color: #6d6a62; text-align: right; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="ui">
+  <div class="bar"><span>Keshav · software engineer</span><nav><span>Work</span><span>Writing</span><span>About</span></nav></div>
+  <div></div>
+  <div class="foot">
+    <p class="stmt">I build production backends, and on my own time I build and test things whose answers I don't know yet.</p>
+    <p class="hint">Every cell is an instrument<br>touch one and it redraws</p>
+  </div>
+</div>
+<script>
+(async () => {
+  await document.fonts.load('900 200px "Inter Tight"');
+  const c = document.getElementById("c"), g = c.getContext("2d");
+  const dpr = Math.min(devicePixelRatio, 2), W = innerWidth, H = innerHeight;
+  c.width = W * dpr; c.height = H * dpr; g.scale(dpr, dpr);
+  const PAPER = "#f3f1ec", INK = "#141412", HAIR = "#bdbab1";
+  const top = 50, bottom = H - 70;
+  const S = W < 700 ? 14 : 22;                       // cell size
+  const cols = Math.floor((W - 24) / S), rows = Math.floor((bottom - top - 12) / S);
+  const ox = (W - cols * S) / 2, oy = top + (bottom - top - rows * S) / 2;
+
+  // Which cells form the name: render it once, sample coverage per cell.
+  const m = document.createElement("canvas"); m.width = cols; m.height = rows;
+  const mg = m.getContext("2d", { willReadFrequently: true });
+  const fs = rows * 0.78; mg.font = `900 ${fs}px "Inter Tight"`;
+  const sx = Math.min(1, (cols * 0.94) / mg.measureText("KESHAV").width);
+  mg.textAlign = "center"; mg.textBaseline = "middle"; mg.fillStyle = "#000";
+  mg.setTransform(sx, 0, 0, 1, cols / 2, rows / 2 + fs * 0.04);
+  mg.fillText("KESHAV", 0, 0);
+  const cov = mg.getImageData(0, 0, cols, rows).data;
+
+  let seed = 3;
+  const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+  const local = (p, a, b) => Math.min(1, Math.max(0, (p - a) / (b - a)));
+
+  // Each instrument draws itself progressively: p from 0 (blank) to 1 (complete).
+  const KINDS = [
+    function dial(x, y, s, p, r) { const cx = x + s / 2, cy = y + s / 2, R = s * 0.36;
+      g.beginPath(); g.arc(cx, cy, R, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * local(p, 0, .5)); g.stroke();
+      const n = 12; for (let i = 0; i < n * local(p, .3, .7); i++) { const a = (i / n) * Math.PI * 2; g.beginPath(); g.moveTo(cx + Math.cos(a) * R * .8, cy + Math.sin(a) * R * .8); g.lineTo(cx + Math.cos(a) * R, cy + Math.sin(a) * R); g.stroke(); }
+      const a = -Math.PI / 2 + r.a * Math.PI * 2 * local(p, .6, 1); g.beginPath(); g.moveTo(cx, cy); g.lineTo(cx + Math.cos(a) * R * .9, cy + Math.sin(a) * R * .9); g.stroke(); },
+    function bars(x, y, s, p, r) { const n = 5, w = s * 0.7 / n;
+      for (let i = 0; i < n; i++) { const h = s * .7 * r.v[i] * local(p, i * .12, i * .12 + .5); g.strokeRect(x + s * .15 + i * w + 1, y + s * .85 - h, w - 2, h); } },
+    function trace(x, y, s, p, r) { g.beginPath(); const n = 14;
+      for (let i = 0; i <= n * p; i++) { const px = x + s * .1 + (s * .8 * i) / n, py = y + s * (.5 + (r.v[i % 5] - .5) * .6 * Math.sin(i * r.a * 3)); i ? g.lineTo(px, py) : g.moveTo(px, py); } g.stroke(); },
+    function queue(x, y, s, p, r) { const n = 2 + Math.floor(r.a * 4);
+      for (let i = 0; i < n * p; i++) g.strokeRect(x + s * .2, y + s * .8 - (i + 1) * s * .14, s * .6, s * .1); },
+    function fan(x, y, s, p, r) { const n = 9;
+      g.strokeRect(x + s * .1, y + s * .42, s * .14, s * .16);
+      for (let i = 0; i < n * p; i++) { g.beginPath(); g.moveTo(x + s * .24, y + s * .5); g.lineTo(x + s * .9, y + s * (.12 + (.76 * i) / (n - 1))); g.stroke(); } },
+    function ticks(x, y, s, p, r) { const n = 16;
+      g.strokeRect(x + s * .1, y + s * .4, s * .8 * local(p, 0, .3), s * .2);
+      for (let i = 0; i < n * local(p, .3, .8); i++) { const tx = x + s * .1 + (s * .8 * i) / n; g.beginPath(); g.moveTo(tx, y + s * .4); g.lineTo(tx, y + s * .6); g.stroke(); }
+      if (p > .8) { const mx = x + s * (.1 + .8 * r.a); g.beginPath(); g.moveTo(mx, y + s * .3); g.lineTo(mx, y + s * .7); g.stroke(); } },
+    function squares(x, y, s, p, r) { const n = 4, q = s * .8 / n;
+      for (let i = 0; i < n * n * p; i++) { const qx = x + s * .1 + (i % n) * q, qy = y + s * .1 + Math.floor(i / n) * q;
+        r.v[i % 5] > .7 ? g.fillRect(qx + 1, qy + 1, q - 2, q - 2) : g.strokeRect(qx + 1, qy + 1, q - 2, q - 2); } },
+    function graph(x, y, s, p, r) { const pts = r.v.map((v, i) => [x + s * (.15 + .7 * ((i * .37 + v) % 1)), y + s * (.15 + .7 * v)]);
+      for (let i = 0; i < pts.length * local(p, 0, .7); i++) { const a = pts[i], b = pts[(i + 2) % pts.length]; g.beginPath(); g.moveTo(...a); g.lineTo(...b); g.stroke(); }
+      for (let i = 0; i < pts.length * local(p, .5, 1); i++) { g.beginPath(); g.arc(pts[i][0], pts[i][1], s * .05, 0, 7); g.fill(); } },
+    function rings(x, y, s, p, r) { const cx = x + s / 2, cy = y + s / 2;
+      for (let i = 1; i <= 4 * p; i++) { g.beginPath(); g.arc(cx, cy, s * .1 * i, 0, Math.PI * 2 * (r.a > .5 ? 1 : .75)); g.stroke(); } },
+    function step(x, y, s, p, r) { g.beginPath(); g.moveTo(x + s * .1, y + s * .8); const n = 5;
+      for (let i = 0; i < n * p; i++) { const sx = x + s * (.1 + (.8 * (i + 1)) / n), sy = y + s * (.8 - .65 * r.v[i] * ((i + 1) / n)); g.lineTo(sx - s * .16, sy); g.lineTo(sx, sy); } g.stroke(); },
+    function sine(x, y, s, p, r) { g.beginPath(); const f = 1 + Math.floor(r.a * 3);
+      for (let i = 0; i <= 40 * p; i++) { const t = i / 40, px = x + s * (.1 + .8 * t), py = y + s * (.5 - .3 * Math.sin(t * Math.PI * 2 * f) * Math.exp(-t * r.v[0] * 3)); i ? g.lineTo(px, py) : g.moveTo(px, py); } g.stroke(); },
+    function cross(x, y, s, p, r) { const cx = x + s * (.3 + .4 * r.a), cy = y + s * (.3 + .4 * r.v[1]);
+      g.beginPath(); g.moveTo(x + s * .1, cy); g.lineTo(x + s * (.1 + .8 * local(p, 0, .4)), cy); g.stroke();
+      g.beginPath(); g.moveTo(cx, y + s * .1); g.lineTo(cx, y + s * (.1 + .8 * local(p, .2, .6))); g.stroke();
+      if (p > .6) { g.beginPath(); g.arc(cx, cy, s * .14 * local(p, .6, 1), 0, 7); g.stroke(); } },
+  ];
+
+  const cells = [];
+  for (let j = 0; j < rows; j++)
+    for (let i = 0; i < cols; i++) {
+      const name = cov[(j * cols + i) * 4 + 3] > 120;
+      cells.push({ i, j, name, kind: Math.floor(rnd() * KINDS.length), r: { a: rnd(), v: [rnd(), rnd(), rnd(), rnd(), rnd()] }, p: 1, t0: 0, dur: 0 });
+    }
+
+  function drawCell(cl) {
+    const x = ox + cl.i * S, y = oy + cl.j * S;
+    g.fillStyle = cl.name ? INK : PAPER; g.fillRect(x, y, S, S);
+    g.strokeStyle = g.fillStyle = cl.name ? "#d9d5cb" : HAIR;
+    g.lineWidth = cl.name ? 1 : 0.7;
+    g.lineCap = "round";
+    KINDS[cl.kind](x + 1, y + 1, S - 2, cl.p, cl.r);
+  }
+  g.fillStyle = PAPER; g.fillRect(0, 0, W, H);
+  cells.forEach(drawCell);
+
+  const active = new Set();
+  const ease = (t) => (t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
+  function redraw(cl, delay, newKind) {
+    cl.t0 = performance.now() + delay; cl.dur = 650 + rnd() * 350;
+    if (newKind) { cl.kind = Math.floor(rnd() * KINDS.length); cl.r = { a: rnd(), v: [rnd(), rnd(), rnd(), rnd(), rnd()] }; }
+    active.add(cl);
+  }
+
+  // The hand: cells around it redraw, outward like a ripple.
+  let last = 0;
+  addEventListener("pointermove", (e) => {
+    const now = performance.now(); if (now - last < 60) return; last = now;
+    const ci = (e.clientX - ox) / S, cj = (e.clientY - oy) / S;
+    for (const cl of cells) { const d = Math.hypot(cl.i + .5 - ci, cl.j + .5 - cj);
+      if (d < 4.5 && (!active.has(cl) || now > cl.t0 + cl.dur * .8)) redraw(cl, d * 55, true); }
+  });
+
+  // Ambient: a few instruments quietly redraw at a time.
+  setInterval(() => { for (let k = 0; k < 4; k++) redraw(cells[Math.floor(rnd() * cells.length)], 0, true); }, 260);
+
+  (function frame(now) {
+    for (const cl of active) {
+      const t = (now - cl.t0) / cl.dur;
+      if (t < 0) continue;
+      cl.p = ease(Math.min(1, t)); drawCell(cl);
+      if (t >= 1) active.delete(cl);
+    }
+    requestAnimationFrame(frame);
+  })(performance.now());
+})();
+</script>
+</body>
+</html>

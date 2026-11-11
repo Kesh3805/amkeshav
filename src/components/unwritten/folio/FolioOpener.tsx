@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { anchorFor, FRONTIER_BOOK, NARROW_QUERY, posterPoint } from "../chamberCamera";
+import { canFly, goToStance, type BookView } from "../stance";
 import s from "./Folio.module.css";
 import u from "../Unwritten.module.css";
 
@@ -12,13 +13,16 @@ import u from "../Unwritten.module.css";
   plane, the board lifts on its hinge, and the whole spread rises to a flat reading orientation while the
   chamber behind racks out of focus. Reduced motion, narrow screens and the #frontier deep link open flat
   with a fade. Esc, the close control or a click on the bare stage closes it; focus returns to the hotspot.
+  When the live chamber is up, the 3D open first flies the camera Threshold → Desk → Book (stance.ts) and
+  the spread rises from the book where the camera then sees it; closing flies back.
 */
 
 const HASH = "#frontier";
 const WIDE_MOTION = "(min-width: 901px) and (prefers-reduced-motion: no-preference)";
 
 type Mode = "3d" | "flat";
-type Geo = { x: number; y: number; w: number; h: number; book: number };
+/** `tilt`: rotateX (deg) that lays the shut volume onto the desk as seen from the camera. */
+type Geo = { x: number; y: number; w: number; h: number; book: number; tilt?: number };
 
 const RISE_MS = 1700;
 const BOARD_DELAY = 260;
@@ -45,6 +49,9 @@ export function FolioOpener({ children }: { children: ReactNode }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const anims = useRef<Animation[]>([]);
   const closing = useRef(false);
+  const flying = useRef(false);
+  /** Where the camera saw the book after a stance flight; null when the folio opened from the poster. */
+  const seen = useRef<BookView | null>(null);
   const [geo, setGeo] = useState<Geo | null>(null);
   const [mode, setMode] = useState<Mode | null>(null);
 
@@ -83,7 +90,15 @@ export function FolioOpener({ children }: { children: ReactNode }) {
     setMode(null);
     closing.current = false;
     if (window.location.hash === HASH) window.history.replaceState(null, "", window.location.pathname + window.location.search);
-    hotspot.current?.focus({ preventScroll: true });
+    // After a flight, the title and the hotspot come back when the camera lands at the Threshold.
+    const home = () => {
+      markStance(hotspot.current?.parentElement, false);
+      hotspot.current?.focus({ preventScroll: true });
+    };
+    if (seen.current) {
+      seen.current = null;
+      void goToStance("threshold").then(home);
+    } else home();
   }, []);
 
   const close = useCallback(() => {
@@ -99,7 +114,7 @@ export function FolioOpener({ children }: { children: ReactNode }) {
       return;
     }
     if (mode === "3d") {
-      const back = play(d, geo, true);
+      const back = play(d, from(geo, seen.current), true);
       anims.current = back;
       Promise.all(back.map((a) => a.finished)).then(finishClose, finishClose);
       return;
@@ -117,7 +132,7 @@ export function FolioOpener({ children }: { children: ReactNode }) {
     setFrameState(true);
     if (window.location.hash !== HASH) window.history.replaceState(null, "", HASH);
     d.querySelector<HTMLElement>("[data-folio-spread] h2")?.focus({ preventScroll: true });
-    if (mode === "3d") anims.current = play(d, geo, false);
+    if (mode === "3d") anims.current = play(d, from(geo, seen.current), false);
     // geo is read once, at the moment of opening.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode]);
@@ -134,7 +149,18 @@ export function FolioOpener({ children }: { children: ReactNode }) {
     return () => window.removeEventListener("hashchange", sync);
   }, [open, close]);
 
-  const onHotspot = () => open(!window.matchMedia(NARROW_QUERY).matches && window.matchMedia(WIDE_MOTION).matches ? "3d" : "flat");
+  const onHotspot = async () => {
+    if (flying.current) return;
+    const m: Mode = !window.matchMedia(NARROW_QUERY).matches && window.matchMedia(WIDE_MOTION).matches ? "3d" : "flat";
+    if (m === "3d" && canFly()) {
+      flying.current = true;
+      markStance(hotspot.current?.parentElement, true);
+      seen.current = await goToStance("book");
+      flying.current = false;
+      if (!seen.current) markStance(hotspot.current?.parentElement, false); // superseded or torn down
+    }
+    open(m);
+  };
 
   return (
     <>
@@ -170,6 +196,16 @@ export function FolioOpener({ children }: { children: ReactNode }) {
   );
 }
 
+/** The book on the poster, or where the camera saw it at the Book stance. */
+const from = (geo: Geo | null, seen: BookView | null): Geo | null => (geo && seen ? { ...geo, ...seen } : geo);
+
+/** The title fades while the camera is away from the Threshold (Unwritten.module.css). */
+function markStance(frame: HTMLElement | null | undefined, on: boolean) {
+  if (!frame) return;
+  if (on) frame.setAttribute("data-stance", "");
+  else frame.removeAttribute("data-stance");
+}
+
 /** The chamber's frame racks out of focus while the folio is open (Unwritten.module.css). */
 function markFrame(frame: HTMLElement | null | undefined, on: boolean) {
   if (!frame) return;
@@ -201,7 +237,7 @@ function play(d: HTMLDialogElement, geo: Geo | null, reverse: boolean): Animatio
   const out = [
     spread.animate(
       [
-        { transform: `translate(${tx}px, ${ty}px) scale3d(${s0}, ${s0}, ${s0}) rotateX(78deg)`, easing: "cubic-bezier(0.5, 0, 0.15, 1)" },
+        { transform: `translate(${tx}px, ${ty}px) scale3d(${s0}, ${s0}, ${s0}) rotateX(${geo.tilt ?? 78}deg)`, easing: "cubic-bezier(0.5, 0, 0.15, 1)" },
         { transform: "translate(0px, 0px) scale3d(1, 1, 1) rotateX(0deg)" },
       ],
       timing(RISE_MS, 0),

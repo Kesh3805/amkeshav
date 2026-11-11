@@ -52,6 +52,17 @@
   opacity: 0.45;
 }
 
+/* Away from the Threshold (a stance flight, then the folio) the title gives the frame to the camera. */
+.frame[data-stance] .copy {
+  opacity: 0;
+  pointer-events: none;
+  transition-duration: 700ms;
+}
+
+.frame[data-stance] .hotspot {
+  visibility: hidden;
+}
+
 /* An invisible hotspot over the book on the desk; a brass hairline and a caption on hover and focus. */
 .hotspot {
   position: absolute;

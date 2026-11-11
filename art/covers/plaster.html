@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Keshav — Plaster</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=block">
+<style>
+  html, body { margin: 0; height: 100%; background: #efece6; overflow: hidden; }
+  canvas { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; cursor: crosshair; }
+  .ui { position: fixed; inset: 0; pointer-events: none; color: #1b1a17; padding: 22px 28px; display: grid; grid-template-rows: auto 1fr auto; }
+  .bar { display: flex; justify-content: space-between; font: 500 11px/1 "IBM Plex Mono", monospace; letter-spacing: .1em; text-transform: uppercase; color: #3a3833; }
+  .bar nav { display: flex; gap: 28px; }
+  .foot { display: flex; justify-content: space-between; align-items: end; gap: 24px; }
+  .stmt { font: 400 19px/1.4 "Newsreader", serif; max-width: 25rem; color: #2a2925; }
+  .hint { font: 500 11px/1.5 "IBM Plex Mono", monospace; letter-spacing: .1em; text-transform: uppercase; color: #6d6a62; text-align: right; }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div class="ui">
+  <div class="bar"><span>Keshav · software engineer</span><nav><span>Work</span><span>Writing</span><span>About</span></nav></div>
+  <div></div>
+  <div class="foot">
+    <p class="stmt">I build production backends, and on my own time I build and test things whose answers I don't know yet.</p>
+    <p class="hint">The work is under the surface<br>move across it</p>
+  </div>
+</div>
+
+<script type="importmap">{ "imports": { "three": "/node_modules/three/build/three.module.js" } }</script>
+<script type="module">
+import * as THREE from "three";
+
+const canvas = document.getElementById("c");
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: false });
+const dpr = Math.min(devicePixelRatio, 2);
+renderer.setPixelRatio(dpr);
+const W = innerWidth, H = innerHeight, PW = Math.round(W * dpr), PH = Math.round(H * dpr);
+renderer.setSize(W, H);
+
+await document.fonts.load('500 200px "Newsreader"');
+
+// ---- height sources, drawn white-on-black in device pixels ----
+function layer(draw, blur) {
+  const c = document.createElement("canvas");
+  c.width = PW; c.height = PH;
+  const g = c.getContext("2d");
+  g.fillStyle = "#000"; g.fillRect(0, 0, PW, PH);
+  g.filter = `blur(${blur * dpr}px)`;
+  g.scale(dpr, dpr);
+  g.fillStyle = g.strokeStyle = "#fff";
+  draw(g);
+  const t = new THREE.CanvasTexture(c);
+  t.minFilter = t.magFilter = THREE.LinearFilter;
+  t.generateMipmaps = false;
+  return t;
+}
+
+// The name, raised out of the plaster.
+const tName = layer((g) => {
+  let size = 400;
+  g.font = `500 ${size}px Newsreader`;
+  size *= (W * 0.84) / g.measureText("Keshav").width;
+  size = Math.min(size, H * 0.55);
+  g.font = `500 ${size}px Newsreader`;
+  g.textAlign = "center"; g.textBaseline = "alphabetic";
+  g.fillText("Keshav", W / 2, H * 0.5 + size * 0.28);
+}, 8);
+
+// The work, cast shallow in the surface: drawn from the real projects.
+let seed = 11;
+const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+const tWork = layer((g) => {
+  g.lineWidth = 3; g.lineCap = "round";
+  const u = Math.min(W / 1440, H / 900);
+
+  // ReviewGraph: the repository as a graph, a changed symbol and its impact radius.
+  { const ox = W * 0.06, oy = H * 0.1, w = 420 * u, h = 210 * u, pts = [];
+    while (pts.length < 34) { const p = [ox + rnd() * w, oy + rnd() * h]; if (pts.every((q) => Math.hypot(q[0] - p[0], q[1] - p[1]) > 34 * u)) pts.push(p); }
+    for (const p of pts) for (const q of pts.slice().sort((a, b) => Math.hypot(a[0] - p[0], a[1] - p[1]) - Math.hypot(b[0] - p[0], b[1] - p[1])).slice(1, 3)) { g.beginPath(); g.moveTo(...p); g.lineTo(...q); g.stroke(); }
+    for (const p of pts) { g.beginPath(); g.arc(p[0], p[1], 5 * u, 0, 7); g.fill(); }
+    g.beginPath(); g.arc(pts[0][0], pts[0][1], 70 * u, 0, 7); g.stroke();
+    g.beginPath(); g.arc(pts[0][0], pts[0][1], 130 * u, 0, 7); g.setLineDash([6, 8]); g.stroke(); g.setLineDash([]); }
+
+  // GST, before: one read API asking two sources for every cell on screen.
+  { const ox = W * 0.05, oy = H * 0.7, cell = 16 * u;
+    for (let r = 0; r < 6; r++) for (let c = 0; c < 3; c++) g.strokeRect(ox + c * cell * 1.4, oy + r * cell, cell, cell * 0.7);
+    const ax = ox + 120 * u, ay = oy + 20 * u, bx = ox + 470 * u;
+    g.strokeRect(ax, ay, 80 * u, 50 * u);
+    g.lineWidth = 1.2;
+    for (let i = 0; i < 36; i++) { g.beginPath(); g.moveTo(ax + 80 * u, ay + 4 * u + i * 1.2 * u); g.lineTo(bx, oy - 30 * u + i * 4.6 * u + (i > 17 ? 30 * u : 0)); g.stroke(); }
+    g.lineWidth = 2.2;
+    g.strokeRect(bx, oy - 34 * u, 120 * u, 76 * u); g.strokeRect(bx, oy + 58 * u, 120 * u, 76 * u); }
+
+  // FRONTIER: 199 charged cases, and where they fall in measured time.
+  { const ox = W * 0.55, oy = H * 0.76, w = W * 0.4, x2 = (i) => ox + w * 0.92 + (w * 0.08 * i) / 199;
+    g.strokeRect(ox, oy, w, 26 * u); g.strokeRect(ox, oy + 120 * u, w, 26 * u);
+    g.lineWidth = 1;
+    for (let i = 0; i <= 199; i++) { const x = ox + (w * i) / 199; g.beginPath(); g.moveTo(x, oy); g.lineTo(x, oy + 26 * u); g.stroke(); }
+    for (let i = 0; i <= 199; i += 10) { g.beginPath(); g.moveTo(ox + (w * i) / 199, oy + 26 * u); g.lineTo(x2(i), oy + 120 * u); g.stroke(); }
+    g.fillRect(ox, oy + 120 * u, w * 0.92, 26 * u); g.lineWidth = 2.2; }
+
+  // Temporal Compute TC-S1: 200 scenarios against EDF, 15 won, 15 tied, 170 lost.
+  { const ox = W * 0.66, oy = H * 0.08, s = 13 * u;
+    for (let i = 0; i < 200; i++) { const x = ox + (i % 25) * s * 1.35, y = oy + Math.floor(i / 25) * s * 1.35;
+      if (i < 15) g.fillRect(x, y, s, s); else { g.lineWidth = i < 30 ? 2.2 : 1.2; g.strokeRect(x, y, s, s); if (i < 30) { g.beginPath(); g.moveTo(x, y + s); g.lineTo(x + s, y); g.stroke(); } } }
+    g.lineWidth = 2.2; }
+}, 2.6);
+
+// ---- reveal mask: where the hand has passed, the work grows out of the plaster ----
+const MW = Math.round(PW / 2), MH = Math.round(PH / 2);
+const rtOpts = { type: THREE.HalfFloatType, minFilter: THREE.LinearFilter, magFilter: THREE.LinearFilter, depthBuffer: false };
+let mA = new THREE.WebGLRenderTarget(MW, MH, rtOpts), mB = new THREE.WebGLRenderTarget(MW, MH, rtOpts);
+const quad = new THREE.Mesh(new THREE.PlaneGeometry(2, 2));
+const scene = new THREE.Scene(); scene.add(quad);
+const cam = new THREE.OrthographicCamera(-1, 1, 1, -1, 0, 1);
+const vert = `varying vec2 vUv; void main(){ vUv = uv; gl_Position = vec4(position.xy, 0., 1.); }`;
+
+const maskMat = new THREE.ShaderMaterial({
+  vertexShader: vert,
+  uniforms: { uPrev: { value: null }, uP: { value: new THREE.Vector2(-9, -9) }, uQ: { value: new THREE.Vector2(-9, -9) }, uTexel: { value: new THREE.Vector2(1 / MW, 1 / MH) }, uAspect: { value: W / H }, uR: { value: 0.09 } },
+  fragmentShader: `
+    uniform sampler2D uPrev; uniform vec2 uP, uQ, uTexel; uniform float uAspect, uR; varying vec2 vUv;
+    float seg(vec2 p, vec2 a, vec2 b){ vec2 pa=p-a, ba=b-a; float h=clamp(dot(pa,ba)/max(dot(ba,ba),1e-6),0.,1.); return length(pa-ba*h); }
+    void main(){
+      float m = texture2D(uPrev, vUv).r, mx = m;
+      for (int i = 0; i < 8; i++) { float a = float(i) * 0.785398; mx = max(mx, texture2D(uPrev, vUv + vec2(cos(a), sin(a)) * uTexel * 1.6).r); }
+      float grown = max(m, mx * 0.965);
+      vec2 s = vec2(uAspect, 1.);
+      float d = seg(vUv * s, uQ * s, uP * s);
+      float brush = smoothstep(uR, uR * 0.2, d) * 0.22;
+      gl_FragColor = vec4(clamp(grown + brush, 0., 1.), 0., 0., 1.);
+    }`,
+});
+
+const shadeMat = new THREE.ShaderMaterial({
+  vertexShader: vert,
+  uniforms: { tName: { value: tName }, tWork: { value: tWork }, tMask: { value: null }, uRes: { value: new THREE.Vector2(PW, PH) }, uL: { value: new THREE.Vector3() }, uDepth: { value: 16 * dpr } },
+  fragmentShader: `
+    uniform sampler2D tName, tWork, tMask; uniform vec2 uRes; uniform vec3 uL; uniform float uDepth; varying vec2 vUv;
+    float hash(vec2 p){ return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
+    float vn(vec2 p){ vec2 i=floor(p), f=fract(p); f=f*f*(3.-2.*f);
+      return mix(mix(hash(i),hash(i+vec2(1,0)),f.x), mix(hash(i+vec2(0,1)),hash(i+vec2(1,1)),f.x), f.y); }
+    float fbm(vec2 p){ float s=0., a=.5; for(int i=0;i<5;i++){ s+=a*vn(p); p*=2.03; a*=.5; } return s; }
+    float Hn(vec2 uv){
+      float nr = texture2D(tName, uv).r; float n = smoothstep(.12, .9, nr) * .85 + nr * .15;
+      float w = texture2D(tWork, uv).r;
+      float m = smoothstep(.08, .75, texture2D(tMask, uv).r);
+      return n + w * m * .32 + fbm(uv * uRes / 120.) * .05 + fbm(uv * uRes / 7.) * .008;
+    }
+    void main(){
+      vec2 px = 1. / uRes;
+      float h = Hn(vUv);
+      float dx = Hn(vUv + vec2(px.x * 1.5, 0.)) - Hn(vUv - vec2(px.x * 1.5, 0.));
+      float dy = Hn(vUv + vec2(0., px.y * 1.5)) - Hn(vUv - vec2(0., px.y * 1.5));
+      vec3 N = normalize(vec3(-dx * uDepth / 3., -dy * uDepth / 3., 1.));
+      vec3 L = normalize(uL);
+      float dif = dot(N, L) - L.z;
+      // soft cast shadow: march the height field toward the light
+      vec2 dir = normalize(L.xy); float tanE = L.z / length(L.xy);
+      float sh = 1., hp = h * uDepth;
+      for (int i = 1; i <= 32; i++) {
+        float t = float(i) * 3.5;
+        float hs = Hn(vUv + dir * t * px) * uDepth;
+        sh = min(sh, clamp(1. - (hs - (hp + t * tanE)) / (t * .22), 0., 1.));
+      }
+      // cavity: darker where the surface sits below its surroundings
+      float ao = 0.;
+      for (int i = 0; i < 8; i++) { float a = float(i) * .785398; ao += Hn(vUv + vec2(cos(a), sin(a)) * px * 7.) - h; }
+      ao = clamp(1. - max(ao, 0.) * .35, .86, 1.);
+      vec3 alb = vec3(.952, .944, .925);
+      vec3 col = alb * (1. + dif * .55) * mix(vec3(.80, .79, .78), vec3(1.), sh) * ao;
+      col = min(col, vec3(.995));
+      col += (hash(vUv * uRes) - .5) * .018;
+      gl_FragColor = vec4(col, 1.);
+    }`,
+});
+
+// ---- pointer ----
+let P = new THREE.Vector2(-9, -9), Q = P.clone(), target = P.clone();
+addEventListener("pointermove", (e) => target.set(e.clientX / W, 1 - e.clientY / H));
+addEventListener("pointerleave", () => target.set(-9, -9));
+
+const t0 = performance.now();
+function frame() {
+  const t = (performance.now() - t0) / 1000;
+  Q.copy(P); P.lerp(target, P.x < -1 ? 1 : 0.35);
+  if (target.x < -1) Q.copy(P);
+  maskMat.uniforms.uPrev.value = mA.texture;
+  maskMat.uniforms.uP.value.copy(P); maskMat.uniforms.uQ.value.copy(Q);
+  quad.material = maskMat; renderer.setRenderTarget(mB); renderer.render(scene, cam);
+  [mA, mB] = [mB, mA];
+  // raking light from the upper left, drifting slowly; it leans toward the hand
+  const lx = -0.8 + Math.sin(t * 0.13) * 0.12 + (P.x > -1 ? (P.x - 0.5) * 0.25 : 0);
+  shadeMat.uniforms.uL.value.set(lx, 0.7, 0.62);
+  shadeMat.uniforms.tMask.value = mA.texture;
+  quad.material = shadeMat; renderer.setRenderTarget(null); renderer.render(scene, cam);
+  requestAnimationFrame(frame);
+}
+frame();
+window.__ready = true;
+</script>
+</body>
+</html>

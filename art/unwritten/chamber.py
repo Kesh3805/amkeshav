@@ -901,9 +901,21 @@ CAMS = {
 }
 # The web's reflection probe: an equirect from just above the desk (run it alone, CAMS=PANO EXR=1 at 2:1).
 # Rotation (90°, 0, −90°) is Blender's environment-texture convention, so the EXR maps like a world HDRI.
-CAMS["PANO"] = camera("CAM_PANO", (0.0, -1.45, 1.45), (0.0, 5.0, 1.45), 24)
+PANO_Z = float(os.environ.get("PANO_Z", "3.0"))  # high enough that the desk doesn't fill the lower hemisphere
+CAMS["PANO"] = camera("CAM_PANO", (0.0, -1.45, PANO_Z), (0.0, 5.0, PANO_Z), 24)
 CAMS["PANO"].data.type, CAMS["PANO"].data.panorama_type = "PANO", "EQUIRECTANGULAR"
 CAMS["PANO"].rotation_euler = (math.pi / 2, 0.0, -math.pi / 2)
+# The web's Desk stance (ChamberScene's DESK_POSE: three (x, y, z) is Blender (x, −z, y)), to judge the
+# off-Threshold air term against Cycles: level, 58° horizontal, lens shift −0.1.
+WD_POS, WD_DIR = Vector((-0.35, -4.75, 1.52)), Vector((0.06, 1.0, 0.0)).normalized()
+CAMS["WEB_DESK"] = camera("CAM_WEB_DESK", tuple(WD_POS), tuple(WD_POS + 3.3 * WD_DIR), 18.0 / math.tan(math.radians(29.0)), level=True)
+CAMS["WEB_DESK"].data.shift_y = -0.1
+# ... and the Book stance (bookPose): from the FRONTIER volume's box centre + BOOK_FROM, 40° horizontal.
+bpy.context.view_layer.update()
+_fc = [o.matrix_world @ Vector(v) for o in sc.objects if o.name.startswith("C01_FOLIO_FRONTIER") and o.type == "MESH" for v in o.bound_box]
+if _fc:
+    _c = (Vector(map(min, *[tuple(p) for p in _fc])) + Vector(map(max, *[tuple(p) for p in _fc]))) / 2
+    CAMS["WEB_BOOK"] = camera("CAM_WEB_BOOK", tuple(_c + Vector((0.45, -1.15, 0.62))), tuple(_c), 18.0 / math.tan(math.radians(20.0)))
 
 # ---------------------------------------------------------------- manifest + renders
 os.makedirs(a["out"], exist_ok=True)

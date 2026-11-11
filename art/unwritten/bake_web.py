@@ -61,7 +61,7 @@ def sizes(objs):
     out = {}
     for n, a in area.items():
         # The desk, the folio and the floor carry the frame's focus: more texels than their area earns.
-        boost = 4.0 if n.startswith(("DESK", "FOLIO")) else 1.0
+        boost = 4.0 if n.startswith(("DESK", "FOLIO")) else 2.0 if n.startswith("SHELVES") else 1.0  # spines are tiny
         s = lm_max * math.sqrt(max(a, 1e-9) / top) * boost
         if n.startswith(("SHELL__floor", "SHELL__joint")):
             s = lm_max  # planar UV over the whole floor (export_web.planar_lightmap_uv): each map spans 26 m
@@ -215,6 +215,69 @@ def bake(objs, side, out_dir, hide=(), rel="lightmaps"):
                         "clipped": round(float((px[..., :3].max(axis=2)[cov] * 2.0 ** ev > 1).mean()) if cov.any() else 0.0, 4)}
         print("LIGHTMAP", name, report[name], flush=True)
     return report
+
+
+def measure_albedo(objs, hide=(), side=64):
+    """{material name: mean linear albedo (r, g, b)}, measured by Cycles: a DIFFUSE bake with only the COLOR
+    filter is the diffuse albedo the renderer actually uses, whatever the node graph does, so it replaces
+    export_web's graph-walking estimate (which it confirmed within 4 % on 4 Nov). Area-weighted over each
+    material's batches; 1 sample is enough (no lighting in this pass)."""
+    sc = bpy.context.scene
+    objs = [o for o in objs if o.data.materials and o.data.materials[0] and "lightmap" in o.data.uv_layers]
+    if not objs:
+        return {}
+    prev = dict(engine=sc.render.engine, device=sc.cycles.device, samples=sc.cycles.samples,
+                hidden=[(o, o.hide_render) for o in hide])
+    sc.render.engine, sc.cycles.device, sc.cycles.samples = "CYCLES", "CPU", 1
+    for o in hide:
+        o.hide_render = True
+    jobs = []
+    for o in objs:
+        img = bpy.data.images.new(f"ALB_{o.name}", side, side, alpha=True, float_buffer=True)
+        img.generated_color = (0.0, 0.0, 0.0, 0.0)
+        orig = o.data.materials[0]
+        tmp = orig.copy()
+        o.data.materials[0] = tmp
+        nt = tmp.node_tree
+        for n in nt.nodes:
+            n.select = False
+        node = nt.nodes.new("ShaderNodeTexImage")
+        node.image = img
+        node.select = True
+        nt.nodes.active = node
+        jobs.append((o, orig, tmp, img))
+    for o in bpy.context.view_layer.objects:
+        o.select_set(False)
+    for o in objs:
+        o.select_set(True)
+    bpy.context.view_layer.objects.active = objs[0]
+    try:
+        bpy.ops.object.bake(type="DIFFUSE", pass_filter={"COLOR"}, margin=0, use_clear=True,
+                            use_selected_to_active=False, target="IMAGE_TEXTURES", uv_layer="lightmap")
+    finally:
+        for o, orig, tmp, _ in jobs:
+            o.data.materials[0] = orig
+            bpy.data.materials.remove(tmp)
+        for o, h in prev["hidden"]:
+            o.hide_render = h
+        sc.render.engine, sc.cycles.device, sc.cycles.samples = prev["engine"], prev["device"], prev["samples"]
+    acc = {}
+    for o, orig, _, img in jobs:
+        px = np.empty(side * side * 4, dtype=np.float32)
+        img.pixels.foreach_get(px)
+        px = px.reshape(-1, 4)
+        cov = px[:, 3] > 0.5
+        bpy.data.images.remove(img)
+        if not cov.any():
+            continue
+        area = sum(p.area for p in o.data.polygons)
+        a = acc.setdefault(orig.name, [np.zeros(3), 0.0])
+        a[0] += px[cov, :3].mean(axis=0) * area
+        a[1] += area
+    out = {k: tuple(float(x) for x in v[0] / v[1]) for k, v in acc.items() if v[1] > 0}
+    for k, v in sorted(out.items()):
+        print("ALBEDO", k, [round(x, 4) for x in v], flush=True)
+    return out
 
 
 if __name__ == "__main__":  # `blender -b x.blend -P bake_web.py -- out.glb` = BAKE=1 export_web.py

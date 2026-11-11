@@ -60,3 +60,7 @@ docs/research/atlas/*/desktop.webm
 /public/unwritten/chamber.glb
 /public/unwritten/lightmaps/
 /public/unwritten/chamber-env.hdr
+/public/unwritten/chamber-veil.hdr
+
+# cover prototype screen recordings are large; the stills carry the review
+docs/direction/covers/*/recording.webm

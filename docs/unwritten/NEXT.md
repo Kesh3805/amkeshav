@@ -1,79 +1,70 @@
-# THE UNWRITTEN — handoff (4 Nov 2026)
+# THE UNWRITTEN — handoff (4 Nov 2026, evening)
 
-Read [`README.md`](README.md) first: every ruling from ChatGPT and Gemini is recorded there.
+Read [`README.md`](README.md) first: every ruling from ChatGPT and Gemini is recorded there, and "The
+handoff, measured (4 Nov)" covers today.
 
 ## State
 
-- **Branch:** `unwritten/chamber-001` in `Kesh3805/amkeshav`. `f1167ec` (hero-004) is the last push;
-  everything after it is uncommitted until Keshav OKs a commit.
-- **Cinematic master: FROZEN at hero-006** ([`hero-006.png`](hero-006.png), crops, EXR in
-  `art/renders/unwritten/hero006/`).
-  - Settings: sun 24 W/m² at 4°, 5100 K; `FLOOR_LIFT` 2.6; SKY 22 with `SKY_HAZE=0`. These are the
-    `chamber.py` defaults now.
-  - No hero-007 and no more lighting sweeps unless the browser exposes a concrete defect.
-- **Poster:** `public/unwritten/hero-poster.webp` is hero-006 (88 KB).
-- **FRONTIER folio: built.**
-  - `src/components/unwritten/folio/`: a true alignment-chart nomogram (collinearity unit-tested), the
-    "COST MODEL REFUTED" stamp, and a split provenance colophon.
-  - Opens from the book hotspot, with CSS-3D lift and rack-focus.
-  - Flat mode: `/prototype/unwritten/frontier/`, the `#frontier` link, and narrow screens via the "Open
-    the FRONTIER volume" link.
-  - Data comes from `scripts/research/exp009-nomogram.py ../frontier` →
-    `content/research/data/frontier-exp009.json`.
+- **Branch:** `unwritten/chamber-001` in `Kesh3805/amkeshav`. `78a1eef` is the last push; today's work is
+  uncommitted until Keshav OKs a commit.
+- **Cinematic master: FROZEN at hero-006.**
+- **FRONTIER folio: built.** It now opens from the Book stance when the live chamber is up (below).
+- **WebGL chamber:**
+  - **Grade:** Blender's AgX Punchy as a 48³ LUT, plus `finish.py`'s lens, in one post pass.
+  - **Veil:** the master−web residual at the Threshold, as an HDR.
+  - **Probe:** at 3 m.
+  - **Shades:** glowing emitters.
+  - **Stances:** Threshold → Desk → Book.
+  - **Mean error vs the poster:** 6.0 codes, down from 24.6; every region is within 2 codes.
 
-## WebGL translation (in progress)
-
-Rebuild and bake:
+## Rebuild the web assets
 
 ```bash
 WEB=1 SAVE_BLEND=<dir>/chamber.blend CAMS=NONE blender -b -P art/unwritten/chamber.py -- <dir> 960 540 8
 BAKE=1 LM_MAX=1024 LM_SAMPLES=192 DRACO=1 blender -b <dir>/chamber.blend -P art/unwritten/export_web.py -- <dir>/chamber.glb
+CAMS=PANO EXR=1 blender -b -P art/unwritten/chamber.py -- <pano dir> 1024 512 256   # then EXR → .hdr (Blender save_render, HDR)
+blender -b -P art/unwritten/agx_lut.py -- lut.bin 48   # → public/unwritten/agx-punchy.png (only if the look changes)
 ```
 
-Copy `chamber.glb`, `chamber-camera.json` and `lightmaps/` into `public/unwritten/` (the GLB and the
-lightmaps are git-ignored). The bake takes about 26 min on the CPU.
+Then:
 
-- **Bake** (`art/unwritten/bake_web.py`):
-  - Cycles DIFFUSE (direct + indirect) on UV1, per batched web mesh.
-  - Encode: sRGB PNG, with a per-map auto EV at the 97th percentile.
-  - Island-masked denoise (`LM_BLUR`).
-  - Texel boosts: desk and folio ×4. The floor gets a planar top-down UV at full resolution, because
-    per-flag islands made the pool blocky.
-  - Rotunda book boxes lose their back and bottom faces before UV (they bled black into the spines).
-- **Runtime** (`ChamberScene.tsx`):
-  - Baked meshes become unlit `MeshBasicMaterial` + lightMap, so nothing is double-counted.
-  - AgX at the master's EV −0.3.
-  - The `chamber-env.hdr` probe (CAMS=PANO, 1024×512) goes through PMREM to the scene environment, for the
-    unbaked metals.
-  - An additive cone carries the haze shaft.
-- **Verified on the real GPU** (Edge, D3D11, Iris Xe, `?tier=high`): live in 6–17 s, framing identical to
-  the poster.
+1. Copy `chamber.glb`, `chamber-camera.json` and `lightmaps/` into `public/unwritten/`.
+2. With `pnpm dev` running, capture the web frame: `node scripts/unwritten/dump.mjs <web.bin>` (`?dump` is dev only).
+3. Build the veil:
+   `blender -b -P art/unwritten/veil.py -- art/renders/unwritten/hero006/hero-HERO.exr <web.bin> public/unwritten/chamber-veil.hdr`
+
+**Rebuild the veil after every rebake:** it is a residual against that exact bake. The GLB, the
+lightmaps, the env HDR and the veil HDR are git-ignored. The bake takes about 75 min on the CPU (4 Nov, with the albedo pass and the larger shelf maps), so
+keep the laptop on the charger.
 
 ## Next, in order
 
-1. **Planar-floor bake: done (4 Nov).** The pool is a continuous soft ellipse over dark stone, and the
-   book spines carry their colour.
-   - The floor slab bottoms had to go first: they face the sky under the floor and overwrote the tops.
-   - A few worn flags at the pool's rim still read a touch flat.
-2. **Handoff match:**
-   - three's base AgX vs Blender's AgX Punchy, plus `finish.py`'s grade
-   - books still darker than the poster
-   - masonry map (EV dominated by the shaft)
-3. **Probe height:** move the PANO probe up (z ≈ 3 m) so the desk doesn't fill its lower hemisphere.
-4. **Size:** Meshopt in place of Draco, keeping silhouettes. Decide whether to ship the GLB and the
-   lightmaps (about 12 MB together).
-5. **Later:** the three camera stances (Threshold → Desk → Book), then the folio on the real Book stance.
+1. **Ship decision:** the GLB, lightmaps, probe and veil (about 11 MB: GLB 3.1, lightmaps 7.7) have to reach production
+   (git LFS, or a release upload in CI) before the live chamber exists anywhere but locally. Meshopt
+   was measured and rejected: larger than Draco even after brotli.
+2. **Off-Threshold haze: fitted (11 Nov).** `chamber.py` now has `WEB_DESK` and `WEB_BOOK` cameras
+   (the web's stances); `art/unwritten/airfit.py` compares Cycles with the web frame there. At the Desk
+   the needed in-scatter is flat with distance (the camera stands at the shaft's edge), so `AIR` is now
+   (0.111, 0.087, 0.078) with `AIR_LENGTH` 1 m: the Desk frame went from 23.7 to 8.5 codes off. The Book
+   check exposed a **bake bug** (the cover baked at 1/7 of its light): see README, "The Desk and the Book,
+   measured (11 Nov)".
+3. **Book stance polish.** The folio's cover is a flat slab at close range. A cover texture (oxide
+   leather, the gilt roundel) would hold up at 1.4 m.
+4. **Relay to ChatGPT and Gemini.** The browser was signed out of chatgpt.com on 4 Nov, so today's
+   measurements were not reviewed. Relay the README section once signed in.
+5. A few worn flags at the pool's rim still read a touch flat.
 
 ## Practical notes
 
-- CPU only, so keep the laptop on the charger: on battery Windows throttles Blender to about 1 core.
 - `BORDERS=name:x0,y0,x1,y1;...` with `SKIES=` / `SHAFTS=` renders gate crops without a full frame.
+- Capture helpers in `scripts/unwritten/` (Edge D3D11 via Playwright; `BASE=` the dev server, default
+  :3300 from `.claude/launch.json`): `handoff.mjs` (poster vs WebGL), `stance.mjs` (the flight),
+  `dump.mjs` (linear Threshold frame), `desk.mjs <out> [desk|book]` (a stance's graded frame + linear frame
+  with depth, for `art/unwritten/airfit.py`), `meshes.mjs` and `hide.mjs` (dev-only mesh list and
+  hide-by-prefix).
 - **ChatGPT:**
-  - Composer: `form .ProseMirror[contenteditable="true"]`. Check `document.title` first.
+  - Composer: `form .ProseMirror[contenteditable="true"]`.
   - "This response couldn't load": read the reply from `/backend-api/conversation/<id>` with the session
     token from `/api/auth/session`.
-- **Gemini** (Flash-Lite) sometimes truncates its replies.
-- **Images can't be attached:** chatgpt.com's CSP blocks fetching from localhost and popups replace the
-  tab, so relay the review as text.
-- **Built-in browser pane:** its canvas doesn't draw (300×150), so check WebGL with Playwright on Edge:
-  `channel: "msedge"`, `--use-angle=d3d11`.
+  - Images can't be attached (CSP), so relay as text.
+- The built-in browser pane's canvas doesn't draw, so check WebGL with Playwright on Edge.

@@ -185,12 +185,14 @@ def tile_size(mat):
     return 1.0 / s if s else 1.0
 
 
-def flatten(mat):
-    """Replace the node tree with a bare Principled BSDF holding constant estimates. Returns the record."""
+def flatten(mat, albedo=None):
+    """Replace the node tree with a bare Principled BSDF holding constant estimates. Returns the record.
+    `albedo`: Cycles' measured mean diffuse albedo (bake_web.measure_albedo); it replaces the estimate."""
     b = principled_of(mat)
     rec = {"tile_m": round(tile_size(mat), 4)}
+    est = as_rgb(estimate(b.inputs["Base Color"]))
     vals = {
-        "Base Color": as_rgb(estimate(b.inputs["Base Color"])),
+        "Base Color": tuple(albedo) if albedo else est,
         "Roughness": max(0.0, min(1.0, as_f(estimate(b.inputs["Roughness"])))),
         "Metallic": max(0.0, min(1.0, as_f(estimate(b.inputs["Metallic"])))),
         "Transmission Weight": as_f(estimate(b.inputs["Transmission Weight"])),
@@ -206,6 +208,8 @@ def flatten(mat):
     for k, v in vals.items():
         nb.inputs[k].default_value = (*v, 1.0) if isinstance(v, tuple) else v
     mat.diffuse_color = (*vals["Base Color"], 1.0)  # viewport / fallback
+    if albedo:
+        rec["estimated"] = [round(x, 4) for x in est]
     rec.update({"base": [round(x, 4) for x in vals["Base Color"]], "rough": round(vals["Roughness"], 3),
                 "metal": round(vals["Metallic"], 3)})
     if vals["Transmission Weight"] > 0:
@@ -307,16 +311,18 @@ for (col, mn), objs in sorted(pieces.items()):
 
 
 def cull_hidden_book_faces(ob):
-    """Rotunda books (one box each, WEB=1) show their spine, top and ends; the back sits against the case and
-    the bottom on the shelf. Those faces bake black, and in an atlas of thousands of boxes their texels bleed
-    into the spines, so they go. Only the rotunda's own shelves: the sideways room's gravity is not −Z."""
+    """Rotunda books (one box each, WEB=1) show their spine and top; the back sits against the case, the bottom
+    on the shelf and the sides against their neighbours. Those faces bake black, and in an atlas of thousands of
+    boxes (a spine is a few texels) the bake margin and the denoise carried them into the spines: the shelves
+    came out 4 stops dark. So they go. Only the rotunda's own shelves: the sideways room's gravity is not −Z."""
     bm = bmesh.new()
     bm.from_mesh(ob.data)
     dead = []
     for f in bm.faces:
         c, n = f.calc_center_median(), f.normal
         radial = c.xy.normalized() if c.xy.length > 1e-6 else c.xy
-        if n.z < -0.7 or (n.x * radial.x + n.y * radial.y) > 0.7:
+        side = abs(n.y * radial.x - n.x * radial.y)  # along the ring's tangent
+        if n.z < -0.7 or (n.x * radial.x + n.y * radial.y) > 0.7 or side > 0.7:
             dead.append(f)
     bmesh.ops.delete(bm, geom=dead, context="FACES")
     bm.to_mesh(ob.data)
@@ -422,6 +428,45 @@ def lightmap_uv(ob, side):
     return gap, fill
 
 
+SLIVER_PX = 1.5  # a face whose lightmap island is narrower than this owns no texel of its own
+
+
+def fix_slivers(ob, side):
+    """Faces narrower than SLIVER_PX texels in UV1 (pilaster arrises, fillets) own no texel: the bake leaves
+    them to whatever the margin and the neighbouring islands hold, and they drew as dashed, sky-bright lines
+    on the pilasters. Re-point each such face's lightmap UVs, corner by corner, at the UV its largest
+    non-sliver neighbour has at the same vertex: it then reads the neighbour's lighting, continuous across
+    the edge, and collapses to ~zero UV area so the bake writes nothing for it. Returns the count."""
+    bm = bmesh.new()
+    bm.from_mesh(ob.data)
+    uv = bm.loops.layers.uv["lightmap"]
+
+    def width(f):
+        pts = [l[uv].uv * side for l in f.loops]
+        area = 0.0
+        for i in range(1, len(pts) - 1):
+            area += abs((pts[i] - pts[0]).cross(pts[i + 1] - pts[0])) / 2
+        longest = max((pts[i] - pts[i - 1]).length for i in range(len(pts)))
+        return area / longest if longest > 1e-9 else 0.0
+
+    thin = {f.index for f in bm.faces if width(f) < SLIVER_PX}
+    fixed = 0
+    for f in bm.faces:
+        if f.index not in thin:
+            continue
+        moved = False
+        for l in f.loops:
+            best = max((g for g in l.vert.link_faces if g.index not in thin), key=lambda g: g.calc_area(), default=None)
+            if best is None:
+                continue
+            l[uv].uv = next(m[uv].uv for m in best.loops if m.vert is l.vert).copy()
+            moved = True
+        fixed += moved
+    bm.to_mesh(ob.data)
+    bm.free()
+    return fixed
+
+
 def planar_lightmap_uv(ob):
     """UV1 for the floor: a top-down projection over the mesh's XY bounds. Smart UV made every flag its own
     island of a texel or two, so the pool came out as lit and unlit flags; a planar map keeps the light
@@ -459,8 +504,9 @@ for ob in batches + ([hit] if hit else []):
     bpy.context.view_layer.objects.active = ob
     ob.select_set(True)
     gap, fill = planar_lightmap_uv(ob) if ob.name.startswith(PLANAR) else lightmap_uv(ob, lm_side[ob.name])
+    slivers = 0 if ob.name.startswith(PLANAR) else fix_slivers(ob, lm_side[ob.name])
     print(f"UV {ob.name}: {len(me.polygons)} faces, lightmap {lm_side[ob.name]} px, gap {gap:g} px, "
-          f"fill {fill:.2f}, {time.time() - t0:.1f}s", flush=True)
+          f"fill {fill:.2f}, {slivers} slivers re-pointed, {time.time() - t0:.1f}s", flush=True)
 
 
 # ---------------------------------------------------------------- 2b. lightmap bake (BAKE=1, before flattening)
@@ -478,6 +524,9 @@ if BAKE:
     keep_haze = os.environ.get("LM_HAZE", "") not in ("", "0")
     hide = sources + ([hit] if hit else []) + ([] if keep_haze else volumes)
     bake_web.bake(to_bake, lm_side, os.path.dirname(OUT), hide=hide)
+    albedo = bake_web.measure_albedo(to_bake, hide=hide)
+else:
+    albedo = {}
 
 
 # ---------------------------------------------------------------- 3. flatten materials (after batching, UVs and the bake)
@@ -485,7 +534,7 @@ matmap = {}
 for ob in batches:
     mat = ob.data.materials[0]
     if mat.name not in matmap:
-        matmap[mat.name] = flatten(mat)
+        matmap[mat.name] = flatten(mat, albedo.get(mat.name))
 if hit:
     pm = bpy.data.materials.new("HIT_PROXY")
     pm.diffuse_color = (1, 0, 1, 0.0)
