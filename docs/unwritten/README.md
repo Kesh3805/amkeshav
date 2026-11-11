@@ -347,6 +347,30 @@ also bins the light the web still lacks by view distance.
   joins the cover (one UV island) to the board's underside (another), so its "collapsed" face stretched
   across the map. It ran before the bake, so the bake wrote edge light over the cover. On the folio's
   map, 67 % of the texels were claimed twice.
+- **It was everywhere.** `art/unwritten/uvcheck.py` counts lightmap texels that more than one face
+  claims. On the 4 Nov GLB that was 35 % of all lightmap texels: the desk leather 100 %, the shelves'
+  walnut 98 %, the shell limestone 86 %, the shelf bindings 35–47 %. This is very likely most of the
+  "books 2–3× low" defect from 4 Nov. Fix: a sliver now maps into ONE neighbour's island (the largest
+  non-sliver face sharing an edge with it), and the fix runs after the bake, so it only changes where
+  slivers sample. Overlap after the fix: 0.01 % (481 texels, all on the unbaked brass).
+- **Grey flags in the pool.** Each floor batch (one per flag material) set its own lightmap exposure from
+  its 97th-percentile texel. The sun's pool is a few % of each batch, so four batches clipped inside it
+  (`limestone_3` at E/π 0.42, where the pool needs about 4). Those flags read grey among cream ones.
+  The floor maps now share one exposure, from the 99.9th percentile of all of them (`LM_PCT_FLOOR`).
+
+**Rebaked with both fixes (42 min).** The veil was rebuilt against the new bake. Display codes against
+Cycles or the poster:
+
+| Frame | Before | After | Notes |
+|---|---|---|---|
+| Threshold vs poster | 6.0 | 5.5 | every region within 2.2 codes |
+| Desk vs Cycles | 8.5 | 7.5 | the book on the desk −12.5 → −3.2; the pool now uniform cream, +9 |
+| Book vs Cycles | 20.3 | 16.1 | the cover −54 → −19 (sunlit oxblood now) |
+
+- **What is left at the Book is gloss.** The cover is −19 codes and the blotter −15 to −24. Cycles shows
+  a leather sheen under the near-vertical sun, which an unlit, lightmapped material cannot carry.
+- **Performance.** The flight takes 2.8 s with no screenshots, the same as before; the new bake runs at
+  40–42 fps against 37.
 
 ## Build
 

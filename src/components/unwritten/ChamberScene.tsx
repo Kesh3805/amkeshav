@@ -428,7 +428,7 @@ function Grade({ lut, veil, weight, airWeight, win }: { lut: THREE.Data3DTexture
     const w = window as unknown as { __unwrittenLinear?: (o?: { full?: boolean }) => { w: number; h: number; ch: number; data: string } };
     w.__unwrittenLinear = ({ full = false } = {}) => {
       const px = gl.getDrawingBufferSize(new THREE.Vector2());
-      const rt = new THREE.WebGLRenderTarget(px.x, px.y, { type: THREE.FloatType, depthTexture: full ? new THREE.DepthTexture(px.x, px.y) : undefined });
+      const rt = new THREE.WebGLRenderTarget(px.x, px.y, { type: THREE.FloatType, ...(full ? { depthTexture: new THREE.DepthTexture(px.x, px.y) } : {}) });
       const shaft = world.getObjectByName("SHAFT");
       if (shaft && !full) shaft.visible = false;
       gl.setRenderTarget(rt);

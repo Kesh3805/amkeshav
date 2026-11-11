@@ -49,6 +49,8 @@ def env_f(name, default):
 
 
 LM_PCT = env_f("LM_PCT", 97.0)  # per-map auto EV: this percentile of the brightest channel lands on code 1.0
+LM_PCT_FLOOR = env_f("LM_PCT_FLOOR", 99.9)  # the floor maps' shared EV: the sun's pool must not clip
+FLOOR_MAPS = ("SHELL__floor", "SHELL__joint")
 LM_BLUR = env_f("LM_BLUR", 1.0)  # masked blur radius in px (two box passes), 0 = off
 
 
@@ -190,14 +192,22 @@ def bake(objs, side, out_dir, hide=(), rel="lightmaps"):
     # code 2: banding. Each node carries its own lightmap_ev, so each map gets its own auto EV.
     fixed = os.environ.get("LM_EV", "").strip()
 
-    def auto_ev(px):
-        peak = px[..., :3].max(axis=2)[px[..., 3] > 0.5]
-        p = float(np.percentile(peak, LM_PCT)) if peak.size else 1.0
+    def peaks(px):
+        return px[..., :3].max(axis=2)[px[..., 3] > 0.5]
+
+    def auto_ev(peak, pct=LM_PCT):
+        p = float(np.percentile(peak, pct)) if peak.size else 1.0
         return math.floor(-math.log2(max(p, 1e-6)) * 4) / 4
+
+    # The floor flags are split across batches by material, and the sun's pool is a few % of each: at the
+    # 97th percentile four of them clipped inside the pool (one at E/π 0.42 where the pool needs ≈ 4) and
+    # read as grey flags among cream ones (11 Nov). The floor maps share ONE EV, from the pool's own peak.
+    floor = [n for n in data if n.startswith(FLOOR_MAPS)]
+    floor_ev = auto_ev(np.concatenate([peaks(data[n][2]) for n in floor]), LM_PCT_FLOOR) if floor else None
 
     report = {}
     for name, (o, img, px) in data.items():
-        ev = float(fixed) if fixed else auto_ev(px)
+        ev = float(fixed) if fixed else floor_ev if name in floor else auto_ev(peaks(px))
         v = srgb_oetf(np.clip(px[..., :3].astype(np.float64) * 2.0 ** ev, 0.0, 1.0))
         rgb8 = np.round(v * 255.0).astype(np.uint8)[::-1]  # Blender rows are bottom-up; PNG is top-down
         fname = re.sub(r"[^A-Za-z0-9_.-]", "_", name) + ".png"

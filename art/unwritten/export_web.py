@@ -431,40 +431,50 @@ def lightmap_uv(ob, side):
 SLIVER_PX = 1.5  # a face whose lightmap island is narrower than this owns no texel of its own
 
 
+def uv_area(f, uv, side):
+    """A face's area in UV1, in texels²."""
+    pts = [l[uv].uv * side for l in f.loops]
+    return sum(abs((pts[i] - pts[0]).cross(pts[i + 1] - pts[0])) / 2 for i in range(1, len(pts) - 1))
+
+
 def fix_slivers(ob, side):
     """Faces narrower than SLIVER_PX texels in UV1 (pilaster arrises, fillets) own no texel: the bake leaves
     them to whatever the margin and the neighbouring islands hold, and they drew as dashed, sky-bright lines
-    on the pilasters. Re-point each such face's lightmap UVs, corner by corner, at the UV its largest
-    non-sliver neighbour has at the same vertex: it then reads the neighbour's lighting, continuous across
-    the edge, and collapses to ~zero UV area so the bake writes nothing for it. Returns the count."""
+    on the pilasters. Re-point each such face's lightmap UVs into ONE neighbour's island: the largest
+    non-sliver face sharing an edge with it (else a vertex). A corner on that neighbour takes the
+    neighbour's UV there; any other corner takes the UV of the neighbour's nearest vertex. The face then
+    reads the neighbour's lighting along their common edge and lies on that island's rim, ~zero UV area.
+    Runs AFTER the bake (see the call): it only changes where these faces sample, never what is baked.
+    (Until 11 Nov each corner chose its own neighbour, so a 4 mm board edge between the folio's cover and
+    its underside stretched across the map, and since the bake ran after this it wrote edge light over
+    the cover: 1/7 of its light.) Returns (count, the largest UV area left, in texels²)."""
     bm = bmesh.new()
     bm.from_mesh(ob.data)
     uv = bm.loops.layers.uv["lightmap"]
 
     def width(f):
         pts = [l[uv].uv * side for l in f.loops]
-        area = 0.0
-        for i in range(1, len(pts) - 1):
-            area += abs((pts[i] - pts[0]).cross(pts[i + 1] - pts[0])) / 2
         longest = max((pts[i] - pts[i - 1]).length for i in range(len(pts)))
-        return area / longest if longest > 1e-9 else 0.0
+        return uv_area(f, uv, side) / longest if longest > 1e-9 else 0.0
 
     thin = {f.index for f in bm.faces if width(f) < SLIVER_PX}
-    fixed = 0
+    fixed, worst = 0, 0.0
     for f in bm.faces:
         if f.index not in thin:
             continue
-        moved = False
+        by_edge = {g for e in f.edges for g in e.link_faces if g.index not in thin and g is not f}
+        by_vert = {g for v in f.verts for g in v.link_faces if g.index not in thin and g is not f}
+        best = max(by_edge or by_vert, key=lambda g: g.calc_area(), default=None)
+        if best is None:
+            continue  # a strip of slivers with no broad neighbour keeps its own (tiny) island
+        at = {m.vert: m[uv].uv.copy() for m in best.loops}
         for l in f.loops:
-            best = max((g for g in l.vert.link_faces if g.index not in thin), key=lambda g: g.calc_area(), default=None)
-            if best is None:
-                continue
-            l[uv].uv = next(m[uv].uv for m in best.loops if m.vert is l.vert).copy()
-            moved = True
-        fixed += moved
+            l[uv].uv = at[l.vert] if l.vert in at else at[min(at, key=lambda v: (v.co - l.vert.co).length)]
+        worst = max(worst, uv_area(f, uv, side))
+        fixed += 1
     bm.to_mesh(ob.data)
     bm.free()
-    return fixed
+    return fixed, worst
 
 
 def planar_lightmap_uv(ob):
@@ -504,9 +514,8 @@ for ob in batches + ([hit] if hit else []):
     bpy.context.view_layer.objects.active = ob
     ob.select_set(True)
     gap, fill = planar_lightmap_uv(ob) if ob.name.startswith(PLANAR) else lightmap_uv(ob, lm_side[ob.name])
-    slivers = 0 if ob.name.startswith(PLANAR) else fix_slivers(ob, lm_side[ob.name])
     print(f"UV {ob.name}: {len(me.polygons)} faces, lightmap {lm_side[ob.name]} px, gap {gap:g} px, "
-          f"fill {fill:.2f}, {slivers} slivers re-pointed, {time.time() - t0:.1f}s", flush=True)
+          f"fill {fill:.2f}, {time.time() - t0:.1f}s", flush=True)
 
 
 # ---------------------------------------------------------------- 2b. lightmap bake (BAKE=1, before flattening)
@@ -527,6 +536,12 @@ if BAKE:
     albedo = bake_web.measure_albedo(to_bake, hide=hide)
 else:
     albedo = {}
+
+# Slivers sample their neighbours' lighting; re-pointed after the bake, so they never write into it.
+for ob in batches:
+    if not ob.name.startswith(PLANAR):
+        n, worst = fix_slivers(ob, lm_side[ob.name])
+        print(f"SLIVERS {ob.name}: {n} re-pointed, largest left {worst:.2f} texels²", flush=True)
 
 
 # ---------------------------------------------------------------- 3. flatten materials (after batching, UVs and the bake)
