@@ -53,6 +53,24 @@ Then:
 lightmaps, the env HDR and the veil HDR live in Git LFS: commit them after a rebake. The bake took 42 min on the CPU on 11 Nov
 (75 min on 4 Nov); keep the laptop on the charger.
 
+## The homepage (12 Nov, evening)
+
+Keshav rejected the live homepage (the 31 Oct build) and then the cinematic "Infinite Index" prototype,
+and asked for "something professional and nice". ChatGPT's answer is the engineering folio, recorded
+in [`../homepage/BRIEF.md`](../homepage/BRIEF.md) and now built (`src/components/home/Home.tsx`).
+
+- **Look:** Plex Sans and JetBrains Mono on technical paper.
+- **Content:** his own statement and "Two modes of work", four equal drawing-led previews, research
+  (FRONTIER with the exp-009 nomogram, plus the dated log) and writing.
+- **Motion:** exactly the four allowed details.
+
+Chamber 001 is untouched and frozen; the 31 Oct homepage components are deleted (they are in git
+history). Still to do from the brief:
+
+- **§G, the case-study consistency pass:** the homepage's tokens, type and grid across the other pages,
+  whose header and footer are still the 31 Oct paper style.
+- **Deploying:** merge to `main` once Keshav approves the page.
+
 ## Next, in order
 
 ChatGPT's 12 Nov rulings (README, "Portfolio v1"):

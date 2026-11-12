@@ -77,34 +77,37 @@ test("unknown routes get the 404 page", async ({ page }) => {
 test.describe("reduced motion", () => {
   test.use({ reducedMotion: "reduce" });
 
-  test("homepage is a plain readable document", async ({ page }) => {
+  // The engineering folio must read as finished with every animation off (docs/homepage/BRIEF.md §H).
+  test("homepage is complete with motion off", async ({ page }) => {
     await page.goto("/", { waitUntil: "networkidle" });
-    // No pinned stretches: the opening is one viewport, not a scroll runway.
-    const h = await page.locator("section").first().evaluate((el) => el.getBoundingClientRect().height);
-    expect(h).toBeLessThanOrEqual(page.viewportSize()!.height + 2);
-    await expect(page.getByText("The writers maintain the state.")).toBeVisible();
-    for (const name of ["ReviewGraph", "The first scheduler lost.", "Call it first.", "What's next?"]) {
-      await expect(page.getByRole("heading", { name })).toBeVisible();
+    await expect(page.locator("h1")).toContainText("I build backends that have to be right");
+    for (const name of ["Selected work", "Research", "Writing"]) {
+      await expect(page.getByRole("heading", { name, exact: true })).toBeVisible();
     }
+    await expect(page.locator("[data-reveal='pending']")).toHaveCount(0);
     await expect(page.locator("a[href^='mailto:']").first()).toBeVisible();
   });
 });
 
-test("The Commitment can be used from the keyboard", async ({ page }) => {
+test("selected work shows four equal previews, each linked to its case study", async ({ page }) => {
   await page.goto("/", { waitUntil: "networkidle" });
-  const range = page.locator("#commitment input[type=range]");
-  await range.focus();
-  for (let i = 0; i < 20; i++) await page.keyboard.press("ArrowLeft");
-  await expect(page.locator("#commitment")).toContainText(/Your call: \d+% saved/);
-  await page.getByRole("button", { name: "Lock it in" }).click();
-  await expect(page.locator("#commitment")).toContainText("8 ms of 132");
-  await expect(range).toBeDisabled();
+  for (const slug of ["gst-platform", "loams", "reviewgraph", "temporal-compute"]) {
+    await expect(page.locator(`#work a[href$="/work/${slug}/"]`)).toBeAttached();
+  }
+  const heights = await page.locator("#work [data-drawing]").evaluateAll((els) => els.map((e) => Math.round(e.getBoundingClientRect().height)));
+  expect(new Set(heights).size, `drawing heights ${heights}`).toBe(1);
 });
 
-test("skipping the call still shows the measurement", async ({ page }) => {
+test("the on-page index reaches every section, and the work index lists every project", async ({ page }) => {
   await page.goto("/", { waitUntil: "networkidle" });
-  await page.getByRole("button", { name: /Skip/ }).click();
-  await expect(page.locator("#commitment")).toContainText("Not confirmatory");
+  for (const id of ["work", "research", "writing"]) {
+    await expect(page.locator(`nav[aria-label="On this page"] a[href="#${id}"]`)).toBeAttached();
+    await expect(page.locator(`#${id}`)).toBeAttached();
+  }
+  await page.goto("/work/", { waitUntil: "networkidle" });
+  for (const route of slugs("work")) {
+    await expect(page.locator(`a[href$="${route}"]`).first(), route).toBeAttached();
+  }
 });
 
 test("theme toggle switches and persists", async ({ page }) => {
@@ -115,12 +118,4 @@ test("theme toggle switches and persists", async ({ page }) => {
   expect(after).not.toBe(before);
   await page.reload();
   expect(await page.evaluate(() => document.documentElement.dataset.theme)).toBe(after);
-});
-
-test("ReviewGraph base graph reveals the removed callee", async ({ page }) => {
-  await page.goto("/", { waitUntil: "networkidle" });
-  await page.locator("#work-reviewgraph").scrollIntoViewIfNeeded();
-  await page.getByRole("button", { name: "+ Base graph" }).click();
-  await expect(page.getByRole("button", { name: "+ Base graph" })).toHaveAttribute("aria-pressed", "true");
-  await expect(page.locator("#work-reviewgraph")).toContainText("permissionService.check");
 });

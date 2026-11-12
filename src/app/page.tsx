@@ -1,41 +1,15 @@
-import Link from "next/link";
-import { Closing } from "@/components/home/Closing";
-import { Commitment } from "@/components/home/Commitment";
-import { GraphShowcase } from "@/components/home/GraphShowcase";
-import { GstShowcase } from "@/components/home/GstShowcase";
-import { Opening } from "@/components/home/Opening";
-import { ProjectIndex } from "@/components/home/ProjectIndex";
-import { TallyField } from "@/components/home/TallyField";
-import { WritingIndex } from "@/components/home/WritingIndex";
-import { getWork, getWriting } from "@/lib/content";
+import { Home } from "@/components/home/Home";
 
-const SHOWCASED = ["gst-platform", "reviewgraph", "temporal-compute"];
-
-export default function Home() {
-  const work = getWork();
-  const rest = work.filter((w) => !SHOWCASED.includes(w.slug));
+/*
+  The homepage: an engineering folio (docs/homepage/BRIEF.md, ChatGPT's brief of 12 Nov 2026, after Keshav
+  asked for "something professional and nice" instead of extravagant UI). It carries its own header and
+  footer, so the site's are hidden here.
+*/
+export default function Page() {
   return (
     <>
-      <Opening names={["GST platform", "ReviewGraph", "Temporal Compute"]} more={rest.length} />
-      <h2 className="sr-only">Selected work</h2>
-      <GstShowcase />
-      <GraphShowcase />
-      <TallyField />
-      <Commitment />
-      <ProjectIndex
-        work={rest}
-        aside={
-          <>
-            I also built something that{" "}
-            <Link href="/work/sonicmirror" className="link">
-              roasts your Spotify taste
-            </Link>
-            .
-          </>
-        }
-      />
-      <WritingIndex posts={getWriting()} />
-      <Closing />
+      <style>{`header[data-header],body>footer{display:none!important}html{background:#f3f3ee}`}</style>
+      <Home />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Anybody, JetBrains_Mono, Newsreader } from "next/font/google";
+import { Anybody, IBM_Plex_Sans, JetBrains_Mono, Newsreader } from "next/font/google";
 import { Footer } from "@/components/chrome/Footer";
 import { Header } from "@/components/chrome/Header";
 import { site } from "@/lib/site";
@@ -17,6 +17,14 @@ const newsreader = Newsreader({
   subsets: ["latin"],
   axes: ["opsz"],
   style: ["normal", "italic"],
+  display: "swap",
+});
+
+// The homepage's engineering-folio type (ChatGPT's brief, 12 Nov 2026): Plex Sans with JetBrains Mono.
+const plex = IBM_Plex_Sans({
+  variable: "--font-plex",
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
   display: "swap",
 });
 
@@ -52,7 +60,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       data-theme="light"
       suppressHydrationWarning
-      className={`${anybody.variable} ${newsreader.variable} ${jetbrains.variable}`}
+      className={`${anybody.variable} ${newsreader.variable} ${plex.variable} ${jetbrains.variable}`}
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
