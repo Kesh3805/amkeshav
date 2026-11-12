@@ -63,6 +63,13 @@ export default async function CaseStudy({ params }: PageProps<"/work/[slug]">) {
               </dd>
             </div>
           )}
+          {w.links.length === 0 && w.kind === "professional" && (
+            // Release ruling (b), 12 Nov 2026: say what evidence is public, rather than leave the reader to guess.
+            <div>
+              <dt className="label">Links</dt>
+              <dd>None public — professional work{w.org ? ` at ${w.org}` : ""}</dd>
+            </div>
+          )}
         </dl>
       </PageHead>
 

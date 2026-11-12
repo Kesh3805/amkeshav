@@ -42,6 +42,7 @@ Previews for review: `preview/*-r3.jpg`. Keshav makes the final call.
 
 Live at `/prototype/` on the preview (not linked, noindex). Recording: `prototype.mp4` (26 s). Beats: `prototype-beats.png`.
 
+- (Retired from the site 12 Nov 2026 by ChatGPT's v1 release ruling; the prototype's page, component and plates last exist at commit `772baf8`: `git checkout 772baf8 -- src/app/prototype/page.tsx src/components/prototype public/prototype`.)
 - Each plate has a ray-cast depth map (`art/*.py` with `DEPTH=…`); a WebGL shader (`src/components/prototype/depthStage.ts`) moves a virtual camera with parallax.
 - One rule joins the scenes: light comes from a visible source. The K's doorway light contracts into the far end of the vault. The record's light travels outward, and the test site emerges from it.
 - Close-up plates (`SHOT=close`) replace extreme zooms: at the vault bay, and among the test-site markers before the rise to the full field.

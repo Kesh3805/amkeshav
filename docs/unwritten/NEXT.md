@@ -55,23 +55,30 @@ lightmaps, the env HDR and the veil HDR live in Git LFS: commit them after a reb
 
 ## Next, in order
 
-ChatGPT's 12 Nov ruling (README, "Portfolio v1"): **Chamber 001 is frozen**, it ships as the FRONTIER
-sheet's deep-dive, and v1 ships once the ten release gates pass. Gates 1–9 were run on 12 Nov.
+ChatGPT's 12 Nov rulings (README, "Portfolio v1"):
+
+- **Chamber 001 is frozen**: [`RELEASE-001.md`](RELEASE-001.md) is its record.
+- It ships as the FRONTIER sheet's deep-dive.
+- Gates 1–9 have passed.
+- `/prototype/` is retired.
+- Client projects say plainly that no source is public.
 
 1. **Release (gate 10), Keshav's call:**
-   - merge `unwritten/chamber-001` into `main` (Pages deploys from `main`, and the LFS objects go up
-     with the push)
+   - merge `unwritten/chamber-001` into `main` (Pages deploys from `main`, and the LFS objects go up with
+     the push)
    - check the deployed site: the chamber loads its LFS assets, and the preview images resolve
-   - record the release commit
-2. **Browsers not yet tested:** Firefox and Safari. Run `tests/site.spec.ts` with a Firefox project
-   once its engine is installed (`npx playwright install firefox`), and open the chamber on an Apple
-   device.
-3. **Content calls for Keshav:**
-   - GroupKart, Pax AI and QuestQR have no "where to inspect it" links
-   - `/prototype/` (the superseded Threshold/Vault/Field art-direction prototype, noindexed) is still
-     deployed; gate 10 says remove obsolete prototypes
-4. **Not reopening:** lighting, grain elsewhere, Chamber 002. The chamber reopens only for a
-   demonstrated defect.
+   - record the release commit in `RELEASE-001.md`
+   - attach the two hero-006 EXRs to the GitHub Release
+2. **After the release: Firefox and Safari smoke test** on the deployed site, covering:
+   - the homepage and its type
+   - navigation and deep links
+   - the FRONTIER chart and folio
+   - WebGL start-up and fallback
+   - keyboard use and focus return
+   - reduced motion
+
+   A critical defect found there blocks calling the release stable.
+3. **Not reopening:** lighting, grain elsewhere, Chamber 002.
 
 ## Practical notes
 

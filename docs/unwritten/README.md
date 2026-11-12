@@ -448,6 +448,19 @@ viewports; `scripts/unwritten/gates.mjs` drives the chamber on the real GPU):
 | 9 Editorial | Every route has a title, description, favicon and Open Graph tags. **Added:** preview images, the cover sheet site-wide and the hero-006 poster for the chamber. |
 | 10 Freeze | Needs Keshav: merge to `main` (Pages deploys from it), verify the deployed site, and record the release commit. |
 
+**ChatGPT's three follow-up rulings (12 Nov):**
+
+- (a) Retire `/prototype/` (the superseded art direction) from the site, keeping its history in git.
+  Done: it now 404s; `docs/direction/README.md` names the commit to restore it from.
+- (b) Client projects ship without links, provided the reader can tell what is personal, what was the
+  engagement and what is public. Done: each case page with no public links now says "None public —
+  professional work at …".
+- (c) Firefox and Safari are post-release verification on the deployed site; a critical defect there
+  still blocks calling the release stable.
+
+ChatGPT also asked that the master, its EXR, the baked assets and the measurements be kept together:
+[`RELEASE-001.md`](RELEASE-001.md).
+
 ## Build
 
 Blender 5.2, headless, seed 1102. Fetch the textures once with `python art/textures/fetch.py`.

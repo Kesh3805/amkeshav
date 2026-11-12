@@ -18,7 +18,6 @@ const routes = [
   "/writing/",
   ...slugs("writing"),
   "/about/",
-  "/prototype/",
   "/prototype/unwritten/",
   "/prototype/unwritten/frontier/",
 ];
@@ -62,6 +61,12 @@ for (const [width, height] of [[320, 720], [375, 812], [390, 844], [768, 1024], 
     expect(wide).toEqual([]);
   });
 }
+
+// Release ruling (a), 12 Nov 2026: the superseded Threshold/Vault/Field prototype is retired from the site.
+test("the retired art-direction prototype is gone", async ({ page }) => {
+  const res = await page.goto("/prototype/");
+  expect(res?.status()).toBe(404);
+});
 
 test("unknown routes get the 404 page", async ({ page }) => {
   const res = await page.goto("/nothing-here/");
