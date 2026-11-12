@@ -1,8 +1,24 @@
 # Chamber 001 — release record
 
 **Status: frozen, 12 Nov 2026** (ChatGPT's v1 ruling; see [`README.md`](README.md), "Portfolio v1"). This
-file keeps the master, the shipped assets and their measurements together, as ChatGPT asked. The
-release commit is recorded here at gate 10.
+file keeps the master, the shipped assets and their measurements together, as ChatGPT asked.
+
+## Release (gate 10, 12 Nov 2026)
+
+- **Commit:** `846cb7e`, fast-forwarded onto `main` from `unwritten/chamber-001`.
+- **Deployed:** to <https://kesh3805.github.io/amkeshav/> by the Preview workflow (run 43190602566;
+  build and deploy both succeeded).
+- **Checked live:**
+  - every primary page returns 200
+  - FRONTIER sheet → "Enter the archive" → the chamber live in 6.9 s → the folio opens
+  - `chamber.glb` is served as the real 3,170,572-byte glTF (`model/gltf-binary`), not an LFS pointer,
+    and the lightmaps are real PNGs
+  - both preview images resolve
+  - `/prototype/` returns 404
+  - no failed requests or console errors (Edge, D3D11)
+- **Outstanding:**
+  - a Firefox and Safari smoke test on the live site
+  - attaching the two EXRs to a GitHub Release
 
 ## Reopening
 
@@ -54,5 +70,4 @@ No lighting sweeps.
 | `public/unwritten/lightmaps/` (42 PNGs) | 7,614,868 | `19f9eb0666058088c3c2825d6abba09b814e1df38b18b8c460a76186bc4db980` (hash of the sorted per-file hashes) |
 
 The EXRs (48 MB) and the hero-006 PNG's gate crops live in `art/renders/unwritten/hero006/`, which is
-git-ignored. Attach the two EXRs to the v1 GitHub Release at gate 10, so the master survives this
-machine. Every other file above is in git (the baked assets through LFS).
+git-ignored. Attach the two EXRs to a v1 GitHub Release, so the master survives this machine. Every other file above is in git (the baked assets through LFS).

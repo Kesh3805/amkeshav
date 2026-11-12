@@ -63,12 +63,8 @@ ChatGPT's 12 Nov rulings (README, "Portfolio v1"):
 - `/prototype/` is retired.
 - Client projects say plainly that no source is public.
 
-1. **Release (gate 10), Keshav's call:**
-   - merge `unwritten/chamber-001` into `main` (Pages deploys from `main`, and the LFS objects go up with
-     the push)
-   - check the deployed site: the chamber loads its LFS assets, and the preview images resolve
-   - record the release commit in `RELEASE-001.md`
-   - attach the two hero-006 EXRs to the GitHub Release
+1. **Released 12 Nov:** `846cb7e` is on `main` and live at <https://kesh3805.github.io/amkeshav/> (see
+   `RELEASE-001.md`). Still to do: attach the two hero-006 EXRs to a GitHub Release.
 2. **After the release: Firefox and Safari smoke test** on the deployed site, covering:
    - the homepage and its type
    - navigation and deep links
