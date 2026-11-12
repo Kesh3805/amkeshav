@@ -56,11 +56,7 @@ docs/research/atlas/*/desktop.webm
 # CC0 texture images (fetched by art/textures/fetch.py)
 /art/textures/*/
 
-# THE UNWRITTEN: uncompressed draft GLB for local WebGL tests (ship the meshopt build instead)
-/public/unwritten/chamber.glb
-/public/unwritten/lightmaps/
-/public/unwritten/chamber-env.hdr
-/public/unwritten/chamber-veil.hdr
+# THE UNWRITTEN: the baked chamber (GLB, lightmaps, probe, veil) ships through Git LFS (.gitattributes)
 
 # cover prototype screen recordings are large; the stills carry the review
 docs/direction/covers/*/recording.webm

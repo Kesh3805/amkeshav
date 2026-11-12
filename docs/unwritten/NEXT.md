@@ -50,14 +50,15 @@ Then:
      `art/unwritten/passfit.py` for the diffuse, glossy and volume breakdown.
 
 **Rebuild the veil after every rebake:** it is a residual against that exact bake. The GLB, the
-lightmaps, the env HDR and the veil HDR are git-ignored. The bake took 42 min on the CPU on 11 Nov
+lightmaps, the env HDR and the veil HDR live in Git LFS: commit them after a rebake. The bake took 42 min on the CPU on 11 Nov
 (75 min on 4 Nov); keep the laptop on the charger.
 
 ## Next, in order
 
-1. **Ship decision:** the GLB, lightmaps, probe and veil (about 11 MB: GLB 3.1, lightmaps 7.7) have to reach production
-   (git LFS, or a release upload in CI) before the live chamber exists anywhere but locally. Meshopt
-   was measured and rejected: larger than Draco even after brotli.
+1. **Shipping: Git LFS (Keshav's call, 12 Nov).** The GLB, lightmaps, probe and veil are tracked in
+   LFS (`.gitattributes`), and the Pages workflow checks out with `lfs: true`. They reach the live site
+   once this branch is pushed and merged to `main` (Pages deploys from `main`). Free quota: 1 GB of
+   storage and 1 GB/month of bandwidth. A rebake adds about 12 MB of LFS storage.
 2. **Grain elsewhere.** Only the two leathers the Book sees carry the scan's grain. The bindings,
    walnut and stone are still one colour each. Worth it only where a stance comes close.
 3. **Relay to ChatGPT and Gemini.** The browser was signed out of chatgpt.com on 4 Nov, so the 4 and 11

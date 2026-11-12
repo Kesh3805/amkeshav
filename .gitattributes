@@ -1,0 +1,4 @@
+public/unwritten/chamber.glb filter=lfs diff=lfs merge=lfs -text
+public/unwritten/chamber-env.hdr filter=lfs diff=lfs merge=lfs -text
+public/unwritten/chamber-veil.hdr filter=lfs diff=lfs merge=lfs -text
+public/unwritten/lightmaps/*.png filter=lfs diff=lfs merge=lfs -text
