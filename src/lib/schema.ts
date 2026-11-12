@@ -22,6 +22,9 @@ export const workSchema = z.object({
   research: z.string().optional(),
   facts: z.array(z.object({ value: z.string(), label: z.string() })).default([]),
   links: z.array(z.object({ label: z.string(), href: z.string() })).default([]),
+  /** An experimental presentation of the work, linked at the end of its sheet, after the evidence
+      (ChatGPT's placement ruling, 12 Nov 2026): never a prerequisite for understanding the sheet. */
+  deepDive: z.object({ label: z.string(), href: z.string(), note: z.string() }).optional(),
   maturity: z
     .array(z.object({ name: z.string(), status: stageStatus, evidence: z.string() }))
     .default([]),

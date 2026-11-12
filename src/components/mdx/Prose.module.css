@@ -70,6 +70,7 @@
 }
 
 .prose :not(pre) > code {
+  overflow-wrap: anywhere; /* one long identifier pushed a 320 px page 50 px sideways */
   font-size: 0.84em;
   padding: 0.08em 0.3em;
   background: var(--paper-2);

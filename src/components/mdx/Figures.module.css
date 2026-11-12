@@ -84,7 +84,7 @@
 }
 
 .tlId {
-  color: var(--ink-3);
+  color: var(--ink-2); /* --ink-3 on --paper-2 was 4.41:1 at 13.8 px (WCAG AA wants 4.5) */
 }
 
 .timeline li[data-kind="replay"] .tlId {

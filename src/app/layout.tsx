@@ -27,7 +27,9 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
+  // Absolute URLs for previews (og:image). Next appends the base path, so a GitHub Pages preview build
+  // (BASE_PATH=/<repo>) passes its own origin; production on the site's domain has no base path.
+  metadataBase: new URL(process.env.SITE_ORIGIN || site.url),
   title: { default: site.title, template: "%s — Keshav" },
   description: site.description,
   openGraph: { title: site.title, description: site.description, url: site.url, siteName: "Keshav", type: "website" },

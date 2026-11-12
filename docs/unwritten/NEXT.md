@@ -1,4 +1,4 @@
-# THE UNWRITTEN — handoff (11 Nov 2026)
+# THE UNWRITTEN — handoff (12 Nov 2026)
 
 Read [`README.md`](README.md) first: every ruling from ChatGPT and Gemini is recorded there, and "The
 handoff, measured (4 Nov)" and "The Desk and the Book, measured (11 Nov)" cover the WebGL work.
@@ -55,21 +55,23 @@ lightmaps, the env HDR and the veil HDR live in Git LFS: commit them after a reb
 
 ## Next, in order
 
-1. **Shipping: Git LFS (Keshav's call, 12 Nov).** The GLB, lightmaps, probe and veil are tracked in
-   LFS (`.gitattributes`), and the Pages workflow checks out with `lfs: true`. They reach the live site
-   once this branch is pushed and merged to `main` (Pages deploys from `main`). Free quota: 1 GB of
-   storage and 1 GB/month of bandwidth. A rebake adds about 12 MB of LFS storage.
-2. **Grain elsewhere.** Only the two leathers the Book sees carry the scan's grain. The bindings,
-   walnut and stone are still one colour each. Worth it only where a stance comes close.
-3. **Relay to ChatGPT and Gemini.** The browser was signed out of chatgpt.com on 4 Nov, so the 4 and 11
-   Nov measurements are not reviewed. Relay the two README sections once signed in.
-4. **Done 11 Nov:**
-   - the sliver bake bug fixed and rebaked
-   - grey and flat flags at the pool fixed by the shared floor exposure
-   - sun gloss, probe gloss and the grazing diffuse loss added to the baked materials
-   - the air refitted at the Desk and the Book
-   - the metals lit by the real sun, masked to the oculus's column
-   - leather grain (albedo detail and normal map) on the folio and the blotter
+ChatGPT's 12 Nov ruling (README, "Portfolio v1"): **Chamber 001 is frozen**, it ships as the FRONTIER
+sheet's deep-dive, and v1 ships once the ten release gates pass. Gates 1–9 were run on 12 Nov.
+
+1. **Release (gate 10), Keshav's call:**
+   - merge `unwritten/chamber-001` into `main` (Pages deploys from `main`, and the LFS objects go up
+     with the push)
+   - check the deployed site: the chamber loads its LFS assets, and the preview images resolve
+   - record the release commit
+2. **Browsers not yet tested:** Firefox and Safari. Run `tests/site.spec.ts` with a Firefox project
+   once its engine is installed (`npx playwright install firefox`), and open the chamber on an Apple
+   device.
+3. **Content calls for Keshav:**
+   - GroupKart, Pax AI and QuestQR have no "where to inspect it" links
+   - `/prototype/` (the superseded Threshold/Vault/Field art-direction prototype, noindexed) is still
+     deployed; gate 10 says remove obsolete prototypes
+4. **Not reopening:** lighting, grain elsewhere, Chamber 002. The chamber reopens only for a
+   demonstrated defect.
 
 ## Practical notes
 

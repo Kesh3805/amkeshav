@@ -97,6 +97,9 @@ export function FolioOpener({ children }: { children: ReactNode }) {
     };
     if (seen.current) {
       seen.current = null;
+      // The hotspot stays hidden until the camera lands (2 s), so keyboard focus waits on the frame rather
+      // than falling to <body>, where a Tab would restart the page.
+      holdFocus(hotspot.current?.parentElement);
       void goToStance("threshold").then(home);
     } else home();
   }, []);
@@ -200,6 +203,13 @@ export function FolioOpener({ children }: { children: ReactNode }) {
 const from = (geo: Geo | null, seen: BookView | null): Geo | null => (geo && seen ? { ...geo, ...seen } : geo);
 
 /** The title fades while the camera is away from the Threshold (Unwritten.module.css). */
+/** Park keyboard focus on the chamber's frame (not a tab stop) while the hotspot is hidden. */
+function holdFocus(frame: HTMLElement | null | undefined) {
+  if (!frame) return;
+  frame.setAttribute("tabindex", "-1");
+  frame.focus({ preventScroll: true });
+}
+
 function markStance(frame: HTMLElement | null | undefined, on: boolean) {
   if (!frame) return;
   if (on) frame.setAttribute("data-stance", "");

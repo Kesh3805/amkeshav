@@ -22,7 +22,8 @@ function Pre({ children, ...rest }: { children?: ReactNode }) {
 const components: MDXComponents = {
   pre: Pre,
   table: (p) => (
-    <div className={s.tableWrap}>
+    // A wide table scrolls sideways on phones, so the region takes keyboard focus to scroll it.
+    <div className={s.tableWrap} tabIndex={0} role="region" aria-label="Table">
       <table {...p} />
     </div>
   ),

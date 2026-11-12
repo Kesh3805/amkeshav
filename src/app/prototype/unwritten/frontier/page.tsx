@@ -14,12 +14,14 @@ export default function FrontierFolioPage() {
   return (
     <>
       <style>{`header[data-header],body>footer{display:none!important}`}</style>
-      <main className={s.flatStage}>
+      {/* A div: the layout already wraps every page in <main id="main">. */}
+      <div className={s.flatStage}>
+        <h1 className="sr-only">FRONTIER, exp-009: the folio, read flat</h1>
         <Link className={s.close} href="/prototype/unwritten/">
           The chamber
         </Link>
         <FrontierFolio />
-      </main>
+      </div>
     </>
   );
 }

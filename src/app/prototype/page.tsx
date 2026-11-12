@@ -12,6 +12,7 @@ export default function PrototypePage() {
     <>
       {/* The prototype is full-bleed; the site chrome would sit on top of the scenes. */}
       <style>{`header[data-header]{display:none}`}</style>
+      <h1 className="sr-only">Art-direction prototype: Threshold, Vault and Field</h1>
       <Prototype />
     </>
   );

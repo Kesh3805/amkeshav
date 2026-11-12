@@ -417,6 +417,37 @@ and volume passes, and `art/unwritten/passfit.py` sets them against the web fram
   frame from screen derivatives, at chamber.py's Normal Map strength. Book 6.2 codes, Desk 5.5,
   Threshold 5.3.
 
+### Portfolio v1: ChatGPT's release ruling (12 Nov)
+
+Claude relayed the 4 and 11 Nov measurements. ChatGPT's ruling:
+
+- **Chamber 001 is complete as a prototype: frozen.** It reopens only for a demonstrated defect: a
+  measured region outside 7 codes, a broken browser or device, a failed camera track or folio
+  transition, or a failed fallback. No more lighting sweeps. "5.3 is not proof of physical equivalence
+  between Cycles and WebGL. It is evidence of strong display-referred agreement."
+- **Placement: the FRONTIER sheet's deep-dive.** The Drawing Set homepage stays. A labelled "Enter the
+  archive →" sits at the end of `/work/frontier/`, after the evidence, with the URL kept at
+  `/prototype/unwritten/`. The folio must stay readable without WebGL.
+- **Portfolio v1 is done when ten release gates pass**, then the release is frozen: content, claim
+  integrity, chamber integration, responsive, performance, accessibility, browsers and deploy, privacy,
+  editorial, freeze. "Do not make the portfolio wait for Chamber 002."
+
+**The gates, run 12 Nov** (`tests/site.spec.ts` now covers every route generated from `content/`, at six
+viewports; `scripts/unwritten/gates.mjs` drives the chamber on the real GPU):
+
+| Gate | Result |
+|---|---|
+| 1 Content | The primary projects (GST, ReviewGraph, Temporal Compute) each give the problem, the mechanism, what was shown, its limits and the source. GroupKart, Pax AI and QuestQR have no links (client work): Keshav's call. |
+| 2 Claims | Every 92.9 % is labelled modelled, beside 6.4 % measured; 120.5 ms + 0.05 ms everywhere. |
+| 3 Chamber | Desktop with WebGL, without WebGL, the phone and reduced motion all reach the full folio (dialog by keyboard; flat page on the phone). A deep link to the flat folio survives a refresh. **Fixed:** focus fell to `<body>` for 2 s after closing the 3D folio; it now waits on the frame, then returns to the book. |
+| 4 Responsive | No route scrolls sideways at 320×720, 375×812, 390×844, 768×1024, 1440×900 or 1920×1080. **Fixed:** one essay's long inline identifier pushed 320 px wide by 50 px. |
+| 5 Performance | 60 s live with three Book round trips: the folio opens in about 3 s each time, the heap holds at 41 MB, and there are no errors or failed requests. 33–43 fps (11 Nov). |
+| 6 Accessibility | axe (WCAG 2.1 AA) is clean on every route, in both projects. **Fixed:** a timeline numeral at 4.41:1 contrast; a sideways-scrolling table that keyboard users could not reach; a missing h1 on the flat folio and on `/prototype/`; a second `<main>` nested in the flat folio page. |
+| 7 Deploy | A clean clone (LFS pulled, offline install) typechecks and builds with the Pages base path. Served like Pages, the sheet links to the archive, the chamber goes live in 2.8 s, and the folio, deep links and 404 work with no failed request. **Fixed:** preview-image URLs joined the production domain to the Pages base path; the workflow now passes `SITE_ORIGIN`. **Not run:** Firefox and Safari (no engine installed here). |
+| 8 Privacy | No route contacts a third-party host, and no cookies are set; this matches the footer's "No cookies, no analytics." |
+| 9 Editorial | Every route has a title, description, favicon and Open Graph tags. **Added:** preview images, the cover sheet site-wide and the hero-006 poster for the chamber. |
+| 10 Freeze | Needs Keshav: merge to `main` (Pages deploys from it), verify the deployed site, and record the release commit. |
+
 ## Build
 
 Blender 5.2, headless, seed 1102. Fetch the textures once with `python art/textures/fetch.py`.

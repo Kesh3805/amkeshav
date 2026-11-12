@@ -97,6 +97,15 @@ export default async function CaseStudy({ params }: PageProps<"/work/[slug]">) {
           <div className={s.maturity}>
             <Maturity stages={w.maturity} />
           </div>
+          {w.deepDive && (
+            <aside className={s.deepDive} aria-label="Experimental deep-dive">
+              <span className="label">Deep-dive</span>
+              <Link href={w.deepDive.href} className={s.deepDiveLink}>
+                {w.deepDive.label} <span aria-hidden>→</span>
+              </Link>
+              <p className={s.deepDiveNote}>{w.deepDive.note}</p>
+            </aside>
+          )}
         </div>
       </div>
 
