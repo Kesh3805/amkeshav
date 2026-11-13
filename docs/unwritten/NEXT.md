@@ -65,11 +65,24 @@ in [`../homepage/BRIEF.md`](../homepage/BRIEF.md) and now built (`src/components
 - **Motion:** exactly the four allowed details.
 
 Chamber 001 is untouched and frozen; the 31 Oct homepage components are deleted (they are in git
-history). Still to do from the brief:
+history). The homepage went live on 12 Nov (`a524b93`). On 13 Nov **amkeshav.me moved here** from
+`keshav-portfolio`'s Pages settings; the site now builds for the domain's root (`7986454`), and
+`kesh3805.github.io/amkeshav/` redirects to it. `https://www.amkeshav.me` still fails its certificate check (it
+did before the move too); the fix is at the registrar: point `www` with a CNAME at `kesh3805.github.io`.
 
-- **§G, the case-study consistency pass:** the homepage's tokens, type and grid across the other pages,
-  whose header and footer are still the 31 Oct paper style.
-- **Deploying:** merge to `main` once Keshav approves the page.
+**§G, the consistency pass (13 Nov):** every page now shares the folio:
+
+- **Shared system:** the tokens, type scale and 12/8/4 grid live in `src/app/globals.css`.
+- **Header and footer:** one sticky header (the current page carries the accent mark) and one footer,
+  the homepage included.
+- **Page opener:** `PageHead` sets the title and intro on the grid.
+- **Indexes:** the work index is a ruled register grouped by kind; the writing index is the homepage's
+  essay list at full length.
+- **Case studies:** each project's drawing sits on paper in a hairline, then its figures, then the stack
+  in the margin beside the text.
+- **Research:** each program is a folio section, keeping every field of every experiment.
+- **Dark theme:** kept, retuned to the folio, and now axe-tested on every template.
+- **Retired:** Anybody is gone; Newsreader survives only in the nomogram and the archived chamber.
 
 ## Next, in order
 

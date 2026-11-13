@@ -32,23 +32,23 @@
 }
 
 .mono {
-  font-family: var(--font-mono);
+  font-family: var(--mono);
   font-size: 19px;
   letter-spacing: 0.06em;
   fill: currentColor;
 }
 
 .big {
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-size: 92px;
-  font-variation-settings: "wdth" 80;
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 72px;
+  letter-spacing: -0.01em;
   fill: currentColor;
 }
 
 .huge {
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-size: 330px;
-  font-variation-settings: "wdth" 70;
+  font-family: var(--sans);
+  font-weight: 400;
+  font-size: 300px;
+  letter-spacing: -0.03em;
 }

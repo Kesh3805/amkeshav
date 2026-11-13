@@ -29,10 +29,7 @@ export function ThemeToggle() {
         } catch {}
       }}
     >
-      <span className={s.toggleTrack} data-theme={theme} aria-hidden>
-        <span className={s.toggleKnob} />
-      </span>
-      <span className={s.toggleText}>{theme === "dark" ? "Ink" : "Paper"}</span>
+      {theme === "dark" ? "Light" : "Dark"}
     </button>
   );
 }

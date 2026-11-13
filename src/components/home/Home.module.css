@@ -1,109 +1,19 @@
-/* The homepage as an engineering folio (docs/homepage/BRIEF.md). Technical paper, one ink, one signal colour;
-   Plex Sans for the voice, JetBrains Mono for annotation; a 12-column grid. */
+/* The homepage as an engineering folio (docs/homepage/BRIEF.md). Tokens, type and the grid live in
+   globals.css, shared with every page. */
 
 .home {
-  --ground: #f3f3ee;
-  --ink: #191d1b;
-  --muted: #676c66; /* the brief's #70756F is 4.3:1 on the ground; WCAG AA needs 4.5 */
-  --rule: #d5d7d0;
-  --accent: #315d8a;
-  --sans: var(--font-plex), "IBM Plex Sans", system-ui, sans-serif;
-  --mono: var(--font-jetbrains), ui-monospace, monospace;
-  --margin: 48px;
-  --gutter: 20px;
-
-  background: var(--ground);
-  color: var(--ink);
-  font-family: var(--sans);
-  font-size: 16px;
+  font-size: var(--t-body);
   line-height: 1.6;
-}
-
-.home a {
-  color: inherit;
-}
-
-.home a:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
-
-.wrap {
-  max-width: calc(1344px + 2 * var(--margin));
-  margin: 0 auto;
-  padding: 0 var(--margin);
-  box-sizing: border-box;
 }
 
 .mono {
   margin: 0;
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: var(--t-mono);
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--muted);
-}
-
-/* ---------------------------------------------------------------- header */
-
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  background: color-mix(in srgb, var(--ground) 94%, transparent);
-  backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--rule);
-}
-
-.headerInner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 72px;
-  max-width: calc(1344px + 2 * var(--margin));
-  margin: 0 auto;
-  padding: 0 var(--margin);
-  box-sizing: border-box;
-}
-
-.mark {
-  font-weight: 600;
-  font-size: 17px;
-  letter-spacing: 0.01em;
-  text-decoration: none;
-}
-
-.nav {
-  display: flex;
-  gap: 28px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.nav a {
-  position: relative;
-  font-size: 14px;
-  text-decoration: none;
-  color: var(--muted);
-  transition: color 160ms ease;
-}
-
-.nav a:hover,
-.nav a[data-current] {
-  color: var(--ink);
-}
-
-/* Navigation state: a small accent mark under the section in view. */
-.nav a[data-current]::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: -6px;
-  height: 2px;
-  background: var(--accent);
+  color: var(--ink-3);
 }
 
 /* ---------------------------------------------------------------- hero */
@@ -111,7 +21,7 @@
 .hero {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  column-gap: var(--gutter);
+  column-gap: var(--gap);
   align-items: end;
   padding-top: 72px;
   padding-bottom: 64px;
@@ -175,7 +85,7 @@
 
 .register + .register .modeWord {
   font-style: italic;
-  color: var(--muted);
+  color: var(--ink-3);
 }
 
 .index {
@@ -198,8 +108,8 @@
 }
 
 .index a:hover {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
+  color: var(--signal);
+  border-bottom-color: var(--signal);
 }
 
 /* ---------------------------------------------------------------- sections */
@@ -238,8 +148,8 @@
 }
 
 .more a:hover {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
+  color: var(--signal);
+  border-bottom-color: var(--signal);
 }
 
 /* Reveal (HomeMotion): only sections below the fold at load ever start hidden. */
@@ -259,7 +169,7 @@
 .projects {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 64px var(--gutter);
+  gap: 64px var(--gap);
 }
 
 .projectLink {
@@ -281,15 +191,11 @@
   max-width: 34em;
   font-size: 14px;
   line-height: 1.5;
-  color: var(--muted);
+  color: var(--ink-3);
 }
 
 /* The drawing sits on the paper itself, inside one hairline: no card, no rounded corners. */
 .drawing {
-  --plate: var(--ground);
-  --plate-ink: var(--ink);
-  --signal: var(--accent);
-
   margin-top: 14px;
   aspect-ratio: 16 / 10;
   border: 1px solid var(--rule);
@@ -312,12 +218,12 @@
 
 /* Hover: the title takes the accent, the drawing shifts 2 px, the arrow moves. Nothing scales. */
 .projectLink:hover .projectTitle {
-  color: var(--accent);
+  color: var(--signal);
 }
 
 .projectLink:hover .drawing {
   translate: 0 -2px;
-  border-color: color-mix(in srgb, var(--accent) 45%, var(--rule));
+  border-color: color-mix(in srgb, var(--signal) 45%, var(--rule));
 }
 
 .projectLink:hover .arrow,
@@ -330,7 +236,7 @@
 .research {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  column-gap: var(--gutter);
+  column-gap: var(--gap);
 }
 
 .featured {
@@ -346,6 +252,9 @@
   --vellum-deep: #ddd2bf;
   --brass: #ac8960;
   --brass-ink: #6f5434;
+  --abyss: #273b43;
+  --oxide: #874b43;
+  --ink-soft: color-mix(in srgb, var(--ink) 74%, transparent);
   --serif: var(--font-newsreader), Georgia, serif;
 
   margin-top: 14px;
@@ -353,11 +262,18 @@
   border: 1px solid var(--rule);
 }
 
+/* The instrument's brass and abyss, lifted for the dark ground. */
+:global(:root[data-theme="dark"]) .nomogram {
+  --brass-ink: #c8a57a;
+  --abyss: #8fb3da;
+  --oxide: #d58a7f;
+}
+
 .caption {
   margin: 16px 0 0;
   font-size: 13px;
   line-height: 1.5;
-  color: var(--muted);
+  color: var(--ink-3);
 }
 
 .links {
@@ -376,8 +292,8 @@
 }
 
 .links a:hover {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
+  color: var(--signal);
+  border-bottom-color: var(--signal);
 }
 
 .log {
@@ -413,7 +329,7 @@
 }
 
 .questionLink:hover .question {
-  color: var(--accent);
+  color: var(--signal);
 }
 
 .entries li {
@@ -432,7 +348,7 @@
 
 .entryProgram {
   font-size: 12px;
-  color: var(--muted);
+  color: var(--ink-3);
 }
 
 /* Verdicts as the log records them, in words; refuted takes the accent. */
@@ -441,11 +357,11 @@
   font-size: 10px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--ink-3);
 }
 
 .verdict[data-verdict="refuted"] {
-  color: var(--accent);
+  color: var(--signal);
 }
 
 /* ---------------------------------------------------------------- writing */
@@ -464,7 +380,7 @@
 .essay {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  column-gap: var(--gutter);
+  column-gap: var(--gap);
   align-items: baseline;
   padding: 22px 0;
   text-decoration: none;
@@ -482,7 +398,7 @@
   grid-column: 5 / span 5;
   font-size: 14px;
   line-height: 1.5;
-  color: var(--muted);
+  color: var(--ink-3);
 }
 
 .essay time {
@@ -496,66 +412,12 @@
 }
 
 .essay:hover .essayTitle {
-  color: var(--accent);
-}
-
-/* ---------------------------------------------------------------- footer */
-
-.footer {
-  display: grid;
-  grid-template-columns: repeat(12, minmax(0, 1fr));
-  column-gap: var(--gutter);
-  align-items: baseline;
-  margin-top: 136px;
-  padding-top: 28px;
-  padding-bottom: 56px;
-  border-top: 1px solid var(--ink);
-}
-
-.footName {
-  grid-column: 1 / span 3;
-  margin: 0;
-  font-weight: 600;
-}
-
-.contact {
-  grid-column: 4 / span 6;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 24px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-size: 14px;
-}
-
-.contact a {
-  overflow-wrap: anywhere;
-  text-decoration: none;
-  border-bottom: 1px solid var(--rule);
-}
-
-.contact a:hover {
-  color: var(--accent);
-  border-bottom-color: var(--accent);
-}
-
-.colophon {
-  grid-column: 10 / span 3;
-  margin: 0;
-  font-size: 12px;
-  color: var(--muted);
-  text-align: right;
+  color: var(--signal);
 }
 
 /* ---------------------------------------------------------------- tablet: 8 columns */
 
 @media (max-width: 1100px) {
-  .home {
-    --margin: 32px;
-    --gutter: 16px;
-  }
-
   .statement {
     grid-column: 1 / -1;
     font-size: 52px;
@@ -592,48 +454,11 @@
   .essay .arrow {
     grid-row: 1;
   }
-
-  .footName,
-  .contact,
-  .colophon {
-    grid-column: 1 / -1;
-    text-align: left;
-  }
-
-  .contact {
-    margin-top: 12px;
-  }
-
-  .colophon {
-    margin-top: 20px;
-  }
 }
 
 /* ---------------------------------------------------------------- phone: 4 columns, designed on its own */
 
 @media (max-width: 720px) {
-  .home {
-    --margin: 20px;
-    --gutter: 12px;
-    font-size: 15px;
-  }
-
-  .mono {
-    font-size: 10px;
-  }
-
-  .headerInner {
-    height: 60px;
-  }
-
-  .nav {
-    gap: 16px;
-  }
-
-  .nav a {
-    font-size: 13px;
-  }
-
   .hero {
     grid-template-columns: repeat(4, minmax(0, 1fr));
     min-height: 0;
@@ -724,9 +549,5 @@
   .essay .arrow {
     grid-column: 2;
     grid-row: 1;
-  }
-
-  .footer {
-    margin-top: 88px;
   }
 }

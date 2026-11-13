@@ -74,13 +74,15 @@ export default async function CaseStudy({ params }: PageProps<"/work/[slug]">) {
       </PageHead>
 
       {Plate && (
-        <div className={s.plate}>
-          <Plate />
+        <div className="wrap">
+          <div className={s.plate}>
+            <Plate />
+          </div>
         </div>
       )}
 
       {w.facts.length > 0 && (
-        <ul className={s.facts} aria-label="Key figures">
+        <ul className={`wrap ${s.facts}`} aria-label="Key figures">
           {w.facts.map((f) => (
             <li key={f.label}>
               <span className={s.factValue}>{f.value}</span>
@@ -90,7 +92,7 @@ export default async function CaseStudy({ params }: PageProps<"/work/[slug]">) {
         </ul>
       )}
 
-      <div className={s.body}>
+      <div className={`wrap ${s.body}`}>
         <aside className={s.aside}>
           <span className="label">Stack</span>
           <ul>
@@ -99,7 +101,7 @@ export default async function CaseStudy({ params }: PageProps<"/work/[slug]">) {
             ))}
           </ul>
         </aside>
-        <div>
+        <div className={s.main}>
           <Mdx source={w.body} />
           <div className={s.maturity}>
             <Maturity stages={w.maturity} />
@@ -116,10 +118,16 @@ export default async function CaseStudy({ params }: PageProps<"/work/[slug]">) {
         </div>
       </div>
 
-      <nav className={s.next} aria-label="Next case study">
-        <span className="label">Next</span>
-        <Link href={`/work/${next.slug}`} className={s.nextLink}>
-          {next.short} <span aria-hidden>→</span>
+      <nav className={`wrap ${s.next}`} aria-label="Next case study">
+        <Link href={`/work/${next.slug}/`} className={s.nextLink}>
+          <span className="label">Next case study · {kind[next.kind]}</span>
+          <span className={s.nextTitle}>
+            {next.short} <span className={s.arrow} aria-hidden>→</span>
+          </span>
+          <span className={s.nextSummary}>{next.summary}</span>
+        </Link>
+        <Link href="/work/" className="link">
+          All work
         </Link>
       </nav>
     </article>

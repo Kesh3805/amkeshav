@@ -55,7 +55,7 @@ export default function ResearchPage() {
           Two programs. I write down what an experiment is supposed to show before it runs, and the result stays here
           whichever way it goes.
         </p>
-        <p className="mono" style={{ color: "var(--ink-2)" }}>
+        <p className="mono">
           {Object.entries(tally)
             .map(([k, n]) => `${n} ${verdictWord[k as Verdict].toLowerCase()}`)
             .join(" · ")}
@@ -63,25 +63,31 @@ export default function ResearchPage() {
       </PageHead>
 
       {programs.map((p) => (
-        <section key={p.slug} id={p.slug} className={s.program} aria-labelledby={`${p.slug}-t`}>
-          <div className={s.programHead}>
-            <span className="label">{p.program}</span>
-            <h2 id={`${p.slug}-t`} className={s.programTitle}>
+        <section key={p.slug} id={p.slug} className={`wrap ${s.program}`} aria-labelledby={`${p.slug}-t`}>
+          <header className="section-head">
+            <h2 id={`${p.slug}-t`} className="section-title">
               {p.title}
             </h2>
+            <p className="label">
+              {p.program} · {p.experiments.length} entries
+            </p>
+          </header>
+          <div className={s.programHead}>
             <p className={s.question}>{p.question}</p>
-            <p className={s.summary}>{p.summary}</p>
-            <p className={s.state}>
-              <span className="label">State</span> {p.maturity}
-            </p>
-            <p className={s.links}>
-              <a href={p.repository} className="link">
-                Source on GitHub ↗
-              </a>
-              <Link href={`/work/${p.slug}`} className="link">
-                Case study
-              </Link>
-            </p>
+            <div className={s.about}>
+              <p className={s.summary}>{p.summary}</p>
+              <p className={s.state}>
+                <span className="label">State</span> {p.maturity}
+              </p>
+              <p className={s.links}>
+                <a href={p.repository} className="link">
+                  Source on GitHub ↗
+                </a>
+                <Link href={`/work/${p.slug}/`} className="link">
+                  Case study
+                </Link>
+              </p>
+            </div>
           </div>
 
           <ol className={s.ledger}>

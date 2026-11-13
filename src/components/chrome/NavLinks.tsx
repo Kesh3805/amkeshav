@@ -12,7 +12,13 @@ export function NavLinks({ items }: { items: readonly { label: string; href: str
         const active = pathname === item.href || pathname.startsWith(`${item.href}/`);
         return (
           <li key={item.href}>
-            <Link href={item.href} className={s.link} aria-current={active ? "page" : undefined}>
+            {/* data-nav lets the homepage mark the section in view (HomeMotion). */}
+            <Link
+              href={`${item.href}/`}
+              className={s.link}
+              data-nav={item.href.slice(1)}
+              aria-current={active ? "page" : undefined}
+            >
               {item.label}
             </Link>
           </li>

@@ -1,9 +1,14 @@
+/* A case study in the folio's terms: opener, the project's drawing, its figures, then method, results and
+   limits on the 12-column grid, with the stack in the margin. */
+
 .meta {
   margin: 0;
   display: grid;
   gap: 16px;
-  font-size: 1rem;
-  line-height: 1.45;
+  font-size: var(--t-small);
+  line-height: 1.5;
+  padding-top: 14px;
+  border-top: 1px solid var(--ink);
 }
 
 .meta div {
@@ -11,27 +16,26 @@
   gap: 4px;
 }
 
-.meta dt {
-  color: var(--ink-2);
-}
-
 .meta dd {
   margin: 0;
+  color: var(--ink);
 }
 
 .links {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  align-items: flex-start;
+  gap: 6px;
 }
 
+/* State marks carry the tone by shape, not colour. */
 .tone {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   margin-right: 6px;
   background: var(--ink);
-  border: 1.5px solid var(--ink);
+  border: 1px solid var(--ink);
 }
 .tone[data-tone="partial"] {
   background: linear-gradient(90deg, var(--ink) 50%, transparent 50%);
@@ -40,133 +44,188 @@
   background: repeating-linear-gradient(135deg, var(--ink) 0 1px, transparent 1px 3px);
 }
 
+/* The drawing sits on the paper inside one hairline, as on the homepage. */
 .plate {
   aspect-ratio: 16 / 9;
-  max-height: 86svh;
+  max-height: 78svh;
   width: 100%;
   overflow: hidden;
+  border: 1px solid var(--rule);
 }
 
 .facts {
   list-style: none;
-  margin: 0;
-  padding: clamp(28px, 5vh, 48px) var(--gutter);
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  gap: 24px;
-  border-bottom: 1px solid var(--rule);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  column-gap: var(--gap);
+  row-gap: 28px;
+  padding-top: 40px;
 }
 
 .facts li {
   display: grid;
-  gap: 8px;
+  gap: 10px;
   align-content: start;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule);
 }
 
 .factValue {
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-size: clamp(2rem, 4.4vw, 4rem);
-  line-height: 0.85;
-  font-variation-settings: "wdth" 70;
+  font-size: 32px;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums;
 }
 
 .factLabel {
-  font-family: var(--font-mono);
-  font-size: var(--step--1);
+  font-size: 13px;
+  line-height: 1.45;
   color: var(--ink-2);
   max-width: 18rem;
 }
 
 .body {
   display: grid;
-  grid-template-columns: minmax(10rem, 3fr) minmax(0, 9fr);
-  gap: 48px;
-  padding: clamp(40px, 8vh, 88px) var(--gutter);
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--gap);
+  padding-top: 96px;
 }
 
 .aside {
+  grid-column: 1 / span 3;
   position: sticky;
-  top: 90px;
+  top: calc(var(--header) + 24px);
   align-self: start;
   display: grid;
-  gap: 10px;
-  color: var(--ink-2);
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--ink);
 }
 
 .aside ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  font-family: var(--font-mono);
-  font-size: var(--step--1);
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ink-2);
   display: grid;
   gap: 4px;
 }
 
+.main {
+  grid-column: 5 / span 8;
+  min-width: 0;
+}
+
 .maturity {
-  max-width: 52rem;
+  max-width: 46rem;
 }
 
 .deepDive {
-  max-width: 52rem;
+  max-width: 46rem;
   display: grid;
   gap: 8px;
-  margin-top: clamp(32px, 6vh, 56px);
-  padding-top: 20px;
-  border-top: 1px solid var(--rule);
+  margin-top: 56px;
+  padding-top: 14px;
+  border-top: 1px solid var(--ink);
 }
 
 .deepDiveLink {
-  font-family: var(--font-display);
-  font-size: var(--step-2);
-  color: var(--ink);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
+  font-size: var(--t-title);
+  line-height: 1.25;
+  font-weight: 500;
+  text-decoration: none;
   width: fit-content;
+  transition: color 160ms ease;
+}
+
+.deepDiveLink:hover {
+  color: var(--signal);
 }
 
 .deepDiveNote {
   margin: 0;
+  font-size: var(--t-small);
   color: var(--ink-2);
-  font-style: italic;
 }
 
 .next {
   display: grid;
-  gap: 10px;
-  padding: clamp(40px, 8vh, 80px) var(--gutter);
-  border-top: 1px solid var(--rule);
-  color: var(--ink-2);
+  gap: 20px;
+  justify-items: start;
+  margin-top: 120px;
 }
 
 .nextLink {
-  font-family: var(--font-display);
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: clamp(2.4rem, 8vw, 8rem);
-  line-height: 0.8;
-  color: var(--ink);
+  display: grid;
+  gap: 10px;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid var(--ink);
   text-decoration: none;
-  font-variation-settings: "wdth" 60;
-  transition: font-variation-settings 0.7s var(--ease-out);
 }
 
-.nextLink:hover,
-.nextLink:focus-visible {
-  font-variation-settings: "wdth" 120;
+.nextTitle {
+  font-size: var(--t-section);
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  transition: color 160ms ease;
 }
 
-@media (max-width: 900px) {
-  .body {
-    grid-template-columns: 1fr;
+.nextSummary {
+  max-width: 40rem;
+  font-size: var(--t-small);
+  color: var(--ink-2);
+}
+
+.arrow {
+  display: inline-block;
+  transition: translate 200ms ease;
+}
+
+.nextLink:hover .nextTitle {
+  color: var(--signal);
+}
+
+.nextLink:hover .arrow {
+  translate: 4px 0;
+}
+
+@media (max-width: 1100px) {
+  .facts {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .aside {
+    grid-column: 1 / -1;
     position: static;
+    margin-bottom: 48px;
   }
   .aside ul {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px 14px;
+    gap: 4px 16px;
+  }
+  .main {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 720px) {
+  .facts {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .factValue {
+    font-size: 27px;
+  }
+  .body {
+    padding-top: 64px;
+  }
+  .next {
+    margin-top: 88px;
   }
 }

@@ -26,25 +26,42 @@ export default async function Post({ params }: PageProps<"/writing/[slug]">) {
   const others = getWriting().filter((p) => p.slug !== slug).slice(0, 3);
 
   return (
-    <article className={s.post}>
+    <article className={`wrap ${s.post}`}>
       <header className={s.head}>
         <div className={s.top}>
-          <Link href="/writing" className="label link">
+          <Link href="/writing/" className="label link">
             ← Writing
           </Link>
           <span className="label">{post.tags.join(" · ")}</span>
         </div>
         <h1 className={s.title}>{post.title}</h1>
         <p className={s.dek}>{post.description}</p>
-        <p className={s.meta}>
-          <time dateTime={post.publishedAt.toISOString()}>{fmt.format(post.publishedAt)}</time>
-          {post.updatedAt && <span>Updated {fmt.format(post.updatedAt)}</span>}
-          <span>{post.minutes} min read</span>
-        </p>
       </header>
 
-      <div className={s.body}>
-        <Mdx source={post.body} />
+      <div className={s.layout}>
+        <aside className={s.aside} aria-label="About this essay">
+          <dl className={s.meta}>
+            <div>
+              <dt className="label">Published</dt>
+              <dd>
+                <time dateTime={post.publishedAt.toISOString()}>{fmt.format(post.publishedAt)}</time>
+              </dd>
+            </div>
+            {post.updatedAt && (
+              <div>
+                <dt className="label">Updated</dt>
+                <dd>{fmt.format(post.updatedAt)}</dd>
+              </div>
+            )}
+            <div>
+              <dt className="label">Reading</dt>
+              <dd>{post.minutes} min</dd>
+            </div>
+          </dl>
+        </aside>
+        <div className={s.body}>
+          <Mdx source={post.body} />
+        </div>
       </div>
 
       <footer className={s.foot}>
@@ -52,8 +69,8 @@ export default async function Post({ params }: PageProps<"/writing/[slug]">) {
           <div>
             <span className="label">From the work</span>
             {related.map((w) => (
-              <Link key={w.slug} href={`/work/${w.slug}`} className={s.footLink}>
-                {w.title} →
+              <Link key={w.slug} href={`/work/${w.slug}/`} className={s.footLink}>
+                {w.title} <span aria-hidden>→</span>
               </Link>
             ))}
           </div>
@@ -61,7 +78,7 @@ export default async function Post({ params }: PageProps<"/writing/[slug]">) {
         <div>
           <span className="label">More writing</span>
           {others.map((p) => (
-            <Link key={p.slug} href={`/writing/${p.slug}`} className={s.footLink}>
+            <Link key={p.slug} href={`/writing/${p.slug}/`} className={s.footLink}>
               {p.title}
             </Link>
           ))}

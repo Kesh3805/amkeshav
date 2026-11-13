@@ -38,6 +38,33 @@ for (const route of routes) {
   });
 }
 
+// The folio's dark theme must hold WCAG AA too: one page of every template.
+test.describe("dark theme", () => {
+  test.use({ colorScheme: "dark" });
+  // /research/ is the longest page; axe on it can pass 30 s when the whole suite runs in parallel.
+  test.describe.configure({ timeout: 90_000 });
+  for (const route of ["/", "/work/", "/work/frontier/", "/research/", "/writing/", "/writing/gst-returns-read-model/", "/about/"]) {
+    test(`${route} has no axe violations in the dark theme`, async ({ page }) => {
+      await page.goto(route, { waitUntil: "networkidle" });
+      expect(await page.evaluate(() => document.documentElement.dataset.theme)).toBe("dark");
+      const axe = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze();
+      expect(axe.violations.map((v) => `${v.id}: ${v.nodes.length}`)).toEqual([]);
+    });
+  }
+});
+
+// docs/homepage/BRIEF.md §G: one standard header and footer on every page, the homepage included.
+test("every page shares the folio header and footer", async ({ page }) => {
+  for (const route of ["/", "/work/", "/work/loams/", "/research/", "/writing/", "/about/"]) {
+    await page.goto(route, { waitUntil: "networkidle" });
+    await expect(page.locator("header[data-header]"), route).toBeVisible();
+    await expect(page.locator('header[data-header] nav[aria-label="Primary"] a'), route).toHaveCount(4);
+    await expect(page.locator("body > footer a[href^='mailto:']"), route).toBeVisible();
+  }
+  await page.goto("/research/", { waitUntil: "networkidle" });
+  await expect(page.locator('header[data-header] a[aria-current="page"]')).toHaveText("Research");
+});
+
 test("no page scrolls sideways", async ({ page }) => {
   test.setTimeout(240_000);
   for (const route of routes) {

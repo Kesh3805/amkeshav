@@ -4,44 +4,28 @@ import s from "./WritingIndex.module.css";
 
 const fmt = new Intl.DateTimeFormat("en-GB", { month: "short", year: "numeric", timeZone: "UTC" });
 
-export function WritingIndex({ posts, heading = true }: { posts: WritingEntry[]; heading?: boolean }) {
+/* Every essay as a ruled list of title, description and date, the homepage's register at full length. */
+export function WritingIndex({ posts }: { posts: WritingEntry[] }) {
   return (
-    <section className={s.section} aria-labelledby={heading ? "writing-title" : undefined}>
-      {heading && (
-        <>
-          <div className={s.top}>
-            <span className="label">05 — Writing</span>
-            <Link href="/writing" className="label link">
-              All writing →
-            </Link>
-          </div>
-          <div className={s.head}>
-            <h2 id="writing-title" className={s.title}>
-              Notes from the parts that broke.
-            </h2>
-            <p className={s.dek}>
-              Incident write-ups and design notes. More than one of these failures returned HTTP 200. The code is
-              written for each post; none of it is an employer&apos;s source.
-            </p>
-          </div>
-        </>
-      )}
+    <div className="wrap">
       <ol className={s.list}>
         {posts.map((p, i) => (
           <li key={p.slug}>
-            <Link href={`/writing/${p.slug}`} className={s.item}>
-              <span className={s.num}>{String(i + 1).padStart(2, "0")}</span>
-              <span className={s.postTitle}>{p.title}</span>
+            <Link href={`/writing/${p.slug}/`} className={s.item}>
+              <span className={`label ${s.num}`}>{String(i + 1).padStart(2, "0")}</span>
+              <span className={s.title}>{p.title}</span>
               <span className={s.desc}>{p.description}</span>
-              <span className={s.meta}>
-                <time dateTime={p.publishedAt.toISOString()}>{fmt.format(p.publishedAt)}</time>
-                <span>{p.minutes} min</span>
-                <span>{p.tags.slice(0, 2).join(" · ")}</span>
+              <span className={`label ${s.meta}`}>
+                <time dateTime={p.publishedAt.toISOString()}>{fmt.format(p.publishedAt)}</time> · {p.minutes} min
+                <span className={s.tags}>{p.tags.slice(0, 2).join(" · ")}</span>
+              </span>
+              <span className={s.arrow} aria-hidden>
+                →
               </span>
             </Link>
           </li>
         ))}
       </ol>
-    </section>
+    </div>
   );
 }

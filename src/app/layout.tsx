@@ -1,17 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Anybody, IBM_Plex_Sans, JetBrains_Mono, Newsreader } from "next/font/google";
+import { IBM_Plex_Sans, JetBrains_Mono, Newsreader } from "next/font/google";
 import { Footer } from "@/components/chrome/Footer";
 import { Header } from "@/components/chrome/Header";
 import { site } from "@/lib/site";
 import "./globals.css";
 
-const anybody = Anybody({
-  variable: "--font-anybody",
-  subsets: ["latin"],
-  axes: ["wdth"],
-  display: "swap",
-});
-
+// Newsreader survives only inside the exp-009 nomogram and the archived chamber's folio.
 const newsreader = Newsreader({
   variable: "--font-newsreader",
   subsets: ["latin"],
@@ -20,7 +14,7 @@ const newsreader = Newsreader({
   display: "swap",
 });
 
-// The homepage's engineering-folio type (ChatGPT's brief, 12 Nov 2026): Plex Sans with JetBrains Mono.
+// The engineering folio's type (docs/homepage/BRIEF.md): Plex Sans for the voice, JetBrains Mono for annotation.
 const plex = IBM_Plex_Sans({
   variable: "--font-plex",
   subsets: ["latin"],
@@ -46,8 +40,8 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ecebe4" },
-    { media: "(prefers-color-scheme: dark)", color: "#0e0e0d" },
+    { media: "(prefers-color-scheme: light)", color: "#f3f3ee" },
+    { media: "(prefers-color-scheme: dark)", color: "#141614" },
   ],
 };
 
@@ -60,7 +54,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       data-theme="light"
       suppressHydrationWarning
-      className={`${anybody.variable} ${newsreader.variable} ${plex.variable} ${jetbrains.variable}`}
+      className={`${newsreader.variable} ${plex.variable} ${jetbrains.variable}`}
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />

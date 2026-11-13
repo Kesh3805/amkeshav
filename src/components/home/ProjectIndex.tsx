@@ -2,52 +2,52 @@ import Link from "next/link";
 import type { WorkEntry } from "@/lib/content";
 import s from "./ProjectIndex.module.css";
 
-const kind = {
-  professional: "Production",
-  independent: "Independent",
-  "open-source": "Open source",
-  research: "Research",
-} as const;
+const groups = [
+  { kind: "professional", title: "Production", note: "At jpteam / C1X" },
+  { kind: "open-source", title: "Open source", note: "At Ostrium Labs" },
+  { kind: "research", title: "Research", note: "Registered experiments" },
+  { kind: "independent", title: "Independent", note: "On my own time" },
+] as const;
 
-/* Everything else, as a hover list: rows open taller and the name widens to make room for the summary. */
-export function ProjectIndex({
-  work,
-  label = "04 — More work",
-  heading = "Also built, maintained, or contributed to.",
-  aside,
-}: {
-  work: WorkEntry[];
-  label?: string;
-  heading?: string;
-  aside?: React.ReactNode;
-}) {
+/* The work index as a ruled register, grouped by the kind of work. Every summary is visible: nothing on hover. */
+export function ProjectIndex({ work }: { work: WorkEntry[] }) {
+  const sections = groups
+    .map((g) => ({ ...g, rows: work.filter((w) => w.kind === g.kind) }))
+    .filter((g) => g.rows.length > 0);
+  const number = new Map(sections.flatMap((g) => g.rows).map((w, i) => [w.slug, String(i + 1).padStart(2, "0")]));
   return (
-    <section className={s.section} aria-labelledby="index-title">
-      <div className={s.top}>
-        <span className="label">{label}</span>
-        <span className="label">{work.length} entries</span>
-      </div>
-      <h2 id="index-title" className={s.title}>
-        {heading}
-      </h2>
-      {aside && <p className={s.aside}>{aside}</p>}
-      <ol className={s.list}>
-        {work.map((w) => (
-          <li key={w.slug} className={s.row}>
-            <Link href={`/work/${w.slug}`} className={s.link}>
-              <span className={s.kind}>{kind[w.kind]}</span>
-              <span className={s.name}>{w.short}</span>
-              <span className={s.role}>{w.role.split(" — ")[0]}</span>
-              <span className={s.summary}>
-                <span>{w.summary}</span>
-              </span>
-              <span className={s.arrow} aria-hidden>
-                →
-              </span>
-            </Link>
-          </li>
-        ))}
-      </ol>
-    </section>
+    <div className={`wrap ${s.index}`}>
+      {sections.map(({ rows, ...g }) => {
+        return (
+          <section key={g.kind} className={s.group} aria-labelledby={`k-${g.kind}`}>
+            <header className="section-head">
+              <h2 id={`k-${g.kind}`} className="section-title">
+                {g.title}
+              </h2>
+              <p className="label">
+                {g.note} · {rows.length}
+              </p>
+            </header>
+            <ol className={s.list}>
+              {rows.map((w) => {
+                return (
+                  <li key={w.slug}>
+                    <Link href={`/work/${w.slug}/`} className={s.row}>
+                      <span className={`label ${s.num}`}>{number.get(w.slug)}</span>
+                      <span className={s.name}>{w.short}</span>
+                      <span className={s.summary}>{w.summary}</span>
+                      <span className={`label ${s.role}`}>{w.role.split(" — ")[0]}</span>
+                      <span className={s.arrow} aria-hidden>
+                        →
+                      </span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ol>
+          </section>
+        );
+      })}
+    </div>
   );
 }

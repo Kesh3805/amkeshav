@@ -1,134 +1,116 @@
 .header {
-  position: fixed;
-  inset: 0 0 auto 0;
+  position: sticky;
+  top: 0;
   z-index: 50;
+  background: color-mix(in srgb, var(--paper) 94%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--rule);
+}
+
+.inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 14px var(--gutter);
-  color: var(--ink);
-  background: var(--paper);
-  border-bottom: 1px solid var(--rule);
-  pointer-events: none;
-  transition: transform 0.5s var(--ease-out);
-}
-
-.header[data-hidden="true"] {
-  transform: translateY(-110%);
-}
-
-.header > * {
-  pointer-events: auto;
+  height: var(--header);
 }
 
 .mark {
-  display: inline-flex;
-  align-items: flex-end;
-  gap: 0.08em;
-  text-decoration: none;
-  font-family: var(--font-display);
-  font-weight: 900;
-  font-variation-settings: "wdth" 62;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  line-height: 0.8;
+  font-weight: 600;
+  font-size: 17px;
   letter-spacing: 0.01em;
-  transition: font-variation-settings 0.5s var(--ease-out);
-}
-.mark:hover {
-  font-variation-settings: "wdth" 130;
-}
-
-.markDot {
-  width: 0.22em;
-  height: 0.22em;
-  background: var(--signal);
+  text-decoration: none;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  gap: clamp(12px, 2.4vw, 32px);
+  gap: 28px;
 }
 
 .links {
   display: flex;
-  gap: clamp(12px, 2.4vw, 28px);
-  list-style: none;
+  gap: 28px;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .link {
   position: relative;
-  font-family: var(--font-mono);
-  font-size: var(--step--1);
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  font-size: 14px;
   text-decoration: none;
-  padding-block: 6px;
+  color: var(--ink-3);
+  transition: color 160ms ease;
 }
-.link::after {
+
+.link:hover,
+.link[aria-current="page"],
+.link[data-current] {
+  color: var(--ink);
+}
+
+/* Navigation state: a small accent mark under the current page, or the homepage section in view. */
+.link[aria-current="page"]::after,
+.link[data-current]::after {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 2px;
-  height: 1px;
-  background: currentColor;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.45s var(--ease-out);
-}
-.link:hover::after,
-.link[aria-current="page"]::after {
-  transform: scaleX(1);
-  transform-origin: left;
+  bottom: -6px;
+  height: 2px;
+  background: var(--signal);
 }
 
 .toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: none;
+  padding: 4px 0;
   border: 0;
-  color: inherit;
+  border-left: 1px solid var(--rule);
+  padding-left: 20px;
+  background: none;
+  color: var(--ink-3);
   cursor: pointer;
-  padding: 6px 0;
-  font-family: var(--font-mono);
-  font-size: var(--step--1);
+  font-family: var(--mono);
+  font-size: var(--t-mono);
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  transition: color 160ms ease;
 }
 
-.toggleTrack {
-  position: relative;
-  width: 26px;
-  height: 14px;
-  border: 1px solid currentColor;
-}
-.toggleKnob {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 8px;
-  height: 8px;
-  background: currentColor;
-  transition: transform 0.4s var(--ease-press);
-}
-.toggleTrack[data-theme="dark"] .toggleKnob {
-  transform: translateX(12px);
+.toggle:hover {
+  color: var(--ink);
 }
 
-@media (max-width: 640px) {
-  .toggleText {
-    display: none;
+@media (max-width: 720px) {
+  .mark {
+    font-size: 16px;
   }
+  .nav,
   .links {
-    gap: 12px;
+    gap: 14px;
   }
   .link {
-    font-size: 0.7rem;
+    font-size: 13px;
+  }
+  .toggle {
+    padding-left: 12px;
+  }
+}
+
+/* The narrowest phones: the mark, four sections and the theme still fit on one line. */
+@media (max-width: 360px) {
+  .mark {
+    font-size: 15px;
+  }
+  .nav,
+  .links {
+    gap: 9px;
+  }
+  .link {
+    font-size: 12px;
+  }
+  .toggle {
+    padding-left: 9px;
+    letter-spacing: 0.02em;
   }
 }

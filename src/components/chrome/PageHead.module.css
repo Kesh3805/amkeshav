@@ -1,64 +1,70 @@
 .head {
-  padding: clamp(80px, 12vh, 120px) var(--gutter) clamp(32px, 6vh, 64px);
+  padding-top: 72px;
+  padding-bottom: 56px;
 }
 
 .top {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  gap: 16px;
-  color: var(--ink-2);
-  border-top: 1px solid var(--rule);
-  padding-top: 10px;
+  gap: 8px 16px;
 }
 
 .title {
-  margin: clamp(28px, 6vh, 64px) 0 0;
-  display: flex;
-  align-items: flex-end;
-  gap: 0.05em;
-  font-family: var(--font-display);
-  font-weight: 900;
-  text-transform: uppercase;
-  font-size: min(15vw, 15rem, calc((100vw - 2 * var(--gutter)) / (var(--chars) * 0.7)));
-  line-height: 0.76;
-  font-variation-settings: "wdth" 96;
-  white-space: nowrap;
+  margin: 28px 0 0;
+  max-width: 20em;
+  font-size: var(--t-hero);
+  line-height: 1.08;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
 }
 
-.dot {
-  flex: none;
-  width: 0.2em;
-  height: 0.2em;
-  background: var(--signal);
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .title {
-    animation: unfold 1.1s var(--ease-press) both;
-  }
-}
-
-@keyframes unfold {
-  from {
-    font-variation-settings: "wdth" 50;
-  }
-}
-
+/* The intro on the grid: the lead across seven columns, any note beside it in the last four. */
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
-  gap: 24px 48px;
-  margin-top: clamp(28px, 6vh, 56px);
-  font-size: var(--step-1);
-  line-height: 1.3;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: var(--gap);
+  row-gap: 20px;
+  align-items: start;
+  margin-top: 32px;
 }
 
-.intro p {
+.intro > * {
+  grid-column: 1 / span 7;
   margin: 0;
+  font-size: 19px;
+  line-height: 1.5;
 }
 
-@media (max-width: 760px) {
-  .intro {
-    grid-template-columns: 1fr;
+.intro > * + * {
+  grid-column: 9 / span 4;
+  grid-row: 1;
+  font-size: var(--t-small);
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+
+@media (max-width: 1100px) {
+  .intro > *,
+  .intro > * + * {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+  .intro > * + * {
+    max-width: 40rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .head {
+    padding-top: 48px;
+    padding-bottom: 40px;
+  }
+  .title {
+    margin-top: 20px;
+  }
+  .intro > :first-child {
+    font-size: 17px;
   }
 }

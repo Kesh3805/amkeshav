@@ -1,50 +1,91 @@
 @import "tailwindcss";
 
 /*
-  Two materials: paper and ink. One signal colour — the full stop.
-  Width is the motion material: things open like slits and shutters, never fade in from nowhere.
+  The engineering folio (docs/homepage/BRIEF.md), site-wide: technical paper, one ink, one signal colour used
+  only as a technical signal. IBM Plex Sans is the voice, JetBrains Mono the annotation. A 12/8/4-column grid
+  with 48/32/20 px margins and a 1,344 px measure. The projects' drawings carry the character.
 */
 
 :root {
-  --paper: #ecebe4;
-  --paper-2: #e2e0d7;
-  --ink: #121211;
-  --ink-2: #4b4a45;
-  --ink-3: #67655e;
-  --rule: color-mix(in oklab, var(--ink) 16%, transparent);
-  --signal: #2a2dff;
+  --paper: #f3f3ee;
+  --paper-2: #e9e9e2;
+  --ink: #191d1b;
+  --ink-2: #555a55;
+  --ink-3: #676c66; /* the brief's #70756F is 4.3:1 on the paper; WCAG AA needs 4.5 */
+  --rule: #d5d7d0;
+  --signal: #315d8a;
   --signal-ink: #ffffff;
-  --plate: #121211;
-  --plate-ink: #ecebe4;
-  --plate-dim: #92908a;
+  /* Drawings sit on the paper itself, in the ink. */
+  --plate: var(--paper);
+  --plate-ink: var(--ink);
+  --plate-dim: var(--ink-3);
 
-  --gutter: clamp(16px, 3.6vw, 56px);
-  --measure: 38rem;
-  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
-  --ease-press: cubic-bezier(0.7, 0, 0.2, 1);
+  --sans: var(--font-plex), "IBM Plex Sans", system-ui, sans-serif;
+  --mono: var(--font-jetbrains), ui-monospace, monospace;
 
-  --step--2: clamp(0.68rem, 0.66rem + 0.1vw, 0.74rem);
-  --step--1: clamp(0.78rem, 0.75rem + 0.15vw, 0.86rem);
-  --step-0: clamp(1.06rem, 1rem + 0.3vw, 1.24rem);
-  --step-1: clamp(1.3rem, 1.15rem + 0.7vw, 1.75rem);
-  --step-2: clamp(1.7rem, 1.35rem + 1.6vw, 2.8rem);
-  --step-3: clamp(2.4rem, 1.6rem + 3.6vw, 5.4rem);
-  --step-4: clamp(3.2rem, 1.6rem + 7.5vw, 10rem);
+  --max: 1344px;
+  --margin: 48px;
+  --gap: 20px;
+  --gutter: var(--margin);
+  --measure: 40rem;
+  --header: 72px;
+  --ease-out: cubic-bezier(0.2, 0.6, 0.2, 1);
+  --ease-press: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* The brief's type scale (desktop / phone). */
+  --t-hero: 64px;
+  --t-section: 36px;
+  --t-title: 27px;
+  --t-body: 16px;
+  --t-small: 14px;
+  --t-mono: 11px;
+
+  /* Older step names, kept for components that size by them. */
+  --step--2: var(--t-mono);
+  --step--1: 13px;
+  --step-0: var(--t-body);
+  --step-1: 19px;
+  --step-2: var(--t-title);
+  --step-3: var(--t-section);
+  --step-4: var(--t-hero);
 
   color-scheme: light;
 }
 
 :root[data-theme="dark"] {
-  --paper: #0e0e0d;
-  --paper-2: #181816;
-  --ink: #ecebe4;
-  --ink-2: #b2b0a7;
-  --ink-3: #8c8a82;
-  --signal: #5c5fff;
-  --plate: #1a1a18;
-  --plate-ink: #ecebe4;
-  --plate-dim: #99978f;
+  --paper: #141614;
+  --paper-2: #1e211e;
+  --ink: #e4e5df;
+  --ink-2: #b6bab3;
+  --ink-3: #9da19a;
+  --rule: #323632;
+  --signal: #8fb3da;
+  --signal-ink: #141614;
   color-scheme: dark;
+}
+
+@media (max-width: 1100px) {
+  :root {
+    --margin: 32px;
+    --gap: 16px;
+    --t-hero: 52px;
+  }
+}
+
+@media (max-width: 720px) {
+  :root {
+    --margin: 20px;
+    --gap: 12px;
+    --header: 60px;
+    --t-hero: 40px;
+    --t-section: 29px;
+    --t-title: 23px;
+    --t-body: 15px;
+    --t-small: 13px;
+    --t-mono: 10px;
+    --step--1: 12px;
+    --step-1: 17px;
+  }
 }
 
 @theme inline {
@@ -55,9 +96,8 @@
   --color-ink-3: var(--ink-3);
   --color-signal: var(--signal);
   --color-rule: var(--rule);
-  --font-display: var(--font-anybody), "Arial Narrow", sans-serif;
-  --font-serif: var(--font-newsreader), Georgia, serif;
-  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+  --font-sans: var(--sans);
+  --font-mono: var(--mono);
 }
 
 *,
@@ -71,16 +111,16 @@ html {
   color: var(--ink);
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  scroll-padding-top: calc(var(--header) + 16px);
 }
 
 body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: var(--font-serif);
-  font-size: var(--step-0);
-  line-height: 1.55;
-  font-optical-sizing: auto;
+  font-family: var(--sans);
+  font-size: var(--t-body);
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   overflow-x: clip;
 }
@@ -100,54 +140,70 @@ a {
   border-radius: 1px;
 }
 
-.display {
-  font-family: var(--font-display);
-  font-weight: 800;
-  font-variation-settings: "wdth" 100;
-  line-height: 0.82;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-}
-
 code,
 kbd,
 pre {
-  font-family: var(--font-mono);
+  font-family: var(--mono);
   font-variant-ligatures: none;
 }
 
-.mono {
-  font-family: var(--font-mono);
-  font-size: var(--step--1);
-  letter-spacing: 0.01em;
-  line-height: 1.45;
-}
-
-.label {
-  font-family: var(--font-mono);
-  font-size: var(--step--2);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  line-height: 1.3;
-}
+/* ---------------------------------------------------------------- shared folio pieces */
 
 .wrap {
-  padding-inline: var(--gutter);
+  width: 100%;
+  max-width: calc(var(--max) + 2 * var(--margin));
+  margin-inline: auto;
+  padding-inline: var(--margin);
 }
 
+/* Mono annotation: numbers, categories, dates. */
+.label {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: var(--t-mono);
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+}
+
+.mono {
+  font-family: var(--mono);
+  font-size: var(--step--1);
+  line-height: 1.5;
+}
+
+/* A quiet link: a hairline that takes the accent on hover. */
 .link {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.18em;
-  text-decoration-color: color-mix(in oklab, currentColor 40%, transparent);
-  transition: text-decoration-color 0.2s;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  transition:
+    border-color 160ms ease,
+    color 160ms ease;
 }
 .link:hover {
-  text-decoration-color: var(--signal);
+  color: var(--signal);
+  border-bottom-color: var(--signal);
 }
 
-.dot {
-  color: var(--signal);
+/* A section heading with its annotation, over a full ink rule. */
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 16px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid var(--ink);
+}
+
+.section-title {
+  margin: 0;
+  font-size: var(--t-section);
+  line-height: 1.15;
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 .sr-only {
@@ -168,11 +224,17 @@ pre {
   background: var(--ink);
   color: var(--paper);
   padding: 10px 14px;
-  font-family: var(--font-mono);
+  font-family: var(--mono);
   font-size: var(--step--1);
 }
 .skip:focus {
   transform: none;
+}
+
+@media (max-width: 720px) {
+  .section-head {
+    margin-bottom: 28px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

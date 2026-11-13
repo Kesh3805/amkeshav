@@ -3,7 +3,6 @@ import { plates } from "@/components/plates/Plates";
 import { Nomogram } from "@/components/unwritten/folio/NomogramChart";
 import { histogram } from "@/components/unwritten/folio/nomogram";
 import { getExp009Nomogram, getPrograms, getWork, getWorkBySlug, getWriting, type WorkEntry } from "@/lib/content";
-import { nav, site } from "@/lib/site";
 import { HomeMotion } from "./HomeMotion";
 import s from "./Home.module.css";
 
@@ -31,26 +30,7 @@ export function Home() {
 
   return (
     <div className={s.home}>
-      <header className={s.header}>
-        <div className={s.headerInner}>
-          <Link href="/" className={s.mark}>
-            Keshav
-          </Link>
-          <nav aria-label="Primary">
-            <ul className={s.nav}>
-              {nav.map((n) => (
-                <li key={n.href}>
-                  <Link href={`${n.href}/`} data-nav={n.href.slice(1)}>
-                    {n.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </div>
-      </header>
-
-      <section className={`${s.wrap} ${s.hero}`} aria-labelledby="statement">
+      <section className={`wrap ${s.hero}`} aria-labelledby="statement">
         <h1 id="statement" className={s.statement}>
           <span className={s.right}>I build backends</span> <span className={s.right}>that have to be right,</span>{" "}
           <span className={s.wrong}>and run experiments</span> <span className={s.wrong}>that are allowed to be wrong.</span>
@@ -83,7 +63,7 @@ export function Home() {
         </nav>
       </section>
 
-      <section id="work" className={`${s.wrap} ${s.section}`} aria-labelledby="work-title" data-reveal>
+      <section id="work" className={`wrap ${s.section}`} aria-labelledby="work-title" data-reveal>
         <header className={s.sectionHead}>
           <h2 id="work-title" className={s.sectionTitle}>
             Selected work
@@ -121,7 +101,7 @@ export function Home() {
         </p>
       </section>
 
-      <section id="research" className={`${s.wrap} ${s.section}`} aria-labelledby="research-title" data-reveal>
+      <section id="research" className={`wrap ${s.section}`} aria-labelledby="research-title" data-reveal>
         <header className={s.sectionHead}>
           <h2 id="research-title" className={s.sectionTitle}>
             Research
@@ -197,7 +177,7 @@ export function Home() {
         </div>
       </section>
 
-      <section id="writing" className={`${s.wrap} ${s.section}`} aria-labelledby="writing-title" data-reveal>
+      <section id="writing" className={`wrap ${s.section}`} aria-labelledby="writing-title" data-reveal>
         <header className={s.sectionHead}>
           <h2 id="writing-title" className={s.sectionTitle}>
             Writing
@@ -221,22 +201,6 @@ export function Home() {
           ))}
         </ol>
       </section>
-
-      <footer className={`${s.wrap} ${s.footer}`}>
-        <p className={s.footName}>Keshav</p>
-        <ul className={s.contact}>
-          <li>
-            <a href={`mailto:${site.email}`}>{site.email}</a>
-          </li>
-          <li>
-            <a href={site.github}>GitHub ↗</a>
-          </li>
-          <li>
-            <a href={site.linkedin}>LinkedIn ↗</a>
-          </li>
-        </ul>
-        <p className={s.colophon}>Set in IBM Plex Sans and JetBrains Mono. No cookies, no analytics.</p>
-      </footer>
 
       <HomeMotion />
     </div>

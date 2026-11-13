@@ -35,7 +35,7 @@ export default function AboutPage() {
         </p>
       </PageHead>
 
-      <div className={s.grid}>
+      <div className={`wrap ${s.grid}`}>
         <section className={s.block} aria-labelledby="a-build">
           <h2 id="a-build" className={s.h}>
             What I build
@@ -108,9 +108,7 @@ export default function AboutPage() {
               <strong>Temporal Compute</strong> — Generation II is registered and waiting on its execution freeze.
             </li>
           </ul>
-          <p className="label" style={{ color: "var(--ink-3)" }}>
-            As of 28 October 2026
-          </p>
+          <p className="label">As of 28 October 2026</p>
         </section>
 
         <section className={s.block} aria-labelledby="a-time">
@@ -152,7 +150,7 @@ export default function AboutPage() {
             Contact
           </h2>
           <p className={s.contact}>
-            <a href={`mailto:${site.email}`} className={s.mail}>
+            <a href={`mailto:${site.email}`} className={`link ${s.mail}`}>
               {site.email}
             </a>
           </p>
