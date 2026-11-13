@@ -1,4 +1,4 @@
-name: Preview
+name: Deploy
 
 on:
   push:
@@ -30,11 +30,9 @@ jobs:
       - run: pnpm typecheck
       - run: pnpm lint
       - run: pnpm test
+      # Served from the custom domain amkeshav.me at its root (Pages settings), so no base path; absolute
+      # URLs fall back to site.url.
       - run: pnpm build
-        env:
-          BASE_PATH: /${{ github.event.repository.name }}
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
-          SITE_ORIGIN: https://${{ github.repository_owner }}.github.io
       - run: touch out/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
